@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia mucinosa**, per
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la fluocinonida es un corticosteroide tópico de alta potencia que actúa sobre el receptor de glucocorticoides (NR3C1) y ejerce efectos antiinflamatorios e inmunosupresores. Su eficacia en dermatosis inflamatorias está establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fluocinonide (traducción no oficial): «Los corticosteroides desempeñan un papel en la señalización celular, la función inmunitaria, la inflamación y la regulación de proteínas; sin embargo, se desconoce el mecanismo de acción preciso de Fluocinonide Cream USP, 0.1% en las dermatosis que responden a los corticosteroides.» Texto original en inglés: "Corticosteroids play a role in cellular signaling, immune function, inflammation, and protein regulation; however, the precise mechanism of action of Fluocinonide Cream USP, 0.1% in corticosteroid responsive dermatoses is unknown." ([DailyMed: Fluocinol Pak (fluocinonide) prescribing information, PureTek Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9c88a41-3ff8-78f7-e053-2995a90adb8f), versión del 2023-01-11; consultado el 2026-11-19). Según la información conocida, la fluocinonida es un corticosteroide tópico de alta potencia que actúa sobre el receptor de glucocorticoides (NR3C1) y ejerce efectos antiinflamatorios e inmunosupresores. Su eficacia en dermatosis inflamatorias está establecida.
 
 La alopecia mucinosa (mucinosis folicular) es un trastorno inflamatorio del folículo piloso. Por ello, existe un vínculo mecanístico plausible: reducir la inflamación folicular local mediante un corticosteroide tópico. Aun así, este vínculo se basa solo en la predicción de TxGNN y en un razonamiento general; no hay estudios que lo hayan comprobado con fluocinonida.
 
@@ -109,6 +109,19 @@ La predicción para alopecia mucinosa tiene un puntaje alto (0,9961), pero no cu
 - Revisión de la literatura sobre corticosteroides tópicos en mucinosis folicular (series de casos, informes publicados).
 - Evaluar la compatibilidad de la vía de administración (crema tópica) con la localización de las lesiones, por ejemplo, el cuero cabelludo.
 - Si se desea priorizar otra indicación, la alopecia areata (nivel L4, evidencia solo indirecta) podría ser una pregunta de investigación más fundamentada.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Fluocinol Pak (fluocinonide) prescribing information, PureTek Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9c88a41-3ff8-78f7-e053-2995a90adb8f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

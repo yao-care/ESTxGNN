@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **rinosinusitis crónica**
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de este fármaco en los datos compilados. Según la información conocida, la oxitetraciclina es una tetraciclina de amplio espectro. Su eficacia en infecciones bacterianas del aparato respiratorio, urinario y ocular figura entre sus indicaciones originales. Mecanísticamente podría ser aplicable a la rinosinusitis crónica.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Oxytetracycline es (traducción no oficial): «Inhibidor del ribosoma 70S bacteriano» Texto original en inglés: "Bacterial 70S ribosome inhibitor" ([ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la oxitetraciclina es una tetraciclina de amplio espectro. Su eficacia en infecciones bacterianas del aparato respiratorio, urinario y ocular figura entre sus indicaciones originales. Mecanísticamente podría ser aplicable a la rinosinusitis crónica.
 
 La relación entre ambas indicaciones es plausible, aunque débil. Varias indicaciones originales son infecciones de vías respiratorias (bronquitis, faringitis, neumonía), y la rinosinusitis crónica puede tener un componente bacteriano e inflamatorio. Además, las tetraciclinas tienen propiedades antiinflamatorias y de inhibición de metaloproteinasas (MMP) que podrían ser relevantes en la inflamación sinusal.
 
@@ -107,6 +107,19 @@ La predicción para rinosinusitis crónica se basa solo en el modelo (nivel L5),
 - Una revisión de la literatura sobre tetraciclinas (doxiciclina, por ejemplo) en rinosinusitis crónica, para valorar el efecto de clase.
 - Definir una vía y formulación viable (nasal, irrigación u oral) y su perfil de seguridad.
 - Valorar la otitis externa como candidata más cercana a la evidencia disponible, por su uso tópico ya establecido.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

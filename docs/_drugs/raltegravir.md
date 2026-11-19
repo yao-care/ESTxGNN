@@ -56,7 +56,7 @@ pero no hay **ensayos clínicos** registrados y solo se dispone de **15 publicac
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, raltegravir pertenece a la clase de los inhibidores de la transferencia de cadena de la integrasa (INSTI), y su eficacia en la infección por VIH está comprobada.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Raltegravir (traducción no oficial): «El raltegravir es un fármaco antiviral contra el VIH-1. […] El raltegravir inhibe la actividad catalítica de la integrasa del VIH-1, una enzima codificada por el VIH-1 que es necesaria para la replicación viral. La inhibición de la integrasa impide la inserción covalente, o integración, del ADN lineal no integrado del VIH-1 en el genoma de la célula huésped, lo que impide la formación del provirus del VIH-1.» Texto original en inglés: "Raltegravir is an HIV-1 antiviral drug. […] Raltegravir inhibits the catalytic activity of HIV-1 integrase, an HIV-1 encoded enzyme that is required for viral replication. Inhibition of integrase prevents the covalent insertion, or integration, of unintegrated linear HIV-1 DNA into the host cell genome preventing the formation of the HIV-1 provirus." ([DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2), versión del 2026-09-16; consultado el 2026-11-19). Según la información conocida, raltegravir pertenece a la clase de los inhibidores de la transferencia de cadena de la integrasa (INSTI), y su eficacia en la infección por VIH está comprobada.
 
 El SIV es un pariente lentiviral muy cercano del VIH-1 y codifica una integrasa con un núcleo catalítico conservado. Por ello, es mecanísticamente esperable que raltegravir actúe también frente al SIV. Esto es coherente con la indicación aprobada para el VIH/SIDA y no representa un mecanismo terapéutico nuevo.
 
@@ -114,6 +114,19 @@ La predicción es mecanísticamente plausible, pero la evidencia es exclusivamen
 - Datos detallados del mecanismo de acción (MOA).
 - Obtener y revisar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas).
 - Un fundamento molecular definido antes de considerar cualquier otra indicación predicha.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

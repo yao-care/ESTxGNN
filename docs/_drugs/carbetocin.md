@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información farmacológica compilada, carbetocina es un agonista del receptor de oxitocina (OXTR), y su uso clínico conocido es la prevención de la hemorragia posparto por atonía uterina. Además, se está desarrollando una formulación intranasal para reducir el hambre extrema (hiperfagia) en el síndrome de Prader-Willi.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Carbetocin es (traducción no oficial): «Agonista del receptor de oxitocina» Texto original en inglés: "Oxytocin receptor agonist" ([ChEMBL CHEMBL3301668 (carbetocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301668), CC BY-SA 3.0; consultado el 2026-11-19). Según la información farmacológica compilada, carbetocina es un agonista del receptor de oxitocina (OXTR), y su uso clínico conocido es la prevención de la hemorragia posparto por atonía uterina. Además, se está desarrollando una formulación intranasal para reducir el hambre extrema (hiperfagia) en el síndrome de Prader-Willi.
 
 El síndrome similar a la isotretinoína es un trastorno congénito raro de malformaciones. El modelo probablemente lo vincula con carbetocina por rasgos compartidos con otros síndromes del desarrollo o genéticos. Sin embargo, los datos compilados no respaldan ninguna vía biológica que conecte el agonismo del receptor de oxitocina con esta enfermedad, por lo que el vínculo no está verificado.
 
@@ -95,6 +95,19 @@ La predicción se apoya solo en el modelo TxGNN (nivel de evidencia L5), sin ens
 - Revisión sistemática de la literatura preclínica y clínica sobre esta enfermedad
 - Obtención y análisis del prospecto (advertencias y contraindicaciones) para el cribado de seguridad
 - Evaluación de la compatibilidad de la vía de administración (inyectable) con la indicación propuesta
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL3301668 (carbetocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301668) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -54,7 +54,7 @@ Paclitaxel es un citotóxico antimicrotúbulos, originalmente utilizado para el 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, paclitaxel pertenece a la clase de los taxanos: estabiliza los microtúbulos, impide el desensamblaje del huso mitótico y provoca detención del ciclo celular en G2/M y apoptosis en células que se dividen rápidamente.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Paclitaxel (traducción no oficial): «Las partículas de paclitaxel unido a proteínas para suspensión inyectable (unido a albúmina) son un inhibidor de los microtúbulos que promueve el ensamblaje de los microtúbulos a partir de dímeros de tubulina y estabiliza los microtúbulos al impedir su despolimerización. Esta estabilidad produce la inhibición de la reorganización dinámica normal de la red de microtúbulos, que es esencial para las funciones celulares vitales de la interfase y de la mitosis.» Texto original en inglés: "Paclitaxel protein-bound particles for injectable suspension (albumin-bound) is a microtubule inhibitor that promotes the assembly of microtubules from tubulin dimers and stabilizes microtubules by preventing depolymerization. This stability results in the inhibition of the normal dynamic reorganization of the microtubule network that is essential for vital interphase and mitotic cellular functions." ([DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c), versión del 2025-09-17; consultado el 2026-11-19). Según la información conocida, paclitaxel pertenece a la clase de los taxanos: estabiliza los microtúbulos, impide el desensamblaje del huso mitótico y provoca detención del ciclo celular en G2/M y apoptosis en células que se dividen rápidamente.
 
 El cáncer de ovario y el cáncer de mama son ambos tumores ginecológicos/mamarios de rápida proliferación, sensibles a quimioterapia citotóxica. Como el mecanismo antimitótico no depende de receptores hormonales, es mecanísticamente aplicable a la mama. De hecho, la literatura señala que los taxanos son componentes basados en evidencia del tratamiento del cáncer avanzado de mama, pulmón y ovario, y que paclitaxel fue extendido a cáncer de mama metastásico y adyuvante.
 
@@ -144,6 +144,19 @@ Paclitaxel tiene un mecanismo antimitótico plausible y un uso establecido en c�
 - Confirmar el texto de indicaciones aprobadas de las autorizaciones españolas, para verificar si mama ya figura en la ficha técnica.
 - Priorizar evidencia de fase 3 específica de paclitaxel en cada subtipo de mama.
 - Plan de monitoreo de seguridad (mielosupresión, neuropatía, hipersensibilidad, interacciones con inhibidores o inductores del CYP).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

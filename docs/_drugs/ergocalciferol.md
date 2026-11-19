@@ -54,7 +54,7 @@ Ergocalciferol es la vitamina D2, un análogo de la vitamina D que se comerciali
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de este fármaco en los datos compilados para este informe. De forma general, la vitamina D2 se utiliza como suplemento de vitamina D y participa en el metabolismo del calcio y del fósforo.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ergocalciferol (traducción no oficial): «La síntesis in vivo de los principales metabolitos biológicamente activos de la vitamina D se produce en dos pasos. La primera hidroxilación del ergocalciferol tiene lugar en el hígado (a 25-hidroxivitamina D) y la segunda en los riñones (a 1, 25-dihidroxivitamina D).» Texto original en inglés: "The in vivo synthesis of the major biologically active metabolites of vitamin D occurs in two steps. The first hydroxylation of ergocalciferol takes place in the liver (to 25-hydroxyvitamin D) and the second in the kidneys (to 1, 25-dihydroxyvitamin D)." ([DailyMed: Vitamin D (ergocalciferol) prescribing information, Preferred Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba2076ef-1650-45e1-b092-a4c449dd6210), versión del 2026-11-02; consultado el 2026-11-19). De forma general, la vitamina D2 se utiliza como suplemento de vitamina D y participa en el metabolismo del calcio y del fósforo.
 
 No se identificó un vínculo mecanístico entre ergocalciferol y esta enfermedad. La displasia acromesomélica es una displasia esquelética genética muy rara, y no es previsible que la suplementación con vitamina D2 corrija el defecto genético de fondo.
 
@@ -98,6 +98,18 @@ La predicción se apoya solo en el puntaje del modelo, sin ensayos clínicos ni 
 - Una hipótesis biológica que conecte la vitamina D2 con la fisiopatología de esta displasia
 - Estudios preclínicos o series de casos que apoyen la dirección propuesta
 - Revisión de las advertencias y contraindicaciones del prospecto de los productos autorizados
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Vitamin D (ergocalciferol) prescribing information, Preferred Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba2076ef-1650-45e1-b092-a4c449dd6210) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

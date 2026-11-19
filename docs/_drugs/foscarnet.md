@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de hematuri
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según el conocimiento farmacológico general, foscarnet es un análogo del pirofosfato que inhibe la ADN polimerasa viral y la transcriptasa inversa.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Foscarnet (traducción no oficial): «El foscarnet ejerce su actividad antiviral mediante una inhibición selectiva en el sitio de unión del pirofosfato de las ADN polimerasas específicas del virus, a concentraciones que no afectan a las ADN polimerasas celulares. El foscarnet no requiere activación (fosforilación) por la timidina cinasa ni por otras cinasas.» Texto original en inglés: "Foscarnet exerts its antiviral activity by a selective inhibition at the pyrophosphate binding site on virus-specific DNA polymerases at concentrations that do not affect cellular DNA polymerases. Foscarnet does not require activation (phosphorylation) by thymidine kinase or other kinases." ([DailyMed: Foscavir (foscarnet sodium) prescribing information, Clinigen Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=90e3da4e-3b1f-428b-99ca-e4bed1c80028), versión del 2025-12-11; consultado el 2026-11-19). Según el conocimiento farmacológico general, foscarnet es un análogo del pirofosfato que inhibe la ADN polimerasa viral y la transcriptasa inversa.
 
 La enfermedad predicha es un trastorno genético raro (vasculopatía relacionada con COL4A1) sin etiología viral. El análisis realizado concluye que **no existe un vínculo mecanístico que respalde la predicción**. El puntaje alto de TxGNN (modelo de aprendizaje profundo) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como fenotipos retinianos compartidos, y no evidencia biológica ni una justificación farmacológica.
 
@@ -97,6 +97,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos ni liter
 - Completar los datos del mecanismo de acción desde DrugBank
 - Justificación biológica independiente que vincule foscarnet con la patología de COL4A1 antes de considerar cualquier estudio
 - Si se retomara el caso, evaluar la nefrotoxicidad y las alteraciones electrolíticas, que son riesgos relevantes para esta población
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Foscavir (foscarnet sodium) prescribing information, Clinigen Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=90e3da4e-3b1f-428b-99ca-e4bed1c80028) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

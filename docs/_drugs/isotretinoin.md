@@ -60,7 +60,7 @@ La única base es el puntaje del modelo.
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. La isotretinoína es un retinoide cuya farmacología conocida (supresión de las glándulas sebáceas, efectos sobre la diferenciación y proliferación celular) no guarda relación con el control de la presión arterial.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Isotretinoin (traducción no oficial): «Se desconoce el mecanismo de acción exacto de Zenatane en el tratamiento del acné nodular grave y resistente en pacientes no embarazadas de 12 años de edad o más con múltiples nódulos inflamatorios de un diámetro de 5 mm o más que no responden al tratamiento convencional, incluidos los antibióticos sistémicos. La isotretinoína, un retinoide, inhibe la función de las glándulas sebáceas y la queratinización.» Texto original en inglés: "The exact mechanism of action of Zenatane in the treatment of severe recalcitrant nodular acne in nonpregnant patients 12 years of age and older with multiple inflammatory nodules with a diameter of 5 mm or greater who are unresponsive to conventional therapy, including systemic antibiotics is unknown. Isotretinoin, a retinoid, inhibits sebaceous gland function and keratinization." ([DailyMed: Zenatane (isotretinoin) prescribing information, Dr. Reddy's Laboratories Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27b3cf26-f22e-5b70-1c24-009933b7c6ee), versión del 2026-09-20; consultado el 2026-11-19). La isotretinoína es un retinoide cuya farmacología conocida (supresión de las glándulas sebáceas, efectos sobre la diferenciación y proliferación celular) no guarda relación con el control de la presión arterial.
 
 Las indicaciones originales de hipertensión que figuran en los datos son incoherentes con el uso clínico conocido de la isotretinoína y podrían ser un artefacto del modelo TxGNN (aprendizaje profundo). Por ello, la relación entre la indicación original y la nueva indicación no puede considerarse mecanísticamente sólida.
 
@@ -123,11 +123,12 @@ La única base es un puntaje alto del modelo (0,9901), sin ensayos clínicos ni 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas son monofármaco, en cápsula blanda)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zenatane (isotretinoin) prescribing information, Dr. Reddy's Laboratories Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27b3cf26-f22e-5b70-1c24-009933b7c6ee) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Alectinib es un inhibidor de tirosina quinasa que bloquea ALK y, según los datos compilados para este informe, también RET. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada, por lo que este análisis se apoya únicamente en la información general de la clase.
+Alectinib es un inhibidor de tirosina quinasa que bloquea ALK y, según los datos compilados para este informe, también RET. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Alectinib (traducción no oficial): «El alectinib es un inhibidor de la tirosina cinasa dirigido contra ALK y RET. En estudios no clínicos, el alectinib inhibió la fosforilación de ALK y la activación mediada por ALK de las proteínas de señalización posteriores STAT3 y AKT, y disminuyó la viabilidad de las células tumorales en múltiples líneas celulares portadoras de fusiones, amplificaciones o mutaciones activadoras de ALK.» Texto original en inglés: "Alectinib is a tyrosine kinase inhibitor that targets ALK and RET. In nonclinical studies, alectinib inhibited ALK phosphorylation and ALK-mediated activation of the downstream signaling proteins STAT3 and AKT, and decreased tumor cell viability in multiple cell lines harboring ALK fusions, amplifications, or activating mutations." ([DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb), versión del 2026-08-21; consultado el 2026-11-19).
 
 Los datos compilados para este informe no establecen un vínculo plausible entre la inhibición de ALK/RET y la fibromatosis gingival. El puntaje elevado refleja una predicción computacional sin respaldo clínico ni bibliográfico, y no debe interpretarse como evidencia de eficacia.
 
@@ -105,6 +105,19 @@ No existen ensayos clínicos ni literatura que estudien la fibromatosis gingival
 - Estudios preclínicos que respalden la eficacia
 - Datos del mecanismo de acción y de las advertencias y contraindicaciones del prospecto de la AEMPS
 - Evaluación de seguridad para la población afectada, dada la lista de interacciones identificadas
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

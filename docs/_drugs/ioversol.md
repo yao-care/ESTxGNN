@@ -56,7 +56,7 @@ La predicción debe considerarse puramente computacional.
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, ioversol es un medio de contraste yodado no iónico de uso diagnóstico por imagen, sin actividad farmacológica antiinflamatoria o condroprotectora conocida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ioversol (traducción no oficial): «La inyección intravascular de ioversol opacifica los vasos situados en el trayecto del flujo del medio de contraste, lo que permite la visualización radiográfica de las estructuras internas hasta que se produce una hemodilución significativa. El ioversol puede visualizarse en el parénquima renal entre 30 y 60 segundos después de una inyección intravenosa rápida.» Texto original en inglés: "Intravascular injection of ioversol opacifies those vessels in the path of the flow of the contrast medium, permitting radiographic visualization of the internal structures until significant hemodilution occurs. Ioversol may be visualized in the renal parenchyma within 30 to 60 seconds following rapid intravenous injection." ([DailyMed: Optiray 320 (ioversol) prescribing information, Liebel-Flarsheim Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6cb6ca5f-b249-49b0-a9eb-8aa583da7c74), versión del 2025-12-29; consultado el 2026-11-19). Según la información conocida, ioversol es un medio de contraste yodado no iónico de uso diagnóstico por imagen, sin actividad farmacológica antiinflamatoria o condroprotectora conocida.
 
 La única publicación vinculada (LipioJoint-1, PMID 38102013) estudia la embolización de arterias geniculares con una emulsión de aceite etiodizado (Lipiodol), no con ioversol. Cualquier conexión es indirecta, como mucho a través del papel de los contrastes yodados en procedimientos de imagen o embolización.
 
@@ -100,6 +100,19 @@ La predicción se apoya solo en el puntaje del modelo (nivel L5): no hay ensayos
 - Datos del mecanismo de acción desde DrugBank
 - Estudios preclínicos o clínicos que evalúen directamente ioversol en osteoartritis
 - Confirmar que la señal del modelo no sea un artefacto del modelo TxGNN (aprendizaje profundo)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Optiray 320 (ioversol) prescribing information, Liebel-Flarsheim Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6cb6ca5f-b249-49b0-a9eb-8aa583da7c74) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

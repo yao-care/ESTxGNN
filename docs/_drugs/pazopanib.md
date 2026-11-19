@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **6 e
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base consultada. Según la información conocida, pazopanib es un inhibidor de tirosina quinasas que bloquea VEGFR, PDGFR y c-Kit, con actividad antiangiogénica y antitumoral. Su eficacia ya está demostrada en carcinoma de células renales avanzado y en sarcoma de tejidos blandos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pazopanib (traducción no oficial): «El pazopanib es un inhibidor multitirosina cinasa del receptor del factor de crecimiento endotelial vascular (VEGFR)-1, VEGFR-2, VEGFR-3, el receptor del factor de crecimiento derivado de plaquetas (PDGFR)-α y -β, el receptor del factor de crecimiento de fibroblastos (FGFR)-1 y -3, el receptor de citocinas (Kit), la cinasa de células T inducible por el receptor de interleucina-2 (Itk), la proteína tirosina cinasa específica de linfocitos (Lck) y la tirosina cinasa del receptor glucoproteico transmembrana (c-Fms). In vitro, el pazopanib inhibió la autofosforilación inducida por ligando de los receptores VEGFR-2, Kit y PDGFR-β.» Texto original en inglés: "Pazopanib is a multi-tyrosine kinase inhibitor of vascular endothelial growth factor receptor (VEGFR)-1, VEGFR-2, VEGFR-3, platelet-derived growth factor receptor (PDGFR)-α and -β, fibroblast growth factor receptor (FGFR)-1 and -3, cytokine receptor (Kit), interleukin-2 receptor-inducible T-cell kinase (Itk), lymphocyte-specific protein tyrosine kinase (Lck), and transmembrane glycoprotein receptor tyrosine kinase (c-Fms). In vitro, pazopanib inhibited ligand-induced autophosphorylation of VEGFR-2, Kit, and PDGFR-β receptors." ([DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7), versión del 2025-12-16; consultado el 2026-11-19). Según la información conocida, pazopanib es un inhibidor de tirosina quinasas que bloquea VEGFR, PDGFR y c-Kit, con actividad antiangiogénica y antitumoral. Su eficacia ya está demostrada en carcinoma de células renales avanzado y en sarcoma de tejidos blandos.
 
 El liposarcoma es un sarcoma de tejidos blandos de origen adipocítico. Pazopanib ya cuenta con indicación en sarcoma de tejidos blandos, pero el liposarcoma quedó excluido del ensayo pivotal PALETTE, por lo que la evidencia específica de este subtipo procede de estudios de fase 2. Mecanísticamente, la inhibición de la señalización angiogénica y de crecimiento (VEGFR/PDGFR) es aplicable a este tipo de tumor. Un modelo preclínico de liposarcoma pleomórfico con amplificación de PDGFRA mostró regresión con pazopanib (PMID 30060824).
 
@@ -151,6 +151,19 @@ Hay varios ensayos de fase 2 completados con pazopanib directamente en liposarco
 - **Con evidencia L2:** fibroblástica neoplasia (solitary fibrous tumor, desmoide; fase 2 NCT02066285) y dermatofibrosarcoma protuberans (fase 2 publicada, PMID 32956651; NCT01059656 terminado antes de tiempo con 23 pacientes).
 - **Con evidencia L3:** carcinoma de células renales no clasificado (estudio de fase 2 de un solo brazo, PMID 28546525, y series retrospectivas); es una extensión dentro de una indicación ya aprobada.
 - **Solo predicción (L5, Hold):** carcinoma renal asociado a neuroblastoma, carcinoma renal con translocaciones Xp11.2/TFE3, carcinoma renal infantil, liposarcoma mixoide ovárico, fibrosarcoma cardíaco y fibrosarcoma renal; sin ensayos ni literatura específicos.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para **amenorrea**, pero actual
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, norelgestromina es el metabolito progestágeno activo de norgestimato y forma parte de un parche anticonceptivo combinado con etinilestradiol. Su actividad progestágena (agonismo del receptor de progesterona, supresión de la liberación de gonadotropinas y de la ovulación, estabilización del endometrio) es biológicamente plausible para tratar algunas formas de amenorrea, por ejemplo la secundaria a un desequilibrio estroprogestágeno, en la que se usa la retirada del progestágeno para inducir sangrado.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para norelgestromin and ethinyl estradiol (combinación que contiene Norelgestromin) (traducción no oficial): «El NGMN es el progestágeno activo principalmente responsable de la actividad progestacional que se produce en las mujeres tras la aplicación del sistema transdérmico de norelgestromina y etinilestradiol.» Texto original en inglés: "NGMN is the active progestin largely responsible for the progestational activity that occurs in women following application of norelgestromin and ethinyl estradiol transdermal system." ([DailyMed: norelgestromin and ethinyl estradiol prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10fa1458-c8ed-4197-922a-1ba7271d2b02), versión del 2026-04-16; consultado el 2026-11-19). Según la información conocida, norelgestromina es el metabolito progestágeno activo de norgestimato y forma parte de un parche anticonceptivo combinado con etinilestradiol. Su actividad progestágena (agonismo del receptor de progesterona, supresión de la liberación de gonadotropinas y de la ovulación, estabilización del endometrio) es biológicamente plausible para tratar algunas formas de amenorrea, por ejemplo la secundaria a un desequilibrio estroprogestágeno, en la que se usa la retirada del progestágeno para inducir sangrado.
 
 La relación con la indicación original es hormonal: ambas situaciones dependen del eje hipotálamo-hipófiso-ovárico y del control del endometrio. Sin embargo, este vínculo se infiere por clase farmacológica y por la predicción del modelo TxGNN (aprendizaje profundo) (puntaje 0,9951), no por datos específicos del fármaco.
 
@@ -102,6 +102,19 @@ La predicción se sustenta únicamente en el modelo (nivel L5), sin ensayos ni l
 - Datos del mecanismo de acción desde DrugBank.
 - Revisión de literatura y de registros de ensayos sobre progestágenos en amenorrea, aclarando si el efecto es terapéutico o adverso.
 - Evaluar la compatibilidad de la vía transdérmica con la indicación propuesta y su similitud con la indicación original.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: norelgestromin and ethinyl estradiol prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10fa1458-c8ed-4197-922a-1ba7271d2b02) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

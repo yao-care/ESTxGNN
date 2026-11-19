@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos compilada. Según la información conocida, fostamatinib es un inhibidor de SYK cuyo metabolito activo (R406) reduce la destrucción de plaquetas mediada por anticuerpos en los macrófagos, lo que explica su eficacia en la trombocitopenia inmune.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fostamatinib (traducción no oficial): «El fostamatinib es un inhibidor de la tirosina cinasa con actividad demostrada contra la tirosina cinasa esplénica (SYK). El metabolito principal del fostamatinib, R406, inhibe la transducción de señales de los receptores Fc activadores y del receptor de células B.» Texto original en inglés: "Fostamatinib is a tyrosine kinase inhibitor with demonstrated activity against spleen tyrosine kinase (SYK). The major metabolite of fostamatinib, R406, inhibits signal transduction of Fc-activating receptors and B-cell receptor." ([DailyMed: Tavalisse (fostamatinib) prescribing information, Rigel Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21149cc3-049b-43e2-b141-c9499160556c), versión del 2025-11-05; consultado el 2026-11-19). Según la información conocida, fostamatinib es un inhibidor de SYK cuyo metabolito activo (R406) reduce la destrucción de plaquetas mediada por anticuerpos en los macrófagos, lo que explica su eficacia en la trombocitopenia inmune.
 
 La nueva indicación predicha es una trombocitopenia hereditaria (autosómica), cuyo origen no es la destrucción inmune de plaquetas. Por ello, el vínculo mecanístico es débil. El puntaje elevado del modelo (0.9945) probablemente refleja la cercanía en la red de conocimiento con el fenotipo de trombocitopenia, más que un mecanismo patogénico compartido.
 
@@ -100,6 +100,19 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, 
 - Evidencia preclínica o clínica que vincule la inhibición de SYK con la trombocitopenia autosómica
 - Evaluación del perfil de seguridad (hipertensión, hepatotoxicidad, toxicidad embrio-fetal) en la población objetivo
 - Análisis de similitud con la indicación original y de compatibilidad de vía de administración
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tavalisse (fostamatinib) prescribing information, Rigel Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21149cc3-049b-43e2-b141-c9499160556c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

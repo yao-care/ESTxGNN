@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para la **miopatía distal tipo
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, propranolol es un betabloqueante no selectivo cuya eficacia en enfermedades cardiovasculares (hipertensión, arritmias, miocardiopatía hipertrófica) y en tumores vasculares como el hemangioma está establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Propranolol (traducción no oficial): «No se ha establecido el mecanismo del efecto antihipertensivo del propranolol. Entre los factores que contribuyen a la acción antihipertensiva se encuentran: la disminución del gasto cardíaco, la inhibición de la liberación de renina por los riñones y la disminución del flujo simpático tónico desde los centros vasomotores del cerebro.» Texto original en inglés: "The mechanism of the antihypertensive effect of propranolol has not been established. Among factors that contribute to the antihypertensive action are: decreased cardiac output, inhibition of renin release by the kidneys, and diminution of tonic sympathetic nerve outflow from vasomotor centers in the brain." ([DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade), versión del 2026-08-27; consultado el 2026-11-19). Según la información conocida, propranolol es un betabloqueante no selectivo cuya eficacia en enfermedades cardiovasculares (hipertensión, arritmias, miocardiopatía hipertrófica) y en tumores vasculares como el hemangioma está establecida.
 
 Para la miopatía distal tipo Tateyama **no se identificó un vínculo mecanístico** a partir de los datos disponibles. No hay una justificación evidente para el bloqueo beta-adrenérgico en esta miopatía distal, y el alto puntaje (0.994) refleja solo una señal del modelo, sin respaldo clínico ni bibliográfico.
 
@@ -116,6 +116,19 @@ La predicción para la miopatía distal tipo Tateyama se basa solo en el modelo 
 - Obtención de las advertencias y contraindicaciones del prospecto de AEMPS (actualmente no disponibles) antes de cualquier evaluación de seguridad.
 - Evaluación preclínica (modelos celulares o animales) que justifique la hipótesis.
 - Como alternativa de mayor viabilidad, priorizar las preguntas de investigación sobre miocardiopatía cirrótica, que cuenta con algo de literatura, sin olvidar sus señales de seguridad.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

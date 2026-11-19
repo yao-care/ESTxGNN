@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectiva para el **síndrome faciodigito
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, la clonidina es un agonista alfa-2 adrenérgico que reduce el tono noradrenérgico central. Su eficacia en hipertensión está comprobada y también se usa en TDAH. Los datos farmacológicos compilados muestran afinidad por los receptores alfa-2A, alfa-2B, alfa-2C y alfa-1D, además de canales HCN y el transportador de cationes orgánicos 1.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clonidine (traducción no oficial): «La clonidina estimula los adrenorreceptores alfa en el tronco encefálico. Esta acción produce una reducción de la eferencia simpática desde el sistema nervioso central y disminuciones de la resistencia periférica, la resistencia vascular renal, la frecuencia cardíaca y la presión arterial.» Texto original en inglés: "Clonidine stimulates alpha-adrenoreceptors in the brain stem. This action results in reduced sympathetic outflow from the central nervous system and in decreases in peripheral resistance, renal vascular resistance, heart rate, and blood pressure." ([DailyMed: Qlonilik (clonidine hydrochloride) prescribing information, CMP Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=826de1dc-378e-4c90-86d1-e33f7a4248cd), versión del 2026-08-12; consultado el 2026-11-19). Según la información conocida, la clonidina es un agonista alfa-2 adrenérgico que reduce el tono noradrenérgico central. Su eficacia en hipertensión está comprobada y también se usa en TDAH. Los datos farmacológicos compilados muestran afinidad por los receptores alfa-2A, alfa-2B, alfa-2C y alfa-1D, además de canales HCN y el transportador de cationes orgánicos 1.
 
 El síndrome faciodigitogenital es un trastorno genético raro del desarrollo. Con los datos disponibles no se puede establecer un vínculo mecanístico plausible entre la agonía alfa-2 y la patología central de esta enfermedad. Un efecto sobre su causa de fondo es poco probable.
 
@@ -111,6 +111,19 @@ La predicción proviene solo del modelo TxGNN (aprendizaje profundo), que puede 
 - Revisión de la literatura y de registros de ensayos para detectar estudios no capturados
 - Advertencias y contraindicaciones del prospecto de AEMPS, para completar el cribado de seguridad
 - Valorar priorizar otras indicaciones predichas con mayor respaldo clínico
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Qlonilik (clonidine hydrochloride) prescribing information, CMP Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=826de1dc-378e-4c90-86d1-e33f7a4248cd) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

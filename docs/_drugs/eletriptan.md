@@ -54,7 +54,7 @@ Eletriptán es un agonista selectivo de los receptores 5-HT1B/1D, originalmente 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Eletriptán es un agonista selectivo de los receptores 5-HT1B/1D, aprobado para el tratamiento agudo de la migraña. La literatura describe además una mayor afinidad por el receptor 5-HT1D que sumatriptán (aproximadamente 6 veces) y por el 5-HT1B (aproximadamente 3 veces). Los datos del mecanismo de acción no están disponibles de forma estructurada en la información compilada para este informe.
+Eletriptán es un agonista selectivo de los receptores 5-HT1B/1D, aprobado para el tratamiento agudo de la migraña. La literatura describe además una mayor afinidad por el receptor 5-HT1D que sumatriptán (aproximadamente 6 veces) y por el 5-HT1B (aproximadamente 3 veces). Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Eletriptan (traducción no oficial): «El eletriptán se une con alta afinidad a los receptores 5-HT 1B, 5-HT 1D y 5-HT 1F, y tiene una afinidad moderada por los receptores 5-HT 1A, 5-HT 1E, 5-HT 2B y 5-HT 7. Es probable que las migrañas se deban a una vasodilatación craneal local y/o a la liberación de neuropéptidos sensoriales (péptido intestinal vasoactivo, sustancia P y péptido relacionado con el gen de la calcitonina) a través de las terminaciones nerviosas del sistema trigeminal.» Texto original en inglés: "Eletriptan binds with high affinity to 5-HT 1B, 5-HT 1D and 5-HT 1F receptors, has modest affinity for 5-HT 1A, 5-HT 1E, 5-HT 2B and 5-HT 7 receptors. Migraines are likely due to local cranial vasodilatation and/or to the release of sensory neuropeptides (vasoactive intestinal peptide, substance P and calcitonin gene-related peptide) through nerve endings in the trigeminal system." ([DailyMed: Relpax (eletriptan hydrobromide) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a501dbd-3ea8-47e4-9fcb-07035b8c8c9e), versión del 2024-01-15; consultado el 2026-11-19).
 
 La migraña con aura del tronco encefálico es un subtipo de migraña con aura, por lo que comparte la fisiopatología trigémino-vascular. Esto hace biológicamente plausible la eficacia del fármaco, y el puntaje alto del modelo probablemente refleja la cercanía con la indicación general de migraña más que evidencia específica del subtipo.
 
@@ -120,11 +120,12 @@ No hay ensayos clínicos para este subtipo, la literatura es de migraña general
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Relpax (eletriptan hydrobromide) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a501dbd-3ea8-47e4-9fcb-07035b8c8c9e) |
 
 <!-- review:end log -->
 

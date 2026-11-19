@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero actualm
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, clordiazepóxido es una benzodiazepina que modula positivamente los receptores GABA-A, lo que produce efectos sedantes, ansiolíticos e hipnóticos. Su eficacia en ansiedad y abstinencia alcohólica está bien establecida.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Chlordiazepoxide (traducción no oficial): «El HCl de clordiazepóxido tiene acciones ansiolíticas, sedantes, estimulantes del apetito y analgésicas débiles. Se desconoce el mecanismo de acción preciso. El fármaco bloquea el despertar electroencefalográfico (EEG) producido por la estimulación de la formación reticular del tronco encefálico.» Texto original en inglés: "Chlordiazepoxide HCl has antianxiety, sedative, appetite-stimulating and weak analgesic actions. The precise mechanism of action is not known. The drug blocks EEG arousal from stimulation of the brain stem reticular formation." ([DailyMed: chlordiazepoxide hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cbd7cee-c4d7-4c95-93d8-09428169b937), versión del 2026-11-05; consultado el 2026-11-19). Según la información conocida, clordiazepóxido es una benzodiazepina que modula positivamente los receptores GABA-A, lo que produce efectos sedantes, ansiolíticos e hipnóticos. Su eficacia en ansiedad y abstinencia alcohólica está bien establecida.
 
 La relación con el insomnio es plausible: la ansiedad y el insomnio comparten una vía de hiperexcitabilidad que las benzodiazepinas reducen. Sin embargo, la literatura recuperada es mayormente indirecta (revisiones farmacocinéticas, revisiones sobre hipnóticos benzodiazepínicos en ancianos y estudios en ansiedad). Ningún ensayo evalúa directamente clordiazepóxido en insomnio.
 
@@ -103,6 +103,19 @@ La predicción tiene un puntaje alto, pero la evidencia es solo indirecta (nivel
 - Advertencias y contraindicaciones del prospecto de AEMPS (brecha crítica que impide el cribado de seguridad)
 - Ensayos clínicos controlados que comparen clordiazepóxido con hipnóticos establecidos en insomnio
 - Evaluación del balance beneficio-riesgo en adultos mayores (dependencia, sedación residual, acumulación de metabolitos)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: chlordiazepoxide hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cbd7cee-c4d7-4c95-93d8-09428169b937) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

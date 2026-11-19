@@ -60,7 +60,7 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la risperidona es un antipsicótico atípico cuya eficacia en esquizofrenia, manía bipolar e irritabilidad en el autismo está establecida. El perfil de unión a receptores compilado muestra afinidad por receptores serotoninérgicos (5-HT1A, 1B, 1D, 1E, 1F, 2A, 2C, 6 y 7), dopaminérgicos (D2 y D3), adrenérgicos (α1A, α1B, α1D y α2A) e histaminérgicos H1. El bloqueo de D2 y 5-HT2A es el mecanismo clásicamente asociado a su acción antipsicótica.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Risperidone (traducción no oficial): «Se desconoce el mecanismo de acción de la risperidona en la esquizofrenia. La actividad terapéutica del fármaco en la esquizofrenia podría estar mediada por una combinación de antagonismo de los receptores de dopamina tipo 2 (D 2 ) y de serotonina tipo 2 (5HT 2 ).» Texto original en inglés: "The mechanism of action of risperidone in schizophrenia is unclear. The drug's therapeutic activity in schizophrenia could be mediated through a combination of dopamine Type 2 (D 2 ) and serotonin Type 2 (5HT 2 ) receptor antagonism." ([DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0), versión del 2026-10-23; consultado el 2026-11-19). Según la información conocida, la risperidona es un antipsicótico atípico cuya eficacia en esquizofrenia, manía bipolar e irritabilidad en el autismo está establecida. El perfil de unión a receptores compilado muestra afinidad por receptores serotoninérgicos (5-HT1A, 1B, 1D, 1E, 1F, 2A, 2C, 6 y 7), dopaminérgicos (D2 y D3), adrenérgicos (α1A, α1B, α1D y α2A) e histaminérgicos H1. El bloqueo de D2 y 5-HT2A es el mecanismo clásicamente asociado a su acción antipsicótica.
 
 La enfermedad predicha es un trastorno neurológico hereditario raro, relacionado con el gen ROBO3, que afecta al control de los movimientos oculares horizontales y a la columna vertebral. **No se ha establecido ningún vínculo mecanístico** entre el bloqueo dopaminérgico/serotoninérgico y la fisiopatología de esta enfermedad, que es de origen del desarrollo neurológico.
 
@@ -136,11 +136,12 @@ La predicción para esta enfermedad rara carece de ensayos clínicos, literatura
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "La risperidona cuenta con 20 autorizaciones vigentes, todas de medicamentos con un único principio activo. No hay autorizaciones canceladas " | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0) |
 
 <!-- review:end log -->
 

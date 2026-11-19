@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia (hyperam
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, aztreonam es un monobactámico que inhibe la síntesis de la pared celular bacteriana al unirse a la proteína fijadora de penicilina 3 (PBP3) en bacterias gramnegativas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Aztreonam (traducción no oficial): «Aztreonam es un agente bactericida que actúa mediante la inhibición de la síntesis de la pared celular bacteriana. Aztreonam tiene actividad en presencia de algunas betalactamasas, tanto penicilinasas como cefalosporinasas, de bacterias gramnegativas y grampositivas.» Texto original en inglés: "Aztreonam is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Aztreonam has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: aztreonam prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d4500795-3b07-4a7d-b432-73cafbb3dbc6), versión del 2024-06-03; consultado el 2026-11-19). Según la información conocida, aztreonam es un monobactámico que inhibe la síntesis de la pared celular bacteriana al unirse a la proteína fijadora de penicilina 3 (PBP3) en bacterias gramnegativas.
 
 La hiperamilasemia es un hallazgo de laboratorio (elevación de amilasa en sangre) que suele tener causas no infecciosas, pancreáticas o salivales. No se identifica un vínculo mecanístico plausible entre la acción antibacteriana de aztreonam y esta condición.
 
@@ -94,6 +94,19 @@ La predicción carece de ensayos clínicos, literatura y vínculo mecanístico p
 - Datos de mecanismo de acción detallados
 - Revisión del prospecto (advertencias y contraindicaciones) de las autorizaciones españolas
 - Estudios preclínicos o clínicos que evalúen directamente esta indicación antes de cualquier consideración de desarrollo
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: aztreonam prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d4500795-3b07-4a7d-b432-73cafbb3dbc6) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

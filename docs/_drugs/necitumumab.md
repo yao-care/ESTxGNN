@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información conocida, necitumumab es un anticuerpo monoclonal IgG1 humano que bloquea el sitio de unión del ligando del EGFR, y su eficacia en cáncer de pulmón escamoso avanzado (en combinación con gemcitabina y cisplatino) fue demostrada en el ensayo de fase 3 SQUIRE.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Necitumumab es (traducción no oficial): «Inhibidor del receptor del factor de crecimiento epidérmico erbB1» Texto original en inglés: "Epidermal growth factor receptor erbB1 inhibitor" ([ChEMBL CHEMBL1743047 (necitumumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1743047), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, necitumumab es un anticuerpo monoclonal IgG1 humano que bloquea el sitio de unión del ligando del EGFR, y su eficacia en cáncer de pulmón escamoso avanzado (en combinación con gemcitabina y cisplatino) fue demostrada en el ensayo de fase 3 SQUIRE.
 
 La relación con la fibromatosis gingival es **especulativa**. La única conexión plausible es el papel de la señalización de EGFR en la proliferación de fibroblastos, pero ningún dato aportado respalda este vínculo. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y probablemente refleje similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una justificación mecanística específica.
 
@@ -111,6 +111,19 @@ La predicción para fibromatosis gingival se basa únicamente en el modelo (nive
 - Revisión del prospecto de la AEMPS (advertencias y contraindicaciones), actualmente pendiente
 - Evaluación del balance beneficio-riesgo frente a alternativas terapéuticas existentes para la fibromatosis gingival
 - Evidencia clínica o de literatura específica que respalde la indicación predicha
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1743047 (necitumumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1743047) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

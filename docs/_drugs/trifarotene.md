@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **zinc plasmático elevado
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el trifaroteno es un agonista selectivo del receptor del ácido retinoico gamma (RAR-γ) de aplicación tópica, y su eficacia en el acné está respaldada por ensayos de Fase 3. Los datos farmacológicos también lo vinculan con los receptores RAR-α, RAR-β y RAR-γ.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Trifarotene (traducción no oficial): «El trifaroteno es un agonista de los receptores del ácido retinoico (RAR), con actividad particular en el subtipo gamma de los RAR. La estimulación de los RAR da lugar a la modulación de genes diana que están asociados con diversos procesos, incluidos la diferenciación celular y la mediación de la inflamación.» Texto original en inglés: "Trifarotene is an agonist of retinoic acid receptors (RAR), with particular activity at the gamma subtype of RAR. Stimulation of RAR results in modulation of target genes which are associated with various processes, including cell differentiation and mediation of inflammation." ([DailyMed: Aklief (trifarotene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=62d910db-85a6-4696-b69b-4bd2f3080cfc), versión del 2024-09-16; consultado el 2026-11-19). Según la información conocida, el trifaroteno es un agonista selectivo del receptor del ácido retinoico gamma (RAR-γ) de aplicación tópica, y su eficacia en el acné está respaldada por ensayos de Fase 3. Los datos farmacológicos también lo vinculan con los receptores RAR-α, RAR-β y RAR-γ.
 
 **No se identifica un vínculo mecanístico creíble** con la nueva indicación. El zinc plasmático elevado es un hallazgo metabólico o de laboratorio sistémico (por ejemplo, asociado a suplementación, insuficiencia renal o artefactos del ensayo) y no se conoce dependencia de la señalización por RAR-γ. Además, el trifaroteno presenta una alta inestabilidad metabólica y, aplicado por vía tópica, una exposición sistémica limitada, lo que reduce aún más la plausibilidad de un efecto sobre el zinc plasmático.
 
@@ -95,6 +95,19 @@ La predicción para zinc plasmático elevado se basa únicamente en el modelo (L
 - Completar los datos del mecanismo de acción desde DrugBank
 - Una hipótesis biológica que explique cómo la señalización por RAR podría influir en el zinc plasmático, y datos de exposición sistémica que la sustenten
 - Búsqueda de estudios preclínicos o de series de casos antes de reconsiderar cualquiera de las dos indicaciones predichas
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Aklief (trifarotene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=62d910db-85a6-4696-b69b-4bd2f3080cfc) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

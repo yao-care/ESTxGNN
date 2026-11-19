@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero actual
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, etonogestrel es un progestágeno potente que suprime la ovulación y adelgaza el endometrio.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Etonogestrel (traducción no oficial): «El efecto anticonceptivo de NEXPLANON se logra mediante la supresión de la ovulación, el aumento de la viscosidad del moco cervical y alteraciones en el endometrio.» Texto original en inglés: "The contraceptive effect of NEXPLANON is achieved by suppression of ovulation, increased viscosity of the cervical mucus, and alterations in the endometrium." ([DailyMed: Nexplanon (etonogestrel) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=487f8a62-e142-457c-97cc-2e398fde7594), versión del 2026-05-28; consultado el 2026-11-19). Según la información conocida, etonogestrel es un progestágeno potente que suprime la ovulación y adelgaza el endometrio.
 
 La amenorrea es un efecto frecuente y conocido del implante de etonogestrel, por lo que la asociación es biológicamente plausible. Sin embargo, se trata de un efecto esperado sobre el patrón de sangrado, no de una indicación terapéutica: el fármaco no está establecido como tratamiento de la amenorrea (de hecho, la amenorrea es un efecto secundario o resultado de su uso).
 
@@ -97,6 +97,19 @@ La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni l
 - Definir si se busca un beneficio terapéutico (p. ej., en sangrado uterino anómalo o patología mamaria benigna) distinto del efecto secundario conocido.
 - Buscar literatura y ensayos específicos para las indicaciones predichas de patología mamaria benigna.
 - Evaluar la compatibilidad de la vía de administración (implante) con las indicaciones propuestas.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Nexplanon (etonogestrel) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=487f8a62-e142-457c-97cc-2e398fde7594) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

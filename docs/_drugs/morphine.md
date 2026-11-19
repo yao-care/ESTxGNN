@@ -56,7 +56,7 @@ pero no hay ensayos clínicos registrados y la evidencia disponible es solo indi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-La morfina es un agonista de los receptores opioides mu (OPRM1), kappa (OPRK1) y delta (OPRD1). Su uso clínico documentado es el tratamiento y manejo del dolor intenso. No se dispone de datos detallados adicionales sobre el mecanismo de acción.
+La morfina es un agonista de los receptores opioides mu (OPRM1), kappa (OPRK1) y delta (OPRD1). Su uso clínico documentado es el tratamiento y manejo del dolor intenso. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Morphine (traducción no oficial): «La morfina es un agonista opioide completo y es relativamente selectiva para el receptor opioide mu, aunque puede unirse a otros receptores opioides a dosis más altas. La principal acción terapéutica de la morfina es la analgesia. Como ocurre con todos los agonistas opioides completos, la morfina no presenta efecto techo para la analgesia.» Texto original en inglés: "Morphine is a full opioid agonist and is relatively selective for the mu-opioid receptor, although it can bind to other opioid receptors at higher doses. The principal therapeutic action of morphine is analgesia. Like all full opioid agonists, there is no ceiling effect for analgesia with morphine." ([DailyMed: Ms Contin (morphine sulfate) prescribing information, Rhodes Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c354b3bf-86c0-4bb8-8b1f-be2164942698), versión del 2026-08-14; consultado el 2026-11-19).
 
 El dolor miofascial es una afección musculoesquelética dolorosa, de modo que existe un vínculo plausible a través de la modulación general del dolor. Sin embargo, esta relación es solo teórica: la literatura recuperada trata sobre el uso de opioides en otros contextos de dolor (disfunción temporomandibular, síndrome de dolor posquirúrgico de espalda, dolor postoracotomía) o sobre otros tratamientos (estiramientos, toxina botulínica, bloqueos nerviosos).
 
@@ -104,6 +104,18 @@ La predicción se apoya solo en el puntaje del modelo (0.9975) y en literatura i
 - Revisión del prospecto aprobado para advertencias y contraindicaciones
 - Datos detallados del mecanismo de acción en este contexto
 - Evaluación de la relación riesgo-beneficio frente a alternativas no opioides
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ms Contin (morphine sulfate) prescribing information, Rhodes Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c354b3bf-86c0-4bb8-8b1f-be2164942698) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

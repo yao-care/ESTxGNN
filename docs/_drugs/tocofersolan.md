@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **Amenorrea**, pero actual
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Tocofersolan actúa como antioxidante y como solubilizante que mejora la absorción de vitaminas liposolubles. Actualmente no se dispone de datos detallados sobre el mecanismo de acción original, por lo que el análisis mecanístico es limitado.
+Tocofersolan actúa como antioxidante y como solubilizante que mejora la absorción de vitaminas liposolubles. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Tocofersolan es (traducción no oficial): «Soporte nutricional» Texto original en inglés: "Nutritional support" ([ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106), CC BY-SA 3.0; consultado el 2026-11-19).
 
 Una posible relación indirecta es que la deficiencia de vitamina E o el estrés oxidativo podrían afectar el equilibrio de las hormonas reproductivas, y que la deficiencia nutricional asociada a malabsorción podría contribuir a alteraciones menstruales. Es una hipótesis sin respaldo directo: no se han recuperado estudios mecanísticos ni clínicos.
 
@@ -98,6 +98,19 @@ La predicción para amenorrea se basa solo en el modelo (nivel L5), sin ensayos 
 - Realizar una búsqueda sistemática de literatura y ensayos sobre vitamina E/TPGS y amenorrea (y, de forma secundaria, acné)
 - Evaluar la compatibilidad de la vía de administración (oral) con la nueva indicación
 - Consultar las interacciones farmacológicas, cuya búsqueda no arrojó resultados
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

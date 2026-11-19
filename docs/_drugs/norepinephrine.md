@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad pulmonar obst
 
 ## ¿Por qué es Razonable esta Predicción?
 
-La norepinefrina es una catecolamina con actividad adrenérgica alfa y beta. La estimulación de los receptores beta-2 del músculo liso bronquial puede producir broncodilatación, lo que es mecanísticamente coherente con una enfermedad pulmonar obstructiva. Además, la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como asma, bronquitis, enfisema y bronquiectasias, todas ellas enfermedades obstructivas o relacionadas; no constituye evidencia biológica. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados.
+La norepinefrina es una catecolamina con actividad adrenérgica alfa y beta. La estimulación de los receptores beta-2 del músculo liso bronquial puede producir broncodilatación, lo que es mecanísticamente coherente con una enfermedad pulmonar obstructiva. Además, la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como asma, bronquitis, enfisema y bronquiectasias, todas ellas enfermedades obstructivas o relacionadas; no constituye evidencia biológica. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Norepinephrine (traducción no oficial): «La norepinefrina es un vasoconstrictor periférico (acción alfaadrenérgica) y un estimulante inotrópico del corazón y dilatador de las arterias coronarias (acción betaadrenérgica).» Texto original en inglés: "Norepinephrine is a peripheral vasoconstrictor (alpha-adrenergic action) and an inotropic stimulator of the heart and dilator of coronary arteries (beta-adrenergic action)." ([DailyMed: Norepinephrine Bitartrate In Dextrose (norepinephrine bitartrate) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be3c6f4f-54fc-4cb3-a299-8a022515d396), versión del 2026-10-27; consultado el 2026-11-19).
 
 Sin embargo, esta plausibilidad es limitada. Hoy la norepinefrina se utiliza casi exclusivamente como vasopresor intravenoso. Sus fuertes efectos alfa-1 y beta-1 (vasoconstricción, taquicardia, riesgo de arritmias) y su escasa selectividad beta-2 la hacen poco adecuada como broncodilatador frente a los agonistas beta-2 selectivos. La literatura disponible consiste sobre todo en revisiones sobre regulación neuroendocrina y adrenérgica de la inflamación e inervación de las vías respiratorias, lo que apoya solo la plausibilidad biológica. El puntaje elevado de TxGNN es una predicción computacional, no evidencia clínica.
 
@@ -116,6 +116,19 @@ La predicción se apoya solo en un puntaje computacional y en literatura mecaní
 - Justificar la ventaja frente a los agonistas beta-2 selectivos y analizar el riesgo cardiovascular.
 
 **Otras predicciones del modelo (no recomendadas):** *malformación respiratoria* (0.9984, nivel L5, sin ensayos; solo vínculo con el control neural de la respiración, sin racional terapéutico) y *síndrome de Rienhoff* (0.9983, nivel L5, sin ensayos ni literatura). Ambas quedan en **Hold**.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Norepinephrine Bitartrate In Dextrose (norepinephrine bitartrate) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be3c6f4f-54fc-4cb3-a299-8a022515d396) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **Sarcoma de Ewing**, aunq
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la literatura revisada, dasatinib inhibe BCR-ABL, las quinasas de la familia SRC, c-KIT y PDGFR. Su eficacia en la LMC está bien establecida, y mecanísticamente podría ser aplicable al sarcoma de Ewing a través de la vía SRC.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dasatinib (traducción no oficial): «El dasatinib, a concentraciones nanomolares, inhibe las siguientes cinasas: BCR-ABL, familia SRC (SRC, LCK, YES, FYN), c-KIT, EPHA2 y PDGFRβ. Según estudios de modelización, se prevé que el dasatinib se una a múltiples conformaciones de la cinasa ABL.» Texto original en inglés: "Dasatinib, at nanomolar concentrations, inhibits the following kinases: BCR-ABL, SRC family (SRC, LCK, YES, FYN), c-KIT, EPHA2, and PDGFRβ. Based on modeling studies, dasatinib is predicted to bind to multiple conformations of the ABL kinase." ([DailyMed: Sprycel (dasatinib) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4764f37b-c9e6-4ede-bcc2-8a03b7c521df), versión del 2026-10-16; consultado el 2026-11-19). Según la literatura revisada, dasatinib inhibe BCR-ABL, las quinasas de la familia SRC, c-KIT y PDGFR. Su eficacia en la LMC está bien establecida, y mecanísticamente podría ser aplicable al sarcoma de Ewing a través de la vía SRC.
 
 La relación entre ambas indicaciones no es directa: la LMC está impulsada por la fusión BCR-ABL1, mientras que el sarcoma de Ewing se caracteriza por otras alteraciones. El vínculo plausible es la señalización SRC/FAK: estudios en líneas celulares de Ewing muestran que la activación de SRC favorece la formación de invadopodios, la migración y la invasión, y que dasatinib reduce la proliferación y la migración in vitro.
 
@@ -153,11 +153,12 @@ El puntaje del modelo es muy alto, pero no hay evidencia clínica de beneficio e
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Existen 20 autorizaciones vigentes en total (todas de medicamento con un único principio activo, ninguna cancelada), incluidos genéricos de " | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sprycel (dasatinib) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4764f37b-c9e6-4ede-bcc2-8a03b7c521df) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ con **0 ensayos clínicos registrados** y **10 publicaciones** que actualmente r
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Moclobemida inhibe de forma reversible y selectiva la monoaminooxidasa A (MAO-A), según los datos farmacológicos compilados (diana: MAOA; también figura MAOB). Al inhibir esta enzima aumentan las concentraciones sinápticas de serotonina, noradrenalina y dopamina. Cabe señalar que el campo de mecanismo de acción original no está disponible en los datos; esta descripción se basa en el conocimiento general de la clase farmacológica y en la literatura recopilada.
+Moclobemida inhibe de forma reversible y selectiva la monoaminooxidasa A (MAO-A), según los datos farmacológicos compilados (diana: MAOA; también figura MAOB). Al inhibir esta enzima aumentan las concentraciones sinápticas de serotonina, noradrenalina y dopamina. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Moclobemide es (traducción no oficial): «Inhibidor de la monoaminooxidasa A» Texto original en inglés: "Monoamine oxidase A inhibitor" ([ChEMBL CHEMBL86304 (moclobemide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL86304), CC BY-SA 3.0; consultado el 2026-11-19).
 
 La agorafobia suele presentarse asociada al trastorno de pánico y a la ansiedad social, cuadros que comparten sustrato con las indicaciones originales (ansiedad, trastornos neuróticos y distimia). Los agentes que modulan los sistemas monoaminérgicos han mostrado utilidad en estos cuadros, de modo que el vínculo biológico resulta coherente.
 
@@ -112,6 +112,19 @@ Existen dos ensayos aleatorizados que evalúan moclobemida en trastorno de páni
 - Definir un plan de gestión de interacciones propio de los IMAO.
 
 **Nota sobre la segunda predicción:** la indicación «tortícolis paroxística benigna de la infancia» (puntaje 0.9930) se clasifica como L5 y **Hold**: no hay evidencia clínica ni de literatura, y no existe un vínculo mecanístico respaldado por los datos.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL86304 (moclobemide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL86304) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

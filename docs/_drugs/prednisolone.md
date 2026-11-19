@@ -56,7 +56,7 @@ con **0 ensayos clínicos registrados** y **20 publicaciones** (incluyendo un en
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la prednisolona es un glucocorticoide que actúa sobre el receptor de glucocorticoides (NR3C2 también aparece como diana: receptor mineralocorticoide), con eficacia comprobada como antiinflamatorio e inmunosupresor en múltiples enfermedades autoinmunes.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Prednisolone (traducción no oficial): «La prednisolona es un fármaco esteroide corticosuprarrenal sintético con propiedades predominantemente glucocorticoides. Algunas de estas propiedades reproducen las acciones fisiológicas de los glucocorticosteroides endógenos, pero otras no reflejan necesariamente ninguna de las funciones normales de las hormonas suprarrenales; solo se observan tras la administración de dosis terapéuticas elevadas del fármaco.» Texto original en inglés: "Prednisolone is a synthetic adrenocortical steroid drug with predominantly glucocorticoid properties. Some of these properties reproduce the physiological actions of endogenous glucocorticosteroids, but others do not necessarily reflect any of the adrenal hormones' normal functions; they are seen only after administration of large therapeutic doses of the drug." ([DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1), versión del 2025-06-03; consultado el 2026-11-19). Según la información conocida, la prednisolona es un glucocorticoide que actúa sobre el receptor de glucocorticoides (NR3C2 también aparece como diana: receptor mineralocorticoide), con eficacia comprobada como antiinflamatorio e inmunosupresor en múltiples enfermedades autoinmunes.
 
 La alopecia areata es una enfermedad autoinmune mediada por linfocitos T que ataca los folículos pilosos con pérdida del privilegio inmunitario. La prednisolona suprime la activación de los linfocitos T y las citocinas proinflamatorias, lo que es coherente con su uso establecido en enfermedades autoinmunes. Hay un estudio que sugiere que los pulsos orales de corticoides modifican los niveles de TNF-α en esta enfermedad (PMID 30294905).
 
@@ -112,6 +112,19 @@ Existe un ensayo aleatorizado controlado con placebo de pulsos orales de prednis
 - Comparar con alternativas (inhibidores de JAK, ahorradores de esteroides) y evaluar la compatibilidad de vías de administración, ya que las formulaciones autorizadas en España son oftálmicas y orales líquidas.
 
 **Otras indicaciones predichas (para referencia):** las demás predicciones del modelo tienen evidencia limitada (L4–L5) y se recomienda mantenerlas en espera (Hold). La excepción es el síndrome nefrótico idiopático sensible a esteroides, donde la prednisolona ya es tratamiento estándar de primera línea; se considera un uso establecido más que un verdadero reposicionamiento y la evidencia recuperada es conservadora (L4).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

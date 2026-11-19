@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, loperamida es un agonista periférico del receptor opioide mu (OPRM1) que actúa sobre las neuronas del plexo mientérico intestinal y reduce la motilidad gastrointestinal. Su eficacia en la diarrea está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Loperamide (traducción no oficial): «Los estudios in vitro y en animales muestran que las cápsulas de clorhidrato de loperamida actúan al enlentecer la motilidad intestinal y al afectar el movimiento de agua y electrolitos a través del intestino. La loperamida se une al receptor de opiáceos en la pared intestinal.» Texto original en inglés: "In vitro and animal studies show that loperamide hydrochloride capsules act by slowing intestinal motility and by affecting water and electrolyte movement through the bowel. Loperamide binds to the opiate receptor in the gut wall." ([DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b), versión del 2026-07-09; consultado el 2026-11-19). Según la información conocida, loperamida es un agonista periférico del receptor opioide mu (OPRM1) que actúa sobre las neuronas del plexo mientérico intestinal y reduce la motilidad gastrointestinal. Su eficacia en la diarrea está bien establecida.
 
 **Sin embargo, no existe un vínculo mecanístico establecido con la conjuntivitis.** La señalización opioide a nivel de la superficie ocular no es un mecanismo antiinfeccioso ni antiinflamatorio reconocido para esta enfermedad. El puntaje alto de TxGNN (modelo de aprendizaje profundo) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas (varios subtipos de conjuntivitis comparten puntajes casi idénticos, 0.9965), y no evidencia biológica.
 
@@ -115,6 +115,19 @@ La predicción para conjuntivitis contagiosa aguda es exclusivamente computacion
 - Evaluación de la viabilidad de una formulación oftálmica
 - Obtención y análisis del prospecto de la AEMPS (advertencias y contraindicaciones oficiales), pendiente para el cribado de seguridad
 - Revisión de la similitud con las indicaciones originales y de la compatibilidad de vías de administración
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

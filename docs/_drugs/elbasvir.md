@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **infección por el virus 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Por la literatura revisada, elbasvir es un inhibidor de la proteína no estructural NS5A del virus de la hepatitis C (VHC), y se utiliza en combinación con grazoprevir, un inhibidor de la proteasa NS3/4A.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Elbasvir es (traducción no oficial): «Inhibidor de la proteína no estructural 5A» Texto original en inglés: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3039514 (elbasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039514), CC BY-SA 3.0; consultado el 2026-11-19). Por la literatura revisada, elbasvir es un inhibidor de la proteína no estructural NS5A del virus de la hepatitis C (VHC), y se utiliza en combinación con grazoprevir, un inhibidor de la proteasa NS3/4A.
 
 El virus de la hepatitis B (VHB) es, como el VHC, un virus con tropismo hepático, y esto probablemente explique la puntuación alta del modelo. Sin embargo, el VHB no tiene un homólogo de NS5A, por lo que no se ha establecido un vínculo mecanístico directo.
 
@@ -108,6 +108,18 @@ Ningún estudio evalúa elbasvir en hepatitis B: los ensayos y publicaciones dis
 - Estudios preclínicos (in vitro) de actividad antiviral de elbasvir contra el VHB
 - Información de seguridad del prospecto (advertencias y contraindicaciones)
 - Solo si los estudios preclínicos son favorables, valorar ensayos clínicos específicos en hepatitis B
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL3039514 (elbasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039514) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

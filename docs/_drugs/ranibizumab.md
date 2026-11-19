@@ -56,7 +56,7 @@ con **19 publicaciones** identificadas en los datos compilados para esta indicac
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información conocida, ranibizumab es un fragmento de anticuerpo que inhibe el factor de crecimiento endotelial vascular A (VEGF-A). El VEGF impulsa la permeabilidad vascular y la neovascularización retiniana en la retinopatía diabética, y se han descrito niveles elevados de VEGF en vítreo y suero en esta enfermedad (PMID 36580154).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ranibizumab (traducción no oficial): «Los productos de ranibizumab se unen al sitio de unión al receptor de las formas activas del VEGF-A, incluida la forma escindida biológicamente activa de esta molécula, el VEGF110. Se ha demostrado que el VEGF-A provoca neovascularización y extravasación en modelos de angiogénesis ocular y de oclusión vascular, y se cree que contribuye a la fisiopatología de la DMAE neovascular, la NVC miópica, la RD, el EMD y el edema macular tras una OVR.» Texto original en inglés: "Ranibizumab products bind to the receptor binding site of active forms of VEGF-A, including the biologically active, cleaved form of this molecule, VEGF110. VEGF-A has been shown to cause neovascularization and leakage in models of ocular angiogenesis and vascular occlusion and is thought to contribute to pathophysiology of neovascular AMD, mCNV, DR, DME and macular edema following RVO." ([DailyMed: Nufymco (ranibizumab-leyk) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05ed75bc-ae21-480b-9be4-cbc51689dd8a), versión del 2026-11-05; consultado el 2026-11-19). Según la información conocida, ranibizumab es un fragmento de anticuerpo que inhibe el factor de crecimiento endotelial vascular A (VEGF-A). El VEGF impulsa la permeabilidad vascular y la neovascularización retiniana en la retinopatía diabética, y se han descrito niveles elevados de VEGF en vítreo y suero en esta enfermedad (PMID 36580154).
 
 La indicación predicha es una forma de gravedad específica de una enfermedad que ya figura entre las indicaciones originales (retinopatía diabética y edema macular diabético). Por tanto, la predicción se sitúa en gran medida dentro del ámbito ya conocido del fármaco, y la novedad reside en el uso en un estadio concreto de la enfermedad (NPDR grave, antes de la progresión a retinopatía proliferativa).
 
@@ -129,6 +129,19 @@ Las demás predicciones del modelo tienen evidencia débil o ausente y se recomi
 | Craneoestenosis con catarata, catarata tetánica, catarata inmadura, catarata nuclear senil | L5 | Solo predicción del modelo, sin racional mecanístico ni estudios |
 
 Nota: el caso de epistaxis en telangiectasia hemorrágica hereditaria (NCT01406639, retirado) podría merecer una evaluación independiente como indicación propia.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Nufymco (ranibizumab-leyk) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05ed75bc-ae21-480b-9be4-cbc51689dd8a) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

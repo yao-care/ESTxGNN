@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide**, con
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente primaria. Según la información conocida, clofarabina es un análogo de nucleósido de purina de segunda generación que inhibe la ribonucleótido reductasa (subunidades RRM1 y RRM2, confirmadas entre sus dianas farmacológicas) y la ADN polimerasa, y además induce apoptosis por vía mitocondrial. Esto reduce los desoxinucleótidos disponibles para la replicación del ADN.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clofarabine (traducción no oficial): «La clofarabina se metaboliza secuencialmente a nivel intracelular al metabolito 5’-monofosfato por la desoxicitidina cinasa y por las mono- y difosfocinasas al metabolito activo 5’-trifosfato. La clofarabina tiene una afinidad por la enzima fosforilante activadora, la desoxicitidina cinasa, igual o superior a la del sustrato natural, la desoxicitidina.» Texto original en inglés: "Clofarabine is sequentially metabolized intracellularly to the 5’-monophosphate metabolite by deoxycytidine kinase and mono- and di-phospho-kinases to the active 5’-triphosphate metabolite. Clofarabine has affinity for the activating phosphorylating enzyme, deoxycytidine kinase, equal to or greater than that of the natural substrate, deoxycytidine." ([DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873), versión del 2026-08-24; consultado el 2026-11-19). Según la información conocida, clofarabina es un análogo de nucleósido de purina de segunda generación que inhibe la ribonucleótido reductasa (subunidades RRM1 y RRM2, confirmadas entre sus dianas farmacológicas) y la ADN polimerasa, y además induce apoptosis por vía mitocondrial. Esto reduce los desoxinucleótidos disponibles para la replicación del ADN.
 
 Estos mecanismos actúan sobre blastos leucémicos en proliferación independientemente de su linaje. Por ello, resulta plausible que el fármaco, ya comprobado en la LLA, también sea activo en enfermedad mieloide. De hecho, la literatura describe actividad como agente único en leucemias agudas y su uso en leucemia mieloide aguda (LMA) en adultos, aunque fuera de su indicación aprobada. Este vínculo se apoya en el conocimiento general de la clase farmacológica y no en datos de mecanismo específicos del paquete de datos.
 
@@ -159,11 +159,12 @@ Hay dos ensayos de Fase 3 completados (NCT02085408 y NCT00317642) y numerosos es
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 10 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se listan las 5 primeras" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873) |
 
 <!-- review:end log -->
 

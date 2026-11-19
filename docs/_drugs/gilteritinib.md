@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **poliomielitis bulbar**, 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, gilteritinib es un inhibidor dual de las tirosina quinasas FLT3 y AXL, aprobado para la LMA recidivante o refractaria con mutación de FLT3.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Gilteritinib (traducción no oficial): «El gilteritinib es una molécula pequeña que inhibe múltiples receptores con actividad de tirosina cinasa, incluida la tirosina cinasa 3 similar a FMS (FLT3). El gilteritinib demostró la capacidad de inhibir la señalización del receptor FLT3 y la proliferación en células que expresaban FLT3 de forma exógena, incluidas FLT3-ITD, las mutaciones del dominio tirosina cinasa (TKD) FLT3-D835Y y FLT3-ITD-D835Y, e indujo la apoptosis en células leucémicas que expresaban FLT3-ITD.» Texto original en inglés: "Gilteritinib is a small molecule that inhibits multiple receptor tyrosine kinases, including FMS-like tyrosine kinase 3 (FLT3). Gilteritinib demonstrated the ability to inhibit FLT3 receptor signaling and proliferation in cells exogenously expressing FLT3 including FLT3-ITD, tyrosine kinase domain mutations (TKD) FLT3-D835Y and FLT3-ITD-D835Y, and it induced apoptosis in leukemic cells expressing FLT3-ITD." ([DailyMed: Xospata (gilteritinib) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5ff59aa-9c0d-49a8-9053-1f179b482383), versión del 2026-10-01; consultado el 2026-11-19). Según la información conocida, gilteritinib es un inhibidor dual de las tirosina quinasas FLT3 y AXL, aprobado para la LMA recidivante o refractaria con mutación de FLT3.
 
 La predicción se apoya únicamente en un puntaje elevado del modelo TxGNN (0.991), sin ninguna explicación mecanística asociada. No se conoce una vía biológica que conecte la inhibición de FLT3/AXL con la replicación del poliovirus, la neuroprotección en la poliomielitis bulbar o la modulación de la respuesta del huésped en esta enfermedad.
 
@@ -123,6 +123,19 @@ La predicción se basa solo en el puntaje del modelo (L5), sin ensayos clínicos
 - Información de seguridad del prospecto de AEMPS (advertencias y contraindicaciones).
 - Texto de la indicación aprobada en España para confirmar la indicación original.
 - Una evaluación de la relación beneficio-riesgo en la población potencial.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Xospata (gilteritinib) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5ff59aa-9c0d-49a8-9053-1f179b482383) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

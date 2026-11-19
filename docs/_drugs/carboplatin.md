@@ -54,7 +54,7 @@ Carboplatino es un fármaco antineoplásico del grupo de los compuestos de plati
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general de la clase, carboplatino es un compuesto de platino que daña el ADN de las células tumorales mediante enlaces cruzados, lo que impide su división y favorece su muerte.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Carboplatin (traducción no oficial): «El carboplatino es un fármaco a base de platino que se une al ADN y forma entrecruzamientos del ADN. Estos entrecruzamientos inhiben la replicación y la transcripción del ADN y desencadenan procesos citotóxicos que conducen a la muerte celular.» Texto original en inglés: "Carboplatin is a platinum-based drug that binds to DNA and forms DNA cross-links. These crosslinks inhibit DNA replication and transcription and trigger cytotoxic processes that lead to cell death." ([DailyMed: Kyxata (carboplatin) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f91c48da-68d1-4aa7-89b8-d84a3e8b629b), versión del 2026-11-09; consultado el 2026-11-19). Por conocimiento general de la clase, carboplatino es un compuesto de platino que daña el ADN de las células tumorales mediante enlaces cruzados, lo que impide su división y favorece su muerte.
 
 Ese mecanismo es, en principio, aplicable a tumores de origen epitelial como los adenocarcinomas del tubo digestivo. Esto explica por qué el modelo asigna un puntaje alto a esta indicación.
 
@@ -101,6 +101,19 @@ La predicción se apoya solo en el puntaje del modelo (0,9928), sin ensayos clí
 - Datos preclínicos o series de casos que muestren actividad de carboplatino en esta histología.
 - Datos del mecanismo de acción y de las advertencias y contraindicaciones del prospecto.
 - Evaluación de seguridad en la población objetivo, dada la mielosupresión esperada.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Kyxata (carboplatin) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f91c48da-68d1-4aa7-89b8-d84a3e8b629b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

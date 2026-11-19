@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis papilar**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, salbutamol es un agonista beta-2 adrenérgico de acción corta, su eficacia en asma y enfermedad bronquial está bien establecida, y mecanísticamente podría ser aplicable a la conjuntivitis papilar solo de forma especulativa.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Salbutamol (traducción no oficial): «El sulfato de salbutamol es un agonista beta 2 -adrenérgico. Los efectos farmacológicos del sulfato de salbutamol se atribuyen a la activación de los receptores beta 2 -adrenérgicos del músculo liso de las vías respiratorias. La activación de los receptores beta 2 -adrenérgicos produce la activación de la adenilciclasa y un aumento de la concentración intracelular de 3',5'-adenosín monofosfato cíclico (AMP cíclico).» Texto original en inglés: "Albuterol sulfate is a beta 2 -adrenergic agonist. The pharmacologic effects of albuterol sulfate are attributable to activation of beta 2 -adrenergic receptors on airway smooth muscle. Activation of beta 2 -adrenergic receptors leads to the activation of adenylcyclase and to an increase in the intracellular concentration of cyclic-3', 5’-adenosine monophosphate (cyclic AMP)." ([DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d), versión del 2024-12-20; consultado el 2026-11-19). Según la información conocida, salbutamol es un agonista beta-2 adrenérgico de acción corta, su eficacia en asma y enfermedad bronquial está bien establecida, y mecanísticamente podría ser aplicable a la conjuntivitis papilar solo de forma especulativa.
 
 Los datos compilados indican que los agonistas beta-2 han mostrado cierta actividad antiinflamatoria en tejido conjuntival en modelos animales. Esto sugiere una posible vía de acción local, pero no se recuperó ningún ensayo clínico ni publicación específica sobre salbutamol en esta indicación. El vínculo mecanístico es, por tanto, hipotético.
 
@@ -131,11 +131,12 @@ La predicción se basa únicamente en el puntaje del modelo (nivel de evidencia 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 15 autorizaciones vigentes, todas de salbutamol como principio activo único y ninguna cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d) |
 
 <!-- review:end log -->
 

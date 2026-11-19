@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **deficiencia congénita d
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la desmopresina eleva los niveles plasmáticos del factor VIII y del factor de von Willebrand (VWF) mediante su liberación desde los depósitos endoteliales, a través de la activación de los receptores V2.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Desmopressin (traducción no oficial): «El acetato de desmopresina aumenta los niveles plasmáticos de actividad del factor VIII en pacientes con hemofilia y enfermedad de von Willebrand tipo I. Los efectos antidiuréticos del acetato de desmopresina están mediados por la estimulación de los receptores de vasopresina 2 (V2), lo que aumenta la reabsorción de agua en el riñón y, por lo tanto, reduce la producción de orina. El acetato de desmopresina es una hormona de reemplazo de la hormona antidiurética en el tratamiento de la diabetes insípida central.» Texto original en inglés: "Desmopressin acetate increases plasma levels of factor VIII activity in patients with hemophilia and von Willebrand's disease Type I. The antidiuretic effects of desmopressin acetate are mediated by stimulation of vasopressin 2 (V2) receptors, thereby increasing water re-absorption in the kidney, and hence reducing urine production. Desmopressin acetate is a replacement hormone for antidiuretic hormone in the treatment of central diabetes insipidus." ([DailyMed: Ddavp (desmopressin acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=651f6fee-a2c7-431b-8d5d-58b156c72244), versión del 2022-09-28; consultado el 2026-11-19). Según la información conocida, la desmopresina eleva los niveles plasmáticos del factor VIII y del factor de von Willebrand (VWF) mediante su liberación desde los depósitos endoteliales, a través de la activación de los receptores V2.
 
 La protrombina (factor II) no se libera por esta vía, por lo que **no existe una base mecanística clara** para un beneficio en la deficiencia congénita de protrombina. Ambas son enfermedades hemorrágicas hereditarias, y es probable que el alto puntaje del modelo TxGNN (deep learning) refleje similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -121,11 +121,12 @@ La predicción carece de ensayos clínicos y de literatura, y la desmopresina no
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ddavp (desmopressin acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=651f6fee-a2c7-431b-8d5d-58b156c72244) |
 
 <!-- review:end log -->
 

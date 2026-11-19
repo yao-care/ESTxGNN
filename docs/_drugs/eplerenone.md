@@ -56,7 +56,7 @@ pero actualmente no existen ensayos clínicos registrados y solo hay **13 public
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, eplerenona es un antagonista selectivo del receptor de mineralocorticoides (MR), su eficacia en hipertensión arterial está establecida, y mecanísticamente podría ser aplicable a la hipertensión pulmonar asociada a hipoxia.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Eplerenone (traducción no oficial): «La eplerenona se une al receptor de mineralocorticoides y bloquea la unión de la aldosterona, un componente del sistema renina-angiotensina-aldosterona (SRAA). La síntesis de aldosterona, que tiene lugar principalmente en la glándula suprarrenal, está modulada por múltiples factores, entre ellos la angiotensina II y mediadores ajenos al SRAA, como la hormona adrenocorticotropa (ACTH) y el potasio.» Texto original en inglés: "Eplerenone binds to the mineralocorticoid receptor and blocks the binding of aldosterone, a component of the renin-angiotensin-aldosterone-system (RAAS). Aldosterone synthesis, which occurs primarily in the adrenal gland, is modulated by multiple factors, including angiotensin II and non-RAAS mediators such as adrenocorticotropic hormone (ACTH) and potassium." ([DailyMed: Inspra (eplerenone) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a), versión del 2025-06-23; consultado el 2026-11-19). Según la información conocida, eplerenona es un antagonista selectivo del receptor de mineralocorticoides (MR), su eficacia en hipertensión arterial está establecida, y mecanísticamente podría ser aplicable a la hipertensión pulmonar asociada a hipoxia.
 
 La hipoxia crónica activa la señalización del MR y la síntesis de aldosterona. Estudios preclínicos muestran que la hipoxia intermitente crónica induce fibrosis renal mediada por MR (PMID 35346763) y remodelado auricular, que eplerenona atenuó en ratas (PMID 35568141). Otros trabajos indican que la hipoxia aumenta la síntesis de aldosterona en células endoteliales de arteria pulmonar y favorece la fibrosis vascular pulmonar (PMID 25001622), y que eplerenona atenúa el remodelado vascular pulmonar en modelos de hipertensión arterial pulmonar (PMID 29499691, 35043674).
 
@@ -121,11 +121,12 @@ La evidencia es de nivel L4: se basa en estudios preclínicos y estudios indirec
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se registran 20 autorizaciones vigentes (todas de monofármaco); se muestran las 5 primeras" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Inspra (eplerenone) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a) |
 
 <!-- review:end log -->
 

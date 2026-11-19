@@ -58,7 +58,7 @@ Esta predicción se respalda con **0 ensayos clínicos** y **4 publicaciones** (
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Palbociclib es un inhibidor de CDK4/6 que bloquea la progresión del ciclo celular en la fase G1. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada, pero su clase farmacológica es conocida y se usa en cáncer de mama con receptores hormonales positivos.
+Palbociclib es un inhibidor de CDK4/6 que bloquea la progresión del ciclo celular en la fase G1. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Palbociclib (traducción no oficial): «El palbociclib es un inhibidor de las cinasas dependientes de ciclinas (CDK) 4 y 6. La ciclina D1 y las CDK4/6 se encuentran corriente abajo de vías de señalización que conducen a la proliferación celular. In vitro, el palbociclib redujo la proliferación celular de líneas celulares de cáncer de mama positivas para el receptor de estrógeno (RE) al bloquear la progresión de la célula de la fase G1 a la fase S del ciclo celular.» Texto original en inglés: "Palbociclib is an inhibitor of cyclin-dependent kinases (CDK) 4 and 6. Cyclin D1 and CDK4/6 are downstream of signaling pathways which lead to cellular proliferation. In vitro, palbociclib reduced cellular proliferation of estrogen receptor (ER)-positive breast cancer cell lines by blocking progression of the cell from G1 into S phase of the cell cycle." ([DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792), versión del 2026-07-06; consultado el 2026-11-19).
 
 En artritis reumatoide, la hiperplasia sinovial depende de la proliferación de fibroblastos sinoviales. Estudios preclínicos indican que la inhibición del ciclo celular mejora la enfermedad en modelos animales sin suprimir la inmunidad adquirida (PMID 25165034). Otro trabajo señala una hiperplasia sinovial dependiente de CDK6 (PMID 39940918). Además, un reporte de caso describe la mejoría de una artritis reumatoide en una paciente con cáncer de mama tratada con palbociclib (PMID 33587021).
 
@@ -119,6 +119,19 @@ La evidencia para artritis reumatoide es solo preclínica y de un caso aislado (
 - Estudios preclínicos adicionales y, de ser favorables, un ensayo exploratorio de fase 2 en artritis reumatoide.
 - Evaluar la relación beneficio-riesgo, en particular mielosupresión, eventos tromboembólicos e interacciones, en una población no oncológica.
 - Valorar la compatibilidad de vías de administración y la similitud con la indicación original, hoy pendientes.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

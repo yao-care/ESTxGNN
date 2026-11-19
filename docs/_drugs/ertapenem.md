@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para la **artritis bacteriana**
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este fármaco. Según el conocimiento general, ertapenem es un carbapenémico de amplio espectro que inhibe la síntesis de la pared celular bacteriana al unirse a las proteínas fijadoras de penicilina (PBP). Es eficaz en infecciones respiratorias bacterianas, lo que es coherente con sus indicaciones de partida.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ertapenem (traducción no oficial): «El ertapenem sódico es un antibiótico carbapenémico. […] El ertapenem tiene actividad in vitro contra bacterias aerobias y anaerobias grampositivas y gramnegativas. La actividad bactericida del ertapenem se debe a la inhibición de la síntesis de la pared celular y está mediada por la unión del ertapenem a las proteínas de unión a penicilina (PBP).» Texto original en inglés: "Ertapenem sodium is a carbapenem antibiotic. […] Ertapenem has in vitro activity against Gram-positive and Gram-negative aerobic and anaerobic bacteria. The bactericidal activity of ertapenem results from the inhibition of cell wall synthesis and is mediated through ertapenem binding to penicillin binding proteins (PBPs)." ([DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22), versión del 2026-02-04; consultado el 2026-11-19). Según el conocimiento general, ertapenem es un carbapenémico de amplio espectro que inhibe la síntesis de la pared celular bacteriana al unirse a las proteínas fijadoras de penicilina (PBP). Es eficaz en infecciones respiratorias bacterianas, lo que es coherente con sus indicaciones de partida.
 
 La neumonía bacteriana y la artritis bacteriana son ambas infecciones causadas por bacterias sensibles a este antibiótico. Ertapenem tiene actividad frente a muchas enterobacterias (incluidas las productoras de BLEE) y frente a anaerobios, que son causas plausibles de artritis séptica e infecciones osteoarticulares. Por eso el vínculo mecanístico es coherente.
 
@@ -143,11 +143,12 @@ La predicción es mecanísticamente coherente, pero no hay ensayos clínicos par
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 8 autorizaciones vigentes, todas de fármaco único" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22) |
 
 <!-- review:end log -->
 

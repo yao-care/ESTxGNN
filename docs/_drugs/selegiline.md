@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, selegilina es un inhibidor selectivo e irreversible de la MAO-B, y los datos farmacológicos disponibles también la vinculan con MAO-A (dosis más altas). Su eficacia en la enfermedad de Parkinson, como monoterapia en etapas tempranas o combinada con levodopa en etapas avanzadas, está comprobada, y originalmente se desarrolló para el trastorno depresivo mayor.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Selegiline (traducción no oficial): «La selegilina es un inhibidor irreversible de la monoaminooxidasa (MAO), que regula la degradación metabólica de las catecolaminas y de la serotonina en el sistema nervioso central y en los tejidos periféricos. A las dosis recomendadas, la selegilina es selectiva para la MAO de tipo B (MAO-B), la forma principal en el cerebro.» Texto original en inglés: "Selegiline is an irreversible inhibitor of monoamine oxidase (MAO), which regulates the metabolic degradation of catecholamines and serotonin in the central nervous system and peripheral tissues. At recommended doses, selegiline is selective for MAO type B (MAO-B), the major form in the brain." ([DailyMed: Zelapar (selegiline hydrochloride) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=380d7717-2a79-42f3-a712-efe5e7696ba0), versión del 2021-06-01; consultado el 2026-11-19). Según la información conocida, selegilina es un inhibidor selectivo e irreversible de la MAO-B, y los datos farmacológicos disponibles también la vinculan con MAO-A (dosis más altas). Su eficacia en la enfermedad de Parkinson, como monoterapia en etapas tempranas o combinada con levodopa en etapas avanzadas, está comprobada, y originalmente se desarrolló para el trastorno depresivo mayor.
 
 Con los datos disponibles **no se identifica una relación mecanística plausible** entre la inhibición de MAO-B y este síndrome de malformación del neurodesarrollo. La polimicrogiria con hipoplasia cerebelosa y artrogriposis es un trastorno estructural del desarrollo cerebral, muy distinto de la enfermedad de Parkinson, que es degenerativa y dopaminérgica.
 
@@ -90,6 +90,19 @@ La predicción carece de ensayos clínicos, literatura y vínculo mecanístico p
 - Evaluación de la compatibilidad de la vía de administración y del similitud con la indicación original
 
 **Nota complementaria:** entre las otras indicaciones predichas, la **esquizofrenia** (puntaje 0.9914) tiene mucho más respaldo: un ensayo clínico completado (NCT00456976, fase temprana 1, n=70) y literatura sobre selegilina como terapia adyuvante para síntomas negativos, incluidos ensayos aleatorizados y una revisión sistemática. Su nivel de evidencia es L3 y podría ser una candidata más prometedora para una evaluación independiente.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zelapar (selegiline hydrochloride) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=380d7717-2a79-42f3-a712-efe5e7696ba0) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

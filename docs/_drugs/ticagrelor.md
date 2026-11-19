@@ -58,7 +58,7 @@ con **2 ensayos clínicos** y **2 publicaciones** que actualmente respaldan esta
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, ticagrelor es un inhibidor reversible del receptor plaquetario P2Y12, lo que reduce la agregación plaquetaria y la formación de trombos sobre placas ateroscleróticas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ticagrelor (traducción no oficial): «El ticagrelor y su metabolito principal interactúan de forma reversible con el receptor plaquetario de ADP P2Y 12 para impedir la transducción de señales y la activación plaquetaria. El ticagrelor y su metabolito activo tienen una potencia aproximadamente equivalente.» Texto original en inglés: "Ticagrelor and its major metabolite reversibly interact with the platelet P2Y 12 ADP-receptor to prevent signal transduction and platelet activation. Ticagrelor and its active metabolite are approximately equipotent." ([DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8), versión del 2026-05-07; consultado el 2026-11-19). Según la información conocida, ticagrelor es un inhibidor reversible del receptor plaquetario P2Y12, lo que reduce la agregación plaquetaria y la formación de trombos sobre placas ateroscleróticas.
 
 Su eficacia en el síndrome coronario agudo y en la enfermedad arterial periférica es la base de sus indicaciones originales. La arteriosclerosis intracraneal comparte el mismo sustrato fisiopatológico (placa aterosclerótica con riesgo de trombosis), por lo que el mecanismo antitrombótico es mecanísticamente aplicable.
 
@@ -125,11 +125,12 @@ El mecanismo antitrombótico es plausible y existe un ensayo de Fase 3 de gran t
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes, todas de monofármaco (60 mg y 90 mg, en su mayoría genéricos EFG); se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8) |
 
 <!-- review:end log -->
 

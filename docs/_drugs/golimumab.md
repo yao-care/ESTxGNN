@@ -60,10 +60,9 @@ pero actualmente solo hay **1 ensayo clínico** (de relevancia tangencial) y **6
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, golimumab es un anticuerpo monoclonal que bloquea el factor de necrosis tumoral alfa (TNF-alfa), una citocina clave en la inflamación sinovial y sistémica de varias enfermedades autoinmunes.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Golimumab (traducción no oficial): «El golimumab es un anticuerpo monoclonal humano que se une tanto a la forma bioactiva soluble como a la transmembrana del TNFα humano. Esta interacción impide la unión del TNFα a sus receptores, con lo que inhibe la actividad biológica del TNFα (una proteína de tipo citocina).» Texto original en inglés: "Golimumab is a human monoclonal antibody that binds to both the soluble and transmembrane bioactive forms of human TNFα. This interaction prevents the binding of TNFα to its receptors, thereby inhibiting the biological activity of TNFα (a cytokine protein)." ([DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00), versión del 2026-11-02; consultado el 2026-11-19). Según la información conocida, golimumab es un anticuerpo monoclonal que bloquea el factor de necrosis tumoral alfa (TNF-alfa), una citocina clave en la inflamación sinovial y sistémica de varias enfermedades autoinmunes.
 
 La vasculitis reumatoide es una manifestación extraarticular grave de la artritis reumatoide, más frecuente en pacientes seropositivos. Como la artritis reumatoide es una indicación ya establecida de golimumab, y la inflamación mediada por TNF contribuye también a sus manifestaciones extraarticulares, existe una justificación mecanística plausible.
-
 
 ---
 
@@ -125,6 +124,19 @@ El puntaje del modelo es alto, pero no hay ningún estudio que pruebe golimumab 
 - Evaluar el riesgo de eventos paradójicos (vasculitis inducida por anti-TNF, infecciones graves) en esta población.
 - Información de seguridad del prospecto (advertencias y contraindicaciones) y datos detallados del mecanismo de acción.
 - Considerar priorizar otras indicaciones predichas con mayor respaldo, como la espondilopatía inflamatoria y la artritis idiopática juvenil poliarticular (ambas con ensayos de Fase 3 y nivel L1), aunque en gran medida son extensiones de indicaciones ya existentes.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

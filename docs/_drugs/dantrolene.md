@@ -60,7 +60,7 @@ Cabe señalar que esta predicción coincide en la práctica con la indicación o
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información farmacológica compilada, dantroleno actúa sobre los receptores de rianodina (RyR1 y RyR3), canales de liberación de calcio del retículo sarcoplásmico del músculo esquelético. Al inhibir esta liberación, reduce la contractilidad y el estado hipermetabólico característico de la crisis.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dantrolene (traducción no oficial): «En preparaciones aisladas de nervio-músculo, se ha demostrado que el dantroleno produce relajación al afectar la respuesta contráctil del músculo en un sitio más allá de la unión mioneural. En el músculo esquelético, el dantroleno disocia el acoplamiento excitación-contracción, probablemente al interferir en la liberación de Ca ++ del retículo sarcoplásmico.» Texto original en inglés: "In isolated nerve-muscle preparation, dantrolene has been shown to produce relaxation by affecting the contractile response of the muscle at a site beyond the myoneural junction. In skeletal muscle, dantrolene dissociates the excitation-contraction coupling, probably by interfering with the release of Ca ++ from the sarcoplasmic reticulum." ([DailyMed: Ryanodex Dantrolene Sodium (dantrolene sodium) prescribing information, Eagle Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f7b3ac0-604d-4c78-b545-5e0f8ea3d698), versión del 2024-10-30; consultado el 2026-11-19). Según la información farmacológica compilada, dantroleno actúa sobre los receptores de rianodina (RyR1 y RyR3), canales de liberación de calcio del retículo sarcoplásmico del músculo esquelético. Al inhibir esta liberación, reduce la contractilidad y el estado hipermetabólico característico de la crisis.
 
 La susceptibilidad a la hipertermia maligna se debe principalmente a variantes de ganancia de función en *RYR1*, que provocan una liberación descontrolada de calcio. Es el mismo mecanismo que justifica la indicación aprobada, y dantroleno es el tratamiento de referencia recomendado por las guías de la Association of Anaesthetists (PMID 33399225) y del European Malignant Hyperthermia Group (PMID 33131754). Un estudio mecanístico (PMID 28373535) además describe que el fármaco requiere Mg2+ para detener la crisis.
 
@@ -125,6 +125,19 @@ Dantroleno es el tratamiento de referencia para la hipertermia maligna, respalda
 - Confirmar la indicación aprobada en la autorización española.
 - Para las indicaciones de miopatías congénitas y parálisis periódicas, considerar solo como preguntas de investigación (o mantener en espera), dado que no hay evidencia de beneficio sobre la enfermedad de base.
 - Valorar con cautela el uso en pacientes con enfermedad hepática o muscular, según las contraindicaciones del grafo de conocimiento.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ryanodex Dantrolene Sodium (dantrolene sodium) prescribing information, Eagle Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f7b3ac0-604d-4c78-b545-5e0f8ea3d698) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

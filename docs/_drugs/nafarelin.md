@@ -56,7 +56,7 @@ pero actualmente **no existen ensayos clínicos ni publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, nafarelina es un agonista peptídico del receptor de GnRH (GnRH1). Este tipo de fármacos desensibiliza el receptor hipofisario y suprime las gonadotropinas y, con ello, los esteroides sexuales gonadales. Esto explica su eficacia en enfermedades dependientes de hormonas sexuales, como la endometriosis y la pubertad precoz central.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Nafarelin (traducción no oficial): «El acetato de nafarelina es un potente análogo agonista de la hormona liberadora de gonadotropinas (GnRH). Al inicio de la administración, la nafarelina estimula la liberación de las gonadotropinas hipofisarias, LH y FSH, lo que produce un aumento temporal de la esteroidogénesis gonadal.» Texto original en inglés: "Nafarelin acetate is a potent agonistic analog of gonadotropin-releasing hormone (GnRH). At the onset of administration, nafarelin stimulates the release of the pituitary gonadotropins, LH and FSH, resulting in a temporary increase of gonadal steroidogenesis." ([DailyMed: Synarel (nafarelin acetate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d0aa57cb-d2f4-46d7-af43-7c8b06aa81a6), versión del 2026-03-05; consultado el 2026-11-19). Según la información conocida, nafarelina es un agonista peptídico del receptor de GnRH (GnRH1). Este tipo de fármacos desensibiliza el receptor hipofisario y suprime las gonadotropinas y, con ello, los esteroides sexuales gonadales. Esto explica su eficacia en enfermedades dependientes de hormonas sexuales, como la endometriosis y la pubertad precoz central.
 
 La relación con la nueva indicación es débil. El síndrome de Ambras es un trastorno genético congénito del desarrollo del cabello y el vello, y no hay una vía farmacológica clara que lo conecte con el eje hipotálamo-hipófisis-gonadal. La supresión de andrógenos podría ayudar en el hirsutismo de origen androgénico, pero no se espera que sea útil en una hipertricosis congénita no androgénica.
 
@@ -96,6 +96,19 @@ La predicción para hipertricosis universal congénita tipo Ambras es solo compu
 - Realizar una búsqueda sistemática de literatura y de registros de ensayos para esta indicación.
 - Confirmar la indicación aprobada en la autorización 60079.
 - Valorar si otras predicciones con mayor plausibilidad biológica merecen priorizarse frente a esta.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Synarel (nafarelin acetate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d0aa57cb-d2f4-46d7-af43-7c8b06aa81a6) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **osteoartritis**, pero no
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, iodixanol es un contraste radiográfico yodado, no iónico e iso-osmolar, sin farmacología conocida que modifique la enfermedad.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Iodixanol (traducción no oficial): «La inyección intravascular de iodixanol opacifica los vasos en el trayecto del flujo del medio de contraste, lo que permite la visualización de las estructuras internas. En las imágenes del cuerpo, los medios de contraste yodados difunden desde el espacio vascular hacia el espacio extravascular.» Texto original en inglés: "Intravascular injection of iodixanol opacifies vessels in the path of flow of the contrast agent, permitting visualization of internal structures. In imaging of the body, iodinated contrast agents diffuse from the vascular into the extravascular space." ([DailyMed: Visipaque (iodixanol) prescribing information, GE Healthcare Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d964c13-88ad-43be-88d4-a3a7ea4d5b5e), versión del 2026-10-16; consultado el 2026-11-19). Según la información conocida, iodixanol es un contraste radiográfico yodado, no iónico e iso-osmolar, sin farmacología conocida que modifique la enfermedad.
 
 La literatura vincula iodixanol con la osteoartritis solo como herramienta de imagen: la tomografía computarizada con contraste se usa para visualizar el cartílago y estudiar la difusión de solutos a través del cartílago y la interfase con el hueso subcondral. Un estudio in vitro halló además que los contrastes yodados no alteran la función del plasma rico en plaquetas.
 
@@ -106,6 +106,19 @@ No existen ensayos clínicos y la literatura solo describe iodixanol como herram
 ### Nota sobre la segunda predicción: artritis reumatoide
 
 El modelo también predice **artritis reumatoide** (puntaje 0,9900), con nivel de evidencia **L5** y decisión **Hold**. La única publicación recuperada ([PMID 36628042](https://pubmed.ncbi.nlm.nih.gov/36628042/), 2022, *Cureus*) es un reporte de caso sobre desensibilización a otro contraste (iohexol), que no aborda iodixanol ni la eficacia en la enfermedad. No existe vínculo mecanístico respaldado.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Visipaque (iodixanol) prescribing information, GE Healthcare Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d964c13-88ad-43be-88d4-a3a7ea4d5b5e) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

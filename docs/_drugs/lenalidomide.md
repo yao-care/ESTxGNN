@@ -56,7 +56,7 @@ con **42 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la farmacología general conocida, lenalidomida es un derivado de la talidomida que se une a cereblon (CRBN) y redirige la ligasa E3 CRL4-CRBN para degradar sustratos como IKZF1 e IKZF3, y CK1α (esta última explica la actividad en el SMD con del(5q)). Además, potencia la actividad de las células NK y T.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lenalidomide (traducción no oficial): «La lenalidomida es un análogo de la talidomida con propiedades inmunomoduladoras, antiangiogénicas y antineoplásicas. Las actividades celulares de la lenalidomida están mediadas por su diana, el cereblón, un componente de un complejo enzimático de ubiquitina ligasa E3 de anillo de culina.» Texto original en inglés: "Lenalidomide is an analogue of thalidomide with immunomodulatory, antiangiogenic, and antineoplastic properties. Cellular activities of lenalidomide are mediated through its target cereblon, a component of a cullin ring E3 ubiquitin ligase enzyme complex." ([DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be), versión del 2023-03-24; consultado el 2026-11-19). Según la farmacología general conocida, lenalidomida es un derivado de la talidomida que se une a cereblon (CRBN) y redirige la ligasa E3 CRL4-CRBN para degradar sustratos como IKZF1 e IKZF3, y CK1α (esta última explica la actividad en el SMD con del(5q)). Además, potencia la actividad de las células NK y T.
 
 La leucemia mieloide y el síndrome mielodisplásico (SMD) son neoplasias mieloides biológicamente cercanas, y el SMD con del(5q) es una indicación ya establecida de lenalidomida. Una proporción importante de los ensayos incluye pacientes con SMD de alto riesgo y LMA, a menudo con anomalías del cromosoma 5.
 
@@ -159,11 +159,12 @@ Las demás predicciones tienen menor respaldo y no se recomienda priorizarlas:
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Existen 20 autorizaciones vigentes (todas monofármaco, formas de cápsula dura, genéricos EFG)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be) |
 
 <!-- review:end log -->
 

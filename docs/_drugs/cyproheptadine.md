@@ -55,7 +55,7 @@ No hay **ningún ensayo clínico registrado**; la evidencia se limita a **9 publ
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la ciproheptadina es un antihistamínico H1 de primera generación con actividad antagonista sobre los receptores de serotonina (5-HT2) y efectos anticolinérgicos.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cyproheptadine (traducción no oficial): «Ciproheptadina es un antagonista de la serotonina y de la histamina con efectos anticolinérgicos y sedantes. Los fármacos antiserotoninérgicos y antihistamínicos parecen competir con la serotonina y la histamina, respectivamente, por los sitios receptores.» Texto original en inglés: "Cyproheptadine is a serotonin and histamine antagonist with anticholinergic and sedative effects. Antiserotonin and antihistamine drugs appear to compete with serotonin and histamine, respectively, for receptor sites." ([DailyMed: Cyproheptadine Hydrochloride Solution (cyproheptadine hydrochloride) prescribing information, Method Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1acfd050-6c07-a269-e063-6394a90a77e8), versión del 2025-10-21; consultado el 2026-11-19). Según la información conocida, la ciproheptadina es un antihistamínico H1 de primera generación con actividad antagonista sobre los receptores de serotonina (5-HT2) y efectos anticolinérgicos.
 
 La urticaria y el angioedema ya forman parte de las indicaciones originales del fármaco, por lo que la urticaria alérgica es esencialmente una extensión de un uso establecido y no un reposicionamiento genuino. El bloqueo de histamina y serotonina sobre la respuesta de habón y eritema mediada por mastocitos es mecanísticamente plausible y coherente.
 
@@ -128,11 +128,12 @@ La urticaria alérgica ya está cubierta por las indicaciones originales, la evi
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Todas son autorizaciones vigentes de producto único (ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cyproheptadine Hydrochloride Solution (cyproheptadine hydrochloride) prescribing information, Method Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1acfd050-6c07-a269-e063-6394a90a77e8) |
 
 <!-- review:end log -->
 

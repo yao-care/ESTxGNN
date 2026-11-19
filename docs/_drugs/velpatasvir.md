@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **infección por el virus 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, velpatasvir es un inhibidor de la NS5A del VHC, su eficacia en hepatitis C está bien comprobada y se comercializa en combinación con sofosbuvir (Epclusa) y con sofosbuvir y voxilaprevir (Vosevi).
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Velpatasvir es (traducción no oficial): «Inhibidor de la proteína no estructural 5A» Texto original en inglés: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, velpatasvir es un inhibidor de la NS5A del VHC, su eficacia en hepatitis C está bien comprobada y se comercializa en combinación con sofosbuvir (Epclusa) y con sofosbuvir y voxilaprevir (Vosevi).
 
 Mecanísticamente, el vínculo con la hepatitis B es débil. El VHB es un virus de ADN que se replica mediante transcripción inversa y no tiene un homólogo de NS5A, por lo que velpatasvir no tiene actividad anti-VHB establecida. La puntuación alta del modelo probablemente refleja anotaciones compartidas entre enfermedades hepáticas virales y no una relación mecanística real.
 
@@ -137,6 +137,19 @@ Velpatasvir carece de mecanismo plausible frente al VHB (virus de ADN sin diana 
 - Resultados del estudio NCT04997564, para separar el efecto de velpatasvir del de TAF.
 - Los textos de indicación y las advertencias y contraindicaciones del prospecto de la AEMPS.
 - Un plan de cribado y monitorización del VHB (HBsAg, anti-HBc, ADN del VHB) en pacientes coinfectados que reciban antivirales de acción directa.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **la enfermedad pseudo-von
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, eftrenonacog alfa es un factor IX recombinante fusionado con Fc que repone el factor IX deficiente en la cascada de coagulación, y su eficacia en hemofilia es la base de su uso clínico.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Eftrenonacog Alfa es (traducción no oficial): «Proteína exógena del factor IX de la coagulación» Texto original en inglés: "Coagulation factor IX exogenous protein" ([ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, eftrenonacog alfa es un factor IX recombinante fusionado con Fc que repone el factor IX deficiente en la cascada de coagulación, y su eficacia en hemofilia es la base de su uso clínico.
 
 La enfermedad pseudo-von Willebrand (tipo plaquetario) se debe a una mutación con ganancia de función del receptor plaquetario GPIbα, que aumenta su afinidad por el factor von Willebrand y provoca la eliminación de plaquetas y la pérdida de multímeros de alto peso molecular del factor von Willebrand. El defecto reside en la interacción plaqueta-VWF (hemostasia primaria), no en una deficiencia de factor IX.
 
@@ -104,6 +104,19 @@ La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos ni l
 - Revisión del prospecto de AEMPS (advertencias y contraindicaciones) para completar el análisis de seguridad
 - Búsqueda de estudios preclínicos o series de casos que respalden la hipótesis
 - Evaluación de la compatibilidad de vía de administración y de la similitud con la indicación original
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

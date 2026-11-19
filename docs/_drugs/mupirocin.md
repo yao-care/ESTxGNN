@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según el conocimiento farmacológico general (no verificado con los datos aportados), mupirocina inhibe la isoleucil-tRNA sintetasa bacteriana y es activa principalmente frente a cocos grampositivos como *Staphylococcus aureus* (incluido SARM) y *Streptococcus pyogenes*.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Mupirocin (traducción no oficial): «La mupirocina es un antibacteriano inhibidor de la ARN sintetasa. […] La mupirocina inhibe la síntesis de proteínas bacterianas mediante la unión reversible y específica a la isoleucil-ARN de transferencia (ARNt) sintetasa bacteriana. La mupirocina es bactericida a las concentraciones alcanzadas mediante la administración tópica.» Texto original en inglés: "Mupirocin is an RNA synthetase inhibitor antibacterial. […] Mupirocin inhibits bacterial protein synthesis by reversibly and specifically binding to bacterial isoleucyl-transfer RNA (tRNA) synthetase. Mupirocin is bactericidal at concentrations achieved by topical administration." ([DailyMed: Pirnuo (mupirocin) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89c43f7b-1a88-45bf-a356-07518d4e7870), versión del 2020-03-20; consultado el 2026-11-19). Según el conocimiento farmacológico general (no verificado con los datos aportados), mupirocina inhibe la isoleucil-tRNA sintetasa bacteriana y es activa principalmente frente a cocos grampositivos como *Staphylococcus aureus* (incluido SARM) y *Streptococcus pyogenes*.
 
 Estos microorganismos son causas frecuentes tanto de infecciones cutáneas como el impétigo (la indicación original) y del empiema pleural, lo que ofrece una base antibacteriana teórica para la predicción.
 
@@ -115,11 +115,12 @@ La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni l
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 8 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Pirnuo (mupirocin) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89c43f7b-1a88-45bf-a356-07518d4e7870) |
 
 <!-- review:end log -->
 

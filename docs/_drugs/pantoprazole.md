@@ -56,7 +56,7 @@ Hay que tener en cuenta que esta indicación coincide con una de las indicacione
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. No obstante, la literatura (PMID 19938880, 10450061) establece que pantoprazol es un inhibidor de la bomba de protones que se une de forma irreversible y específica a la H+/K+ ATPasa de las células parietales gástricas, reduciendo la secreción de ácido gástrico. Se activa en medio ácido, lo que le confiere selectividad por el compartimento ácido de la célula parietal.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pantoprazole (traducción no oficial): «El pantoprazol es un IBP que suprime el paso final de la producción de ácido gástrico mediante su unión covalente al sistema enzimático (H +, K + )-ATPasa en la superficie secretora de la célula parietal gástrica. Este efecto conduce a la inhibición de la secreción de ácido gástrico tanto basal como estimulada, independientemente del estímulo.» Texto original en inglés: "Pantoprazole is a PPI that suppresses the final step in gastric acid production by covalently binding to the (H +, K + )-ATPase enzyme system at the secretory surface of the gastric parietal cell. This effect leads to inhibition of both basal and stimulated gastric acid secretion irrespective of the stimulus." ([DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b), versión del 2026-11-06; consultado el 2026-11-19). No obstante, la literatura (PMID 19938880, 10450061) establece que pantoprazol es un inhibidor de la bomba de protones que se une de forma irreversible y específica a la H+/K+ ATPasa de las células parietales gástricas, reduciendo la secreción de ácido gástrico. Se activa en medio ácido, lo que le confiere selectividad por el compartimento ácido de la célula parietal.
 
 La relación entre la indicación original y la predicha es muy estrecha: la úlcera péptica activa es la manifestación aguda de la enfermedad ulcerosa péptica, y la supresión ácida permite la cicatrización de la lesión. Por ello, la predicción refleja una indicación ya establecida más que una verdadera novedad terapéutica.
 
@@ -124,11 +124,12 @@ El respaldo clínico es sólido (nivel L1, con ensayos de Fase 3 y ECA comparati
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se registran 20 autorizaciones vigentes, todas de fármaco único y ninguna cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b) |
 
 <!-- review:end log -->
 

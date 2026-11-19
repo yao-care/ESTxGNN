@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectiva para la **diabetes mellitus tip
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la insulina degludec es un análogo de insulina basal de acción ultra larga que se une al receptor de insulina y reemplaza la insulina endógena deficiente. Su perfil farmacológico se caracteriza por una vida media de aproximadamente 25 horas y una duración de acción superior a 42 horas, con un efecto hipoglucemiante plano y estable.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Insulin Degludec (traducción no oficial): «La actividad principal de la insulina, incluida TRESIBA, es la regulación del metabolismo de la glucosa. La insulina y sus análogos reducen la glucemia al estimular la captación periférica de glucosa, especialmente por el músculo esquelético y el tejido adiposo, y al inhibir la producción hepática de glucosa.» Texto original en inglés: "The primary activity of insulin, including TRESIBA, is regulation of glucose metabolism. Insulin and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17), versión del 2024-02-22; consultado el 2026-11-19). Según la información conocida, la insulina degludec es un análogo de insulina basal de acción ultra larga que se une al receptor de insulina y reemplaza la insulina endógena deficiente. Su perfil farmacológico se caracteriza por una vida media de aproximadamente 25 horas y una duración de acción superior a 42 horas, con un efecto hipoglucemiante plano y estable.
 
 La diabetes mellitus tipo 1 se caracteriza por la deficiencia absoluta de insulina, por lo que el mecanismo del fármaco es exactamente el mismo que en su uso original en diabetes mellitus.
 
@@ -146,6 +146,19 @@ Existen múltiples ECA de fase 3 completados (por ejemplo, SWITCH 1 y BOOST T1),
 - Definir un plan de monitorización de hipoglucemia y de interacciones, especialmente con betabloqueantes y otros antidiabéticos.
 
 **Otras predicciones del modelo (no recomendadas por ahora):** cooforitis autoinmune, opsismodisplasia, síndrome de disfunción sensible a la tiamina, síndrome de persona rígida clásico y síndrome de extremidad rígida focal.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

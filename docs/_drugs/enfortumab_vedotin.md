@@ -55,7 +55,7 @@ El modelo TxGNN (aprendizaje profundo) predice que podría ser efectivo para **l
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, enfortumab vedotin es un conjugado anticuerpo-fármaco dirigido contra Nectin-4, que libera monometil auristatina E (MMAE), un agente citotóxico, y está aprobado para el carcinoma urotelial.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Enfortumab Vedotin (traducción no oficial): «El enfortumab vedotina-ejfv es un ADC. El anticuerpo es una IgG1 kappa humana dirigida contra la nectina-4, una proteína de adhesión ubicada en la superficie de las células. La molécula pequeña, MMAE, es un agente que altera los microtúbulos, unido al anticuerpo mediante un conector escindible por proteasas.» Texto original en inglés: "Enfortumab vedotin-ejfv is an ADC. The antibody is a human IgG1 kappa directed against Nectin-4, an adhesion protein located on the surface of cells. The small molecule, MMAE, is a microtubule-disrupting agent, attached to the antibody via a protease-cleavable linker." ([DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed), versión del 2026-08-04; consultado el 2026-11-19). Según la información conocida, enfortumab vedotin es un conjugado anticuerpo-fármaco dirigido contra Nectin-4, que libera monometil auristatina E (MMAE), un agente citotóxico, y está aprobado para el carcinoma urotelial.
 
 Sin embargo, la predicción para lepra **no resulta mecanísticamente razonable** con la información disponible. No se identifica un vínculo plausible entre la diana Nectin-4 y la infección por *Mycobacterium leprae*. Además, una terapia citotóxica con ADC sería una opción poco adecuada para una enfermedad infecciosa que ya dispone de tratamiento antimicrobiano eficaz.
 
@@ -112,6 +112,19 @@ La predicción para lepra es solo una asociación del modelo (nivel L5), sin ens
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Demostrar, si procede, un fundamento biológico (por ejemplo, expresión de Nectin-4 en la patología) antes de cualquier estudio preclínico.
 - Valorar las otras predicciones del ranking (todas L5 y sin evidencia terapéutica); varias, como la fiebre catarral maligna y la rinotraqueítis bovina infecciosa, son enfermedades veterinarias y probablemente reflejan similitudes aprendidas por el modelo, no evidencia biológica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

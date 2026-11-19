@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para la **enfermedad trombótic
 
 ## ¿Por qué es Razonable esta Predicción?
 
-La teofilina es un inhibidor no selectivo de la fosfodiesterasa y antagonista de los receptores de adenosina (A1, A2A, A2B y A3). Actualmente no se dispone de datos detallados del mecanismo de acción en las fuentes de fármacos, pero estas dianas farmacológicas sí están documentadas.
+La teofilina es un inhibidor no selectivo de la fosfodiesterasa y antagonista de los receptores de adenosina (A1, A2A, A2B y A3). Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Theophylline (traducción no oficial): «La teofilina tiene dos acciones diferenciadas en las vías respiratorias de los pacientes con obstrucción reversible: la relajación del músculo liso (es decir, broncodilatación) y la supresión de la respuesta de las vías respiratorias a los estímulos (es decir, efectos profilácticos no broncodilatadores).» Texto original en inglés: "Theophylline has two distinct actions in the airways of patients with reversible obstruction: smooth muscle relaxation (i.e., bronchodilation) and suppression of the response of the airways to stimuli (i.e., non-bronchodilator prophylactic effects)." ([DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410), versión del 2024-07-08; consultado el 2026-11-19).
 
 En teoría, el aumento de AMPc en las plaquetas podría reducir su agregación. Sin embargo, el antagonismo de la adenosina puede contrarrestar el efecto antiplaquetario de la propia adenosina, por lo que la dirección neta del efecto es incierta.
 
@@ -123,6 +123,18 @@ No existe ningún ensayo clínico ni estudio que evalúe la teofilina en enferme
 | Enfermedad traqueal | 0,9949 | L3 | Datos in vitro y un estudio retrospectivo veterinario; sin evidencia humana definida |
 | Faringitis | 0,9946 | L4 | Literatura dominada por macrólidos; sin datos de teofilina en faringitis |
 | Laringofaringitis aguda | 0,9935 | L5 | Sin literatura ni ensayos |
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

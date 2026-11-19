@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para el **Linfoma de Hodgkin**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información conocida, el metotrexato es un antifolato que inhibe la dihidrofolato reductasa (DHFR) y, con ello, la síntesis de timidilato y de purinas, lo que frena la proliferación de células que se dividen rápidamente. Los datos farmacológicos compilados confirman como dianas la DHFR, el transportador de folato reducido 1 (SLC19A1) y HMGB1.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Methotrexate (traducción no oficial): «El metotrexato inhibe la dihidrofolato reductasa. Los dihidrofolatos deben ser reducidos a tetrahidrofolatos por esta enzima antes de que puedan utilizarse como transportadores de grupos de un carbono en la síntesis de nucleótidos de purina y de timidilato.» Texto original en inglés: "Methotrexate inhibits dihydrofolic acid reductase. Dihydrofolates must be reduced to tetrahydrofolates by this enzyme before they can be utilized as carriers of one-carbon groups in the synthesis of purine nucleotides and thymidylate." ([DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e), versión del 2026-11-05; consultado el 2026-11-19). Según la información conocida, el metotrexato es un antifolato que inhibe la dihidrofolato reductasa (DHFR) y, con ello, la síntesis de timidilato y de purinas, lo que frena la proliferación de células que se dividen rápidamente. Los datos farmacológicos compilados confirman como dianas la DHFR, el transportador de folato reducido 1 (SLC19A1) y HMGB1.
 
 La eficacia del metotrexato está bien establecida en neoplasias linfoides: leucemia linfoblástica aguda, linfoma no Hodgkin y linfoma cutáneo de células T. Esa cercanía biológica con el linfoma de Hodgkin hace plausible la predicción. Además, el metotrexato ha formado parte del esquema VBM (vinblastina, bleomicina y metotrexato) combinado con radioterapia en Hodgkin de estadio temprano, con tasas de remisión completa del 94-100 % en pequeños ensayos, aunque con toxicidad pulmonar considerable en los primeros estudios.
 
@@ -177,11 +177,12 @@ El metotrexato tiene alta plausibilidad mecanística y uso histórico en linfoma
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes (todas de medicamento con un único principio activo, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e) |
 
 <!-- review:end log -->
 

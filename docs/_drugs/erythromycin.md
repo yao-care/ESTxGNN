@@ -56,7 +56,7 @@ pero por ahora solo hay **0 ensayos clínicos** y **1 publicación** (una revisi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según lo conocido, la eritromicina es un antibiótico macrólido con actividad antibacteriana (inhibe la síntesis proteica bacteriana al unirse a la subunidad ribosómica 50S) y propiedades antiinflamatorias. Su eficacia en infecciones bacterianas, incluida la conjuntivitis, está establecida, y ya se utiliza por vía oftálmica tópica.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Erythromycin (traducción no oficial): «La eritromicina actúa inhibiendo la síntesis de proteínas al unirse a las subunidades ribosómicas 50S de los microorganismos sensibles. No afecta a la síntesis de ácidos nucleicos.» Texto original en inglés: "Erythromycin acts by inhibition of protein synthesis by binding 50S ribosomal subunits of susceptible organisms. It does not affect nucleic acid synthesis." ([DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd), versión del 2018-12-04; consultado el 2026-11-19). Según lo conocido, la eritromicina es un antibiótico macrólido con actividad antibacteriana (inhibe la síntesis proteica bacteriana al unirse a la subunidad ribosómica 50S) y propiedades antiinflamatorias. Su eficacia en infecciones bacterianas, incluida la conjuntivitis, está establecida, y ya se utiliza por vía oftálmica tópica.
 
 La queratoconjuntivitis epitelial punteada es una afección de la superficie ocular que suele asociarse a blefaritis y disfunción de las glándulas de Meibomio. Los macrólidos se emplean en estos cuadros por su efecto antibacteriano y antiinflamatorio, lo que da un vínculo mecanístico plausible con la indicación original de conjuntivitis.
 
@@ -112,11 +112,12 @@ La predicción se apoya en una sola revisión sin ensayos clínicos (nivel L4), 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 15 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd) |
 
 <!-- review:end log -->
 

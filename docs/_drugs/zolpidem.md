@@ -56,7 +56,7 @@ con **0 ensayos clínicos** y **19 publicaciones** que actualmente respaldan est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados como campo estructurado. Según la información conocida, zolpidem es un modulador alostérico positivo del receptor GABA-A con unión preferente a la subunidad alfa-1, lo que produce efectos sedantes e hipnóticos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Zolpidem (traducción no oficial): «El zolpidem es un modulador positivo del receptor GABA A que, según se presume, ejerce sus efectos terapéuticos en el tratamiento a corto plazo del insomnio mediante su unión al sitio de las benzodiazepinas de los receptores GABA A que contienen la subunidad α1, lo que aumenta la frecuencia de apertura del canal de cloruro y da lugar a la inhibición de la excitación neuronal.» Texto original en inglés: "Zolpidem is a GABA A receptor positive modulator presumed to exert its therapeutic effects in the short-term treatment of insomnia through binding to the benzodiazepine site of α1 subunit containing GABA A receptors, increasing the frequency of chloride channel opening resulting in the inhibition of neuronal excitation." ([DailyMed: Ambien (zolpidem tartrate) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=747949c5-2c91-4909-8a07-71b6826f8e97), versión del 2025-02-07; consultado el 2026-11-19). Según la información conocida, zolpidem es un modulador alostérico positivo del receptor GABA-A con unión preferente a la subunidad alfa-1, lo que produce efectos sedantes e hipnóticos.
 
 La nueva indicación predicha (dificultad para iniciar y mantener el sueño) describe esencialmente el mismo cuadro clínico que el insomnio, la indicación original. Por ello, el mecanismo es directamente aplicable y la puntuación alta del modelo es coherente con ello. No se trata de un reposicionamiento en sentido estricto.
 
@@ -136,11 +136,12 @@ La indicación predicha coincide con el uso ya aprobado (insomnio) y está respa
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ambien (zolpidem tartrate) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=747949c5-2c91-4909-8a07-71b6826f8e97) |
 
 <!-- review:end log -->
 

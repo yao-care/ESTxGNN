@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, pero actualment
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Risdiplam es un modulador del empalme del pre-ARNm de SMN2 que favorece la inclusión del exón 7 y aumenta la producción de proteína SMN funcional. Actualmente no se dispone de datos detallados del mecanismo de acción en los datos compilados; la descripción anterior corresponde al conocimiento general del fármaco.
+Risdiplam es un modulador del empalme del pre-ARNm de SMN2 que favorece la inclusión del exón 7 y aumenta la producción de proteína SMN funcional. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Risdiplam (traducción no oficial): «El risdiplam es un modificador del empalme del gen de supervivencia de la neurona motora 2 (SMN2) diseñado para tratar a pacientes con atrofia muscular espinal (AME) causada por mutaciones en el cromosoma 5q que provocan deficiencia de la proteína SMN. Mediante ensayos in vitro y estudios en modelos animales transgénicos de AME, se demostró que el risdiplam aumenta la inclusión del exón 7 en los transcritos de ácido ribonucleico mensajero (ARNm) de SMN2 y la producción de proteína SMN de longitud completa en el cerebro.» Texto original en inglés: "Risdiplam is a survival of motor neuron 2 (SMN2) splicing modifier designed to treat patients with spinal muscular atrophy (SMA) caused by mutations in chromosome 5q that lead to SMN protein deficiency. Using in vitro assays and studies in transgenic animal models of SMA, risdiplam was shown to increase exon 7 inclusion in SMN2 messenger ribonucleic acid (mRNA) transcripts and production of full-length SMN protein in the brain." ([DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e), versión del 2026-11-02; consultado el 2026-11-19).
 
 Con la información disponible, **no se identifica un vínculo mecanístico establecido** entre este mecanismo y la fisiopatología del acné (producción de sebo, hiperqueratinización folicular, colonización por *Cutibacterium acnes* e inflamación). El puntaje de 0,9945 es una predicción del modelo TxGNN (aprendizaje profundo) y puede reflejar artefactos de la red más que una justificación biológica. La similitud con la indicación original está pendiente de evaluar.
 
@@ -99,6 +99,19 @@ La predicción se basa solo en el modelo (L5), sin ensayos ni literatura, y no e
 - Establecer una hipótesis biológica que vincule el empalme de SMN2 con la fisiopatología del acné
 - Revisar la literatura preclínica y de seguridad cutánea/epitelial por efectos fuera de diana
 - Evaluar la compatibilidad de vías de administración para el uso propuesto
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

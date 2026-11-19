@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser útil para **malformación respiratoria 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, la terbutalina actúa sobre los receptores beta-1 y beta-2 adrenérgicos (genes ADRB1 y ADRB2), y se emplea para prevenir y revertir el broncoespasmo en enfermedad obstructiva reversible de las vías respiratorias.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Terbutaline (traducción no oficial): «Los estudios farmacológicos in vitro e in vivo han demostrado que la terbutalina ejerce un efecto preferente sobre los receptores beta 2 -adrenérgicos. Si bien se reconoce que los receptores beta2-adrenérgicos son los receptores predominantes en el músculo liso bronquial, los datos indican que existe una población de receptores beta2 en el corazón humano, presente en una concentración de entre el 10% y el 50%.» Texto original en inglés: "In vitro and in vivo pharmacologic studies have demonstrated that terbutaline exerts a preferential effect on beta 2 -adrenergic receptors. While it is recognized that beta2-adrenergic receptors are the predominant receptors in bronchial smooth muscle, data indicate that there is a population of beta2-receptors in the human heart, existing in a concentration between 10% to 50%." ([DailyMed: terbutaline sulfate prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=859267c6-3d14-4123-9b9d-4fc248f09726), versión del 2025-12-10; consultado el 2026-11-19). Según la información farmacológica conocida, la terbutalina actúa sobre los receptores beta-1 y beta-2 adrenérgicos (genes ADRB1 y ADRB2), y se emplea para prevenir y revertir el broncoespasmo en enfermedad obstructiva reversible de las vías respiratorias.
 
 El agonismo beta-2 podría aliviar la broncoconstricción reversible que acompaña a algunas anomalías estructurales de las vías aéreas, pero no corregiría la malformación en sí. El puntaje elevado del modelo (0,9952) probablemente refleja la cercanía de la red con términos de enfermedad respiratoria y no un mecanismo específico de esta enfermedad.
 
@@ -107,6 +107,18 @@ La predicción se basa solo en el modelo: no hay ensayos ni publicaciones que es
 - Datos detallados del mecanismo de acción y su vínculo con la fisiopatología de esta enfermedad
 - Revisión de advertencias y contraindicaciones del prospecto oficial
 - Evaluación de la compatibilidad de las vías de administración disponibles con la población afectada
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: terbutaline sulfate prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=859267c6-3d14-4123-9b9d-4fc248f09726) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

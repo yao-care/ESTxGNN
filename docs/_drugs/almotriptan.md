@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Por la clase farmacológica conocida, almotriptán es un agonista de los receptores 5-HT1B/1D.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Almotriptan (traducción no oficial): «El almotriptán se une con alta afinidad a los receptores 5-HT 1D, 5-HT 1B y 5-HT 1F. El almotriptán tiene una afinidad débil por los receptores 5-HT 1A y 5-HT 7, pero no tiene afinidad ni actividad farmacológica significativas en los sitios de unión 5-HT 2, 5-HT 3, 5-HT 4, 5-HT 6; adrenérgicos alfa o beta; de adenosina (A 1, A 2 ); de angiotensina (AT 1, AT 2 ); de dopamina (D 1, D 2 ); de endotelina (ET A, ET B ); o de taquicinina (NK 1, NK 2, NK 3 ).» Texto original en inglés: "Almotriptan binds with high affinity to 5-HT 1D, 5-HT 1B, and 5-HT 1F receptors. Almotriptan has weak affinity for 5-HT 1A and 5-HT 7 receptors, but has no significant affinity or pharmacological activity at 5-HT 2, 5-HT 3, 5-HT 4, 5-HT 6; alpha or beta adrenergic; adenosine (A 1, A 2 ); angiotensin (AT 1, AT 2 ); dopamine (D 1, D 2 ); endothelin (ET A, ET B ); or tachykinin (NK 1, NK 2, NK 3 ) binding sites." ([DailyMed: almotriptan prescribing information, Ajanta Pharma USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa380c4-c885-4743-85bf-88819ae68645), versión del 2025-12-31; consultado el 2026-11-19). Por la clase farmacológica conocida, almotriptán es un agonista de los receptores 5-HT1B/1D.
 
 No se identificó un vínculo mecanístico plausible. La atrofodermia vermiculada es un trastorno cutáneo raro, de tipo atrófico y folicular, y la agonista serotoninérgica 5-HT1B/1D no tiene un papel conocido en su fisiopatología.
 
@@ -101,6 +101,19 @@ La predicción carece de ensayos clínicos, de literatura y de un vínculo mecan
 - Datos detallados del mecanismo de acción (MOA)
 - Evidencia preclínica o clínica que estudie directamente esta enfermedad
 - Revisión del prospecto para completar el perfil de advertencias y contraindicaciones
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: almotriptan prescribing information, Ajanta Pharma USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa380c4-c885-4743-85bf-88819ae68645) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

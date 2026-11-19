@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **infección por virus de 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, pibrentasvir es un inhibidor de NS5A que se coformula con glecaprevir (inhibidor de la proteasa NS3/4A). Su eficacia en la hepatitis C crónica está bien establecida: los estudios disponibles muestran tasas de respuesta virológica sostenida superiores al 95 %.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Pibrentasvir es (traducción no oficial): «Inhibidor de la proteína no estructural 5A» Texto original en inglés: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, pibrentasvir es un inhibidor de NS5A que se coformula con glecaprevir (inhibidor de la proteasa NS3/4A). Su eficacia en la hepatitis C crónica está bien establecida: los estudios disponibles muestran tasas de respuesta virológica sostenida superiores al 95 %.
 
 Mecanísticamente, el vínculo con la hepatitis B es débil. El VHB es un virus de ADN (hepadnavirus) que se replica por transcripción inversa y no tiene un homólogo de NS5A, por lo que no existe un vínculo mecanístico directo. La puntuación alta del modelo probablemente refleja la proximidad en la red de conocimiento a los nodos de hepatitis C y hepatitis viral, y no una diana compartida.
 
@@ -108,6 +108,19 @@ No hay ensayos clínicos para hepatitis B, la literatura se refiere exclusivamen
 - Texto de indicaciones y prospecto de AEMPS (advertencias y contraindicaciones) para la evaluación de seguridad
 - Si el interés es clínico, centrarse en la coinfección VHC/VHB y en el riesgo de reactivación del VHB durante el tratamiento del VHC, que no constituye un reposicionamiento
 - Reevaluar las demás predicciones, en particular la de VIH, que corresponde a tratamiento del VHC en pacientes coinfectados y no a actividad anti-VIH
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

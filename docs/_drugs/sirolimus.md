@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **Liposarcoma (liposarcoma
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, sirolimus inhibe mTORC1, una quinasa que regula el crecimiento y la proliferación celular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Sirolimus (traducción no oficial): «El sirolimús de FYARRO es un inhibidor de la cinasa diana mecanicista de la rapamicina (mTOR, antes denominada diana de la rapamicina en mamíferos). La mTOR, una serina-treonina cinasa, se encuentra en dirección descendente de la vía PI3K/AKT, controla procesos celulares clave como la supervivencia, el crecimiento y la proliferación celulares, y suele estar desregulada en varios tipos de cáncer humano. En las células, el sirolimús se une a la inmunofilina proteína de unión a FK 12 (FKBP-12) para generar un complejo inmunosupresor.» Texto original en inglés: "Sirolimus in FYARRO is an inhibitor of mechanistic target of rapamycin kinase (mTOR, previously known as mammalian target of rapamycin). mTOR, a serine threonine kinase, is downstream of the PI3K/AKT pathway, controls key cellular processes such as cell survival, growth, and proliferation, and is commonly dysregulated in several human cancers. In cells, sirolimus binds to the immunophilin, FK Binding Protein-12 (FKBP-12), to generate an immunosuppressive complex." ([DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf), versión del 2026-09-09; consultado el 2026-11-19). Según la información conocida, sirolimus inhibe mTORC1, una quinasa que regula el crecimiento y la proliferación celular.
 
 La activación de la vía mTOR se ha descrito en sarcomas de partes blandas, incluido el liposarcoma, y modelos en ratón sugieren que su inhibición puede frenar el crecimiento tumoral. Esto da una lógica biológica plausible para la predicción.
 
@@ -107,6 +107,18 @@ No hay ningún estudio publicado que pruebe sirolimus en liposarcoma. El único 
 - Datos detallados del mecanismo de acción.
 - Estudios que evalúen sirolimus como agente único en liposarcoma.
 - Revisión de advertencias y contraindicaciones del prospecto, no disponibles en los datos compilados.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

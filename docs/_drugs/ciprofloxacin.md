@@ -56,7 +56,7 @@ Esta dirección cuenta con **0 ensayos clínicos registrados** y **2 publicacion
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Se sabe que ciprofloxacino es una fluoroquinolona antibacteriana. Un efecto sobre la esclerodermia no sería una consecuencia directa de ese perfil antibiótico.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ciprofloxacin (traducción no oficial): «El ciprofloxacino pertenece a la clase de agentes antibacterianos de las fluoroquinolonas. […] La acción bactericida del ciprofloxacino se debe a la inhibición de las enzimas topoisomerasa II (ADN girasa) y topoisomerasa IV (ambas topoisomerasas de tipo II), que son necesarias para la replicación, la transcripción, la reparación y la recombinación del ADN bacteriano.» Texto original en inglés: "Ciprofloxacin is a member of the fluoroquinolone class of antibacterial agents. […] The bactericidal action of ciprofloxacin results from inhibition of the enzymes topoisomerase II (DNA gyrase) and topoisomerase IV (both Type II topoisomerases), which are required for bacterial DNA replication, transcription, repair, and recombination." ([DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbbbf939-3219-4515-a48e-ca264daa4d07), versión del 2025-11-04; consultado el 2026-11-19). Se sabe que ciprofloxacino es una fluoroquinolona antibacteriana. Un efecto sobre la esclerodermia no sería una consecuencia directa de ese perfil antibiótico.
 
 Hay dos vías plausibles, ambas con respaldo limitado. La primera es un posible efecto antifibrótico en la piel de pacientes con esclerodermia, descrito en un estudio clínico (PMID 20507401). Su mecanismo no está bien establecido. La segunda es indirecta. La esclerodermia sistémica se asocia con frecuencia a sobrecrecimiento bacteriano del intestino delgado, y tratarlo podría aliviar síntomas digestivos como la diarrea crónica y la pérdida de peso (PMID 7728404).
 
@@ -104,6 +104,18 @@ La predicción tiene un puntaje alto (0,9987), pero la evidencia es limitada. So
 - Datos del mecanismo de acción que expliquen el posible efecto antifibrótico.
 - Un análisis de seguridad en esclerodermia, con atención a las interacciones con corticosteroides y al tratamiento prolongado con una fluoroquinolona.
 - La revisión de las advertencias y contraindicaciones del prospecto, que no estaban disponibles en los datos compilados.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbbbf939-3219-4515-a48e-ca264daa4d07) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

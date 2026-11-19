@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **malformación arterioven
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Ambrisentan es un antagonista del receptor de endotelina tipo A (ETA). No se dispone en los datos compilados de una descripción detallada del mecanismo de acción más allá de esta clasificación. La vasoconstricción y el remodelado vascular mediados por endotelina podrían ser relevantes en la enfermedad vascular pulmonar asociada a telangiectasia hemorrágica hereditaria.
+Ambrisentan es un antagonista del receptor de endotelina tipo A (ETA). Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ambrisentan (traducción no oficial): «La endotelina-1 (ET-1) es un péptido autocrino y paracrino potente. Dos subtipos de receptores, ET A y ET B, median los efectos de la ET-1 en el músculo liso vascular y el endotelio. […] Ambrisentán es un antagonista del receptor ET A de alta afinidad (K i =0.011 nM) con una alta selectividad por el receptor ET A frente al receptor ET B (>4000 veces).» Texto original en inglés: "Endothelin-1 (ET-1) is a potent autocrine and paracrine peptide. Two receptor subtypes, ET A and ET B, mediate the effects of ET-1 in the vascular smooth muscle and endothelium. […] Ambrisentan is a high-affinity (K i =0.011 nM) ET A receptor antagonist with a high selectivity for the ET A versus ET B receptor (>4000-fold)." ([DailyMed: Letairis (ambrisentan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844), versión del 2026-06-22; consultado el 2026-11-19). La vasoconstricción y el remodelado vascular mediados por endotelina podrían ser relevantes en la enfermedad vascular pulmonar asociada a telangiectasia hemorrágica hereditaria.
 
 La única publicación disponible describe un caso de hipertensión arterial pulmonar coexistente con telangiectasia hemorrágica hereditaria. Se trata de una observación a nivel de caso y **no constituye evidencia de beneficio en la malformación arteriovenosa pulmonar en sí**. Estas malformaciones son cortocircuitos estructurales que normalmente se tratan mediante embolización, y en teoría los vasodilatadores podrían empeorar el cortocircuito o la hipoxemia.
 
@@ -101,6 +101,19 @@ La única evidencia es un reporte de caso de hipertensión arterial pulmonar en 
 - Estudios clínicos u observacionales que evalúen directamente ambrisentan en malformaciones arteriovenosas pulmonares
 - Datos detallados del mecanismo de acción y análisis de su relevancia en cortocircuitos estructurales
 - Evaluación de seguridad específica (hipoxemia, edema, teratogenicidad) a partir del prospecto de la AEMPS
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Letairis (ambrisentan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

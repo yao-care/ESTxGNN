@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esp
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la tenecteplasa es un activador del plasminógeno tisular específico de la fibrina que lisa los trombos coronarios oclusivos, y su eficacia en el infarto de miocardio es conocida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tenecteplase (traducción no oficial): «El tenecteplase es una forma modificada del activador tisular del plasminógeno (tPA) humano que se une a la fibrina y convierte el plasminógeno en plasmina. En presencia de fibrina, los estudios in vitro demuestran que la conversión de plasminógeno en plasmina mediada por tenecteplase aumenta en relación con su conversión en ausencia de fibrina.» Texto original en inglés: "Tenecteplase is a modified form of human tissue plasminogen activator (tPA) that binds to fibrin and converts plasminogen to plasmin. In the presence of fibrin, in vitro studies demonstrate that tenecteplase-mediated conversion of plasminogen to plasmin is increased relative to its conversion in the absence of fibrin." ([DailyMed: Tnkase (tenecteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e647640d-c395-4b4b-a0be-1162f9c21d84), versión del 2025-12-15; consultado el 2026-11-19). Según la información conocida, la tenecteplasa es un activador del plasminógeno tisular específico de la fibrina que lisa los trombos coronarios oclusivos, y su eficacia en el infarto de miocardio es conocida.
 
 El infarto posteroinferior es un subtipo anatómico del infarto de miocardio, causado igualmente por oclusión trombótica coronaria. Mecanísticamente, la trombólisis es aplicable, y esta indicación estaría prácticamente cubierta por la indicación general de infarto.
 
@@ -101,6 +101,19 @@ No existe evidencia específica (ensayos o literatura) para el infarto posteroin
 - Confirmar si la indicación autorizada de infarto agudo de miocardio ya cubre los subtipos anatómicos, lo que haría innecesario un nuevo desarrollo.
 - Buscar estudios o subanálisis de ensayos de infarto con elevación del ST que describan la localización posteroinferior.
 - Priorizar, si se desea explorar otras predicciones, la de estenosis coronaria (evidencia nivel L3, con estudios de tenecteplasa intracoronaria durante ICP primaria), y descartar las predicciones sin plausibilidad mecanística (anomalía coronaria congénita, deleción cromosómica, anemias hemolíticas hereditarias y talasemia).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tnkase (tenecteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e647640d-c395-4b4b-a0be-1162f9c21d84) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Por su clase, anakinra bloquea el receptor de la IL-1, una citocina central en la inflamación local y sistémica, y se usa en enfermedades autoinflamatorias mediadas por IL-1.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Anakinra (traducción no oficial): «KINERET bloquea la actividad biológica de la IL-1 alfa y beta mediante la inhibición competitiva de la unión de la IL-1 al receptor de interleucina-1 de tipo I (IL-1RI), que se expresa en una amplia variedad de tejidos y órganos. La producción de IL-1 se induce en respuesta a estímulos inflamatorios y media diversas respuestas fisiológicas, incluidas las respuestas inflamatorias e inmunitarias.» Texto original en inglés: "KINERET blocks the biologic activity of IL-1 alpha and beta by competitively inhibiting IL-1 binding to the interleukin-1 type I receptor (IL-1RI), which is expressed in a wide variety of tissues and organs. IL-1 production is induced in response to inflammatory stimuli and mediates various physiologic responses including inflammatory and immunological responses." ([DailyMed: Kineret (anakinra) prescribing information, Swedish Orphan Biovitrum AB (publ)](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9d74915-6606-4570-9c52-c4001d3177de), versión del 2026-04-03; consultado el 2026-11-19). Por su clase, anakinra bloquea el receptor de la IL-1, una citocina central en la inflamación local y sistémica, y se usa en enfermedades autoinflamatorias mediadas por IL-1.
 
 La señalización de IL-1 podría tener un papel teórico en la inflamación dependiente de mastocitos. Sin embargo, los datos compilados para este informe no documentan un vínculo directo entre anakinra y el mastocitoma extracutáneo.
 
@@ -96,6 +96,19 @@ La predicción para mastocitoma extracutáneo carece de ensayos clínicos y de l
 - Estudios preclínicos o series de casos que evalúen el bloqueo de IL-1 en mastocitoma extracutáneo
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones)
 - Revisión de la plausibilidad biológica por parte de especialistas antes de cualquier estudio clínico
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Kineret (anakinra) prescribing information, Swedish Orphan Biovitrum AB (publ)](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9d74915-6606-4570-9c52-c4001d3177de) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

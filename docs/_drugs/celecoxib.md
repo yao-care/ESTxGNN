@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para la **displasia acromesomé
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, celecoxib es un inhibidor selectivo de la ciclooxigenasa-2 (COX-2). Reduce la síntesis de prostaglandinas inflamatorias y, con ello, el dolor y la inflamación articular. Su eficacia en artritis reumatoide, espondilitis anquilosante, artrosis y artritis idiopática juvenil está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Celecoxib (traducción no oficial): «El celecoxib tiene propiedades analgésicas, antiinflamatorias y antipiréticas. Se cree que el mecanismo de acción del celecoxib se debe a la inhibición de la síntesis de prostaglandinas, principalmente mediante la inhibición de la COX-2. El celecoxib es un potente inhibidor de la síntesis de prostaglandinas in vitro.» Texto original en inglés: "Celecoxib has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of celecoxib is believed to be due to inhibition of prostaglandin synthesis, primarily via inhibition of COX-2. Celecoxib is a potent inhibitor of prostaglandin synthesis in vitro." ([DailyMed: Vyscoxa (celecoxib) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5094d47e-f791-4190-9397-b7500143a74d), versión del 2025-07-31; consultado el 2026-11-19). Según la información conocida, celecoxib es un inhibidor selectivo de la ciclooxigenasa-2 (COX-2). Reduce la síntesis de prostaglandinas inflamatorias y, con ello, el dolor y la inflamación articular. Su eficacia en artritis reumatoide, espondilitis anquilosante, artrosis y artritis idiopática juvenil está bien establecida.
 
 La displasia acromesomélica tipo Hunter-Thompson es un trastorno esquelético hereditario causado por variantes en el gen *CDMP1/GDF5*. Afecta al desarrollo del cartílago y del hueso, y no es una enfermedad inflamatoria. No se conoce un mecanismo por el cual inhibir la COX-2 pueda corregir o modificar su curso.
 
@@ -135,11 +135,12 @@ La predicción carece de ensayos clínicos, de literatura y de una base mecanís
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Celecoxib está comercializado en España con 20 autorizaciones vigentes (todas de monofármaco, ninguna cancelada), en forma de cápsula dura d" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Vyscoxa (celecoxib) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5094d47e-f791-4190-9397-b7500143a74d) |
 
 <!-- review:end log -->
 

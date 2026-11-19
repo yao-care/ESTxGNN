@@ -67,7 +67,7 @@ Actualmente **no hay ensayos clínicos ni publicaciones** en los datos compilado
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, remimazolam es una benzodiazepina de acción ultracorta que actúa como modulador alostérico positivo de los receptores GABA-A, con efecto sedante e hipnótico. Este mecanismo es compartido con hipnóticos establecidos (benzodiazepinas y fármacos "Z") usados en el insomnio, por lo que un beneficio es biológicamente plausible.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Remimazolam (traducción no oficial): «BYFAVO es una benzodiazepina. BYFAVO se une a los sitios de benzodiazepinas del cerebro (receptores de ácido gamma-aminobutírico tipo A [GABA A ]), mientras que su metabolito ácido carboxílico (CNS7054) tiene una afinidad 300 veces menor por el receptor.» Texto original en inglés: "BYFAVO is a benzodiazepine. BYFAVO binds to brain benzodiazepine sites (gamma amino butyric acid type A [GABA A ] receptors), while its carboxylic acid metabolite (CNS7054) has a 300 times lower affinity for the receptor." ([DailyMed: Byfavo (remimazolam besylate) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e1838f2-b999-41a7-a761-d94f09aa531f), versión del 2025-02-20; consultado el 2026-11-19). Según la información conocida, remimazolam es una benzodiazepina de acción ultracorta que actúa como modulador alostérico positivo de los receptores GABA-A, con efecto sedante e hipnótico. Este mecanismo es compartido con hipnóticos establecidos (benzodiazepinas y fármacos "Z") usados en el insomnio, por lo que un beneficio es biológicamente plausible.
 
 Sin embargo, esta relación se infiere de la clase farmacológica y no de datos aportados. Remimazolam se formula como agente intravenoso para sedación procedimental y anestesia general, y su inicio y finalización de efecto muy rápidos (metabolismo por esterasas tisulares) se adaptan al uso procedimental más que al mantenimiento del sueño que requiere el insomnio crónico. Tampoco hay una formulación oral en los datos. El puntaje tan alto de TxGNN probablemente refleja la similitud de clase con otros hipnóticos GABAérgicos.
 
@@ -124,11 +124,12 @@ Ambas indicaciones predichas se sustentan solo en el modelo (nivel L5), sin ensa
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "autorizada y comercializada en España (Byfavo)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Byfavo (remimazolam besylate) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e1838f2-b999-41a7-a761-d94f09aa531f) |
 
 <!-- review:end log -->
 

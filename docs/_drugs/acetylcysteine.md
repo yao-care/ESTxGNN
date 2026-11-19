@@ -56,7 +56,7 @@ Esta dirección cuenta con **7 ensayos clínicos** y **20 publicaciones**, de re
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado en los datos compilados para este informe. Aun así, la acetilcisteína es un tiol capaz de reducir puentes disulfuro. Esto es relevante porque los multímeros ultragrandes del factor de von Willebrand (VWF) dependen de esos puentes para agregar plaquetas. Al reducirlos, se podría disminuir la agregación plaquetaria mediada por VWF. Este es el fundamento en la púrpura trombocitopénica trombótica (PTT) y en la microangiopatía trombótica asociada a trasplante (TA-TMA), y cuenta con respaldo de modelos preclínicos en ratón y babuino.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Acetylcysteine (traducción no oficial): «Se ha demostrado que la acetilcisteína reduce la extensión de la lesión hepática tras una sobredosis de paracetamol. Las dosis de paracetamol de 150 mg/kg o superiores se han asociado con hepatotoxicidad. Probablemente, la acetilcisteína protege el hígado al mantener o restablecer los niveles de glutatión, o al actuar como sustrato alternativo para la conjugación con el metabolito reactivo del paracetamol y, por tanto, para su destoxificación.» Texto original en inglés: "Acetylcysteine has been shown to reduce the extent of liver injury following acetaminophen overdose. Acetaminophen doses of 150 mg/kg or greater have been associated with hepatotoxicity. Acetylcysteine probably protects the liver by maintaining or restoring the glutathione levels, or by acting as an alternate substrate for conjugation with, and thus detoxification of, the reactive metabolite of acetaminophen." ([DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39), versión del 2025-04-30; consultado el 2026-11-19). Aun así, la acetilcisteína es un tiol capaz de reducir puentes disulfuro. Esto es relevante porque los multímeros ultragrandes del factor de von Willebrand (VWF) dependen de esos puentes para agregar plaquetas. Al reducirlos, se podría disminuir la agregación plaquetaria mediada por VWF. Este es el fundamento en la púrpura trombocitopénica trombótica (PTT) y en la microangiopatía trombótica asociada a trasplante (TA-TMA), y cuenta con respaldo de modelos preclínicos en ratón y babuino.
 
 Además, la acetilcisteína tiene efectos antioxidantes y protectores del endotelio, lo que aporta un segundo vínculo mecanístico con los procesos trombóticos. En la trombocitopenia inmune (PTI) se ha propuesto combinarla con atorvastatina o dexametasona para modular vías inmunes y plaquetarias.
 
@@ -123,6 +123,18 @@ Existe un ensayo de Fase 3 completado en microangiopatía trombótica asociada a
 - Confirmar la ruta de administración y la dosis adecuadas, en particular la vía intravenosa.
 - Completar las advertencias y contraindicaciones del prospecto y los datos detallados del mecanismo de acción.
 - Evaluar las interacciones relevantes, incluida la insulina, en pacientes con comorbilidades.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

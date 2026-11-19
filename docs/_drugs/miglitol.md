@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, miglitol es un inhibidor de las alfa-glucosidasas intestinales. Retrasa la digestión y absorción de los carbohidratos y reduce los picos de glucosa posprandial. Su eficacia en la diabetes tipo 2 es conocida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Miglitol (traducción no oficial): «A diferencia de las sulfonilureas, los comprimidos de miglitol no potencian la secreción de insulina. La acción antihiperglucemiante del miglitol se debe a una inhibición reversible de las enzimas α-glucósido hidrolasas intestinales unidas a la membrana. Las α-glucosidasas intestinales unidas a la membrana hidrolizan los oligosacáridos y disacáridos a glucosa y otros monosacáridos en el borde en cepillo del intestino delgado.» Texto original en inglés: "In contrast to sulfonylureas, miglitol tablets do not enhance insulin secretion. The antihyperglycemic action of miglitol results from a reversible inhibition of membrane-bound intestinal α-glucoside hydrolase enzymes. Membrane-bound intestinal α-glucosidases hydrolyze oligosaccharides and disaccharides to glucose and other monosaccharides in the brush border of the small intestine." ([DailyMed: miglitol prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f16ecb50-e54e-43e1-8789-eaf5bc94f332), versión del 2022-04-01; consultado el 2026-11-19). Según la información farmacológica conocida, miglitol es un inhibidor de las alfa-glucosidasas intestinales. Retrasa la digestión y absorción de los carbohidratos y reduce los picos de glucosa posprandial. Su eficacia en la diabetes tipo 2 es conocida.
 
 El síndrome de extremidad rígida focal es un trastorno neurológico de origen probablemente autoinmune, perteneciente al espectro del síndrome de la persona rígida. Se relaciona con una disfunción GABAérgica y con anticuerpos anti-GAD. **No se ha identificado un vínculo mecanístico plausible** entre la inhibición de las alfa-glucosidasas intestinales y esta enfermedad.
 
@@ -112,11 +112,12 @@ La predicción para el síndrome de extremidad rígida focal no cuenta con ensay
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Ambas autorizaciones son de monofármaco, están vigentes y pertenecen a Lacer S.A" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: miglitol prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f16ecb50-e54e-43e1-8789-eaf5bc94f332) |
 
 <!-- review:end log -->
 

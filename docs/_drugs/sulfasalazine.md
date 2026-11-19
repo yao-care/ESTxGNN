@@ -57,7 +57,7 @@ El modelo TxGNN predice que podría ser efectivo para **osteoartritis**, pero ac
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados formalmente. Según la información conocida, la sulfasalazina es un antiinflamatorio con eficacia comprobada en artritis reumatoide y enfermedad inflamatoria intestinal. Se le atribuyen la inhibición de la señalización de NF-κB y del sistema de antiporte cistina/glutamato (xCT, system xc-), además de una actividad antibacteriana por inhibición de la dihidropteroato sintasa bacteriana. No se ha podido establecer un objetivo molecular primario claro.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Sulfasalazine (traducción no oficial): «El modo de acción de la sulfasalazina (SSZ) o de sus metabolitos, el ácido 5-aminosalicílico (5-ASA) y la sulfapiridina (SP), puede estar relacionado con las propiedades antiinflamatorias y/o inmunomoduladoras observadas en modelos animales e in vitro, con su afinidad por el tejido conjuntivo y/o con la concentración relativamente alta que alcanza en los líquidos serosos, el hígado y las paredes intestinales, como se demostró en estudios autorradiográficos en animales. En la colitis ulcerosa, los estudios clínicos en los que se utilizó la administración rectal de SSZ, SP y 5-ASA han indicado que la acción terapéutica principal podría residir en la fracción 5-ASA.» Texto original en inglés: "The mode of action of sulfasalazine (SSZ) or its metabolites, 5-aminosalicylic acid (5-ASA) and sulfapyridine (SP), may be related to the anti-inflammatory and/or immunomodulatory properties that have been observed in animal and in vitro models, to its affinity for connective tissue, and/or to the relatively high concentration it reaches in serous fluids, the liver and intestinal walls, as demonstrated in autoradiographic studies in animals. In ulcerative colitis, clinical studies utilizing rectal administration of SSZ, SP and 5-ASA have indicated that the major therapeutic action may reside in the 5-ASA moiety." ([DailyMed: Azulfidine En-Tabs (sulfasalazine) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b9ef541a-93c8-4428-ba45-398aa0b327d1), versión del 2026-10-27; consultado el 2026-11-19). Según la información conocida, la sulfasalazina es un antiinflamatorio con eficacia comprobada en artritis reumatoide y enfermedad inflamatoria intestinal. Se le atribuyen la inhibición de la señalización de NF-κB y del sistema de antiporte cistina/glutamato (xCT, system xc-), además de una actividad antibacteriana por inhibición de la dihidropteroato sintasa bacteriana. No se ha podido establecer un objetivo molecular primario claro.
 
 La osteoartritis comparte con la artritis reumatoide componentes inflamatorios articulares (citocinas, prostaglandinas, leucotrienos y metaloproteinasas) que degradan el cartílago. Los estudios preclínicos indican que la sulfasalazina reduce la liberación de proteoglicanos y colágeno del cartílago estimulado con citocinas y regula a la baja metaloproteinasas. En modelos animales atenuó la destrucción del cartílago tras transección del LCA y meniscectomía, y una formulación con ácido hialurónico redujo la inflamación y la degradación del cartílago.
 
@@ -106,6 +106,19 @@ La predicción para osteoartritis se apoya solo en estudios preclínicos (nivel 
 - Ensayos clínicos exploratorios en osteoartritis (fase 2), considerando formulaciones locales como la de ácido hialurónico.
 - Plan de monitoreo hematológico, hepático y renal, y evaluación de la acetilación (NAT2) y de G6PD.
 - Descartar el resto de las predicciones de mayor puntaje (síndromes genéticos raros), que carecen de evidencia y de vínculo mecanístico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Azulfidine En-Tabs (sulfasalazine) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b9ef541a-93c8-4428-ba45-398aa0b327d1) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

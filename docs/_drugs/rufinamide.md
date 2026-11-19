@@ -55,7 +55,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la rufinamida es un modulador de los canales de sodio dependientes de voltaje: prolonga su estado inactivo y, en principio, podría reducir la hiperexcitabilidad neuronal en epilepsias refractarias. Su eficacia en el síndrome de Lennox-Gastaut, una encefalopatía epiléptica, está reconocida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rufinamide (traducción no oficial): «Se desconoce el mecanismo o los mecanismos precisos por los que la rufinamida ejerce su efecto antiepiléptico. Los resultados de estudios in vitro sugieren que el principal mecanismo de acción de la rufinamida es la modulación de la actividad de los canales de sodio y, en particular, la prolongación del estado inactivo del canal.» Texto original en inglés: "The precise mechanism(s) by which rufinamide exerts its antiepileptic effect is unknown. The results of in vitro studies suggest that the principal mechanism of action of rufinamide is modulation of the activity of sodium channels and, in particular, prolongation of the inactive state of the channel." ([DailyMed: Banzel (rufinamide) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a3fa925-1abd-458a-bd57-4ae780a1ef2d), versión del 2022-12-15; consultado el 2026-11-19). Según la información conocida, la rufinamida es un modulador de los canales de sodio dependientes de voltaje: prolonga su estado inactivo y, en principio, podría reducir la hiperexcitabilidad neuronal en epilepsias refractarias. Su eficacia en el síndrome de Lennox-Gastaut, una encefalopatía epiléptica, está reconocida.
 
 La relación con FIRES es débil. FIRES es una epilepsia refractaria muy grave, pero su patología parece estar impulsada en gran medida por neuroinflamación (por ejemplo, las vías de IL-1 e IL-6), por lo que un mecanismo basado en canales de sodio probablemente no aborde el problema de fondo.
 
@@ -108,6 +108,19 @@ La predicción tiene un puntaje alto, pero es de nivel L5: no existen ensayos cl
 - Evaluar mecanísticamente la relevancia de la neuroinflamación frente al bloqueo de canales de sodio.
 - Valorar si alguna de las otras indicaciones predichas (por ejemplo, espasmos epilépticos de inicio tardío, por su cercanía clínica con Lennox-Gastaut) tiene un mejor perfil de beneficio-riesgo.
 - Verificar la compatibilidad de las vías de administración (comprimidos y suspensión oral) con la población pediátrica objetivo.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Banzel (rufinamide) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a3fa925-1abd-458a-bd57-4ae780a1ef2d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

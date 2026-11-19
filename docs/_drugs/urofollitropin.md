@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectiva para **trastorno de migraña**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, urofolitropina es una FSH purificada de origen urinario que se utiliza para estimular el desarrollo folicular en el ovario.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Urofollitropin es (traducción no oficial): «Agonista del receptor de la hormona foliculoestimulante» Texto original en inglés: "Follicle stimulating hormone receptor agonist" ([ChEMBL CHEMBL1201520 (urofollitropin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201520), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, urofolitropina es una FSH purificada de origen urinario que se utiliza para estimular el desarrollo folicular en el ovario.
 
 Podría plantearse un vínculo teórico a través de la modulación hormonal de la migraña (por ejemplo, las fluctuaciones de estrógenos), pero esta hipótesis es **especulativa**. No existe un mecanismo establecido que relacione la actividad de la FSH con la fisiopatología de la migraña.
 
@@ -116,6 +116,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Realizar una revisión sistemática de la literatura sobre hormonas sexuales y gonadotropinas en la migraña.
 - Si hubiera una hipótesis biológica sólida, generar evidencia preclínica antes de plantear estudios clínicos.
 - Evaluar la compatibilidad de la vía de administración (inyectable) con la nueva indicación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1201520 (urofollitropin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201520) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

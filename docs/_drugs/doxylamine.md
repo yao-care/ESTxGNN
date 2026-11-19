@@ -54,7 +54,7 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, doxilamina es un antihistamínico H1 de primera generación con efectos anticolinérgicos y sedantes. Su eficacia en cuadros alérgicos de las vías respiratorias y de la piel figura entre sus indicaciones de partida, y mecanísticamente podría ser aplicable a la urticaria alérgica mediante el bloqueo H1 de la respuesta de habón y eritema mediada por histamina.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg (combinación que contiene Doxylamine) (traducción no oficial): «Se desconoce el mecanismo de acción del succinato de doxilamina y el clorhidrato de piridoxina.» Texto original en inglés: "The mechanism of action of doxylamine succinate and pyridoxine hydrochloride is unknown." ([DailyMed: Doxylamine Succinate And Pyridoxine Hydrochloride (doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de265fd1-bc22-4da1-aab5-b5fedd649c8b), versión del 2026-08-24; consultado el 2026-11-19). Según la información conocida, doxilamina es un antihistamínico H1 de primera generación con efectos anticolinérgicos y sedantes. Su eficacia en cuadros alérgicos de las vías respiratorias y de la piel figura entre sus indicaciones de partida, y mecanísticamente podría ser aplicable a la urticaria alérgica mediante el bloqueo H1 de la respuesta de habón y eritema mediada por histamina.
 
 La urticaria ya aparece entre las indicaciones originales del fármaco, y la urticaria alérgica es un subtipo de ese cuadro. Por ello, esta predicción se parece más a una extensión cercana de una indicación existente que a un reposicionamiento genuino.
 
@@ -114,11 +114,12 @@ Las cuatro predicciones tienen un puntaje alto, pero no cuentan con ensayos clí
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 18 autorizaciones vigentes (todas de medicamentos con un único principio activo)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Doxylamine Succinate And Pyridoxine Hydrochloride (doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de265fd1-bc22-4da1-aab5-b5fedd649c8b) |
 
 <!-- review:end log -->
 

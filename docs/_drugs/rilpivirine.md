@@ -56,7 +56,7 @@ con **0 ensayos clínicos** y **5 publicaciones** (todas preclínicas o de revis
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, rilpivirina es un ITINN que inhibe la transcriptasa inversa del VIH-1, y su eficacia en la infección por VIH está establecida.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rilpivirine (traducción no oficial): «La rilpivirina es un fármaco antiviral. […] La rilpivirina es un inhibidor no nucleosídico de la transcriptasa inversa (INNTI) del virus de la inmunodeficiencia humana de tipo 1 (VIH-1), del grupo de las diarilpirimidinas, e inhibe la replicación del VIH-1 mediante la inhibición no competitiva de la transcriptasa inversa (TI) del VIH-1. La rilpivirina no inhibe las ADN polimerasas celulares humanas α, β y γ.» Texto original en inglés: "Rilpivirine is an antiviral drug. […] Rilpivirine is a diarylpyrimidine non-nucleoside reverse transcriptase inhibitor (NNRTI) of human immunodeficiency virus type 1 (HIV-1) and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). Rilpivirine does not inhibit the human cellular DNA polymerases α, β and γ." ([DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6), versión del 2025-08-28; consultado el 2026-11-19). Según la información conocida, rilpivirina es un ITINN que inhibe la transcriptasa inversa del VIH-1, y su eficacia en la infección por VIH está establecida.
 
 El VIS y el VIH son lentivirus estrechamente relacionados, por lo que es mecanísticamente plausible que un inhibidor de la transcriptasa inversa tenga actividad contra el VIS. La literatura describe el uso de rilpivirina de acción prolongada, sola o con cabotegravir, en modelos de macacos (selección de resistencias, profilaxis posexposición y remisión virológica sostenida tras tratamiento precoz).
 
@@ -104,6 +104,19 @@ La predicción se basa solo en estudios preclínicos en animales y una revisión
 - Advertencias y contraindicaciones del prospecto de la AEMPS, y los textos de indicación aprobada de las autorizaciones
 - Definir si existe una indicación humana o veterinaria con valor real de reposicionamiento; de lo contrario, reorientar el análisis hacia candidatos con relevancia clínica
 - Si se explora el VIH congénito o el uso en embarazo, datos específicos de rilpivirina (farmacocinética y seguridad), ya que se observaron concentraciones de rilpivirina 70-75% menores en un caso reportado
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

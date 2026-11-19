@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para **distrofia retiniana con 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la perfenazina es una fenotiazina de alta potencia, cuya eficacia en esquizofrenia y en cuadros mixtos de ansiedad y depresión está establecida. No se ha podido establecer un vínculo mecanístico con la nueva indicación a partir de los datos compilados.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Perphenazine (traducción no oficial): «La perfenazina actúa en todos los niveles del sistema nervioso central, en particular en el hipotálamo. Sin embargo, se desconocen el sitio y el mecanismo de acción de su efecto terapéutico.» Texto original en inglés: "Perphenazine has actions at all levels of the central nervous system, particularly the hypothalamus. However, the site and mechanism of action of therapeutic effect are not known." ([DailyMed: perphenazine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e87e78e-d39c-44fc-95a0-70cdb2a91941), versión del 2026-11-11; consultado el 2026-11-19). Según la información conocida, la perfenazina es una fenotiazina de alta potencia, cuya eficacia en esquizofrenia y en cuadros mixtos de ansiedad y depresión está establecida. No se ha podido establecer un vínculo mecanístico con la nueva indicación a partir de los datos compilados.
 
 Los datos compilados no respaldan un vínculo mecanístico creíble. La única publicación disponible (PMID 14129300, de 1964) describe una retinopatía pigmentaria causada por **tioridazina**, otra fenotiazina. Es un reporte de efecto adverso, no una evidencia de beneficio. Sugiere que la toxicidad retiniana de las fenotiazinas es una preocupación de seguridad, no una justificación terapéutica.
 
@@ -95,6 +95,18 @@ La predicción se basa solo en el modelo (L5): no hay ensayos clínicos, la úni
 - Datos del mecanismo de acción (MOA) del fármaco.
 - Advertencias y contraindicaciones del prospecto de la AEMPS (hoy faltan).
 - Evidencia preclínica que justifique un posible efecto en distrofias retinianas, y un análisis de la toxicidad retiniana.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: perphenazine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e87e78e-d39c-44fc-95a0-70cdb2a91941) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

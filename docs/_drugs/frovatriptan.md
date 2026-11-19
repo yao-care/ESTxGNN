@@ -55,7 +55,7 @@ pero actualmente no hay **ensayos clínicos** registrados y las **18 publicacion
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la literatura revisada, frovatriptán es un agonista de los receptores 5-HT1B y 5-HT1D, con alta afinidad por estos receptores y una vida media de eliminación larga (aprox. 26 horas). Se cree que su efecto proviene de inhibir la vasodilatación de las arterias intracraneales y extracerebrales, con posible acción antiinflamatoria. Su eficacia en la migraña con y sin aura está documentada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Frovatriptan (traducción no oficial): «El frovatriptán se une con alta afinidad a los receptores 5-HT 1B/1D. Se cree que la actividad terapéutica del succinato de frovatriptán se debe a los efectos agonistas en los receptores 5-HT 1B/1D de los vasos sanguíneos intracraneales (incluidas las anastomosis arteriovenosas) y de los nervios sensitivos del sistema trigeminal, que dan lugar a la constricción de los vasos craneales y a la inhibición de la liberación de neuropéptidos proinflamatorios.» Texto original en inglés: "Frovatriptan binds with high affinity to 5-HT 1B/1D receptors. The therapeutic activity of frovatriptan succinate is thought to be due to the agonist effects at the 5-HT 1B/1D receptors on intracranial blood vessels (including the arterio-venous anastomoses) and sensory nerves of the trigeminal system which result in cranial vessel constriction and inhibition of pro-inflammatory neuropeptide release." ([DailyMed: frovatriptan succinate prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d303af88-e0c1-4fb2-ba8e-83b7e6d163cd), versión del 2026-06-27; consultado el 2026-11-19). Según la literatura revisada, frovatriptán es un agonista de los receptores 5-HT1B y 5-HT1D, con alta afinidad por estos receptores y una vida media de eliminación larga (aprox. 26 horas). Se cree que su efecto proviene de inhibir la vasodilatación de las arterias intracraneales y extracerebrales, con posible acción antiinflamatoria. Su eficacia en la migraña con y sin aura está documentada.
 
 La migraña con aura del tronco encefálico es un subtipo clínico de la migraña, por lo que el solapamiento mecanístico es fuerte. Sin embargo, la literatura disponible cubre la migraña con aura en general (comparaciones de frovatriptán frente a otros triptanes y su combinación con dexketoprofeno) y no aborda específicamente el aura de tronco encefálico.
 
@@ -106,6 +106,19 @@ La predicción se apoya solo en evidencia de nivel L4: la literatura trata la mi
 - Revisar la literatura y los casos clínicos específicos de aura de tronco encefálico y triptanes.
 - Evaluar explícitamente el riesgo vascular y cerebrovascular en este subtipo.
 - Diseñar, si procede, un estudio clínico específico en pacientes con migraña con aura del tronco encefálico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: frovatriptan succinate prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d303af88-e0c1-4fb2-ba8e-83b7e6d163cd) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

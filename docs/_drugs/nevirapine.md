@@ -56,7 +56,7 @@ pero no hay **ningún ensayo clínico** y solo se dispone de **13 publicaciones*
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, nevirapina pertenece a la clase de los inhibidores no nucleósidos de la transcriptasa inversa, que actúan sobre la transcriptasa inversa del VIH-1, y su eficacia en la infección por VIH está comprobada.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Nevirapine (traducción no oficial): «Nevirapina es un fármaco antirretroviral. […] Nevirapina es un inhibidor no nucleosídico de la transcriptasa inversa (INNTI) del VIH-1. Nevirapina se une directamente a la transcriptasa inversa (TI) y bloquea las actividades de ADN polimerasa dependientes de ARN y de ADN al provocar una alteración del sitio catalítico de la enzima.» Texto original en inglés: "Nevirapine is an antiretroviral drug. […] Nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) of HIV-1. Nevirapine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site." ([DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15), versión del 2026-10-08; consultado el 2026-11-19). Según la información conocida, nevirapina pertenece a la clase de los inhibidores no nucleósidos de la transcriptasa inversa, que actúan sobre la transcriptasa inversa del VIH-1, y su eficacia en la infección por VIH está comprobada.
 
 El SIV es un lentivirus muy cercano al VIH, lo que explica en buena parte el puntaje elevado del modelo. Sin embargo, la predicción debe interpretarse con cautela: las transcriptasas inversas de SIVmac y VIH-2 son intrínsecamente resistentes a los NNRTI por diferencias de secuencia en el sitio de unión. El puntaje alto refleja probablemente la biología lentiviral compartida y la indicación original de VIH, más que una sensibilidad real del SIV.
 
@@ -124,11 +124,12 @@ La predicción se apoya solo en estudios in vitro y modelos animales (nivel L4),
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 14 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15) |
 
 <!-- review:end log -->
 

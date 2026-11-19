@@ -56,7 +56,7 @@ con **1 ensayo clínico** (Fase 3, en curso, con un criterio de valoración indi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, flecainida es un bloqueador de canales de sodio de clase IC, su eficacia en la fibrilación auricular está establecida, y mecanísticamente podría ser aplicable de forma indirecta al ictus. Los datos farmacológicos compilados muestran además actividad sobre varios canales de potasio dependientes de voltaje (Kv1.1, Kv1.2, Kv1.5, Kv1.7 y Kv3.1), aunque sin datos de bioactividad cuantitativos.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Flecainide (traducción no oficial): «La flecainida tiene actividad anestésica local y pertenece al grupo de antiarrítmicos estabilizadores de membrana (Clase 1); tiene efectos electrofisiológicos característicos de la clase IC de antiarrítmicos. Electrofisiología En el ser humano, la flecainida produce una disminución dependiente de la dosis de la conducción intracardíaca en todas las partes del corazón, con el mayor efecto sobre el sistema de His-Purkinje (conducción H-V).» Texto original en inglés: "Flecainide has local anesthetic activity and belongs to the membrane stabilizing (Class 1) group of antiarrhythmic agents; it has electrophysiologic effects characteristic of the IC class of antiarrhythmics. Electrophysiology In man, flecainide produces a dose-related decrease in intracardiac conduction in all parts of the heart with the greatest effect on the His-Purkinje system (H-V conduction)." ([DailyMed: flecainide acetate prescribing information, Amneal Pharmaceuticals of New York LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee9595d5-08a1-4529-9215-ddc3c7f929c4), versión del 2026-06-11; consultado el 2026-11-19). Según la información conocida, flecainida es un bloqueador de canales de sodio de clase IC, su eficacia en la fibrilación auricular está establecida, y mecanísticamente podría ser aplicable de forma indirecta al ictus. Los datos farmacológicos compilados muestran además actividad sobre varios canales de potasio dependientes de voltaje (Kv1.1, Kv1.2, Kv1.5, Kv1.7 y Kv3.1), aunque sin datos de bioactividad cuantitativos.
 
 La relación entre ambas indicaciones es indirecta: la fibrilación auricular es una causa importante de ictus cardioembólico, por lo que el control del ritmo podría reducir el riesgo de eventos cerebrovasculares. No se trata de un efecto neuroprotector directo.
 
@@ -130,11 +130,12 @@ La evidencia es indirecta (L3): el único ensayo de Fase 3 mide arritmia y no ic
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Las 6 autorizaciones están vigentes, son de principio activo único y no hay ninguna cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: flecainide acetate prescribing information, Amneal Pharmaceuticals of New York LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee9595d5-08a1-4529-9215-ddc3c7f929c4) |
 
 <!-- review:end log -->
 

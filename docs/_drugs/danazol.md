@@ -56,7 +56,7 @@ pero actualmente no hay ensayos clínicos registrados y se dispone de **20 publi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados del mecanismo de acción en la base de datos. Según la literatura revisada, danazol suprime el pico hipofisario de LH/FSH y la esteroidogénesis ovárica, lo que provoca atrofia endometrial y amenorrea.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Danazol (traducción no oficial): «El danazol suprime el eje hipófiso-ovárico.» Texto original en inglés: "Danazol suppresses the pituitary-ovarian axis." ([DailyMed: danazol prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=55ad6325-16f6-4f0c-a1dc-734847052d0b), versión del 2024-10-10; consultado el 2026-11-19). Según la literatura revisada, danazol suprime el pico hipofisario de LH/FSH y la esteroidogénesis ovárica, lo que provoca atrofia endometrial y amenorrea.
 
 En este sentido, la amenorrea sería un efecto farmacológico del propio fármaco, y su uso para suprimir la menstruación resulta plausible desde el punto de vista mecanístico. Un estudio de cohorte retrospectivo multicéntrico de 2024 describe su empleo para la supresión menstrual en personas transgénero.
 
@@ -112,6 +112,18 @@ La predicción se apoya en un mecanismo plausible, pero no hay ensayos clínicos
 - Advertencias y contraindicaciones del prospecto de la AEMPS
 - Estudios clínicos prospectivos específicos de supresión menstrual con danazol
 - Comparación de seguridad y eficacia frente a progestágenos y análogos de GnRH
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: danazol prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=55ad6325-16f6-4f0c-a1dc-734847052d0b) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

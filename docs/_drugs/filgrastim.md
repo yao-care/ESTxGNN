@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno de liberaci
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados en las fuentes compiladas. Según la información conocida, filgrastim es un G-CSF recombinante que actúa sobre el receptor de G-CSF en el linaje granulocítico, estimulando la proliferación y maduración de neutrófilos. Su eficacia en las neutropenias congénitas y crónicas está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Filgrastim (traducción no oficial): «Los factores estimulantes de colonias son glucoproteínas que actúan sobre las células hematopoyéticas uniéndose a receptores específicos de la superficie celular y estimulando la proliferación, el compromiso de diferenciación y cierta activación funcional de las células terminales. El G-CSF endógeno es un factor estimulante de colonias específico de linaje que producen los monocitos, los fibroblastos y las células endoteliales.» Texto original en inglés: "Colony-stimulating factors are glycoproteins which act on hematopoietic cells by binding to specific cell surface receptors and stimulating proliferation‚ differentiation commitment‚ and some end-cell functional activation. Endogenous G-CSF is a lineage-specific colony-stimulating factor that is produced by monocytes‚ fibroblasts, and endothelial cells." ([DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7), versión del 2026-11-10; consultado el 2026-11-19). Según la información conocida, filgrastim es un G-CSF recombinante que actúa sobre el receptor de G-CSF en el linaje granulocítico, estimulando la proliferación y maduración de neutrófilos. Su eficacia en las neutropenias congénitas y crónicas está bien establecida.
 
 La relación entre la indicación original y la nueva es débil. Los trastornos de liberación plaquetaria afectan a la función de las plaquetas (secreción de gránulos), no al número de neutrófilos, y no se ha identificado un vínculo mecanístico establecido con la señalización de G-CSF. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica o clínica.
 
@@ -109,6 +109,19 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, 
 - Texto de indicaciones aprobadas de las autorizaciones españolas
 - Evaluación de compatibilidad de vía de administración y similitud con la indicación original (pendientes)
 - Valorar otras predicciones del listado con mayor racionalidad biológica, por ejemplo en trombocitopenias constitucionales, si se dispone de evidencia directa
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

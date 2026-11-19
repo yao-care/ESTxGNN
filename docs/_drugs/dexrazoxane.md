@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **colangitis esclerosante*
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, dexrazoxano es un agente quelante del hierro y modulador de la topoisomerasa II, utilizado como cardioprotector frente a la toxicidad de las antraciclinas y en el manejo de la extravasación de antraciclinas (Savene).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dexrazoxane (traducción no oficial): «No se comprende por completo el mecanismo por el cual el dexrazoxano ejerce su actividad citoprotectora. El dexrazoxano es un derivado cíclico del EDTA que penetra las membranas celulares. Los resultados de estudios de laboratorio sugieren que el dexrazoxano se convierte a nivel intracelular en un agente quelante de anillo abierto que interfiere con la generación de radicales libres mediada por hierro, que se considera responsable, en parte, de la miocardiopatía inducida por antraciclinas.» Texto original en inglés: "The mechanism by which dexrazoxane exerts its cytoprotective activity is not fully understood. Dexrazoxane is a cyclic derivative of EDTA that penetrates cell membranes. Results of laboratory studies suggest that dexrazoxane is converted intracellularly to a ring-opened chelating agent that interferes with iron-mediated free radical generation thought to be responsible, in part, for anthracycline-induced cardiomyopathy." ([DailyMed: dexrazoxane prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7c01089-85f5-40aa-b679-f53a425b4d68), versión del 2025-07-31; consultado el 2026-11-19). Según la información conocida, dexrazoxano es un agente quelante del hierro y modulador de la topoisomerasa II, utilizado como cardioprotector frente a la toxicidad de las antraciclinas y en el manejo de la extravasación de antraciclinas (Savene).
 
 Una hipótesis posible, aunque **especulativa y no verificada**, es que la quelación de hierro podría reducir el daño oxidativo o dependiente del hierro en el epitelio biliar. No se ha encontrado ninguna evidencia clínica ni bibliográfica que lo confirme, y la similitud con la indicación original no ha sido evaluada. El puntaje alto del modelo (0,9999) debe interpretarse como una señal computacional, no como prueba de eficacia.
 
@@ -141,6 +141,18 @@ Las demás predicciones del modelo TxGNN (aprendizaje profundo) también tienen 
 | Infección urinaria | 0,9987 | L5 | Hold | No es antimicrobiano |
 | Pielonefritis | 0,9985 | L5 | Hold | La puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica |
 | Cistitis | 0,9982 | L4 | Pregunta de investigación | Apoyo preclínico indirecto (ferroptosis); sin datos clínicos directos; el uroprotector establecido es la mesna |
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: dexrazoxane prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7c01089-85f5-40aa-b679-f53a425b4d68) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

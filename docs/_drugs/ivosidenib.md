@@ -60,7 +60,7 @@ Los datos compilados indican que el puntaje alto es probablemente un artefacto d
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Ivosidenib es un inhibidor de la isocitrato deshidrogenasa 1 (IDH1) mutada. Reduce los niveles de 2-hidroxiglutarato (2-HG) y alivia el bloqueo de diferenciación en neoplasias mieloides con mutación de IDH1. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados; la descripción anterior procede del análisis mecanístico asociado a la predicción.
+Ivosidenib es un inhibidor de la isocitrato deshidrogenasa 1 (IDH1) mutada. Reduce los niveles de 2-hidroxiglutarato (2-HG) y alivia el bloqueo de diferenciación en neoplasias mieloides con mutación de IDH1. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ivosidenib (traducción no oficial): «El ivosidenib es un inhibidor de molécula pequeña dirigido contra la enzima isocitrato deshidrogenasa 1 (IDH1) mutante. En los pacientes con LMA, las mutaciones de IDH1 susceptibles se definen como aquellas que dan lugar a un aumento de las concentraciones de 2-hidroxiglutarato (2-HG) en las células leucémicas y en las que la eficacia se predice por 1) remisiones clínicamente significativas con la dosis recomendada de ivosidenib y/o 2) la inhibición de la actividad enzimática de la IDH1 mutante a concentraciones de ivosidenib sostenibles con la posología recomendada, según métodos validados.» Texto original en inglés: "Ivosidenib is a small molecule inhibitor that targets the mutant isocitrate dehydrogenase 1 (IDH1) enzyme. In patients with AML, susceptible IDH1 mutations are defined as those leading to increased levels of 2-hydroxyglutarate (2-HG) in the leukemia cells and where efficacy is predicted by 1) clinically meaningful remissions with the recommended dose of ivosidenib and/or 2) inhibition of mutant IDH1 enzymatic activity at concentrations of ivosidenib sustainable at the recommended dosage according to validated methods." ([DailyMed: Tibsovo (ivosidenib) prescribing information, Servier Pharmaceutical LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65d254c0-67ad-42c4-b972-ad463b755b2d), versión del 2025-12-22; consultado el 2026-11-19).
 
 **En este caso, la predicción no resulta razonable desde el punto de vista biológico.** La poliomielitis bulbar es una infección viral de las neuronas motoras causada por el poliovirus, sin dependencia conocida de mutaciones de IDH1 ni de la señalización por 2-HG. No se identificó ningún vínculo mecanístico creíble con la indicación original. El puntaje elevado (0,9931) se interpreta como un artefacto del modelo TxGNN (aprendizaje profundo) y no está respaldado por una justificación biológica.
 
@@ -130,6 +130,19 @@ La predicción para poliomielitis bulbar carece de ensayos, literatura y fundame
 - Obtener y analizar el prospecto de AEMPS (advertencias, contraindicaciones e indicación autorizada), una brecha de datos bloqueante para el cribado de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Realizar una revisión de la literatura y de registros de ensayos para las indicaciones alternativas de LMA/SMD relacionadas con terapia.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tibsovo (ivosidenib) prescribing information, Servier Pharmaceutical LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65d254c0-67ad-42c4-b972-ad463b755b2d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

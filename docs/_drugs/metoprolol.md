@@ -59,7 +59,7 @@ Nota: la primera predicción de la lista (enfermedad renal hipertensiva maligna)
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, metoprolol bloquea de forma selectiva los receptores beta-1, lo que reduce la frecuencia cardíaca, el gasto cardíaco y la demanda de oxígeno del miocardio.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Metoprolol (traducción no oficial): «El metoprolol es un agente bloqueante de los receptores adrenérgicos beta 1 -selectivo (cardioselectivo). Sin embargo, este efecto preferente no es absoluto y, a concentraciones plasmáticas más altas, el metoprolol también inhibe los adrenorreceptores beta 2, ubicados principalmente en la musculatura bronquial y vascular.» Texto original en inglés: "Metoprolol is a beta 1 -selective (cardioselective) adrenergic receptor blocking agent. This preferential effect is not absolute, however, and at higher plasma concentrations, metoprolol also inhibits beta 2 -adrenoreceptors, chiefly located in the bronchial and vascular musculature." ([DailyMed: Toprol Xl (metoprolol succinate) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=496ddfaa-7c9c-4888-b747-a210249b367a), versión del 2026-03-03; consultado el 2026-11-19). Según el conocimiento farmacológico general, metoprolol bloquea de forma selectiva los receptores beta-1, lo que reduce la frecuencia cardíaca, el gasto cardíaco y la demanda de oxígeno del miocardio.
 
 La enfermedad cardíaca pulmonar crónica (cor pulmonale) suele derivar de enfermedades pulmonares como la EPOC. La conexión con metoprolol es indirecta: la evidencia recuperada trata sobre el uso de betabloqueantes en pacientes con enfermedad cardiovascular y EPOC, no sobre el cor pulmonale en sí. La cardioselectividad reduce teóricamente el riesgo de broncoespasmo.
 
@@ -125,6 +125,19 @@ Ningún ensayo ni publicación estudia directamente la enfermedad cardíaca pulm
 - Seguimiento de los resultados del ensayo NCT06825728 (insuficiencia cardíaca con EPOC)
 - Datos de mecanismo de acción y texto oficial de seguridad (prospecto de la AEMPS)
 - Evaluación de riesgo-beneficio en pacientes con enfermedad pulmonar obstructiva
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Toprol Xl (metoprolol succinate) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=496ddfaa-7c9c-4888-b747-a210249b367a) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

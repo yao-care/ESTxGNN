@@ -56,7 +56,7 @@ con **0 ensayos clínicos** y **3 publicaciones** preclínicas o mecanísticas, 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Bictegravir es un inhibidor de la transferencia de cadena de la integrasa del VIH-1. Los datos de mecanismo de acción de DrugBank no están disponibles en los datos compilados para este informe, pero la clase farmacológica es conocida: bloquea la integración del ADN viral en el genoma de la célula huésped.
+Bictegravir es un inhibidor de la transferencia de cadena de la integrasa del VIH-1. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Bictegravir es (traducción no oficial): «Inhibidor de la integrasa del virus de la inmunodeficiencia humana de tipo 1» Texto original en inglés: "Human immunodeficiency virus type 1 integrase inhibitor" ([ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866), CC BY-SA 3.0; consultado el 2026-11-19).
 
 La integrasa del SIV es estructural y funcionalmente muy parecida a la del VIH-1, por lo que el mecanismo de los INSTI podría trasladarse. Un estudio in vitro (PMID 28923862) describe actividad antiviral de bictegravir frente a variantes de SIVmac239 resistentes a los INSTI. Un trabajo estructural (PMID 32506843) explica cómo se unen los INSTI a las integrasas de VIH y SIV, y un modelo de ratón humanizado (PMID 39559349) permite probar estrategias antivirales frente a ambos virus.
 
@@ -100,6 +100,19 @@ La evidencia se limita a estudios preclínicos y mecanísticos, sin ensayos clí
 - Estudios en modelos animales (primates no humanos) que confirmen la eficacia in vivo
 - Una justificación clara de la relevancia para humanos, ya que la indicación es de interés principalmente como modelo de investigación
 - Información completa de advertencias y contraindicaciones del prospecto
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

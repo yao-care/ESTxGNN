@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para el **trastorno bipolar man
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la propafenona es un antiarrítmico con eficacia comprobada en arritmias auriculares y ventriculares. Los datos compilados la vinculan farmacológicamente con los receptores β1 y β2 adrenérgicos y con el canal de potasio Kv1.5.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Propafenone (traducción no oficial): «La propafenona es un fármaco antiarrítmico de clase 1C con efectos anestésicos locales y una acción estabilizadora directa sobre las membranas miocárdicas. El efecto electrofisiológico de la propafenona se manifiesta en una reducción de la velocidad de ascenso (fase 0) del potencial de acción monofásico.» Texto original en inglés: "Propafenone is a Class 1C antiarrhythmic drug with local anesthetic effects, and a direct stabilizing action on myocardial membranes. The electrophysiological effect of propafenone manifests itself in a reduction of upstroke velocity (Phase 0) of the monophasic action potential." ([DailyMed: propafenone hydrochloride prescribing information, Northstar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ecd6452-ccc3-493f-9a4a-69f0fbf67a42), versión del 2026-06-04; consultado el 2026-11-19). Según la información conocida, la propafenona es un antiarrítmico con eficacia comprobada en arritmias auriculares y ventriculares. Los datos compilados la vinculan farmacológicamente con los receptores β1 y β2 adrenérgicos y con el canal de potasio Kv1.5.
 
 **En este caso, la predicción no es razonable desde el punto de vista mecanístico.** No se identifica ningún mecanismo terapéutico plausible que conecte un antiarrítmico cardíaco con el tratamiento de la manía. La literatura recuperada describe a la propafenona como una posible **causa** de manía (reporte de caso de 1985) y como fuente de interacciones medicamentosas (psicosis orgánica por interacción con venlafaxina en 2001; interacciones entre antipsicóticos y fármacos cardiovasculares en 2020).
 
@@ -122,11 +122,12 @@ Cuenta con estudios preclínicos sobre el bloqueo del receptor de rianodina RyR2
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Las 5 autorizaciones están vigentes y son de monofármaco" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: propafenone hydrochloride prescribing information, Northstar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ecd6452-ccc3-493f-9a4a-69f0fbf67a42) |
 
 <!-- review:end log -->
 

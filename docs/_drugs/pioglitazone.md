@@ -60,7 +60,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, pioglitazona es un agonista del receptor activado por proliferadores de peroxisomas gamma (PPARG), lo que se confirma en los datos de farmacología recopilados (que también muestran interacción con TRPM3). Su eficacia en diabetes tipo 2 como sensibilizador de insulina está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pioglitazone (traducción no oficial): «ACTOS es una tiazolidinediona cuyo mecanismo de acción depende de la presencia de insulina. ACTOS disminuye la resistencia a la insulina en la periferia y en el hígado, lo que da lugar a un aumento de la eliminación de glucosa dependiente de insulina y a una disminución de la producción hepática de glucosa. […] La pioglitazona no es un secretagogo de insulina.» Texto original en inglés: "ACTOS is a thiazolidinedione that depends on the presence of insulin for its mechanism of action. ACTOS decreases insulin resistance in the periphery and in the liver resulting in increased insulin-dependent glucose disposal and decreased hepatic glucose output. […] Pioglitazone is not an insulin secretagogue." ([DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c), versión del 2025-03-28; consultado el 2026-11-19). Según la información conocida, pioglitazona es un agonista del receptor activado por proliferadores de peroxisomas gamma (PPARG), lo que se confirma en los datos de farmacología recopilados (que también muestran interacción con TRPM3). Su eficacia en diabetes tipo 2 como sensibilizador de insulina está bien establecida.
 
 Para la opsismodisplasia, **no se identifica un vínculo mecanístico respaldado por los datos**. Esta enfermedad es una displasia esquelética rara asociada a variantes del gen INPPL1, y su relación con la activación de PPAR-gamma no está establecida. El puntaje elevado del modelo (0.9959) es únicamente una predicción computacional, sin ensayos ni literatura que la corroboren.
 
@@ -127,11 +127,12 @@ La predicción para opsismodisplasia es solo del modelo (nivel L5), sin ensayos 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Pioglitazona está comercializada en España con 20 autorizaciones vigentes (todas de monofármaco, ninguna cancelada), en forma de comprimidos" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c) |
 
 <!-- review:end log -->
 

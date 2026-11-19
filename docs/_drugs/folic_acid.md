@@ -56,7 +56,7 @@ pero no hay **ningún ensayo clínico** y solo existen **19 publicaciones** de c
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, el ácido fólico es una vitamina hidrosoluble del grupo B que actúa como cofactor en el metabolismo de un carbono (síntesis de nucleótidos y metionina), y su eficacia en las anemias carenciales y deficiencias vitamínicas está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Folic Acid (traducción no oficial): «El ácido fólico actúa sobre la médula ósea megaloblástica para producir una médula normoblástica. En el ser humano, se requiere una fuente exógena de folato para la síntesis de nucleoproteínas y el mantenimiento de la eritropoyesis normal. El ácido fólico es el precursor del ácido tetrahidrofólico, que participa como cofactor en las reacciones de transformilación en la biosíntesis de las purinas y los timidilatos de los ácidos nucleicos.» Texto original en inglés: "Folic acid acts on megaloblastic bone marrow to produce a normoblastic marrow. In man, an exogenous source of folate is required for nucleoprotein synthesis and the maintenance of normal erythropoiesis. Folic acid is the precursor of tetrahydrofolic acid, which is involved as a cofactor for transformylation reactions in the biosynthesis of purines and thymidylates of nucleic acids." ([DailyMed: Quiofic (folic acid) prescribing information, Solubiomix, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b868b314-591d-458b-be82-2bcd0b73cce1), versión del 2026-10-05; consultado el 2026-11-19). Según la información conocida, el ácido fólico es una vitamina hidrosoluble del grupo B que actúa como cofactor en el metabolismo de un carbono (síntesis de nucleótidos y metionina), y su eficacia en las anemias carenciales y deficiencias vitamínicas está bien establecida.
 
 La biotina es también una vitamina hidrosoluble del grupo B, cofactor de las carboxilasas. Ambas vitaminas comparten cercanía en la red de conocimiento (rutas de metabolismo de un carbono y carboxilación), lo que explica el puntaje alto del modelo. Además, la literatura menciona interacciones metabólicas entre vitaminas del grupo B (por ejemplo, la relación entre B12, folato y biotina).
 
@@ -127,11 +127,12 @@ La predicción se basa solo en el modelo (nivel L5): no hay ensayos clínicos, l
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Existen 7 autorizaciones vigentes en total (todas de monofármaco); aquí se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Quiofic (folic acid) prescribing information, Solubiomix, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b868b314-591d-458b-be82-2bcd0b73cce1) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Entre las predicciones del mismo fármaco, la mejor respaldada es el **carcinoma
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, durvalumab es un inhibidor del punto de control inmunitario PD-L1, y mecanísticamente el bloqueo de esta vía podría ser aplicable a otros adenocarcinomas ginecológicos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Durvalumab (traducción no oficial): «La expresión del ligando 1 de muerte celular programada (PD-L1) puede ser inducida por señales inflamatorias (p. ej., IFN-gamma), y el PD-L1 puede expresarse tanto en las células tumorales como en las células inmunitarias asociadas al tumor en el microentorno tumoral. El PD-L1 bloquea la función y la activación de los linfocitos T mediante su interacción con PD-1 y CD80 (B7.1). […] El durvalumab es un anticuerpo monoclonal humano de tipo inmunoglobulina G1 kappa (IgG1κ) que se une al PD-L1 y bloquea la interacción del PD-L1 con PD-1 y CD80 (B7.1).» Texto original en inglés: "Expression of programmed cell death ligand-1 (PD-L1) can be induced by inflammatory signals (e.g., IFN-gamma) and can be expressed on both tumor cells and tumor-associated immune cells in the tumor microenvironment. PD-L1 blocks T-cell function and activation through interaction with PD-1 and CD80 (B7.1). […] Durvalumab is a human immunoglobulin G1 kappa (IgG1κ) monoclonal antibody that binds to PD-L1 and blocks the interaction of PD-L1 with PD-1 and CD80 (B7.1)." ([DailyMed: Imfinzi (durvalumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8baba4ea-2855-42fa-9bd9-5a7548d4cec3), versión del 2026-08-31; consultado el 2026-11-19). Según la información conocida, durvalumab es un inhibidor del punto de control inmunitario PD-L1, y mecanísticamente el bloqueo de esta vía podría ser aplicable a otros adenocarcinomas ginecológicos.
 
 Sin embargo, esta es una extrapolación: no existe ningún ensayo ni publicación en los datos que estudie directamente el adenocarcinoma del ligamento uterino. La puntuación TxGNN (0,999) es solo una salida del modelo y no constituye evidencia clínica. Por ello el nivel de evidencia se mantiene en L5.
 
@@ -124,6 +124,19 @@ No existe ningún ensayo ni publicación que estudie directamente el adenocarcin
 - Texto de indicaciones aprobadas de las autorizaciones locales.
 - Revisión de seguridad de interacciones, en especial con inmunosupresores como los corticoides y adalimumab.
 - Evaluación de la compatibilidad de vía de administración y similitud con la indicación original (pendientes).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Imfinzi (durvalumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8baba4ea-2855-42fa-9bd9-5a7548d4cec3) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

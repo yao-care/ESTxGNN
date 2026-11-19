@@ -58,7 +58,7 @@ Cabe señalar que el trastorno bipolar ya es una indicación original, por lo qu
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente principal. Según la información conocida, loxapina es un antipsicótico de la clase de las dibenzoxazepinas. Los datos farmacológicos compilados indican afinidad por los receptores dopaminérgicos D2, D3 y D4, los serotoninérgicos 5-HT2A, 5-HT2C, 5-HT6 y 5-HT7, y el receptor histaminérgico H1, además del canal de potasio KNa1.1 (KCNT1).
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Loxapine (traducción no oficial): «Desde el punto de vista farmacológico, la loxapina es un antipsicótico cuyo mecanismo de acción exacto no se ha establecido. Sin embargo, se han observado cambios en el nivel de excitabilidad de las áreas inhibitorias subcorticales en varias especies animales, en asociación con manifestaciones de tranquilización como efectos calmantes y supresión de la conducta agresiva.» Texto original en inglés: "Pharmacologically, loxapine is an antipsychotic for which the exact mode of action has not been established. However, changes in the level of excitability of subcortical inhibitory areas have been observed in several animal species in association with such manifestations of tranquilization as calming effects and suppression of aggressive behavior." ([DailyMed: loxapine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e412c36-66b0-444b-833b-cea79976844e), versión del 2026-11-03; consultado el 2026-11-19). Según la información conocida, loxapina es un antipsicótico de la clase de las dibenzoxazepinas. Los datos farmacológicos compilados indican afinidad por los receptores dopaminérgicos D2, D3 y D4, los serotoninérgicos 5-HT2A, 5-HT2C, 5-HT6 y 5-HT7, y el receptor histaminérgico H1, además del canal de potasio KNa1.1 (KCNT1).
 
 El antagonismo dopaminérgico D2 y serotoninérgico 5-HT2A es coherente con los efectos antimaníacos y antiagitación. La esquizofrenia y el trastorno bipolar comparten sintomatología (psicosis, agitación), y los antipsicóticos se usan de forma establecida en los episodios maníacos.
 
@@ -121,6 +121,19 @@ Loxapina ya tiene como indicación original el trastorno bipolar, y la formulaci
 ### Nota sobre otras predicciones
 
 Las otras nueve predicciones (rangos 2 a 10, p. ej., distrofia retiniana, hidranencefalia, miopía ligada al X, enfermedad de Charcot-Marie-Tooth tipo 1G) tienen puntajes TxGNN altos (≈0.9990), pero carecen de ensayos clínicos y de literatura, y no presentan un vínculo mecanístico plausible. Todas se clasifican como L5 con decisión **Hold**.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: loxapine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e412c36-66b0-444b-833b-cea79976844e) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

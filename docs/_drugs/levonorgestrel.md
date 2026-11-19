@@ -56,7 +56,7 @@ Hay **0 ensayos clínicos** registrados y **20 publicaciones** relacionadas. Sol
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Levonorgestrel es un progestágeno derivado de la serie de los 19-carbonos (estructura de tipo androstano), con cierta actividad androgénica residual.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Levonorgestrel (traducción no oficial): «No se ha demostrado de manera concluyente el mecanismo local por el cual el LNG liberado de forma continua contribuye a la eficacia anticonceptiva de Skyla. Los estudios de Skyla y de prototipos similares de SIU de LNG han sugerido varios mecanismos que previenen el embarazo: el espesamiento del moco cervical, que impide el paso de los espermatozoides al útero; la inhibición de la capacitación o de la supervivencia de los espermatozoides, y la alteración del endometrio.» Texto original en inglés: "The local mechanism by which continuously released LNG contributes to the contraceptive effectiveness of Skyla has not been conclusively demonstrated. Studies of Skyla and similar LNG IUS prototypes have suggested several mechanisms that prevent pregnancy: thickening of cervical mucus preventing passage of sperm into the uterus, inhibition of sperm capacitation or survival, and alteration of the endometrium." ([DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309), versión del 2026-03-04; consultado el 2026-11-19). Levonorgestrel es un progestágeno derivado de la serie de los 19-carbonos (estructura de tipo androstano), con cierta actividad androgénica residual.
 
 El acné es un trastorno de la unidad pilosebácea en el que los andrógenos tienen un papel importante. Los anticonceptivos orales combinados pueden mejorarlo al aumentar la globulina transportadora de hormonas sexuales (SHBG) y reducir la testosterona libre, sobre todo por el componente estrogénico. La combinación de 20 µg de etinilestradiol y 100 µg de levonorgestrel mostró en un ensayo aleatorizado controlado con placebo eficacia en acné moderado.
 
@@ -112,6 +112,18 @@ Existe un ensayo aleatorizado controlado con placebo en acné (nivel L2), pero e
 - Datos detallados del mecanismo de acción.
 - Revisión de las advertencias y contraindicaciones del prospecto de la AEMPS.
 - Valoración del perfil de seguridad y de las interacciones en la población con acné.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

@@ -66,7 +66,7 @@ Su puntaje alto parece reflejar cercanía en la red de conocimiento de trastorno
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada. Según la información conocida, andexanet alfa es un señuelo recombinante del factor Xa, catalíticamente inactivo, que une y secuestra los inhibidores del FXa (y la actividad de FXa asociada a TFPI). Su uso conocido es la reversión de la anticoagulación.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Andexanet Alfa (traducción no oficial): «El factor Xa de coagulación (recombinante), inactivado-zhzo, ejerce su efecto procoagulante al unirse a los inhibidores del FXa, rivaroxabán y apixabán, y secuestrarlos. Otro efecto procoagulante observado de la proteína ANDEXXA es su capacidad de unirse al inhibidor de la vía del factor tisular (TFPI) e inhibir su actividad.» Texto original en inglés: "Coagulation factor Xa (recombinant), inactivated-zhzo exerts its procoagulant effect by binding and sequestering the FXa inhibitors, rivaroxaban and apixaban. Another observed procoagulant effect of the ANDEXXA protein is its ability to bind to, and inhibit the activity of, Tissue Factor Pathway Inhibitor (TFPI)." ([DailyMed: Andexxa (andexanet alfa) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9d90a6-63e6-46ef-96ff-dd6519ae7b6c), versión del 2025-05-23; consultado el 2026-11-19). Según la información conocida, andexanet alfa es un señuelo recombinante del factor Xa, catalíticamente inactivo, que une y secuestra los inhibidores del FXa (y la actividad de FXa asociada a TFPI). Su uso conocido es la reversión de la anticoagulación.
 
 La trombastenia de Glanzmann se debe a la deficiencia o disfunción de la integrina plaquetaria αIIbβ3 (GPIIb/IIIa), que impide la agregación plaquetaria. Ambos mecanismos no guardan relación: un agente de reversión de inhibidores del FXa no tiene una acción plausible sobre una agregación plaquetaria defectuosa.
 
@@ -144,11 +144,12 @@ La predicción para trombastenia de Glanzmann se basa únicamente en el modelo (
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "comercializada en España como ONDEXXYA" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Andexxa (andexanet alfa) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9d90a6-63e6-46ef-96ff-dd6519ae7b6c) |
 
 <!-- review:end log -->
 

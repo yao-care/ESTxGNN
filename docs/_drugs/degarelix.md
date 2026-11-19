@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, pero **
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, degarelix es un antagonista del receptor de GnRH: bloquea la señal hipotalámica-hipofisaria, reduce la secreción de LH y FSH y, con ello, los andrógenos gonadales. Este tipo de fármaco se utiliza en patologías dependientes de andrógenos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Degarelix (traducción no oficial): «El degarelix es un antagonista del receptor de GnRH. Se une de forma reversible a los receptores hipofisarios de GnRH, lo que reduce la liberación de gonadotropinas y, en consecuencia, de testosterona.» Texto original en inglés: "Degarelix is a GnRH receptor antagonist. It binds reversibly to the pituitary GnRH receptors, thereby reducing the release of gonadotropins and consequently testosterone." ([DailyMed: Firmagon (degarelix) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ab11dd8a-0fd9-4013-89ab-e114557c7e4b), versión del 2024-01-30; consultado el 2026-11-19). Según la información conocida, degarelix es un antagonista del receptor de GnRH: bloquea la señal hipotalámica-hipofisaria, reduce la secreción de LH y FSH y, con ello, los andrógenos gonadales. Este tipo de fármaco se utiliza en patologías dependientes de andrógenos.
 
 La relación con la hipertricosis es **débil**. A diferencia del hirsutismo, la hipertricosis generalmente no depende de los andrógenos. La supresión androgénica solo podría influir en el crecimiento del vello en subtipos sensibles a los andrógenos. La puntuación de 0,9999 proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no hay ensayos ni literatura que la respalden.
 
@@ -106,6 +106,19 @@ La predicción se basa solo en la puntuación del modelo (nivel L5), sin ensayos
 - Obtener el mecanismo de acción detallado desde DrugBank.
 - Revisión de la literatura sobre antagonistas de GnRH en trastornos del crecimiento del vello, para comprobar si existe un subtipo sensible a andrógenos.
 - Si se desea explorar alguna línea, priorizar como preguntas de investigación la pubertad precoz central y la pubertad precoz familiar limitada al varón, con evaluación de seguridad (QT, electrolitos) y de formulación pediátrica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Firmagon (degarelix) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ab11dd8a-0fd9-4013-89ab-e114557c7e4b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

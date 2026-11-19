@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, la nelarabina es un profármaco de ara-G, un análogo de la desoxiguanosina que se convierte en ara-GTP y se incorpora al ADN, causando citotoxicidad preferente en los linfocitos T. Su eficacia en neoplasias linfoides de células T es el motivo de su uso original.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Nelarabine (traducción no oficial): «Nelarabina es un profármaco del análogo de la desoxiguanosina 9-β- D -arabinofuranosilguanina (ara-G), un inhibidor metabólico de nucleósidos. Nelarabina es desmetilada por la ADA a ara-G, monofosforilada por la desoxiguanosina cinasa y la desoxicitidina cinasa, y posteriormente convertida en el 5’-trifosfato activo, ara-GTP.» Texto original en inglés: "Nelarabine is a prodrug of the deoxyguanosine analogue 9-β- D -arabinofuranosylguanine (ara-G), a nucleoside metabolic inhibitor. Nelarabine is demethylated by ADA to ara-G, mono-phosphorylated by deoxyguanosine kinase and deoxycytidine kinase, and subsequently converted to the active 5’-triphosphate, ara-GTP." ([DailyMed: Arranon (nelarabine) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9051de-5c4d-4c0f-8c19-e15214498cca), versión del 2025-03-31; consultado el 2026-11-19). Según la información conocida, la nelarabina es un profármaco de ara-G, un análogo de la desoxiguanosina que se convierte en ara-GTP y se incorpora al ADN, causando citotoxicidad preferente en los linfocitos T. Su eficacia en neoplasias linfoides de células T es el motivo de su uso original.
 
 La relación con la nueva indicación es teórica: se considera que la esclerosis múltiple remitente-recurrente implica actividad de linfocitos T autorreactivos, y fármacos que depletan linfocitos (como la cladribina, otro análogo de nucleósidos de purina) son eficaces en esta enfermedad. Por tanto, mecanísticamente podría ser aplicable.
 
@@ -107,6 +107,19 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Estudios preclínicos que evalúen la relevancia mecanística en modelos de esclerosis múltiple
 - Evaluación del balance beneficio-riesgo neurológico frente a alternativas de depleción linfocitaria ya aprobadas (como cladribina)
 - Revisión sistemática de la literatura para identificar cualquier evidencia indirecta
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Arranon (nelarabine) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9051de-5c4d-4c0f-8c19-e15214498cca) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ pero la evidencia se limita a **14 publicaciones** preclínicas (modelos animale
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, dolutegravir es un inhibidor de la transferencia de cadena de la integrasa (INSTI) del VIH-1, y su eficacia en la infección por VIH ha sido comprobada. Mecanísticamente, podría ser aplicable al SIV.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dolutegravir (traducción no oficial): «El dolutegravir es un agente antirretroviral contra el VIH-1. […] El dolutegravir inhibe la integrasa del VIH al unirse al sitio activo de la integrasa y bloquear el paso de transferencia de cadena de la integración del ADN retroviral, que es esencial para el ciclo de replicación del VIH. Los ensayos bioquímicos de transferencia de cadena con integrasa purificada del VIH-1 y ADN de sustrato preprocesado dieron valores de IC 50 de 2,7 nM y 12,6 nM.» Texto original en inglés: "Dolutegravir is an HIV-1 antiretroviral agent. […] Dolutegravir inhibits HIV integrase by binding to the integrase active site and blocking the strand transfer step of retroviral DNA integration which is essential for the HIV replication cycle. Strand transfer biochemical assays using purified HIV-1 integrase and pre-processed substrate DNA resulted in IC 50 values of 2.7 nM and 12.6 nM." ([DailyMed: Tivicay (dolutegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63df5af3-b8ac-4e76-9830-2dbb340af922), versión del 2026-08-25; consultado el 2026-11-19). Según la información conocida, dolutegravir es un inhibidor de la transferencia de cadena de la integrasa (INSTI) del VIH-1, y su eficacia en la infección por VIH ha sido comprobada. Mecanísticamente, podría ser aplicable al SIV.
 
 La integrasa del SIV está estrechamente relacionada con la del VIH-1, y los estudios estructurales de la intasoma muestran un sitio de unión del inhibidor conservado. Además, los datos preclínicos en macacos indican que la monoterapia con dolutegravir selecciona mutaciones de resistencia, lo que evidencia una presión antiviral real sobre el SIV.
 
@@ -112,6 +112,19 @@ La predicción para SIV se basa solo en estudios preclínicos en animales y in v
 - Datos del mecanismo de acción detallados
 - Texto de indicaciones y advertencias/contraindicaciones de la ficha técnica de la AEMPS
 - Validación biológica independiente si se pretende explorar la predicción del trastorno del neurodesarrollo
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tivicay (dolutegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63df5af3-b8ac-4e76-9830-2dbb340af922) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

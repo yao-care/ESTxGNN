@@ -60,7 +60,7 @@ Lusutrombopag es un agonista del receptor de trombopoyetina (TPO-R/c-MPL). Al ac
 
 Las trombocitopenias hereditarias con recuento plaquetario preservado o morfología normal podrían, en principio, entrar en el alcance de la agonización del TPO-R, ya que comparten el problema de fondo de un recuento de plaquetas insuficiente. Sin embargo, la eficacia de los agonistas del TPO-R en formas hereditarias depende del defecto genético subyacente, y esto no se ha establecido para lusutrombopag.
 
-El puntaje TxGNN es muy alto (0.99995), pero es solo una predicción del modelo. No se dispone de datos detallados del mecanismo de acción en las fuentes compiladas para este informe; el racional descrito procede de la clase farmacológica conocida.
+El puntaje TxGNN es muy alto (0.99995), pero es solo una predicción del modelo. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lusutrombopag (traducción no oficial): «El lusutrombopag es un agonista del receptor de TPO de molécula pequeña, biodisponible por vía oral, que interactúa con el dominio transmembrana de los receptores de TPO humanos expresados en los megacariocitos para inducir la proliferación y diferenciación de las células progenitoras megacariocíticas a partir de células madre hematopoyéticas, así como la maduración de los megacariocitos.» Texto original en inglés: "Lusutrombopag is an orally bioavailable, small molecule TPO receptor agonist that interacts with the transmembrane domain of human TPO receptors expressed on megakaryocytes to induce the proliferation and differentiation of megakaryocytic progenitor cells from hematopoietic stem cells and megakaryocyte maturation." ([DailyMed: Mulpleta (lusutrombopag) prescribing information, VANCOCIN ITALIA SRL](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a390aec3-6e77-45f8-95d3-d4b8c2eeee40), versión del 2025-12-09; consultado el 2026-11-19).
 
 ## Evidencia de Ensayos Clínicos
 
@@ -97,6 +97,19 @@ La predicción carece de ensayos clínicos y literatura; solo existe un puntaje 
 - Evaluar el riesgo trombótico y el perfil de seguridad en la población objetivo
 
 **Nota sobre otras predicciones:** las demás predicciones del modelo (p. ej., macrotrombocitopenia con insuficiencia mitral, trombocitopenia neonatal transitoria, enfermedad de gránulos densos, déficit del pool de almacenamiento plaquetario, esclerosis lateral amiotrófica y otras) carecen igualmente de evidencia clínica. Las de tipo neurológico y esquelético no tienen un vínculo mecanístico creíble y probablemente son artefactos del modelo TxGNN (aprendizaje profundo).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Mulpleta (lusutrombopag) prescribing information, VANCOCIN ITALIA SRL](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a390aec3-6e77-45f8-95d3-d4b8c2eeee40) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

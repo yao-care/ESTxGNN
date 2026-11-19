@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de Tourette
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, disopiramida es un antiarrítmico de clase Ia: bloquea los canales de sodio y posee actividad anticolinérgica.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Disopyramide (traducción no oficial): «Norpace (fosfato de disopiramida) es un fármaco antiarrítmico de tipo 1 (es decir, similar a la procainamida y la quinidina). En estudios en animales, Norpace disminuye la velocidad de despolarización diastólica (fase 4) en células con automatismo aumentado, disminuye la velocidad de ascenso (fase 0) y aumenta la duración del potencial de acción de las células cardíacas normales, disminuye la disparidad en la refractariedad entre el miocardio infartado y el miocardio adyacente con perfusión normal, y no tiene efecto sobre los receptores alfa- ni beta-adrenérgicos.» Texto original en inglés: "Norpace (disopyramide phosphate) is a Type 1 antiarrhythmic drug (i.e., similar to procainamide and quinidine). In animal studies Norpace decreases the rate of diastolic depolarization (phase 4) in cells with augmented automaticity, decreases the upstroke velocity (phase 0) and increases the action potential duration of normal cardiac cells, decreases the disparity in refractoriness between infarcted and adjacent normally perfused myocardium, and has no effect on alpha- or beta-adrenergic receptors." ([DailyMed: Norpace (disopyramide phosphate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e2aa1642-d262-4520-bc6a-9fd3ad795677), versión del 2026-08-24; consultado el 2026-11-19). Según la información conocida, disopiramida es un antiarrítmico de clase Ia: bloquea los canales de sodio y posee actividad anticolinérgica.
 
 El síndrome de Tourette implica una disfunción de la dopamina y de los circuitos córtico-estriado-tálamo-corticales. No se ha identificado un vínculo mecanístico establecido entre ambos. El puntaje elevado procede del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; carece de respaldo clínico o bibliográfico, por lo que debe interpretarse con mucha cautela.
 
@@ -94,6 +94,19 @@ La predicción para el síndrome de Tourette se basa solo en el modelo (L5), sin
 - Completar los datos del mecanismo de acción.
 - Realizar estudios preclínicos o una revisión sistemática que justifique un vínculo con la fisiopatología del síndrome de Tourette.
 - Si se desea explorar una vía con mayor plausibilidad, priorizar las arritmias auriculares (flutter auricular neonatal idiopático, taquicardia auricular multifocal), que pueden considerarse preguntas de investigación (L4), valorando antes seguridad y dosificación en la población objetivo.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Norpace (disopyramide phosphate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e2aa1642-d262-4520-bc6a-9fd3ad795677) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

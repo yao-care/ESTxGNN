@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos** registrados y la literatura dispon
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Zolmitriptán es un agonista de los receptores 5-HT1B/1D con acción central y periférica. Según la literatura compilada, combina actividad agonista parcial sobre estos receptores con buena farmacocinética oral y capacidad de inhibir la activación trigeminovascular tanto a nivel central como periférico. Los datos de mecanismo de acción de la base de datos de fármacos no estaban disponibles, por lo que esta descripción se apoya en las publicaciones preclínicas y de revisión.
+Zolmitriptán es un agonista de los receptores 5-HT1B/1D con acción central y periférica. Según la literatura compilada, combina actividad agonista parcial sobre estos receptores con buena farmacocinética oral y capacidad de inhibir la activación trigeminovascular tanto a nivel central como periférico. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Zolmitriptan (traducción no oficial): «El zolmitriptán se une con alta afinidad a los receptores 5-HT 1D y 5-HT 1B humanos recombinantes, y con afinidad moderada a los receptores 5-HT 1A. El metabolito N-desmetilado también tiene alta afinidad por los receptores 5-HT 1B/1D y afinidad moderada por los receptores 5-HT 1A.» Texto original en inglés: "Zolmitriptan binds with high affinity to human recombinant 5-HT 1D and 5-HT 1B receptors, and moderate affinity for 5-HT 1A receptors. The N-desmethyl metabolite also has high affinity for 5-HT 1B/1D and moderate affinity for 5-HT 1A receptors." ([DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4), versión del 2026-01-29; consultado el 2026-11-19).
 
 La migraña con aura de tronco encefálico es un subtipo de migraña con aura. Comparte con la migraña clásica la fisiopatología básica (activación trigeminovascular, liberación de CGRP y depresión cortical propagada), lo que ofrece un vínculo mecanístico plausible con la indicación original.
 
@@ -127,11 +127,12 @@ La predicción se apoya solo en el modelo y en literatura general sobre migraña
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes en total (todas de monofármaco), sin ninguna cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4) |
 
 <!-- review:end log -->
 

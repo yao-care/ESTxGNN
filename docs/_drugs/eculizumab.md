@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **hematopoyesis cíclica**
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, eculizumab es un inhibidor del componente C5 del complemento, que bloquea la vía terminal del complemento. Su eficacia en enfermedades mediadas por complemento, como la hemoglobinuria paroxística nocturna, está establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Eculizumab (traducción no oficial): «Eculizumab, el principio activo de SOLIRIS, es un anticuerpo monoclonal que se une específicamente y con alta afinidad a la proteína del complemento C5, con lo que inhibe su escisión en C5a y C5b e impide la generación del complejo terminal del complemento C5b-9. SOLIRIS inhibe la hemólisis intravascular mediada por el complemento terminal en pacientes con HPN y la microangiopatía trombótica (MAT) mediada por el complemento en pacientes con SHUa.» Texto original en inglés: "Eculizumab, the active ingredient in SOLIRIS, is a monoclonal antibody that specifically binds to the complement protein C5 with high affinity, thereby inhibiting its cleavage to C5a and C5b and preventing the generation of the terminal complement complex C5b-9. SOLIRIS inhibits terminal complement-mediated intravascular hemolysis in PNH patients and complement-mediated thrombotic microangiopathy (TMA) in patients with aHUS." ([DailyMed: Soliris (eculizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722), versión del 2026-07-08; consultado el 2026-11-19). Según la información conocida, eculizumab es un inhibidor del componente C5 del complemento, que bloquea la vía terminal del complemento. Su eficacia en enfermedades mediadas por complemento, como la hemoglobinuria paroxística nocturna, está establecida.
 
 Sin embargo, la relación mecanística con la nueva indicación **no está respaldada** por los datos. La hematopoyesis cíclica (neutropenia cíclica) se asocia típicamente a mutaciones en *ELANE* que alteran la regulación de los precursores de neutrófilos, y no a una patología mediada por el complemento. El puntaje elevado de TxGNN (0,9997) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; debe interpretarse con cautela.
 
@@ -95,6 +95,19 @@ La predicción se apoya exclusivamente en el puntaje del modelo (nivel L5), sin 
 - Estudios preclínicos o de mecanismo que muestren una implicación del complemento en la hematopoyesis cíclica
 - Revisión del prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas)
 - Evaluación del perfil de riesgo-beneficio, en especial el riesgo de infecciones por la inhibición del complemento
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Soliris (eculizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

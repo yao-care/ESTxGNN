@@ -60,7 +60,7 @@ La evidencia es muy limitada y se basa casi exclusivamente en la predicción del
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento farmacológico general, imatinib inhibe las quinasas ABL, KIT y PDGFR. Su eficacia en leucemia mieloide crónica y GIST está bien establecida, y mecanísticamente podría ser aplicable a tumores impulsados por estas vías.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Imatinib (traducción no oficial): «El mesilato de imatinib es un inhibidor de la proteína tirosina cinasa que inhibe la tirosina cinasa BCR-ABL, la tirosina cinasa anómala constitutiva generada por la anomalía del cromosoma Filadelfia en la CML. El imatinib inhibe la proliferación e induce la apoptosis en líneas celulares BCR-ABL positivas, así como en células leucémicas frescas de leucemia mieloide crónica con cromosoma Filadelfia positivo.» Texto original en inglés: "Imatinib mesylate is a protein-tyrosine kinase inhibitor that inhibits the BCR-ABL tyrosine kinase, the constitutive abnormal tyrosine kinase created by the Philadelphia chromosome abnormality in CML. Imatinib inhibits proliferation and induces apoptosis in BCR-ABL positive cell lines as well as fresh leukemic cells from Philadelphia chromosome positive chronic myeloid leukemia." ([DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b), versión del 2026-07-13; consultado el 2026-11-19). Según el conocimiento farmacológico general, imatinib inhibe las quinasas ABL, KIT y PDGFR. Su eficacia en leucemia mieloide crónica y GIST está bien establecida, y mecanísticamente podría ser aplicable a tumores impulsados por estas vías.
 
 Los fibrosarcomas y tumores fibroblásticos similares, en particular los dirigidos por la fusión COL1A1-PDGFB (como el dermatofibrosarcoma protuberans, que ya es una indicación original de imatinib), podrían responder mediante la inhibición de PDGFRB. Esto aporta una base biológica plausible para la predicción.
 
@@ -139,11 +139,12 @@ La predicción del fibrosarcoma cardíaco tiene un puntaje alto del modelo, pero
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes en total (todas de monofármaco), incluidas presentaciones en comprimidos y cápsulas duras; arriba se muestran" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b) |
 
 <!-- review:end log -->
 

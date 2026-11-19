@@ -60,7 +60,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información original del fármaco. Según la información conocida, el tazaroteno es un profármaco retinoide de uso tópico que se convierte en ácido tazaroténico. Este se une a los receptores del ácido retinoico (RAR), con mayor afinidad por RAR-beta y RAR-gamma, y normaliza la diferenciación de los queratinocitos, reduciendo la hiperproliferación y la inflamación.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tazarotene (traducción no oficial): «El tazaroteno es un profármaco retinoide que se convierte en su forma activa, el ácido carboxílico del tazaroteno, mediante desesterificación. El ácido tazaroténico se une a los tres miembros de la familia de receptores del ácido retinoico (RAR): RARα, RARβ y RARγ, pero muestra una selectividad relativa por RARβ y RARγ, y puede modificar la expresión génica.» Texto original en inglés: "Tazarotene is a retinoid prodrug which is converted to its active form, the carboxylic acid of tazarotene, by deesterification. Tazarotenic acid binds to all three members of the retinoic acid receptor (RAR) family: RARα, RARβ, and RARγ, but shows relative selectivity for RARβ, and RARγ and may modify gene expression." ([DailyMed: Tazorac (tazarotene) prescribing information, Almirall, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e4e4b81-420e-4492-8a74-80b692a80057), versión del 2026-11-04; consultado el 2026-11-19). Según la información conocida, el tazaroteno es un profármaco retinoide de uso tópico que se convierte en ácido tazaroténico. Este se une a los receptores del ácido retinoico (RAR), con mayor afinidad por RAR-beta y RAR-gamma, y normaliza la diferenciación de los queratinocitos, reduciendo la hiperproliferación y la inflamación.
 
 La psoriasis y la dermatitis seborreica son dermatosis inflamatorias con descamación y alteración de la renovación epidérmica. Por ello, mecanísticamente, un efecto sobre la diferenciación de queratinocitos podría ser relevante para la descamación y la inflamación de la dermatitis seborreica.
 
@@ -130,11 +130,12 @@ La predicción para dermatitis seborreica tiene un puntaje alto (0,9979), pero n
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Ambas autorizaciones corresponden a monofármaco, están vigentes y pertenecen a Allergan Pharmaceuticals International Limited" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tazorac (tazarotene) prescribing information, Almirall, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e4e4b81-420e-4492-8a74-80b692a80057) |
 
 <!-- review:end log -->
 

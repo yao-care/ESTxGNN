@@ -56,7 +56,7 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden actualmente est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la pitavastatina pertenece a la clase de las estatinas (inhibidores de la HMG-CoA reductasa), que reducen el colesterol LDL.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pitavastatin (traducción no oficial): «La pitavastatina es un inhibidor de la 3-hidroxi-3-metilglutaril-coenzima A (HMG-CoA) reductasa, la enzima que cataliza la conversión de HMG-CoA en mevalonato, un paso limitante de la velocidad en la vía biosintética del colesterol. En consecuencia, se acelera la expresión de los receptores de LDL, seguida de la captación de LDL desde la sangre hacia el hígado, y a continuación disminuye el CT plasmático.» Texto original en inglés: "Pitavastatin is an inhibitor of 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) reductase, the enzyme that catalyzes the conversion of HMG-CoA to mevalonate, a rate-limiting step in the biosynthetic pathway for cholesterol. As a result, the expression of LDL-receptors followed by the uptake of LDL from blood to liver is accelerated and then the plasma TC decreases." ([DailyMed: Livalo (pitavastatin calcium) prescribing information, Kowa Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44dcbf97-99ec-427c-ba50-207e0069d6d2), versión del 2026-03-31; consultado el 2026-11-19). Según la información conocida, la pitavastatina pertenece a la clase de las estatinas (inhibidores de la HMG-CoA reductasa), que reducen el colesterol LDL.
 
 La deficiencia de CETP es un trastorno del metabolismo de las lipoproteínas, típicamente con colesterol HDL elevado. El puntaje tan alto del modelo probablemente refleja que ambas condiciones comparten la vía del metabolismo lipídico en la red de conocimiento.
 
@@ -105,6 +105,19 @@ La predicción tiene un puntaje muy alto, pero no está respaldada por ningún e
 - Datos del mecanismo de acción y de las advertencias y contraindicaciones del prospecto.
 
 **Nota:** entre las otras predicciones del modelo, la relacionada con el VIH sí tiene evidencia sólida (ensayo REPRIEVE, publicado en NEJM 2023). Esa evidencia se refiere a la prevención de enfermedad cardiovascular en personas con VIH, no al tratamiento de la infección, y no respalda la indicación evaluada en este informe.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Livalo (pitavastatin calcium) prescribing information, Kowa Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44dcbf97-99ec-427c-ba50-207e0069d6d2) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide**, per
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, ribociclib pertenece a la clase de inhibidores de CDK4/6, que bloquean la progresión del ciclo celular de la fase G1 a la fase S al liberar la proteína del retinoblastoma (Rb) de la inhibición de CDK4/6. Su eficacia está demostrada en cáncer de mama HR+/HER2-.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ribociclib (traducción no oficial): «El ribociclib es un inhibidor de las cinasas dependientes de ciclinas (CDK) 4 y 6. Estas cinasas se activan al unirse a las ciclinas D y se encuentran aguas abajo de vías de señalización que conducen a la progresión del ciclo celular y a la proliferación celular.» Texto original en inglés: "Ribociclib is an inhibitor of cyclin-dependent kinase (CDK) 4 and 6. These kinases are activated upon binding to D-cyclins and are downstream of signaling pathways which lead to cell cycle progression and cellular proliferation." ([DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8), versión del 2026-07-01; consultado el 2026-11-19). Según la información conocida, ribociclib pertenece a la clase de inhibidores de CDK4/6, que bloquean la progresión del ciclo celular de la fase G1 a la fase S al liberar la proteína del retinoblastoma (Rb) de la inhibición de CDK4/6. Su eficacia está demostrada en cáncer de mama HR+/HER2-.
 
 La leucemia mieloide es una neoplasia hematológica en la que las células leucémicas dependen de la proliferación del ciclo celular. Por ello, mecanísticamente la inhibición de CDK4/6 es biológicamente plausible. Un estudio de 2020 (PMID 32560251) sugiere que los inhibidores de CDK4/6 podrían actuar sobre la resistencia farmacocinética en células de leucemia mieloide aguda (LMA), mediada por los transportadores ABCB1 y ABCG2.
 
@@ -116,6 +116,19 @@ La predicción para leucemia mieloide se basa solo en el puntaje del modelo y en
 - Evaluación del perfil de mielosupresión en pacientes hematológicos
 
 **Otras predicciones del modelo (no recomendadas):** trombocitopenia (0.9927), trombocitopenia con insuficiencia mitral (0.9908) y trombocitopenia hereditaria con plaquetas normales (0.9908). Todas son nivel L5 y probablemente falsos positivos, ya que la trombocitopenia es un efecto adverso conocido de ribociclib. Se desaconseja su uso con fines terapéuticos.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

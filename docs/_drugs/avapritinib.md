@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información general conocida, avapritinib es un inhibidor selectivo de KIT y PDGFRA, dos quinasas implicadas en la proliferación celular tumoral.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Avapritinib (traducción no oficial): «El avapritinib es un inhibidor de la tirosina cinasa que actúa sobre los mutantes KIT D816V, PDGFRA y PDGFRA D842, así como sobre múltiples mutantes de los exones 11, 11/17 y 17 de KIT, con concentraciones inhibitorias semimáximas (IC 50s ) inferiores a 25 nM en ensayos bioquímicos. Ciertas mutaciones en PDGFRA y KIT pueden dar lugar a la autofosforilación y la activación constitutiva de estos receptores, lo que puede contribuir a la proliferación tumoral y de los mastocitos.» Texto original en inglés: "Avapritinib is a tyrosine kinase inhibitor that targets KIT D816V, PDGFRA and PDGFRA D842 mutants as well as multiple KIT exon 11, 11/17 and 17 mutants with half maximal inhibitory concentrations (IC 50s ) less than 25 nM in biochemical assays. Certain mutations in PDGFRA and KIT can result in the autophosphorylation and constitutive activation of these receptors which can contribute to tumor and mast cell proliferation." ([DailyMed: Ayvakit (avapritinib) prescribing information, Blueprint Medicines Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=645c887c-8cd4-4623-8da9-ac223d71a8b9), versión del 2026-10-20; consultado el 2026-11-19). Según la información general conocida, avapritinib es un inhibidor selectivo de KIT y PDGFRA, dos quinasas implicadas en la proliferación celular tumoral.
 
 La displasia espondilometafisaria axial es un trastorno esquelético raro asociado a variantes en CFAP410 (C21orf2), que afectan la función ciliar. No se ha establecido ninguna relación entre la señalización de KIT/PDGFRA y esta vía.
 
@@ -109,6 +109,19 @@ La predicción solo se apoya en el puntaje del modelo (nivel de evidencia L5), s
 - Datos del mecanismo de acción (MOA) y una hipótesis biológica que conecte KIT/PDGFRA con la vía ciliar (CFAP410)
 - Estudios preclínicos que respalden la plausibilidad de la indicación
 - Advertencias y contraindicaciones del prospecto de la AEMPS para completar la evaluación de seguridad
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ayvakit (avapritinib) prescribing information, Blueprint Medicines Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=645c887c-8cd4-4623-8da9-ac223d71a8b9) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

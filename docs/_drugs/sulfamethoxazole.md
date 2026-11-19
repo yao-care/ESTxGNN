@@ -60,7 +60,7 @@ La evidencia se limita a **0 ensayos clínicos** y **1 publicación** (un estudi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, el sulfametoxazol inhibe la enzima bacteriana dihidropteroato sintetasa, bloqueando la síntesis de folato, y se combina habitualmente con trimetoprima para lograr un efecto sinérgico. Esta explicación procede de conocimiento general y no de los datos aportados.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Sulfamethoxazole es (traducción no oficial): «Inhibidor de la dihidropteroato sintasa bacteriana» Texto original en inglés: "Bacterial dihydropteroate synthase inhibitor" ([ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443), CC BY-SA 3.0; consultado el 2026-11-19). Según el conocimiento general, el sulfametoxazol inhibe la enzima bacteriana dihidropteroato sintetasa, bloqueando la síntesis de folato, y se combina habitualmente con trimetoprima para lograr un efecto sinérgico. Esta explicación procede de conocimiento general y no de los datos aportados.
 
 Mecanísticamente, un antibacteriano de este tipo es plausible frente a la conjuntivitis bacteriana. El puntaje elevado (0,9963) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -118,6 +118,19 @@ El puntaje alto de TxGNN (modelo de aprendizaje profundo) puede reflejar similit
 - Definir si existe interés real en una vía oftálmica, ya que las formulaciones disponibles son orales e inyectables.
 - Seleccionar una indicación realmente nueva (no incluida entre las originales) para evaluar un reposicionamiento genuino.
 - Buscar evidencia específica del sulfametoxazol (o cotrimoxazol) en conjuntivitis, incluidos ensayos clínicos.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

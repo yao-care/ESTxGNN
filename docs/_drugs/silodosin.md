@@ -56,7 +56,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Silodosina es un antagonista selectivo del adrenoceptor alfa-1A, con afinidad por los subtipos alfa-1A, alfa-1B y alfa-1D según los datos farmacológicos compilados. Su acción sobre el músculo liso de próstata y cuello vesical mejora el flujo urinario en la HPB. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada.
+Silodosina es un antagonista selectivo del adrenoceptor alfa-1A, con afinidad por los subtipos alfa-1A, alfa-1B y alfa-1D según los datos farmacológicos compilados. Su acción sobre el músculo liso de próstata y cuello vesical mejora el flujo urinario en la HPB. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Silodosin (traducción no oficial): «La silodosina es un antagonista selectivo de los adrenorreceptores alfa-1 postsinápticos, que se localizan en la próstata, la base de la vejiga, el cuello vesical, la cápsula prostática y la uretra prostática humanas. El bloqueo de estos adrenorreceptores alfa-1 puede provocar la relajación del músculo liso de estos tejidos, lo que da lugar a una mejoría del flujo urinario y a una reducción de los síntomas de la HPB.» Texto original en inglés: "Silodosin is a selective antagonist of post-synaptic alpha-1 adrenoreceptors, which are located in the human prostate, bladder base, bladder neck, prostatic capsule, and prostatic urethra. Blockade of these alpha-1 adrenoreceptors can cause smooth muscle in these tissues to relax, resulting in an improvement in urine flow and a reduction in BPH symptoms." ([DailyMed: silodosin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94bca72c-c74a-4181-8b6a-a0a2f654a0a7), versión del 2026-10-30; consultado el 2026-11-19).
 
 La relación con la nueva indicación es débil. El síndrome de Ambras es un trastorno congénito raro causado por reordenamientos genómicos que afectan la regulación de TRPS1, lo que altera el desarrollo del folículo piloso. Los datos compilados no conectan el bloqueo alfa-1A con esta vía, ni existe un papel establecido del antagonismo adrenérgico alfa-1 en el crecimiento del cabello.
 
@@ -123,11 +123,12 @@ La predicción se basa solo en el modelo (nivel L5): no hay ensayos clínicos, l
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas monofármaco, cápsula dura)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: silodosin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94bca72c-c74a-4181-8b6a-a0a2f654a0a7) |
 
 <!-- review:end log -->
 

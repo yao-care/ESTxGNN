@@ -57,7 +57,7 @@ El modelo TxGNN predice que podría ser efectivo para **esquizofrenia** (la pred
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, apomorfina es un agonista dopaminérgico con afinidad por los receptores D1, D2, D3, D4 y D5, y también interactúa con receptores serotoninérgicos (5-HT1A, 5-HT2A, 5-HT2B, 5-HT2C), adrenérgicos α2 (A, B y C) y el canal TRPA1. Su eficacia en Parkinson está comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Apomorphine (traducción no oficial): «ONAPGO es un agonista dopaminérgico no ergolínico con alta afinidad de unión in vitro por el receptor dopaminérgico D4 y afinidad moderada por los receptores dopaminérgicos D2, D3 y D5, y por los receptores adrenérgicos α1D, α2B y α2C. Se desconoce el mecanismo de acción preciso de ONAPGO como tratamiento de la enfermedad de Parkinson, aunque se cree que se debe a la estimulación de los receptores dopaminérgicos postsinápticos de tipo D2 en el núcleo caudado-putamen del cerebro.» Texto original en inglés: "ONAPGO is a non-ergoline dopamine agonist with high in vitro binding affinity for the dopamine D4 receptor, and moderate affinity for the dopamine D2, D3, and D5, and adrenergic α1D, α2B, α2C receptors. The precise mechanism of action of ONAPGO as a treatment for Parkinson's disease is unknown, although it is believed to be due to stimulation of post-synaptic dopamine D2-type receptors within the caudate-putamen in the brain." ([DailyMed: Onapgo (apomorphine hydrochloride) prescribing information, MDD US Operations, LLC, a subsidiary of Supernus Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3552b6e-5ae7-4993-aa1a-e399c4a7080a), versión del 2026-10-05; consultado el 2026-11-19). Según la información farmacológica conocida, apomorfina es un agonista dopaminérgico con afinidad por los receptores D1, D2, D3, D4 y D5, y también interactúa con receptores serotoninérgicos (5-HT1A, 5-HT2A, 5-HT2B, 5-HT2C), adrenérgicos α2 (A, B y C) y el canal TRPA1. Su eficacia en Parkinson está comprobada.
 
 La relación con la esquizofrenia es la hipótesis dopaminérgica: ambas enfermedades implican alteraciones del sistema dopaminérgico. Sin embargo, la lógica terapéutica es opuesta. En esquizofrenia el tratamiento estándar se basa en antagonistas o agonistas parciales del receptor D2, mientras que un agonista pleno como la apomorfina cabría esperar que empeorase los síntomas positivos. La literatura revisada apunta a que apomorfina se ha usado como sonda de sensibilidad dopaminérgica y respuesta neuroendocrina, no como tratamiento.
 
@@ -141,11 +141,12 @@ No existen ensayos clínicos y la literatura sobre esquizofrenia (nivel L4) es a
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 16 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Onapgo (apomorphine hydrochloride) prescribing information, MDD US Operations, LLC, a subsidiary of Supernus Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3552b6e-5ae7-4993-aa1a-e399c4a7080a) |
 
 <!-- review:end log -->
 

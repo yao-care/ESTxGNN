@@ -56,7 +56,7 @@ Esta dirección cuenta con **17 ensayos clínicos** y **19 publicaciones** de ap
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según los ensayos y publicaciones revisados, montelukast bloquea el receptor de cisteinil-leucotrienos. Estos mediadores inflamatorios aumentan en las vías respiratorias durante algunas infecciones virales, como la bronquiolitis por virus respiratorio sincitial (VRS).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Montelukast (traducción no oficial): «Los cisteinil leucotrienos (LTC 4, LTD 4, LTE 4 ) son productos del metabolismo del ácido araquidónico y se liberan desde diversas células, incluidos los mastocitos y los eosinófilos. Estos eicosanoides se unen a los receptores de cisteinil leucotrienos (CysLT). […] El montelukast es un compuesto activo por vía oral que se une con alta afinidad y selectividad al receptor CysLT 1 (con preferencia frente a otros receptores de las vías respiratorias farmacológicamente importantes, como el receptor prostanoide, colinérgico o β-adrenérgico).» Texto original en inglés: "The cysteinyl leukotrienes (LTC 4, LTD 4, LTE 4 ) are products of arachidonic acid metabolism and are released from various cells, including mast cells and eosinophils. These eicosanoids bind to cysteinyl leukotriene (CysLT) receptors. […] Montelukast is an orally active compound that binds with high affinity and selectivity to the CysLT 1 receptor (in preference to other pharmacologically important airway receptors, such as the prostanoid, cholinergic, or β-adrenergic receptor)." ([DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842), versión del 2025-04-30; consultado el 2026-11-19). Según los ensayos y publicaciones revisados, montelukast bloquea el receptor de cisteinil-leucotrienos. Estos mediadores inflamatorios aumentan en las vías respiratorias durante algunas infecciones virales, como la bronquiolitis por virus respiratorio sincitial (VRS).
 
 La bronquitis y las enfermedades inflamatorias relacionadas de las vías respiratorias comparten parte de esa inflamación mediada por leucotrienos. Por eso es plausible mecanísticamente que el bloqueo de esta vía tenga efecto. Un ensayo se centra en la bronquitis eosinofílica no asmática, donde se estudia montelukast añadido a un corticoide inhalado. Otro evalúa la bronquitis obstructiva recurrente en niños.
 
@@ -121,6 +121,18 @@ Hay ensayos controlados pequeños en bronquitis eosinofílica no asmática y bro
 - Obtener el mecanismo de acción detallado.
 - Revisar las advertencias y contraindicaciones del prospecto de la AEMPS.
 - Valorar un ensayo controlado en la población objetivo.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

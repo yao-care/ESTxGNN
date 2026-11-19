@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome del seno en
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, sotalol combina el bloqueo betaadrenérgico con el bloqueo de canales de potasio (clase III), y su eficacia en la fibrilación auricular está establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Sotalol (traducción no oficial): «El sotalol tiene propiedades antiarrítmicas tanto de bloqueo de los receptores beta-adrenérgicos (clase II de Vaughan Williams) como de prolongación de la duración del potencial de acción cardíaco (clase III de Vaughan Williams). Los dos isómeros del sotalol tienen efectos antiarrítmicos de clase III similares, mientras que el isómero l es responsable de prácticamente toda la actividad betabloqueante.» Texto original en inglés: "Sotalol has both beta-adrenoreceptor blocking (Vaughan Williams Class II) and cardiac action potential duration prolongation (Vaughan Williams Class III) antiarrhythmic properties. The two isomers of sotalol have similar Class III antiarrhythmic effects, while the l-isomer is responsible for virtually all of the beta-blocking activity." ([DailyMed: Betapace (sotalol hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6a7702f-36c9-45db-b640-453dc324baee), versión del 2024-12-16; consultado el 2026-11-19). Según la información conocida, sotalol combina el bloqueo betaadrenérgico con el bloqueo de canales de potasio (clase III), y su eficacia en la fibrilación auricular está establecida.
 
 El síndrome del seno enfermo 2 se vincula con una canalopatía de HCN4 que afecta a la corriente marcapasos del nodo sinusal. El bloqueo betaadrenérgico y la prolongación de la repolarización tienden a deprimir la función del nodo sinusal y a agravar la bradicardia. Por ello, la relación es probablemente **contraindicante y no terapéutica**: en el grafo de conocimiento, el síndrome del seno enfermo figura precisamente entre las contraindicaciones de sotalol.
 
@@ -94,6 +94,19 @@ La predicción carece de ensayos y literatura (nivel L5), y el mecanismo conocid
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Evaluar si la asociación predicha refleja en realidad una contraindicación.
 - Si se busca reposicionamiento, considerar candidatas con más respaldo. La indicación predicha de rango 4 (ictus) tiene un ensayo de Fase 3 (NCT00007605) y literatura, pero indirectos, vía control del ritmo en fibrilación auricular (nivel L4), y se consideraría solo como pregunta de investigación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Betapace (sotalol hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6a7702f-36c9-45db-b640-453dc324baee) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

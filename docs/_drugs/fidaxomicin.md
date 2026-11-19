@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de la piel 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, fidaxomicina es un antibiótico macrocíclico de espectro estrecho que inhibe la ARN polimerasa bacteriana. Su actividad *in vitro* se dirige principalmente contra organismos grampositivos, incluidas algunas cepas de *Staphylococcus aureus*, por lo que existe un vínculo plausible.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fidaxomicin (traducción no oficial): «La fidaxomicina es un fármaco antibacteriano. […] La fidaxomicina es un producto de fermentación obtenido del actinomiceto Dactylosporangium aurantiacum. La fidaxomicina es un fármaco antibacteriano macrólido que inhibe la síntesis de ARN mediante su unión a las ARN polimerasas. La fidaxomicina es bactericida frente a C. difficile in vitro y presenta un efecto posantibiótico frente a C. difficile de 6-10 h.» Texto original en inglés: "Fidaxomicin is an antibacterial drug. […] Fidaxomicin is a fermentation product obtained from the Actinomycete Dactylosporangium aurantiacum. Fidaxomicin is a macrolide antibacterial drug that inhibits RNA synthesis by binding to RNA polymerases. Fidaxomicin is bactericidal against C. difficile in vitro, and demonstrates a post-antibiotic effect vs. C. difficile of 6-10 hrs." ([DailyMed: Dificid (fidaxomicin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd966338-c820-4270-b704-09ef75fa3ceb), versión del 2024-10-16; consultado el 2026-11-19). Según la información conocida, fidaxomicina es un antibiótico macrocíclico de espectro estrecho que inhibe la ARN polimerasa bacteriana. Su actividad *in vitro* se dirige principalmente contra organismos grampositivos, incluidas algunas cepas de *Staphylococcus aureus*, por lo que existe un vínculo plausible.
 
 El síndrome de la piel escaldada estafilocócica es una enfermedad mediada por toxinas exfoliativas que se trata habitualmente con antibióticos sistémicos antiestafilocócicos. Aquí aparece la principal limitación: fidaxomicina tiene una absorción sistémica mínima, por lo que es poco adecuada para una enfermedad cutánea tóxica de origen sistémico.
 
@@ -117,6 +117,19 @@ Todas las indicaciones predichas se apoyan únicamente en el modelo (nivel L5), 
 - Estudios preclínicos de actividad frente a cepas de *S. aureus* productoras de toxinas exfoliativas.
 - Datos de exposición tisular o de una formulación adecuada (tópica o sistémica) que justifique la vía de administración.
 - Evaluación de la compatibilidad de vía de administración para cada indicación candidata.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Dificid (fidaxomicin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd966338-c820-4270-b704-09ef75fa3ceb) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

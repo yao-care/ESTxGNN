@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **fascioliasis**, pero act
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, penciclovir es un análogo nucleósido de la guanosina que es fosforilado por la timidina cinasa viral y, después, inhibe la ADN polimerasa viral. Por ello, su actividad es específica frente a herpesvirus, y su eficacia en el herpes labial es la base de su uso clínico.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Penciclovir (traducción no oficial): «Penciclovir es un agente antiviral activo frente a los alfaherpesvirus. […] Penciclovir tiene actividad inhibitoria frente al virus del herpes simple de tipos 1 (VHS-1) y 2 (VHS-2). En las células infectadas por VHS-1 o VHS-2, la timidina cinasa viral fosforila el penciclovir a una forma monofosfato que, a su vez, es convertida por cinasas celulares en la forma activa, el trifosfato de penciclovir.» Texto original en inglés: "Penciclovir is an antiviral agent active against alpha herpes viruses. […] Penciclovir has inhibitory activity against herpes simplex virus types 1 (HSV-1) and 2 (HSV-2). In cells infected with HSV-1 or HSV-2, the viral thymidine kinase phosphorylates penciclovir to a monophosphate form that, in turn, is converted by cellular kinases to the active form penciclovir triphosphate." ([DailyMed: Denavir (penciclovir) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=61229829-55a0-4d6f-a423-4b48a2b4d8e5), versión del 2018-11-26; consultado el 2026-11-19). Según la información conocida, penciclovir es un análogo nucleósido de la guanosina que es fosforilado por la timidina cinasa viral y, después, inhibe la ADN polimerasa viral. Por ello, su actividad es específica frente a herpesvirus, y su eficacia en el herpes labial es la base de su uso clínico.
 
 La relación con la fascioliasis es débil. *Fasciola hepatica* y *Fasciola gigantica* son trematodos y no se conoce en ellos una vía de activación dependiente de timidina cinasa viral. Tampoco se ha descrito un mecanismo antiparasitario plausible para penciclovir.
 
@@ -91,6 +91,19 @@ La predicción es solo computacional (nivel L5), sin ensayos clínicos ni litera
 - Evidencia preclínica *in vitro* o *in vivo* de actividad frente a *Fasciola* spp.
 - Revisión del prospecto de la AEMPS (advertencias y contraindicaciones) para completar el cribado de seguridad.
 - Evaluación de la compatibilidad de la vía de administración: el producto autorizado es una crema de uso tópico, poco adecuada para una infección hepatobiliar sistémica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Denavir (penciclovir) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=61229829-55a0-4d6f-a423-4b48a2b4d8e5) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

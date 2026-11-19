@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **lepra**, pero actualment
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, lumacaftor es un corrector de la proteína CFTR: mejora su plegamiento y su transporte a la membrana celular. Su eficacia en la fibrosis quística está establecida, y se utiliza en combinación con otro modulador de CFTR (Orkambi).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para lumacaftor and ivacaftor (combinación que contiene Lumacaftor) (traducción no oficial): «El lumacaftor mejora la estabilidad conformacional de la F508del-CFTR, lo que da lugar a un aumento del procesamiento y del tráfico de la proteína madura hacia la superficie celular. Los estudios in vitro han demostrado que tanto el lumacaftor como el ivacaftor actúan directamente sobre la proteína CFTR en cultivos primarios de epitelio bronquial humano y en otras líneas celulares portadoras de la mutación F508del-CFTR, para aumentar la cantidad, la estabilidad y la función de la F508del-CFTR en la superficie celular, lo que da lugar a un aumento del transporte de iones cloruro.» Texto original en inglés: "Lumacaftor improves the conformational stability of F508del-CFTR, resulting in increased processing and trafficking of mature protein to the cell surface. In vitro studies have demonstrated that both lumacaftor and ivacaftor act directly on the CFTR protein in primary human bronchial epithelial cultures and other cell lines harboring the F508del-CFTR mutation to increase the quantity, stability, and function of F508del-CFTR at the cell surface, resulting in increased chloride ion transport." ([DailyMed: Orkambi (lumacaftor and ivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3fc1c40e-cfac-47a1-9e1a-61ead3570600), versión del 2026-03-24; consultado el 2026-11-19). Según la información conocida, lumacaftor es un corrector de la proteína CFTR: mejora su plegamiento y su transporte a la membrana celular. Su eficacia en la fibrosis quística está establecida, y se utiliza en combinación con otro modulador de CFTR (Orkambi).
 
 Los datos compilados no respaldan un vínculo biológico plausible entre este mecanismo y la lepra, una infección causada por *Mycobacterium leprae* cuya patogenia implica la respuesta inmunitaria del huésped y la invasión de las células de Schwann. Cualquier conexión sería especulativa y requeriría validación mecanística independiente.
 
@@ -102,6 +102,19 @@ La predicción para lepra se apoya solo en un puntaje computacional (nivel L5), 
 - Advertencias y contraindicaciones del prospecto de la AEMPS para completar el cribado de seguridad.
 - Evaluación de compatibilidad de vías de administración y similitud con la indicación original.
 - Revisión de las interacciones farmacológicas relevantes para la población con lepra (por ejemplo, con los tratamientos habituales).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Orkambi (lumacaftor and ivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3fc1c40e-cfac-47a1-9e1a-61ead3570600) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

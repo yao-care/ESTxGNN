@@ -56,7 +56,7 @@ con **8 ensayos clínicos** registrados y **20 publicaciones** que se han recopi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente de datos consultada. Según la información conocida, clomipramina es un antidepresivo tricíclico con potente inhibición de la recaptación de serotonina y actividad noradrenérgica adicional. Los datos farmacológicos compilados muestran interacción con el transportador de serotonina (SERT), el de noradrenalina (NET), el de dopamina (DAT) y el receptor adrenérgico α1A.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clomipramine (traducción no oficial): «Se presume que la clomipramina (CMI) influye en las conductas obsesivas y compulsivas a través de sus efectos sobre la transmisión neuronal serotoninérgica. Se desconoce el mecanismo neuroquímico real, pero se cree que la capacidad de la CMI para inhibir la recaptación de serotonina (5-HT) es importante.» Texto original en inglés: "Clomipramine (CMI) is presumed to influence obsessive and compulsive behaviors through its effects on serotonergic neuronal transmission. The actual neurochemical mechanism is unknown, but CMI's capacity to inhibit the reuptake of serotonin (5-HT) is thought to be important." ([DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059), versión del 2024-11-26; consultado el 2026-11-19). Según la información conocida, clomipramina es un antidepresivo tricíclico con potente inhibición de la recaptación de serotonina y actividad noradrenérgica adicional. Los datos farmacológicos compilados muestran interacción con el transportador de serotonina (SERT), el de noradrenalina (NET), el de dopamina (DAT) y el receptor adrenérgico α1A.
 
 El TOC se considera clásicamente un trastorno estrechamente relacionado con la ansiedad, y la modulación serotoninérgica y noradrenérgica podría reducir los síntomas ansiosos en un espectro más amplio. La evidencia es más sólida en trastorno de pánico y agorafobia: la literatura recopilada incluye un metaanálisis en red de tratamientos farmacológicos del trastorno de pánico y varios estudios clínicos, en su mayoría antiguos, de clomipramina frente a diazepam, imipramina o paroxetina.
 
@@ -131,6 +131,19 @@ El puntaje de TxGNN es muy alto (0.9993), pero los ensayos recuperados estudian 
 - **Agorafobia**: nivel L3, con varios estudios clínicos antiguos de clomipramina en pánico y agorafobia.
 - **TDAH**: nivel L3, evidencia escasa y específica de clomipramina limitada; prioridad baja.
 - **Trastornos de personalidad esquizoide, paranoide, histriónica y esquizotípica, y tortícolis paroxística benigna de la infancia**: nivel L4/L5, sin evidencia terapéutica; se recomienda mantener en espera.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

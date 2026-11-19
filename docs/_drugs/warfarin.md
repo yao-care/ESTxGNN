@@ -56,7 +56,7 @@ Entre las indicaciones predichas, la mejor respaldada es la **trombofilia** (1 e
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados en los datos compilados. Según la información conocida, la warfarina inhibe la síntesis de los factores de coagulación dependientes de la vitamina K (II, VII, IX y X), y su eficacia en la prevención y el tratamiento de la enfermedad tromboembólica está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Warfarin (traducción no oficial): «La warfarina actúa inhibiendo la síntesis de los factores de la coagulación dependientes de la vitamina K, que incluyen los factores II, VII, IX y X, y las proteínas anticoagulantes C y S. La vitamina K es un cofactor esencial para la síntesis posribosómica de los factores de la coagulación dependientes de la vitamina K. La vitamina K promueve la biosíntesis de residuos de ácido γ-carboxiglutámico en las proteínas, que son esenciales para la actividad biológica.» Texto original en inglés: "Warfarin acts by inhibiting the synthesis of vitamin K-dependent clotting factors, which include Factors II, VII, IX, and X, and the anticoagulant proteins C and S. Vitamin K is an essential cofactor for the post ribosomal synthesis of the vitamin K-dependent clotting factors. Vitamin K promotes the biosynthesis of γ-carboxyglutamic acid residues in the proteins that are essential for biological activity." ([DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730), versión del 2026-10-28; consultado el 2026-11-19). Según la información conocida, la warfarina inhibe la síntesis de los factores de coagulación dependientes de la vitamina K (II, VII, IX y X), y su eficacia en la prevención y el tratamiento de la enfermedad tromboembólica está bien establecida.
 
 La deficiencia de cofactor 2 de la heparina es una trombofilia hereditaria en la que se reduce la inhibición de la trombina. Reducir la síntesis de factores procoagulantes es biológicamente plausible como profilaxis secundaria a largo plazo. Se trata de una extensión de los usos trombóticos ya aprobados y no de un mecanismo nuevo, y el puntaje elevado del modelo probablemente refleja esa proximidad.
 
@@ -117,6 +117,19 @@ La predicción es mecanísticamente plausible, pero la evidencia directa se redu
 - Revisar sistemáticamente la literatura sobre warfarina en deficiencias de antitrombina y cofactor II de la heparina, incluyendo estudios observacionales.
 - Evaluar poblaciones específicas: embarazo, síndrome antifosfolípido y comparación con anticoagulantes orales directos.
 - Considerar otras predicciones: la **trombofilia** (L1 según la clasificación automática, aunque el único ensayo de Fase 3 tiene estado desconocido y apoya el escenario solo indirectamente) merece evaluación propia. Las predicciones para artritis reumatoide, enfermedad fibroquística de la mama y displasia mamaria benigna carecen de vínculo terapéutico, pues la evidencia recuperada corresponde a interacciones farmacológicas, y no deben considerarse respaldadas.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

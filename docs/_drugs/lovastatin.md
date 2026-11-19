@@ -54,7 +54,7 @@ Lovastatina es una estatina utilizada originalmente para tratar la hiperlipidemi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, lovastatina es una estatina que inhibe la HMG-CoA reductasa (HMGCR) y reduce el colesterol LDL. Los datos farmacológicos también registran una interacción con el receptor X de pregnano (NR1I2).
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lovastatin (traducción no oficial): «El mecanismo del efecto reductor del LDL de la lovastatina puede implicar tanto la reducción de la concentración de VLDL-C como la inducción del receptor de LDL, lo que conduce a una menor producción y/o un mayor catabolismo del LDL-C. La apolipoproteína B también disminuye durante el tratamiento con lovastatina. La lovastatina es un inhibidor específico de la HMG-CoA reductasa, la enzima que cataliza la conversión de HMG-CoA en mevalonato.» Texto original en inglés: "The mechanism of the LDL-lowering effect of lovastatin may involve both reduction of VLDL-C concentration, and induction of the LDL receptor, leading to reduced production and/or increased catabolism of LDL-C. Apolipoprotein B also falls during treatment with lovastatin. Lovastatin is a specific inhibitor of HMG-CoA reductase, the enzyme which catalyzes the conversion of HMG-CoA to mevalonate." ([DailyMed: lovastatin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac86821f-d741-4ab1-bd03-ce8797dd4f34), versión del 2026-11-13; consultado el 2026-11-19). Según la información conocida, lovastatina es una estatina que inhibe la HMG-CoA reductasa (HMGCR) y reduce el colesterol LDL. Los datos farmacológicos también registran una interacción con el receptor X de pregnano (NR1I2).
 
 La deficiencia de CETP es un trastorno del metabolismo de las lipoproteínas caracterizado por HDL-C elevado. Las relaciones registradas en el grafo de conocimiento para lovastatina (hiperlipidemia, hipoalfalipoproteinemia, hiperlipidemia familiar) comparten este contexto de metabolismo lipídico, por lo que un vínculo a nivel de vía es plausible.
 
@@ -101,6 +101,19 @@ La predicción se basa solo en el modelo (nivel L5): no hay ensayos clínicos ni
 - Datos del mecanismo de acción y análisis de un vínculo mecanístico directo con la enfermedad
 - Estudios preclínicos o clínicos que evalúen lovastatina en esta condición
 - Obtener el prospecto de la AEMPS para analizar advertencias y contraindicaciones oficiales
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: lovastatin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac86821f-d741-4ab1-bd03-ce8797dd4f34) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

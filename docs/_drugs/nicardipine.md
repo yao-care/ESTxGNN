@@ -56,7 +56,7 @@ pero **no existen ensayos clínicos registrados** y la literatura disponible es 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, nicardipino es un bloqueador de los canales de calcio tipo L de la clase de las dihidropiridinas, que relaja el músculo liso vascular y reduce la resistencia vascular. Su eficacia en la hipertensión arterial está establecida y, mecanísticamente, podría ser aplicable a la hipertensión pulmonar.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Nicardipine (traducción no oficial): «Nicardipino inhibe la entrada transmembrana de iones de calcio en el músculo cardíaco y el músculo liso sin modificar las concentraciones séricas de calcio. Los procesos contráctiles del músculo cardíaco y del músculo liso vascular dependen del movimiento de iones de calcio extracelulares hacia el interior de estas células a través de canales iónicos específicos.» Texto original en inglés: "Nicardipine inhibits the transmembrane influx of calcium ions into cardiac muscle and smooth muscle without changing serum calcium concentrations. The contractile processes of cardiac muscle and vascular smooth muscle are dependent upon the movement of extracellular calcium ions into these cells through specific ion channels." ([DailyMed: Nicardipine Hydrochloride In Sodium Chloride (nicardipine hydrochloride) prescribing information, WG Critical Care, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ffe6b6f-b8bc-413f-9bec-7639e9d71d3d), versión del 2026-07-31; consultado el 2026-11-19). Según la información conocida, nicardipino es un bloqueador de los canales de calcio tipo L de la clase de las dihidropiridinas, que relaja el músculo liso vascular y reduce la resistencia vascular. Su eficacia en la hipertensión arterial está establecida y, mecanísticamente, podría ser aplicable a la hipertensión pulmonar.
 
 El vínculo plausible es que la vasoconstricción pulmonar hipóxica depende en parte de la entrada de calcio en el músculo liso de las arterias pulmonares. Un estudio fisiológico experimental en perros (PMID 3132192, 1988) examinó el efecto del nicardipino sobre dicha vasoconstricción.
 
@@ -121,11 +121,12 @@ La predicción se apoya solo en el modelo y en estudios preclínicos o indirecto
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 9 autorizaciones vigentes en total, todas de medicamentos de un solo principio activo; aquí se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Nicardipine Hydrochloride In Sodium Chloride (nicardipine hydrochloride) prescribing information, WG Critical Care, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ffe6b6f-b8bc-413f-9bec-7639e9d71d3d) |
 
 <!-- review:end log -->
 

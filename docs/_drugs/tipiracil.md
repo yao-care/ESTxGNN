@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para esta ficha. Según la información conocida, tipiracilo inhibe la timidina fosforilasa, la enzima que degrada la trifluridina, y por ello forma parte de la combinación TAS-102, un tratamiento citotóxico oral.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para trifluridine and tipiracil (combinación que contiene Tipiracil) (traducción no oficial): «LONSURF está compuesto por un análogo de nucleósido basado en la timidina, la trifluridina, y el inhibidor de la timidina fosforilasa, el tipiracilo, en una proporción molar de 1:0,5 (proporción en peso, 1:0,471). La inclusión del tipiracilo aumenta la exposición a la trifluridina al inhibir su metabolismo por la timidina fosforilasa.» Texto original en inglés: "LONSURF consists of a thymidine-based nucleoside analog, trifluridine, and the thymidine phosphorylase inhibitor, tipiracil, at a molar ratio 1:0.5 (weight ratio, 1:0.471). Inclusion of tipiracil increases trifluridine exposure by inhibiting its metabolism by thymidine phosphorylase." ([DailyMed: Lonsurf (trifluridine and tipiracil) prescribing information, Taiho Pharmaceutical Co., Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f5beed22-d71d-4c0d-8dca-2c7317d65d85), versión del 2025-11-05; consultado el 2026-11-19). Según la información conocida, tipiracilo inhibe la timidina fosforilasa, la enzima que degrada la trifluridina, y por ello forma parte de la combinación TAS-102, un tratamiento citotóxico oral.
 
 El adenoma velloso es una lesión benigna precursora del cáncer colorrectal, por lo que solo existe un vínculo anatómico y de continuidad de enfermedad, más bien laxo, con el uso conocido del fármaco en el colon y el recto.
 
@@ -113,6 +113,18 @@ La predicción tiene un puntaje alto en el modelo (0,9999), pero carece de ensay
 - Estudios preclínicos o series de casos que evalúen directamente esta enfermedad
 - Evaluación de la relación riesgo-beneficio frente a la resección endoscópica estándar
 - Revisión del prospecto para completar advertencias y contraindicaciones
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lonsurf (trifluridine and tipiracil) prescribing information, Taiho Pharmaceutical Co., Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f5beed22-d71d-4c0d-8dca-2c7317d65d85) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

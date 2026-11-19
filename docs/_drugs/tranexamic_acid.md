@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **Amenorrea**, pero actual
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, el ácido tranexámico es un antifibrinolítico, análogo de la lisina, que bloquea la unión del plasminógeno a la fibrina y reduce el sangrado menstrual abundante.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tranexamic Acid (traducción no oficial): «El ácido tranexámico es un derivado sintético del aminoácido lisina que disminuye la disolución de la fibrina hemostática por la plasmina. En presencia de ácido tranexámico, los sitios de unión del receptor de lisina de la plasmina para la fibrina están ocupados, lo que impide la unión a los monómeros de fibrina y, de este modo, preserva y estabiliza la estructura de la matriz de fibrina.» Texto original en inglés: "Tranexamic acid is a synthetic lysine amino acid derivative, which diminishes the dissolution of hemostatic fibrin by plasmin. In the presence of tranexamic acid, the lysine receptor binding sites of plasmin for fibrin are occupied, preventing binding to fibrin monomers, thus preserving and stabilizing fibrin's matrix structure." ([DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5), versión del 2025-09-03; consultado el 2026-11-19). Según la información conocida, el ácido tranexámico es un antifibrinolítico, análogo de la lisina, que bloquea la unión del plasminógeno a la fibrina y reduce el sangrado menstrual abundante.
 
 Sin embargo, **la plausibilidad biológica de esta predicción es baja**. La amenorrea (ausencia de menstruación) es lo opuesto a un trastorno hemorrágico, por lo que un vínculo terapéutico directo es poco creíble. La única conexión razonable es indirecta: en pacientes con trastornos de la coagulación, con anticoagulación o con neoplasias hematológicas, el ácido tranexámico puede formar parte de un régimen de profilaxis o supresión de la menstruación junto con agentes hormonales, reduciendo el sangrado, no tratando la amenorrea en sí.
 
@@ -117,11 +117,12 @@ La predicción se apoya únicamente en el modelo (nivel L4), sin ensayos clínic
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ aunque actualmente solo hay **2 publicaciones** (series y reportes de casos, nin
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, clobazam es un modulador alostérico positivo del receptor GABA-A, igual que las benzodiazepinas (midazolam, lorazepam) empleadas en el manejo de FIRES. Esto ofrece una justificación plausible a nivel de clase farmacológica.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clobazam (traducción no oficial): «El mecanismo de acción exacto del clobazam, una 1,5-benzodiazepina, no se conoce por completo, pero se cree que implica la potenciación de la neurotransmisión GABAérgica derivada de la unión al sitio de las benzodiazepinas del receptor GABA A.» Texto original en inglés: "The exact mechanism of action for clobazam, a 1,5-benzodiazepine, is not fully understood but is thought to involve potentiation of GABAergic neurotransmission resulting from binding at the benzodiazepine site of the GABA A receptor." ([DailyMed: Onfi (clobazam) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de03bd69-2dca-459c-93b4-541fd3e9571c), versión del 2026-10-16; consultado el 2026-11-19). Según la información conocida, clobazam es un modulador alostérico positivo del receptor GABA-A, igual que las benzodiazepinas (midazolam, lorazepam) empleadas en el manejo de FIRES. Esto ofrece una justificación plausible a nivel de clase farmacológica.
 
 FIRES es un tipo de estado epiléptico refractorio de inicio reciente (NORSE) que aparece en niños previamente sanos, y las crisis suelen ser resistentes a los antiepilépticos convencionales. Clobazam ya se usa en una encefalopatía epiléptica grave de la infancia (Lennox-Gastaut), por lo que existe cierta afinidad clínica entre ambas condiciones.
 
@@ -106,6 +106,19 @@ El puntaje de TxGNN es alto, pero la evidencia se limita a una serie de casos y 
 - Plan de monitoreo de seguridad que contemple las interacciones de nivel mayor (opioides, eliglustat)
 
 **Nota sobre otras indicaciones predichas:** entre las otras nueve candidatas, la **encefalopatía epiléptica de inicio en la infancia** (puntaje 0.9959) es la que cuenta con mayor respaldo bibliográfico (nivel L3, 20 publicaciones, principalmente revisiones y guías sobre Lennox-Gastaut y otros síndromes). Dado que clobazam ya está indicado en Lennox-Gastaut, se trata en gran medida de una extensión de un uso conocido, y merece evaluarse como pregunta de investigación. El resto de candidatas tienen nivel L4 o L5 y se mantienen en Hold.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Onfi (clobazam) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de03bd69-2dca-459c-93b4-541fd3e9571c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

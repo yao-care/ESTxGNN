@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectiva para la **malaria por Plasmodiu
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Según lo conocido, la colchicina es un inhibidor de la polimerización de microtúbulos, y entre sus dianas farmacológicas figura la tubulina beta de clase I (TUBB). Su eficacia en la gota y la fiebre mediterránea familiar está bien establecida, y mecanísticamente podría ser aplicable a la malaria.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Colchicine (traducción no oficial): «Se ha postulado que la eficacia de la colchicina como tratamiento de la gota se debe a su capacidad para bloquear las respuestas inflamatorias mediadas por neutrófilos inducidas por los cristales de urato monosódico en el líquido sinovial. La colchicina altera la polimerización de la β-tubulina en microtúbulos, lo que impide la activación, la desgranulación y la migración de los neutrófilos a los sitios de inflamación.» Texto original en inglés: "Colchicine’s effectiveness as a treatment for gout has been postulated to be due to its ability to block neutrophil-mediated inflammatory responses induced by monosodium urate crystals in synovial fluid. Colchicine disrupts the polymerization of β-tubulin into microtubules, thereby preventing the activation, degranulation, and migration of neutrophils to sites of inflammation." ([DailyMed: Mitigare (colchicine) prescribing information, Hikma Specialty USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb5f9d85-6b81-49f8-bcd6-17b7bfbc10f2), versión del 2026-10-16; consultado el 2026-11-19). Según lo conocido, la colchicina es un inhibidor de la polimerización de microtúbulos, y entre sus dianas farmacológicas figura la tubulina beta de clase I (TUBB). Su eficacia en la gota y la fiebre mediterránea familiar está bien establecida, y mecanísticamente podría ser aplicable a la malaria.
 
 El vínculo que sugiere el modelo es plausible. El parásito *Plasmodium* depende de la tubulina y los microtúbulos para dividirse e invadir las células. Un fármaco que altera los microtúbulos podría, en teoría, afectar al parásito. La relación con las indicaciones originales (enfermedades inflamatorias) es débil, porque la colchicina se usa en ellas por su efecto antiinflamatorio sobre los neutrófilos y no por una acción antiparasitaria.
 
@@ -136,11 +136,12 @@ La predicción se apoya solo en el modelo (L5). No hay ensayos clínicos ni estu
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 8 autorizaciones vigentes, todas de principio activo único. No hay autorizaciones canceladas" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Mitigare (colchicine) prescribing information, Hikma Specialty USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb5f9d85-6b81-49f8-bcd6-17b7bfbc10f2) |
 
 <!-- review:end log -->
 

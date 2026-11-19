@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para la **infección crónica p
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información farmacológica conocida, la ribavirina es un análogo de la guanosina que inhibe las enzimas IMPDH1 e IMPDH2 (inosina monofosfato deshidrogenasa), reduce las reservas intracelulares de GTP y bloquea la síntesis de ácidos nucleicos. Además, tiene efectos inmunomoduladores. Su actividad es de amplio espectro frente a virus ARN.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ribavirin (traducción no oficial): «La ribavirina es un fármaco antiviral. […] El mecanismo por el cual la ribavirina contribuye a su eficacia antiviral en la práctica clínica no se conoce por completo. La ribavirina tiene actividad antiviral directa en cultivo tisular contra muchos virus de ARN. La ribavirina aumenta la frecuencia de mutación en los genomas de varios virus de ARN y el trifosfato de ribavirina inhibe la polimerasa del VHC en una reacción bioquímica.» Texto original en inglés: "Ribavirin is an antiviral drug. […] The mechanism by which ribavirin contributes to its antiviral efficacy in the clinic is not fully understood. Ribavirin has direct antiviral activity in tissue culture against many RNA viruses. Ribavirin increases the mutation frequency in the genomes of several RNA viruses and ribavirin triphosphate inhibits HCV polymerase in a biochemical reaction." ([DailyMed: ribavirin prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee304d0-c2ea-44f4-97d9-92a414d31b6c), versión del 2024-02-06; consultado el 2026-11-19). Según la información farmacológica conocida, la ribavirina es un análogo de la guanosina que inhibe las enzimas IMPDH1 e IMPDH2 (inosina monofosfato deshidrogenasa), reduce las reservas intracelulares de GTP y bloquea la síntesis de ácidos nucleicos. Además, tiene efectos inmunomoduladores. Su actividad es de amplio espectro frente a virus ARN.
 
 Tanto la hepatitis C como la hepatitis B son infecciones virales crónicas del hígado que comparten el riesgo de cirrosis y carcinoma hepatocelular, y a menudo se tratan con interferón. La puntuación procede del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -138,11 +138,12 @@ Aunque existen ensayos de Fase 3 con ribavirina en hepatitis B, no hay resultado
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 10 autorizaciones vigentes, todas de monofármaco; se muestran las 5 primeras" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: ribavirin prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee304d0-c2ea-44f4-97d9-92a414d31b6c) |
 
 <!-- review:end log -->
 

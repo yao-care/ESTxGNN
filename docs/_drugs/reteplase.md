@@ -56,7 +56,7 @@ Actualmente no hay ensayos clínicos registrados y solo **1 publicación** (un r
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, reteplasa es un activador del plasminógeno tisular recombinante, de acción fibrinolítica, con eficacia comprobada en el infarto de miocardio. Mecanísticamente, disuelve el coágulo de fibrina que ocluye la arteria coronaria y restablece el flujo sanguíneo.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Reteplase es (traducción no oficial): «Proteína exógena activadora del plasminógeno de tipo tisular» Texto original en inglés: "Tissue-type plasminogen activator exogenous protein" ([ChEMBL CHEMBL2107885 (reteplase): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107885), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, reteplasa es un activador del plasminógeno tisular recombinante, de acción fibrinolítica, con eficacia comprobada en el infarto de miocardio. Mecanísticamente, disuelve el coágulo de fibrina que ocluye la arteria coronaria y restablece el flujo sanguíneo.
 
 El infarto posterolateral es un subtipo anatómico del infarto de miocardio, una categoría ya cubierta por la indicación original. Por ello el vínculo mecanístico es sólido, pero la predicción no aporta una indicación realmente nueva. El puntaje elevado probablemente refleja la proximidad en la ontología de enfermedades.
 
@@ -100,6 +100,19 @@ El infarto posterolateral es un subtipo de la indicación ya aprobada, por lo qu
 - Obtener datos del mecanismo de acción (por ejemplo, desde DrugBank).
 - Completar el texto de la indicación aprobada en la autorización.
 - Si se desea continuar, buscar datos específicos de reteplasa en este subtipo (ensayos o análisis por subgrupos de estudios como GUSTO-V).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL2107885 (reteplase): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107885) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

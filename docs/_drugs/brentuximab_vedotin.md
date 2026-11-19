@@ -56,7 +56,7 @@ con **6 ensayos clínicos** (solo 1 específico de linfoma folicular, aún en cu
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, brentuximab vedotin es un conjugado anticuerpo-fármaco que se une a CD30 y libera MMAE (un agente antimitótico) dentro de las células tumorales. Su eficacia en el linfoma de Hodgkin clásico, donde CD30 se expresa de forma universal, está comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Brentuximab Vedotin (traducción no oficial): «CD30 es un miembro de la familia de receptores del factor de necrosis tumoral y se expresa en la superficie de las células del sALCL y en las células de Hodgkin y Reed-Sternberg (HRS) en el cHL. CD30 se expresa de forma variable en otros linfomas de células T. […] El brentuximab vedotina es un conjugado anticuerpo-fármaco (ADC).» Texto original en inglés: "CD30 is a member of the tumor necrosis factor receptor family and is expressed on the surface of sALCL cells and on Hodgkin Reed-Sternberg (HRS) cells in cHL. CD30 is variably expressed in other T-cell lymphomas. […] Brentuximab vedotin is an antibody-drug conjugate (ADC)." ([DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f), versión del 2025-11-11; consultado el 2026-11-19). Según la información conocida, brentuximab vedotin es un conjugado anticuerpo-fármaco que se une a CD30 y libera MMAE (un agente antimitótico) dentro de las células tumorales. Su eficacia en el linfoma de Hodgkin clásico, donde CD30 se expresa de forma universal, está comprobada.
 
 La relación con el linfoma folicular es plausible pero no demostrada: CD30 se expresa solo en una minoría de los casos de linfoma folicular. La actividad dependería de dicha expresión o del efecto "espectador" (bystander) del MMAE liberado a células vecinas. Además, la literatura recuperada trata sobre todo del linfoma T periférico y no es específica del linfoma folicular.
 
@@ -128,6 +128,19 @@ Aunque el puntaje del modelo es alto (0.9989), la evidencia directa es mínima: 
 - Datos detallados del mecanismo de acción
 - Advertencias y contraindicaciones del prospecto de la AEMPS para completar la evaluación de seguridad
 - Revisión de las interacciones farmacológicas relevantes en pacientes oncológicos con comorbilidades
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

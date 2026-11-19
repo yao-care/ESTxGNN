@@ -56,7 +56,7 @@ La predicción se basa únicamente en el modelo (nivel de evidencia L5).
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el dextrometorfano actúa como antagonista del receptor NMDA y agonista del receptor sigma-1, con actividad antitusiva central. Los datos farmacológicos compilados también lo asocian con GluN2C (GRIN2C), TAS2R1 y SIGMAR1.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para dextromethorphan hydrobromide, bupropion hydrochloride (combinación que contiene Dextromethorphan) (traducción no oficial): «Dextrometorfano es un antagonista no competitivo del receptor NMDA (un receptor ionotrópico de glutamato) y un agonista del receptor sigma-1. El mecanismo de dextrometorfano en el tratamiento del TDM y de la agitación asociada a la demencia debida a la enfermedad de Alzheimer no está claro.» Texto original en inglés: "Dextromethorphan is an uncompetitive antagonist of the NMDA receptor (an ionotropic glutamate receptor) and a sigma-1 receptor agonist. The mechanism of dextromethorphan in the treatment of MDD and agitation associated with dementia due to Alzheimer’s disease is unclear." ([DailyMed: Auvelity (dextromethorphan hydrobromide, bupropion hydrochloride) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79), versión del 2026-08-17; consultado el 2026-11-19). Según la información conocida, el dextrometorfano actúa como antagonista del receptor NMDA y agonista del receptor sigma-1, con actividad antitusiva central. Los datos farmacológicos compilados también lo asocian con GluN2C (GRIN2C), TAS2R1 y SIGMAR1.
 
 La puntuación proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas (rinitis y rinitis vasomotora), no evidencia biológica. La enfermedad de la cavidad nasal es una categoría amplia que engloba esas condiciones, por lo que el resultado podría reflejar en gran parte un solapamiento con indicaciones existentes y no un uso realmente nuevo.
 
@@ -113,11 +113,12 @@ La predicción tiene un puntaje TxGNN muy alto, pero carece de ensayos clínicos
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Auvelity (dextromethorphan hydrobromide, bupropion hydrochloride) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79) |
 
 <!-- review:end log -->
 

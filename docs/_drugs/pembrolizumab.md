@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival** 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información conocida, pembrolizumab es un anticuerpo que bloquea el receptor de muerte celular programada 1 (PD-1, CD279; gen PDCD1). Al hacerlo, restablece la actividad de los linfocitos T contra las células tumorales. Su eficacia está comprobada en cáncer de pulmón y melanoma.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pembrolizumab (traducción no oficial): «La unión de los ligandos de PD-1, PD-L1 y PD-L2, al receptor PD-1 presente en los linfocitos T inhibe la proliferación de los linfocitos T y la producción de citocinas. En algunos tumores se produce una regulación al alza de los ligandos de PD-1, y la señalización a través de esta vía puede contribuir a la inhibición de la vigilancia inmunitaria activa de los tumores mediada por linfocitos T. […] El pembrolizumab es un anticuerpo monoclonal que se une al receptor PD-1 y bloquea su interacción con PD-L1 y PD-L2, lo que libera la inhibición de la respuesta inmunitaria mediada por la vía de PD-1, incluida la respuesta inmunitaria antitumoral.» Texto original en inglés: "Binding of the PD-1 ligands, PD-L1 and PD-L2, to the PD-1 receptor found on T cells, inhibits T cell proliferation and cytokine production. Upregulation of PD-1 ligands occurs in some tumors and signaling through this pathway can contribute to inhibition of active T-cell immune surveillance of tumors. […] Pembrolizumab is a monoclonal antibody that binds to the PD-1 receptor and blocks its interaction with PD-L1 and PD-L2, releasing PD-1 pathway-mediated inhibition of the immune response, including the anti-tumor immune response." ([DailyMed: Keytruda (pembrolizumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287), versión del 2026-10-16; consultado el 2026-11-19). Según la información conocida, pembrolizumab es un anticuerpo que bloquea el receptor de muerte celular programada 1 (PD-1, CD279; gen PDCD1). Al hacerlo, restablece la actividad de los linfocitos T contra las células tumorales. Su eficacia está comprobada en cáncer de pulmón y melanoma.
 
 Para la fibromatosis gingival, una proliferación del tejido conectivo de la encía, **no se identifica un vínculo plausible con la vía PD-1** en los datos disponibles. Tampoco hay estudios que lo respalden. La puntuación alta de TxGNN es únicamente una predicción computacional, y la relación de similitud con la indicación original está pendiente de evaluar.
 
@@ -139,11 +139,12 @@ La predicción para fibromatosis gingival se apoya solo en el modelo (L5), sin e
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Las 7 autorizaciones son de monofármaco, están vigentes y pertenecen a Merck Sharp & Dohme B.V.; se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Keytruda (pembrolizumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos** y solo existe **1 publicación** (
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general de la clase, captopril inhibe la ECA, reduce la formación de angiotensina II y, con ello, la vasoconstricción y la presión intraglomerular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Captopril (traducción no oficial): «El mecanismo de acción de los comprimidos de captopril aún no se ha dilucidado por completo. Sus efectos beneficiosos en la hipertensión y la insuficiencia cardíaca parecen deberse principalmente a la supresión del sistema renina-angiotensina-aldosterona.» Texto original en inglés: "The mechanism of action of captopril tablets have not yet been fully elucidated. Its beneficial effects in hypertension and heart failure appear to result primarily from suppression of the renin-angiotensin-aldosterone system." ([DailyMed: captopril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ccbffd30-4b21-4522-bdb8-abba8d592017), versión del 2026-11-11; consultado el 2026-11-19). Por conocimiento general de la clase, captopril inhibe la ECA, reduce la formación de angiotensina II y, con ello, la vasoconstricción y la presión intraglomerular.
 
 En la hipertensión maligna con afectación renal el sistema renina-angiotensina suele estar muy activado, por lo que mecanísticamente el bloqueo de este eje es biológicamente plausible. La indicación predicha se solapa conceptualmente con los usos cardiovasculares y renales habituales de la clase.
 
@@ -102,6 +102,19 @@ No hay ensayos clínicos y la única publicación es un reporte de caso diagnós
 - Estudios clínicos u observacionales que evalúen captopril directamente en hipertensión renal maligna
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) de la AEMPS
 - Revisión de seguridad renal específica (función renal, potasio, riesgo de hipotensión) en esta población
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: captopril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ccbffd30-4b21-4522-bdb8-abba8d592017) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

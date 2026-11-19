@@ -54,7 +54,7 @@ Baricitinib es un inhibidor de JAK1/JAK2 comercializado en España. El modelo Tx
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, baricitinib es un inhibidor de JAK1/JAK2 que actúa sobre la señalización de citocinas en enfermedades autoinmunes e inflamatorias.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Baricitinib (traducción no oficial): «El baricitinib es un inhibidor de las cinasas Janus (JAK). Las JAK son enzimas intracelulares que transmiten señales derivadas de las interacciones de citocinas o factores de crecimiento con sus receptores en la membrana celular para influir en los procesos celulares de la hematopoyesis y la función de las células inmunitarias.» Texto original en inglés: "Baricitinib is a Janus kinase (JAK) inhibitor. JAKs are intracellular enzymes which transmit signals arising from cytokine or growth factor-receptor interactions on the cellular membrane to influence cellular processes of hematopoiesis and immune cell function." ([DailyMed: Olumiant (baricitinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=866e9f35-9035-4581-a4b1-75a621ab55cf), versión del 2026-10-09; consultado el 2026-11-19). Según la información conocida, baricitinib es un inhibidor de JAK1/JAK2 que actúa sobre la señalización de citocinas en enfermedades autoinmunes e inflamatorias.
 
 El síndrome predicho es un trastorno congénito raro del desarrollo que afecta al ojo y al esqueleto. A partir de los datos disponibles no se puede establecer un vínculo biológicamente plausible entre la inhibición de la vía JAK-STAT y este síndrome. La predicción parece estar impulsada por la topología de la red del modelo más que por una vía validada.
 
@@ -96,6 +96,19 @@ La única base de la predicción es el puntaje del modelo (0,9994), sin ensayos 
 - Evidencia genética y de vías de señalización que conecte JAK-STAT con este síndrome.
 - Revisión sistemática de la literatura sobre la enfermedad.
 - Datos de advertencias y contraindicaciones del prospecto de la AEMPS para el cribado de seguridad.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Olumiant (baricitinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=866e9f35-9035-4581-a4b1-75a621ab55cf) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

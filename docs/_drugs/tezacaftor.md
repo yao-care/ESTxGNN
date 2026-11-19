@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pe
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, tezacaftor es un corrector de CFTR: mejora el plegamiento de la proteína CFTR y su transporte a la superficie celular. Su eficacia en fibrosis quística, en pacientes con determinadas mutaciones del gen CFTR, es conocida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para vanzacaftor, tezacaftor, and deutivacaftor (combinación que contiene Tezacaftor) (traducción no oficial): «Vanzacaftor y tezacaftor se unen a distintos sitios de la proteína CFTR y tienen un efecto aditivo al facilitar el procesamiento celular y el tráfico de determinadas formas mutantes de CFTR (incluida F508del- CFTR), lo que aumenta la cantidad de proteína CFTR que llega a la superficie celular en comparación con cualquiera de las dos moléculas por separado. El efecto combinado de vanzacaftor, tezacaftor y deutivacaftor es un aumento de la cantidad y la función de CFTR en la superficie celular, lo que da lugar a un aumento de la actividad de CFTR, medida tanto por el transporte de cloruro mediado por CFTR in vitro como por el cloruro en el sudor en pacientes con FQ.» Texto original en inglés: "Vanzacaftor and tezacaftor bind to different sites on the CFTR protein and have an additive effect in facilitating the cellular processing and trafficking of select mutant forms of CFTR (including F508del- CFTR) to increase the amount of CFTR protein delivered to the cell surface compared to either molecule alone. The combined effect of vanzacaftor, tezacaftor and deutivacaftor is increased quantity and function of CFTR at the cell surface, resulting in increased CFTR activity as measured both by CFTR-mediated chloride transport in vitro and by sweat chloride in patients with CF." ([DailyMed: Alyftrek (vanzacaftor, tezacaftor, and deutivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e635909-c6fd-4f0d-ae77-cdff03653a20), versión del 2026-08-26; consultado el 2026-11-19). Según el conocimiento farmacológico general, tezacaftor es un corrector de CFTR: mejora el plegamiento de la proteína CFTR y su transporte a la superficie celular. Su eficacia en fibrosis quística, en pacientes con determinadas mutaciones del gen CFTR, es conocida.
 
 No se identifica un vínculo mecanístico plausible con el VIH. Tezacaftor no tiene actividad antiviral conocida ni una conexión evidente con la patogénesis del VIH. El puntaje elevado (0,9924) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no hay ensayos clínicos ni literatura que lo corroboren.
 
@@ -106,6 +106,19 @@ La predicción para VIH se basa únicamente en el modelo (nivel L5), sin ensayos
 - Estudios in vitro de actividad antiviral o de modulación de la respuesta del huésped
 - Revisión de la ficha técnica de la AEMPS (advertencias y contraindicaciones) antes de cualquier evaluación de seguridad
 - Evaluación de compatibilidad de vía de administración y similitud con la indicación original, hoy pendientes
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Alyftrek (vanzacaftor, tezacaftor, and deutivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e635909-c6fd-4f0d-ae77-cdff03653a20) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

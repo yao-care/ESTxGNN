@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio tri
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, topiramato es un antiepiléptico cuyo efecto se atribuye al bloqueo de canales de sodio dependientes de voltaje, la potenciación de la actividad GABA-A, el antagonismo de receptores AMPA/kainato y una inhibición débil de la anhidrasa carbónica. Los datos de farmacología recopilados confirman la interacción con las anhidrasas carbónicas 1, 4, 7 y 12.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Topiramate (traducción no oficial): «Se desconocen los mecanismos precisos por los cuales el topiramato ejerce sus efectos anticonvulsivos y preventivos de la migraña; sin embargo, los estudios preclínicos han revelado cuatro propiedades que podrían contribuir a la eficacia del topiramato en la epilepsia y en el tratamiento preventivo de la migraña.» Texto original en inglés: "The precise mechanisms by which topiramate exerts its anticonvulsant and preventive migraine effects are unknown; however, preclinical studies have revealed four properties that may contribute to topiramate's efficacy for epilepsy and the preventive treatment of migraine." ([DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e), versión del 2026-10-05; consultado el 2026-11-19). Según la información conocida, topiramato es un antiepiléptico cuyo efecto se atribuye al bloqueo de canales de sodio dependientes de voltaje, la potenciación de la actividad GABA-A, el antagonismo de receptores AMPA/kainato y una inhibición débil de la anhidrasa carbónica. Los datos de farmacología recopilados confirman la interacción con las anhidrasas carbónicas 1, 4, 7 y 12.
 
 Estos mecanismos explican su eficacia en epilepsia, pero **no existe un vínculo mecanístico plausible** con el control tumoral de una neoplasia del nervio trigémino. Cualquier relación sería especulativa, por ejemplo el manejo sintomático del dolor neuropático asociado, lo cual no constituye evidencia de beneficio antineoplásico.
 
@@ -112,11 +112,12 @@ La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni l
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Topiramato está comercializado en España con 20 autorizaciones vigentes (todas de monofármaco, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e) |
 
 <!-- review:end log -->
 

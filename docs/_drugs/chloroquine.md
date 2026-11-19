@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos** y solo **1 publicación** recupera
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, la cloroquina es un antipalúdico con efectos inmunomoduladores: eleva el pH lisosomal, inhibe el procesamiento de antígenos y la presentación mediante MHC de clase II, y reduce la señalización de los receptores tipo Toll y la producción de citocinas proinflamatorias.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Chloroquine (traducción no oficial): «La cloroquina, una 4-aminoquinolina, es un agente antiprotozoario. Se desconoce el mecanismo preciso por el cual la cloroquina ejerce su actividad. La cloroquina puede ejercer su efecto contra las especies de Plasmodium concentrándose en las vesículas ácidas del parásito e inhibiendo la polimerización del hemo.» Texto original en inglés: "Chloroquine, a 4-aminoquinoline, is an anti-protozoal agent. The precise mechanism by which chloroquine exhibits activity is not known. Chloroquine, may exert its effect against Plasmodium species by concentrating in the acid vesicles of the parasite and by inhibiting polymerization of heme." ([DailyMed: chloroquine phosphate prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c69e2b-211b-4746-9f3a-f86d36520570), versión del 2026-10-21; consultado el 2026-11-19). Según la información conocida, la cloroquina es un antipalúdico con efectos inmunomoduladores: eleva el pH lisosomal, inhibe el procesamiento de antígenos y la presentación mediante MHC de clase II, y reduce la señalización de los receptores tipo Toll y la producción de citocinas proinflamatorias.
 
 La cloroquina ya se utiliza en la artritis reumatoide del adulto. La artritis idiopática juvenil poliarticular con factor reumatoide positivo comparte rasgos de sinovitis autoinmune con esta enfermedad, por lo que la extensión es biológicamente plausible. El puntaje elevado de TxGNN probablemente refleja esta cercanía con la indicación ya establecida.
 
@@ -99,6 +99,19 @@ Aunque el puntaje de TxGNN es alto y el mecanismo es plausible por su cercanía 
 - Realizar una revisión dirigida de la evidencia con hidroxicloroquina (el antipalúdico más usado en reumatología) en artritis idiopática juvenil, para decidir si merece la pena plantear la pregunta con cloroquina.
 - Buscar evidencia clínica directa (estudios observacionales o ensayos) de cloroquina en artritis idiopática juvenil poliarticular con factor reumatoide positivo.
 - Definir un plan de monitorización oftalmológica y cardíaca para uso pediátrico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: chloroquine phosphate prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c69e2b-211b-4746-9f3a-f86d36520570) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

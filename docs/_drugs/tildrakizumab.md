@@ -56,7 +56,7 @@ Se trata de una predicción puramente computacional (nivel de evidencia L5).
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, tildrakizumab es un anticuerpo monoclonal anti-IL-23 p19, que bloquea el eje inflamatorio IL-23/IL-17.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tildrakizumab (traducción no oficial): «Tildrakizumab es un anticuerpo monoclonal IgG1/k humanizado que se une selectivamente a la subunidad p19 de la IL-23 e inhibe su interacción con el receptor de la IL-23. La IL-23 es una citocina de origen natural que participa en las respuestas inflamatorias e inmunitarias.» Texto original en inglés: "Tildrakizumab is a humanized IgG1/k monoclonal antibody that selectively binds to the p19 subunit of IL-23 and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in inflammatory and immune responses." ([DailyMed: Ilumya (tildrakizumab-asmn) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6a322bb-51b9-4f0e-8642-62a9682ffcde), versión del 2026-11-02; consultado el 2026-11-19). Según la información conocida, tildrakizumab es un anticuerpo monoclonal anti-IL-23 p19, que bloquea el eje inflamatorio IL-23/IL-17.
 
 La hipótesis es que la inflamación crónica de bajo grado, incluido el eje IL-23/IL-17, podría contribuir al daño vascular retiniano en la retinopatía diabética. Este vínculo es **especulativo**: no hay ensayos ni literatura que lo respalden, y el puntaje de 0,9963 es solo una predicción del modelo.
 
@@ -113,6 +113,19 @@ La predicción se basa únicamente en el modelo TxGNN (nivel L5), sin ensayos cl
 - Revisión sistemática de la literatura y de registros de ensayos.
 - Evaluación de la vía de administración (intravítrea frente a sistémica) y de su viabilidad.
 - Análisis de seguridad con el prospecto (advertencias y contraindicaciones), especialmente en pacientes diabéticos e inmunosuprimidos.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ilumya (tildrakizumab-asmn) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6a322bb-51b9-4f0e-8642-62a9682ffcde) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

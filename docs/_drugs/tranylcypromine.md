@@ -58,7 +58,7 @@ Entre las predicciones con puntajes similares, la **depresión neurótica** es l
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la tranilcipromina es un inhibidor irreversible y no selectivo de la MAO, que aumenta la disponibilidad de serotonina, noradrenalina y dopamina. Su eficacia en depresión resistente al tratamiento está bien documentada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tranylcypromine (traducción no oficial): «El mecanismo de acción de PARNATE como antidepresivo no se conoce completamente, pero se presume que está relacionado con la potenciación de la actividad de los neurotransmisores monoaminérgicos en el sistema nervioso central (SNC) como resultado de su inhibición irreversible de la enzima monoaminooxidasa (MAO).» Texto original en inglés: "The mechanism of action of PARNATE as an antidepressant is not fully understood, but is presumed to be linked to potentiation of monoamine neurotransmitter activity in the central nervous system (CNS) resulting from its irreversible inhibition of the enzyme monoamine oxidase (MAO)." ([DailyMed: Parnate (tranylcypromine sulfate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b72d8187-dfcc-4ea0-b5e9-c0be95b69a27), versión del 2025-07-02; consultado el 2026-11-19). Según la información conocida, la tranilcipromina es un inhibidor irreversible y no selectivo de la MAO, que aumenta la disponibilidad de serotonina, noradrenalina y dopamina. Su eficacia en depresión resistente al tratamiento está bien documentada.
 
 Para la tortícolis paroxística benigna de la infancia, **no existe un fundamento mecanístico respaldado por los datos**. El puntaje de 0,9967 proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Se trata de un trastorno pediátrico asociado a canales iónicos, sin relación conocida con la inhibición de la MAO. Además, el uso de un IMAO en lactantes plantearía serias preocupaciones de seguridad.
 
@@ -118,6 +118,19 @@ La predicción principal (tortícolis paroxística benigna de la infancia) es so
 - Descartar o justificar la predicción principal con revisión mecanística y de seguridad pediátrica.
 - Si se prioriza la depresión neurótica o la distimia, definir un plan de salvaguardas (dieta con restricción de tiramina, manejo de interacciones y vigilancia de hipertensión y síndrome serotoninérgico).
 - Obtener datos específicos de tranilcipromina (no de clase) para distimia y agorafobia, idealmente de ensayos controlados.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Parnate (tranylcypromine sulfate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b72d8187-dfcc-4ea0-b5e9-c0be95b69a27) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

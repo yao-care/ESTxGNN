@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, atenolol es un bloqueante selectivo de los receptores β1-adrenérgicos que reduce la presión arterial y suprime la liberación de renina.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Atenolol (traducción no oficial): «TENORMIN es un bloqueante de los receptores beta-adrenérgicos selectivo beta 1 (cardioselectivo) sin actividad estabilizadora de membrana ni actividad simpaticomimética intrínseca (agonista parcial). Sin embargo, este efecto preferencial no es absoluto y, a dosis más altas, TENORMIN inhibe los adrenorreceptores beta 2, localizados principalmente en la musculatura bronquial y vascular.» Texto original en inglés: "TENORMIN is a beta 1 -selective (cardioselective) beta-adrenergic receptor blocking agent without membrane stabilizing or intrinsic sympathomimetic (partial agonist) activities. This preferential effect is not absolute, however, and at higher doses, TENORMIN inhibits beta 2 -adrenoreceptors, chiefly located in the bronchial and vascular musculature." ([DailyMed: Tenormin (atenolol) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e850b1e-28a4-4ff8-8ed7-bb0b29faa28a), versión del 2025-09-18; consultado el 2026-11-19). Según la información conocida, atenolol es un bloqueante selectivo de los receptores β1-adrenérgicos que reduce la presión arterial y suprime la liberación de renina.
 
 Esta reducción de la presión arterial y de la actividad de la renina es plausiblemente relevante para el daño renal causado por la hipertensión. El puntaje alto del modelo podría reflejar, en gran parte, la cercanía de esta enfermedad con la hipertensión.
 
@@ -100,6 +100,19 @@ La predicción no cuenta con ensayos clínicos ni literatura que estudien direct
 - Datos detallados del mecanismo de acción
 - Revisión de las advertencias y contraindicaciones del prospecto de AEMPS
 - Evaluación frente a los tratamientos habituales de la hipertensión maligna, que requieren reducción de presión titulable
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tenormin (atenolol) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e850b1e-28a4-4ff8-8ed7-bb0b29faa28a) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

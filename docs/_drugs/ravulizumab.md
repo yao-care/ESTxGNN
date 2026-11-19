@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Ravulizumab es un anticuerpo monoclonal que inhibe el componente C5 del complemento terminal. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por su clase farmacológica, su eficacia en la HPN, una enfermedad de hemólisis intravascular mediada por complemento, es conocida.
+Ravulizumab es un anticuerpo monoclonal que inhibe el componente C5 del complemento terminal. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ravulizumab (traducción no oficial): «Ravulizumab-cwvz es un inhibidor del complemento terminal que se une específicamente y con alta afinidad a la proteína del complemento C5, con lo que inhibe su escisión en C5a (la anafilatoxina proinflamatoria) y C5b (la subunidad iniciadora del complejo de ataque a la membrana [MAC o C5b-9]) y, de este modo, impide la formación del MAC. ULTOMIRIS inhibe la hemólisis intravascular mediada por el complemento terminal en pacientes con HPN y la microangiopatía trombótica (MAT) mediada por el complemento en pacientes con SHUa.» Texto original en inglés: "Ravulizumab-cwvz is a terminal complement inhibitor that specifically binds to the complement protein C5 with high affinity, thereby inhibiting its cleavage to C5a (the proinflammatory anaphylatoxin) and C5b (the initiating subunit of the membrane attack complex [MAC or C5b-9]) thus preventing MAC formation. ULTOMIRIS inhibits terminal complement-mediated intravascular hemolysis in patients with PNH and complement-mediated thrombotic microangiopathy (TMA) in patients with aHUS." ([DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791), versión del 2026-10-29; consultado el 2026-11-19). Por su clase farmacológica, su eficacia en la HPN, una enfermedad de hemólisis intravascular mediada por complemento, es conocida.
 
 La relación entre la indicación original y la nueva es débil. La deficiencia de G6PC3 es un defecto metabólico y de maduración mieloide sin patología conocida dirigida por el complemento. La puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no cuenta con respaldo mecanístico ni clínico.
 
@@ -97,6 +97,19 @@ La predicción se basa exclusivamente en el modelo (nivel L5), sin ensayos clín
 - Texto de las indicaciones aprobadas en las autorizaciones españolas
 - Evaluación de la compatibilidad de vía de administración y de la similitud con la indicación original
 - Un plan de seguridad que contemple el riesgo de infección meningocócica y de infecciones en pacientes neutropénicos
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

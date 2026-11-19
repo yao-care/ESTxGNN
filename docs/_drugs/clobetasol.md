@@ -56,7 +56,7 @@ con **0 ensayos clínicos registrados** y **15 publicaciones** (casi todas infor
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento farmacológico general, clobetasol propionato es un glucocorticoide tópico de potencia muy alta (clase I). La activación del receptor de glucocorticoides induce apoptosis y frena la proliferación de células T malignas, además de reducir las citocinas inflamatorias y la infiltración de linfocitos con tropismo cutáneo.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clobetasol (traducción no oficial): «Al igual que otros corticosteroides tópicos, el propionato de clobetasol tiene propiedades antiinflamatorias, antipruriginosas y vasoconstrictoras. En general, el mecanismo de la actividad antiinflamatoria de los esteroides tópicos no está claro.» Texto original en inglés: "Like other topical corticosteroids, clobetasol propionate has anti-inflammatory, antipruritic, and vasoconstrictive properties. The mechanism of the anti-inflammatory activity of the topical steroids, in general, is unclear." ([DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069), versión del 2026-11-10; consultado el 2026-11-19). Según el conocimiento farmacológico general, clobetasol propionato es un glucocorticoide tópico de potencia muy alta (clase I). La activación del receptor de glucocorticoides induce apoptosis y frena la proliferación de células T malignas, además de reducir las citocinas inflamatorias y la infiltración de linfocitos con tropismo cutáneo.
 
 Estas características son características de la micosis fungoide en estadio de mancha y placa, el tipo más frecuente de linfoma cutáneo primario de células T. Los corticoides tópicos ya se emplean en la práctica clínica con este fin, lo que es coherente con el puntaje elevado de TxGNN.
 
@@ -112,6 +112,19 @@ Existe evidencia observacional (estudios de cohorte y series de casos) y uso cl�
 - Datos detallados del mecanismo de acción.
 - Limitar la indicación a enfermedad en estadio de mancha/placa y definir un plan de monitoreo de efectos adversos cutáneos y de absorción sistémica en uso prolongado.
 - Compatibilidad de vía de administración: confirmar que las formas cutáneas disponibles son adecuadas para la nueva indicación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

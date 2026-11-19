@@ -64,7 +64,7 @@ Catumaxomab es un anticuerpo biespecífico trifuncional (EpCAM x CD3), cuya indi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Catumaxomab es un anticuerpo biespecífico trifuncional que se une a EpCAM (presente en células tumorales epiteliales) y a CD3ε (en linfocitos T). Además, mediante su región Fc recluta células accesorias, dirigiendo la destrucción inmunitaria hacia las células tumorales. No se dispone de datos detallados del mecanismo de acción en la información compilada; lo anterior procede de la anotación farmacológica de su diana principal (CD3E).
+Catumaxomab es un anticuerpo biespecífico trifuncional que se une a EpCAM (presente en células tumorales epiteliales) y a CD3ε (en linfocitos T). Además, mediante su región Fc recluta células accesorias, dirigiendo la destrucción inmunitaria hacia las células tumorales. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Catumaxomab es (traducción no oficial): «Agente de entrecruzamiento de la glucoproteína de superficie de linfocitos T CD3; agente de entrecruzamiento de la molécula de adhesión de células epiteliales» Texto original en inglés: "T cell surface glycoprotein CD3 cross-linking agent; Epithelial cell adhesion molecule cross-linking agent" ([ChEMBL CHEMBL2108581 (catumaxomab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108581), CC BY-SA 3.0; consultado el 2026-11-19).
 
 **La predicción no cuenta con un vínculo mecanístico respaldado por los datos.** La retinopatía diabética es una enfermedad microvascular, dependiente de VEGF e inflamatoria, y no una neoplasia que exprese EpCAM. Las terapias establecidas actúan sobre VEGF, la inflamación y el control glucémico y vascular, vías con las que catumaxomab no se alinea. El puntaje elevado (0,9964) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -141,12 +141,13 @@ Las tres indicaciones predichas se basan solo en el modelo (nivel L5), sin ensay
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "comercializado en España" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-05 | Eliminado: "Las cuatro autorizaciones están vigentes" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL2108581 (catumaxomab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108581) |
 
 <!-- review:end log -->
 

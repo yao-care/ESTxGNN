@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femeni
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la farmacología conocida, irinotecán es un profármaco cuyo metabolito activo, SN-38, inhibe la topoisomerasa I y provoca daño en el ADN de las células que se dividen rápidamente. Este mecanismo no es específico del cáncer colorrectal o pancreático, por lo que una actividad en carcinoma de mama es plausible.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Irinotecan (traducción no oficial): «El irinotecán es un derivado de la camptotecina. Las camptotecinas interactúan específicamente con la enzima topoisomerasa I, que alivia la tensión torsional del ADN al inducir roturas monocatenarias reversibles. El irinotecán y su metabolito activo SN-38 se unen al complejo topoisomerasa I-ADN e impiden la religación de estas roturas monocatenarias.» Texto original en inglés: "Irinotecan is a derivative of camptothecin. Camptothecins interact specifically with the enzyme topoisomerase I, which relieves torsional strain in DNA by inducing reversible single-strand breaks. Irinotecan and its active metabolite SN-38 bind to the topoisomerase I-DNA complex and prevent religation of these single-strand breaks." ([DailyMed: Camptosar (irinotecan hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e518dfc6-7e93-4fee-a66c-51e1ab71c056), versión del 2026-05-12; consultado el 2026-11-19). Según la farmacología conocida, irinotecán es un profármaco cuyo metabolito activo, SN-38, inhibe la topoisomerasa I y provoca daño en el ADN de las células que se dividen rápidamente. Este mecanismo no es específico del cáncer colorrectal o pancreático, por lo que una actividad en carcinoma de mama es plausible.
 
 El apoyo indirecto más relevante proviene de sacituzumab govitecán, un conjugado anticuerpo-fármaco dirigido a Trop-2 que transporta SN-38 y que ha mostrado eficacia en cáncer de mama metastásico (incluido el estudio TROPiCS-02 en enfermedad HR+/HER2-). Esto respalda la actividad de la carga SN-38 en mama, pero **no valida directamente** el uso de irinotecán sistémico. Además, la revisión de 2003 sobre irinotecán y mitomicina señala que irinotecán tiene actividad solo marginal en cáncer de mama.
 
@@ -160,11 +160,12 @@ La predicción es mecanísticamente plausible, pero la evidencia directa es esca
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 11 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Camptosar (irinotecan hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e518dfc6-7e93-4fee-a66c-51e1ab71c056) |
 
 <!-- review:end log -->
 

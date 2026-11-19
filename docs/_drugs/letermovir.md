@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado en las fuentes compiladas. No obstante, según el conocimiento farmacológico general, letermovir inhibe el complejo terminasa del CMV humano (pUL56/pUL51/pUL89), una diana esencial para el empaquetamiento del ADN viral.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Letermovir (traducción no oficial): «PREVYMIS es un fármaco antiviral contra el CMV. […] El letermovir inhibe el complejo de la terminasa del ADN del CMV (pUL51, pUL56 y pUL89), que es necesario para el procesamiento y el empaquetamiento del ADN viral. La caracterización bioquímica y la microscopía electrónica demostraron que el letermovir afecta la producción de genomas de longitud unitaria adecuada e interfiere con la maduración de los viriones.» Texto original en inglés: "PREVYMIS is an antiviral drug against CMV. […] Letermovir inhibits the CMV DNA terminase complex (pUL51, pUL56, and pUL89) which is required for viral DNA processing and packaging. Biochemical characterization and electron microscopy demonstrated that letermovir affects the production of proper unit length genomes and interferes with virion maturation." ([DailyMed: Prevymis (letermovir) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1b49df80-be4f-47e0-a0b7-123f3e69395b), versión del 2026-01-14; consultado el 2026-11-19). No obstante, según el conocimiento farmacológico general, letermovir inhibe el complejo terminasa del CMV humano (pUL56/pUL51/pUL89), una diana esencial para el empaquetamiento del ADN viral.
 
 **En este caso no se identifica un vínculo mecanístico creíble.** La candidiasis vulvovaginal está causada por especies de *Candida* (principalmente *C. albicans*), hongos eucariotas que carecen de un equivalente de la terminasa viral. Por tanto, no cabe esperar que el mecanismo antiviral de letermovir actúe sobre ellos. Tampoco existen datos antifúngicos in vitro ni observaciones clínicas que apoyen la hipótesis.
 
@@ -112,6 +112,19 @@ La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos, lit
 - Revisión del prospecto de la AEMPS para advertencias y contraindicaciones
 - Revisión de que la puntuación procede del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, para descartar artefactos
 - Evaluación de la compatibilidad de vías de administración (las formas actuales son oral e intravenosa, no tópica/vaginal)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Prevymis (letermovir) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1b49df80-be4f-47e0-a0b7-123f3e69395b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

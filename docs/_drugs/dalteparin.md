@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para **trombofilia por deficien
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone actualmente de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la dalteparina es una heparina de bajo peso molecular que potencia la acción de la antitrombina e inhibe el factor Xa, reduciendo así la formación de trombos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dalteparin (traducción no oficial): «La dalteparina es una heparina de bajo peso molecular con propiedades antitrombóticas. Actúa potenciando la inhibición del Factor Xa y de la trombina por la antitrombina. En los seres humanos, la dalteparina potencia preferentemente la inhibición del Factor Xa de la coagulación, y solo afecta levemente al tiempo de tromboplastina parcial activada (TTPA).» Texto original en inglés: "Dalteparin is a low molecular weight heparin with antithrombotic properties. It acts by enhancing the inhibition of Factor Xa and thrombin by antithrombin. In humans, dalteparin potentiates preferentially the inhibition of coagulation Factor Xa, while only slightly affecting the activated partial thromboplastin time (APTT)." ([DailyMed: Fragmin (dalteparin sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=23527b8b-9b28-4e6d-9751-33b143975ac7), versión del 2025-09-30; consultado el 2026-11-19). Según la información conocida, la dalteparina es una heparina de bajo peso molecular que potencia la acción de la antitrombina e inhibe el factor Xa, reduciendo así la formación de trombos.
 
 La deficiencia de proteína C es un estado de hipercoagulabilidad, y la púrpura fulminante (incluida su forma adquirida), una de las indicaciones originales, se asocia clásicamente con deficiencia grave de proteína C. Esta relación hace biológicamente plausible la predicción. En la práctica clínica ya se utiliza anticoagulación en esta condición, aunque los datos compilados no contienen evidencia específica de dalteparina.
 
@@ -112,11 +112,12 @@ La predicción tiene plausibilidad biológica (anticoagulación en un estado de 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se listan 5 de las 9 autorizaciones vigentes (todas de Pfizer S.L.; los textos de indicación aprobada no están disponibles en los datos comp" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Fragmin (dalteparin sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=23527b8b-9b28-4e6d-9751-33b143975ac7) |
 
 <!-- review:end log -->
 

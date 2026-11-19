@@ -62,7 +62,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la mesalazina es el componente 5-ASA, con actividad antiinflamatoria local en la mucosa intestinal, y su eficacia en colitis ulcerosa está bien establecida. Los datos farmacológicos compilados indican interacción con el receptor PPAR-γ (receptor activado por proliferadores de peroxisomas gamma).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Mesalazine (traducción no oficial): «El mecanismo de acción de la mesalamina no se conoce por completo, pero parece tener un efecto antiinflamatorio tópico sobre las células epiteliales del colon. La producción mucosa de metabolitos del ácido araquidónico, tanto por la vía de la ciclooxigenasa como por la de la lipooxigenasa, está aumentada en los pacientes con colitis ulcerosa, y es posible que la mesalamina disminuya la inflamación al bloquear la ciclooxigenasa e inhibir la producción de prostaglandinas en el colon.» Texto original en inglés: "The mechanism of action of mesalamine is not fully understood, but it appears to have a topical anti-inflammatory effect on the colonic epithelial cells. Mucosal production of arachidonic acid metabolites, both through the cyclooxygenase and lipoxygenase pathways, is increased in patients with ulcerative colitis, and it is possible that mesalamine diminishes inflammation by blocking cyclooxygenase and inhibiting prostaglandin production in the colon." ([DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7), versión del 2026-10-26; consultado el 2026-11-19). Según la información conocida, la mesalazina es el componente 5-ASA, con actividad antiinflamatoria local en la mucosa intestinal, y su eficacia en colitis ulcerosa está bien establecida. Los datos farmacológicos compilados indican interacción con el receptor PPAR-γ (receptor activado por proliferadores de peroxisomas gamma).
 
 Para esta indicación concreta **no se identificó ningún vínculo mecanístico**. La hipotricosis congénita con distrofia macular juvenil es un trastorno genético ultrarraro (mutaciones en CDH3) sin una vía inflamatoria conocida que la mesalazina module. El puntaje alto de TxGNN (0,9965) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni clínica.
 
@@ -133,11 +133,12 @@ La predicción principal carece de ensayos, literatura y mecanismo plausible; es
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7) |
 
 <!-- review:end log -->
 

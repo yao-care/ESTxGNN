@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **zinc plasmático elevado
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, norgestimato es un progestágeno que se combina con etinilestradiol en anticonceptivos orales. Su indicación original es el acné, y mecanísticamente se desconoce si podría ser aplicable a la nueva indicación.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para norgestimate and ethinyl estradiol (combinación que contiene Norgestimate) (traducción no oficial): «Si bien la combinación de etinilestradiol y norgestimato aumenta la globulina fijadora de hormonas sexuales (SHBG) y disminuye la testosterona libre, no se ha establecido la relación entre estos cambios y una disminución de la gravedad del acné facial en mujeres por lo demás sanas con esta afección cutánea.» Texto original en inglés: "While the combination of ethinyl estradiol and norgestimate increases sex hormone-binding globulin (SHBG) and decreases free testosterone, the relationship between these changes and a decrease in the severity of facial acne in otherwise healthy women with this skin condition has not been established." ([DailyMed: Tri-Sprintec (norgestimate and ethinyl estradiol) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1f8b9aad-f31f-4cda-861d-c08a977fc923), versión del 2026-10-12; consultado el 2026-11-19). Según la información conocida, norgestimato es un progestágeno que se combina con etinilestradiol en anticonceptivos orales. Su indicación original es el acné, y mecanísticamente se desconoce si podría ser aplicable a la nueva indicación.
 
 Como conocimiento general (no respaldado por los datos compilados para este informe), los esteroides sexuales y los anticonceptivos orales pueden modificar los niveles circulantes de oligoelementos, como zinc, cobre y ceruloplasmina. Esto sugeriría una posible relación biológica, pero no constituye un vínculo mecanístico demostrado.
 
@@ -111,6 +111,19 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Realizar una búsqueda de literatura sobre anticonceptivos orales/progestágenos y zinc plasmático.
 - Definir si el zinc plasmático elevado constituye una indicación clínica con relevancia terapéutica.
 - Evaluar la compatibilidad de vía de administración y la similitud con las indicaciones originales (actualmente pendientes).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tri-Sprintec (norgestimate and ethinyl estradiol) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1f8b9aad-f31f-4cda-861d-c08a977fc923) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

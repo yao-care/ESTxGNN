@@ -60,7 +60,7 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la fluoresceína es un colorante diagnóstico que se emplea en angiografía de retina y en la tinción de la superficie ocular, y no tiene una acción terapéutica establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fluorescein (traducción no oficial): «La fluoresceína sódica responde a la radiación electromagnética y a la luz de longitudes de onda de 465 a 490 nm y emite fluorescencia, es decir, emite luz de longitudes de onda de 520 a 530 nm. Así, el hidrocarburo es excitado por la luz azul y emite una luz que se percibe de color verde amarillento.» Texto original en inglés: "Fluorescein sodium responds to electromagnetic radiation and light between the wavelengths of 465 to 490 nm and fluoresces, i.e., emits light at wavelengths of 520 to 530 nm. Thus, the hydrocarbon is excited by blue light and emits light that appears yellowish green." ([DailyMed: Ak-Fluor (fluorescein) prescribing information, Long Grove Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73511e79-c050-4dc0-aa2f-a79ed320b5b0), versión del 2026-02-26; consultado el 2026-11-19). Según la información conocida, la fluoresceína es un colorante diagnóstico que se emplea en angiografía de retina y en la tinción de la superficie ocular, y no tiene una acción terapéutica establecida.
 
 El análisis de los datos compilados no identifica ningún vínculo mecanístico entre la fluoresceína y la angina de Prinzmetal. La fluoresceína no tiene actividad vasodilatadora ni antivasoespástica conocida. El alto puntaje de TxGNN (0.9981) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no hay ensayos ni literatura que lo respalden.
 
@@ -110,6 +110,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Información de seguridad del prospecto de la AEMPS (advertencias y contraindicaciones), imprescindible antes de cualquier evaluación de seguridad
 - Texto de las indicaciones aprobadas en las autorizaciones españolas
 - Evaluación de compatibilidad de vías de administración (la fluoresceína se presenta como inyectable y colirio)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ak-Fluor (fluorescein) prescribing information, Long Grove Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73511e79-c050-4dc0-aa2f-a79ed320b5b0) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

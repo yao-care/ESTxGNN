@@ -57,7 +57,7 @@ El modelo TxGNN predice que podría ser efectivo para **Trastorno de Tics Cróni
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, donepezilo pertenece a la clase de los inhibidores de la acetilcolinesterasa, su eficacia en la enfermedad de Alzheimer está establecida, y mecanísticamente podría ser aplicable a los tics por su efecto sobre la neurotransmisión colinérgica.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Donepezil (traducción no oficial): «Las teorías actuales sobre la patogenia de los signos y síntomas cognitivos de la enfermedad de Alzheimer atribuyen algunos de ellos a una deficiencia de la neurotransmisión colinérgica. Se postula que el clorhidrato de donepezilo ejerce su efecto terapéutico al potenciar la función colinérgica.» Texto original en inglés: "Current theories on the pathogenesis of the cognitive signs and symptoms of Alzheimer’s disease attribute some of them to a deficiency of cholinergic neurotransmission. Donepezil hydrochloride is postulated to exert its therapeutic effect by enhancing cholinergic function." ([DailyMed: Aricept (donepezil hydrochloride) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975), versión del 2021-12-30; consultado el 2026-11-19). Según la información conocida, donepezilo pertenece a la clase de los inhibidores de la acetilcolinesterasa, su eficacia en la enfermedad de Alzheimer está establecida, y mecanísticamente podría ser aplicable a los tics por su efecto sobre la neurotransmisión colinérgica.
 
 La disfunción colinérgica estriatal se ha propuesto como un factor en los tics y en el trastorno por déficit de atención e hiperactividad (TDAH). La modulación colinérgica de los circuitos del estriado, con interacción con los sistemas dopaminérgico y serotoninérgico, es plausible para los tics. En modelos de ratón, donepezilo redujo la respuesta de sacudida de cabeza inducida por DOI, un modelo propuesto de tics del síndrome de Tourette, y alteró la función serotoninérgica central.
 
@@ -135,11 +135,12 @@ Aunque el puntaje del modelo es alto y existe plausibilidad colinérgica, la evi
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Las 20 autorizaciones son de medicamentos de un solo principio activo, vigentes, sin canceladas" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Aricept (donepezil hydrochloride) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975) |
 
 <!-- review:end log -->
 

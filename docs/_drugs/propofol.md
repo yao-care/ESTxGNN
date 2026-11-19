@@ -56,7 +56,7 @@ con **3 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento disponible, propofol actúa como modulador alostérico positivo del receptor GABA-A, lo que potencia la neurotransmisión inhibitoria. Esto podría atenuar la señalización nociceptiva trigeminovascular y la hiperexcitabilidad cortical.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Propofol (traducción no oficial): «El mecanismo de acción, como el de todos los anestésicos generales, no se conoce bien. Sin embargo, se cree que el propofol produce sus efectos sedantes/anestésicos mediante la modulación positiva de la función inhibidora del neurotransmisor GABA a través de los receptores GABA A activados por ligando.» Texto original en inglés: "The mechanism of action, like all general anesthetics, is poorly understood. However, propofol is thought to produce its sedative/anesthetic effects by the positive modulation of the inhibitory function of the neurotransmitter GABA through the ligand-gated GABA A receptors." ([DailyMed: Diprivan (propofol) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3105799-a4b6-f3f4-e6e2-b2b29bbdb538), versión del 2025-09-11; consultado el 2026-11-19). Según el conocimiento disponible, propofol actúa como modulador alostérico positivo del receptor GABA-A, lo que potencia la neurotransmisión inhibitoria. Esto podría atenuar la señalización nociceptiva trigeminovascular y la hiperexcitabilidad cortical.
 
 Existen datos preclínicos que respaldan este vínculo: un derivado de propofol (hemisuccinato de propofol) suprime la depresión cortical propagada, considerada el sustrato de la aura migrañosa. Esto aporta un mecanismo plausible para un efecto abortivo en migraña refractaria.
 
@@ -133,11 +133,12 @@ Hay un ensayo completado de Fase 2/3 (n=74) y varios ECA publicados que evalúan
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamento único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Diprivan (propofol) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3105799-a4b6-f3f4-e6e2-b2b29bbdb538) |
 
 <!-- review:end log -->
 

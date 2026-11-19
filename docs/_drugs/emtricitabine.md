@@ -56,7 +56,7 @@ Se trata de una indicación veterinaria, fuera del alcance del reposicionamiento
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general, emtricitabina es un inhibidor nucleosídico de la transcriptasa inversa (NRTI) con actividad frente a la transcriptasa inversa del VIH-1, y su eficacia en la infección por VIH está establecida.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Emtricitabine (traducción no oficial): «La emtricitabina es un fármaco antirretroviral. […] La FTC, un análogo nucleosídico sintético de la citidina, es fosforilada por enzimas celulares para formar 5'-trifosfato de emtricitabina (FTC-TP), que inhibe la actividad de la transcriptasa inversa (RT) del VIH-1 al competir con el sustrato natural 5'-trifosfato de desoxicitidina y al incorporarse al ADN viral naciente, lo que produce la terminación de la cadena. El FTC-TP es un inhibidor débil de las ADN polimerasas α, β y ε de mamíferos y de la ADN polimerasa γ mitocondrial.» Texto original en inglés: "Emtricitabine is an antiretroviral drug. […] FTC, a synthetic nucleoside analog of cytidine, is phosphorylated by cellular enzymes to form emtricitabine 5'-triphosphate (FTC-TP), which inhibits the activity of the HIV-1 reverse transcriptase (RT) by competing with the natural substrate deoxycytidine 5'-triphosphate and by being incorporated into nascent viral DNA resulting in chain termination. FTC-TP is a weak inhibitor of mammalian DNA polymerases α, β, ε, and mitochondrial DNA polymerase γ." ([DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f), versión del 2026-11-06; consultado el 2026-11-19). Según el conocimiento general, emtricitabina es un inhibidor nucleosídico de la transcriptasa inversa (NRTI) con actividad frente a la transcriptasa inversa del VIH-1, y su eficacia en la infección por VIH está establecida.
 
 El virus de la inmunodeficiencia felina (FIV) es un lentivirus con una transcriptasa inversa relacionada, por lo que la actividad de los NRTI es biológicamente plausible. La única publicación disponible (2023) evalúa una terapia antirretroviral combinada (dolutegravir, tenofovir y emtricitabina) en gatos infectados por FIV, por lo que aporta evidencia indirecta para emtricitabina en particular.
 
@@ -105,6 +105,19 @@ La predicción se apoya solo en un estudio preclínico/veterinario indirecto, si
 
 - **Infección por virus de inmunodeficiencia simia (SIV)** (puntaje 0.9992, nivel L4): hay numerosos estudios preclínicos en macacos que respaldan la profilaxis preexposición con emtricitabina combinada con tenofovir. Es un modelo traslacional del VIH ya aprobado en humanos, no una nueva indicación humana.
 - **Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y reducción de la sustancia blanca cortical** (puntaje 0.9992, nivel L5): sin vínculo mecanístico identificado ni evidencia; probablemente un artefacto del modelo TxGNN (aprendizaje profundo).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

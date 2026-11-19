@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **miastenia gravis con hip
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Según la información conocida, neostigmina es un inhibidor reversible de la acetilcolinesterasa (diana: ACHE) que aumenta la acetilcolina en la sinapsis de la unión neuromuscular. Esta es la base de su uso en la miastenia gravis.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Neostigmine (traducción no oficial): «El metilsulfato de neostigmina es un inhibidor competitivo de la colinesterasa. Al reducir la degradación de la acetilcolina, el metilsulfato de neostigmina induce un aumento de la acetilcolina en la hendidura sináptica, que compite por el mismo sitio de unión que los bloqueantes neuromusculares no despolarizantes, y revierte el bloqueo neuromuscular.» Texto original en inglés: "Neostigmine methylsulfate is a competitive cholinesterase inhibitor. By reducing the breakdown of acetylcholine, neostigmine methylsulfate induces an increase in acetylcholine in the synaptic cleft which competes for the same binding site as nondepolarizing neuromuscular blocking agents, and reverses the neuromuscular blockade." ([DailyMed: neostigmine prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=95fb1b3d-be9a-fdb4-e053-2a95a90a5e90), versión del 2023-05-15; consultado el 2026-11-19). Según la información conocida, neostigmina es un inhibidor reversible de la acetilcolinesterasa (diana: ACHE) que aumenta la acetilcolina en la sinapsis de la unión neuromuscular. Esta es la base de su uso en la miastenia gravis.
 
 La miastenia gravis con hiperplasia de timo es un subtipo de la misma enfermedad, por lo que el puntaje alto del modelo es plausible. Sin embargo, precisamente por ello no representa una oportunidad real de reposicionamiento: la indicación ya está cubierta por el uso conocido del fármaco. No se dispone de ensayos ni literatura específicos para este subtipo.
 
@@ -108,6 +108,19 @@ La predicción corresponde a un subtipo de una indicación ya conocida, con punt
 - Confirmar si la miastenia gravis con hiperplasia de timo ya está cubierta por la indicación autorizada
 - Completar los datos del mecanismo de acción desde DrugBank
 - Si se desea explorar un reposicionamiento real, priorizar la miastenia gravis neonatal transitoria, evaluando dosificación y seguridad neonatal
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: neostigmine prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=95fb1b3d-be9a-fdb4-e053-2a95a90a5e90) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

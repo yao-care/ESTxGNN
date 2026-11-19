@@ -56,7 +56,7 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según lo conocido, el diclofenaco es un AINE que inhibe las ciclooxigenasas COX-1 y COX-2 y reduce la síntesis de prostaglandinas. Su eficacia en la inflamación y el dolor articular está bien establecida. Los datos farmacológicos compilados también lo asocian con otras dianas, como PPARγ, TRPM3, ASIC3 y el transportador de aminoácidos PAT1.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Diclofenac (traducción no oficial): «El diclofenaco tiene propiedades analgésicas, antiinflamatorias y antipiréticas. El mecanismo de acción del diclofenaco, al igual que el de otros AINE, no se comprende por completo, pero implica la inhibición de la ciclooxigenasa (COX-1 y COX-2).» Texto original en inglés: "Diclofenac has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of diclofenac, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Diclofenac Sodium Delayed Release (diclofenac sodium) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc99e6af-7050-4653-a681-5b252305a970), versión del 2026-09-24; consultado el 2026-11-19). Según lo conocido, el diclofenaco es un AINE que inhibe las ciclooxigenasas COX-1 y COX-2 y reduce la síntesis de prostaglandinas. Su eficacia en la inflamación y el dolor articular está bien establecida. Los datos farmacológicos compilados también lo asocian con otras dianas, como PPARγ, TRPM3, ASIC3 y el transportador de aminoácidos PAT1.
 
 La relación entre la indicación original y la nueva es débil. La hipotricosis simple del cuero cabelludo es un trastorno folicular de origen genético y monogénico (por ejemplo, variantes en CDSN, APCDD1 o RPL21). Las vías de las prostaglandinas influyen en el ciclo del cabello, pero inhibir la COX no corregiría un defecto genético de este tipo.
 
@@ -119,11 +119,12 @@ Entre las 10 principales predicciones, solo la **artritis idiopática juvenil** 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes. Todas son de principio activo único y ninguna está cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Diclofenac Sodium Delayed Release (diclofenac sodium) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc99e6af-7050-4653-a681-5b252305a970) |
 
 <!-- review:end log -->
 

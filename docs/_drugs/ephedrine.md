@@ -56,7 +56,7 @@ con **0 ensayos clínicos** y **2 publicaciones** de baja calidad (de 1964 y 200
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro del fármaco. Según la información conocida, la efedrina es un simpaticomimético con acción indirecta (liberación de noradrenalina) y acción directa como agonista adrenérgico alfa y beta. La vasoconstricción mediada por receptores alfa-1 en los vasos de la mucosa nasal reduce la congestión y la inflamación, lo que es biológicamente plausible en enfermedades de la cavidad nasal.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ephedrine (traducción no oficial): «El sulfato de efedrina es una amina simpaticomimética que actúa directamente como agonista de los receptores α- y β-adrenérgicos e indirectamente provoca la liberación de norepinefrina desde las neuronas simpáticas. Los efectos presores debidos a la activación directa de los receptores alfa- y beta-adrenérgicos están mediados por aumentos de las presiones arteriales, del gasto cardíaco y de la resistencia periférica.» Texto original en inglés: "Ephedrine sulfate is a sympathomimetic amine that directly acts as an agonist at α- and β-adrenergic receptors and indirectly causes the release of norepinephrine from sympathetic neurons. Pressor effects by direct alpha- and beta-adrenergic receptor activation are mediated by increases in arterial pressures, cardiac output, and peripheral resistance." ([DailyMed: Emerphed Pfs (ephedrine sulfate) prescribing information, Nexus Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14601778-93ac-43ec-b66b-5a942317133f), versión del 2024-09-16; consultado el 2026-11-19). Según la información conocida, la efedrina es un simpaticomimético con acción indirecta (liberación de noradrenalina) y acción directa como agonista adrenérgico alfa y beta. La vasoconstricción mediada por receptores alfa-1 en los vasos de la mucosa nasal reduce la congestión y la inflamación, lo que es biológicamente plausible en enfermedades de la cavidad nasal.
 
 La enfermedad de la cavidad nasal es una categoría amplia que incluye cuadros ya asociados a la efedrina en los datos compilados (rinitis alérgica, rinitis vasomotora, rinitis, nasofaringitis). Por ello, esta predicción se parece más a una ampliación de un uso existente que a un reposicionamiento genuino. El puntaje TxGNN muy alto (0,999) es coherente con ese solapamiento.
 
@@ -105,6 +105,19 @@ La evidencia se limita a la predicción del modelo y a dos publicaciones antigua
 - Confirmar la compatibilidad de vía y formulación (intranasal frente a las presentaciones inyectables y orales disponibles).
 - Aclarar si se trata de reposicionamiento real o de una categoría más amplia de un uso ya establecido.
 - Recuperar el texto completo de las dos publicaciones y buscar estudios controlados en rinitis o patología nasal.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Emerphed Pfs (ephedrine sulfate) prescribing information, Nexus Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14601778-93ac-43ec-b66b-5a942317133f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

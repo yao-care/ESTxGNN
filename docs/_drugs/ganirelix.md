@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, pero ac
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro compilado. Según la información farmacológica conocida, ganirelix es un péptido antagonista del receptor GnRH₁ (gen GNRHR). Al bloquear este receptor, suprime la liberación de LH y FSH y, en consecuencia, reduce los esteroides sexuales derivados.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ganirelix (traducción no oficial): «La liberación pulsátil de GnRH estimula la síntesis y la secreción de la hormona luteinizante (LH) y de la hormona foliculoestimulante (FSH). La frecuencia de los pulsos de LH en la fase folicular media y tardía es de aproximadamente 1 pulso por hora. […] El acetato de ganirelix actúa bloqueando de forma competitiva los receptores de GnRH en el gonadotropo hipofisario y la vía de transducción subsiguiente.» Texto original en inglés: "The pulsatile release of GnRH stimulates the synthesis and secretion of luteinizing hormone (LH) and follicle-stimulating hormone (FSH). The frequency of LH pulses in the mid and late follicular phase is approximately 1 pulse per hour. […] Ganirelix acetate acts by competitively blocking the GnRH receptors on the pituitary gonadotroph and subsequent transduction pathway." ([DailyMed: Fyremadel (ganirelix acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f0908b5-3551-47fd-95f7-3669b0dff7f1), versión del 2026-10-16; consultado el 2026-11-19). Según la información farmacológica conocida, ganirelix es un péptido antagonista del receptor GnRH₁ (gen GNRHR). Al bloquear este receptor, suprime la liberación de LH y FSH y, en consecuencia, reduce los esteroides sexuales derivados.
 
 La relación con la hipertricosis es **débil e indirecta**. La hipertricosis no está impulsada principalmente por gonadotropinas, por lo que cualquier vínculo pasaría por una modulación androgénica y es especulativo. El puntaje elevado procede del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, clínica ni de la literatura.
 
@@ -112,6 +112,19 @@ La predicción para hipertricosis se basa solo en el modelo (nivel L5), sin ensa
 - Textos de indicación aprobada de las autorizaciones, hoy vacíos
 - Revisión de literatura y ensayos para hipertricosis, y valorar priorizar candidatas más plausibles (pubertad precoz central, exceso de aromatasa)
 - Evaluación de compatibilidad de vía de administración (ganirelix es inyectable) y de similitud con la indicación original
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Fyremadel (ganirelix acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f0908b5-3551-47fd-95f7-3669b0dff7f1) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

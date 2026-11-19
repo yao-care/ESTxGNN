@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, mizolastina es un antihistamínico H1 de segunda generación, y su diana farmacológica registrada es el receptor H1 de histamina (gen HRH1). Su eficacia en rinitis alérgica y vasomotora es la base de su uso clínico.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Mizolastine es (traducción no oficial): «Antagonista del receptor H1 de histamina» Texto original en inglés: "Histamine H1 receptor antagonist" ([ChEMBL CHEMBL94454 (mizolastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL94454), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, mizolastina es un antihistamínico H1 de segunda generación, y su diana farmacológica registrada es el receptor H1 de histamina (gen HRH1). Su eficacia en rinitis alérgica y vasomotora es la base de su uso clínico.
 
 Con los datos compilados para este informe, **no se logra establecer un vínculo mecanístico** entre el antagonismo del receptor H1 y la porfiria aguda intermitente. Esta enfermedad es un trastorno de la biosíntesis del hemo (déficit de porfobilinógeno desaminasa) sin un mecanismo histaminérgico reconocido. Por ello, el puntaje elevado (0,9976) debe interpretarse como un resultado del modelo, probablemente reflejo de similitudes en la red de conocimiento, y no como una justificación farmacológica verificada.
 
@@ -115,6 +115,19 @@ La predicción de porfiria aguda intermitente se apoya solo en el puntaje del mo
 - Revisión bibliográfica dirigida para identificar cualquier indicio biológico que conecte la señalización histaminérgica con la porfiria aguda intermitente.
 - Evidencia preclínica que respalde un vínculo mecanístico antes de plantear estudios clínicos.
 - Compatibilidad de vías de administración y similitud con la indicación original, actualmente pendientes de evaluación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL94454 (mizolastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL94454) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

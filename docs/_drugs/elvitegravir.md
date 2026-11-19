@@ -56,7 +56,7 @@ con **0 ensayos clínicos** y **8 publicaciones** preclínicas (in vitro y en mo
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida de la clase, elvitegravir es un inhibidor de la transferencia de cadena de la integrasa (INSTI): bloquea la integración del ADN viral en el genoma de la célula huésped, un paso esencial para la replicación del VIH-1.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate (combinación que contiene Elvitegravir) (traducción no oficial): «STRIBILD es una combinación de dosis fija de los fármacos antirretrovirales elvitegravir (potenciado por el inhibidor de CYP3A cobicistat), emtricitabina y TDF.» Texto original en inglés: "STRIBILD is a fixed-dose combination of antiretroviral drugs elvitegravir (boosted by the CYP3A inhibitor cobicistat), emtricitabine, and TDF." ([DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee), versión del 2025-02-04; consultado el 2026-11-19). Según la información conocida de la clase, elvitegravir es un inhibidor de la transferencia de cadena de la integrasa (INSTI): bloquea la integración del ADN viral en el genoma de la célula huésped, un paso esencial para la replicación del VIH-1.
 
 La integrasa del SIV es estructural y funcionalmente muy parecida a la del VIH-1, por lo que es mecanísticamente plausible que los INSTI actúen también contra ella. Los estudios in vitro indican que elvitegravir tiene una actividad antirretroviral amplia, y otros trabajos han demostrado que el SIVmac239 es sensible a los INSTI y que las mutaciones de resistencia son comparables a las del VIH.
 
@@ -106,12 +106,24 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Justificación:**
 La evidencia es exclusivamente preclínica (in vitro y modelos animales, nivel L4) y la indicación predicha afecta a un patógeno no humano, sin ensayos clínicos posibles. Por ello, el valor está en la investigación sobre el VIH (resistencia y prevención), no en una nueva indicación terapéutica.
 
-
 **Para avanzar se necesita:**
 - Datos detallados del mecanismo de acción (MOA)
 - Texto de indicaciones, advertencias y contraindicaciones del prospecto de AEMPS
 - Definir si el interés es como modelo de investigación del VIH (prevención con insertos tópicos TAF/elvitegravir) en lugar de una indicación terapéutica
 - Estudios que evalúen elvitegravir directamente frente a SIV, ya que parte de la literatura se refiere a otros INSTI
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

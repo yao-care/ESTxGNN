@@ -56,7 +56,7 @@ pero actualmente no hay **ningún ensayo clínico** ni **ninguna publicación** 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el riluzol modula la transmisión glutamatérgica (inhibición de la liberación de glutamato y bloqueo de canales de sodio).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Riluzole (traducción no oficial): «Se desconoce el mecanismo por el cual el riluzol ejerce sus efectos terapéuticos en pacientes con ELA.» Texto original en inglés: "The mechanism by which riluzole exerts its therapeutic effects in patients with ALS is unknown." ([DailyMed: Tiglutik (riluzole) prescribing information, EDW PHARMA, INC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=75d68f19-4208-109e-e053-2991aa0ac857), versión del 2026-07-27; consultado el 2026-11-19). Según la información conocida, el riluzol modula la transmisión glutamatérgica (inhibición de la liberación de glutamato y bloqueo de canales de sodio).
 
 Sin embargo, no existe un vínculo mecanístico establecido entre esta acción y la polimicrogiria parieto-occipital parasagital bilateral, que es una malformación del desarrollo cortical. No hay ensayos ni literatura que conecten el fármaco con esta enfermedad.
 
@@ -98,6 +98,18 @@ La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos cl
 - Revisión del prospecto de la AEMPS (advertencias y contraindicaciones)
 - Estudios preclínicos o de mecanismo que conecten el riluzol con la fisiopatología de esta malformación cortical
 - Búsqueda sistemática de literatura y ensayos específicos para esta enfermedad
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tiglutik (riluzole) prescribing information, EDW PHARMA, INC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=75d68f19-4208-109e-e053-2991aa0ac857) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

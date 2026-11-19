@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, brolucizumab es un fragmento de anticuerpo anti-VEGF-A de uso intravítreo, con acción principalmente local en el ojo.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Brolucizumab (traducción no oficial): «El brolucizumab es un inhibidor humano del VEGF. El brolucizumab se une a las tres isoformas principales del VEGF-A (p. ej., VEGF 110, VEGF 121 y VEGF 165 ), con lo que impide la interacción con los receptores VEGFR-1 y VEGFR-2. Al inhibir el VEGF-A, el brolucizumab suprime la proliferación de células endoteliales, la neovascularización y la permeabilidad vascular.» Texto original en inglés: "Brolucizumab is a human VEGF inhibitor. Brolucizumab binds to the three major isoforms of VEGF-A (e.g., VEGF 110, VEGF 121, and VEGF 165 ), thereby preventing interaction with receptors VEGFR-1 and VEGFR-2. By inhibiting VEGF-A, brolucizumab suppresses endothelial cell proliferation, neovascularization, and vascular permeability." ([DailyMed: Beovu (brolucizumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d1dc1fa-a2d3-46ed-9e9a-c1a036590d3d), versión del 2026-10-26; consultado el 2026-11-19). Según la información conocida, brolucizumab es un fragmento de anticuerpo anti-VEGF-A de uso intravítreo, con acción principalmente local en el ojo.
 
 No se ha documentado un vínculo mecanístico entre la inhibición del VEGF-A y los trastornos de la fosforilación oxidativa causados por anomalías del ADN nuclear. Algunas enfermedades mitocondriales cursan con afectación retiniana, pero no hay evidencia de que el tratamiento anti-VEGF modifique la enfermedad de base.
 
@@ -84,6 +84,19 @@ No existe ningún ensayo clínico ni publicación que estudie esta enfermedad, n
 - Estudios preclínicos que exploren si la inhibición del VEGF-A influye en la fisiopatología de este trastorno mitocondrial
 - Revisión del prospecto de la AEMPS para completar la información de advertencias y contraindicaciones
 - Evaluación de la compatibilidad de la vía de administración con la enfermedad objetivo
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Beovu (brolucizumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d1dc1fa-a2d3-46ed-9e9a-c1a036590d3d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

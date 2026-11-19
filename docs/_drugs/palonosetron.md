@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Palonosetrón es un antagonista selectivo del receptor 5-HT3 de serotonina. No se dispone de datos detallados del mecanismo de acción en los datos compilados; esta descripción se basa en la clase farmacológica conocida del fármaco.
+Palonosetrón es un antagonista selectivo del receptor 5-HT3 de serotonina. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Palonosetron (traducción no oficial): «El palonosetrón es un antagonista del receptor 5-HT 3 con una fuerte afinidad de unión por este receptor y escasa o nula afinidad por otros receptores. La quimioterapia oncológica puede asociarse con una incidencia elevada de náuseas y vómitos, en particular cuando se utilizan ciertos agentes, como el cisplatino.» Texto original en inglés: "Palonosetron is a 5-HT 3 receptor antagonist with a strong binding affinity for this receptor and little or no affinity for other receptors. Cancer chemotherapy may be associated with a high incidence of nausea and vomiting, particularly when certain agents, such as cisplatin, are used." ([DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7), versión del 2025-04-29; consultado el 2026-11-19).
 
 La señalización serotoninérgica participa en la fisiopatología de la migraña, lo que ofrece una justificación plausible pero indirecta para el puntaje elevado (0,9974). Además, las náuseas y los vómitos son síntomas frecuentes de la migraña, lo que acerca superficialmente ambos contextos clínicos.
 
@@ -132,11 +132,12 @@ La predicción es puramente computacional (L5): no hay ensayos clínicos y la ú
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 11 autorizaciones vigentes (todas monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7) |
 
 <!-- review:end log -->
 

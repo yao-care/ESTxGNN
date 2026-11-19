@@ -60,7 +60,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Según la información conocida, siltuximab es un anticuerpo monoclonal que bloquea la interleucina-6 (IL-6), y su eficacia en la enfermedad de Castleman, un trastorno linfoproliferativo en el que la IL-6 tiene un papel central, ha sido comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Siltuximab (traducción no oficial): «Siltuximab se une a la IL-6 humana e impide la unión de la IL-6 a los receptores de IL-6 tanto solubles como unidos a la membrana. Se ha demostrado que la IL-6 participa en diversos procesos fisiológicos normales, como la inducción de la secreción de inmunoglobulinas.» Texto original en inglés: "Siltuximab binds human IL-6 and prevents the binding of IL-6 to both soluble and membrane-bound IL-6 receptors. IL-6 has been shown to be involved in diverse normal physiologic processes such as induction of immunoglobulin secretion." ([DailyMed: Sylvant (siltuximab) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d663642-f52e-49c0-a023-2da083fdfc0b), versión del 2024-08-27; consultado el 2026-11-19). Según la información conocida, siltuximab es un anticuerpo monoclonal que bloquea la interleucina-6 (IL-6), y su eficacia en la enfermedad de Castleman, un trastorno linfoproliferativo en el que la IL-6 tiene un papel central, ha sido comprobada.
 
 Para el mastocitoma extracutáneo, los datos compilados no respaldan ningún vínculo mecanístico: el papel de la señalización de IL-6 en las neoplasias de mastocitos es especulativo. El puntaje alto de TxGNN es únicamente una predicción computacional, sin ensayos ni literatura que la corroboren.
 
@@ -127,6 +127,19 @@ La predicción para mastocitoma extracutáneo se basa solo en el modelo (L5), si
 - Revisión de la ficha técnica de AEMPS (advertencias y contraindicaciones), necesaria antes de cualquier evaluación de seguridad
 - Búsqueda de estudios preclínicos o series de casos que respalden la indicación
 - Valorar priorizar el sarcoma de Kaposi, que cuenta con un vínculo indirecto más plausible (L4), como alternativa a explorar
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sylvant (siltuximab) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d663642-f52e-49c0-a023-2da083fdfc0b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

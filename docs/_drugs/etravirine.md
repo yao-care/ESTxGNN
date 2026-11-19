@@ -56,7 +56,7 @@ sin **ensayos clínicos** ni **publicaciones** que respalden actualmente esta di
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la etravirina es un ITINN que inhibe la transcriptasa inversa del VIH-1, y su eficacia en la infección por VIH ha sido comprobada.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Etravirine (traducción no oficial): «La etravirina es un fármaco antirretroviral. […] La etravirina es un INNTI del VIH-1. La etravirina se une directamente a la transcriptasa inversa (TI) y bloquea las actividades de ADN polimerasa dependientes de ARN y dependientes de ADN al provocar una alteración del sitio catalítico de la enzima. La etravirina no inhibe las ADN polimerasas humanas α, β y γ.» Texto original en inglés: "Etravirine is an antiretroviral drug. […] Etravirine is an NNRTI of HIV-1. Etravirine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site. Etravirine does not inhibit the human DNA polymerases α, β, and γ." ([DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d), versión del 2023-08-15; consultado el 2026-11-19). Según la información conocida, la etravirina es un ITINN que inhibe la transcriptasa inversa del VIH-1, y su eficacia en la infección por VIH ha sido comprobada.
 
 El virus de la inmunodeficiencia felina (VIF) es un lentivirus, por lo que existe cierta cercanía biológica con el VIH. Sin embargo, los ITINN suelen tener poca actividad frente a lentivirus distintos del VIH-1, de modo que el vínculo es solo una predicción del modelo basada en similitud entre enfermedades, sin datos que la respalden.
 
@@ -108,6 +108,19 @@ La predicción principal no tiene ensayos clínicos ni literatura, el nivel de e
 - Advertencias y contraindicaciones del prospecto de la AEMPS (carencia bloqueante para el cribado de seguridad).
 - Textos de indicación aprobada de las autorizaciones españolas.
 - Confirmar si la indicación veterinaria está dentro del alcance del programa; de lo contrario, priorizar candidatas humanas con mayor respaldo (p. ej., VIH en embarazo, que es una extensión de la indicación aprobada con seguridad por evaluar).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

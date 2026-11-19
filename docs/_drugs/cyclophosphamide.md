@@ -56,7 +56,7 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Por conocimiento general, la ciclofosfamida es un profármaco que se activa en el hígado y genera metabolitos alquilantes. Estos dañan el ADN de las células en división y suprimen de forma marcada la proliferación de linfocitos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cyclophosphamide (traducción no oficial): «El mecanismo de acción no se ha caracterizado por completo. Sin embargo, es posible que intervenga el entrecruzamiento del ADN de las células tumorales. Los metabolitos alquilantes activos de la ciclofosfamida interfieren con el crecimiento de las células malignas sensibles de proliferación rápida.» Texto original en inglés: "The mechanism of action has not been fully characterized. However, cross-linking of tumor cell DNA may be involved. The active alkylating metabolites of cyclophosphamide interfere with the growth of susceptible rapidly proliferating malignant cells." ([DailyMed: Frindovyx (cyclophosphamide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ad8ea65-4c98-487a-9c8d-df778765ec5e), versión del 2026-08-26; consultado el 2026-11-19). Por conocimiento general, la ciclofosfamida es un profármaco que se activa en el hígado y genera metabolitos alquilantes. Estos dañan el ADN de las células en división y suprimen de forma marcada la proliferación de linfocitos.
 
 El puntaje alto del modelo es una señal puramente computacional. No existe una justificación mecanística clara para usar un inmunosupresor citotóxico en un síndrome del desarrollo raro con disfunción de células T. En esa situación, una inmunosupresión adicional podría ser perjudicial. Por ello la predicción debe tomarse como una hipótesis sin respaldo y no como una indicación plausible a corto plazo.
 
@@ -116,6 +116,18 @@ La predicción no cuenta con ensayos clínicos ni literatura que estudien esta e
 - Revisión de las advertencias y contraindicaciones del prospecto autorizado
 - Análisis mecanístico específico que justifique el uso de un inmunosupresor en esta condición
 - Estudios preclínicos o series de casos que evalúen directamente esta enfermedad antes de considerar cualquier avance
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Frindovyx (cyclophosphamide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ad8ea65-4c98-487a-9c8d-df778765ec5e) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

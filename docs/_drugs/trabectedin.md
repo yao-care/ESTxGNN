@@ -60,7 +60,7 @@ con **1 ensayo clínico** (de relevancia limitada) y **20 publicaciones** que ac
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida y la literatura compilada, trabectedina es un agente alquilante que se une al surco menor del ADN, provoca daño en el ADN y una citotoxicidad dependiente de la reparación por escisión de nucleótidos acoplada a la transcripción (TC-NER). Además, modula el microambiente tumoral al reducir los macrófagos asociados al tumor.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Trabectedin (traducción no oficial): «Trabectedina es un fármaco alquilante que se une a residuos de guanina en el surco menor del ADN, formando aductos y provocando una flexión de la hélice del ADN hacia el surco mayor. La formación de aductos desencadena una cascada de eventos que puede afectar la actividad posterior de las proteínas de unión al ADN, incluidos algunos factores de transcripción, y de las vías de reparación del ADN, lo que da lugar a una alteración del ciclo celular y, finalmente, a la muerte celular.» Texto original en inglés: "Trabectedin is an alkylating drug that binds guanine residues in the minor groove of DNA, forming adducts and resulting in a bending of the DNA helix towards the major groove. Adduct formation triggers a cascade of events that can affect the subsequent activity of DNA binding proteins, including some transcription factors, and DNA repair pathways, resulting in perturbation of the cell cycle and eventual cell death." ([DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea), versión del 2026-06-29; consultado el 2026-11-19). Según la información conocida y la literatura compilada, trabectedina es un agente alquilante que se une al surco menor del ADN, provoca daño en el ADN y una citotoxicidad dependiente de la reparación por escisión de nucleótidos acoplada a la transcripción (TC-NER). Además, modula el microambiente tumoral al reducir los macrófagos asociados al tumor.
 
 El cáncer de ovario y el cáncer de mama comparten rasgos biológicos relevantes, en especial la deficiencia de recombinación homóloga (por ejemplo, mutaciones en BRCA1/2), que aumenta la sensibilidad a trabectedina en modelos preclínicos. Hay también trabajos preclínicos que sugieren que podría potenciar la inmunoterapia (por ejemplo, IL-12) en cáncer de mama triple negativo.
 
@@ -153,11 +153,12 @@ El puntaje del modelo es muy alto y existe plausibilidad mecanística (deficienc
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 12 autorizaciones vigentes en total (Pharma Mar, Sun, Teva, Accord, Ever Pharma y Stada, en presentaciones de 0,25 mg y 1 mg)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea) |
 
 <!-- review:end log -->
 

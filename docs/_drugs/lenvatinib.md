@@ -56,7 +56,7 @@ con **1 ensayo clínico** (fase Ib/II de un solo brazo) y **4 publicaciones** re
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Según lo conocido, lenvatinib inhibe VEGFR1-3, FGFR1-4, PDGFRα, RET y KIT, lo que puede frenar la angiogénesis tumoral y las señales de crecimiento en sarcomas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lenvatinib (traducción no oficial): «El lenvatinib es un inhibidor de cinasas que inhibe las actividades cinasa de los receptores del factor de crecimiento endotelial vascular (VEGF) VEGFR1 (FLT1), VEGFR2 (KDR) y VEGFR3 (FLT4). El lenvatinib inhibe otras cinasas que se han implicado en la angiogénesis patógena, el crecimiento tumoral y la progresión del cáncer, además de sus funciones celulares normales, incluidos los receptores del factor de crecimiento de fibroblastos (FGF) FGFR1, 2, 3 y 4; el receptor alfa del factor de crecimiento derivado de plaquetas (PDGFRA), KIT y RET.» Texto original en inglés: "Lenvatinib is a kinase inhibitor that inhibits the kinase activities of vascular endothelial growth factor (VEGF) receptors VEGFR1 (FLT1), VEGFR2 (KDR), and VEGFR3 (FLT4). Lenvatinib inhibits other kinases that have been implicated in pathogenic angiogenesis, tumor growth, and cancer progression in addition to their normal cellular functions, including fibroblast growth factor (FGF) receptors FGFR1, 2, 3, and 4; platelet derived growth factor receptor alpha (PDGFRA), KIT, and RET." ([DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e), versión del 2026-10-14; consultado el 2026-11-19). Según lo conocido, lenvatinib inhibe VEGFR1-3, FGFR1-4, PDGFRα, RET y KIT, lo que puede frenar la angiogénesis tumoral y las señales de crecimiento en sarcomas.
 
 La combinación con eribulina, un inhibidor de microtúbulos, ofrece mecanismos complementarios: lenvatinib actúa sobre los vasos que irrigan el tumor y eribulina sobre la mitosis de la célula tumoral. Los estudios preclínicos muestran actividad amplia de eribulina en combinación con agentes de mecanismo distinto. Además, la amplificación de CDK4 es característica del liposarcoma bien diferenciado y desdiferenciado, y un trabajo reciente sugiere sinergia al añadir otras inhibiciones dirigidas.
 
@@ -86,7 +86,6 @@ La base de evidencia es limitada: un único estudio de fase Ib/II sin grupo comp
 | 1161128001 | KISPLYX 4 MG CÁPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
 | 1151002001 | LENVIMA 4 MG CÁPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
 
-
 ## Citotoxicidad
 
 | Item | Contenido |
@@ -115,6 +114,18 @@ La evidencia se limita a un estudio de fase Ib/II de un solo brazo (nivel L3), s
 - Datos detallados del mecanismo de acción
 - Advertencias y contraindicaciones del prospecto de la AEMPS para el análisis de seguridad
 - Plan de manejo de interacciones, en especial con fármacos que prolongan el intervalo QT
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

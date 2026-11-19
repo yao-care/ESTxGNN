@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama HER2 p
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, polatuzumab vedotina es un ADC que se une a CD79b, un componente del receptor de células B, y libera monometil auristatina E (MMAE), una carga útil que interrumpe los microtúbulos y provoca citotoxicidad antimitótica.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Polatuzumab Vedotin (traducción no oficial): «El polatuzumab vedotina-piiq es un conjugado anticuerpo-fármaco dirigido contra CD79b con actividad contra los linfocitos B en división. La molécula pequeña, MMAE, es un agente antimitótico unido covalentemente al anticuerpo mediante un enlazador escindible. El anticuerpo monoclonal se une a CD79b, una proteína de superficie específica de los linfocitos B que es un componente del receptor de linfocitos B.» Texto original en inglés: "Polatuzumab vedotin-piiq is a CD79b-directed antibody-drug conjugate with activity against dividing B cells. The small molecule, MMAE, is an anti-mitotic agent covalently attached to the antibody via a cleavable linker. The monoclonal antibody binds to CD79b, a B-cell specific surface protein, which is a component of the B-cell receptor." ([DailyMed: Polivy (polatuzumab vedotin) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=20a16ab2-f338-4abb-9dcd-254bd949a2bc), versión del 2026-08-24; consultado el 2026-11-19). Según la información conocida, polatuzumab vedotina es un ADC que se une a CD79b, un componente del receptor de células B, y libera monometil auristatina E (MMAE), una carga útil que interrumpe los microtúbulos y provoca citotoxicidad antimitótica.
 
 La relación con la nueva indicación es débil. CD79b no se expresa de forma conocida en las células del carcinoma de mama HER2 positivo, por lo que no existe una justificación directa basada en la diana. El único vínculo concebible es la carga útil: los ADC basados en auristatinas han sido estudiados en tumores sólidos. Sin embargo, sin expresión de CD79b en el tumor, cualquier efecto por muerte de células vecinas (efecto bystander) o captación inespecífica sería especulativo.
 
@@ -125,6 +125,19 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Verificar la expresión de CD79b en carcinoma de mama HER2 positivo mediante estudios preclínicos.
 - Buscar evidencia de ADC con MMAE en tumores sólidos y comparar con alternativas dirigidas a HER2 ya establecidas.
 - Evaluar la compatibilidad de vías de administración y la similitud con la indicación original.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Polivy (polatuzumab vedotin) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=20a16ab2-f338-4abb-9dcd-254bd949a2bc) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

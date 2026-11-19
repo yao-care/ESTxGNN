@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos** y solo hay **1 publicación** (un 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Mebendazol es un antihelmíntico de uso establecido en parasitosis intestinales, y su eficacia en esas indicaciones es conocida. Generalmente se le describe como inhibidor de la polimerización de la tubulina en los helmintos, aunque esto no figura en los datos compilados y debe verificarse.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Mebendazole (traducción no oficial): «El mebendazol, un bencimidazol, es un antihelmíntico. […] El mebendazol interfiere con la formación de tubulina celular en el helminto y causa cambios degenerativos ultraestructurales en su intestino. Como resultado, se alteran su captación de glucosa y sus funciones digestivas y reproductivas, lo que conduce a la inmovilización, la inhibición de la producción de huevos y la muerte del helminto.» Texto original en inglés: "Mebendazole, a benzimidazole, is an anthelmintic. […] Mebendazole interferes with cellular tubulin formation in the helminth and causes ultrastructural degenerative changes in its intestine. As a result, its glucose uptake and the digestive and reproductive functions are disrupted, leading to immobilization, inhibition of egg production and death of the helminth." ([DailyMed: Vermox (mebendazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a720c424-517a-461b-8e13-6c37caf8aa3f), versión del 2021-10-05; consultado el 2026-11-19). Mebendazol es un antihelmíntico de uso establecido en parasitosis intestinales, y su eficacia en esas indicaciones es conocida. Generalmente se le describe como inhibidor de la polimerización de la tubulina en los helmintos, aunque esto no figura en los datos compilados y debe verificarse.
 
 No se ha establecido un vínculo mecanístico creíble entre mebendazol y el acné. Cualquier hipótesis, como un efecto antiinflamatorio o antiproliferativo por alteración de los microtúbulos, es especulativa y no está verificada. La similitud entre la indicación original (infecciones parasitarias) y el acné (enfermedad inflamatoria de la piel) no está evaluada.
 
@@ -101,6 +101,19 @@ La predicción se basa solo en el modelo (nivel L5): no hay ensayos clínicos, l
 - Realizar una búsqueda bibliográfica dirigida (estudios preclínicos o clínicos de mebendazol en acné o dermatología).
 - Evaluar la compatibilidad de la vía de administración (oral frente a la tópica habitual en acné).
 - Valorar la relevancia de las contraindicaciones hepáticas y biliares y las interacciones con inductores enzimáticos.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Vermox (mebendazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a720c424-517a-461b-8e13-6c37caf8aa3f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

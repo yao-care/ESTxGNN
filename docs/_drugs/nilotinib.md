@@ -56,7 +56,7 @@ pero actualmente solo cuenta con **1 publicación** (una revisión) y **ningún 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, nilotinib es un inhibidor de tirosina quinasa dirigido a BCR-ABL, que además inhibe PDGFR (alfa/beta) y KIT. Su eficacia en la leucemia mieloide crónica BCR-ABL1 positiva es la base de su uso original.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Nilotinib (traducción no oficial): «El nilotinib es un inhibidor de la cinasa BCR-ABL. El nilotinib se une al dominio cinasa de la proteína ABL y estabiliza su conformación inactiva. In vitro, el nilotinib inhibió la proliferación mediada por BCR-ABL de líneas celulares leucémicas murinas y de líneas celulares humanas derivadas de pacientes con LMC Ph+.» Texto original en inglés: "Nilotinib is an inhibitor of the BCR-ABL kinase. Nilotinib binds to and stabilizes the inactive conformation of the kinase domain of ABL protein. In vitro, nilotinib inhibited BCR-ABL mediated proliferation of murine leukemic cell lines and human cell lines derived from patients with Ph+ CML." ([DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc), versión del 2026-07-20; consultado el 2026-11-19). Según la información conocida, nilotinib es un inhibidor de tirosina quinasa dirigido a BCR-ABL, que además inhibe PDGFR (alfa/beta) y KIT. Su eficacia en la leucemia mieloide crónica BCR-ABL1 positiva es la base de su uso original.
 
 El DFSP suele estar impulsado por la fusión COL1A1-PDGFB, que genera una activación autocrina constitutiva de PDGFRB. Por ello existe una justificación plausible a nivel de diana para los tumores dependientes de PDGFR. La misma lógica de inhibición de PDGFR sustenta el uso de imatinib, establecido en el DFSP irresecable o metastásico.
 
@@ -124,6 +124,19 @@ La predicción tiene una puntuación alta y un fundamento mecanístico plausible
 - Buscar estudios preclínicos y series de casos o ensayos de nilotinib en DFSP, incluidos pacientes resistentes o intolerantes a imatinib.
 - Evaluar el perfil cardiovascular (prolongación del QT) y las interacciones relevantes frente al beneficio esperado.
 - Comparar con imatinib, el estándar establecido en esta indicación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

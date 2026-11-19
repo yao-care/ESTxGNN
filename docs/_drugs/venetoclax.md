@@ -56,7 +56,7 @@ Esta predicción cuenta con **0 ensayos clínicos** y **1 publicación** (una re
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Venetoclax actúa inhibiendo BCL-2, una proteína que impide la muerte celular programada (apoptosis). Las células de LLC dependen mucho de BCL-2 para sobrevivir, por lo que bloquearla restablece la apoptosis en las células tumorales. En los datos compilados para este informe no consta una descripción detallada del mecanismo de acción del fármaco. Esta explicación se basa en el conocimiento general de la clase y en la justificación mecanística asociada a la predicción.
+Venetoclax actúa inhibiendo BCL-2, una proteína que impide la muerte celular programada (apoptosis). Las células de LLC dependen mucho de BCL-2 para sobrevivir, por lo que bloquearla restablece la apoptosis en las células tumorales. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Venetoclax (traducción no oficial): «El venetoclax es un inhibidor de molécula pequeña, selectivo y con biodisponibilidad oral, de BCL-2, una proteína antiapoptótica. Se ha demostrado la sobreexpresión de BCL-2 en células de LLC y LMA, donde media la supervivencia de las células tumorales y se ha asociado con resistencia a los quimioterápicos.» Texto original en inglés: "Venetoclax is a selective and orally bioavailable small-molecule inhibitor of BCL-2, an anti-apoptotic protein. Overexpression of BCL-2 has been demonstrated in CLL and AML cells where it mediates tumor cell survival and has been associated with resistance to chemotherapeutics." ([DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018), versión del 2026-05-20; consultado el 2026-11-19). Esta explicación se basa en el conocimiento general de la clase y en la justificación mecanística asociada a la predicción.
 
 La nueva indicación predicha no es una enfermedad distinta. Es un subtipo molecular de la LLC/LLP, el de IGHV no mutado, que suele tener peor pronóstico. Venetoclax ya está aprobado para la LLC/LLP mediante inhibición de BCL-2, de modo que este subtipo queda cubierto por la indicación de LLC existente.
 
@@ -126,6 +126,19 @@ El subtipo ya está cubierto por la indicación aprobada de LLC/LLP, así que no
 - Buscar datos de eficacia estratificados por estado de IGHV en los ensayos de LLC ya existentes, como el MURANO.
 - Si se busca un reposicionamiento genuino, centrar el análisis en las indicaciones con más respaldo del listado: leucemia mieloide (L1), leucemia mieloide crónica BCR-ABL1 positiva y linfoma folicular (ambas L2).
 - Establecer un plan de monitoreo de seguridad: lisis tumoral, mielosupresión e interacciones con inhibidores de CYP3A.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

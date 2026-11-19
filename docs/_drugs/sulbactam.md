@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos registrados** y existen **20 publica
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, sulbactam es un inhibidor irreversible de las betalactamasas que, además, tiene actividad intrínseca frente a *Acinetobacter baumannii* mediante la unión a proteínas de unión a penicilina (PBP).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para ampicillin and sulbactam (combinación que contiene Sulbactam) (traducción no oficial): «En estudios bioquímicos con sistemas bacterianos libres de células se ha demostrado que una amplia variedad de betalactamasas presentes en microorganismos resistentes a las penicilinas y las cefalosporinas son inhibidas de forma irreversible por el sulbactam. Aunque el sulbactam por sí solo posee escasa actividad antibacteriana útil, excepto frente a las Neisseriaceae, los estudios con organismos enteros han demostrado que el sulbactam restablece la actividad de la ampicilina frente a cepas productoras de betalactamasas.» Texto original en inglés: "A wide range of beta-lactamases found in microorganisms resistant to penicillins and cephalosporins have been shown in biochemical studies with cell free bacterial systems to be irreversibly inhibited by sulbactam. Although sulbactam alone possesses little useful antibacterial activity except against the Neisseriaceae, whole organism studies have shown that sulbactam restores ampicillin activity against beta-lactamase producing strains." ([DailyMed: ampicillin and sulbactam prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4446d4c8-056d-4bc3-8f58-21255b063398), versión del 2026-11-12; consultado el 2026-11-19). Según la información conocida, sulbactam es un inhibidor irreversible de las betalactamasas que, además, tiene actividad intrínseca frente a *Acinetobacter baumannii* mediante la unión a proteínas de unión a penicilina (PBP).
 
 <!-- review:begin es-lic-20261105-sulbactam-1 -->
 
@@ -119,11 +119,12 @@ La predicción es mecanísticamente coherente y el puntaje de TxGNN es muy alto,
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "En el producto comercializado en España se presenta combinado con ampicilina" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: ampicillin and sulbactam prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4446d4c8-056d-4bc3-8f58-21255b063398) |
 
 <!-- review:end log -->
 

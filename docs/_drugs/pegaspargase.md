@@ -60,7 +60,7 @@ Cabe señalar que esta predicción es, en esencia, una variante de la indicació
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, pegaspargasa es una L-asparaginasa de *E. coli* conjugada con polietilenglicol (PEG). Degrada la asparagina circulante, un aminoácido del que dependen los linfoblastos porque expresan poca asparagina sintetasa. Su depleción provoca citotoxicidad selectiva en las células leucémicas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pegaspargase (traducción no oficial): «La L-asparaginasa es una enzima que cataliza la conversión del aminoácido L-asparagina en ácido aspártico y amoníaco. Se cree que el efecto farmacológico de ONCASPAR se basa en la destrucción de las células leucémicas debido a la depleción de la asparagina plasmática.» Texto original en inglés: "L-asparaginase is an enzyme that catalyzes the conversion of the amino acid L-asparagine into aspartic acid and ammonia. The pharmacological effect of ONCASPAR is thought to be based on the killing of leukemic cells due to depletion of plasma asparagine." ([DailyMed: Oncaspar (pegaspargase) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac7b6a6f-6ddb-48c6-8088-d8a8e3fea6ce), versión del 2024-10-07; consultado el 2026-11-19). Según la información conocida, pegaspargasa es una L-asparaginasa de *E. coli* conjugada con polietilenglicol (PEG). Degrada la asparagina circulante, un aminoácido del que dependen los linfoblastos porque expresan poca asparagina sintetasa. Su depleción provoca citotoxicidad selectiva en las células leucémicas.
 
 La indicación original (leucemia linfoblástica aguda) y la predicha (linfoma/leucemia linfoblástica de precursores) son prácticamente el mismo espectro de enfermedad: neoplasias de células linfoides inmaduras. Los linfomas linfoblásticos se tratan con los mismos protocolos que la leucemia linfoblástica aguda, incluidos los que contienen pegaspargasa.
 
@@ -154,6 +154,19 @@ Existen varios ensayos de Fase 3 completados (como NCT00967057 y NCT00103285) co
 - Datos detallados del mecanismo de acción (MOA).
 - Plan de monitoreo de toxicidades asociadas a asparaginasa, con especial atención a adultos mayores.
 - Tener en cuenta que otras predicciones del modelo tienen respaldo débil o nulo: la leucemia linfocítica crónica, el linfoma folicular y la deficiencia de metilcobalamina cblE son solo predicciones (L5, Hold). El linfoma NK/T extranodal muestra actividad en la literatura con regímenes de pegaspargasa y debería evaluarse como indicación propia con ensayos específicos.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Oncaspar (pegaspargase) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac7b6a6f-6ddb-48c6-8088-d8a8e3fea6ce) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

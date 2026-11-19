@@ -56,7 +56,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la espironolactona antagoniza el receptor de mineralocorticoides (NR3C2) y además tiene actividad antiandrogénica (bloqueo del receptor de andrógenos y reducción de la síntesis de andrógenos). Su eficacia en hipertensión e insuficiencia cardíaca está comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Spironolactone (traducción no oficial): «La espironolactona y sus metabolitos activos son antagonistas farmacológicos específicos de la aldosterona, que actúan principalmente mediante la unión competitiva a los receptores en el sitio de intercambio sodio-potasio dependiente de aldosterona en el túbulo contorneado distal renal. La espironolactona provoca la excreción de mayores cantidades de sodio y agua, mientras que el potasio se retiene.» Texto original en inglés: "Spironolactone and its active metabolites are specific pharmacologic antagonists of aldosterone, acting primarily through competitive binding of receptors at the aldosterone-dependent sodium-potassium exchange site in the distal convoluted renal tubule. Spironolactone causes increased amounts of sodium and water to be excreted, while potassium is retained." ([DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc), versión del 2025-11-28; consultado el 2026-11-19). Según la información conocida, la espironolactona antagoniza el receptor de mineralocorticoides (NR3C2) y además tiene actividad antiandrogénica (bloqueo del receptor de andrógenos y reducción de la síntesis de andrógenos). Su eficacia en hipertensión e insuficiencia cardíaca está comprobada.
 
 Esa acción antiandrogénica se usa fuera de indicación en la alopecia femenina de patrón, lo que da un vínculo plausible pero indirecto con los trastornos de pérdida de cabello.
 
@@ -96,6 +96,19 @@ La predicción es solo computacional (nivel L5), sin ensayos clínicos ni litera
 - Revisión de literatura y estudios preclínicos que vinculen la espironolactona con hipotricosis hereditaria
 - Evaluación de la compatibilidad de vía de administración (por ejemplo, formulación tópica), actualmente pendiente
 - Evaluar si la hipotricosis simple u otras alopecias androgénicas serían indicaciones candidatas más razonables
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

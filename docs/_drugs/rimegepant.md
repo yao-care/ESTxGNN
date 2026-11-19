@@ -55,7 +55,7 @@ con **0 ensayos clínicos** registrados y **15 publicaciones** sobre rimegepant 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, rimegepant es un antagonista del receptor de CGRP de molécula pequeña (clase de los "gepantes"), con eficacia comprobada en el tratamiento agudo de la migraña con o sin aura y en la prevención de la migraña episódica.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rimegepant (traducción no oficial): «Rimegepant es un antagonista del receptor del péptido relacionado con el gen de la calcitonina.» Texto original en inglés: "Rimegepant is a calcitonin gene-related peptide receptor antagonist." ([DailyMed: Nurtec Odt (rimegepant sulfate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ef08e09-1098-35cc-e053-2a95a90a3e1d), versión del 2026-06-04; consultado el 2026-11-19). Según la información conocida, rimegepant es un antagonista del receptor de CGRP de molécula pequeña (clase de los "gepantes"), con eficacia comprobada en el tratamiento agudo de la migraña con o sin aura y en la prevención de la migraña episódica.
 
 La migraña con aura del tronco encefálico es un subtipo de migraña que comparte la fisiopatología trigeminovascular mediada por CGRP. Por ello, la justificación mecanística es sólida y el puntaje elevado del modelo resulta plausible.
 
@@ -107,6 +107,19 @@ La predicción es mecanísticamente coherente, pero se trata de un subtipo de un
 - Buscar datos de eficacia y seguridad específicos para migraña con aura del tronco encefálico (análisis de subgrupos, series de casos)
 - Evaluar el riesgo vascular teórico en esta población
 - Aclarar si este subtipo ya queda cubierto por la indicación aprobada de migraña con aura, lo que haría innecesario el reposicionamiento
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Nurtec Odt (rimegepant sulfate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ef08e09-1098-35cc-e053-2a95a90a3e1d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

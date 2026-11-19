@@ -56,7 +56,7 @@ pero actualmente solo hay **0 ensayos clínicos** y **1 publicación** (una revi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos compilada. Según la información conocida, nintedanib es un inhibidor multidiana de tirosina quinasas que bloquea PDGFR-alfa/beta, FGFR1-3 y VEGFR1-3. Su eficacia en cáncer de pulmón no microcítico y fibrosis pulmonar idiopática está reconocida, y mecanísticamente podría ser aplicable al DFSP.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Nintedanib (traducción no oficial): «El nintedanib es una molécula pequeña que inhibe múltiples receptores tirosina cinasa (RTK) y tirosina cinasas no receptoras (nRTK). El nintedanib inhibe los siguientes RTK: receptor del factor de crecimiento derivado de plaquetas (PDGFR) α y β, receptor del factor de crecimiento de fibroblastos (FGFR) 1-3, receptor del factor de crecimiento endotelial vascular (VEGFR) 1-3, receptor del factor estimulante de colonias 1 (CSF1R) y tirosina cinasa 3 similar a Fms (FLT-3).» Texto original en inglés: "Nintedanib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs) and non-receptor tyrosine kinases (nRTKs). Nintedanib inhibits the following RTKs: platelet-derived growth factor receptor (PDGFR) α and β, fibroblast growth factor receptor (FGFR) 1-3, vascular endothelial growth factor receptor (VEGFR) 1-3, colony stimulating factor 1 receptor (CSF1R), and Fms-like tyrosine kinase-3 (FLT-3)." ([DailyMed: Nintedanib Capsules, 100 Mg And 150 Mg (nintedanib) prescribing information, EXELAN PHARMACEUTICALS INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60d8104e-cb6c-4f4f-8159-95ed57346ffa), versión del 2026-04-21; consultado el 2026-11-19). Según la información conocida, nintedanib es un inhibidor multidiana de tirosina quinasas que bloquea PDGFR-alfa/beta, FGFR1-3 y VEGFR1-3. Su eficacia en cáncer de pulmón no microcítico y fibrosis pulmonar idiopática está reconocida, y mecanísticamente podría ser aplicable al DFSP.
 
 El DFSP está impulsado por la fusión génica COL1A1-PDGFB, que provoca una activación constitutiva de la señalización de PDGFR-beta. Dado que nintedanib inhibe esta vía, existe una justificación mecanística plausible. La conexión con las indicaciones originales radica en las vías compartidas de crecimiento y angiogénesis (PDGFR/VEGFR/FGFR), implicadas tanto en el crecimiento tumoral como en la fibrosis.
 
@@ -116,6 +116,19 @@ La predicción tiene un puntaje alto (0,9915) y una base mecanística plausible 
 - Evaluación de seguridad, en particular del riesgo hemorrágico y de las interacciones identificadas.
 
 **Otras predicciones (evidencia solo de modelo, nivel L5, decisión Hold):** liposarcoma (0.9913) y liposarcoma mixoide de ovario (0.9912). No hay ensayos ni literatura, y la relación mecanística con las dianas de nintedanib no es específica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Nintedanib Capsules, 100 Mg And 150 Mg (nintedanib) prescribing information, EXELAN PHARMACEUTICALS INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60d8104e-cb6c-4f4f-8159-95ed57346ffa) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

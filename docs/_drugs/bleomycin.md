@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia de la cauda eq
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la bleomicina es un glicopéptido citotóxico que provoca roturas en las cadenas de ADN, y ese efecto es el que sustenta su uso en oncología.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Bleomycin (traducción no oficial): «Aunque se desconoce el mecanismo de acción exacto de la bleomicina, la evidencia disponible indica que el principal modo de acción es la inhibición de la síntesis de ADN, con cierta evidencia de una inhibición menor de la síntesis de ARN y de proteínas. Se sabe que la bleomicina provoca roturas de cadena sencilla y, en menor medida, de doble cadena en el ADN.» Texto original en inglés: "Although the exact mechanism of action of bleomycin is unknown, available evidence indicates that the main mode of action is the inhibition of DNA synthesis with some evidence of lesser inhibition of RNA and protein synthesis. Bleomycin is known to cause single, and to a lesser extent, double-stranded breaks in DNA." ([DailyMed: Bleomycin (bleomycin sulfate) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=640602f9-a7df-46f0-a9b1-19c471008bee), versión del 2026-04-17; consultado el 2026-11-19). Según la información conocida, la bleomicina es un glicopéptido citotóxico que provoca roturas en las cadenas de ADN, y ese efecto es el que sustenta su uso en oncología.
 
 No se ha establecido un vínculo directo con los tumores de la cauda equina. La única publicación recuperada trata de radioterapia en germinomas del sistema nervioso central recidivados tras quimioterapia (que incluía bleomicina), lo cual es indirecto y no demuestra un efecto de la bleomicina en esta localización.
 
@@ -109,6 +109,18 @@ No existe ningún estudio o ensayo que investigue directamente la neoplasia de l
 - Datos del mecanismo de acción y de la penetración en el sistema nervioso central
 - Información de advertencias y contraindicaciones del prospecto de la AEMPS
 - Comparación con los tratamientos estándar actuales de esta neoplasia
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Bleomycin (bleomycin sulfate) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=640602f9-a7df-46f0-a9b1-19c471008bee) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

@@ -58,7 +58,7 @@ Flurbiprofeno es un antiinflamatorio no esteroideo (AINE) utilizado originalment
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Flurbiprofeno pertenece a la clase de los AINE, que actúan inhibiendo la ciclooxigenasa (COX) y reducen la producción de prostaglandinas, responsables de la inflamación y el dolor. Su eficacia en enfermedades articulares inflamatorias y degenerativas está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Flurbiprofen (traducción no oficial): «El flurbiprofeno tiene propiedades analgésicas, antiinflamatorias y antipiréticas. El mecanismo de acción del flurbiprofeno, al igual que el de otros AINE, no se conoce por completo, pero implica la inhibición de la ciclooxigenasa (COX-1 y COX-2).» Texto original en inglés: "Flurbiprofen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of flurbiprofen, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Lurbiro (flurbiprofen) prescribing information, IPG Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7ebf7427-eaae-4035-a6b2-0ea6381e8763), versión del 2026-10-05; consultado el 2026-11-19). Flurbiprofeno pertenece a la clase de los AINE, que actúan inhibiendo la ciclooxigenasa (COX) y reducen la producción de prostaglandinas, responsables de la inflamación y el dolor. Su eficacia en enfermedades articulares inflamatorias y degenerativas está bien establecida.
 
 Sin embargo, **el análisis no encuentra un vínculo mecanístico que respalde esta predicción**. La displasia acromesomélica tipo Hunter-Thompson es una displasia esquelética rara causada por mutaciones con pérdida de función en el gen *CDMP1/GDF5*. La inhibición de la COX no corrige ese defecto genético. El puntaje tan alto proviene del modelo TxGNN (aprendizaje profundo) y probablemente refleja similitudes que el modelo aprendió entre enfermedades musculoesqueléticas relacionadas, no evidencia biológica ni una relación terapéutica real.
 
@@ -127,11 +127,12 @@ Cuenta con 20 publicaciones, entre ellas varios ensayos comparativos doble ciego
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Flurbiprofeno tiene 20 autorizaciones vigentes (todas de medicamentos con un único principio activo, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lurbiro (flurbiprofen) prescribing information, IPG Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7ebf7427-eaae-4035-a6b2-0ea6381e8763) |
 
 <!-- review:end log -->
 

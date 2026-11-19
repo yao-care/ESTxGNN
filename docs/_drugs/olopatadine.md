@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para la **conjuntivitis rosáce
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Olopatadina es un antagonista del receptor H1 de histamina y estabilizador de mastocitos. Ya se comercializa como colirio para varios tipos de conjuntivitis alérgica. Los datos curados sobre su mecanismo de acción no están disponibles, por lo que este razonamiento se basa en farmacología general y no en datos verificados.
+Olopatadina es un antagonista del receptor H1 de histamina y estabilizador de mastocitos. Ya se comercializa como colirio para varios tipos de conjuntivitis alérgica. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Olopatadine (traducción no oficial): «La olopatadina es un antagonista del receptor H 1 de la histamina. La actividad antihistamínica de la olopatadina se ha documentado en tejidos aislados, modelos animales y seres humanos.» Texto original en inglés: "Olopatadine is a histamine H 1 receptor antagonist. The antihistaminic activity of olopatadine has been documented in isolated tissues, animal models, and humans." ([DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85), versión del 2026-09-15; consultado el 2026-11-19).
 
 Un vínculo plausible con la conjuntivitis rosácea es su actividad antiinflamatoria y antihistamínica en la superficie ocular, ya que la actividad de los mastocitos y los mediadores inflamatorios se han relacionado con la inflamación ocular de la rosácea.
 
@@ -114,11 +114,12 @@ La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos clínic
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se identificaron 9 autorizaciones vigentes (todas de monofármaco, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85) |
 
 <!-- review:end log -->
 

@@ -58,7 +58,7 @@ con **4 ensayos clínicos** y **10 publicaciones** que actualmente respaldan est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según el conocimiento general, miglustat inhibe la glucosilceramida sintasa (UGCG), enzima clave en la síntesis de glicoesfingolípidos. Esto reduce la producción del sustrato que se acumula en los trastornos de depósito lisosomal (terapia de reducción de sustrato). Esta información proviene de conocimiento general y no de los datos aportados.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Miglustat (traducción no oficial): «La enfermedad de Gaucher de tipo 1 está causada por una deficiencia funcional de glucocerebrosidasa, la enzima que media la degradación del glucoesfingolípido glucosilceramida. Miglustat actúa como inhibidor competitivo y reversible de la enzima glucosilceramida sintasa, la enzima inicial de una serie de reacciones que da lugar a la síntesis de la mayoría de los glucoesfingolípidos.» Texto original en inglés: "Type 1 Gaucher disease is caused by a functional deficiency of glucocerebrosidase, the enzyme that mediates the degradation of the glycosphingolipid glucosylceramide. Miglustat functions as a competitive and reversible inhibitor of the enzyme glucosylceramide synthase, the initial enzyme in a series of reactions which results in the synthesis of most glycosphingolipids." ([DailyMed: Yargesa (miglustat) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b371dfe-e2b0-47fe-b677-a7bde7149f87), versión del 2025-12-17; consultado el 2026-11-19). Según el conocimiento general, miglustat inhibe la glucosilceramida sintasa (UGCG), enzima clave en la síntesis de glicoesfingolípidos. Esto reduce la producción del sustrato que se acumula en los trastornos de depósito lisosomal (terapia de reducción de sustrato). Esta información proviene de conocimiento general y no de los datos aportados.
 
 La enfermedad de Gaucher y la de Tay-Sachs son trastornos de depósito lisosomal de glicoesfingolípidos. En Tay-Sachs, la deficiencia de hexosaminidasa A provoca acumulación de gangliósido GM2, cuya síntesis depende de la vía que miglustat inhibe. Además, miglustat atraviesa la barrera hematoencefálica, lo cual es relevante en una enfermedad neurodegenerativa.
 
@@ -126,6 +126,19 @@ Existe plausibilidad mecanística (reducción de la síntesis de GM2), ensayos d
 ---
 
 *Otras predicciones del modelo (autosómica ictiosis, enfermedad de Krabbe, leucodistrofia metacromática, entre otras) carecen de ensayos clínicos y literatura (nivel L5, decisión Hold), por lo que no se desarrollan en este informe.*
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Yargesa (miglustat) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b371dfe-e2b0-47fe-b677-a7bde7149f87) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

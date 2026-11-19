@@ -57,7 +57,7 @@ El modelo TxGNN predice que podría ser efectivo para el **Trastorno Obsesivo-Co
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información farmacológica conocida, duloxetina inhibe la recaptación de serotonina (SERT) y de noradrenalina (NET), y los datos de farmacología muestran además interacción con los receptores 5-HT2A, 5-HT2C y 5-HT6.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Duloxetine (traducción no oficial): «Aunque se desconocen los mecanismos exactos de las acciones antidepresiva, inhibidora central del dolor y ansiolítica de la duloxetina en los seres humanos, se cree que estas acciones están relacionadas con su potenciación de la actividad serotoninérgica y noradrenérgica en el SNC.» Texto original en inglés: "Although the exact mechanisms of the antidepressant, central pain inhibitory and anxiolytic actions of duloxetine in humans are unknown, these actions are believed to be related to its potentiation of serotonergic and noradrenergic activity in the CNS." ([DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b), versión del 2026-08-20; consultado el 2026-11-19). Según la información farmacológica conocida, duloxetina inhibe la recaptación de serotonina (SERT) y de noradrenalina (NET), y los datos de farmacología muestran además interacción con los receptores 5-HT2A, 5-HT2C y 5-HT6.
 
 El TOC responde principalmente a fármacos serotoninérgicos (ISRS, clomipramina). Como duloxetina actúa sobre el transportador de serotonina y ya está establecida en depresión y ansiedad generalizada, es mecanísticamente plausible su aplicación en un trastorno del espectro ansioso-obsesivo. Las revisiones sobre IRSN apoyan esta idea, aunque indican que la evidencia es menos sólida que para los ISRS.
 
@@ -131,11 +131,12 @@ Existe un ECA doble ciego, un estudio abierto y un ensayo de Fase 4 que respalda
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b) |
 
 <!-- review:end log -->
 

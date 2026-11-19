@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para la **deficiencia de la pro
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Ezetimiba inhibe la absorción intestinal de colesterol mediante su acción sobre NPC1L1 (transportador de colesterol intracelular tipo Niemann-Pick C1), lo que reduce el colesterol LDL. Los datos detallados del mecanismo de acción no están disponibles en la información compilada para este informe; esta descripción se basa en el objetivo farmacológico registrado (NPC1L1).
+Ezetimiba inhibe la absorción intestinal de colesterol mediante su acción sobre NPC1L1 (transportador de colesterol intracelular tipo Niemann-Pick C1), lo que reduce el colesterol LDL. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ezetimibe (traducción no oficial): «La ezetimiba reduce el colesterol en sangre al inhibir la absorción del colesterol en el intestino delgado. Se ha demostrado que la diana molecular de la ezetimiba es el transportador de esteroles Niemann-Pick C1-Like 1 (NPC1L1), que participa en la captación intestinal del colesterol y de los fitoesteroles.» Texto original en inglés: "Ezetimibe reduces blood cholesterol by inhibiting the absorption of cholesterol by the small intestine. The molecular target of ezetimibe has been shown to be the sterol transporter, Niemann-Pick C1-Like 1 (NPC1L1), which is involved in the intestinal uptake of cholesterol and phytosterols." ([DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9), versión del 2026-10-08; consultado el 2026-11-19).
 
 La deficiencia de CETP es una condición genética caracterizada por colesterol HDL elevado y una transferencia reducida de ésteres de colesterol entre lipoproteínas. La única relación con la indicación original es el solapamiento en el metabolismo lipídico, ya que ambas condiciones implican el manejo del colesterol en las lipoproteínas.
 
@@ -86,7 +86,6 @@ Se muestran 5 de las al menos 20 autorizaciones (la lista puede ser parcial). Lo
 | 82832 | Ezetimiba Almus 10 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
 | 81631 | Ezetimiba Alter 10 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
 
-
 ## Consideraciones de Seguridad
 
 - **Contraindicaciones (relaciones recogidas en el grafo de conocimiento, no texto de prospecto)**: pancreatitis, enfermedad hepática, enfermedad de la vesícula biliar, miopatía, enfermedad muscular, enfermedad del músculo esquelético, parálisis periódica familiar, abuso/dependencia de sustancias, rabdomiólisis y fascitis nodular.
@@ -106,6 +105,19 @@ La predicción se basa solo en el modelo (L5): no hay ensayos clínicos ni estud
 - Estudios preclínicos o clínicos que evalúen directamente ezetimiba en esta condición
 - Justificación clínica de la necesidad terapéutica
 - Advertencias y contraindicaciones oficiales del prospecto de la AEMPS
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ con **39 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, la gemcitabina es un análogo de nucleósidos que inhibe la síntesis de ADN y actúa sobre la ribonucleótido reductasa (subunidades RRM1 y RRM2, identificadas como dianas farmacológicas). Su eficacia en cáncer de ovario ha sido comprobada, y mecanísticamente puede aplicarse a otros tumores de proliferación rápida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Gemcitabine (traducción no oficial): «La gemcitabina destruye las células que están sintetizando ADN y bloquea el paso de las células a través del límite entre las fases G1 y S. La gemcitabina se metaboliza por acción de nucleósido cinasas a nucleósidos difosfato (dFdCDP) y trifosfato (dFdCTP).» Texto original en inglés: "Gemcitabine kills cells undergoing DNA synthesis and blocks the progression of cells through the G1/S-phase boundary. Gemcitabine is metabolized by nucleoside kinases to diphosphate (dFdCDP) and triphosphate (dFdCTP) nucleosides." ([DailyMed: Avgemsi (gemcitabine) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e11eeff7-bcaf-4bf1-8da8-88138e01af84), versión del 2026-07-27; consultado el 2026-11-19). Según la información conocida, la gemcitabina es un análogo de nucleósidos que inhibe la síntesis de ADN y actúa sobre la ribonucleótido reductasa (subunidades RRM1 y RRM2, identificadas como dianas farmacológicas). Su eficacia en cáncer de ovario ha sido comprobada, y mecanísticamente puede aplicarse a otros tumores de proliferación rápida.
 
 Este mecanismo citotóxico no es específico de un tipo tumoral, por lo que es coherente que se aplique a las células proliferativas del carcinoma de mama. Además, el cáncer de ovario y el de mama comparten un paradigma de tratamiento basado en combinaciones con platino y taxanos.
 
@@ -146,11 +146,12 @@ Existen varios ensayos de Fase 3 completados (como NCT00006459 y NCT00093795) y 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de fármaco único):" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Avgemsi (gemcitabine) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e11eeff7-bcaf-4bf1-8da8-88138e01af84) |
 
 <!-- review:end log -->
 

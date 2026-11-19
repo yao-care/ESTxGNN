@@ -56,7 +56,7 @@ con **10 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone actualmente de datos detallados sobre el mecanismo de acción en la fuente original. Según la información conocida, la dapsona es una sulfona que inhibe la dihidropteroato sintasa en la vía de síntesis del folato, el mismo blanco que el sulfametoxazol. Los datos farmacológicos compilados también describen una inhibición *in vitro* de la actividad dihidrofolato reductasa en *Pneumocystis carinii* (CI50 de 1,5 µM).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dapsone (traducción no oficial): «No se ha establecido el mecanismo de acción en la dermatitis herpetiforme. Según el método cinético en ratones, la dapsona es bactericida, además de bacteriostática, contra Mycobacterium leprae.» Texto original en inglés: "The mechanism of action in Dermatitis herpetiformis has not been established. By the kinetic method in mice, Dapsone is bactericidal as well as bacteriostatic against Mycobacterium leprae." ([DailyMed: dapsone prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=347c753b-8daa-40f8-9391-0339c9d6679c), versión del 2026-10-01; consultado el 2026-11-19). Según la información conocida, la dapsona es una sulfona que inhibe la dihidropteroato sintasa en la vía de síntesis del folato, el mismo blanco que el sulfametoxazol. Los datos farmacológicos compilados también describen una inhibición *in vitro* de la actividad dihidrofolato reductasa en *Pneumocystis carinii* (CI50 de 1,5 µM).
 
 *Pneumocystis jirovecii* depende de esta vía, por lo que el mecanismo antifolato explica de forma plausible la actividad frente a la neumonía por *Pneumocystis* (PCP). La dapsona ya tiene actividad antimicrobiana demostrada en lepra y efecto antiinflamatorio en dermatosis neutrofílicas, lo que respalda su perfil antiinfeccioso.
 
@@ -118,6 +118,19 @@ Varios ensayos de Fase 3 completados (n=290 a 700) comparan regímenes con dapso
 - Confirmar el texto de indicación autorizado en España para la autorización 15201 y si la PCP figura en ficha técnica o es uso fuera de indicación.
 - Datos detallados del mecanismo de acción desde DrugBank.
 - Considerar la atención a la hipersensibilidad y a la reactividad cruzada con sulfonamidas, así como el cribado de HLA-B*1301 en poblaciones relevantes.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: dapsone prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=347c753b-8daa-40f8-9391-0339c9d6679c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

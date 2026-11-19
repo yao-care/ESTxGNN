@@ -21,11 +21,12 @@
   "items_current": 2447
  },
  "reviews": {
-  "records": 251,
-  "pages": 244,
-  "public_pages_with_records": 244,
+  "records": 855,
+  "pages": 651,
+  "public_pages_with_records": 651,
   "by_action": {
-   "correct": 251
+   "correct": 251,
+   "mechanism": 604
   }
  },
  "fhir": {
@@ -57,7 +58,7 @@
    "l": "L5",
    "lt": 17,
    "lv": 17,
-   "r": 0,
+   "r": 1,
    "i": "malignant cutaneous granular cell skin tumor"
   },
   {
@@ -66,7 +67,7 @@
    "l": "L5",
    "lt": 20,
    "lv": 16,
-   "r": 0,
+   "r": 1,
    "i": "Atrofodermia vermiculada"
   },
   {
@@ -75,7 +76,7 @@
    "l": "L5",
    "lt": 20,
    "lv": 16,
-   "r": 0,
+   "r": 1,
    "i": "pulmonary arteriovenous malformation (disease)"
   },
   {
@@ -84,7 +85,7 @@
    "l": "L5",
    "lt": 20,
    "lv": 16,
-   "r": 1,
+   "r": 2,
    "i": "hyperlucent lung"
   },
   {
@@ -93,7 +94,7 @@
    "l": "L4",
    "lt": 20,
    "lv": 15,
-   "r": 0,
+   "r": 1,
    "i": "Enfermedad fibroquística de la mama"
   },
   {
@@ -102,7 +103,7 @@
    "l": "L4",
    "lt": 16,
    "lv": 14,
-   "r": 1,
+   "r": 2,
    "i": "obsessive-compulsive disorder"
   }
  ],
@@ -131,7 +132,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 1,
+   "r": 2,
    "i": "Glanzmann thrombasthenia"
   },
   {
@@ -140,7 +141,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 0,
+   "r": 1,
    "i": "angioedema adquirido"
   },
   {
@@ -149,7 +150,7 @@
    "l": "L5",
    "lt": 3,
    "lv": 0,
-   "r": 0,
+   "r": 1,
    "i": "colestasis intrahepática recurrente benigna"
   },
   {
@@ -158,7 +159,7 @@
    "l": "L5",
    "lt": 5,
    "lv": 0,
-   "r": 1,
+   "r": 2,
    "i": "Enfermedad renal hipertensiva maligna"
   },
   {
@@ -167,7 +168,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 0,
+   "r": 1,
    "i": "enfermedad renal hipertensiva maligna"
   },
   {
@@ -203,7 +204,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 1,
+   "r": 2,
    "i": "Malformación esofágica no sindrómica"
   },
   {
@@ -212,7 +213,7 @@
    "l": "L5",
    "lt": 4,
    "lv": 0,
-   "r": 2,
+   "r": 3,
    "i": "Retinopatía diabética no proliferativa grave"
   }
  ],
@@ -224,7 +225,7 @@
    "l": "L5",
    "lt": 4,
    "lv": 0,
-   "r": 2,
+   "r": 3,
    "i": "Retinopatía diabética no proliferativa grave"
   },
   {
@@ -233,7 +234,7 @@
    "l": "L5",
    "lt": 16,
    "lv": 13,
-   "r": 2,
+   "r": 3,
    "i": "Queratoconjuntivitis epitelial punteada"
   },
   {
@@ -242,7 +243,7 @@
    "l": "L5",
    "lt": 6,
    "lv": 4,
-   "r": 2,
+   "r": 3,
    "i": "Enfermedad de la cavidad nasal"
   },
   {
@@ -251,26 +252,26 @@
    "l": "L5",
    "lt": 15,
    "lv": 9,
-   "r": 2,
+   "r": 3,
    "i": "amenorrhea (disease)"
   },
   {
-   "t": "Methionine",
-   "u": "/drugs/methionine/",
+   "t": "Alfuzosin",
+   "u": "/drugs/alfuzosin/",
    "l": "L5",
-   "lt": 67,
-   "lv": 50,
+   "lt": 14,
+   "lv": 6,
    "r": 2,
-   "i": "acne (disease)"
+   "i": "Hipertricosis universal congénita tipo Ambras"
   },
   {
-   "t": "Pentoxyverine",
-   "u": "/drugs/pentoxyverine/",
+   "t": "Andexanet Alfa",
+   "u": "/drugs/andexanet-alfa/",
    "l": "L5",
    "lt": 1,
-   "lv": 1,
+   "lv": 0,
    "r": 2,
-   "i": "Enfermedad de la cavidad nasal"
+   "i": "Glanzmann thrombasthenia"
   }
  ],
  "example": {
@@ -279,7 +280,7 @@
   "l": "L1",
   "lt": 14,
   "lv": 9,
-  "r": 0,
+  "r": 1,
   "i": "Linfoma de células del manto"
  },
  "recent_reviews": [

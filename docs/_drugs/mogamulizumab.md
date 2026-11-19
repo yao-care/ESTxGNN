@@ -56,7 +56,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, mogamulizumab es un anticuerpo monoclonal anti-CCR4 que elimina las células CCR4+ mediante citotoxicidad celular dependiente de anticuerpos, incluidos los linfocitos T reguladores (Treg) CCR4+. Su eficacia en linfomas cutáneos de células T está establecida, y mecanísticamente podría ser aplicable a otros tumores si la depleción de Treg redujera la inmunosupresión en el microambiente tumoral.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Mogamulizumab (traducción no oficial): «El mogamulizumab-kpkc es un anticuerpo monoclonal IgG1 kappa humanizado y desfucosilado que se une a CCR4, un receptor acoplado a proteínas G para quimiocinas CC que interviene en el tráfico de linfocitos hacia diversos órganos. Los estudios no clínicos in vitro demuestran que la unión del mogamulizumab-kpkc marca una célula como diana para la citotoxicidad celular dependiente de anticuerpos (ADCC), lo que da lugar a la depleción de las células diana.» Texto original en inglés: "Mogamulizumab-kpkc is a defucosylated, humanized IgG1 kappa monoclonal antibody that binds to CCR4, a G protein-coupled receptor for CC chemokines that is involved in the trafficking of lymphocytes to various organs. Non-clinical in vitro studies demonstrate mogamulizumab-kpkc binding targets a cell for antibody-dependent cellular cytotoxicity (ADCC) resulting in depletion of the target cells." ([DailyMed: Poteligeo (mogamulizumab-kpkc) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53960ab-42a1-40d1-9c7d-eb013fe7f18f), versión del 2026-03-02; consultado el 2026-11-19). Según la información conocida, mogamulizumab es un anticuerpo monoclonal anti-CCR4 que elimina las células CCR4+ mediante citotoxicidad celular dependiente de anticuerpos, incluidos los linfocitos T reguladores (Treg) CCR4+. Su eficacia en linfomas cutáneos de células T está establecida, y mecanísticamente podría ser aplicable a otros tumores si la depleción de Treg redujera la inmunosupresión en el microambiente tumoral.
 
 La relación con el carcinoma urotelial es solo teórica: la reducción de Treg podría potenciar la inmunidad antitumoral, quizás en combinación con inhibidores de puntos de control inmunitario. Sin embargo, los datos disponibles no respaldan un mecanismo específico de CCR4 en este tipo de tumor, ni hay información sobre la expresión de CCR4 o la infiltración de Treg en él.
 
@@ -113,6 +113,19 @@ La predicción se basa exclusivamente en el puntaje del modelo (nivel L5), sin e
 - Evidencia preclínica sobre la expresión de CCR4 y la infiltración de Treg en el carcinoma urotelial
 - Búsqueda de estudios clínicos o publicaciones sobre anti-CCR4 en tumores uroteliales
 - Revisión de las interacciones de nivel Mayor antes de cualquier uso combinado
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Poteligeo (mogamulizumab-kpkc) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53960ab-42a1-40d1-9c7d-eb013fe7f18f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **leucemia linfocítica cr
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, clorambucilo es un agente alquilante de la clase de las mostazas nitrogenadas, que daña el ADN de las células tumorales e impide su proliferación. Su eficacia en neoplasias linfoides de células B está establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Chlorambucil (traducción no oficial): «El clorambucilo, un derivado aromático de la mostaza nitrogenada, es un agente alquilante. El clorambucilo interfiere en la replicación del ADN e induce la apoptosis celular mediante la acumulación de p53 citosólica y la posterior activación de Bax, un promotor de la apoptosis.» Texto original en inglés: "Chlorambucil, an aromatic nitrogen mustard derivative, is an alkylating agent. Chlorambucil interferes with DNA replication and induces cellular apoptosis via the accumulation of cytosolic p53 and subsequent activation of Bax, an apoptosis promoter." ([DailyMed: Leukeran (chlorambucil) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58a3c995-5ad6-465d-8437-5970c9088213), versión del 2025-01-08; consultado el 2026-11-19). Según la información conocida, clorambucilo es un agente alquilante de la clase de las mostazas nitrogenadas, que daña el ADN de las células tumorales e impide su proliferación. Su eficacia en neoplasias linfoides de células B está establecida.
 
 La leucemia linfocítica crónica (LLC) es una neoplasia de células B maduras muy cercana a las indicaciones originales del fármaco. El subtipo predicho, de centro pregerminal (con genes de inmunoglobulina no mutados), es una subclasificación molecular de la LLC/LLP. Por ello, la eficacia podría heredarse de la indicación principal, y el alto puntaje del modelo refleja esa proximidad en la red de conocimiento.
 
@@ -126,6 +126,19 @@ El puntaje del modelo es muy alto, pero no existen ensayos clínicos para este s
 - Confirmar si el subtipo ya queda cubierto por la indicación de LLC de las autorizaciones españolas
 - Evidencia clínica específica del subtipo (por ejemplo, datos de ensayos con clorambucilo en LLC según estado mutacional de IGHV)
 - Plan de monitoreo hematológico y de segundas neoplasias
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Leukeran (chlorambucil) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58a3c995-5ad6-465d-8437-5970c9088213) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

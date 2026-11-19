@@ -55,7 +55,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, voxelotor se une a la hemoglobina y aumenta su afinidad por el oxígeno, lo que inhibe la polimerización de la hemoglobina S (HbS). Esta acción es la base de su uso en la anemia falciforme.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Voxelotor (traducción no oficial): «Voxelotor es un inhibidor de la polimerización de la hemoglobina S (HbS) que se une a la HbS con una estequiometría 1:1 y presenta una distribución preferente hacia los glóbulos rojos (RBC). Al aumentar la afinidad de la Hb por el oxígeno, voxelotor produce una inhibición dependiente de la dosis de la polimerización de la HbS.» Texto original en inglés: "Voxelotor is a hemoglobin S (HbS) polymerization inhibitor that binds to HbS with a 1:1 stoichiometry and exhibits preferential partitioning to red blood cells (RBCs). By increasing the affinity of Hb for oxygen, voxelotor demonstrates dose-dependent inhibition of HbS polymerization." ([DailyMed: Oxbryta (voxelotor) prescribing information, Global Blood Therapeutics, Inc, A subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c557fac-29ec-483f-b691-8a935d4decc3), versión del 2023-12-26; consultado el 2026-11-19). Según la información conocida, voxelotor se une a la hemoglobina y aumenta su afinidad por el oxígeno, lo que inhibe la polimerización de la hemoglobina S (HbS). Esta acción es la base de su uso en la anemia falciforme.
 
 Sin embargo, **no se identifica un vínculo mecanístico plausible** con la nueva indicación. La trombocitopenia hereditaria con plaquetas normales se relaciona con la producción o función de las plaquetas (megacariopoyesis), un proceso sin relación conocida con la afinidad de la hemoglobina por el oxígeno ni con la polimerización de HbS.
 
@@ -109,6 +109,19 @@ La predicción se basa únicamente en el modelo TxGNN (aprendizaje profundo) (ni
 - Realizar una revisión bibliográfica sistemática y buscar estudios preclínicos que respalden algún vínculo con la megacariopoyesis o la función plaquetaria.
 - Establecer una hipótesis biológica plausible antes de considerar estudios exploratorios.
 - Evaluar la compatibilidad de vía de administración y la similitud con la indicación original (actualmente pendientes).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Oxbryta (voxelotor) prescribing information, Global Blood Therapeutics, Inc, A subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c557fac-29ec-483f-b691-8a935d4decc3) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, pero ac
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Buserelina es un agonista del receptor de GnRH (GNRHR). Su uso continuado suprime el eje hipofisario-gonadal y reduce los niveles de esteroides sexuales, lo que explica su utilidad en el cáncer de próstata hormonodependiente. No se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe; la descripción anterior se basa en la clase farmacológica conocida.
+Buserelina es un agonista del receptor de GnRH (GNRHR). Su uso continuado suprime el eje hipofisario-gonadal y reduce los niveles de esteroides sexuales, lo que explica su utilidad en el cáncer de próstata hormonodependiente. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Buserelin es (traducción no oficial): «Agonista del receptor de la hormona liberadora de gonadotropina» Texto original en inglés: "Gonadotropin-releasing hormone receptor agonist" ([ChEMBL CHEMBL2110824 (buserelin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2110824), CC BY-SA 3.0; consultado el 2026-11-19).
 
 La relación entre la indicación original y la nueva es débil. La hipertricosis no depende clásicamente de los andrógenos gonadales (a diferencia del hirsutismo), por lo que la supresión de esteroides sexuales no ofrece una justificación mecanística clara. La única publicación recuperada trata del síndrome de Cantú (hipertricosis con anomalías cardíacas y esqueléticas) e hipopituitarismo, y no describe tratamiento con buserelina.
 
@@ -111,6 +111,19 @@ La predicción carece de ensayos clínicos y de respaldo mecanístico; la única
 - Establecer una hipótesis mecanística plausible entre la supresión del eje GnRH y la hipertricosis
 - Realizar una revisión sistemática de la literatura sobre agonistas de GnRH en trastornos del crecimiento del vello
 - Evaluar la compatibilidad de las vías de administración (implante, nasal, inyectable) con la nueva indicación
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL2110824 (buserelin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2110824) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

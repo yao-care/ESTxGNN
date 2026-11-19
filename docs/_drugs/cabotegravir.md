@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, cabotegravir es un inhibidor de la transferencia de cadena de la integrasa (INSTI) del VIH-1. Su diana es la integrasa viral, que no tiene homólogo humano implicado en la inflamación articular autoinmune.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cabotegravir (traducción no oficial): «El cabotegravir es un fármaco antirretroviral contra el VIH-1. […] El cabotegravir inhibe la integrasa del VIH al unirse al sitio activo de la integrasa y bloquear el paso de transferencia de cadena de la integración del ácido desoxirribonucleico (ADN) retroviral, que es esencial para el ciclo de replicación del VIH. El valor medio de la concentración inhibitoria del 50% (IC 50 ) del cabotegravir en un ensayo de transferencia de cadena con integrasa recombinante purificada del VIH-1 fue de 3,0 nM.» Texto original en inglés: "Cabotegravir is an HIV-1 antiretroviral drug. […] Cabotegravir inhibits HIV integrase by binding to the integrase active site and blocking the strand transfer step of retroviral deoxyribonucleic acid (DNA) integration that is essential for the HIV replication cycle. The mean 50% inhibitory concentration (IC 50 ) value of cabotegravir in a strand transfer assay using purified recombinant HIV-1 integrase was 3.0 nM." ([DailyMed: Vocabria (cabotegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66d450fb-cca4-476c-b0c7-c0730e3e4cf3), versión del 2025-04-11; consultado el 2026-11-19). Según la información conocida, cabotegravir es un inhibidor de la transferencia de cadena de la integrasa (INSTI) del VIH-1. Su diana es la integrasa viral, que no tiene homólogo humano implicado en la inflamación articular autoinmune.
 
 Por tanto, **no existe un vínculo mecanístico establecido** entre cabotegravir y la artritis reumatoide. El puntaje alto (0.9945) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no está respaldado por ningún ensayo ni publicación. La similitud con la indicación original está pendiente de evaluar, así como la compatibilidad de vías de administración.
 
@@ -99,6 +99,19 @@ La predicción es puramente computacional (L5), sin ensayos clínicos ni literat
 - Completar los datos del mecanismo de acción desde DrugBank
 - Realizar una búsqueda sistemática de literatura y ensayos preclínicos que justifiquen un posible mecanismo en artritis reumatoide
 - Evaluar la compatibilidad de vías de administración y la similitud con la indicación original
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Vocabria (cabotegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66d450fb-cca4-476c-b0c7-c0730e3e4cf3) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

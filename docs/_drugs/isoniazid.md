@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis**, pero ac
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la isoniazida es un agente antituberculoso con acción bactericida frente a *Mycobacterium tuberculosis*, mediante la inhibición de la síntesis de ácidos micólicos. Su eficacia en tuberculosis está comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Isoniazid (traducción no oficial): «La isoniazida inhibe la síntesis de los ácidos micólicos, un componente esencial de la pared celular bacteriana. En concentraciones terapéuticas, la isoniazida es bactericida contra los microorganismos de Mycobacterium tuberculosis intracelulares y extracelulares en crecimiento activo.» Texto original en inglés: "Isoniazid inhibits the synthesis of mycoloic acids, an essential component of the bacterial cell wall. At therapeutic levels isoniazid is bactericidal against actively growing intracellular and extracellular Mycobacterium tuberculosis organisms." ([DailyMed: isoniazid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dab7b7b-a3a9-47ef-b423-134bc6970d8b), versión del 2026-09-04; consultado el 2026-11-19). Según la información conocida, la isoniazida es un agente antituberculoso con acción bactericida frente a *Mycobacterium tuberculosis*, mediante la inhibición de la síntesis de ácidos micólicos. Su eficacia en tuberculosis está comprobada.
 
 El único vínculo plausible con la conjuntivitis es indirecto: la enfermedad ocular asociada a la tuberculosis, en concreto la queratoconjuntivitis flictenular (una reacción de hipersensibilidad a antígenos micobacterianos) y la tuberculosis conjuntival primaria. En esos casos la isoniazida trata o previene la infección micobacteriana subyacente, no la conjuntivitis en general.
 
@@ -112,6 +112,19 @@ La predicción se apoya solo en el modelo (L4, sin ensayos clínicos) y la liter
 - Advertencias y contraindicaciones del prospecto de la AEMPS (dato bloqueante para el cribado de seguridad).
 - Revisión crítica del estudio de 1965 y búsqueda de estudios más recientes.
 - Evaluación de la compatibilidad de vías de administración (la vía oftálmica no está respaldada por las formas autorizadas).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: isoniazid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dab7b7b-a3a9-47ef-b423-134bc6970d8b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -58,7 +58,7 @@ Esta dirección está respaldada por **11 ensayos clínicos** y **20 publicacion
 
 ## Por qué es Razonable esta Predicción
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información compilada, icatibant es un péptido sintético antagonista selectivo del receptor B2 de bradicinina (BDKRB2), con afinidad también registrada por el receptor B1 (BDKRB1).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Icatibant (traducción no oficial): «El icatibant es un antagonista competitivo selectivo del receptor B2 de bradicinina, con una afinidad similar a la de la bradicinina. El angioedema hereditario se debe a la ausencia o disfunción del inhibidor de la C1-esterasa, un regulador clave de la cascada proteolítica del factor XII/calicreína que conduce a la producción de bradicinina.» Texto original en inglés: "Icatibant is a competitive antagonist selective for the bradykinin B2 receptor, with an affinity similar to bradykinin. Hereditary angioedema is caused by an absence or dysfunction of C1-esterase-inhibitor, a key regulator of the Factor XII/kallikrein proteolytic cascade that leads to bradykinin production." ([DailyMed: Firazyr (icatibant acetate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ed6657ca-ab68-477a-9968-e12dc928b540), versión del 2025-07-07; consultado el 2026-11-19). Según la información compilada, icatibant es un péptido sintético antagonista selectivo del receptor B2 de bradicinina (BDKRB2), con afinidad también registrada por el receptor B1 (BDKRB1).
 
 En la deficiencia de inhibidor de C1 se produce una activación descontrolada del sistema calicreína-cinina y un exceso de bradicinina, que provoca los ataques de angioedema a través de la señalización del receptor B2. Icatibant bloquea directamente esta vía. La literatura también describe un mecanismo análogo en la deficiencia adquirida de C1 inhibidor, con un estudio observacional en ocho pacientes que respalda su uso.
 
@@ -139,11 +139,12 @@ Existen varios ensayos de Fase 3 completados (incluidos controlados con placebo 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "En total hay 13 autorizaciones vigentes, todas de monofármaco y ninguna cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Firazyr (icatibant acetate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ed6657ca-ab68-477a-9968-e12dc928b540) |
 
 <!-- review:end log -->
 

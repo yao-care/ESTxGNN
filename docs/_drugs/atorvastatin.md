@@ -56,7 +56,7 @@ con **14 ensayos clínicos** y **20 publicaciones** recopilados que respaldan es
 
 ## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Por conocimiento general, atorvastatina inhibe la HMG-CoA reductasa (gen HMGCR), enzima clave de la síntesis de colesterol, y reduce el colesterol LDL. Además, las estatinas tienen efectos pleiotrópicos antiinflamatorios, como menor activación de monocitos/macrófagos y de marcadores de activación inmune.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Atorvastatin (traducción no oficial): «LIPITOR es un inhibidor selectivo y competitivo de la HMG-CoA reductasa, la enzima limitante de la velocidad que convierte la 3-hidroxi-3-metilglutaril-coenzima A en mevalonato, un precursor de los esteroles, incluido el colesterol. En modelos animales, LIPITOR reduce las concentraciones plasmáticas de colesterol y de lipoproteínas al inhibir la HMG-CoA reductasa y la síntesis de colesterol en el hígado y al aumentar el número de receptores hepáticos de LDL en la superficie celular para potenciar la captación y el catabolismo de las LDL; LIPITOR también reduce la producción de LDL y el número de partículas de LDL.» Texto original en inglés: "LIPITOR is a selective, competitive inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts 3-hydroxy-3-methylglutaryl-coenzyme A to mevalonate, a precursor of sterols, including cholesterol. In animal models, LIPITOR lowers plasma cholesterol and lipoprotein levels by inhibiting HMG-CoA reductase and cholesterol synthesis in the liver and by increasing the number of hepatic LDL receptors on the cell surface to enhance uptake and catabolism of LDL; LIPITOR also reduces LDL production and the number of LDL particles." ([DailyMed: Lipitor (atorvastatin calcium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65), versión del 2024-04-15; consultado el 2026-11-19). Por conocimiento general, atorvastatina inhibe la HMG-CoA reductasa (gen HMGCR), enzima clave de la síntesis de colesterol, y reduce el colesterol LDL. Además, las estatinas tienen efectos pleiotrópicos antiinflamatorios, como menor activación de monocitos/macrófagos y de marcadores de activación inmune.
 
 En la infección por VIH, la inflamación crónica y la activación inmune persisten incluso con el tratamiento antirretroviral, y los inhibidores de la proteasa se asocian con aumentos de colesterol y triglicéridos. Por ello, una estatina podría ser útil para la dislipemia asociada y para reducir la inflamación y el riesgo cardiovascular en estas personas.
 
@@ -121,6 +121,19 @@ Existen varios ensayos de Fase 2/3 completados con atorvastatina en personas con
 - Datos detallados del mecanismo de acción y de la posible actividad antiviral
 - Pautas de dosis máxima y monitorización cuando se combine con inhibidores de la proteasa u otros antirretrovirales
 - Revisión del prospecto autorizado en España para completar advertencias y contraindicaciones
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lipitor (atorvastatin calcium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

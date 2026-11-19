@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **2 e
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone actualmente de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento farmacológico general, temsirolimus es un inhibidor de mTOR (diana de la rapamicina en mamíferos), una quinasa central en la regulación del crecimiento y la proliferación celular. Su eficacia en el carcinoma de células renales y en el linfoma de células del manto está establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Temsirolimus (traducción no oficial): «El temsirolimús es un inhibidor de mTOR (diana de la rapamicina en mamíferos). El temsirolimús se une a una proteína intracelular (FKBP-12), y el complejo proteína-fármaco inhibe la actividad de mTOR, que controla la división celular. La inhibición de la actividad de mTOR dio lugar a una detención del crecimiento en la fase G1 en las células tumorales tratadas.» Texto original en inglés: "Temsirolimus is an inhibitor of mTOR (mammalian target of rapamycin). Temsirolimus binds to an intracellular protein (FKBP-12), and the protein-drug complex inhibits the activity of mTOR that controls cell division. Inhibition of mTOR activity resulted in a G1 growth arrest in treated tumor cells." ([DailyMed: temsirolimus prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1c207bed-10e3-46f0-ad2c-69d5e5c97736), versión del 2020-03-30; consultado el 2026-11-19). Según el conocimiento farmacológico general, temsirolimus es un inhibidor de mTOR (diana de la rapamicina en mamíferos), una quinasa central en la regulación del crecimiento y la proliferación celular. Su eficacia en el carcinoma de células renales y en el linfoma de células del manto está establecida.
 
 La vía PI3K/AKT/mTOR se activa con frecuencia en los sarcomas de partes blandas, incluido el liposarcoma. Los liposarcomas bien diferenciados y desdiferenciados presentan amplificación de MDM2/CDK4 con señalización descendente de PI3K/AKT, lo que ofrece una justificación plausible para inhibir mTOR.
 
@@ -135,6 +135,19 @@ La predicción es de alto puntaje, pero la evidencia clínica específica en lip
 - Evaluar las contraindicaciones del grafo de conocimiento (función renal y hepática, metabolismo de glucosa y lípidos, enfermedad pulmonar intersticial) y las interacciones mayores en la población objetivo.
 - Revisar la literatura preclínica y clínica de inhibidores de mTOR en liposarcoma bien diferenciado y desdiferenciado.
 - Considerar un estudio de Fase 2 específico en liposarcoma si los datos anteriores resultan favorables.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: temsirolimus prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1c207bed-10e3-46f0-ad2c-69d5e5c97736) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

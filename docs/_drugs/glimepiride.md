@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, glimepirida es una sulfonilurea que estimula la secreción de insulina al actuar sobre los canales de potasio dependientes de ATP (K-ATP) de las células beta pancreáticas. Su eficacia en la diabetes tipo 2 está comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Glimepiride (traducción no oficial): «La glimepirida reduce la glucemia principalmente al estimular la liberación de insulina por las células beta pancreáticas. Las sulfonilureas se unen al receptor de sulfonilurea de la membrana plasmática de las células beta pancreáticas, lo que provoca el cierre del canal de potasio sensible al ATP y, en consecuencia, estimula la liberación de insulina.» Texto original en inglés: "Glimepiride primarily lowers blood glucose by stimulating the release of insulin from pancreatic beta cells. Sulfonylureas bind to the sulfonylurea receptor in the pancreatic beta-cell plasma membrane, leading to closure of the ATP-sensitive potassium channel, thereby stimulating the release of insulin." ([DailyMed: Glimepiride 3 Mg (glimepiride) prescribing information, Lifsa Drugs LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51157849-7990-4a8b-ae50-eda1baf93cfa), versión del 2024-08-20; consultado el 2026-11-19). Según la información conocida, glimepirida es una sulfonilurea que estimula la secreción de insulina al actuar sobre los canales de potasio dependientes de ATP (K-ATP) de las células beta pancreáticas. Su eficacia en la diabetes tipo 2 está comprobada.
 
 La posible conexión con el síndrome de la extremidad rígida focal es indirecta: este trastorno, del espectro del síndrome de la persona rígida, se asocia con autoinmunidad frente a GAD65 y con frecuencia coexiste con diabetes.
 
@@ -115,11 +115,12 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos ni liter
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único, forma farmacéutica comprimido)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Glimepiride 3 Mg (glimepiride) prescribing information, Lifsa Drugs LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51157849-7990-4a8b-ae50-eda1baf93cfa) |
 
 <!-- review:end log -->
 

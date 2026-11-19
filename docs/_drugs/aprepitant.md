@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénic
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, aprepitant es un antagonista del receptor de neuroquinina 1 (NK1), que bloquea la señalización de la sustancia P. Este mecanismo se utiliza clásicamente en la prevención de náuseas y vómitos, aunque el texto de indicación no figura en los datos de las autorizaciones españolas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Aprepitant (traducción no oficial): «El aprepitant es un antagonista selectivo y de alta afinidad de los receptores de la sustancia P/neurocinina 1 (NK 1 ) humanos. El aprepitant tiene poca o ninguna afinidad por los receptores de serotonina (5-HT 3 ), de dopamina y de corticosteroides. Se ha demostrado en modelos animales que el aprepitant inhibe la emesis inducida por agentes quimioterápicos citotóxicos, como el cisplatino, mediante acciones centrales.» Texto original en inglés: "Aprepitant is a selective high-affinity antagonist of human substance P/neurokinin 1 (NK 1 ) receptors. Aprepitant has little or no affinity for serotonin (5-HT 3 ), dopamine, and corticosteroid receptors. Aprepitant has been shown in animal models to inhibit emesis induced by cytotoxic chemotherapeutic agents, such as cisplatin, via central actions." ([DailyMed: Cinvanti (aprepitant) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4), versión del 2026-04-01; consultado el 2026-11-19). Según la información conocida, aprepitant es un antagonista del receptor de neuroquinina 1 (NK1), que bloquea la señalización de la sustancia P. Este mecanismo se utiliza clásicamente en la prevención de náuseas y vómitos, aunque el texto de indicación no figura en los datos de las autorizaciones españolas.
 
 La relación con el NSIAD es solo indirecta. La señalización de sustancia P/NK1 en el sistema nervioso central podría influir en el equilibrio hídrico relacionado con la vasopresina. Sin embargo, el NSIAD se debe a mutaciones activadoras del receptor V2 de vasopresina (AVPR2), una vía que el antagonismo NK1 no actúa directamente.
 
@@ -114,11 +114,12 @@ La predicción se basa únicamente en el modelo computacional (nivel L5), sin en
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se listan 5 de las 13 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cinvanti (aprepitant) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4) |
 
 <!-- review:end log -->
 

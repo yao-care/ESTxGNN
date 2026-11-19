@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **candidiasis oral**, pero
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, rifaximina es un antibacteriano que apenas se absorbe y actúa en el intestino, modificando la microbiota intestinal. Su eficacia en la encefalopatía hepática está establecida, y se relaciona con la reducción de bacterias intestinales productoras de toxinas.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rifaximin (traducción no oficial): «La rifaximina es un fármaco antibacteriano. […] La rifaximina es un derivado semisintético de la rifampicina y actúa uniéndose a la subunidad beta de la ARN polimerasa dependiente de ADN bacteriana, bloqueando uno de los pasos de la transcripción. Esto da lugar a la inhibición de la síntesis de proteínas bacterianas y, en consecuencia, inhibe el crecimiento de las bacterias.» Texto original en inglés: "Rifaximin is an antibacterial drug. […] Rifaximin is a semi-synthetic derivative of rifampin and acts by binding to the beta-subunit of bacterial DNA-dependent RNA polymerase blocking one of the steps in transcription. This results in inhibition of bacterial protein synthesis and consequently inhibits the growth of bacteria." ([DailyMed: Xifaxan (rifaximin) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7afafa63-3236-4212-9589-045db6b01c0b), versión del 2025-08-27; consultado el 2026-11-19). Según la información conocida, rifaximina es un antibacteriano que apenas se absorbe y actúa en el intestino, modificando la microbiota intestinal. Su eficacia en la encefalopatía hepática está establecida, y se relaciona con la reducción de bacterias intestinales productoras de toxinas.
 
 En este caso, la predicción **no resulta mecanísticamente convincente**. Rifaximina no tiene actividad antifúngica conocida, y la alteración de la microbiota intestinal podría incluso favorecer el sobrecrecimiento de hongos. El puntaje elevado (0,9975) probablemente refleja un artefacto del modelo TxGNN (aprendizaje profundo) y no una relación terapéutica real.
 
@@ -105,6 +105,19 @@ La predicción carece de respaldo mecanístico y clínico: no hay ensayos, y la 
 - Evidencia preclínica o clínica que demuestre un posible beneficio antifúngico o en candidiasis oral, descartando el sesgo de confusión por indicación.
 - Evaluar con más detalle la señal de seguridad sobre infecciones fúngicas resistentes en poblaciones inmunodeprimidas.
 - Considerar priorizar otras indicaciones con mayor plausibilidad biológica, dado que las demás predicciones actuales tampoco cuentan con evidencia.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Xifaxan (rifaximin) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7afafa63-3236-4212-9589-045db6b01c0b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

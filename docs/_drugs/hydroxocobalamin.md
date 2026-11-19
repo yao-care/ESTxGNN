@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para **várices esofágicas con
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la hidroxocobalamina es una forma inyectable de vitamina B12 cuya eficacia en la deficiencia de B12, la anemia perniciosa y (en su presentación de perfusión) la intoxicación por cianuro es conocida. Con los datos compilados, no es posible establecer un vínculo mecanístico con las várices esofágicas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Hydroxocobalamin (traducción no oficial): «El cianuro es un veneno extremadamente tóxico. En ausencia de un tratamiento rápido y adecuado, la exposición a una dosis alta de cianuro puede causar la muerte en cuestión de minutos debido a la inhibición de la citocromo oxidasa, que provoca la detención de la respiración celular. […] Cada molécula de hidroxocobalamina puede unirse a un ion cianuro sustituyendo con él al ligando hidroxo unido al ion cobalto trivalente, para formar cianocobalamina, que luego se excreta en la orina.» Texto original en inglés: "Cyanide is an extremely toxic poison. In the absence of rapid and adequate treatment, exposure to a high dose of cyanide can result in death within minutes due to the inhibition of cytochrome oxidase resulting in arrest of cellular respiration. […] Each hydroxocobalamin molecule can bind one cyanide ion by substituting it for the hydroxo ligand linked to the trivalent cobalt ion, to form cyanocobalamin, which is then excreted in the urine." ([DailyMed: Cyanokit (hydroxocobalamin) prescribing information, BTG INTERNATIONAL INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b), versión del 2023-04-27; consultado el 2026-11-19). Según la información conocida, la hidroxocobalamina es una forma inyectable de vitamina B12 cuya eficacia en la deficiencia de B12, la anemia perniciosa y (en su presentación de perfusión) la intoxicación por cianuro es conocida. Con los datos compilados, no es posible establecer un vínculo mecanístico con las várices esofágicas.
 
 La puntuación del modelo (0.9923) es idéntica para las várices con y sin sangrado.
 
@@ -98,6 +98,19 @@ La predicción se apoya únicamente en el puntaje del modelo, sin ensayos clíni
 - Revisar sistemáticamente la literatura preclínica y clínica sobre vitamina B12/captación de óxido nítrico en hipertensión portal.
 - Evaluar la compatibilidad de la vía de administración y la relevancia de la contraindicación por hipertensión señalada en el grafo.
 - Valorar si existe justificación para un estudio preclínico antes de cualquier ensayo clínico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cyanokit (hydroxocobalamin) prescribing information, BTG INTERNATIONAL INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

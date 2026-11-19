@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Benralizumab se une al receptor IL-5Rα y depleciona eosinófilos y basófilos mediante citotoxicidad celular dependiente de anticuerpos. No se dispone de datos detallados del mecanismo de acción en los datos compilados para este informe, más allá de esta descripción general de la diana (IL5RA).
+Benralizumab se une al receptor IL-5Rα y depleciona eosinófilos y basófilos mediante citotoxicidad celular dependiente de anticuerpos. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Benralizumab (traducción no oficial): «El benralizumab es un anticuerpo monoclonal (IgG1, kappa) humanizado y afucosilado que se une directamente a la subunidad alfa del receptor de la interleucina-5 humana (IL-5Rα) con una constante de disociación de 11 pM. El receptor de la IL-5 se expresa en la superficie de los eosinófilos y los basófilos.» Texto original en inglés: "Benralizumab is a humanized afucosylated, monoclonal antibody (IgG1, kappa) that directly binds to the alpha subunit of the human interleukin-5 receptor (IL-5Rα) with a dissociation constant of 11 pM. The IL-5 receptor is expressed on the surface of eosinophils and basophils." ([DailyMed: Fasenra (benralizumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784), versión del 2026-05-13; consultado el 2026-11-19).
 
 Los datos compilados no establecen un vínculo entre este mecanismo y la trombocitopenia inmune. La trombocitopenia por destrucción inmune se debe principalmente a la destrucción de plaquetas mediada por autoanticuerpos, un proceso que no depende claramente de los eosinófilos. Cualquier justificación mecanística sería, por tanto, especulativa.
 
@@ -93,6 +93,19 @@ La predicción se apoya únicamente en el puntaje del modelo, sin ensayos clíni
 - Datos detallados del mecanismo de acción
 - Información de seguridad del prospecto (advertencias y contraindicaciones)
 - Revisión de la plausibilidad biológica por parte de expertos antes de considerar cualquier estudio
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Fasenra (benralizumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

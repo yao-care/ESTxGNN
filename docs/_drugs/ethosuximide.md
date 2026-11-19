@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la etosuximida se describe generalmente como un bloqueador de los canales de calcio tipo T en las neuronas talámicas, y su eficacia en la epilepsia de ausencia está establecida. Esta descripción proviene de conocimiento general y no de los datos aportados.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ethosuximide (traducción no oficial): «La etosuximida suprime la actividad paroxística de punta-onda de tres ciclos por segundo asociada a lapsos de conciencia, que es frecuente en las crisis de ausencia (pequeño mal). La frecuencia de los ataques epileptiformes se reduce, aparentemente mediante la depresión de la corteza motora y la elevación del umbral del sistema nervioso central a los estímulos convulsivos.» Texto original en inglés: "Ethosuximide suppresses the paroxysmal three cycle per second spike and wave activity associated with lapses of consciousness which is common in absence (petit mal) seizures. The frequency of epileptiform attacks is reduced, apparently by depression of the motor cortex and elevation of the threshold of the central nervous system to convulsive stimuli." ([DailyMed: Zarontin (ethosuximide) prescribing information, Parke-Davis Div of Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e008f33-70a1-4bc6-b3a0-d45214418ab6), versión del 2026-05-25; consultado el 2026-11-19). Según la información conocida, la etosuximida se describe generalmente como un bloqueador de los canales de calcio tipo T en las neuronas talámicas, y su eficacia en la epilepsia de ausencia está establecida. Esta descripción proviene de conocimiento general y no de los datos aportados.
 
 El SNAI se asocia típicamente a variantes de ganancia de función del receptor V2 de la vasopresina (AVPR2), que provocan retención renal de agua independiente de la vasopresina. Con los datos disponibles, **no se puede establecer un vínculo mecanístico** entre el bloqueo de canales de calcio tipo T y la señalización de AVPR2 o el manejo renal del agua. Tampoco se ha evaluado la similitud entre la indicación original y la nueva (pendiente).
 
@@ -97,6 +97,19 @@ La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos clínic
 - Revisión de literatura preclínica y de casos que apoye la hipótesis
 - Evaluación de la compatibilidad de vías de administración y de la similitud con la indicación original
 - Evaluar la seguridad en pacientes con compromiso renal, dadas las contraindicaciones señaladas
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zarontin (ethosuximide) prescribing information, Parke-Davis Div of Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e008f33-70a1-4bc6-b3a0-d45214418ab6) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

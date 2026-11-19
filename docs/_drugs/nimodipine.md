@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, nimodipino es un bloqueador de los canales de calcio tipo L de la familia de las dihidropiridinas, con acción vasodilatadora preferente sobre la circulación cerebral. Esto explica su uso en la hemorragia subaracnoidea.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Nimodipine (traducción no oficial): «El nimodipino es un bloqueante de los canales de calcio del grupo de las dihidropiridinas. Los procesos contráctiles de las células del músculo liso dependen de los iones de calcio, que entran en estas células durante la despolarización como corrientes iónicas transmembrana lentas.» Texto original en inglés: "Nimodipine is a dihydropyridine calcium channel blocker. The contractile processes of smooth muscle cells are dependent upon calcium ions, which enter these cells during depolarization as slow ionic transmembrane currents." ([DailyMed: Nymalize (nimodipine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e660fa26-b5c4-4d6d-8887-9e22b6666a10), versión del 2024-08-30; consultado el 2026-11-19). Según el conocimiento farmacológico general, nimodipino es un bloqueador de los canales de calcio tipo L de la familia de las dihidropiridinas, con acción vasodilatadora preferente sobre la circulación cerebral. Esto explica su uso en la hemorragia subaracnoidea.
 
 La hipercolesterolemia familiar homocigota se debe a defectos en la vía del receptor de LDL (genes LDLR, APOB, PCSK9, LDLRAP1). No existe un vínculo mecanístico directo respaldado por los datos disponibles. Algunos bloqueadores de los canales de calcio se han asociado, en estudios preclínicos, con efectos modestos sobre el manejo vascular de lípidos o la aterosclerosis, pero esta justificación es indirecta y especulativa, y no corrige la deficiencia subyacente del receptor de LDL.
 
@@ -117,11 +117,12 @@ La predicción se basa solo en el modelo (L5), sin ensayos clínicos ni literatu
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 7 autorizaciones vigentes en total; también existen dos presentaciones en solución para perfusión (Nimotop 0,2 mg/ml, n.º 58075, y Nimod" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Nymalize (nimodipine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e660fa26-b5c4-4d6d-8887-9e22b6666a10) |
 
 <!-- review:end log -->
 

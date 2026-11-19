@@ -56,7 +56,7 @@ con **30 ensayos clínicos** y **20 publicaciones** que respaldan actualmente es
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la insulina aspart es un análogo de insulina de acción rápida que se une al receptor de insulina y sustituye a la insulina endógena deficiente, favoreciendo la captación de glucosa y reduciendo la glucemia posprandial.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Insulin Aspart (traducción no oficial): «La actividad principal de la insulina, incluida NOVOLOG MIX 70/30, es la regulación del metabolismo de la glucosa. La insulina y su análogo reducen la glucemia al estimular la captación periférica de glucosa, especialmente por el músculo esquelético y el tejido adiposo, y al inhibir la producción hepática de glucosa.» Texto original en inglés: "The primary activity of insulin, including NOVOLOG MIX 70/30 is the regulation of glucose metabolism. Insulin and its analog lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85), versión del 2026-05-18; consultado el 2026-11-19). Según la información conocida, la insulina aspart es un análogo de insulina de acción rápida que se une al receptor de insulina y sustituye a la insulina endógena deficiente, favoreciendo la captación de glucosa y reduciendo la glucemia posprandial.
 
 La diabetes mellitus tipo 1 se caracteriza por una deficiencia absoluta de insulina, por lo que es el escenario clínico central en el que se emplea la insulina de acción rápida dentro de regímenes basal-bolo. La indicación original (diabetes mellitus) incluye este subtipo, de modo que la predicción del modelo es coherente con el uso clínico establecido.
 
@@ -126,6 +126,19 @@ Múltiples ECA de Fase 3 completados y revisiones Cochrane respaldan la eficacia
 - Completar los datos del mecanismo de acción desde DrugBank
 - Confirmar el texto de indicación aprobada de cada autorización en España
 - Considerar que las demás indicaciones predichas (p. ej., diabetes neonatal permanente, agenesia pancreática) carecen de evidencia específica para aspart y requieren investigación adicional; las de nivel L5 deben mantenerse en espera (Hold)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

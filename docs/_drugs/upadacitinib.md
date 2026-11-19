@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, upadacitinib es un inhibidor selectivo de JAK1 que se emplea en enfermedades inflamatorias de base inmunitaria, y su eficacia en artritis reumatoide está establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Upadacitinib (traducción no oficial): «El upadacitinib es un inhibidor de las cinasas Janus (JAK). Las JAK son enzimas intracelulares que transmiten señales derivadas de las interacciones entre citocinas o factores de crecimiento y sus receptores en la membrana celular para influir en los procesos celulares de la hematopoyesis y la función de las células inmunitarias.» Texto original en inglés: "Upadacitinib is a Janus kinase (JAK) inhibitor. JAKs are intracellular enzymes which transmit signals arising from cytokine or growth factor-receptor interactions on the cellular membrane to influence cellular processes of hematopoiesis and immune cell function." ([DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095), versión del 2026-06-30; consultado el 2026-11-19). Según la información conocida, upadacitinib es un inhibidor selectivo de JAK1 que se emplea en enfermedades inflamatorias de base inmunitaria, y su eficacia en artritis reumatoide está establecida.
 
 Sin embargo, **los datos disponibles no respaldan un vínculo mecanístico** con la nueva indicación. Este síndrome es un trastorno del desarrollo extremadamente raro, con malformaciones oculares y esqueléticas, y en general no está impulsado por inflamación mediada por la vía JAK-STAT. El puntaje del modelo TxGNN (aprendizaje profundo) es muy alto (0.9961), pero es una predicción derivada del modelo; puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -102,6 +102,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Evidencia preclínica o biológica que vincule la vía JAK1-STAT con el síndrome predicho.
 - Una revisión sistemática de la literatura y de registros de ensayos que confirme la ausencia de estudios.
 - Considerar priorizar otras indicaciones predichas con mayor plausibilidad mecanística.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

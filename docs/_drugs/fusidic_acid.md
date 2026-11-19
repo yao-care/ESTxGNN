@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **queratitis por exposici�
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, el ácido fusídico inhibe la síntesis proteica bacteriana al bloquear el factor de elongación G (EF-G), con actividad marcada frente a bacterias Gram-positivas como *Staphylococcus aureus*. Su eficacia en infecciones cutáneas está bien establecida y existe una formulación oftálmica (Fucithalmic gel oftálmico) autorizada en España.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Fusidic Acid es (traducción no oficial): «Inhibidor del factor de elongación G» Texto original en inglés: "Elongation factor G inhibitor" ([ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, el ácido fusídico inhibe la síntesis proteica bacteriana al bloquear el factor de elongación G (EF-G), con actividad marcada frente a bacterias Gram-positivas como *Staphylococcus aureus*. Su eficacia en infecciones cutáneas está bien establecida y existe una formulación oftálmica (Fucithalmic gel oftálmico) autorizada en España.
 
 En la queratitis por exposición, la superficie corneal dañada y seca puede sufrir sobreinfección bacteriana, que en teoría podría ser objetivo de un antibiótico tópico. Esta es la única base mecanística para la predicción.
 
@@ -127,11 +127,12 @@ La predicción tiene un puntaje alto, pero carece de ensayos clínicos y de lite
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 13 autorizaciones vigentes (todas de medicamentos de un solo principio activo en el registro; varias son asociaciones c" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ pero actualmente no hay ensayos clínicos registrados y solo **9 publicaciones**
 
 ## Por qué es Razonable esta Predicción?
 
-Beclometasona dipropionato es un profármaco que se hidroliza al metabolito activo beclometasona-17-monopropionato, el cual actúa sobre el receptor de glucocorticoides y ejerce efectos antiinflamatorios e inmunosupresores. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados; esta descripción se infiere de la clase farmacológica.
+Beclometasona dipropionato es un profármaco que se hidroliza al metabolito activo beclometasona-17-monopropionato, el cual actúa sobre el receptor de glucocorticoides y ejerce efectos antiinflamatorios e inmunosupresores. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Beclomethasone Dipropionate (traducción no oficial): «El dipropionato de beclometasona es un profármaco que se convierte ampliamente en el metabolito activo, el 17-monopropionato de beclometasona. Se desconoce el mecanismo preciso por el cual el dipropionato de beclometasona actúa sobre los síntomas de la rinitis.» Texto original en inglés: "Beclomethasone dipropionate is a prodrug that is extensively converted to the active metabolite, beclomethasone-17-monopropionate. The precise mechanism through which beclomethasone dipropionate affects rhinitis symptoms is unknown." ([DailyMed: Qnasl (beclomethasone dipropionate) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b8d8e84-b5d2-4e56-97ec-4f72971465c5), versión del 2020-02-29; consultado el 2026-11-19).
 
 El eccema atópico es una enfermedad inflamatoria de la piel impulsada principalmente por la vía Th2, y los corticosteroides tópicos son una clase de tratamiento establecida. El fármaco ya se emplea en enfermedades alérgicas que comparten esta vía atópica, por lo que la plausibilidad mecanística es razonable.
 
@@ -112,6 +112,19 @@ La predicción es mecanísticamente plausible, pero ningún estudio aporta evide
 - Revisión de prospectos de AEMPS (advertencias y contraindicaciones)
 - Revisión sistemática o ensayos controlados de beclometasona tópica frente a corticoides de referencia en eccema atópico
 - Evaluación de la compatibilidad de vía de administración y del perfil de seguridad sistémica, especialmente en población pediátrica
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Qnasl (beclomethasone dipropionate) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b8d8e84-b5d2-4e56-97ec-4f72971465c5) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

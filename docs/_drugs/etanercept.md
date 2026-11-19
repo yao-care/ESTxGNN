@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **vasculitis reumatoide**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, etanercept es una proteína de fusión del receptor soluble de TNF unida a la fracción Fc de la IgG1, que neutraliza el TNF-alfa. Su eficacia en artritis reumatoide y otras artritis inflamatorias está establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Etanercept (traducción no oficial): «El TNF es una citocina de origen natural que participa en las respuestas inflamatorias e inmunitarias normales. Desempeña un papel importante en los procesos inflamatorios de la AR, la AIJ poliarticular, la APs y la EA, y en la patología articular resultante. […] El etanercept es una forma soluble dimérica del receptor p75 del TNF que puede unirse a moléculas de TNF.» Texto original en inglés: "TNF is a naturally occurring cytokine that is involved in normal inflammatory and immune responses. It plays an important role in the inflammatory processes of RA, polyarticular JIA, PsA, and AS and the resulting joint pathology. […] Etanercept is a dimeric soluble form of the p75 TNF receptor that can bind TNF molecules." ([DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f), versión del 2026-05-11; consultado el 2026-11-19). Según la información conocida, etanercept es una proteína de fusión del receptor soluble de TNF unida a la fracción Fc de la IgG1, que neutraliza el TNF-alfa. Su eficacia en artritis reumatoide y otras artritis inflamatorias está establecida.
 
 La vasculitis reumatoide es una de las manifestaciones extraarticulares más graves de la artritis reumatoide, una indicación ya aprobada. Por ello, el bloqueo del TNF es biológicamente plausible. Una revisión sistemática de 2021 (PMID 33058033) evalúa el uso de fármacos biológicos en esta enfermedad.
 
@@ -119,6 +119,19 @@ El mecanismo es plausible, pero no hay ensayos que evalúen etanercept en vascul
 - Plan de monitoreo de seguridad (infecciones, cribado de tuberculosis, función renal)
 
 **Nota sobre otras predicciones:** *inflamatoria espondilopatía* y *artritis reumatoide juvenil poliarticular* (L1, Proceed with Guardrails) corresponden a usos ya autorizados y no a un reposicionamiento real. *Hipermovilidad del coxis* y *enfermedad de Kümmell* carecen de evidencia (L5, Hold), y *enfermedad vertebral* es una categoría demasiado amplia que debe acotarse antes de evaluarse.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

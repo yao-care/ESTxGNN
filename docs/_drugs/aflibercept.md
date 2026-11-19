@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Aflibercept actúa como trampa de los ligandos VEGF-A, VEGF-B y PlGF, bloqueando la señalización que favorece la neovascularización y el aumento de la permeabilidad vascular. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe.
+Aflibercept actúa como trampa de los ligandos VEGF-A, VEGF-B y PlGF, bloqueando la señalización que favorece la neovascularización y el aumento de la permeabilidad vascular. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Aflibercept (traducción no oficial): «El factor de crecimiento endotelial vascular A (VEGF-A) y el factor de crecimiento placentario (PlGF) son miembros de la familia VEGF de factores angiogénicos que pueden actuar como factores mitogénicos, quimiotácticos y de permeabilidad vascular para las células endoteliales. El VEGF actúa a través de dos receptores con actividad tirosina cinasa, VEGFR-1 y VEGFR-2, presentes en la superficie de las células endoteliales. […] Los productos de aflibercept actúan como un receptor señuelo soluble que se une al VEGF - A y al PlGF y, de este modo, pueden inhibir la unión y la activación de estos receptores afines del VEGF.» Texto original en inglés: "Vascular endothelial growth factor-A (VEGF-A) and placental growth factor (PlGF) are members of the VEGF family of angiogenic factors that can act as mitogenic, chemotactic, and vascular permeability factors for endothelial cells. VEGF acts via two receptor tyrosine kinases, VEGFR-1 and VEGFR-2, present on the surface of endothelial cells. […] Aflibercept products act as a soluble decoy receptor that binds VEGF - A and PlGF, and thereby can inhibit the binding and activation of these cognate VEGF receptors." ([DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06), versión del 2026-10-29; consultado el 2026-11-19).
 
 La esotropía es un trastorno de la alineación ocular, determinado sobre todo por factores neuromusculares, refractivos, acomodativos o sensoriales. No se ha establecido un vínculo mecanístico directo entre la inhibición del VEGF y esta condición.
 
@@ -101,6 +101,19 @@ La predicción se basa únicamente en el modelo (nivel L5): no hay ensayos clín
 - Datos de mecanismo de acción (MOA) detallados
 - Advertencias y contraindicaciones del prospecto de la AEMPS
 - Evaluación de la vía de administración (intravítrea) frente a las necesidades de esta indicación
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

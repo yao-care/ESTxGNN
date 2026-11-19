@@ -60,7 +60,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, fluconazol es un antifúngico azólico que inhibe la enzima fúngica lanosterol 14-alfa-desmetilasa (CYP51), bloqueando la síntesis de ergosterol y comprometiendo la membrana de la célula fúngica. Su eficacia en candidiasis y criptococosis está comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fluconazole (traducción no oficial): «El fluconazol es un inhibidor altamente selectivo de la enzima fúngica dependiente del citocromo P450 lanosterol 14-α-desmetilasa. Esta enzima tiene la función de convertir el lanosterol en ergosterol. La consiguiente pérdida de esteroles normales se correlaciona con la acumulación de 14-α-metilesteroles en los hongos y puede ser responsable de la actividad fungistática del fluconazol.» Texto original en inglés: "Fluconazole is a highly selective inhibitor of fungal cytochrome P450 dependent enzyme lanosterol 14-α-demethylase. This enzyme functions to convert lanosterol to ergosterol. The subsequent loss of normal sterols correlates with the accumulation of 14-α-methyl sterols in fungi and may be responsible for the fungistatic activity of fluconazole." ([DailyMed: Diflucan (fluconazole) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f694c617-3383-416c-91b6-b94fda371204), versión del 2026-04-02; consultado el 2026-11-19). Según la información conocida, fluconazol es un antifúngico azólico que inhibe la enzima fúngica lanosterol 14-alfa-desmetilasa (CYP51), bloqueando la síntesis de ergosterol y comprometiendo la membrana de la célula fúngica. Su eficacia en candidiasis y criptococosis está comprobada.
 
 La relación con la nueva indicación es débil. La queratoconjuntivitis epitelial punteada suele ser de origen viral (adenovirus), tóxico, o estar asociada a ojo seco y uso de lentes de contacto, causas que un antifúngico no aborda. Solo sería mecanísticamente aplicable si existiera un componente fúngico en algunos casos.
 
@@ -119,6 +119,19 @@ La única base es una puntuación alta del modelo (0.9924), sin ensayos clínico
 - Textos de indicaciones, advertencias y contraindicaciones del prospecto de la AEMPS.
 - Evaluación de la compatibilidad de vías de administración (oral/intravenosa frente a la vía tópica ocular).
 - Evaluación de seguridad en población con prolongación del QT, enfermedad hepática o renal, y revisión de interacciones.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Diflucan (fluconazole) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f694c617-3383-416c-91b6-b94fda371204) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

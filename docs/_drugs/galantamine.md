@@ -56,7 +56,7 @@ Entre las demás predicciones del modelo, la mejor respaldada indirectamente es 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, galantamina inhibe la acetilcolinesterasa (diana ACHE) y actúa además como modulador del receptor nicotínico de acetilcolina α7. Su eficacia en la enfermedad de Alzheimer leve a moderada ha sido comprobada, con un rendimiento comparable al de otros inhibidores de colinesterasa.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Galantamine (traducción no oficial): «Aunque la etiología del deterioro cognitivo en la enfermedad de Alzheimer (EA) no se comprende por completo, se ha descrito que las neuronas productoras de acetilcolina degeneran en el cerebro de los pacientes con enfermedad de Alzheimer. El grado de esta pérdida colinérgica se ha correlacionado con el grado de deterioro cognitivo y con la densidad de placas amiloides (un rasgo neuropatológico distintivo de la enfermedad de Alzheimer). […] La galantamina, un alcaloide terciario, es un inhibidor competitivo y reversible de la acetilcolinesterasa.» Texto original en inglés: "Although the etiology of cognitive impairment in Alzheimer’s disease (AD) is not fully understood, it has been reported that acetylcholine-producing neurons degenerate in the brains of patients with Alzheimer’s disease. The degree of this cholinergic loss has been correlated with degree of cognitive impairment and density of amyloid plaques (a neuropathological hallmark of Alzheimer’s disease). […] Galantamine, a tertiary alkaloid, is a competitive and reversible inhibitor of acetylcholinesterase." ([DailyMed: galantamine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=261889d3-41c8-4655-98f7-41317778e7a1), versión del 2026-07-02; consultado el 2026-11-19). Según la información conocida, galantamina inhibe la acetilcolinesterasa (diana ACHE) y actúa además como modulador del receptor nicotínico de acetilcolina α7. Su eficacia en la enfermedad de Alzheimer leve a moderada ha sido comprobada, con un rendimiento comparable al de otros inhibidores de colinesterasa.
 
 La relación con la nueva indicación es débil. Una posible vía sería la modulación colinérgica y nicotínica de los circuitos motores, pero no hay evidencia directa que la respalde. Los trastornos psicógenos del movimiento son afecciones funcionales sin una diana farmacológica establecida, por lo que la predicción se basa únicamente en el modelo TxGNN (aprendizaje profundo).
 
@@ -113,11 +113,12 @@ La predicción principal (trastornos psicógenos del movimiento) es solo computa
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes, todas de principio activo único" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: galantamine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=261889d3-41c8-4655-98f7-41317778e7a1) |
 
 <!-- review:end log -->
 

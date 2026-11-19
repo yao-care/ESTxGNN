@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, alfacalcidol es un profármaco de la vitamina D: ya está hidroxilado en posición 1-alfa, por lo que no necesita la activación renal y se transforma en calcitriol, la forma activa. Su función principal es favorecer la absorción de calcio y fosfato y la mineralización ósea.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Alfacalcidol es (traducción no oficial): «Agonista del receptor de la vitamina D» Texto original en inglés: "Vitamin D receptor agonist" ([ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, alfacalcidol es un profármaco de la vitamina D: ya está hidroxilado en posición 1-alfa, por lo que no necesita la activación renal y se transforma en calcitriol, la forma activa. Su función principal es favorecer la absorción de calcio y fosfato y la mineralización ósea.
 
 Esto podría guardar una relación biológica general con un trastorno esquelético. Sin embargo, la conodisplasia craneofacial es una enfermedad estructural esquelética rara, y los datos compilados no muestran que la activación del receptor de la vitamina D pueda modificar su patología de fondo.
 
@@ -94,6 +94,19 @@ La predicción se apoya únicamente en el puntaje del modelo, sin ensayos clíni
 - Revisión bibliográfica específica sobre conodisplasia craneofacial y vitamina D
 - Obtención y análisis del prospecto de la AEMPS (advertencias, contraindicaciones e interacciones)
 - Evaluación de la compatibilidad de vías de administración y de la población diana
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

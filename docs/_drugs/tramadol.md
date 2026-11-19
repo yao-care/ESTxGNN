@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélic
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento farmacológico general, tramadol es un agonista del receptor opioide mu con inhibición adicional de la recaptación de serotonina y noradrenalina, y su uso está establecido en el dolor de moderado a intenso, incluido el dolor articular crónico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tramadol (traducción no oficial): «Tramadol clorhidrato cápsulas de liberación prolongada contiene tramadol, un agonista opioide e inhibidor de la recaptación de norepinefrina y serotonina. Aunque su modo de acción no se comprende por completo, a partir de pruebas en animales, parecen aplicables al menos dos mecanismos complementarios: la unión del fármaco original y del metabolito M1 a los receptores opioides mu y la inhibición débil de la recaptación de norepinefrina y serotonina.» Texto original en inglés: "Tramadol Hydrochloride Extended-Release Capsules contain tramadol, an opioid agonist, and an inhibitor of reuptake of norepinephrine and serotonin. Although its mode of action is not completely understood, from animal tests, at least two complementary mechanisms appear applicable: binding of parent and M1 metabolite to mu-opioid receptors and weak inhibition of reuptake of norepinephrine and serotonin." ([DailyMed: Tramadol Hydrochloride Extended-Release (tramadol hydrochloride) prescribing information, Trigen Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0bc7218-3fd0-4646-96f4-25355fc84aa9), versión del 2026-01-23; consultado el 2026-11-19). Por conocimiento farmacológico general, tramadol es un agonista del receptor opioide mu con inhibición adicional de la recaptación de serotonina y noradrenalina, y su uso está establecido en el dolor de moderado a intenso, incluido el dolor articular crónico.
 
 La displasia acromesomélica de tipo Hunter-Thompson es una displasia esquelética genética rara (defecto de CDMP1/GDF5). **No se ha establecido un vínculo mecanístico**: tramadol, como mucho, podría ofrecer alivio sintomático del dolor y no tiene ningún papel plausible como modificador de la enfermedad.
 
@@ -111,11 +111,12 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se registran 20 autorizaciones vigentes, todas de medicamentos con tramadol como único principio activo" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tramadol Hydrochloride Extended-Release (tramadol hydrochloride) prescribing information, Trigen Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0bc7218-3fd0-4646-96f4-25355fc84aa9) |
 
 <!-- review:end log -->
 

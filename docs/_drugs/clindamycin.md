@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, clindamicina es un antibiótico que inhibe la síntesis de proteínas bacterianas al actuar sobre la subunidad ribosomal 50S, y su eficacia en infecciones bacterianas cutáneas, respiratorias y ginecológicas está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clindamycin (traducción no oficial): «La clindamicina inhibe la síntesis de proteínas bacterianas mediante su unión al ARN 23S de la subunidad 50S del ribosoma. La clindamicina es bacteriostática.» Texto original en inglés: "Clindamycin inhibits bacterial protein synthesis by binding to the 23S RNA of the 50S subunit of the ribosome. Clindamycin is bacteriostatic." ([DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a), versión del 2026-09-16; consultado el 2026-11-19). Según la información conocida, clindamicina es un antibiótico que inhibe la síntesis de proteínas bacterianas al actuar sobre la subunidad ribosomal 50S, y su eficacia en infecciones bacterianas cutáneas, respiratorias y ginecológicas está bien establecida.
 
 La relación con la nueva indicación es débil. La queratoconjuntivitis epitelial punteada suele tener origen viral o inflamatorio, por lo que un antibacteriano no tiene un vínculo mecanístico claro, salvo que exista un componente bacteriano. El puntaje elevado proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -132,12 +132,13 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 16 autorizaciones vigentes (los textos de indicación aprobada no están disponibles en los datos compilados)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-05 | Eliminado: "Las 16 autorizaciones son de medicamentos con clindamicina como único principio activo, y todas están vigentes" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a) |
 
 <!-- review:end log -->
 

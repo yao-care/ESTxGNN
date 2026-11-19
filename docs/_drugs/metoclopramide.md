@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **Úlcera gástrica**, per
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Según la farmacología conocida y los datos de interacción con dianas, la metoclopramida actúa sobre los receptores D2 (antagonista), 5-HT4 (agonista) y 5-HT3. Esto aumenta la motilidad gastroduodenal, acelera el vaciamiento gástrico y eleva el tono del esfínter esofágico inferior.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Metoclopramide (traducción no oficial): «La metoclopramida estimula la motilidad del tracto gastrointestinal superior sin estimular las secreciones gástricas, biliares ni pancreáticas. El mecanismo de acción exacto de la metoclopramida en el tratamiento del reflujo gastroesofágico y de la gastroparesia diabética aguda y recurrente no se ha establecido por completo.» Texto original en inglés: "Metoclopramide stimulates motility of the upper gastrointestinal tract without stimulating gastric, biliary, or pancreatic secretions. The exact mechanism of action of metoclopramide in the treatment of gastroesophageal reflux and acute and recurrent diabetic gastroparesis has not been fully established." ([DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397), versión del 2026-02-09; consultado el 2026-11-19). Según la farmacología conocida y los datos de interacción con dianas, la metoclopramida actúa sobre los receptores D2 (antagonista), 5-HT4 (agonista) y 5-HT3. Esto aumenta la motilidad gastroduodenal, acelera el vaciamiento gástrico y eleva el tono del esfínter esofágico inferior.
 
 La relación con la indicación original es de vecindad fisiopatológica: el reflujo y la úlcera gástrica afectan al tracto digestivo superior, y el vaciamiento gástrico retardado o el reflujo biliar pueden contribuir a ambos. Sin embargo, **la metoclopramida no suprime el ácido ni protege la mucosa, y no hay evidencia de que cure úlceras**. Solo existe un estudio en ratas (PMID 2730234) con efecto protector en modelos de úlcera inducida.
 
@@ -130,6 +130,19 @@ No existe evidencia directa de que la metoclopramida cure la úlcera gástrica; 
 - Ensayos clínicos que evalúen cicatrización de úlceras o desenlaces clínicos, no solo visualización endoscópica
 - Aclarar la contradicción con la contraindicación en úlcera péptica activa
 - Considerar, como alternativa de menor riesgo, un uso acotado como adyuvante previo a la endoscopia en hemorragia digestiva alta, evaluando los resultados de los ensayos de 2024 y 2026
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

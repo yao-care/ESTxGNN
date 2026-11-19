@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio tri
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, lorazepam es una benzodiazepina que potencia la inhibición mediada por el receptor GABA-A, con efectos ansiolíticos, sedantes y anticonvulsivos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lorazepam (traducción no oficial): «El lorazepam ejerce su efecto en el tratamiento de los trastornos de ansiedad mediante la unión al sitio de las benzodiazepinas de los receptores del ácido gamma-aminobutírico A (GABA A ) en el cerebro y potencia la inhibición sináptica mediada por el GABA.» Texto original en inglés: "Lorazepam exerts its effect for the treatment of anxiety disorders through binding to the benzodiazepine site of the gamma-aminobutyric acid-A (GABA A ) receptors in the brain and enhances GABA-mediated synaptic inhibition." ([DailyMed: Loreev Xr (lorazepam) prescribing information, Almatica Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=227734c1-bf01-9607-73ea-5a1f38a89bd9), versión del 2025-10-08; consultado el 2026-11-19). Según la información conocida, lorazepam es una benzodiazepina que potencia la inhibición mediada por el receptor GABA-A, con efectos ansiolíticos, sedantes y anticonvulsivos.
 
 La relación entre la indicación original y la nueva es débil. La ansiedad y la epilepsia son trastornos de hiperexcitabilidad neuronal sobre los que actúa el fármaco, mientras que una neoplasia del nervio trigémino es un tumor. No se conoce un vínculo mecanístico claro: lorazepam no tiene actividad antineoplásica ni modificadora de la enfermedad en tumores nerviosos. A lo sumo podría aliviar síntomas acompañantes (ansiedad, convulsiones, malestar asociado al dolor).
 
@@ -107,11 +107,12 @@ La predicción carece de ensayos clínicos, literatura y vínculo mecanístico p
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único):" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Loreev Xr (lorazepam) prescribing information, Almatica Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=227734c1-bf01-9607-73ea-5a1f38a89bd9) |
 
 <!-- review:end log -->
 

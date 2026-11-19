@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Catridecacog es el factor XIII A-subunidad recombinante, una transglutaminasa que entrecruza la fibrina y estabiliza el coágulo. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada; el análisis se basa en el conocimiento general del factor XIII.
+Catridecacog es el factor XIII A-subunidad recombinante, una transglutaminasa que entrecruza la fibrina y estabiliza el coágulo. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Catridecacog es (traducción no oficial): «Proteína exógena del factor XIII de coagulación» Texto original en inglés: "Coagulation factor XIII exogenous protein" ([ChEMBL CHEMBL2108282 (catridecacog): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108282), CC BY-SA 3.0; consultado el 2026-11-19).
 
 Los trastornos de liberación plaquetaria (defectos de secreción de gránulos) alteran la hemostasia primaria. La suplementación con factor XIII actúa más adelante en la cascada, sobre la estabilidad del coágulo, por lo que no corregiría el defecto de secreción plaquetaria en sí. El vínculo es plausible solo como un efecto adyuvante indirecto sobre la firmeza del coágulo.
 
@@ -100,6 +100,19 @@ La predicción se apoya solo en el modelo (L5), sin ensayos ni literatura, y el 
 - Revisión sistemática de literatura y de registros de ensayos que respalden el uso en trastornos de función plaquetaria
 - Datos preclínicos o de mecanismo que demuestren un beneficio sobre la estabilidad del coágulo en estos trastornos
 - Evaluar la compatibilidad de vía de administración y la similitud con la indicación original
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL2108282 (catridecacog): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108282) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

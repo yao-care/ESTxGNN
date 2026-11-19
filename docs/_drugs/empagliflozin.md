@@ -56,7 +56,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, empagliflozina inhibe el cotransportador SGLT2 renal (y, con menor afinidad, SGLT1), lo que favorece la excreción urinaria de glucosa y reduce la glucemia. Su eficacia en la diabetes mellitus tipo 2 está comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Empagliflozin (traducción no oficial): «La empagliflozina es un inhibidor del SGLT2, el transportador predominante responsable de la reabsorción de la glucosa desde el filtrado glomerular de vuelta a la circulación. Al inhibir el SGLT2, la empagliflozina reduce la reabsorción renal de la glucosa filtrada y disminuye el umbral renal de glucosa, con lo que aumenta la excreción urinaria de glucosa.» Texto original en inglés: "Empagliflozin is an inhibitor of SGLT2, the predominant transporter responsible for reabsorption of glucose from the glomerular filtrate back into the circulation. By inhibiting SGLT2, empagliflozin reduces renal reabsorption of filtered glucose and lowers the renal threshold for glucose, and thereby increases urinary glucose excretion." ([DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565), versión del 2026-11-10; consultado el 2026-11-19). Según la información conocida, empagliflozina inhibe el cotransportador SGLT2 renal (y, con menor afinidad, SGLT1), lo que favorece la excreción urinaria de glucosa y reduce la glucemia. Su eficacia en la diabetes mellitus tipo 2 está comprobada.
 
 Hay que ser claros: **no existe un vínculo mecanístico establecido** con la nueva indicación. El síndrome de rigidez focal de extremidad es un trastorno neurológico raro, probablemente autoinmune, dentro del espectro de la persona rígida, asociado a una menor inhibición GABAérgica (por ejemplo, anticuerpos anti-GAD65 o anti-anfifisina). La inhibición de SGLT2 no tiene un efecto conocido sobre esta vía.
 
@@ -104,6 +104,19 @@ La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos ni l
 - Textos de indicación aprobada de las autorizaciones españolas
 - Evaluación de la compatibilidad de vía de administración y de la similitud con la indicación original (pendientes)
 - Evaluación de seguridad específica en la población objetivo
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -55,8 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, dorzolamida es un inhibidor tópico de la anhidrasa carbónica (con dianas como CA1, CA7, CA12 y CA14 en los datos farmacológicos) que reduce la secreción de humor acuoso y, con ello, la presión intraocular (PIO).
-
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dorzolamide (traducción no oficial): «La anhidrasa carbónica (AC) es una enzima presente en muchos tejidos del organismo, incluido el ojo. Cataliza la reacción reversible que comprende la hidratación del dióxido de carbono y la deshidratación del ácido carbónico. […] La solución oftálmica de clorhidrato de dorzolamida contiene clorhidrato de dorzolamida, un inhibidor de la anhidrasa carbónica II humana.» Texto original en inglés: "Carbonic anhydrase (CA) is an enzyme found in many tissues of the body including the eye. It catalyzes the reversible reaction involving the hydration of carbon dioxide and the dehydration of carbonic acid. […] Dorzolamide hydrochloride ophthalmic solution contains dorzolamide hydrochloride, an inhibitor of human carbonic anhydrase II." ([DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea), versión del 2026-11-14; consultado el 2026-11-19). Según la información conocida, dorzolamida es un inhibidor tópico de la anhidrasa carbónica (con dianas como CA1, CA7, CA12 y CA14 en los datos farmacológicos) que reduce la secreción de humor acuoso y, con ello, la presión intraocular (PIO).
 
 Las predicciones de mayor puntaje (alopecias, hipotricosis) carecen de sustento mecanístico; su puntaje proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -125,6 +124,19 @@ La predicción para hipotricosis simple del cuero cabelludo no cuenta con ensayo
 - Revisión de la evidencia en glaucoma congénito/juvenil, incluido el ensayo pediátrico NCT01527682
 - Evaluación específica de seguridad y eficacia pediátrica
 - Estudios clínicos específicos en glaucoma hereditario primario
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

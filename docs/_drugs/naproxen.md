@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, naproxeno es un inhibidor no selectivo de la ciclooxigenasa (COX-1 y COX-2), que reduce la síntesis de prostaglandinas y produce efectos antiinflamatorios y analgésicos. Su eficacia en trastornos inflamatorios y dolorosos del aparato locomotor está comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Naproxen (traducción no oficial): «El naproxeno tiene propiedades analgésicas, antiinflamatorias y antipiréticas. El mecanismo de acción de NAPRELAN, al igual que el de otros AINE, no se comprende por completo, pero implica la inhibición de la ciclooxigenasa (COX-1 y COX-2).» Texto original en inglés: "Naproxen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of NAPRELAN, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Naprelan (naproxen sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b8a51c9a-488e-4377-a041-436f6a2f8893), versión del 2026-01-08; consultado el 2026-11-19). Según la información conocida, naproxeno es un inhibidor no selectivo de la ciclooxigenasa (COX-1 y COX-2), que reduce la síntesis de prostaglandinas y produce efectos antiinflamatorios y analgésicos. Su eficacia en trastornos inflamatorios y dolorosos del aparato locomotor está comprobada.
 
 Los síndromes de braquidactilia-sindactilia son malformaciones esqueléticas congénitas causadas por defectos genéticos del desarrollo. La inhibición de COX no corrige estas vías, por lo que **los datos disponibles no respaldan un vínculo mecanístico plausible**. En el mejor de los casos, el beneficio se limitaría al alivio sintomático del dolor, lo cual no constituye una señal de reposicionamiento.
 
@@ -113,11 +113,12 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Naprelan (naproxen sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b8a51c9a-488e-4377-a041-436f6a2f8893) |
 
 <!-- review:end log -->
 

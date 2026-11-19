@@ -56,7 +56,7 @@ Por ello, la predicción se apoya únicamente en el modelo (nivel de evidencia L
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la sapropterina es una forma sintética de BH4, el cofactor de la fenilalanina hidroxilasa, enzima que convierte la fenilalanina en tirosina.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Sapropterin (traducción no oficial): «El diclorhidrato de sapropterina es una forma sintética de BH4, el cofactor de la enzima fenilalanina hidroxilasa (PAH). La PAH hidroxila la Phe mediante una reacción oxidativa para formar tirosina. En los pacientes con PKU, la actividad de la PAH está ausente o es deficiente.» Texto original en inglés: "Sapropterin dihydrochloride is a synthetic form of BH4, the cofactor for the enzyme phenylalanine hydroxylase (PAH). PAH hydroxylates Phe through an oxidative reaction to form tyrosine. In patients with PKU, PAH activity is absent or deficient." ([DailyMed: Zelvysia (sapropterin dihydrochloride) prescribing information, Aucta Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8de84882-dd24-46f2-8416-5e492d4275d1), versión del 2025-04-30; consultado el 2026-11-19). Según la información conocida, la sapropterina es una forma sintética de BH4, el cofactor de la fenilalanina hidroxilasa, enzima que convierte la fenilalanina en tirosina.
 
 El puntaje elevado probablemente refleja la cercanía de esta vía metabólica (fenilalanina → tirosina) con los usos ya conocidos del fármaco. Sin embargo, el vínculo es indirecto: los trastornos primarios del metabolismo de la tirosina, como las tirosinemias de tipos I-III o la alcaptonuria, se deben a defectos en enzimas situadas más adelante en la vía (FAH, TAT, HPD, HGD), sobre las que el BH4 no actúa.
 
@@ -116,6 +116,18 @@ La predicción carece de ensayos clínicos y de literatura que estudie directame
 - Datos detallados del mecanismo de acción.
 - Revisión de las advertencias y contraindicaciones del prospecto, así como del riesgo de neutropenia y agranulocitosis.
 - Evaluación de las interacciones con vasodilatadores, inhibidores de la fosfodiesterasa 5 y antifolatos.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zelvysia (sapropterin dihydrochloride) prescribing information, Aucta Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8de84882-dd24-46f2-8416-5e492d4275d1) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

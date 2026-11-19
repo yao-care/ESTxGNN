@@ -55,12 +55,11 @@ Cabe aclarar que se trata de una estratificación por subtipo dentro de una indi
 | Número de Autorizaciones | 17 (comercializadas: 17) |
 | Decisión Recomendada | Proceed with Guardrails |
 
-
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, trastuzumab se une al dominio extracelular de HER2, bloquea su señalización y media citotoxicidad celular dependiente de anticuerpos (ADCC). Su eficacia en el cáncer de mama HER2 positivo está comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Trastuzumab (traducción no oficial): «El protooncogén HER2 (o c-erbB2) codifica una proteína receptora transmembrana de 185 kDa, que está relacionada estructuralmente con el receptor del factor de crecimiento epidérmico. Se ha demostrado, tanto en ensayos in vitro como en animales, que los productos de trastuzumab inhiben la proliferación de células tumorales humanas que sobreexpresan HER2.» Texto original en inglés: "The HER2 (or c-erbB2) proto-oncogene encodes a transmembrane receptor protein of 185 kDa, which is structurally related to the epidermal growth factor receptor. Trastuzumab products have been shown, in both in vitro assays and in animals, to inhibit the proliferation of human tumor cells that overexpress HER2." ([DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c), versión del 2026-06-26; consultado el 2026-11-19). Según la información conocida, trastuzumab se une al dominio extracelular de HER2, bloquea su señalización y media citotoxicidad celular dependiente de anticuerpos (ADCC). Su eficacia en el cáncer de mama HER2 positivo está comprobada.
 
 En tumores con receptor de progesterona positivo, el beneficio depende de la coexpresión de HER2. La interacción (crosstalk) entre HER2 y los receptores hormonales es un mecanismo de resistencia conocido, y la combinación con terapia endocrina o inhibidores de CDK4/6 cuenta con respaldo.
 
@@ -150,6 +149,19 @@ La evidencia es sólida (L1): hay ensayos de fase 3 completados (como NCT0127567
 - Completar los datos del mecanismo de acción desde DrugBank
 - Confirmar los textos de indicación aprobada de las autorizaciones españolas
 - Definir un plan de monitoreo cardíaco y restringir el uso a pacientes con HER2 positivo confirmado
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ con **0 ensayos clínicos** y **5 publicaciones** recuperadas, de las cuales sol
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento farmacológico general, la fenilefrina es un agonista de los receptores adrenérgicos alfa-1 (subtipos 1A, 1B y 1D, según los datos farmacológicos compilados). Su activación produce vasoconstricción de la mucosa, lo que reduce la congestión, el edema y el sangrado.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Phenylephrine (traducción no oficial): «El clorhidrato de fenilefrina es un agonista de los receptores adrenérgicos α-1.» Texto original en inglés: "Phenylephrine hydrochloride is an α-1 adrenergic receptor agonist." ([DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be), versión del 2026-03-31; consultado el 2026-11-19). Según el conocimiento farmacológico general, la fenilefrina es un agonista de los receptores adrenérgicos alfa-1 (subtipos 1A, 1B y 1D, según los datos farmacológicos compilados). Su activación produce vasoconstricción de la mucosa, lo que reduce la congestión, el edema y el sangrado.
 
 La enfermedad de la cavidad nasal es una categoría amplia que se solapa con las indicaciones originales (rinitis, nasofaringitis, resfriado común). Por ello, la predicción es coherente mecanísticamente, pero representa solo una señal **modesta** de reposicionamiento: en gran medida describe un uso ya conocido.
 
@@ -122,11 +122,12 @@ La indicación predicha se solapa en gran medida con los usos ya conocidos (rini
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 9 autorizaciones vigentes (todas de monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be) |
 
 <!-- review:end log -->
 

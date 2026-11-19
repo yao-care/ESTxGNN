@@ -54,7 +54,7 @@ La lidocaína es un anestésico local de uso muy extendido, tanto inyectable com
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la farmacología conocida, la lidocaína bloquea los canales de sodio dependientes de voltaje. Los datos compilados la vinculan con Nav1.2, Nav1.4, Nav1.5, Nav1.7 y Nav1.8. Este bloqueo explica su efecto anestésico y analgésico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lidocaine (traducción no oficial): «El clorhidrato de lidocaína ejerce un efecto antiarrítmico al aumentar el umbral de estimulación eléctrica del ventrículo durante la diástole. A las dosis terapéuticas habituales, el clorhidrato de lidocaína no produce cambios en la contractilidad miocárdica, en la presión arterial sistémica ni en el período refractario absoluto.» Texto original en inglés: "Lidocaine hydrochloride exerts an antiarrhythmic effect by increasing the electrical stimulation threshold of the ventricle during diastole. In usual therapeutic doses, lidocaine hydrochloride produces no change in myocardial contractility, in systemic arterial pressure, or in absolute refractory period." ([DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0), versión del 2026-02-20; consultado el 2026-11-19). Según la farmacología conocida, la lidocaína bloquea los canales de sodio dependientes de voltaje. Los datos compilados la vinculan con Nav1.2, Nav1.4, Nav1.5, Nav1.7 y Nav1.8. Este bloqueo explica su efecto anestésico y analgésico.
 
 La conexión con la nueva indicación es débil. La lidocaína tiene usos oftálmicos como anestésico tópico, y existe un producto en gel oftálmico en el mercado español. Sin embargo, la anestesia de la superficie ocular no equivale a tratar una enfermedad inflamatoria o epitelial de la córnea y la conjuntiva.
 
@@ -103,6 +103,19 @@ La predicción tiene un puntaje alto (0,9999), pero no hay ningún ensayo ni pub
 - Estudios preclínicos sobre el efecto de la lidocaína en el epitelio corneal inflamado y en su cicatrización.
 - Revisión de los prospectos de AEMPS (advertencias y contraindicaciones), especialmente del gel oftálmico.
 - Si se persigue un beneficio sintomático, un ensayo piloto con una pregunta de investigación definida y vigilancia estrecha de la toxicidad corneal.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

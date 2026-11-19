@@ -58,7 +58,7 @@ con **2 ensayos clínicos** (uno de Fase 3 completado y uno de Fase 4 completado
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en las fuentes consultadas. Según la información conocida, la guanfacina es un agonista selectivo de los receptores adrenérgicos alfa-2A (también interactúa con los subtipos alfa-2B y alfa-2C), lo que fortalece la señalización de las redes de la corteza prefrontal y reduce el tono noradrenérgico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Guanfacine (traducción no oficial): «La guanfacina es un agonista central de los receptores adrenérgicos alfa 2A. La guanfacina no es un estimulante del sistema nervioso central (SNC). Se desconoce el mecanismo de acción de la guanfacina en el TDAH.» Texto original en inglés: "Guanfacine is a central alpha 2A -adrenergic receptor agonist. Guanfacine is not a central nervous system (CNS) stimulant. The mechanism of action of guanfacine in ADHD is not known." ([DailyMed: Guanfacine Extended-Release (guanfacine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3ec4fed6-cafc-49a0-9540-8d70ac435769), versión del 2026-10-15; consultado el 2026-11-19). Según la información conocida, la guanfacina es un agonista selectivo de los receptores adrenérgicos alfa-2A (también interactúa con los subtipos alfa-2B y alfa-2C), lo que fortalece la señalización de las redes de la corteza prefrontal y reduce el tono noradrenérgico.
 
 La indicación original (TDAH) y el síndrome de Tourette están estrechamente relacionados: cerca de la mitad de los niños con Tourette presentan TDAH comórbido, y los estimulantes pueden empeorar los tics. Los agonistas alfa-2 (clonidina, guanfacina) se consideran opciones de primera línea en niños con tics y TDAH concurrente, según guías europeas y revisiones.
 
@@ -127,6 +127,19 @@ Existe evidencia directa de un ECA de Fase 3 y un estudio de Fase 4 completados,
 ---
 
 **Otras indicaciones predichas (para referencia):** Síndrome faciodigitogenital, fibroma condromixoide, tricotilomanía, síndrome de piernas inquietas y trastorno bipolar maníaco tienen evidencia nula o solo indirecta (L4–L5) y se recomienda mantenerlas en *Hold*. El "trastorno específico del desarrollo" queda como pregunta de investigación por solaparse con la indicación de TDAH. En el trastorno bipolar maníaco, además, hay informes de manía inducida por guanfacina en niños, lo que constituye una señal de seguridad y no un respaldo.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Guanfacine Extended-Release (guanfacine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3ec4fed6-cafc-49a0-9540-8d70ac435769) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 
 ## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, avelumab es un anticuerpo anti-PD-L1: al bloquear la interacción entre PD-L1 y su receptor PD-1, puede reactivar la respuesta de los linfocitos T frente a células tumorales.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Avelumab (traducción no oficial): «PD-L1 puede expresarse en las células tumorales y en las células inmunitarias infiltrantes del tumor, y puede contribuir a la inhibición de la respuesta inmunitaria antitumoral en el microambiente tumoral. La unión de PD-L1 a los receptores PD-1 y B7.1 presentes en los linfocitos T y en las células presentadoras de antígenos suprime la actividad de los linfocitos T citotóxicos, la proliferación de los linfocitos T y la producción de citocinas. […] El avelumab se une a PD-L1 y bloquea la interacción entre PD-L1 y sus receptores PD-1 y B7.1.» Texto original en inglés: "PD-L1 may be expressed on tumor cells and tumor-infiltrating immune cells and can contribute to the inhibition of the anti-tumor immune response in the tumor microenvironment. Binding of PD-L1 to the PD-1 and B7.1 receptors found on T cells and antigen presenting cells suppresses cytotoxic T-cell activity, T-cell proliferation, and cytokine production. […] Avelumab binds PD-L1 and blocks the interaction between PD-L1 and its receptors PD-1 and B7.1." ([DailyMed: Bavencio (avelumab) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5cd725a1-2fa4-408a-a651-57a7b84b2118), versión del 2026-09-22; consultado el 2026-11-19). Según la información conocida, avelumab es un anticuerpo anti-PD-L1: al bloquear la interacción entre PD-L1 y su receptor PD-1, puede reactivar la respuesta de los linfocitos T frente a células tumorales.
 
 Los tumores asociados al herpesvirus humano 8 (por ejemplo, el sarcoma de Kaposi) son tumores de origen viral. En ellos se ha descrito agotamiento inmunitario relacionado con el eje PD-1/PD-L1, lo que ofrece una justificación biológica plausible para el bloqueo de PD-L1.
 
@@ -111,6 +111,19 @@ La predicción tiene un puntaje TxGNN alto (0,9997), pero no cuenta con ensayos 
 - Advertencias y contraindicaciones del prospecto de la AEMPS
 - Evaluación de la relevancia clínica de las interacciones mayores con lenalidomida, pomalidomida y talidomida
 - Si los datos lo respaldan, diseño de un estudio exploratorio de fase 2
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Bavencio (avelumab) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5cd725a1-2fa4-408a-a651-57a7b84b2118) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

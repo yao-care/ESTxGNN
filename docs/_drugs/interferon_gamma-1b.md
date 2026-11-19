@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad cardíaca**, 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, el interferón gamma-1b es un inmunomodulador que activa macrófagos y las respuestas Th1.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Interferon Gamma-1B (traducción no oficial): «Los interferones se unen a receptores específicos de la superficie celular e inician una secuencia de eventos intracelulares que conducen a la transcripción de genes estimulados por interferón. Los tres grupos principales de interferones (alfa, beta, gamma) tienen actividades biológicas parcialmente superpuestas que incluyen la inmunorregulación, como el aumento de la resistencia a los patógenos microbianos y la inhibición de la proliferación celular.» Texto original en inglés: "Interferons bind to specific cell surface receptors and initiate a sequence of intracellular events that lead to the transcription of interferon-stimulated genes. The three major groups of interferons (alpha, beta, gamma) have partially overlapping biological activities that include immunoregulation such as increased resistance to microbial pathogens and inhibition of cell proliferation." ([DailyMed: Actimmune (interferon gamma-1b) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d0b1256-1981-4519-94f4-a4a2f98bd8a3), versión del 2026-03-30; consultado el 2026-11-19). Según la información conocida, el interferón gamma-1b es un inmunomodulador que activa macrófagos y las respuestas Th1.
 
 No se ha establecido un vínculo mecanístico directo con la enfermedad cardíaca. El puntaje es muy alto, pero proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, para una categoría amplia e inespecífica. Cualquier relevancia cardíaca sería indirecta (relacionada con infección o inflamación). Además, la señalización de IFN-gamma se ha implicado en la inflamación y el remodelado miocárdico, por lo que no puede descartarse un posible daño.
 
@@ -104,6 +104,19 @@ La predicción carece de ensayos clínicos y de literatura directamente relevant
 - Definir un subtipo concreto de enfermedad cardíaca (por ejemplo, miocardiopatía inflamatoria o relacionada con infección) y realizar estudios preclínicos o de mecanismo
 - Evaluar el riesgo cardiovascular de la señalización de IFN-gamma antes de cualquier estudio clínico
 - Revisar las interacciones mayores para la población cardiológica
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Actimmune (interferon gamma-1b) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d0b1256-1981-4519-94f4-a4a2f98bd8a3) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

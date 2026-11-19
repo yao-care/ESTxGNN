@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, con **0 ens
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada. Según la información farmacológica disponible, el estriol actúa como agonista de los receptores de estrógeno alfa (ESR1) y beta (ESR2), con una potencia estrogénica menor que la del estradiol. En Europa y Asia se comercializa desde hace más de 40 años, principalmente para síntomas de la menopausia como los sofocos.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Estriol es (traducción no oficial): «Modulador de los receptores de estrógenos» Texto original en inglés: "Estrogen receptor modulator" ([ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482), CC BY-SA 3.0; consultado el 2026-11-19). Según la información farmacológica disponible, el estriol actúa como agonista de los receptores de estrógeno alfa (ESR1) y beta (ESR2), con una potencia estrogénica menor que la del estradiol. En Europa y Asia se comercializa desde hace más de 40 años, principalmente para síntomas de la menopausia como los sofocos.
 
 En la amenorrea hipotalámica funcional (AHF), la secreción pulsátil de GnRH está alterada, lo que reduce las gonadotropinas y la función ovárica y provoca un estado hipoestrogénico. Se plantea que dosis bajas de estrógenos podrían actuar como moduladores neuroendocrinos. Un estudio fisiológico pequeño en humanos (2012, PMID 22137494) comunicó que la administración de estriol modulaba la secreción de LH en mujeres con AHF.
 
@@ -119,6 +119,19 @@ La evidencia se limita a un estudio fisiológico pequeño y una revisión, sin e
 - Estudios clínicos que evalúen la eficacia del estriol para restablecer la menstruación en AHF
 - Evaluación de seguridad ósea y endometrial del estriol en esta población
 - Análisis de compatibilidad de vías de administración: las formulaciones comercializadas son vaginales y su idoneidad para esta indicación no está evaluada
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

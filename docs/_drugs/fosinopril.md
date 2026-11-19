@@ -54,7 +54,7 @@ Fosinopril es un inhibidor de la enzima convertidora de angiotensina (ECA) que s
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Fosinopril es un inhibidor de la ECA: se convierte en su forma activa, fosinoprilato, y reduce la angiotensina II, con lo que baja la presión arterial. No se dispone en los datos compilados de una descripción detallada del mecanismo de acción, pero esta es la acción conocida de la clase.
+Fosinopril es un inhibidor de la ECA: se convierte en su forma activa, fosinoprilato, y reduce la angiotensina II, con lo que baja la presión arterial. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fosinopril (traducción no oficial): «En animales y en seres humanos, el fosinopril sódico es hidrolizado por esterasas a la forma farmacológicamente activa, el fosinoprilato, un inhibidor competitivo específico de la enzima convertidora de angiotensina (ECA). La ECA es una peptidil dipeptidasa que cataliza la conversión de la angiotensina I en la sustancia vasoconstrictora angiotensina II.» Texto original en inglés: "In animals and humans, fosinopril sodium is hydrolyzed by esterases to the pharmacologically active form, fosinoprilat, a specific competitive inhibitor of angiotensin-converting enzyme (ACE). ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II." ([DailyMed: Fosinopril Sodium (fosinopril) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fc38f1bb-f175-4a81-8ed9-c8701efdea35), versión del 2023-11-27; consultado el 2026-11-19).
 
 La nefropatía hipertensiva maligna se produce por hipertensión muy grave y activación del sistema renina-angiotensina-aldosterona (SRAA). Por ello, el mecanismo es plausible: bloquear este sistema podría reducir la presión y la lesión renal.
 
@@ -97,6 +97,19 @@ La predicción es mecanísticamente plausible, pero carece de ensayos y publicac
 - Datos detallados del mecanismo de acción
 - Revisión del prospecto para advertencias y contraindicaciones, especialmente en enfermedad renal y estenosis de arteria renal
 - Plan de monitorización de función renal y potasio
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Fosinopril Sodium (fosinopril) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fc38f1bb-f175-4a81-8ed9-c8701efdea35) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

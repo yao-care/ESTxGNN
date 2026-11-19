@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **deficiencia de potasio**
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, inclisirán es un siRNA que silencia PCSK9 en el hígado, lo que aumenta la expresión de receptores de LDL hepáticos y reduce el colesterol LDL.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Inclisiran (traducción no oficial): «El inclisirán es un ácido ribonucleico interferente pequeño (ARNip) bicatenario, conjugado en la cadena sentido con N-acetilgalactosamina (GalNAc) triantenaria para facilitar su captación por los hepatocitos. En los hepatocitos, el inclisirán utiliza el mecanismo de interferencia por ARN y dirige la degradación catalítica del ARNm de PCSK9.» Texto original en inglés: "Inclisiran is a double-stranded small interfering ribonucleic acid (siRNA), conjugated on the sense strand with triantennary N-Acetylgalactosamine (GalNAc) to facilitate uptake by hepatocytes. In hepatocytes, inclisiran utilizes the RNA interference mechanism and directs catalytic breakdown of mRNA for PCSK9." ([DailyMed: Leqvio (inclisiran) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fc0afca-4513-4c35-b594-6544aee29a44), versión del 2026-08-19; consultado el 2026-11-19). Según la información conocida, inclisirán es un siRNA que silencia PCSK9 en el hígado, lo que aumenta la expresión de receptores de LDL hepáticos y reduce el colesterol LDL.
 
 No se ha identificado un vínculo mecanístico plausible entre este mecanismo y la homeostasis del potasio. El puntaje elevado (0.9993) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Por ello, esta predicción debe considerarse una hipótesis sin fundamento mecanístico actual, y no una indicación razonable para reposicionamiento.
 
@@ -95,6 +95,19 @@ La predicción para deficiencia de potasio se basa solo en el modelo (L5), sin e
 - Texto de la indicación autorizada para establecer la relación con la indicación original
 - Estudios preclínicos o series observacionales que respalden la hipótesis
 - Verificar en el registro los dos ensayos de Fase 3 pediátricos asociados a malformación aórtica, que parecen coincidencias de ontología y no evidencia real
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Leqvio (inclisiran) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fc0afca-4513-4c35-b594-6544aee29a44) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

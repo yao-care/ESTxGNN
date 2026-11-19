@@ -56,7 +56,7 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información farmacológica compilada, la asenapina se une a los receptores serotoninérgicos 5-HT1A, 5-HT1B, 5-HT1D, 5-HT1E y 5-HT2A, al receptor dopaminérgico D2 y al receptor histaminérgico H1.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Asenapine (traducción no oficial): «Se desconoce el mecanismo de acción de la asenapina en la esquizofrenia y el trastorno bipolar I. Se ha sugerido que la eficacia de la asenapina en la esquizofrenia podría estar mediada por una combinación de actividad antagonista en los receptores D 2 y 5-HT 2A.» Texto original en inglés: "The mechanism of action of asenapine, in schizophrenia and bipolar I disorder, is unknown. It has been suggested that the efficacy of asenapine in schizophrenia could be mediated through a combination of antagonist activity at D 2 and 5-HT 2A receptors." ([DailyMed: Saphris (asenapine maleate) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5429f134-839f-4ffc-9944-55f51238def8), versión del 2025-01-31; consultado el 2026-11-19). Según la información farmacológica compilada, la asenapina se une a los receptores serotoninérgicos 5-HT1A, 5-HT1B, 5-HT1D, 5-HT1E y 5-HT2A, al receptor dopaminérgico D2 y al receptor histaminérgico H1.
 
 No se identifica un vínculo mecanístico entre este perfil de receptores y las vías implicadas en la degeneración retiniana hereditaria. El puntaje elevado del modelo es una señal computacional que, con los datos compilados, no puede interpretarse como una hipótesis biológica respaldada.
 
@@ -101,6 +101,19 @@ La predicción principal se apoya solo en el puntaje del modelo (0,9977), sin en
 - Estudios preclínicos (modelos celulares o animales de retina) que respalden la hipótesis
 - Revisión de la literatura específica sobre receptores dopaminérgicos y serotoninérgicos en la retina
 - Texto de advertencias y contraindicaciones del prospecto de la AEMPS para completar el análisis de seguridad
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Saphris (asenapine maleate) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5429f134-839f-4ffc-9944-55f51238def8) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

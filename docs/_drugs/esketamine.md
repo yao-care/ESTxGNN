@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectiva para **agorafobia**, pero actua
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, esketamina es el enantiómero S de la ketamina y su farmacología general se asocia con el antagonismo del receptor NMDA y la modulación glutamatérgica. Esto es conocimiento general y no está confirmado por los datos compilados.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Esketamine (traducción no oficial): «La esketamina, el S-enantiómero de la ketamina racémica, es un antagonista no selectivo y no competitivo del receptor de N -metil- D -aspartato (NMDA), un receptor ionotrópico de glutamato. Se desconoce el mecanismo por el cual la esketamina ejerce su efecto antidepresivo.» Texto original en inglés: "Esketamine, the S-enantiomer of racemic ketamine, is a non-selective, non-competitive antagonist of the N -methyl- D -aspartate (NMDA) receptor, an ionotropic glutamate receptor. The mechanism by which esketamine exerts its antidepressant effect is unknown." ([DailyMed: Spravato (esketamine hydrochloride) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed), versión del 2026-09-22; consultado el 2026-11-19). Según la información conocida, esketamina es el enantiómero S de la ketamina y su farmacología general se asocia con el antagonismo del receptor NMDA y la modulación glutamatérgica. Esto es conocimiento general y no está confirmado por los datos compilados.
 
 La agorafobia es un trastorno relacionado con la ansiedad. El puntaje proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Hipotéticamente, la modulación glutamatérgica podría influir en los circuitos del miedo y la evitación.
 
@@ -114,6 +114,19 @@ La predicción se basa únicamente en el puntaje del modelo (L5), sin ensayos cl
 ### Nota sobre la segunda predicción
 
 La segunda predicción del modelo, **tortícolis paroxística benigna de la infancia** (puntaje 0.9949, nivel L5), no se recomienda: es un trastorno pediátrico benigno y autolimitado, sin vínculo mecanístico evidente con esketamina, y el uso de un anestésico disociativo en lactantes plantea preocupaciones de seguridad. El puntaje proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Decisión: **Hold**.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Spravato (esketamine hydrochloride) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

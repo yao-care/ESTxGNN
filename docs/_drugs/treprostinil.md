@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **malformación arterioven
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Treprostinil es un análogo estable de la prostaciclina que produce vasodilatación e inhibe la agregación plaquetaria. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente consultada, pero estas propiedades farmacológicas son bien conocidas.
+Treprostinil es un análogo estable de la prostaciclina que produce vasodilatación e inhibe la agregación plaquetaria. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Treprostinil (traducción no oficial): «El treprostinil es un análogo de la prostaciclina. Las principales acciones farmacológicas del treprostinil son la vasodilatación directa de los lechos vasculares arteriales pulmonar y sistémico y la inhibición de la agregación plaquetaria.» Texto original en inglés: "Treprostinil is a prostacyclin analogue. The major pharmacologic actions of treprostinil are direct vasodilation of pulmonary and systemic arterial vascular beds and inhibition of platelet aggregation." ([DailyMed: Tyvaso (treprostinil) prescribing information, United Therapeutics Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbc31ab1-a80f-4b50-a3b1-39910b0fb609), versión del 2026-04-14; consultado el 2026-11-19).
 
 En este caso, la relación mecanística es **débil**. Las malformaciones arteriovenosas pulmonares son cortocircuitos vasculares estructurales, no un problema de vasoconstricción o remodelado vascular como en la HAP. En teoría, la vasodilatación podría incluso empeorar el cortocircuito o la hipoxemia. Por ello, esta predicción debe interpretarse con mucha cautela.
 
@@ -154,6 +154,19 @@ La predicción de mayor puntaje carece de ensayos, literatura y plausibilidad me
 - Confirmar los textos de indicación aprobada de las autorizaciones españolas.
 - Para HAP-VIH, estudios específicos y revisión de interacciones con antirretrovirales.
 - Descartar o revisar manualmente las predicciones sin plausibilidad biológica (alopecia/hipertricosis, síndromes malformativos).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tyvaso (treprostinil) prescribing information, United Therapeutics Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbc31ab1-a80f-4b50-a3b1-39910b0fb609) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

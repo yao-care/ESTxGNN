@@ -56,7 +56,7 @@ pero actualmente no hay ensayos clínicos registrados y solo se dispone de **2 p
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Losartán bloquea el receptor AT1 de la angiotensina II. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados, pero es conocido que este fármaco actúa sobre el sistema renina-angiotensina, y su eficacia en hipertensión y nefropatía diabética está establecida.
+Losartán bloquea el receptor AT1 de la angiotensina II. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Losartan (traducción no oficial): «La angiotensina II [formada a partir de la angiotensina I en una reacción catalizada por la enzima convertidora de angiotensina (ECA, cininasa II)] es un potente vasoconstrictor, la principal hormona vasoactiva del sistema renina-angiotensina y un componente importante en la fisiopatología de la hipertensión. También estimula la secreción de aldosterona por la corteza suprarrenal. […] El losartán y su principal metabolito activo bloquean los efectos vasoconstrictores y secretores de aldosterona de la angiotensina II al bloquear selectivamente la unión de la angiotensina II al receptor AT 1 presente en muchos tejidos (p. ej., músculo liso vascular, glándula suprarrenal).» Texto original en inglés: "Angiotensin II [formed from angiotensin I in a reaction catalyzed by angiotensin converting enzyme (ACE, kininase II)] is a potent vasoconstrictor, the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. It also stimulates aldosterone secretion by the adrenal cortex. […] Losartan and its principal active metabolite block the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor found in many tissues, (e.g., vascular smooth muscle, adrenal gland)." ([DailyMed: Losartan Potassium 50 Mg (losartan potassium) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498f26a1-5030-4f9b-9599-07d50e912d41), versión del 2026-09-15; consultado el 2026-11-19).
 
 El sistema renina-angiotensina es central en la hipertensión renovascular, por lo que el bloqueo del AT1 es mecanísticamente plausible. Sin embargo, esta nueva indicación se solapa en gran medida con la indicación original de hipertensión, por lo que aporta poca novedad terapéutica.
 
@@ -114,11 +114,12 @@ Aunque el puntaje del modelo es muy alto, la evidencia se reduce a un reporte de
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de fármaco único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Losartan Potassium 50 Mg (losartan potassium) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498f26a1-5030-4f9b-9599-07d50e912d41) |
 
 <!-- review:end log -->
 

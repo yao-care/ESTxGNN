@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la pentostatina inhibe la adenosina desaminasa (ADA), lo que provoca la depleción de linfocitos y la alteración del metabolismo de las purinas. Su eficacia en la leucemia de células peludas, una neoplasia linfoide, está establecida.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pentostatin (traducción no oficial): «La pentostatina es un potente inhibidor de estado de transición de la enzima adenosina desaminasa (ADA). La mayor actividad de la ADA se encuentra en las células del sistema linfoide; los linfocitos T tienen mayor actividad que los linfocitos B, y las neoplasias malignas de linfocitos T tienen mayor actividad de ADA que las neoplasias malignas de linfocitos B.» Texto original en inglés: "Pentostatin is a potent transition state inhibitor of the enzyme adenosine deaminase (ADA). The greatest activity of ADA is found in cells of the lymphoid system with T-cells having higher activity than B-cells, and T-cell malignancies having higher ADA activity than B-cell malignancies." ([DailyMed: Nipent (pentostatin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=674e0e6d-46ed-4868-9196-04019d667716), versión del 2026-10-19; consultado el 2026-11-19). Según la información conocida, la pentostatina inhibe la adenosina desaminasa (ADA), lo que provoca la depleción de linfocitos y la alteración del metabolismo de las purinas. Su eficacia en la leucemia de células peludas, una neoplasia linfoide, está establecida.
 
 La relación con la nueva indicación es débil. El rabdomiosarcoma embrionario botrioide de vagina es un tumor sólido pediátrico, biológicamente distinto de las neoplasias linfoides. Los datos compilados no respaldan un vínculo mecanístico entre la inhibición de ADA y la biología de este tumor. Una hipótesis general es que la alteración del metabolismo de purinas podría afectar a células tumorales de proliferación rápida, pero no está validada.
 
@@ -106,6 +106,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Estudios preclínicos en modelos de rabdomiosarcoma
 - Descarga y análisis del prospecto de AEMPS (advertencias y contraindicaciones)
 - Evaluación de la compatibilidad de vía de administración y de la similitud con la indicación original
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Nipent (pentostatin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=674e0e6d-46ed-4868-9196-04019d667716) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

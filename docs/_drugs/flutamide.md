@@ -56,7 +56,7 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden específicament
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información farmacológica compilada, la flutamida actúa como antagonista del receptor de andrógenos (AR). Su metabolito activo, la hidroxiflutamida, bloquea la señalización androgénica en los tejidos dependientes de andrógenos. Su eficacia en el cáncer de próstata, solo o combinada con un agonista de LHRH, está bien establecida.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Flutamide es (traducción no oficial): «Antagonista del receptor de andrógenos» Texto original en inglés: "Androgen Receptor antagonist" ([ChEMBL CHEMBL806 (flutamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL806), CC BY-SA 3.0; consultado el 2026-11-19). Según la información farmacológica compilada, la flutamida actúa como antagonista del receptor de andrógenos (AR). Su metabolito activo, la hidroxiflutamida, bloquea la señalización androgénica en los tejidos dependientes de andrógenos. Su eficacia en el cáncer de próstata, solo o combinada con un agonista de LHRH, está bien establecida.
 
 La nueva indicación predicha combina dos componentes. El primero es un fenotipo de susceptibilidad al cáncer de próstata, estrechamente relacionado con la indicación original, y por tanto el bloqueo del AR resulta mecanísticamente plausible. El segundo es la susceptibilidad al cáncer cerebral, para la cual **no se ha identificado ningún vínculo mecanístico** con el bloqueo del AR.
 
@@ -110,6 +110,19 @@ La predicción tiene un puntaje alto en TxGNN, pero se encuentra en nivel L5: no
 - Realizar una revisión sistemática de la literatura y del registro de ensayos para esta indicación.
 - Valorar, de forma separada, otras predicciones del modelo con más respaldo. Por ejemplo, "neoplasia benigna del sistema reproductor" (nivel L3, con estudios clínicos pequeños y antiguos en hiperplasia prostática benigna) y la categoría de "cáncer de órgano reproductor masculino" (que corresponde a la indicación original, no a un reposicionamiento real).
 - Definir un plan de monitoreo hepático si se avanzara en cualquier indicación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL806 (flutamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL806) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -60,7 +60,7 @@ con **6 ensayos clínicos** (2 de ellos con evidencia directa en dermatitis ató
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone actualmente de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento farmacológico general, ustekinumab bloquea la subunidad p40 compartida por la interleucina-12 (IL-12) y la interleucina-23 (IL-23), con lo que inhibe las vías inflamatorias Th1 y Th17. Su eficacia en psoriasis y artritis psoriásica está comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ustekinumab (traducción no oficial): «Los productos de ustekinumab son anticuerpos monoclonales humanos IgG1κ que se unen específicamente a la subunidad proteica p40 utilizada tanto por la citocina IL-12 como por la IL-23. La IL-12 y la IL-23 son citocinas de origen natural que participan en las respuestas inflamatorias e inmunitarias, como la activación de los linfocitos citolíticos naturales y la diferenciación y activación de los linfocitos T CD4+.» Texto original en inglés: "Ustekinumab products are human IgG1κ monoclonal antibodies that bind with specificity to the p40 protein subunit used by both the IL-12 and IL-23 cytokines. IL-12 and IL-23 are naturally occurring cytokines that are involved in inflammatory and immune responses, such as natural killer cell activation and CD4+ T-cell differentiation and activation." ([DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7), versión del 2026-11-11; consultado el 2026-11-19). Según el conocimiento farmacológico general, ustekinumab bloquea la subunidad p40 compartida por la interleucina-12 (IL-12) y la interleucina-23 (IL-23), con lo que inhibe las vías inflamatorias Th1 y Th17. Su eficacia en psoriasis y artritis psoriásica está comprobada.
 
 La dermatitis atópica se caracteriza sobre todo por una inflamación dominada por Th2, pero las lesiones crónicas también reciben contribuciones de las vías Th1, Th17 y Th22. Por eso existe una justificación mecanística plausible, aunque solo parcial. Además, tanto la psoriasis como la dermatitis son enfermedades inflamatorias crónicas de la piel.
 
@@ -146,11 +146,12 @@ Existen ensayos de fase 2 completados en dermatitis atópica, pero son pequeños
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamento de un solo principio activo, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Se trata de una predicción puramente computacional, sin vínculo mecanístico i
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en las fuentes consultadas. Según la información conocida, remdesivir es un profármaco análogo de nucleótido que inhibe la ARN polimerasa dependiente de ARN (RdRp) viral, y su uso establecido es antiviral.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Remdesivir (traducción no oficial): «El remdesivir es un fármaco antiviral con actividad contra el coronavirus 2 del síndrome respiratorio agudo grave (SARS-CoV-2). […] El remdesivir es un inhibidor de la ARN polimerasa dependiente de ARN (RdRp) del SARS-CoV-2, que es esencial para la replicación viral. El remdesivir es un profármaco nucleotídico de adenosina que se distribuye en las células, donde se metaboliza a un intermediario nucleósido monofosfato por acción de la carboxilesterasa 1 o la catepsina A, o ambas, según el tipo celular.» Texto original en inglés: "Remdesivir is an antiviral drug with activity against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). […] Remdesivir is an inhibitor of the SARS-CoV-2 RNA-dependent RNA polymerase (RdRp), which is essential for viral replication. Remdesivir is an adenosine nucleotide prodrug that distributes into cells where it is metabolized to a nucleoside monophosphate intermediate by carboxyesterase 1 and/or cathepsin A, depending upon the cell type." ([DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca), versión del 2026-07-29; consultado el 2026-11-19). Según la información conocida, remdesivir es un profármaco análogo de nucleótido que inhibe la ARN polimerasa dependiente de ARN (RdRp) viral, y su uso establecido es antiviral.
 
 La neoplasia endocrina múltiple es un síndrome tumoral hereditario (por ejemplo, mutaciones en MEN1 o RET) sin etiología viral ni diana viral. No se identifica ningún vínculo mecanístico entre la inhibición de la polimerasa viral y esta enfermedad.
 
@@ -98,6 +98,19 @@ La predicción para neoplasia endocrina múltiple es de nivel L5: no hay ensayos
 - Datos del mecanismo de acción desde DrugBank
 - Estudios preclínicos que justifiquen una hipótesis biológica para esta enfermedad
 - Valorar si otras predicciones del modelo (por ejemplo, VIH) tienen mejor sustento, aunque la evidencia actual tampoco demuestra eficacia de remdesivir en esa indicación (nivel L4)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

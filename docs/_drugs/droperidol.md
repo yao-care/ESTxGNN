@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de Tourette
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción del fármaco en los datos compilados. Según la información farmacológica conocida, droperidol es una butirofenona con potente antagonismo del receptor de dopamina D2.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Droperidol es (traducción no oficial): «Antagonista del receptor de serotonina 2a (5-HT2a); antagonista de los receptores de dopamina de tipo D2» Texto original en inglés: "Serotonin 2a (5-HT2a) receptor antagonist; D2-like dopamine receptor antagonist" ([ChEMBL CHEMBL1108 (droperidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1108), CC BY-SA 3.0; consultado el 2026-11-19). Según la información farmacológica conocida, droperidol es una butirofenona con potente antagonismo del receptor de dopamina D2.
 
 Otros antagonistas D2 de la misma familia, como haloperidol y pimozida, se utilizan en el síndrome de Tourette. Por eso el mecanismo es plausible: los tics se asocian a una señalización dopaminérgica alterada en los ganglios basales, y bloquear los receptores D2 puede reducirlos.
 
@@ -140,11 +140,12 @@ La indicación se basa solo en la predicción del modelo (L5), sin ensayos clín
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Las cinco autorizaciones están vigentes y son de monofármaco" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1108 (droperidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1108) |
 
 <!-- review:end log -->
 

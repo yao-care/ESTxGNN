@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para el **carcinoma de mama HER
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, ocrelizumab es un anticuerpo monoclonal humanizado que se une al antígeno CD20 y depleciona selectivamente los linfocitos B CD20+. Su eficacia en la esclerosis múltiple recurrente y primaria progresiva ha sido demostrada en los ensayos OPERA I/II y ORATORIO.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ocrelizumab (traducción no oficial): «Se desconoce el mecanismo preciso por el cual el ocrelizumab ejerce sus efectos terapéuticos en la esclerosis múltiple, pero se presume que implica la unión a CD20, un antígeno de superficie celular presente en los linfocitos pre-B y B maduros. Tras la unión a la superficie celular de los linfocitos B, el ocrelizumab produce citólisis celular dependiente de anticuerpos y lisis mediada por el complemento.» Texto original en inglés: "The precise mechanism by which ocrelizumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ocrelizumab results in antibody-dependent cellular cytolysis and complement-mediated lysis." ([DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d), versión del 2026-05-14; consultado el 2026-11-19). Según la información conocida, ocrelizumab es un anticuerpo monoclonal humanizado que se une al antígeno CD20 y depleciona selectivamente los linfocitos B CD20+. Su eficacia en la esclerosis múltiple recurrente y primaria progresiva ha sido demostrada en los ensayos OPERA I/II y ORATORIO.
 
 La relación entre la indicación original y la nueva es débil. La esclerosis múltiple es una enfermedad autoinmune mediada en parte por linfocitos B, mientras que el cáncer de mama HER2 positivo está impulsado por la señalización del receptor HER2 en las células epiteliales tumorales. Los datos compilados no respaldan ningún vínculo mecanístico directo entre la depleción de linfocitos B y este tumor.
 
@@ -98,6 +98,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Revisión sistemática de la literatura específica sobre anti-CD20 y cáncer de mama
 - Advertencias y contraindicaciones del prospecto de AEMPS (pendientes de obtener)
 - Evaluación de la seguridad, en particular el riesgo de infecciones e hipogammaglobulinemia, en pacientes oncológicos
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

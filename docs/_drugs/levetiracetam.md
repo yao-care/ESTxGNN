@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para el **déficit de beta-ceto
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la literatura recuperada, levetiracetam se une a la proteína de la vesícula sináptica SV2A y modula la liberación de neurotransmisores, lo que reduce la hiperexcitabilidad neuronal.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Levetiracetam (traducción no oficial): «Se desconoce(n) el(los) mecanismo(s) preciso(s) mediante el(los) cual(es) el levetiracetam ejerce su efecto antiepiléptico. Se ha descrito para el levetiracetam un sitio de unión neuronal saturable y estereoselectivo en tejido cerebral de rata. Los datos experimentales indican que este sitio de unión es la proteína de las vesículas sinápticas SV2A, que se cree que participa en la regulación de la exocitosis de las vesículas.» Texto original en inglés: "The precise mechanism(s) by which levetiracetam exerts its antiepileptic effect is unknown. A saturable and stereoselective neuronal binding site in rat brain tissue has been described for levetiracetam. Experimental data indicate that this binding site is the synaptic vesicle protein SV2A, thought to be involved in the regulation of vesicle exocytosis." ([DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e), versión del 2026-11-11; consultado el 2026-11-19). Según la literatura recuperada, levetiracetam se une a la proteína de la vesícula sináptica SV2A y modula la liberación de neurotransmisores, lo que reduce la hiperexcitabilidad neuronal.
 
 La epilepsia parcial y el estado epiléptico comparten la misma base fisiopatológica: una descarga neuronal excesiva y sostenida. Un fármaco que reduce la liberación de neurotransmisores excitadores es, por tanto, mecanísticamente aplicable a crisis prolongadas que no ceden con benzodiazepinas.
 
@@ -145,11 +145,12 @@ Hay dos ensayos de Fase 3 completados (NCT01960075 y NCT01150331), además de EC
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e) |
 
 <!-- review:end log -->
 

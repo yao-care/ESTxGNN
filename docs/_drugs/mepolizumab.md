@@ -56,7 +56,7 @@ pero actualmente solo cuenta con **0 ensayos clínicos** y **1 publicación** (u
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Mepolizumab es un anticuerpo monoclonal que bloquea la interleucina-5 (IL-5) y, con ello, reduce los eosinófilos. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada; esta descripción se basa en el conocimiento general de la clase del fármaco.
+Mepolizumab es un anticuerpo monoclonal que bloquea la interleucina-5 (IL-5) y, con ello, reduce los eosinófilos. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Mepolizumab (traducción no oficial): «Mepolizumab es un antagonista de la IL-5 (IgG1 kappa). La IL-5 es la principal citocina responsable del crecimiento y la diferenciación, el reclutamiento, la activación y la supervivencia de los eosinófilos. Mepolizumab se une a la IL-5 con una constante de disociación de 100 pM e inhibe la bioactividad de la IL-5 al bloquear su unión a la cadena alfa del complejo del receptor de IL-5 expresado en la superficie celular de los eosinófilos.» Texto original en inglés: "Mepolizumab is an IL-5 antagonist (IgG1 kappa). IL-5 is the major cytokine responsible for the growth and differentiation, recruitment, activation, and survival of eosinophils. Mepolizumab binds to IL-5 with a dissociation constant of 100 pM, inhibiting the bioactivity of IL-5 by blocking its binding to the alpha chain of the IL-5 receptor complex expressed on the eosinophil cell surface." ([DailyMed: Nucala (mepolizumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fefb887c-e4ac-431e-8893-e9d1a5a63fea), versión del 2025-08-06; consultado el 2026-11-19).
 
 La relación con la nueva indicación es limitada. Un vínculo plausible solo existiría en el subgrupo de pacientes en que una desregulación inmune impulsada por eosinófilos (por ejemplo, síndrome hipereosinofílico con diátesis inmune resistente a esteroides) contribuya a la destrucción de plaquetas. No hay evidencia de que el bloqueo de IL-5 actúe sobre los mecanismos centrales de la trombocitopenia inmune primaria (aclaramiento plaquetario mediado por autoanticuerpos y receptores Fc, y alteración de la megacariopoyesis).
 
@@ -100,6 +100,19 @@ La predicción se apoya solo en un puntaje computacional y en un único reporte 
 - Evaluar si existe un subgrupo con inmunodesregulación mediada por eosinófilos donde el bloqueo de IL-5 sea biológicamente relevante
 - Reconciliar las entradas "trombocitopenia por destrucción inmune" y "trombocitopenia autoinmune" para evitar duplicidad
 - Buscar estudios observacionales o ensayos que justifiquen avanzar a una fase de evaluación posterior
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Nucala (mepolizumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fefb887c-e4ac-431e-8893-e9d1a5a63fea) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

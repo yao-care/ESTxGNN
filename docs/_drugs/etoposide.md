@@ -56,7 +56,7 @@ con **32 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información conocida, el etopósido es un veneno de la topoisomerasa II: provoca roturas bicatenarias del ADN en células de división rápida. Su eficacia en el carcinoma pulmonar de células pequeñas y en los tumores germinales está comprobada, y mecanísticamente es aplicable a otros tumores de crecimiento rápido.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Etoposide (traducción no oficial): «El etopósido provoca la inducción de roturas de las cadenas de ADN mediante una interacción con la ADN-topoisomerasa II o la formación de radicales libres, lo que conduce a la detención del ciclo celular, principalmente en la fase G2 del ciclo celular, y a la muerte celular.» Texto original en inglés: "Etoposide causes the induction of DNA strand breaks by an interaction with DNA-topoisomerase II or the formation of free radicals, leading to cell cycle arrest, primarily at the G2 stage of the cell cycle, and cell death." ([DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059), versión del 2026-10-07; consultado el 2026-11-19). Según la información conocida, el etopósido es un veneno de la topoisomerasa II: provoca roturas bicatenarias del ADN en células de división rápida. Su eficacia en el carcinoma pulmonar de células pequeñas y en los tumores germinales está comprobada, y mecanísticamente es aplicable a otros tumores de crecimiento rápido.
 
 El sarcoma de Ewing es un tumor agresivo de hueso y partes blandas, propio de niños, adolescentes y adultos jóvenes, muy sensible a agentes genotóxicos como el etopósido. La literatura compilada señala que las células del sarcoma de Ewing sufren estrés transcripcional (bucles R) que bloquea la reparación mediante BRCA1, lo que ayuda a explicar esa sensibilidad (PMID 29513652).
 
@@ -149,11 +149,12 @@ Varios ensayos de Fase 3 (EICESS 92, EURO-E.W.I.N.G.99, estudios del Children's 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 7 autorizaciones vigentes en total, todas de monofármaco; se listan las 5 principales (las otras dos son Etopósido Sandoz y Etopósido Hi" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059) |
 
 <!-- review:end log -->
 

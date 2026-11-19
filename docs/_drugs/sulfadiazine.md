@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos** y solo hay **20 publicaciones** de
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento farmacológico general, la sulfadiazina es una sulfonamida que inhibe la dihidropteroato sintetasa, enzima de la vía de biosíntesis del folato. *Pneumocystis jirovecii* depende de esta vía, por lo que existe un vínculo mecanístico plausible a nivel de clase.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Sulfadiazine (traducción no oficial): «Las sulfonamidas sistémicas son agentes bacteriostáticos que tienen un espectro de actividad similar. Las sulfonamidas inhiben de forma competitiva la síntesis bacteriana de ácido fólico (ácido pteroilglutámico) a partir del ácido aminobenzoico. Las cepas resistentes son capaces de utilizar precursores del ácido fólico o ácido fólico preformado.» Texto original en inglés: "The systemic sulfonamides are bacteriostatic agents having a similar spectrum of activity. Sulfonamides competitively inhibit bacterial synthesis of folic acid (pteroylglutamic acid) from aminobenzoic acid. Resistant strains are capable of utilizing folic acid precursors or preformed folic acid." ([DailyMed: sulfadiazine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6032d6f7-cbce-4e5d-841c-a1e24b616f91), versión del 2024-09-24; consultado el 2026-11-19). Según el conocimiento farmacológico general, la sulfadiazina es una sulfonamida que inhibe la dihidropteroato sintetasa, enzima de la vía de biosíntesis del folato. *Pneumocystis jirovecii* depende de esta vía, por lo que existe un vínculo mecanístico plausible a nivel de clase.
 
 Las sulfonamidas, en particular el sulfametoxazol combinado con trimetoprima (TMP-SMX), son tratamientos establecidos de la neumonía por *Pneumocystis*. La sulfadiazina se usa sobre todo junto con pirimetamina para la toxoplasmosis, y es probable que muchas de las publicaciones halladas reflejen esa coocurrencia de ambas infecciones oportunistas en pacientes con SIDA.
 
@@ -114,6 +114,19 @@ La predicción se apoya solo en el puntaje del modelo y en un vínculo mecaníst
 ---
 
 **Nota sobre la segunda predicción (queratoconjuntivitis epitelial punteada):** puntaje TxGNN de 0.9936, nivel de evidencia L5, sin ensayos clínicos ni literatura. No es plausible que una sulfonamida sistémica sea eficaz, dado que las causas suelen ser virales o relacionadas con sequedad ocular. Decisión: **Hold**, solo como generación de hipótesis.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: sulfadiazine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6032d6f7-cbce-4e5d-841c-a1e24b616f91) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

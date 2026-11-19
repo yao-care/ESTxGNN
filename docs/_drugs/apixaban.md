@@ -54,7 +54,7 @@ Apixabán es un anticoagulante oral que inhibe directamente el factor Xa. El mod
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Apixabán inhibe de forma directa y selectiva el factor Xa de la coagulación. No se dispone de datos detallados sobre su mecanismo de acción en los datos compilados para este informe, por lo que no fue posible un contraste mecanístico más profundo.
+Apixabán inhibe de forma directa y selectiva el factor Xa de la coagulación. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Apixaban (traducción no oficial): «El apixabán es un inhibidor selectivo del FXa. No requiere antitrombina III para ejercer su actividad antitrombótica. El apixabán inhibe el FXa libre y el unido al coágulo, así como la actividad de la protrombinasa. El apixabán no tiene ningún efecto directo sobre la agregación plaquetaria, pero inhibe indirectamente la agregación plaquetaria inducida por la trombina.» Texto original en inglés: "Apixaban is a selective inhibitor of FXa. It does not require antithrombin III for antithrombotic activity. Apixaban inhibits free and clot-bound FXa, and prothrombinase activity. Apixaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin." ([DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25), versión del 2026-09-24; consultado el 2026-11-19).
 
 La hipótesis teórica es que la migraña con aura, sobre todo en pacientes con foramen oval permeable o anticuerpos antifosfolípido, podría implicar embolia paradójica o microtrombosis, de modo que un tratamiento antitrombótico podría reducir el aura o la carga de migraña.
 
@@ -101,6 +101,18 @@ Ningún estudio respalda el uso de apixabán en la migraña; los dos casos clín
 - Estudios clínicos que evalúen directamente apixabán en migraña, con criterios de valoración específicos.
 - Datos del mecanismo de acción y del vínculo biológico con la migraña.
 - Información de seguridad del prospecto (advertencias y contraindicaciones) para valorar el riesgo hemorrágico en esta población.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

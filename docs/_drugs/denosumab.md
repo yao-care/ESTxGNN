@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, denosumab inhibe RANKL (ligando del receptor activador del factor nuclear κB), y su eficacia en osteoporosis está comprobada. Mecanísticamente, la vía RANKL/RANK se ha vinculado en la literatura con inflamación, calcificación vascular y disfunción metabólica, procesos que podrían cruzarse con la patología microvascular diabética.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Denosumab (traducción no oficial): «Los productos de denosumab se unen al RANKL, una proteína transmembrana o soluble esencial para la formación, la función y la supervivencia de los osteoclastos, las células responsables de la resorción ósea. Los productos de denosumab impiden que el RANKL active su receptor, RANK, en la superficie de los osteoclastos y sus precursores.» Texto original en inglés: "Denosumab products bind to RANKL, a transmembrane or soluble protein essential for the formation, function, and survival of osteoclasts, the cells responsible for bone resorption. Denosumab products prevent RANKL from activating its receptor, RANK, on the surface of osteoclasts and their precursors." ([DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd), versión del 2026-11-04; consultado el 2026-11-19). Según la información conocida, denosumab inhibe RANKL (ligando del receptor activador del factor nuclear κB), y su eficacia en osteoporosis está comprobada. Mecanísticamente, la vía RANKL/RANK se ha vinculado en la literatura con inflamación, calcificación vascular y disfunción metabólica, procesos que podrían cruzarse con la patología microvascular diabética.
 
 La relación entre la indicación original y la nueva es indirecta: la osteoporosis es un trastorno óseo, mientras que la retinopatía diabética es una complicación microvascular de la diabetes. Un posible puente sería que la inhibición de RANKL mejore el estado glucémico o metabólico y, con ello, reduzca complicaciones microvasculares. Esto es una inferencia especulativa y no está demostrada con la evidencia disponible.
 
@@ -113,6 +113,19 @@ La predicción tiene un puntaje alto, pero carece de ensayos clínicos y de lite
 - Revisar el texto completo de PMID 38899553 para extraer los resultados de retinopatía.
 - Evaluar la plausibilidad biológica en modelos preclínicos antes de plantear ensayos clínicos.
 - Valorar la relevancia de las interacciones con corticosteroides en pacientes diabéticos.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

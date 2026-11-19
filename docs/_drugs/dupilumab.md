@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis (bronchitis)*
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Dupilumab bloquea la subunidad IL-4Rα y, con ello, la señalización de IL-4 e IL-13, que impulsa la inflamación tipo 2 de las vías respiratorias. No se dispone de datos detallados del mecanismo de acción en la información compilada, pero este mecanismo es conocido para el fármaco.
+Dupilumab bloquea la subunidad IL-4Rα y, con ello, la señalización de IL-4 e IL-13, que impulsa la inflamación tipo 2 de las vías respiratorias. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dupilumab (traducción no oficial): «Dupilumab es un anticuerpo monoclonal humano IgG4 que inhibe la señalización de la interleucina-4 (IL-4) y la interleucina-13 (IL-13) al unirse específicamente a la subunidad IL-4Rα, compartida por los complejos de receptores de IL-4 e IL-13. Dupilumab inhibe la señalización de IL-4 a través del receptor de tipo I y la señalización tanto de IL-4 como de IL-13 a través del receptor de tipo II.» Texto original en inglés: "Dupilumab is a human monoclonal IgG4 antibody that inhibits interleukin-4 (IL-4) and interleukin-13 (IL-13) signaling by specifically binding to the IL-4Rα subunit shared by the IL-4 and IL-13 receptor complexes. Dupilumab inhibits IL-4 signaling via the Type I receptor and both IL-4 and IL-13 signaling through the Type II receptor." ([DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780), versión del 2026-04-22; consultado el 2026-11-19).
 
 Esta lógica es pertinente en enfermedades respiratorias con fenotipo eosinofílico o tipo 2, como el asma, la EPOC tipo 2 y la bronquitis plástica eosinofílica pediátrica. Por ello, un subgrupo de pacientes con bronquitis de perfil tipo 2 podría beneficiarse.
 
@@ -112,6 +112,18 @@ La puntuación del modelo es alta, pero ningún estudio evalúa dupilumab en bro
 - Estudios o ensayos que evalúen dupilumab directamente en ese fenotipo.
 - Datos detallados del mecanismo de acción y de las advertencias y contraindicaciones del prospecto.
 - Plan de seguimiento de seguridad, incluidas las interacciones con inmunosupresores y otros biológicos.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

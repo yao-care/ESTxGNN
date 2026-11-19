@@ -56,7 +56,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, tinidazol pertenece a la clase de los 5-nitroimidazoles, su eficacia en infecciones vaginales por *Trichomonas* y vaginosis bacteriana está establecida, y mecanísticamente su utilidad se limitaría a escenarios con componente infeccioso.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tinidazole (traducción no oficial): «El tinidazol es un agente antiprotozoario y antibacteriano.. […] El tinidazol es un agente antiprotozoario y antibacteriano. El grupo nitro del tinidazol es reducido por extractos celulares de Trichomonas. El radical nitro libre generado como resultado de esta reducción puede ser responsable de la actividad antiprotozoaria.» Texto original en inglés: "Tinidazole is an antiprotozoal, antibacterial agent.. […] Tinidazole is an antiprotozoal, antibacterial agent. The nitro- group of tinidazole is reduced by cell extracts of Trichomonas. The free nitro radical generated as a result of this reduction may be responsible for the antiprotozoal activity." ([DailyMed: Tindazole (tinidazole) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45fa3ebd-52da-4987-82a1-4a64f99785a7), versión del 2026-08-18; consultado el 2026-11-19). Según la información conocida, tinidazol pertenece a la clase de los 5-nitroimidazoles, su eficacia en infecciones vaginales por *Trichomonas* y vaginosis bacteriana está establecida, y mecanísticamente su utilidad se limitaría a escenarios con componente infeccioso.
 
 La vaginitis atrófica posmenopáusica se debe principalmente a la deficiencia de estrógenos y no a una infección. Por ello, el mecanismo antimicrobiano difícilmente abordaría la patología central; en el mejor de los casos, el beneficio se limitaría a infecciones secundarias.
 
@@ -107,6 +107,19 @@ La predicción carece de ensayos clínicos y literatura, y su racionalidad biol�
 - Evidencia clínica o preclínica de que un componente infeccioso anaerobio/protozoario contribuya a la vaginitis atrófica
 - Evaluación de compatibilidad de vía de administración
 - Revisión de seguridad dados los riesgos señalados (neutropenia, neuropatía, epilepsia) y las interacciones
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tindazole (tinidazole) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45fa3ebd-52da-4987-82a1-4a64f99785a7) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

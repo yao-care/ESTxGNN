@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio tri
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, primidona es un fármaco antiepiléptico cuya eficacia en epilepsia está bien establecida (es metabolizada en parte a fenobarbital), pero no hay datos que sustenten un mecanismo aplicable a una neoplasia.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Primidone (traducción no oficial): «MYSOLINE eleva los umbrales convulsivos por electrochoque o por choque químico, o altera los patrones de las convulsiones, en animales de experimentación. Se desconoce el mecanismo o los mecanismos de la acción antiepiléptica de la primidona. La primidona per se tiene actividad anticonvulsiva, al igual que sus dos metabolitos, el fenobarbital y la feniletilmalonamida (PEMA).» Texto original en inglés: "MYSOLINE raises electro- or chemoshock seizure thresholds or alters seizure patterns in experimental animals. The mechanism(s) of primidone’s antiepileptic action is not known. Primidone per se has anticonvulsant activity as do its two metabolites, phenobarbital and phenylethylmalonamide (PEMA)." ([DailyMed: Mysoline (primidone) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af593171-dabb-4ea3-b44c-89ed457b2c46), versión del 2026-09-10; consultado el 2026-11-19). Según la información conocida, primidona es un fármaco antiepiléptico cuya eficacia en epilepsia está bien establecida (es metabolizada en parte a fenobarbital), pero no hay datos que sustenten un mecanismo aplicable a una neoplasia.
 
 La relación entre la indicación original y la nueva es débil. Primidona no tiene actividad antineoplásica conocida, y los datos compilados no respaldan un vínculo mecanístico. El puntaje tan alto (0.9999) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -107,6 +107,19 @@ La predicción para neoplasia del nervio trigémino se basa solo en el modelo (n
 - Obtener y analizar las advertencias y contraindicaciones del prospecto de la AEMPS, así como el texto de indicación autorizada.
 - Revisión sistemática de la evidencia de primidona en neuralgia del trigémino y otros usos no epilépticos, frente a la carbamazepina.
 - Evaluar la seguridad en poblaciones específicas (porfiria, insuficiencia hepática o renal, citopenias) y el riesgo de interacciones por inducción enzimática.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Mysoline (primidone) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af593171-dabb-4ea3-b44c-89ed457b2c46) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

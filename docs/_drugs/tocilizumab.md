@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **espondilitis anquilosant
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, tocilizumab es un anticuerpo monoclonal humanizado dirigido contra el receptor de IL-6, su eficacia en artritis reumatoide y artritis idiopática juvenil está bien establecida, y mecanísticamente podría ser aplicable a otras enfermedades inflamatorias del sistema musculoesquelético.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tocilizumab (traducción no oficial): «Los productos de tocilizumab se unen a los receptores de IL-6 tanto solubles como unidos a membrana (sIL-6R y mIL-6R), y se ha demostrado que inhiben la señalización mediada por IL-6 a través de estos receptores. La IL-6 es una citocina proinflamatoria pleiotrópica producida por diversos tipos celulares, incluidos los linfocitos T y B, los linfocitos, los monocitos y los fibroblastos.» Texto original en inglés: "Tocilizumab products bind to both soluble and membrane-bound IL-6 receptors (sIL-6R and mIL-6R), and have been shown to inhibit IL-6-mediated signaling through these receptors. IL-6 is a pleiotropic pro-inflammatory cytokine produced by a variety of cell types including T- and B-cells, lymphocytes, monocytes and fibroblasts." ([DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d), versión del 2026-10-20; consultado el 2026-11-19). Según la información conocida, tocilizumab es un anticuerpo monoclonal humanizado dirigido contra el receptor de IL-6, su eficacia en artritis reumatoide y artritis idiopática juvenil está bien establecida, y mecanísticamente podría ser aplicable a otras enfermedades inflamatorias del sistema musculoesquelético.
 
 La IL-6 participa en la inflamación y en la remodelación ósea en la espondiloartritis axial, por lo que el bloqueo de su receptor es biológicamente plausible. La espondilitis anquilosante comparte con la artritis reumatoide una base inflamatoria mediada por citocinas.
 
@@ -126,6 +126,18 @@ Aunque el bloqueo de IL-6 es biológicamente plausible en la espondilitis anquil
 | Vasculitis reumatoide | 0.9998 | L4 | Pregunta de investigación | Solo informes de casos; señal de seguridad por reacciones tipo vasculitis |
 | Enfermedad vertebral | 0.9993 | L4 | Hold | Categoría vaga, evidencia indirecta |
 | Hipermovilidad del coxis, enfermedad de Kümmell | 0.9998 | L5 | Hold | Solo predicción computacional, sin mecanismo plausible |
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno hipotensivo**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, midodrina es un profármaco cuyo metabolito activo, la desglimidodrina, actúa como agonista alfa-1 adrenérgico, provocando vasoconstricción arteriolar y venosa y elevando la presión arterial.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Midodrine (traducción no oficial): «El clorhidrato de midodrina forma un metabolito activo, la desglimidodrina, que es un agonista alfa 1 y ejerce sus acciones mediante la activación de los receptores alfa-adrenérgicos de la vasculatura arteriolar y venosa, lo que produce un aumento del tono vascular y una elevación de la presión arterial. La desglimidodrina no estimula los receptores beta-adrenérgicos cardíacos.» Texto original en inglés: "Midodrine hydrochloride forms an active metabolite, desglymidodrine, that is an alpha 1 -agonist, and exerts its actions via activation of the alpha-adrenergic receptors of the arteriolar and venous vasculature, producing an increase in vascular tone and elevation of blood pressure. Desglymidodrine does not stimulate cardiac beta-adrenergic receptors." ([DailyMed: midodrine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6705af-bb72-4edb-863a-93a351bd6dba), versión del 2026-11-12; consultado el 2026-11-19). Según la información conocida, midodrina es un profármaco cuyo metabolito activo, la desglimidodrina, actúa como agonista alfa-1 adrenérgico, provocando vasoconstricción arteriolar y venosa y elevando la presión arterial.
 
 La hipotensión ortostática y el trastorno hipotensivo comparten la misma fisiopatología de fondo: una presión arterial insuficiente por falta de tono vascular. Por ello, el mecanismo vasoconstrictor es directamente aplicable. Es importante señalar que esta indicación coincide en buena parte con el uso ya establecido, por lo que se interpreta más como una confirmación de la indicación conocida que como un reposicionamiento genuino.
 
@@ -110,6 +110,19 @@ Existe un ensayo de Fase 2 completado y una amplia literatura de revisión que r
 - Definir un plan de monitorización de la presión arterial en decúbito, la frecuencia cardíaca y la función urinaria, así como una revisión de las interacciones con otros vasoconstrictores, betabloqueantes y glucósidos cardíacos.
 
 **Nota sobre otras predicciones:** las demás indicaciones predichas (p. ej., prionopatía sensible a proteasa de forma variable, síndrome faciodigitogenital, trastorno por déficit de atención e hiperactividad, obesidad monogénica, bloqueo sinoauricular y enfermedad del nodo sinusal) no cuentan con ensayos clínicos ni con un vínculo mecanístico plausible, y se recomienda **Hold**. En el caso de las alteraciones del nodo sinusal, la posible bradicardia refleja de midodrina supone además una preocupación de seguridad.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: midodrine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6705af-bb72-4edb-863a-93a351bd6dba) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

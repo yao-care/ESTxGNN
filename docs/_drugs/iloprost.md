@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, iloprost es un análogo de la prostaciclina que actúa a través del receptor IP y la señalización del AMPc. Produce vasodilatación pulmonar e inhibe la agregación plaquetaria y la proliferación del músculo liso. Su eficacia en la hipertensión arterial pulmonar está establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Iloprost (traducción no oficial): «El iloprost es un análogo sintético de la prostaciclina PGI 2. El iloprost es un vasodilatador e inhibe la agregación plaquetaria.» Texto original en inglés: "Iloprost is a synthetic analog of prostacyclin PGI 2. Iloprost is a vasodilator and inhibits platelet aggregation." ([DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4), versión del 2026-08-13; consultado el 2026-11-19). Según la información conocida, iloprost es un análogo de la prostaciclina que actúa a través del receptor IP y la señalización del AMPc. Produce vasodilatación pulmonar e inhibe la agregación plaquetaria y la proliferación del músculo liso. Su eficacia en la hipertensión arterial pulmonar está establecida.
 
 La relación entre la indicación original y la nueva es débil. La hipotricosis simple es un trastorno genético del folículo piloso (por ejemplo, variantes en *CDSN* o *APCDD1*) y no tiene una vía de prostaciclina establecida. Solo existe una conexión especulativa: otros análogos de prostaglandinas, como bimatoprost, influyen en el crecimiento del cabello.
 
@@ -115,6 +115,19 @@ La predicción carece de ensayos clínicos, literatura y vínculo mecanístico p
 - Revisión del prospecto de la AEMPS para advertencias y contraindicaciones
 
 **Nota complementaria:** entre las demás predicciones del modelo, la hipertensión arterial pulmonar asociada a enfermedad del tejido conectivo muestra el respaldo más sólido (nivel L3, con estudios observacionales y un estudio preclínico). Sin embargo, es un subgrupo dentro de la clase ya aprobada y no un reposicionamiento propiamente dicho. Si el objetivo es priorizar líneas de investigación, esa sería más prometedora que la hipotricosis.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

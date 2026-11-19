@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la prasterona es un precursor hormonal (DHEA) que se convierte localmente en andrógenos y estrógenos. Su eficacia se ha establecido en la atrofia vulvovaginal con dispareunia, y se ha estudiado por sus propiedades inmunomoduladoras en el lupus.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Prasterone (traducción no oficial): «La prasterona es un esteroide endógeno inactivo que se convierte en andrógenos y/o estrógenos activos. El mecanismo de acción de INTRAROSA en mujeres posmenopáusicas con atrofia vulvar y vaginal no está completamente establecido.» Texto original en inglés: "Prasterone is an inactive endogenous steroid and is converted into active androgens and/or estrogens. The mechanism of action of INTRAROSA in postmenopausal women with vulvar and vaginal atrophy is not fully established." ([DailyMed: Intrarosa (prasterone) prescribing information, Millicent US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7), versión del 2026-07-17; consultado el 2026-11-19). Según la información conocida, la prasterona es un precursor hormonal (DHEA) que se convierte localmente en andrógenos y estrógenos. Su eficacia se ha establecido en la atrofia vulvovaginal con dispareunia, y se ha estudiado por sus propiedades inmunomoduladoras en el lupus.
 
 Para la deficiencia del cofactor 2 de la heparina (SERPIND1), **no se ha identificado un vínculo mecanístico establecido**. La puntuación del modelo es muy alta (0,9999), pero proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Cualquier relación sería especulativa, por ejemplo, mediante una modulación hormonal de la síntesis hepática de proteínas de coagulación.
 
@@ -95,6 +95,19 @@ La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos clínic
 - Completar los datos del mecanismo de acción (p. ej., consultando DrugBank).
 - Realizar una búsqueda bibliográfica dirigida, priorizando la esclerodermia como hipótesis más plausible desde el punto de vista biológico.
 - Evaluar la compatibilidad de la vía de administración (actualmente solo óvulo vaginal) con la nueva indicación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Intrarosa (prasterone) prescribing information, Millicent US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

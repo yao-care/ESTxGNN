@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, caplacizumab es un nanocuerpo humanizado dirigido al dominio A1 del vWF, que bloquea la interacción entre el vWF y el receptor plaquetario GPIb-IX-V, evitando la adhesión plaquetaria y la microtrombosis.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Caplacizumab (traducción no oficial): «Caplacizumab-yhdp se dirige al dominio A1 del vWF e inhibe la interacción entre el vWF y las plaquetas, con lo que reduce tanto la adhesión plaquetaria mediada por el vWF como el consumo de plaquetas.» Texto original en inglés: "Caplacizumab-yhdp targets the A1-domain of vWF, and inhibits the interaction between vWF and platelets, thereby reducing both vWF-mediated platelet adhesion and platelet consumption." ([DailyMed: Cablivi (caplacizumab) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2348f06e-8004-4040-832e-e9e86a39f905), versión del 2026-04-24; consultado el 2026-11-19). Según la información conocida, caplacizumab es un nanocuerpo humanizado dirigido al dominio A1 del vWF, que bloquea la interacción entre el vWF y el receptor plaquetario GPIb-IX-V, evitando la adhesión plaquetaria y la microtrombosis.
 
 En la púrpura trombocitopénica trombótica (PTT), la deficiencia grave de ADAMTS13 deja multímeros ultragrandes de vWF que se unen a las plaquetas. Caplacizumab interrumpe este proceso, por lo que su eficacia en la indicación original está bien establecida.
 
@@ -110,6 +110,19 @@ La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni l
 - Evaluación formal del riesgo hemorrágico antes de considerar cualquier estudio clínico
 
 *Observación adicional:* otras indicaciones predichas (pseudo-enfermedad de von Willebrand, trombastenia de Glanzmann, síndrome de Scott, hemofilia, entre otras) también carecen de evidencia y presentan preocupaciones de seguridad similares. La única con respaldo sólido es la púrpura trombocitopénica trombótica, que corresponde al uso ya autorizado y no a un reposicionamiento.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cablivi (caplacizumab) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2348f06e-8004-4040-832e-e9e86a39f905) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

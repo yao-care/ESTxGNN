@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **esotropía**, pero actua
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general, dibotermina alfa es BMP-2 recombinante humana, un factor de crecimiento que induce la formación de hueso y cartílago cuando se aplica localmente sobre una matriz de implantación.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dibotermin Alfa es (traducción no oficial): «Agonista del receptor de proteína morfogenética ósea tipo 1A; agonista del receptor de activina tipo 2B; agonista del receptor de proteína morfogenética ósea tipo 2; agonista del receptor de proteína morfogenética ósea tipo 1B» Texto original en inglés: "Bone morphogenetic protein receptor type-1A agonist; Activin receptor type-2B agonist; Bone morphogenetic protein receptor type-2 agonist; Bone morphogenetic protein receptor type-1B agonist" ([ChEMBL CHEMBL2109171 (dibotermin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109171), CC BY-SA 3.0; consultado el 2026-11-19). Según el conocimiento general, dibotermina alfa es BMP-2 recombinante humana, un factor de crecimiento que induce la formación de hueso y cartílago cuando se aplica localmente sobre una matriz de implantación.
 
 Para la esotropía **no se ha establecido un vínculo mecanístico**. La esotropía es una desviación ocular convergente relacionada con los músculos extraoculares y el control neural, mientras que dibotermina alfa actúa sobre el tejido óseo. El puntaje elevado del modelo (0.9997) es solo una predicción computacional, sin ensayos ni literatura de apoyo.
 
@@ -110,6 +110,19 @@ La predicción para esotropía se basa únicamente en el modelo (L5), sin ensayo
 - Realizar estudios preclínicos o de mecanismo que justifiquen un papel de BMP-2 en la esotropía
 - Evaluar la compatibilidad de la vía de administración (implante en matriz) con la nueva indicación
 - Si se considera cáncer de mama, evaluar primero el riesgo de promoción tumoral
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL2109171 (dibotermin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109171) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

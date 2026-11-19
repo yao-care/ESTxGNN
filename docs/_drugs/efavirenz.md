@@ -56,7 +56,7 @@ con **0 ensayos clínicos** y **14 publicaciones** (en su mayoría estudios en a
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Efavirenz actúa inhibiendo la transcriptasa inversa (TI) del VIH-1 al unirse a un sitio alostérico de la enzima. Actualmente no se dispone de datos detallados del mecanismo de acción en los datos compilados para este informe, pero esta clase farmacológica es bien conocida.
+Efavirenz actúa inhibiendo la transcriptasa inversa (TI) del VIH-1 al unirse a un sitio alostérico de la enzima. Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Efavirenz (traducción no oficial): «El efavirenz es un fármaco antiviral. […] El efavirenz es un INNTI del VIH-1. La actividad del efavirenz está mediada predominantemente por la inhibición no competitiva de la transcriptasa inversa del VIH-1. El efavirenz no inhibe la transcriptasa inversa del VIH-2 ni las ADN polimerasas celulares humanas α, β, γ y δ.» Texto original en inglés: "Efavirenz is an antiviral drug. […] Efavirenz is an NNRTI of HIV-1. Efavirenz activity is mediated predominantly by noncompetitive inhibition of HIV-1 reverse transcriptase. HIV-2 reverse transcriptase and human cellular DNA polymerases α,β, γ, and δ are not inhibited by efavirenz." ([DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358), versión del 2024-06-28; consultado el 2026-11-19).
 
 El virus de inmunodeficiencia simia (VIS) nativo es intrínsecamente resistente a los ITINN. Sin embargo, las quimeras RT-SHIV (VIS que porta la TI del VIH-1) sí son sensibles. En macacos rhesus y de cola de cerdo infectados con RT-SHIV, efavirenz, solo o en combinación con lamivudina y tenofovir, redujo la carga viral plasmática y ayudó a estudiar la cinética de decaimiento viral y la resistencia.
 
@@ -112,6 +112,18 @@ La evidencia (nivel L4) procede solo de estudios en animales con la quimera RT-S
 - Texto de advertencias y contraindicaciones del prospecto de la AEMPS
 - Definir si la predicción tiene valor más allá de su uso como modelo preclínico de investigación
 - Evaluación de seguridad, dado el perfil de efectos neuropsiquiátricos de efavirenz
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

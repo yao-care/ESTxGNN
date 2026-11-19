@@ -60,7 +60,7 @@ Cabe señalar que esta predicción se solapa en gran medida con la indicación y
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información conocida, sonidegib es un antagonista del receptor Smoothened (SMO), una molécula similar a un receptor acoplado a proteína G esencial para la señalización de las proteínas Hedgehog. Su eficacia en carcinoma basocelular avanzado ha sido comprobada, y mecanísticamente es aplicable al cáncer de piel dependiente de Hedgehog.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Sonidegib (traducción no oficial): «El sonidegib es un inhibidor de la vía Hh. El sonidegib se une a Smoothened, una proteína transmembrana implicada en la transducción de señales de Hh, y la inhibe.» Texto original en inglés: "Sonidegib is an inhibitor of the Hh pathway. Sonidegib binds to and inhibits Smoothened, a transmembrane protein involved in Hh signal transduction." ([DailyMed: Odomzo (sonidegib) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=028312dc-d155-4fd5-8abd-6bb9f011d3cc), versión del 2024-12-31; consultado el 2026-11-19). Según la información conocida, sonidegib es un antagonista del receptor Smoothened (SMO), una molécula similar a un receptor acoplado a proteína G esencial para la señalización de las proteínas Hedgehog. Su eficacia en carcinoma basocelular avanzado ha sido comprobada, y mecanísticamente es aplicable al cáncer de piel dependiente de Hedgehog.
 
 El carcinoma basocelular (CBC) está impulsado por la activación aberrante de la vía Hedgehog (mutaciones en PTCH1/SMO), que sonidegib inhibe. La indicación predicha, "cáncer de piel", engloba al CBC, por lo que se solapa con el uso ya aprobado (CBC localmente avanzado). Se trata, por tanto, de una categoría más amplia o adyacente y no de un uso completamente nuevo.
 
@@ -150,6 +150,19 @@ Existe un ensayo aleatorizado de Fase 2 completado (NCT01327053) que respalda la
 ### Nota sobre otras indicaciones predichas
 
 Entre las demás predicciones, la **xerodermia pigmentosa** (L4, solo un reporte de caso de 2026 sobre múltiples CBC en un paciente con esta enfermedad, con beneficio indirecto sobre los tumores) merece seguimiento como pregunta de investigación. El **meduloblastoma con nodularidad extensa** es mecanísticamente plausible (vía SHH/SMO) pero carece de ensayos y literatura, y exigiría abordar la toxicidad sobre las placas de crecimiento en pacientes pediátricos; se mantiene en Hold. El resto de las predicciones (L5) carece de evidencia y de fundamento mecanístico claro.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Odomzo (sonidegib) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=028312dc-d155-4fd5-8abd-6bb9f011d3cc) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

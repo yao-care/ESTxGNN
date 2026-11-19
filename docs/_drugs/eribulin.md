@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Eribulina inhibe la dinámica de los microtúbulos y tiene efecto antimitótico. No se dispone de datos detallados del mecanismo de acción en las fuentes consultadas, pero esta es su clase farmacológica conocida. Su uso se centra en tumores de crecimiento rápido, como el liposarcoma.
+Eribulina inhibe la dinámica de los microtúbulos y tiene efecto antimitótico. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Eribulin (traducción no oficial): «La eribulina inhibe la fase de crecimiento de los microtúbulos sin afectar la fase de acortamiento y secuestra la tubulina en agregados no productivos. La eribulina ejerce sus efectos mediante un mecanismo antimitótico basado en la tubulina que conduce al bloqueo del ciclo celular en G 2 /M, a la desorganización de los husos mitóticos y, en última instancia, a la muerte celular por apoptosis tras un bloqueo mitótico prolongado.» Texto original en inglés: "Eribulin inhibits the growth phase of microtubules without affecting the shortening phase and sequesters tubulin into nonproductive aggregates. Eribulin exerts its effects via a tubulin-based antimitotic mechanism leading to G 2 /M cell-cycle block, disruption of mitotic spindles, and, ultimately, apoptotic cell death after prolonged mitotic blockage." ([DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822), versión del 2025-11-07; consultado el 2026-11-19). Su uso se centra en tumores de crecimiento rápido, como el liposarcoma.
 
 La fiebre mediterránea familiar, en cambio, es una enfermedad autoinflamatoria causada por la desregulación del inflamasoma de pirina, y no es una neoplasia. La puntuación alta probablemente se explica porque la colchicina, otro fármaco que actúa sobre los microtúbulos, es el tratamiento estándar de esta enfermedad. Esto crea una cercanía en la red de conocimiento del modelo.
 
@@ -123,11 +123,12 @@ La predicción tiene una puntuación alta, pero solo se apoya en el modelo (nive
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 11 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822) |
 
 <!-- review:end log -->
 

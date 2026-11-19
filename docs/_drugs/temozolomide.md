@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia de la cauda eq
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, temozolomida es un agente alquilante oral que metila el ADN (O6-guanina, N7-guanina, N3-adenina), lo que produce lesiones citotóxicas y apoptosis. La sensibilidad es mayor en tumores con el promotor de MGMT metilado, por su menor capacidad de reparación.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Temozolomide (traducción no oficial): «La temozolomida no es directamente activa, sino que experimenta una rápida conversión no enzimática a pH fisiológico en el compuesto reactivo 5-(3-metiltriazen-1-il)-imidazol-4-carboxamida (MTIC). Se cree que la citotoxicidad del MTIC se debe principalmente a la alquilación del ADN, sobre todo en las posiciones O 6 y N 7 de la guanina, lo que provoca roturas de doble cadena del ADN y da lugar a muerte celular programada.» Texto original en inglés: "Temozolomide is not directly active but undergoes rapid nonenzymatic conversion at physiologic pH to the reactive compound 5-(3-methyltriazen-1-yl)-imidazole-4-carboxamide (MTIC). The cytotoxicity of MTIC is thought to be primarily due to DNA alkylation, mainly at the O 6 and N 7 positions of guanine, which causes DNA double strand breaks and results in programmed cell death." ([DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56), versión del 2026-02-20; consultado el 2026-11-19). Según el conocimiento farmacológico general, temozolomida es un agente alquilante oral que metila el ADN (O6-guanina, N7-guanina, N3-adenina), lo que produce lesiones citotóxicas y apoptosis. La sensibilidad es mayor en tumores con el promotor de MGMT metilado, por su menor capacidad de reparación.
 
 Sus relaciones registradas en el grafo de conocimiento corresponden a gliomas del sistema nervioso central. La neoplasia de la cauda equina incluye tumores neuroepiteliales, como el ependimoma mixopapilar, de modo que la penetración en el sistema nervioso central y la actividad en gliomas ofrecen una justificación mecanística plausible.
 
@@ -87,7 +87,6 @@ Se muestran 5 de las al menos 20 autorizaciones registradas (la lista puede ser 
 | 11697001 | Temozolomida SUN 5 mg cápsulas duras EFG | Cápsula dura | Sin texto de indicación disponible |
 | 09606005 | Temozolomida Teva 100 mg cápsulas duras EFG | Cápsula dura | Sin texto de indicación disponible |
 
-
 ## Citotoxicidad
 
 | Item | Contenido |
@@ -118,6 +117,19 @@ La predicción se apoya solo en un informe de caso directamente relevante y en u
 - Revisión sistemática de la literatura sobre temozolomida en ependimoma mixopapilar y otros tumores de la cauda equina
 - Datos de estado de MGMT y otros biomarcadores en estos tumores
 - Series de casos o estudios prospectivos que evalúen eficacia y tolerabilidad en esta indicación
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

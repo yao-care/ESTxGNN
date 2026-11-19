@@ -58,7 +58,7 @@ Nota: el modelo también predijo **isquemia miocárdica** (puntaje 0,9910, nivel
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, ebastina es un antagonista del receptor H1 de histamina de segunda generación, con eficacia comprobada en rinitis alérgica, rinitis vasomotora y urticaria idiopática.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Ebastine es (traducción no oficial): «Agonista inverso del receptor H1 de histamina» Texto original en inglés: "Histamine H1 receptor inverse agonist" ([ChEMBL CHEMBL305660 (ebastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL305660), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, ebastina es un antagonista del receptor H1 de histamina de segunda generación, con eficacia comprobada en rinitis alérgica, rinitis vasomotora y urticaria idiopática.
 
 Una posible vía especulativa sería la participación de la histamina y de los mastocitos en el vasoespasmo coronario y en la inestabilidad de la placa aterosclerótica. Sin embargo, **ninguna evidencia incluida en los datos compilados para este informe respalda esta hipótesis**. Las indicaciones originales (alérgicas y respiratorias) y la nueva indicación (cardiovascular) pertenecen a áreas terapéuticas distintas, y la similitud entre ambas aún está pendiente de análisis.
 
@@ -112,11 +112,12 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL305660 (ebastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL305660) |
 
 <!-- review:end log -->
 

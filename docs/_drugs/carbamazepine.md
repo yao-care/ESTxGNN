@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio tri
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la carbamazepina actúa bloqueando los canales de sodio dependientes de voltaje, lo que explica su eficacia comprobada en epilepsia y neuralgia del trigémino.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Carbamazepine (traducción no oficial): «Tegretol ha demostrado propiedades anticonvulsivas en ratas y ratones con convulsiones inducidas eléctrica y químicamente. Parece actuar reduciendo las respuestas polisinápticas y bloqueando la potenciación postetánica. […] El metabolito principal de Tegretol, la carbamazepina-10,11-epóxido, tiene actividad anticonvulsiva, según se ha demostrado en varios modelos animales in vivo de convulsiones.» Texto original en inglés: "Tegretol has demonstrated anticonvulsant properties in rats and mice with electrically and chemically induced seizures. It appears to act by reducing polysynaptic responses and blocking the post-tetanic potentiation. […] The principal metabolite of Tegretol, carbamazepine-10,11-epoxide, has anticonvulsant activity as demonstrated in several in vivo animal models of seizures." ([DailyMed: Tegretol (carbamazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d409411-aa9f-4f3a-a52c-fbcb0c3ec053), versión del 2026-08-20; consultado el 2026-11-19). Según la información conocida, la carbamazepina actúa bloqueando los canales de sodio dependientes de voltaje, lo que explica su eficacia comprobada en epilepsia y neuralgia del trigémino.
 
 La relación con la nueva indicación es indirecta. La literatura recuperada trata de neuralgia del trigémino secundaria a tumores (schwannoma, meningioma, quiste dermoide, lipoma, angioma, linfoma), donde la carbamazepina solo controlaría el dolor neurálgico. No hay evidencia de un efecto antineoplásico.
 
@@ -117,6 +117,19 @@ No hay ensayos clínicos y la literatura son casos clínicos que describen la ca
 - Si el interés es clínico, reorientar la hipótesis hacia el control sintomático del dolor en neuralgia secundaria a tumores.
 
 **Nota sobre otras predicciones:** las demás indicaciones predichas (convulsiones audiogénicas, epilepsia por sobresalto, convulsiones al leer, etc.) son epilepsias reflejas ya cubiertas conceptualmente por la indicación de epilepsia. Su evidencia es L4 (preclínica o indirecta) o L5 (solo predicción del modelo, p. ej., convulsiones inducidas por orgasmo, déficit de beta-cetotiolasa y síndrome de Rett variante congénita), por lo que no representan un reposicionamiento distinto.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tegretol (carbamazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d409411-aa9f-4f3a-a52c-fbcb0c3ec053) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

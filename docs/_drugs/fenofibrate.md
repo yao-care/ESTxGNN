@@ -56,7 +56,7 @@ Actualmente no hay ensayos clínicos y solo **3 publicaciones** preclínicas o m
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, el fenofibrato es un agonista del receptor PPAR-alfa (la actividad reside en su metabolito activo). Esto modifica el metabolismo de los lípidos: reduce triglicéridos y colesterol circulantes y aumenta el HDL, en parte mediante la inducción del gen de la proteína de transferencia de fosfolípidos (PLTP).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fenofibrate (traducción no oficial): «La fracción activa de Antara es el ácido fenofíbrico. Los efectos farmacológicos del ácido fenofíbrico tanto en animales como en seres humanos se han estudiado mediante la administración oral de fenofibrato. Los efectos modificadores de los lípidos del ácido fenofíbrico observados en la práctica clínica se han explicado in vivo en ratones transgénicos e in vitro en cultivos de hepatocitos humanos por la activación del receptor PPAR alfa.» Texto original en inglés: "The active moiety of Antara is fenofibric acid. The pharmacological effects of fenofibric acid in both animals and humans have been studied through oral administration of fenofibrate. The lipid-modifying effects of fenofibric acid seen in clinical practice have been explained in vivo in transgenic mice and in vitro in human hepatocyte cultures by the activation of PPAR alpha receptor." ([DailyMed: Antara (fenofibrate) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24790a18-0291-4b88-a724-acac43b616ce), versión del 2025-10-01; consultado el 2026-11-19). Según la información farmacológica conocida, el fenofibrato es un agonista del receptor PPAR-alfa (la actividad reside en su metabolito activo). Esto modifica el metabolismo de los lípidos: reduce triglicéridos y colesterol circulantes y aumenta el HDL, en parte mediante la inducción del gen de la proteína de transferencia de fosfolípidos (PLTP).
 
 La deficiencia de CETP es una condición genética caracterizada por HDL muy elevado y actividad reducida de CETP. La relación con el fenofibrato es solo indirecta: ambos actúan sobre la misma vía de metabolismo de HDL y transferencia de lípidos. Sin embargo, aumentar el HDL en una condición que ya presenta HDL muy alto no tiene una justificación terapéutica clara.
 
@@ -105,6 +105,19 @@ Ningún estudio citado aborda directamente la deficiencia de CETP; solo hay dato
 - Estudios o series de casos que evalúen directamente fenofibrato en esta condición
 - Datos de mecanismo de acción detallados
 - Advertencias y contraindicaciones oficiales de los prospectos de la AEMPS
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Antara (fenofibrate) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24790a18-0291-4b88-a724-acac43b616ce) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

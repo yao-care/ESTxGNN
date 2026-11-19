@@ -56,7 +56,7 @@ con **0 ensayos clínicos** y **1 publicación** (un reporte de caso indirecto) 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la tetraciclina pertenece a la clase de las tetraciclinas, su eficacia en infecciones bacterianas, incluida la conjuntivitis, es conocida, y mecanísticamente podría ser aplicable a la queratoconjuntivitis epitelial punteada.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Tetracycline es (traducción no oficial): «Inhibidor del ribosoma 70S bacteriano» Texto original en inglés: "Bacterial 70S ribosome inhibitor" ([ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la tetraciclina pertenece a la clase de las tetraciclinas, su eficacia en infecciones bacterianas, incluida la conjuntivitis, es conocida, y mecanísticamente podría ser aplicable a la queratoconjuntivitis epitelial punteada.
 
 La relación con la indicación original es plausible: la tetraciclina ya se utiliza en conjuntivitis, y la queratitis epitelial punteada puede aparecer tras una conjuntivitis folicular por *Chlamydia trachomatis*. Por ello, su actividad antimicrobiana frente a Chlamydia constituye un vínculo razonable. Además, las tetraciclinas tienen propiedades antiinflamatorias e inhibidoras de metaloproteinasas de matriz (MMP) que podrían beneficiar la inflamación de la superficie ocular.
 
@@ -103,6 +103,19 @@ La predicción se apoya en un puntaje alto del modelo (0.9958), pero la única e
 ---
 
 **Nota sobre otras indicaciones predichas:** el modelo también predijo rinosinusitis crónica (0.9915, L4; existen revisiones sistemáticas, pero sobre doxiciclina o la clase de antibióticos y no sobre tetraciclina), sinusitis etmoidal crónica (0.9915, L4) y neoplasia de senos paranasales (0.9910, L5, solo predicción del modelo). Ninguna cuenta con ensayos clínicos específicos de tetraciclina.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

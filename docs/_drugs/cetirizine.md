@@ -55,7 +55,7 @@ con **1 ensayo clínico** (Fase 3, piloto, completado) y **17 publicaciones** qu
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información farmacológica conocida, cetirizina es un antagonista selectivo del receptor de histamina H1 (gen HRH1), con penetración cerebral mínima, lo que explica su escasa sedación.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cetirizine (traducción no oficial): «El clorhidrato de cetirizina, un metabolito humano de la hidroxizina, es un antihistamínico; sus efectos principales están mediados por la inhibición selectiva de los receptores H 1 periféricos. La actividad antihistamínica del clorhidrato de cetirizina se ha documentado claramente en diversos modelos animales y humanos.» Texto original en inglés: "Cetirizine hydrochloride, a human metabolite of hydroxyzine, is an antihistamine; its principal effects are mediated via selective inhibition of peripheral H 1 -receptors. The antihistaminic activity of cetirizine hydrochloride has been clearly documented in a variety of animal and human models." ([DailyMed: Quzyttir (cetirizine hydrochloride) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=573770f6-b76e-f6ba-e063-6294a90aa54d), versión del 2026-09-22; consultado el 2026-11-19). Según la información farmacológica conocida, cetirizina es un antagonista selectivo del receptor de histamina H1 (gen HRH1), con penetración cerebral mínima, lo que explica su escasa sedación.
 
 La urticaria alérgica se caracteriza por habones y eritema causados por la histamina liberada de los mastocitos. El bloqueo H1 actúa directamente sobre este mediador principal. Además, la urticaria idiopática ya figura entre las indicaciones originales del fármaco, por lo que se trata de una extensión cercana de una indicación existente y no de un reposicionamiento distante.
 
@@ -126,11 +126,12 @@ La urticaria alérgica es una extensión cercana de la indicación ya aprobada d
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se registran 20 autorizaciones vigentes, todas de fármaco único (sin combinaciones) y ninguna cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Quzyttir (cetirizine hydrochloride) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=573770f6-b76e-f6ba-e063-6294a90aa54d) |
 
 <!-- review:end log -->
 

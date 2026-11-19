@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para la **enfermedad renal hipe
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, labetalol es un bloqueador combinado alfa-1 y beta-adrenérgico no selectivo, con eficacia comprobada en hipertensión y en emergencias hipertensivas. Mecanísticamente, la reducción de la resistencia vascular periférica y de la frecuencia cardíaca podría ser aplicable a la hipertensión maligna con afectación renal.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Labetalol (traducción no oficial): «El labetalol tiene actividad bloqueante alfa1-adrenérgica competitiva y actividad bloqueante beta-adrenérgica competitiva. En el ser humano, se ha estimado que la relación entre el bloqueo alfa y el bloqueo beta es de aproximadamente 1:7 tras la administración intravenosa.» Texto original en inglés: "Labetalol has both competitive alpha1-adrenergic blocking and competitive beta-adrenergic blocking activity. In man, the ratio of alpha- to beta-blockade has been estimated to be approximately 1:7 following intravenous administration." ([DailyMed: Labetalol Hcl In Dextrose (labetalol hydrochloride) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=99a715a0-4579-410c-b102-7ef6fab8db55), versión del 2025-12-19; consultado el 2026-11-19). Según la información conocida, labetalol es un bloqueador combinado alfa-1 y beta-adrenérgico no selectivo, con eficacia comprobada en hipertensión y en emergencias hipertensivas. Mecanísticamente, la reducción de la resistencia vascular periférica y de la frecuencia cardíaca podría ser aplicable a la hipertensión maligna con afectación renal.
 
 La relación con la indicación original es muy estrecha: la enfermedad renal hipertensiva maligna es una forma grave de hipertensión. Por ello, esta predicción es más bien una extensión de la indicación existente que una oportunidad de reposicionamiento distinta. El puntaje alto del modelo (0,9908) debe interpretarse con cautela, ya que no cuenta con respaldo clínico directo.
 
@@ -100,6 +100,19 @@ La predicción se basa solo en el modelo (L5), sin ensayos clínicos ni literatu
 - Datos detallados del mecanismo de acción
 - Obtención y análisis del prospecto oficial de la AEMPS (advertencias y contraindicaciones), en especial para pacientes con insuficiencia renal
 - Evaluación de si esta indicación aporta un valor distinto del uso ya establecido en emergencias hipertensivas
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Labetalol Hcl In Dextrose (labetalol hydrochloride) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=99a715a0-4579-410c-b102-7ef6fab8db55) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

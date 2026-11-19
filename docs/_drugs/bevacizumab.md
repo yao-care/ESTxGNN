@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, bevacizumab bloquea VEGF-A, un mediador clave de la angiogénesis tumoral, y por ello podría limitar la formación de nuevos vasos en tumores de cabeza y cuello.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Bevacizumab (traducción no oficial): «Los productos de bevacizumab se unen al VEGF e impiden la interacción del VEGF con sus receptores (Flt-1 y KDR) en la superficie de las células endoteliales. La interacción del VEGF con sus receptores conduce a la proliferación de células endoteliales y a la formación de nuevos vasos sanguíneos en modelos in vitro de angiogénesis.» Texto original en inglés: "Bevacizumab products bind VEGF and prevent the interaction of VEGF to its receptors (Flt-1 and KDR) on the surface of endothelial cells. The interaction of VEGF with its receptors leads to endothelial cell proliferation and new blood vessel formation in in vitro models of angiogenesis." ([DailyMed: Vegzelma (bevacizumab-adcd) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4cdcccda-7b9a-49d0-ac50-f4605a3c0ebe), versión del 2026-08-21; consultado el 2026-11-19). Según el conocimiento general, bevacizumab bloquea VEGF-A, un mediador clave de la angiogénesis tumoral, y por ello podría limitar la formación de nuevos vasos en tumores de cabeza y cuello.
 
 La epiglotis forma parte de la laringe y, por tanto, del territorio de cabeza y cuello, donde la angiogénesis dependiente de VEGF es un mecanismo biológico plausible. Sin embargo, esta es una inferencia mecanística general: no hay estudios que evalúen bevacizumab directamente en neoplasias de la epiglotis.
 
@@ -108,6 +108,19 @@ La predicción para neoplasia de epiglotis se apoya únicamente en el puntaje de
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) para el cribado de seguridad
 - Evidencia preclínica o clínica que estudie directamente esta enfermedad
 - Evaluación de compatibilidad de vía de administración y de la similitud con las indicaciones aprobadas
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Vegzelma (bevacizumab-adcd) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4cdcccda-7b9a-49d0-ac50-f4605a3c0ebe) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

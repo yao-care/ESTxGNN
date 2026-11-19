@@ -56,7 +56,7 @@ con **3 ensayos clínicos** (2 de ellos de Fase 2 y directamente relacionados co
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, vinorelbina es un alcaloide de la vinca que inhibe la polimerización de los microtúbulos, provoca detención mitótica y apoptosis en células de rápida división. Su eficacia en el cáncer de pulmón no microcítico está comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Vinorelbine (traducción no oficial): «La vinorelbina es un alcaloide de la vinca que interfiere con el ensamblaje de los microtúbulos. Se cree que la actividad antitumoral de la vinorelbina se debe principalmente a la inhibición de la mitosis en la metafase a través de su interacción con la tubulina. La vinorelbina también puede interferir con: 1) el metabolismo de los aminoácidos, del AMP cíclico y del glutatión, 2) la actividad de la ATPasa de transporte de Ca++ dependiente de calmodulina, 3) la respiración celular y 4) la biosíntesis de ácidos nucleicos y lípidos.» Texto original en inglés: "Vinorelbine is a vinca alkaloid that interferes with microtubule assembly. The antitumor activity of vinorelbine is thought to be due primarily to inhibition of mitosis at metaphase through its interaction with tubulin. Vinorelbine may also interfere with: 1) amino acid, cyclic AMP and glutathione metabolism, 2) calmodulin-dependent Ca++-transport ATPase activity, 3) cellular respiration, and 4) nucleic acid and lipid biosynthesis." ([DailyMed: vinorelbine prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397), versión del 2024-08-16; consultado el 2026-11-19). Según la información conocida, vinorelbina es un alcaloide de la vinca que inhibe la polimerización de los microtúbulos, provoca detención mitótica y apoptosis en células de rápida división. Su eficacia en el cáncer de pulmón no microcítico está comprobada.
 
 El sarcoma de Ewing es un tumor óseo maligno muy proliferativo, con altas tasas de recaída, sobre todo en enfermedad multimetastásica. Los tumores de este tipo responden a agentes que actúan sobre los microtúbulos. Además, la combinación de vinorelbina con ciclofosfamida a dosis bajas y continuas (metronómica) aporta un efecto antiproliferativo y antiangiogénico. Un estudio preclínico también muestra sinergia entre fármacos que interfieren con los microtúbulos (incluida vinorelbina) y un inhibidor de PLK1 en células de sarcoma de Ewing.
 
@@ -136,11 +136,12 @@ Existe evidencia clínica de Fase 2 completada (nivel L2) con vinorelbina más c
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 16 autorizaciones vigentes en total (todas de monofármaco, ninguna cancelada), con presentaciones en cápsula blanda y en concentrado par" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: vinorelbine prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397) |
 
 <!-- review:end log -->
 

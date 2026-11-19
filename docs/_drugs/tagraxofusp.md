@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **esotropía**, pero actua
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, tagraxofusp es una proteína de fusión que une interleucina-3 con una toxina diftérica truncada; se dirige a células que expresan CD123 y las elimina. Su eficacia se ha establecido en una neoplasia hematológica con expresión de CD123.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tagraxofusp (traducción no oficial): «El tagraxofusp-erzs es una citotoxina dirigida contra CD123 compuesta por una proteína de fusión de interleucina-3 (IL-3) humana recombinante y toxina diftérica (TD) truncada, que inhibe la síntesis de proteínas y causa la muerte celular en las células que expresan CD123.» Texto original en inglés: "Tagraxofusp-erzs is a CD123-directed cytotoxin composed of recombinant human interleukin-3 (IL-3) and truncated diphtheria toxin (DT) fusion protein that inhibits protein synthesis and causes cell death in CD123-expressing cells." ([DailyMed: Elzonris (tagraxofusp) prescribing information, Stemline Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80eb1080-fe20-4af0-b2a5-a67999923fa8), versión del 2024-12-09; consultado el 2026-11-19). Según la información conocida, tagraxofusp es una proteína de fusión que une interleucina-3 con una toxina diftérica truncada; se dirige a células que expresan CD123 y las elimina. Su eficacia se ha establecido en una neoplasia hematológica con expresión de CD123.
 
 La esotropía es un trastorno de la alineación motora ocular sin patología conocida dependiente de CD123. **No se identifica un vínculo mecanístico creíble** entre el fármaco y esta indicación. El puntaje elevado (0,9973) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no cuenta con respaldo clínico ni bibliográfico.
 
@@ -96,6 +96,19 @@ La predicción para esotropía carece de ensayos clínicos, literatura y mecanis
 - Advertencias y contraindicaciones del prospecto de la AEMPS
 - Evidencia preclínica que demuestre expresión o dependencia de CD123 en la indicación propuesta
 - Reevaluar candidatos con mayor plausibilidad biológica (p. ej., otras neoplasias hematológicas con expresión de CD123) antes de considerar esta predicción
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Elzonris (tagraxofusp) prescribing information, Stemline Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80eb1080-fe20-4af0-b2a5-a67999923fa8) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para el **rabdomiosarcoma embri
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone actualmente de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, cladribina es un análogo de nucleósidos de purina resistente a la adenosina desaminasa; provoca roturas de cadenas de ADN y apoptosis, principalmente en linfocitos y monocitos con alta actividad de desoxicitidina cinasa. Esto explica su eficacia en neoplasias hematológicas linfoides y en la esclerosis múltiple (donde actúa sobre poblaciones linfocitarias).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cladribine (traducción no oficial): «El mecanismo por el cual la cladribina ejerce sus efectos terapéuticos en los pacientes con esclerosis múltiple no se ha dilucidado por completo, pero se cree que implica efectos citotóxicos sobre los linfocitos B y T mediante la alteración de la síntesis del ADN, lo que da lugar a una depleción de linfocitos.» Texto original en inglés: "The mechanism by which cladribine exerts its therapeutic effects in patients with multiple sclerosis has not been fully elucidated but is thought to involve cytotoxic effects on B and T lymphocytes through impairment of DNA synthesis, resulting in depletion of lymphocytes." ([DailyMed: Mavenclad (cladribine) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c75e30a-a410-40f1-b653-04d532bd9144), versión del 2026-05-27; consultado el 2026-11-19). Según la información conocida, cladribina es un análogo de nucleósidos de purina resistente a la adenosina desaminasa; provoca roturas de cadenas de ADN y apoptosis, principalmente en linfocitos y monocitos con alta actividad de desoxicitidina cinasa. Esto explica su eficacia en neoplasias hematológicas linfoides y en la esclerosis múltiple (donde actúa sobre poblaciones linfocitarias).
 
 La relación con el rabdomiosarcoma embrionario parameníngeo es **débil y no está establecida**. Se trata de un tumor sólido de origen mesenquimal, muy distinto de las neoplasias linfoides. No hay evidencia en los datos de que la citotoxicidad de este análogo de purina sea relevante para este tumor.
 
@@ -132,6 +132,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Revisión de la ficha técnica de la AEMPS (advertencias y contraindicaciones oficiales), pendiente de obtener.
 - Textos de indicación aprobada de las autorizaciones españolas.
 - Evaluación de la compatibilidad de vía de administración y de la población pediátrica objetivo.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Mavenclad (cladribine) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c75e30a-a410-40f1-b653-04d532bd9144) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

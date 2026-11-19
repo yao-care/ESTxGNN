@@ -60,7 +60,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción original del fármaco. Según la información conocida, la tretinoína es un retinoide que actúa como ligando de los receptores del ácido retinoico (RAR-α, RAR-β y RAR-γ), y además interactúa con otros receptores nucleares como PPAR-β/δ, RORB, NR2C2 (receptor testicular 4) y NR2E1 (TLX). Se utiliza como agente diferenciador en la leucemia promielocítica aguda y para normalizar la queratinización en trastornos cutáneos como el acné.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tretinoin (traducción no oficial): «La tretinoína induce la citodiferenciación y la disminución de la proliferación de las células de LPA en cultivo e in vivo. En los pacientes con LPA, el tratamiento con tretinoína produce una maduración inicial de los promielocitos primitivos derivados del clon leucémico, seguida de una repoblación de la médula ósea y de la sangre periférica por células hematopoyéticas normales y policlonales en los pacientes que alcanzan la remisión completa (RC).» Texto original en inglés: "Tretinoin induces cytodifferentiation and decreased proliferation of APL cells in culture and in vivo. In APL patients, tretinoin treatment produces an initial maturation of the primitive promyelocytes derived from the leukemic clone, followed by a repopulation of the bone marrow and peripheral blood by normal, polyclonal hematopoietic cells in patients achieving complete remission (CR)." ([DailyMed: tretinoin prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c4ae9d9-c2a0-4995-a27a-e3f0f0284db9), versión del 2026-08-20; consultado el 2026-11-19). Según la información conocida, la tretinoína es un retinoide que actúa como ligando de los receptores del ácido retinoico (RAR-α, RAR-β y RAR-γ), y además interactúa con otros receptores nucleares como PPAR-β/δ, RORB, NR2C2 (receptor testicular 4) y NR2E1 (TLX). Se utiliza como agente diferenciador en la leucemia promielocítica aguda y para normalizar la queratinización en trastornos cutáneos como el acné.
 
 La relación entre las indicaciones originales (dermatológicas y hematológicas) y la nodulosis reumatoide es indirecta. Un vínculo plausible, pero no verificado, sería la modulación retinoide de la señalización inmunitaria e inflamatoria (por ejemplo, efectos sobre la diferenciación de los linfocitos T y la producción de citocinas). Esta hipótesis es especulativa para los nódulos reumatoides en particular.
 
@@ -127,6 +127,19 @@ El puntaje de TxGNN es alto (0.9984), pero no existe ningún ensayo clínico ni 
 - Realizar una revisión sistemática de la literatura sobre retinoides en nodulosis reumatoide y artritis inflamatoria.
 - Establecer estudios preclínicos que respalden el vínculo mecanístico (por ejemplo, equilibrio Th17/Treg).
 - Evaluar si otras predicciones, como la foliculitis decalvante, ofrecen una hipótesis más sólida y mejor alineada con la vía tópica ya comercializada.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: tretinoin prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c4ae9d9-c2a0-4995-a27a-e3f0f0284db9) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

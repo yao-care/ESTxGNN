@@ -64,10 +64,9 @@ Se trata de una predicción puramente computacional, sin respaldo mecanístico c
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, trametinib inhibe MEK1 y MEK2 (genes MAP2K1 y MAP2K2), componentes de la vía MAPK situados por debajo de BRAF. Su eficacia en melanoma con mutación BRAF V600 está establecida, y se usa también en combinación con dabrafenib.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Trametinib (traducción no oficial): «Trametinib es un inhibidor reversible de la activación de la cinasa 1 regulada por señales extracelulares activada por mitógenos (MEK1) y MEK2, y de la actividad cinasa de MEK1 y MEK2. Las proteínas MEK son reguladores anteriores en la vía de la cinasa relacionada con señales extracelulares (ERK), que promueve la proliferación celular.» Texto original en inglés: "Trametinib is a reversible inhibitor of mitogen-activated extracellular signal-regulated kinase 1 (MEK1) and MEK2 activation and of MEK1 and MEK2 kinase activity. MEK proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway, which promotes cellular proliferation." ([DailyMed: Mekinist (trametinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0002ad27-779d-42ab-83b5-bc65453412a1), versión del 2026-05-07; consultado el 2026-11-19). Según la información conocida, trametinib inhibe MEK1 y MEK2 (genes MAP2K1 y MAP2K2), componentes de la vía MAPK situados por debajo de BRAF. Su eficacia en melanoma con mutación BRAF V600 está establecida, y se usa también en combinación con dabrafenib.
 
 La coriorremia es una degeneración retiniana ligada al cromosoma X, causada por la pérdida de función del gen CHM (REP1). No existe un vínculo establecido con la activación de la vía MAPK/MEK, por lo que el puntaje elevado (0,9931) debe interpretarse como una predicción computacional sin sustento mecanístico. No se aportaron ensayos clínicos ni literatura.
-
 
 ---
 
@@ -129,6 +128,19 @@ La predicción para coriorremia se apoya únicamente en el puntaje del modelo (n
 - Revisión de las predicciones de melanoma (rank 2 a 10), en particular melanoma no cutáneo y nodular, como candidatas con mayor respaldo. En el melanoma no cutáneo, el nivel L1 depende de evidencia de fase 3 externa a los datos aportados y debe verificarse de forma independiente; con los datos aportados correspondería L2. Habría que confirmar el estado de BRAF y el subtipo.
 - Datos del mecanismo de acción y las advertencias y contraindicaciones del prospecto de la AEMPS
 - Textos de indicación aprobada de las autorizaciones españolas
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Mekinist (trametinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0002ad27-779d-42ab-83b5-bc65453412a1) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

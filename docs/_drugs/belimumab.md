@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, belimumab inhibe BLyS (BAFF), con lo que reduce la supervivencia de los linfocitos B y la producción de autoanticuerpos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Belimumab (traducción no oficial): «BENLYSTA es un inhibidor específico de BLyS que bloquea la unión del BLyS soluble, un factor de supervivencia de los linfocitos B, a sus receptores en los linfocitos B. BENLYSTA no se une directamente a los linfocitos B, sino que, al unirse al BLyS, inhibe la supervivencia de los linfocitos B, incluidos los linfocitos B autorreactivos, y reduce la diferenciación de los linfocitos B en células plasmáticas productoras de inmunoglobulinas.» Texto original en inglés: "BENLYSTA is a BLyS-specific inhibitor that blocks the binding of soluble BLyS, a B-cell survival factor, to its receptors on B cells. BENLYSTA does not bind B cells directly, but by binding BLyS, BENLYSTA inhibits the survival of B cells, including autoreactive B cells, and reduces the differentiation of B cells into immunoglobulin-producing plasma cells." ([DailyMed: Benlysta (belimumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3), versión del 2026-10-30; consultado el 2026-11-19). Según la información conocida, belimumab inhibe BLyS (BAFF), con lo que reduce la supervivencia de los linfocitos B y la producción de autoanticuerpos.
 
 Los trastornos primarios de liberación plaquetaria son defectos de la función plaquetaria (anomalías en la secreción de gránulos), generalmente hereditarios o adquiridos, y no se explican principalmente por la actividad de los linfocitos B ni por autoanticuerpos. Por ello no se ha establecido un vínculo mecanístico plausible con la inhibición de BLyS.
 
@@ -99,6 +99,19 @@ No existe ningún ensayo clínico ni publicación que estudie esta enfermedad, y
 - Una hipótesis mecanística que justifique el papel de BLyS en esta enfermedad
 - Datos de mecanismo de acción y de advertencias y contraindicaciones del prospecto de AEMPS
 - Evaluación de seguridad en la población objetivo, incluyendo las interacciones con inmunosupresores y vacunas vivas
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Benlysta (belimumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

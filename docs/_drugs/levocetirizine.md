@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **Artritis Reumatoide**, p
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción del fármaco en los datos compilados para este informe. Según la farmacología general, la levocetirizina es un antagonista selectivo del receptor H1 de histamina, y su eficacia en rinitis alérgica y urticaria está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Levocetirizine (traducción no oficial): «La levocetirizina, el enantiómero activo de la cetirizina, es un antihistamínico; sus efectos principales están mediados por la inhibición selectiva de los receptores H 1. La actividad antihistamínica de la levocetirizina se ha documentado en diversos modelos animales y humanos.» Texto original en inglés: "Levocetirizine, the active enantiomer of cetirizine, is an antihistamine; its principal effects are mediated via selective inhibition of H 1 receptors. The antihistaminic activity of levocetirizine has been documented in a variety of animal and human models." ([DailyMed: Xyzal (levocetirizine dihydrochloride) prescribing information, Chattem, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1673f7ff-0c7c-4403-86cf-c05eb1475222), versión del 2025-07-22; consultado el 2026-11-19). Según la farmacología general, la levocetirizina es un antagonista selectivo del receptor H1 de histamina, y su eficacia en rinitis alérgica y urticaria está bien establecida.
 
 La relación con la artritis reumatoide es hipotética. La histamina y la actividad de los mastocitos se han relacionado con la inflamación sinovial, y el bloqueo H1 podría, en teoría, modular la permeabilidad vascular y la liberación de citocinas en la articulación. Sin embargo, la artritis reumatoide es una enfermedad autoinmune crónica cuyo mecanismo central difiere del de las enfermedades alérgicas tratadas originalmente.
 
@@ -135,11 +135,12 @@ La predicción para artritis reumatoide se basa únicamente en el modelo (nivel 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Xyzal (levocetirizine dihydrochloride) prescribing information, Chattem, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1673f7ff-0c7c-4403-86cf-c05eb1475222) |
 
 <!-- review:end log -->
 

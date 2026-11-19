@@ -54,7 +54,7 @@ Brivaracetam es un fármaco antiepiléptico comercializado en España. El modelo
 
 ## Por qué es Razonable esta Predicción
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, brivaracetam es un antiepiléptico que actúa sobre la proteína de vesícula sináptica SV2A.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Brivaracetam (traducción no oficial): «Se desconoce el mecanismo preciso por el cual BRIVIACT ejerce su actividad anticonvulsiva. El brivaracetam presenta una afinidad alta y selectiva por la proteína 2A de las vesículas sinápticas (SV2A) en el cerebro, lo que podría contribuir al efecto anticonvulsivo.» Texto original en inglés: "The precise mechanism by which BRIVIACT exerts its anticonvulsant activity is not known. Brivaracetam displays a high and selective affinity for synaptic vesicle protein 2A (SV2A) in the brain, which may contribute to the anticonvulsant effect." ([DailyMed: Briviact (brivaracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c), versión del 2026-11-05; consultado el 2026-11-19). Por conocimiento general, brivaracetam es un antiepiléptico que actúa sobre la proteína de vesícula sináptica SV2A.
 
 El déficit de beta-cetotiolasa es un trastorno metabólico del catabolismo de los cuerpos cetónicos y de la isoleucina. Las convulsiones en este cuadro son secundarias a las crisis cetoacidóticas, y su mecanismo no está relacionado con SV2A. El puntaje elevado probablemente refleja vínculos compartidos relacionados con las convulsiones, más que una relación mecanística real. La predicción debe considerarse con mucha cautela.
 
@@ -95,6 +95,19 @@ La predicción no cuenta con ningún estudio clínico ni publicación, el nivel 
 - Datos del mecanismo de acción y análisis de un posible vínculo mecanístico con la enfermedad
 - Estudios preclínicos o series de casos que evalúen brivaracetam en este trastorno
 - Revisión de advertencias y contraindicaciones del prospecto de la AEMPS
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Briviact (brivaracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

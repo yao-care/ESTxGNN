@@ -56,7 +56,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general, cobicistat es un inhibidor del CYP3A basado en mecanismo que se usa como potenciador farmacocinético de antirretrovirales (por ejemplo, elvitegravir, atazanavir, darunavir) en el tratamiento del VIH-1. No tiene actividad antiviral intrínseca conocida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cobicistat (traducción no oficial): «Cobicistat es un inhibidor basado en el mecanismo del citocromo P450 3A (CYP3A). La inhibición del metabolismo mediado por CYP3A por parte de cobicistat aumenta la exposición sistémica a atazanavir y darunavir, sustratos de CYP3A.» Texto original en inglés: "Cobicistat is a mechanism-based inhibitor of cytochrome P450 3A (CYP3A). Inhibition of CYP3A-mediated metabolism by cobicistat increases the systemic exposure of CYP3A substrates atazanavir and darunavir." ([DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010), versión del 2026-02-10; consultado el 2026-11-19). Según el conocimiento general, cobicistat es un inhibidor del CYP3A basado en mecanismo que se usa como potenciador farmacocinético de antirretrovirales (por ejemplo, elvitegravir, atazanavir, darunavir) en el tratamiento del VIH-1. No tiene actividad antiviral intrínseca conocida.
 
 El VIS es un lentivirus muy cercano al VIH y es el modelo de primates no humanos más habitual de esta enfermedad. Por ello, el alto puntaje de TxGNN probablemente refleja la proximidad en la red de conocimiento con la indicación de VIH. Cualquier beneficio dependería de potenciar un antirretroviral administrado conjuntamente.
 
@@ -101,6 +101,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Evaluar si la indicación tiene relevancia clínica humana o solo valor como modelo preclínico
 - Buscar estudios preclínicos o de farmacocinética que respalden el uso como potenciador en el contexto del VIS
 - Revisar el perfil de interacciones farmacológicas (100 registradas) antes de cualquier uso fuera de indicación
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

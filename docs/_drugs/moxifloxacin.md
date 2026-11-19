@@ -60,7 +60,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, moxifloxacino pertenece a la clase de las fluoroquinolonas. Su eficacia en infecciones bacterianas está bien establecida, y actúa inhibiendo la ADN girasa y la topoisomerasa IV bacterianas.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Moxifloxacin (traducción no oficial): «Moxifloxacino Tableta es un miembro de la clase de agentes antibacterianos de las fluoroquinolonas. […] La acción bactericida del moxifloxacino resulta de la inhibición de la topoisomerasa II (DNA girasa) y de la topoisomerasa IV, necesarias para la replicación, la transcripción, la reparación y la recombinación del DNA bacteriano.» Texto original en inglés: "Moxifloxacin Tablet is a member of the fluoroquinolone class of antibacterial agents. […] The bactericidal action of moxifloxacin results from inhibition of the topoisomerase II (DNA gyrase) and topoisomerase IV required for bacterial DNA replication, transcription, repair, and recombination." ([DailyMed: Moxifloxacin (moxifloxacin hydrochloride) prescribing information, Kesin Pharma Corportation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6d3ff1-e853-a3d8-e063-6394a90a18f5), versión del 2026-11-06; consultado el 2026-11-19). Según la información conocida, moxifloxacino pertenece a la clase de las fluoroquinolonas. Su eficacia en infecciones bacterianas está bien establecida, y actúa inhibiendo la ADN girasa y la topoisomerasa IV bacterianas.
 
 **Con los datos actuales, la predicción no resulta mecanísticamente plausible.** El síndrome de hiperviscosidad policlonal es un trastorno reológico causado por proteínas o inmunoglobulinas, y un antibacteriano no actúa sobre ese proceso. El puntaje alto de TxGNN (0.9998) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no hay ensayos ni literatura que lo sustenten.
 
@@ -134,11 +134,12 @@ La predicción solo cuenta con el puntaje del modelo (nivel L5), sin ensayos cl�
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes, todas de producto único (sin combinaciones) y ninguna cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Moxifloxacin (moxifloxacin hydrochloride) prescribing information, Kesin Pharma Corportation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6d3ff1-e853-a3d8-e063-6394a90a18f5) |
 
 <!-- review:end log -->
 

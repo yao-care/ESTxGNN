@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos** y solo se dispone de **8 publicaci
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, tobramicina es un aminoglucósido con actividad frente a *Pseudomonas aeruginosa* y *Staphylococcus aureus*, su eficacia en infecciones bacterianas oculares ha sido comprobada, y mecanísticamente podría ser aplicable a complicaciones infecciosas de la superficie ocular.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tobramycin (traducción no oficial): «La tobramicina es un antibacteriano aminoglucósido. […] La tobramicina es un antibacteriano aminoglucósido producido por Streptomyces tenebrarius. Actúa principalmente alterando la síntesis de proteínas, lo que provoca una alteración de la permeabilidad de la membrana celular, la disrupción progresiva de la envoltura celular y, finalmente, la muerte celular.» Texto original en inglés: "Tobramycin is an aminoglycoside antibacterial. […] Tobramycin is an aminoglycoside antibacterial produced by Streptomyces tenebrarius. It acts primarily by disrupting protein synthesis leading to altered cell membrane permeability, progressive disruption of the cell envelope, and eventual cell death." ([DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a), versión del 2026-04-15; consultado el 2026-11-19). Según la información conocida, tobramicina es un aminoglucósido con actividad frente a *Pseudomonas aeruginosa* y *Staphylococcus aureus*, su eficacia en infecciones bacterianas oculares ha sido comprobada, y mecanísticamente podría ser aplicable a complicaciones infecciosas de la superficie ocular.
 
 La queratitis por exposición es fundamentalmente un trastorno mecánico o por desecación de la córnea, no una infección primaria. Por ello, el beneficio de tobramicina se limitaría a prevenir o tratar la infección bacteriana secundaria, frecuente en una córnea ya dañada, donde los patógenos mencionados son causas habituales.
 
@@ -122,11 +122,12 @@ La predicción tiene un puntaje alto, pero no existen ensayos clínicos y la evi
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 18 autorizaciones vigentes (todas de principio activo único), con formas oftálmicas, inyectables, de perfusión y de inhalación" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a) |
 
 <!-- review:end log -->
 

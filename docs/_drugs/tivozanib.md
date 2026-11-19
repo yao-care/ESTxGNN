@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **Carcinoma Endocervical**
 
 ## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente principal. Según la información farmacológica compilada, tivozanib inhibe con potencia similar los tres receptores de VEGF con actividad tirosina quinasa: VEGFR-1 (FLT1), VEGFR-2 (KDR) y VEGFR-3 (FLT4). Su eficacia en el carcinoma renal avanzado está establecida: fue aprobado por la EMA en 2017 y por la FDA en marzo de 2021.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tivozanib (traducción no oficial): «El tivozanib es un inhibidor de la tirosina cinasa. Los ensayos celulares de cinasas in vitro demostraron que el tivozanib inhibe la fosforilación del receptor del factor de crecimiento endotelial vascular (VEGFR)-1, VEGFR-2 y VEGFR-3, e inhibe otras cinasas, entre ellas c-kit y PDGFR β, a concentraciones clínicamente relevantes.» Texto original en inglés: "Tivozanib is a tyrosine kinase inhibitor. In vitro cellular kinase assays demonstrated that tivozanib inhibits phosphorylation of vascular endothelial growth factor receptor (VEGFR)-1, VEGFR-2 and VEGFR-3 and inhibits other kinases including c-kit and PDGFR β at clinically relevant concentrations." ([DailyMed: Fotivda (tivozanib) prescribing information, AVEO Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de77155c-ecf2-4f15-9758-21d271449d83), versión del 2026-11-11; consultado el 2026-11-19). Según la información farmacológica compilada, tivozanib inhibe con potencia similar los tres receptores de VEGF con actividad tirosina quinasa: VEGFR-1 (FLT1), VEGFR-2 (KDR) y VEGFR-3 (FLT4). Su eficacia en el carcinoma renal avanzado está establecida: fue aprobado por la EMA en 2017 y por la FDA en marzo de 2021.
 
 El carcinoma renal y los carcinomas cervicales comparten una dependencia relevante de la angiogénesis mediada por VEGF. En cáncer cervical avanzado, otro fármaco antiangiogénico (bevacizumab) ha mostrado beneficio, lo que vuelve plausible, en teoría, la inhibición de la vía VEGFR.
 
@@ -129,6 +129,19 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Revisión del prospecto de la AEMPS para advertencias y contraindicaciones (actualmente un vacío de datos bloqueante para el cribado de seguridad)
 - Evaluación de la viabilidad de ensayos dada la rareza de las histologías predichas
 - Evaluación de la compatibilidad de vía de administración (actualmente pendiente)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Fotivda (tivozanib) prescribing information, AVEO Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de77155c-ecf2-4f15-9758-21d271449d83) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

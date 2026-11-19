@@ -62,7 +62,7 @@ Nota: los textos de indicación aprobada de las autorizaciones de la AEMPS está
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, claritromicina es un antibiótico de la clase de los macrólidos, su eficacia en infecciones respiratorias y otras infecciones bacterianas está establecida, pero los datos compilados no permiten sustentar un mecanismo que la vincule con la hiperamilasemia.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clarithromycin (traducción no oficial): «La claritromicina es un fármaco antimicrobiano macrólido. […] La claritromicina ejerce su acción antibacteriana al unirse a la subunidad ribosómica 50S de las bacterias sensibles, lo que da lugar a la inhibición de la síntesis de proteínas.» Texto original en inglés: "Clarithromycin is a macrolide antimicrobial drug. […] Clarithromycin exerts its antibacterial action by binding to the 50S ribosomal subunit of susceptible bacteria resulting in inhibition of protein synthesis." ([DailyMed: clarithromycin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba216276-b0bd-420a-9e0d-090bdfcc2460), versión del 2026-11-12; consultado el 2026-11-19). Según la información conocida, claritromicina es un antibiótico de la clase de los macrólidos, su eficacia en infecciones respiratorias y otras infecciones bacterianas está establecida, pero los datos compilados no permiten sustentar un mecanismo que la vincule con la hiperamilasemia.
 
 La única publicación disponible (PMID 15228140, 2004) es un reporte de caso de infección pulmonar por *Mycobacterium abscessus* acompañada de macroamilasemia primaria. En ese contexto, la claritromicina probablemente se empleó por su acción antimicrobiana, no como tratamiento de la hiperamilasemia. La coincidencia entre ambas condiciones en un mismo paciente no demuestra un efecto terapéutico.
 
@@ -128,11 +128,12 @@ La predicción se basa casi exclusivamente en el puntaje del modelo; la única p
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo; ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: clarithromycin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba216276-b0bd-420a-9e0d-090bdfcc2460) |
 
 <!-- review:end log -->
 

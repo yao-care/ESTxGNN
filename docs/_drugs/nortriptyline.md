@@ -56,7 +56,7 @@ con **0 ensayos clínicos** registrados y **15 publicaciones** recuperadas, de l
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la farmacología conocida de la clase, la nortriptilina es un antidepresivo tricíclico (amina secundaria) que inhibe principalmente la recaptación de noradrenalina (transportador NET) y, en menor medida, la de serotonina (transportador SERT). Los datos de farmacología recopilados confirman su interacción con NET, SERT y el receptor adrenérgico α1A, así como con canales de potasio Kir.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Nortriptyline (traducción no oficial): «El mecanismo de elevación del estado de ánimo de los antidepresivos tricíclicos se desconoce actualmente. Pamelor no es un inhibidor de la monoaminooxidasa. Inhibe la actividad de agentes tan diversos como la histamina, la 5-hidroxitriptamina y la acetilcolina.» Texto original en inglés: "The mechanism of mood elevation by tricyclic antidepressants is at present unknown. Pamelor is not a monoamine oxidase inhibitor. It inhibits the activity of such diverse agents as histamine, 5-hydroxytryptamine, and acetylcholine." ([DailyMed: Pamelor (nortriptyline hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb), versión del 2024-12-04; consultado el 2026-11-19). Según la farmacología conocida de la clase, la nortriptilina es un antidepresivo tricíclico (amina secundaria) que inhibe principalmente la recaptación de noradrenalina (transportador NET) y, en menor medida, la de serotonina (transportador SERT). Los datos de farmacología recopilados confirman su interacción con NET, SERT y el receptor adrenérgico α1A, así como con canales de potasio Kir.
 
 La ansiedad y la distimia son trastornos neuropsiquiátricos en los que intervienen los sistemas monoaminérgicos. El TDAH comparte esa base: la potenciación noradrenérgica, en particular en la corteza prefrontal, es un mecanismo reconocido para tratar el TDAH (como ocurre con la atomoxetina). Por ello, el vínculo es biológicamente plausible.
 
@@ -114,6 +114,19 @@ Existe un ECA pediátrico controlado, una revisión Cochrane y varios estudios c
 - Valorar ensayos clínicos modernos frente a los tratamientos de referencia (estimulantes, atomoxetina).
 
 *Nota: la variante "TDAH, tipo inatento" (puntuación TxGNN 0,9933) no cuenta con ensayos ni literatura propios (nivel L5, decisión Hold); se considera un subtipo de la misma condición y queda cubierta por este análisis.*
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Pamelor (nortriptyline hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

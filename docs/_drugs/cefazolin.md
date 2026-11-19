@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos** registrados y la evidencia publica
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por su clase, cefazolina es una cefalosporina de primera generación que inhibe la síntesis de la pared celular bacteriana y tiene actividad frente a estreptococos y *Staphylococcus aureus* sensible a meticilina.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cefazolin (traducción no oficial): «Cefazolina es un fármaco antibacteriano. […] Cefazolina es un agente bactericida que actúa mediante la inhibición de la síntesis de la pared celular bacteriana.» Texto original en inglés: "Cefazolin is an antibacterial drug. […] Cefazolin is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis." ([DailyMed: Cefazolin (cefazolin sodium) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d91a8d13-99a0-4d87-88dc-71cbd37922b4), versión del 2026-08-31; consultado el 2026-11-19). Por su clase, cefazolina es una cefalosporina de primera generación que inhibe la síntesis de la pared celular bacteriana y tiene actividad frente a estreptococos y *Staphylococcus aureus* sensible a meticilina.
 
 Estos microorganismos son patógenos plausibles en la otitis media, lo que da un vínculo biológico coherente con la predicción. Sin embargo, la cobertura de patógenos clave de la otitis media (*H. influenzae*, *M. catarrhalis*) es limitada, y la cefazolina parenteral no es una opción habitual de primera línea.
 
@@ -95,6 +95,19 @@ La predicción tiene un puntaje alto (0,9944), pero no hay ensayos clínicos ni 
 - Datos de sensibilidad de los patógenos actuales de otitis media frente a cefazolina
 - Comparación con los tratamientos de primera línea vigentes (p. ej., amoxicilina)
 - Datos del mecanismo de acción y de la información de seguridad del prospecto
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cefazolin (cefazolin sodium) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d91a8d13-99a0-4d87-88dc-71cbd37922b4) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

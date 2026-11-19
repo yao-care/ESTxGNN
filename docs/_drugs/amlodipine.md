@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esp
 
 ## Por qué es Razonable esta Predicción
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información farmacológica conocida, amlodipino actúa como modulador de la apertura de los canales de calcio dependientes de voltaje (Cav1.2 y Cav1.3), con efecto vasodilatador y reductor de la presión arterial.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Amlodipine (traducción no oficial): «La amlodipina es un antagonista del calcio de tipo dihidropiridínico (antagonista de los iones calcio o bloqueante de los canales lentos) que inhibe el flujo transmembrana de entrada de iones calcio al músculo liso vascular y al músculo cardíaco. Los datos experimentales sugieren que la amlodipina se une tanto a los sitios de unión dihidropiridínicos como a los no dihidropiridínicos.» Texto original en inglés: "Amlodipine is a dihydropyridine calcium antagonist (calcium ion antagonist or slow-channel blocker) that inhibits the transmembrane influx of calcium ions into vascular smooth muscle and cardiac muscle. Experimental data suggest that amlodipine binds to both dihydropyridine and nondihydropyridine binding sites." ([DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487), versión del 2026-09-28; consultado el 2026-11-19). Según la información farmacológica conocida, amlodipino actúa como modulador de la apertura de los canales de calcio dependientes de voltaje (Cav1.2 y Cav1.3), con efecto vasodilatador y reductor de la presión arterial.
 
 El infarto del tronco encefálico es un tipo de infarto cerebral isquémico. Dado que el control de la presión arterial es un factor central en la prevención del ictus, es plausible que esta entidad sea un subtipo de las enfermedades cerebrovasculares en las que el fármaco ya se emplea por su efecto antihipertensivo.
 
@@ -101,6 +101,19 @@ La predicción se apoya únicamente en el puntaje del modelo (0,9994), sin ensay
 - Datos detallados del mecanismo de acción (MOA)
 - Revisión de advertencias y contraindicaciones del prospecto de la AEMPS
 - Evaluar si el beneficio sería distinto del efecto antihipertensivo ya conocido en prevención cerebrovascular
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

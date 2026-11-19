@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, levodopa es un precursor de la dopamina que actúa sobre la neurotransmisión dopaminérgica, y su eficacia en la enfermedad de Parkinson y en síndromes parkinsonianos relacionados está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Levodopa (traducción no oficial): «La levodopa, el precursor metabólico de la dopamina, atraviesa la barrera hematoencefálica y presumiblemente se convierte en dopamina en el cerebro. Se cree que este es el mecanismo por el cual la levodopa alivia los síntomas de la enfermedad de Parkinson.» Texto original en inglés: "Levodopa, the metabolic precursor of dopamine, crosses the blood-brain barrier and presumably is converted to dopamine in the brain. This is thought to be the mechanism whereby levodopa relieves symptoms of Parkinson's disease." ([DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb), versión del 2026-07-20; consultado el 2026-11-19). Según la información conocida, levodopa es un precursor de la dopamina que actúa sobre la neurotransmisión dopaminérgica, y su eficacia en la enfermedad de Parkinson y en síndromes parkinsonianos relacionados está bien establecida.
 
 La encefalitis de Rasmussen es una enfermedad inflamatoria cerebral rara, crónica y unilateral, mediada por linfocitos T, con atrofia hemisférica progresiva y epilepsia focal refractaria. No se ha establecido un vínculo mecanístico directo con levodopa. Una conexión meramente especulativa podría estar en rasgos compartidos de los ganglios basales o de los trastornos del movimiento, ya que algunos pacientes desarrollan hemiparesia o distonía.
 
@@ -90,6 +90,19 @@ La predicción se apoya solo en el puntaje del modelo TxGNN (aprendizaje profund
 - Realizar una revisión de literatura y de registros de ensayos sobre dopaminérgicos en encefalitis de Rasmussen.
 - Evaluar la compatibilidad de la vía de administración: la única presentación autorizada es inhalatoria (Inbrija) y no se ha determinado su idoneidad para esta indicación.
 - Generar evidencia preclínica o mecanística que justifique un vínculo biológico antes de reconsiderar la decisión.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

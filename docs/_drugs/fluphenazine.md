@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **distrofia retiniana con 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, fluphenazine es una fenotiazina antagonista de los receptores dopaminérgicos D2. Su eficacia en esquizofrenia y trastornos psicóticos está bien establecida, pero mecanísticamente no hay un vínculo demostrado con su posible aplicación en distrofias retinianas.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fluphenazine (traducción no oficial): «El clorhidrato de flufenazina tiene actividad en todos los niveles del sistema nervioso central, así como en múltiples sistemas orgánicos. Se desconoce el mecanismo por el cual ejerce su acción terapéutica.» Texto original en inglés: "Fluphenazine hydrochloride has activity at all levels of the central nervous system as well as on multiple organ systems. The mechanism whereby its therapeutic action is exerted is unknown." ([DailyMed: Fluphenazine Hydrochoride (fluphenazine hydrochloride) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91b85b8d-4c10-4395-915e-272b81ef3b12), versión del 2026-07-03; consultado el 2026-11-19). Según la información conocida, fluphenazine es una fenotiazina antagonista de los receptores dopaminérgicos D2. Su eficacia en esquizofrenia y trastornos psicóticos está bien establecida, pero mecanísticamente no hay un vínculo demostrado con su posible aplicación en distrofias retinianas.
 
 La distrofia retiniana hereditaria es un grupo de enfermedades de origen genético que afectan a los fotorreceptores o al epitelio pigmentario de la retina. No existe una conexión farmacológica evidente entre el bloqueo de receptores D2 y la modificación de este tipo de enfermedades. La puntuación del modelo TxGNN (deep learning) es muy alta (0.9999, posición 236 del ranking global), pero puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una justificación farmacológica validada.
 
@@ -111,6 +111,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Revisión sistemática de la literatura específica sobre fenotiazinas o antagonistas dopaminérgicos en enfermedades retinianas.
 - Las advertencias y contraindicaciones del prospecto de la AEMPS, para completar la evaluación de seguridad.
 - Como referencia, entre las demás predicciones del modelo, la de **trastorno bipolar maníaco** tiene mayor plausibilidad biológica (nivel L4). La literatura disponible es indirecta, basada sobre todo en revisiones de antipsicóticos inyectables de acción prolongada, y no hay ensayos específicos con fluphenazine. Podría priorizarse como pregunta de investigación frente a la indicación retiniana.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Fluphenazine Hydrochoride (fluphenazine hydrochloride) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91b85b8d-4c10-4395-915e-272b81ef3b12) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

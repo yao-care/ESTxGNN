@@ -60,7 +60,7 @@ con **0 ensayos clínicos registrados** y **20 publicaciones** que actualmente r
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, clonazepam es un modulador alostérico positivo del receptor GABA-A, que potencia la inhibición neuronal. Esta es una inferencia basada en la farmacología conocida de las benzodiazepinas y no en los datos suministrados.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clonazepam (traducción no oficial): «Se desconoce el mecanismo preciso por el cual el clonazepam ejerce sus efectos anticonvulsivos y antipánico, aunque se cree que está relacionado con su capacidad para potenciar la actividad del ácido gamma-aminobutírico (GABA), el principal neurotransmisor inhibidor del sistema nervioso central.» Texto original en inglés: "The precise mechanism by which clonazepam exerts its antiseizure and antipanic effects is unknown, although it is believed to be related to its ability to enhance the activity of gamma aminobutyric acid (GABA), the major inhibitory neurotransmitter in the central nervous system." ([DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1), versión del 2025-12-01; consultado el 2026-11-19). Según el conocimiento farmacológico general, clonazepam es un modulador alostérico positivo del receptor GABA-A, que potencia la inhibición neuronal. Esta es una inferencia basada en la farmacología conocida de las benzodiazepinas y no en los datos suministrados.
 
 En el síndrome de piernas inquietas y el trastorno de movimientos periódicos de las extremidades, se considera que clonazepam reduce la activación sensitivo-motora y la fragmentación del sueño, mejorando la continuidad del sueño, pero sin corregir la fisiopatología subyacente (dopaminérgica o relacionada con el hierro). La relación con las indicaciones originales radica en la acción depresora sobre el sistema nervioso central, común a la epilepsia, la ansiedad y los trastornos del movimiento durante el sueño.
 
@@ -132,6 +132,19 @@ Existe respaldo bibliográfico consistente (guía de la AASM, revisión Cochrane
 **Otras predicciones del modelo (para información):**
 - **Insomnio** (puntaje 0.9932, nivel L4, "Research Question"): la literatura es mayormente indirecta y no hay ensayos controlados de clonazepam en insomnio primario; requiere evaluación centrada en la seguridad.
 - **Neoplasia del nervio trigémino** (puntaje 0.9930, nivel L5, "Hold"): sin ensayos ni literatura de respaldo, y sin vínculo mecanístico clínicamente significativo; se recomienda no avanzar.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

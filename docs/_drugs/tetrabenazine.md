@@ -56,7 +56,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, tetrabenazina es un inhibidor reversible del transportador vesicular de monoaminas tipo 2 (VMAT2), que agota las monoaminas presinápticas en el sistema nervioso central. Los datos de farmacología confirman que se une a VMAT1 (SLC18A1) y VMAT2 (SLC18A2).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tetrabenazine (traducción no oficial): «Se desconoce el mecanismo preciso por el cual XENAZINE (tetrabenazina) ejerce sus efectos antikoreicos, pero se cree que está relacionado con su efecto como agente depletor reversible de monoaminas (como dopamina, serotonina, norepinefrina e histamina) de las terminaciones nerviosas. La tetrabenazina inhibe de forma reversible el transportador vesicular de monoaminas humano tipo 2 (VMAT2) (K i ≈ 100 nM), lo que da lugar a una disminución de la captación de monoaminas en las vesículas sinápticas y a la depleción de los depósitos de monoaminas.» Texto original en inglés: "The precise mechanism by which XENAZINE (tetrabenazine) exerts its anti-chorea effects is unknown but is believed to be related to its effect as a reversible depletor of monoamines (such as dopamine, serotonin, norepinephrine, and histamine) from nerve terminals. Tetrabenazine reversibly inhibits the human vesicular monoamine transporter type 2 (VMAT2) (K i ≈ 100 nM), resulting in decreased uptake of monoamines into synaptic vesicles and depletion of monoamine stores." ([DailyMed: Xenazine (tetrabenazine) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac768bab-8afa-4446-bc7f-caeeffec0cda), versión del 2026-11-06; consultado el 2026-11-19). Según la información conocida, tetrabenazina es un inhibidor reversible del transportador vesicular de monoaminas tipo 2 (VMAT2), que agota las monoaminas presinápticas en el sistema nervioso central. Los datos de farmacología confirman que se une a VMAT1 (SLC18A1) y VMAT2 (SLC18A2).
 
 La indicación original (corea de Huntington y otros trastornos hipercinéticos) es un trastorno neurológico del movimiento. La nueva indicación predicha es una enfermedad genética relacionada con ciliopatías, caracterizada por la formación de quistes renales y hepáticos. **No se identifica ningún vínculo mecanístico plausible** entre ambas: la inhibición de VMAT2 actúa sobre la neurotransmisión monoaminérgica y no sobre la formación de quistes.
 
@@ -99,6 +99,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Evidencia preclínica que demuestre una relación entre la vía monoaminérgica/VMAT2 y la quistogénesis renal o hepática
 - Textos de indicación aprobada de las autorizaciones españolas para confirmar la indicación original
 - Reevaluación de las demás predicciones de mayor puntaje, que tampoco cuentan con evidencia clínica, solo si surge una hipótesis biológica sólida
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Xenazine (tetrabenazine) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac768bab-8afa-4446-bc7f-caeeffec0cda) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

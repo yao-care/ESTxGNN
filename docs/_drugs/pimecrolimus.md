@@ -56,7 +56,7 @@ con **1 ensayo clínico** (Fase 2, completado) y **18 publicaciones** que actual
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada. Según la información conocida, pimecrolimus es un inhibidor de la calcineurina de aplicación tópica. Bloquea la activación de los linfocitos T e inhibe la liberación de citocinas inflamatorias (IL-2, IL-4, interferón gamma y TNF-alfa), además de inhibir la degranulación de los mastocitos. Su eficacia en la dermatitis atópica está comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pimecrolimus (traducción no oficial): «Se desconoce el mecanismo de acción de pimecrolimus en la dermatitis atópica. Si bien se ha observado lo siguiente, se desconoce la importancia clínica de estas observaciones en la dermatitis atópica. Se ha demostrado que pimecrolimus se une con alta afinidad a la macrofilina-12 (FKBP-12) e inhibe la fosfatasa dependiente de calcio, la calcineurina.» Texto original en inglés: "The mechanism of action of pimecrolimus in atopic dermatitis is not known. While the following have been observed, the clinical significance of these observations in atopic dermatitis is not known. It has been demonstrated that pimecrolimus binds with high affinity to macrophilin-12 (FKBP-12) and inhibits the calcium-dependent phosphatase, calcineurin." ([DailyMed: pimecrolimus prescribing information, Oceanside Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6601e43e-ce7d-446a-8568-8e7b24b86f06), versión del 2026-04-30; consultado el 2026-11-19). Según la información conocida, pimecrolimus es un inhibidor de la calcineurina de aplicación tópica. Bloquea la activación de los linfocitos T e inhibe la liberación de citocinas inflamatorias (IL-2, IL-4, interferón gamma y TNF-alfa), además de inhibir la degranulación de los mastocitos. Su eficacia en la dermatitis atópica está comprobada.
 
 La dermatitis atópica y la dermatitis seborreica son enfermedades inflamatorias crónicas y recurrentes de la piel. La dermatitis seborreica implica una respuesta inflamatoria frente a la levadura *Malassezia* en zonas ricas en glándulas sebáceas. Por ello, la inmunomodulación tópica es mecanísticamente plausible, con la ventaja de no causar la atrofia cutánea asociada a los corticoides.
 
@@ -114,6 +114,19 @@ Existe un ensayo de Fase 2 completado, aleatorizado y con comparador activo en d
 - Confirmar el texto de indicación aprobado de la autorización 65029
 - Plan de seguridad: uso corto o intermitente, y cautela en inmunodeprimidos y niños pequeños
 - Valorar las otras predicciones: dermatitis (principalmente la indicación ya aprobada, evidencia L1, sin verdadero reposicionamiento), exantema (L2, evidencia heterogénea; pregunta de investigación) y acrodermatitis crónica atrófica (L5, sin evidencia y sin racional mecanístico; Hold)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: pimecrolimus prescribing information, Oceanside Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6601e43e-ce7d-446a-8568-8e7b24b86f06) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

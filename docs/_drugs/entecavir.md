@@ -60,7 +60,7 @@ Los estudios identificados se refieren a la coinfección VHC/VHB, en la que ente
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, entecavir es un análogo nucleósido de la guanosina que, una vez fosforilado a su forma trifosfato activa, inhibe la ADN polimerasa del VHB. Su eficacia en la hepatitis B crónica está bien establecida y respaldada por guías clínicas como la EASL 2017.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Entecavir (traducción no oficial): «El entecavir es un fármaco antiviral contra el virus de la hepatitis B. […] El entecavir, un análogo nucleosídico de la desoxiguanosina con actividad contra la transcriptasa inversa (rt) del VHB, se fosforila eficientemente a la forma trifosfato activa, que tiene una semivida intracelular de 15 horas. Al competir con el sustrato natural desoxiguanosina trifosfato, el entecavir trifosfato inhibe funcionalmente las tres actividades de la transcriptasa inversa del VHB: el cebado de bases, la transcripción inversa de la cadena negativa a partir del ARN mensajero pregenómico y la síntesis de la cadena positiva del ADN del VHB.» Texto original en inglés: "Entecavir is an antiviral drug against hepatitis B virus. […] Entecavir, a deoxyguanosine nucleoside analogue with activity against HBV reverse transcriptase (rt), is efficiently phosphorylated to the active triphosphate form, which has an intracellular half-life of 15 hours. By competing with the natural substrate deoxyguanosine triphosphate, entecavir triphosphate functionally inhibits all three activities of the HBV reverse transcriptase: base priming, reverse transcription of the negative strand from the pregenomic messenger RNA, and synthesis of the positive strand of HBV DNA." ([DailyMed: Baraclude (entecavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046e61c9-9298-4b2e-b76e-b26b81fecd20), versión del 2019-11-06; consultado el 2026-11-19). Según la información conocida, entecavir es un análogo nucleósido de la guanosina que, una vez fosforilado a su forma trifosfato activa, inhibe la ADN polimerasa del VHB. Su eficacia en la hepatitis B crónica está bien establecida y respaldada por guías clínicas como la EASL 2017.
 
 La hepatitis B y la hepatitis C son ambas infecciones virales crónicas del hígado, con riesgo de cirrosis y carcinoma hepatocelular, y con frecuencia coexisten en el mismo paciente. Es probable que esta cercanía clínica y de red de enfermedades explique el puntaje tan alto del modelo.
 
@@ -146,11 +146,12 @@ La alta puntuación del modelo (0,9998) no está respaldada por evidencia direct
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Entecavir tiene 20 autorizaciones vigentes (todas de medicamentos con un solo principio activo, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Baraclude (entecavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046e61c9-9298-4b2e-b76e-b26b81fecd20) |
 
 <!-- review:end log -->
 

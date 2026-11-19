@@ -57,7 +57,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, aunque 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, finasterida inhibe la 5-alfa-reductasa tipo II (gen SRD5A2), enzima que convierte la testosterona en dihidrotestosterona (DHT). Su eficacia en la hiperplasia prostática benigna está comprobada y se emplea también en la alopecia androgenética masculina.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Finasteride (traducción no oficial): «El desarrollo y el agrandamiento de la glándula prostática dependen del potente andrógeno 5α-dihidrotestosterona (DHT). La 5α-reductasa de tipo II metaboliza la testosterona a DHT en la glándula prostática, el hígado y la piel. […] La finasterida es un inhibidor competitivo y específico de la 5α-reductasa de tipo II, con la que forma lentamente un complejo enzimático estable.» Texto original en inglés: "The development and enlargement of the prostate gland is dependent on the potent androgen, 5α-dihydrotestosterone (DHT). Type II 5α-reductase metabolizes testosterone to DHT in the prostate gland, liver and skin. […] Finasteride is a competitive and specific inhibitor of Type II 5α-reductase with which it slowly forms a stable enzyme complex." ([DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b), versión del 2026-03-18; consultado el 2026-11-19). Según la información conocida, finasterida inhibe la 5-alfa-reductasa tipo II (gen SRD5A2), enzima que convierte la testosterona en dihidrotestosterona (DHT). Su eficacia en la hiperplasia prostática benigna está comprobada y se emplea también en la alopecia androgenética masculina.
 
 La relación con la nueva indicación es solo parcial. La supresión de DHT tiene fundamento en trastornos del cabello dependientes de andrógenos, como el hirsutismo y la alopecia androgenética. Sin embargo, la hipertricosis es típicamente independiente de andrógenos (congénita, inducida por fármacos o paraneoplásica), por lo que el ajuste mecanístico es limitado.
 
@@ -122,11 +122,12 @@ Las predicciones tienen puntajes muy altos, pero provienen solo del modelo TxGNN
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Existen 20 autorizaciones vigentes, todas de medicamentos de un solo principio activo" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b) |
 
 <!-- review:end log -->
 

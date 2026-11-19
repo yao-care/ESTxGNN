@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, adapaleno es un retinoide sintético que actúa como agonista de los receptores del ácido retinoico, con selectividad por los isotipos RAR-β y RAR-γ frente a RAR-α. Su eficacia en el acné está establecida y se aplica por vía tópica.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Adapalene (traducción no oficial): «El adapaleno se une a receptores nucleares específicos del ácido retinoico, pero no se une a la proteína receptora citosólica. Los estudios de perfil bioquímico y farmacológico han demostrado que el adapaleno es un modulador de la diferenciación celular, la queratinización y los procesos inflamatorios.» Texto original en inglés: "Adapalene binds to specific retinoic acid nuclear receptors but does not bind to cytosolic receptor protein. Biochemical and pharmacological profile studies have demonstrated that adapalene is a modulator of cellular differentiation, keratinization, and inflammatory processes." ([DailyMed: Differin (adapalene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0031324-92a6-4c11-90e2-c2818f7278ec), versión del 2023-12-27; consultado el 2026-11-19). Según la información farmacológica conocida, adapaleno es un retinoide sintético que actúa como agonista de los receptores del ácido retinoico, con selectividad por los isotipos RAR-β y RAR-γ frente a RAR-α. Su eficacia en el acné está establecida y se aplica por vía tópica.
 
 Sin embargo, no existe un vínculo mecanístico documentado entre la señalización retinoide y la regulación del zinc plasmático. El puntaje elevado (0.9951) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -91,6 +91,19 @@ La única base es el puntaje del modelo (nivel L5), sin ensayos clínicos, sin l
 - Revisión bibliográfica para buscar cualquier asociación entre retinoides y homeostasis del zinc
 - Evaluación de la relevancia clínica de la indicación y de la compatibilidad de vía de administración (adapaleno es tópico, con exposición sistémica baja)
 - Descartar posibles artefactos del modelo TxGNN (aprendizaje profundo) en la predicción
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Differin (adapalene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0031324-92a6-4c11-90e2-c2818f7278ec) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, ceritinib es un inhibidor de la tirosina quinasa ALK, y su eficacia en el CPNM con reordenamiento de ALK ha sido comprobada, incluido el ensayo de fase 3 ASCEND-4 en primera línea frente a quimioterapia basada en platino.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ceritinib (traducción no oficial): «El ceritinib es un inhibidor de cinasas. Entre las dianas de inhibición del ceritinib identificadas en ensayos bioquímicos o celulares a concentraciones clínicamente relevantes se incluyen ALK, el receptor del factor de crecimiento insulínico tipo 1 (IGF-1R), el receptor de insulina (InsR) y ROS1.» Texto original en inglés: "Ceritinib is a kinase inhibitor. Targets of ceritinib inhibition identified in either biochemical or cellular assays at clinically relevant concentrations include ALK, insulin-like growth factor 1 receptor (IGF-1R), insulin receptor (InsR), and ROS1." ([DailyMed: Zykadia (ceritinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fff5d805-4ffd-4e8e-8e63-6f129697563e), versión del 2026-10-28; consultado el 2026-11-19). Según la información conocida, ceritinib es un inhibidor de la tirosina quinasa ALK, y su eficacia en el CPNM con reordenamiento de ALK ha sido comprobada, incluido el ensayo de fase 3 ASCEND-4 en primera línea frente a quimioterapia basada en platino.
 
 Para la fibromatosis gingival no se ha identificado ningún vínculo mecanístico. El puntaje de TxGNN es muy alto (0.9986), pero proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. No se conoce una dependencia de ALK en esta enfermedad, que es un sobrecrecimiento del tejido gingival de naturaleza benigna.
 
@@ -109,6 +109,19 @@ La predicción se basa únicamente en el modelo, sin ensayos clínicos, sin lite
 - Obtención y revisión del prospecto de AEMPS (advertencias, contraindicaciones e indicación autorizada), pendiente antes de cualquier evaluación de seguridad.
 - Evaluación de la relación riesgo-beneficio, dado el perfil de toxicidad de un fármaco antineoplásico para una enfermedad benigna.
 - Revisión de las demás indicaciones predichas, priorizando aquellas con algún respaldo indirecto.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zykadia (ceritinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fff5d805-4ffd-4e8e-8e63-6f129697563e) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

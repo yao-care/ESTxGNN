@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, lipegfilgrastim es un análogo pegilado de G-CSF que estimula la proliferación y diferenciación del linaje neutrofílico mediante el receptor de G-CSF.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Lipegfilgrastim es (traducción no oficial): «Agonista del receptor del factor estimulante de colonias de granulocitos» Texto original en inglés: "Granulocyte colony stimulating factor receptor agonist" ([ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, lipegfilgrastim es un análogo pegilado de G-CSF que estimula la proliferación y diferenciación del linaje neutrofílico mediante el receptor de G-CSF.
 
 No se identifica un efecto directo establecido sobre la liberación de gránulos plaquetarios ni sobre la función plaquetaria. El puntaje elevado (0.9993) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni un mecanismo validado. La relación con la indicación original (similitud) está pendiente de evaluar.
 
@@ -116,11 +116,12 @@ La predicción se basa únicamente en el modelo, sin ensayos clínicos ni litera
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "comercializado en España con el nombre Lonquex" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230) |
 
 <!-- review:end log -->
 

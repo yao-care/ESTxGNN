@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para **neoplasia del nervio tri
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos estructurados detallados sobre el mecanismo de acción. Según la información conocida, la lamotrigina bloquea los canales de sodio dependientes de voltaje y reduce la liberación de glutamato. Este mecanismo estabiliza las membranas neuronales hiperexcitables y explica su eficacia en epilepsia.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lamotrigine (traducción no oficial): «Se desconoce(n) el(los) mecanismo(s) preciso(s) mediante el(los) cual(es) la lamotrigina ejerce su acción anticonvulsiva. En modelos animales diseñados para detectar actividad anticonvulsiva, la lamotrigina fue eficaz para prevenir la propagación de las convulsiones en las pruebas de electrochoque máximo (MES) y de pentilentetrazol (scMet), y previno las convulsiones en las pruebas de posdescarga evocada visual y eléctricamente (EEAD) para la actividad antiepiléptica.» Texto original en inglés: "The precise mechanism(s) by which lamotrigine exerts its anticonvulsant action are unknown. In animal models designed to detect anticonvulsant activity, lamotrigine was effective in preventing seizure spread in the maximum electroshock (MES) and pentylenetetrazol (scMet) tests, and prevented seizures in the visually and electrically evoked after-discharge (EEAD) tests for antiepileptic activity." ([DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4), versión del 2026-10-12; consultado el 2026-11-19). Según la información conocida, la lamotrigina bloquea los canales de sodio dependientes de voltaje y reduce la liberación de glutamato. Este mecanismo estabiliza las membranas neuronales hiperexcitables y explica su eficacia en epilepsia.
 
 La puntuación tan alta (0.9997) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; probablemente se debe a su parecido con la **neuralgia del trigémino**, una enfermedad distinta de un tumor. Los dos artículos recuperados tratan sobre neuralgia del trigémino (una revisión general de tratamientos y un caso de radiocirugía Gamma Knife por malformación cavernosa), no sobre una neoplasia.
 
@@ -103,6 +103,19 @@ La predicción es solo computacional (L5): no hay ensayos clínicos y la literat
 - Aclarar si el objetivo real es el control del dolor neuropático asociado a tumores y no el tratamiento del tumor.
 
 **Nota para reorientar la hipótesis:** la segunda predicción del modelo, la **neuralgia del trigémino** (puntaje 0,9989), tiene un respaldo bastante mayor (nivel L2). Incluye dos ensayos pequeños completados: [NCT00913107](https://clinicaltrials.gov/study/NCT00913107) (Fase 2/3, n=21, frente a carbamazepina) y [NCT00203229](https://clinicaltrials.gov/study/NCT00203229) (controlado con placebo, n=20), además de guías y revisiones que citan la lamotrigina como opción adicional o alternativa. Esta indicación merece una evaluación independiente.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

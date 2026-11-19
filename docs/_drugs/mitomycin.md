@@ -56,7 +56,7 @@ Actualmente no hay **ningún ensayo clínico ni publicación** que respalde esta
 
 ## ¿Por qué es Razonable esta Predicción?
 
-En los datos compilados para este informe no consta el mecanismo de acción de la mitomicina. Según el conocimiento farmacológico general, es un agente alquilante que, tras su activación intracelular, entrecruza las cadenas de ADN e impide su replicación. Este efecto citotóxico no es específico de un tipo tumoral, y esa es la base de la predicción del modelo.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Mitomycin (traducción no oficial): «La mitomicina inhibe selectivamente la síntesis del ácido desoxirribonucleico (ADN). El contenido de guanina y citosina se correlaciona con el grado de entrecruzamiento inducido por la mitomicina. A concentraciones elevadas del fármaco, también se suprimen la síntesis de ARN y de proteínas celulares.» Texto original en inglés: "Mitomycin selectively inhibits the synthesis of deoxyribonucleic acid (DNA). The guanine and cytosine content correlates with the degree of mitomycin-induced cross-linking. At high concentrations of the drug, cellular RNA and protein synthesis are also suppressed." ([DailyMed: Mutamycin (mitomycin) prescribing information, Accord BioPharma Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbf0f6ba-3a53-4791-9a85-5c6b271eeb8e), versión del 2025-03-12; consultado el 2026-11-19). Según el conocimiento farmacológico general, es un agente alquilante que, tras su activación intracelular, entrecruza las cadenas de ADN e impide su replicación. Este efecto citotóxico no es específico de un tipo tumoral, y esa es la base de la predicción del modelo.
 
 La mitomicina ya se emplea en otros tumores del páncreas, y la predicción extiende esa lógica antineoplásica a una variante tumoral relacionada. El vínculo es una extrapolación a partir del mecanismo citotóxico general.
 
@@ -115,6 +115,18 @@ La predicción (puntaje 0,9986) no cuenta con ningún ensayo clínico ni publica
 - Obtener y analizar el prospecto oficial para completar la información de advertencias y contraindicaciones.
 - Evaluar la compatibilidad de las vías de administración disponibles (intravenosa e intravesical) con esta indicación.
 - Valorar con expertos clínicos si existe un grupo de pacientes (enfermedad irresecable o metastásica) en el que un estudio exploratorio esté justificado.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Mutamycin (mitomycin) prescribing information, Accord BioPharma Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbf0f6ba-3a53-4791-9a85-5c6b271eeb8e) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

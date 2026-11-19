@@ -56,7 +56,7 @@ pero actualmente no hay **ensayos clínicos** registrados para esta indicación 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida de la literatura, dronedarona es un antiarrítmico de clase III con propiedades multicanal (inhibición de corrientes de Na⁺, K⁺ y Ca²⁺), estructuralmente similar a la amiodarona pero sin yodo y con menor vida media. Su eficacia en fibrilación auricular está comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dronedarone (traducción no oficial): «Se desconoce el mecanismo de acción de dronedarona. Dronedarona tiene propiedades antiarrítmicas pertenecientes a las cuatro clases de Vaughan-Williams, pero se desconoce la contribución de cada una de estas actividades al efecto clínico.» Texto original en inglés: "The mechanism of action of dronedarone is unknown. Dronedarone has antiarrhythmic properties belonging to all four Vaughan-Williams classes, but the contribution of each of these activities to the clinical effect is unknown." ([DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c), versión del 2026-01-27; consultado el 2026-11-19). Según la información conocida de la literatura, dronedarona es un antiarrítmico de clase III con propiedades multicanal (inhibición de corrientes de Na⁺, K⁺ y Ca²⁺), estructuralmente similar a la amiodarona pero sin yodo y con menor vida media. Su eficacia en fibrilación auricular está comprobada.
 
 La relación con el ictus es **indirecta**: la fibrilación auricular es un factor de riesgo mayor de ictus cardioembólico, y análisis post hoc del ensayo ATHENA (Fase 3, en pacientes con fibrilación auricular) sugirieron una menor incidencia de ictus con dronedarona. Un estudio de laboratorio (PMID 28992468) apunta además a posibles efectos anticoagulantes y antiplaquetarios independientes de la acción antiarrítmica, y una revisión preclínica describe efectos pleiotrópicos sobre la lesión por isquemia/reperfusión en corazón y cerebro.
 
@@ -121,11 +121,12 @@ No existen ensayos clínicos para esta indicación y la evidencia disponible pro
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se listan 5 de las 9 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c) |
 
 <!-- review:end log -->
 

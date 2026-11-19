@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción del cloranfenicol en los datos compilados para este informe. Se sabe que es un antibacteriano, es decir, actúa contra microorganismos.
+Según las secciones «Clinical Pharmacology» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Chloramphenicol (traducción no oficial): «El cloranfenicol es un antibiótico de amplio espectro aislado originalmente de Streptomyces venezuelae. Inhibe la síntesis de proteínas bacterianas al interferir en la transferencia de aminoácidos activados desde el ARN soluble a los ribosomas.» Texto original en inglés: "Chloramphenicol is a broad-spectrum antibiotic originally isolated from Streptomyces venezuelae. It inhibits bacterial protein synthesis by interfering with the transfer of activated amino acids from soluble RNA to ribosomes." ([DailyMed: chloramphenicol sodium succinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aed29594-211d-49ef-813f-131975a8d0e3), versión del 2024-10-10; consultado el 2026-11-19). Se sabe que es un antibacteriano, es decir, actúa contra microorganismos.
 
 La esclerodermia difusa es una enfermedad autoinmune y fibrosante. Se caracteriza por inflamación crónica y endurecimiento de la piel y de otros órganos, no por una infección. Por eso no se identifica un vínculo mecanístico claro entre un antibacteriano y esta enfermedad.
 
@@ -113,6 +113,18 @@ No existen ensayos clínicos ni publicaciones sobre esta enfermedad, y no se ide
 - Una hipótesis biológica que justifique el uso de un antibacteriano en una enfermedad autoinmune fibrosante.
 - Estudios preclínicos o de mecanismo que evalúen directamente el fármaco en esclerodermia difusa.
 - Revisión de las advertencias y contraindicaciones del prospecto, incluida la toxicidad hematológica, antes de cualquier consideración clínica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: chloramphenicol sodium succinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aed29594-211d-49ef-813f-131975a8d0e3) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

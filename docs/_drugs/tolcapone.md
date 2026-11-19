@@ -60,7 +60,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, tolcapona es un inhibidor de la COMT (enzima codificada por el gen *COMT*), que se utiliza como terapia complementaria en la enfermedad de Parkinson. Al inhibir la degradación periférica de la levodopa, prolonga su efecto dopaminérgico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tolcapone (traducción no oficial): «Tolcapona es un inhibidor selectivo y reversible de la catecol- O -metiltransferasa (COMT). En los mamíferos, la COMT se distribuye en diversos órganos. Las actividades más altas se encuentran en el hígado y el riñón. La COMT también está presente en el corazón, el pulmón, los músculos liso y esquelético, el tracto intestinal, los órganos reproductores, diversas glándulas, el tejido adiposo, la piel, las células sanguíneas y los tejidos neuronales, especialmente en las células gliales.» Texto original en inglés: "Tolcapone is a selective and reversible inhibitor of catechol- O -methyltransferase (COMT). In mammals, COMT is distributed throughout various organs. The highest activities are in the liver and kidney. COMT also occurs in the heart, lung, smooth and skeletal muscles, intestinal tract, reproductive organs, various glands, adipose tissue, skin, blood cells and neuronal tissues, especially in glial cells." ([DailyMed: Tasmar (tolcapone) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0e47a9d-78e7-4523-983a-aa259f221736), versión del 2020-10-02; consultado el 2026-11-19). Según la información conocida, tolcapona es un inhibidor de la COMT (enzima codificada por el gen *COMT*), que se utiliza como terapia complementaria en la enfermedad de Parkinson. Al inhibir la degradación periférica de la levodopa, prolonga su efecto dopaminérgico.
 
 La encefalitis de Rasmussen es una encefalitis crónica inmunomediada, impulsada por linfocitos T. La COMT no tiene un papel inmunomodulador establecido, por lo que **no se aprecia un mecanismo plausible** que vincule el fármaco con esta enfermedad. La puntuación elevada del modelo TxGNN (deep learning) (0.9993) procede del modelo y puede reflejar similitudes que este aprendió entre enfermedades relacionadas, no una evidencia biológica.
 
@@ -115,6 +115,19 @@ La predicción se apoya solo en el modelo (nivel L5), sin ensayos ni literatura,
 - Evaluación del riesgo hepático antes de cualquier estudio clínico.
 
 **Nota sobre otras predicciones:** entre las demás candidatas, la **demencia con cuerpos de Lewy** (puntaje 0,9964, nivel L4) es la que cuenta con cierto respaldo, una publicación preclínica de 2024 (PMID [39259788](https://pubmed.ncbi.nlm.nih.gov/39259788/)) en organoides corticales derivados de iPSC, aunque no se pudo confirmar el papel específico de la tolcapona. Se considera una pregunta de investigación, con cautela por la sensibilidad a agentes dopaminérgicos y el riesgo de psicosis. La predicción "parálisis agitante juvenil de Hunt" es en esencia un solapamiento de nomenclatura con la indicación ya existente, no un reposicionamiento novedoso.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tasmar (tolcapone) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0e47a9d-78e7-4523-983a-aa259f221736) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

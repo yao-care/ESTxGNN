@@ -58,7 +58,7 @@ La evidencia es limitada y la predicción debe considerarse una pregunta de inve
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, terlipresina es un agonista de los receptores V1 de vasopresina, profármaco de la lisina-vasopresina, con acción principalmente vasoconstrictora esplácnica y sistémica.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Terlipressin (traducción no oficial): «La terlipresina es un análogo sintético de la vasopresina con el doble de selectividad por los receptores V 1 de vasopresina frente a los receptores V 2. La terlipresina actúa como profármaco de la lisina-vasopresina y, además, tiene actividad farmacológica propia.» Texto original en inglés: "Terlipressin is a synthetic vasopressin analogue with twice the selectivity for vasopressin V 1 receptors versus V 2 receptors. Terlipressin acts as both a prodrug for lysine-vasopressin, as well as having pharmacologic activity on its own." ([DailyMed: Terlivaz (terlipressin) prescribing information, Keenova Hospital Products Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a35b86c-f451-4fac-8499-43019e4da354), versión del 2026-10-23; consultado el 2026-11-19). Según la información conocida, terlipresina es un agonista de los receptores V1 de vasopresina, profármaco de la lisina-vasopresina, con acción principalmente vasoconstrictora esplácnica y sistémica.
 
 La hipertensión pulmonar es una enfermedad vascular con aumento de la resistencia vascular pulmonar. Aunque un vasoconstrictor podría parecer contraproducente, los estudios hemodinámicos publicados describen efectos diferenciales de terlipresina sobre la circulación pulmonar y la sistémica: en pacientes cirróticos con hipertensión pulmonar redujo la resistencia vascular pulmonar y las presiones pulmonares, mientras elevaba la resistencia sistémica.
 
@@ -127,11 +127,12 @@ Existe plausibilidad biológica y algunos estudios hemodinámicos pequeños y ca
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 8 autorizaciones vigentes en total (todas de principio activo único); aquí se listan las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Terlivaz (terlipressin) prescribing information, Keenova Hospital Products Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a35b86c-f451-4fac-8499-43019e4da354) |
 
 <!-- review:end log -->
 

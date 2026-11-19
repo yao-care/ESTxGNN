@@ -56,7 +56,7 @@ sin **ningún ensayo clínico** ni **ninguna publicación** que respalden esta d
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos detallados sobre el mecanismo de acción no están disponibles en los datos compilados para este informe. Según la información farmacológica recogida, la cabergolina actúa sobre los receptores dopaminérgicos (con afinidad por D2) y también sobre receptores serotoninérgicos y adrenérgicos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cabergoline (traducción no oficial): «La cabergolina es un derivado ergótico y agonista de los receptores de dopamina con una alta afinidad por los receptores D2. Los resultados de estudios in vitro demuestran que la cabergolina ejerce un efecto inhibidor directo sobre la secreción de prolactina por los lactotropos hipofisarios de rata.» Texto original en inglés: "Cabergoline is an ergot derivative and dopamine receptor agonist with a high affinity for D2 receptors. Results of in vitro studies demonstrate that cabergoline exerts a direct inhibitory effect on the secretion of prolactin by rat pituitary lactotrophs." ([DailyMed: cabergoline prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e497366b-a124-4d7f-bd45-a883c392d4bb), versión del 2026-06-30; consultado el 2026-11-19). Según la información farmacológica recogida, la cabergolina actúa sobre los receptores dopaminérgicos (con afinidad por D2) y también sobre receptores serotoninérgicos y adrenérgicos.
 
 No se identifica un vínculo mecanístico plausible entre el agonismo dopaminérgico D2 y este síndrome raro. No hay ensayos clínicos ni literatura que lo respalden, por lo que el puntaje del modelo es únicamente una salida computacional, sin apoyo de evidencia real.
 
@@ -97,6 +97,19 @@ La predicción carece de ensayos clínicos, literatura y vínculo mecanístico p
 - Una hipótesis mecanística que relacione la vía dopaminérgica con la fisiopatología de este síndrome
 - Estudios preclínicos o series de casos que apoyen la dirección propuesta
 - Datos de seguridad del prospecto (advertencias y contraindicaciones) y datos de mecanismo de acción
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: cabergoline prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e497366b-a124-4d7f-bd45-a883c392d4bb) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

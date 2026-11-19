@@ -60,7 +60,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, ramucirumab es un anticuerpo monoclonal que se une a VEGFR2 y bloquea la angiogénesis dependiente de VEGF. Su eficacia está reconocida en adenocarcinoma gástrico, cáncer de pulmón no microcítico y carcinoma hepatocelular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ramucirumab (traducción no oficial): «El ramucirumab es un antagonista de VEGFR2 que se une específicamente a VEGFR2 y bloquea la unión de los ligandos de VEGFR, VEGF-A, VEGF-C y VEGF-D. Como resultado, el ramucirumab inhibe la activación de VEGFR2 estimulada por ligandos, lo que inhibe la proliferación y la migración de células endoteliales humanas inducidas por ligandos. El ramucirumab inhibió la angiogénesis en un modelo animal in vivo.» Texto original en inglés: "Ramucirumab is a VEGFR2 antagonist that specifically binds VEGFR2 and blocks binding of VEGFR ligands, VEGF-A, VEGF-C, and VEGF-D. As a result, ramucirumab inhibits ligand-stimulated activation of VEGFR2, thereby inhibiting ligand-induced proliferation, and migration of human endothelial cells. Ramucirumab inhibited angiogenesis in an in vivo animal model." ([DailyMed: Cyramza (ramucirumab) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6080942-dee6-423e-b688-1272c2ae90d4), versión del 2026-06-09; consultado el 2026-11-19). Según la información conocida, ramucirumab es un anticuerpo monoclonal que se une a VEGFR2 y bloquea la angiogénesis dependiente de VEGF. Su eficacia está reconocida en adenocarcinoma gástrico, cáncer de pulmón no microcítico y carcinoma hepatocelular.
 
 Los adenocarcinomas de origen ginecológico también dependen en parte de la angiogénesis, por lo que el bloqueo de VEGFR2 ofrece una justificación plausible pero no validada. En cáncer de cuello uterino, la terapia antiangiogénica (por ejemplo, bevacizumab) tiene un papel establecido, lo que apoya el racional a nivel de clase farmacológica.
 
@@ -142,6 +142,19 @@ La predicción se apoya solo en el modelo TxGNN (nivel L5), sin ensayos clínico
 - Realizar una revisión sistemática de literatura y de registros de ensayos sobre ramucirumab o inhibición de VEGFR2 en tumores ginecológicos, en particular cuello uterino, para priorizar subtipos.
 - Evaluar la viabilidad de estudios preclínicos o de un ensayo piloto, considerando la rareza de varios subtipos.
 - Definir un plan de gestión del riesgo hemorrágico por interacciones con antitrombóticos.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cyramza (ramucirumab) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6080942-dee6-423e-b688-1272c2ae90d4) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Elafibranor es un agonista dual de PPARα y PPARδ (genes *PPARA* y *PPARD*). Se convierte en el hígado en su principal metabolito activo, GFT-1007. En estudios preclínicos redujo la acumulación de grasa hepática, la inflamación y la fibrosis. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco; la información anterior procede de los datos farmacológicos de los dianas.
+Elafibranor es un agonista dual de PPARα y PPARδ (genes *PPARA* y *PPARD*). Se convierte en el hígado en su principal metabolito activo, GFT-1007. En estudios preclínicos redujo la acumulación de grasa hepática, la inflamación y la fibrosis. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Elafibranor (traducción no oficial): «El elafibranor y su principal metabolito activo, GFT1007, son agonistas de los receptores activados por proliferadores de peroxisomas (PPAR), y ambos activan PPAR-alfa, PPAR-gamma y PPAR-delta in vitro. Sin embargo, no se conoce bien el mecanismo por el cual el elafibranor ejerce sus efectos terapéuticos en pacientes con CBP.» Texto original en inglés: "Elafibranor and its main active metabolite GFT1007 are peroxisome proliferator-activated receptor (PPAR) agonists, both of which activate PPAR-alpha, PPAR-gamma, and PPAR-delta in vitro. However, the mechanism by which elafibranor exerts its therapeutic effects in patients with PBC is not well understood." ([DailyMed: Iqirvo (elafibranor) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d78aa14f-6ec1-4b1d-a4ae-e48658137a25), versión del 2026-08-11; consultado el 2026-11-19).
 
 La relación con la amenorrea es especulativa. La señalización PPAR influye en el metabolismo de lípidos y glucosa y en la inflamación, y posiblemente en la función ovárica e hipotálamo-hipofisaria. Esto podría ser relevante para causas metabólicas y endocrinas de amenorrea, como la disfunción ovulatoria asociada al síndrome de ovario poliquístico. Ningún dato compilado respalda este vínculo.
 
@@ -96,6 +96,19 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Evaluar si el puntaje del modelo TxGNN (aprendizaje profundo) solo refleja similitudes aprendidas entre enfermedades relacionadas y no evidencia biológica
 - Evaluar la seguridad en mujeres en edad fértil (embarazo y fertilidad) antes de cualquier estudio exploratorio
 - Estudios preclínicos o de mecanismo que respalden el vínculo con el eje reproductivo
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Iqirvo (elafibranor) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d78aa14f-6ec1-4b1d-a4ae-e48658137a25) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **trombocitosis reactiva (
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Anagrelida reduce el recuento de plaquetas al inhibir la maduración postmitótica de los megacariocitos y, en segundo plano, mediante la inhibición de PDE3 (la base de datos de interacciones registra su relación con PDE3A). Este mecanismo es plausible en cualquier situación con plaquetas elevadas. No obstante, los datos detallados del mecanismo de acción no están disponibles en el conjunto de datos compilado para este informe.
+Anagrelida reduce el recuento de plaquetas al inhibir la maduración postmitótica de los megacariocitos y, en segundo plano, mediante la inhibición de PDE3 (la base de datos de interacciones registra su relación con PDE3A). Este mecanismo es plausible en cualquier situación con plaquetas elevadas. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Anagrelide (traducción no oficial): «Se desconoce el mecanismo preciso por el que la anagrelida reduce el recuento de plaquetas sanguíneas. En estudios en cultivos celulares, la anagrelida suprimió la expresión de factores de transcripción, incluidos GATA-1 y FOG-1, necesarios para la megacariocitopoyesis, lo que en última instancia conduce a una menor producción de plaquetas.» Texto original en inglés: "The precise mechanism by which anagrelide reduces blood platelet count is unknown. In cell culture studies, anagrelide suppressed expression of transcription factors including GATA-1 and FOG-1 required for megakaryocytopoiesis, ultimately leading to reduced platelet production." ([DailyMed: Agrylin (anagrelide hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb960074-99c1-4a73-941f-f0644a7ec219), versión del 2026-04-08; consultado el 2026-11-19).
 
 La trombocitosis reactiva (secundaria) está causada por un proceso subyacente, como inflamación, déficit de hierro, infección o esplenectomía, y normalmente se trata corrigiendo esa causa. Es una entidad distinta de las trombocitosis clonales, en las que sí se busca reducir el riesgo de complicaciones trombohemorrágicas.
 
@@ -123,6 +123,19 @@ No hay ensayos clínicos ni estudios que evalúen anagrelida directamente en la 
 - Datos detallados del mecanismo de acción
 - Revisión de advertencias y contraindicaciones del prospecto de la AEMPS
 - Análisis de la relación beneficio-riesgo, dado el perfil cardiovascular del fármaco y que la trombocitosis reactiva suele resolverse al tratar su causa
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Agrylin (anagrelide hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb960074-99c1-4a73-941f-f0644a7ec219) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ Se trata de una predicción puramente computacional, con un nivel de evidencia L
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la insulina lispro es un análogo de insulina humana cuya eficacia en el control glucémico de la diabetes está comprobada. Reduce la glucosa sanguínea al sustituir la acción de la insulina endógena.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Insulin Lispro (traducción no oficial): «La regulación del metabolismo de la glucosa es la actividad principal de las insulinas y los análogos de insulina, incluidos los productos de insulina lispro. Las insulinas reducen la glucemia estimulando la captación periférica de glucosa por el músculo esquelético y el tejido adiposo, e inhibiendo la producción hepática de glucosa.» Texto original en inglés: "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin lispro products. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0), versión del 2026-09-03; consultado el 2026-11-19). Según la información conocida, la insulina lispro es un análogo de insulina humana cuya eficacia en el control glucémico de la diabetes está comprobada. Reduce la glucosa sanguínea al sustituir la acción de la insulina endógena.
 
 Un posible vínculo es la biología autoinmune compartida con la diabetes tipo 1 (por ejemplo, la autoinmunidad poliglandular). Sin embargo, la insulina lispro es un agente hipoglucemiante sin acción inmunomoduladora conocida sobre la autoinmunidad ovárica. La puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni un mecanismo terapéutico real.
 
@@ -128,11 +128,12 @@ La predicción para ooforitis autoinmune se basa únicamente en el modelo TxGNN 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 9 autorizaciones vigentes, todas del titular Eli Lilly Nederland B.V" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0) |
 
 <!-- review:end log -->
 

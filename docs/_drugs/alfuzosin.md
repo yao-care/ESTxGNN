@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, alfuzosina es un antagonista selectivo de los receptores adrenérgicos alfa-1 (se une a ADRA1A, ADRA1B y ADRA1D), y su eficacia en la HPB está establecida, al relajar el músculo liso del tracto urinario inferior y facilitar la micción.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Alfuzosin (traducción no oficial): «La alfuzosina es un antagonista selectivo de los adrenorreceptores alfa 1 postsinápticos, que se localizan en la próstata, la base de la vejiga, el cuello de la vejiga, la cápsula prostática y la uretra prostática.» Texto original en inglés: "Alfuzosin is a selective antagonist of post-synaptic alpha 1 -adrenoreceptors, which are located in the prostate, bladder base, bladder neck, prostatic capsule, and prostatic urethra." ([DailyMed: Uroxatral (alfuzosin hcl) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9fc7f119-f36b-44cf-945d-940160f3afe3), versión del 2024-12-05; consultado el 2026-11-19). Según la información conocida, alfuzosina es un antagonista selectivo de los receptores adrenérgicos alfa-1 (se une a ADRA1A, ADRA1B y ADRA1D), y su eficacia en la HPB está establecida, al relajar el músculo liso del tracto urinario inferior y facilitar la micción.
 
 **Honestamente, no se identifica un vínculo mecanístico plausible.** El síndrome de Ambras es un trastorno genético raro, asociado a reordenamientos del cromosoma 8q que afectan la regulación de TRPS1, sin relación conocida con la señalización adrenérgica alfa-1. El puntaje TxGNN muy alto (0.99999) es una predicción del modelo TxGNN (aprendizaje profundo) y probablemente refleja la cercanía en la red con otras enfermedades de fenotipo piloso, no una justificación farmacológica.
 
@@ -126,11 +126,12 @@ La predicción carece de ensayos clínicos, literatura y vínculo mecanístico p
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se listan 5 de las 14 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Uroxatral (alfuzosin hcl) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9fc7f119-f36b-44cf-945d-940160f3afe3) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 
 ## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento farmacológico general, fluorouracilo es un antimetabolito que inhibe la timidilato sintasa e interfiere con la síntesis de ADN y ARN en células de proliferación rápida. Su eficacia está establecida en tumores epiteliales (cutáneos y digestivos), y mecanísticamente podría actuar sobre otras células tumorales en proliferación.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fluorouracil (traducción no oficial): «El fluorouracilo es un inhibidor metabólico nucleosídico que interfiere con la síntesis del ácido desoxirribonucleico (DNA) y, en menor medida, inhibe la formación del ácido ribonucleico (RNA); estos efectos afectan a las células de crecimiento rápido y pueden provocar la muerte celular. El fluorouracilo se convierte en tres metabolitos activos principales: 5-fluoro-2′-desoxiuridina-5′-monofosfato (FdUMP), 5-fluorouridina-5′trifosfato (FUTP) y 5-fluoro-2′-desoxiuridina-5′-trifosfato (FdUTP).» Texto original en inglés: "Fluorouracil is a nucleoside metabolic inhibitor that interferes with the synthesis of deoxyribonucleic acid (DNA) and to a lesser extent inhibits the formation of ribonucleic acid (RNA); these affect rapidly growing cells and may lead to cell death. Fluorouracil is converted to three main active metabolites: 5-fluoro-2′-deoxyuridine-5′-monophosphate (FdUMP), 5-fluorouridine-5′triphosphate (FUTP) and 5-fluoro-2′-deoxyuridine-5′-triphosphate (FdUTP)." ([DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b), versión del 2026-10-23; consultado el 2026-11-19). Según el conocimiento farmacológico general, fluorouracilo es un antimetabolito que inhibe la timidilato sintasa e interfiere con la síntesis de ADN y ARN en células de proliferación rápida. Su eficacia está establecida en tumores epiteliales (cutáneos y digestivos), y mecanísticamente podría actuar sobre otras células tumorales en proliferación.
 
 La relación con la nueva indicación es débil. El rabdomiosarcoma es un sarcoma de tejidos blandos, biológicamente distinto de los carcinomas para los que se usa fluorouracilo. El tratamiento estándar se basa en vincristina, actinomicina D y ciclofosfamida (VAC) o regímenes relacionados, no en fluorouracilo. El único respaldo es la puntuación del modelo, probablemente heredada del nodo padre "rabdomiosarcoma".
 
@@ -116,6 +116,19 @@ La predicción se apoya solo en la puntuación del modelo (nivel L5), sin ensayo
 - Revisión sistemática de la literatura sobre fluorouracilo en rabdomiosarcoma, incluida la actividad preclínica
 - Evaluación de compatibilidad de vías de administración y comparación con los regímenes estándar (VAC)
 - Si se desea explorar alternativas, priorizar el rabdomiosarcoma general (nivel L4), que cuenta al menos con evidencia indirecta
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

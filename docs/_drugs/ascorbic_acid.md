@@ -54,7 +54,7 @@ El ácido ascórbico es una vitamina hidrosoluble con acción antioxidante y de 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Por conocimiento general, el ácido ascórbico actúa como antioxidante y como cofactor de enzimas implicadas en la síntesis de colágeno y de catecolaminas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ascorbic Acid (traducción no oficial): «Se desconoce el mecanismo de acción exacto del ácido ascórbico para el tratamiento de los síntomas y signos del escorbuto (un trastorno causado por una deficiencia grave de vitamina C); sin embargo, se cree que la administración de ácido ascórbico en pacientes con escorbuto restablece la reserva corporal de ácido ascórbico.» Texto original en inglés: "The exact mechanism of action of ascorbic acid for the treatment of symptoms and signs of scurvy (a disorder caused by severe deficiency in vitamin C) is unknown; however, administration of ascorbic acid in patients with scurvy is thought to restore the body pool of ascorbic acid." ([DailyMed: ascorbic acid prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b683f8-189b-4a3f-9ffe-f91df6d798b6), versión del 2026-09-03; consultado el 2026-11-19). Por conocimiento general, el ácido ascórbico actúa como antioxidante y como cofactor de enzimas implicadas en la síntesis de colágeno y de catecolaminas.
 
 Con los datos compilados no se identificó ningún vínculo mecanístico entre estas funciones y la malformación esofágica no sindrómica. Las malformaciones congénitas estructurales difícilmente responderían a una vitamina con funciones antioxidantes y de cofactor. El puntaje alto (0.9996) refleja una asociación calculada por el modelo, no una evidencia clínica o biológica.
 
@@ -92,6 +92,18 @@ La predicción se basa solo en el modelo, sin ensayos clínicos ni literatura, y
 - Datos del mecanismo de acción que justifiquen una relación con el desarrollo esofágico
 - Estudios preclínicos o clínicos que evalúen directamente esta enfermedad
 - Revisión del prospecto autorizado para completar la información de advertencias y contraindicaciones
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: ascorbic acid prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b683f8-189b-4a3f-9ffe-f91df6d798b6) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

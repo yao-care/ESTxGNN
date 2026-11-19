@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénic
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, fosaprepitant es un profármaco de aprepitant, un antagonista del receptor de neuroquinina 1 (NK1) que bloquea la señalización de la sustancia P.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fosaprepitant (traducción no oficial): «El fosaprepitant es un profármaco del aprepitant y, por consiguiente, sus efectos antieméticos son atribuibles al aprepitant. El aprepitant es un antagonista selectivo de alta afinidad de los receptores humanos de la sustancia P/neurocinina 1 (NK-1). El aprepitant tiene poca o ninguna afinidad por los receptores de serotonina (5-HT 3 ), de dopamina y de corticosteroides, que son las dianas de los tratamientos existentes para las náuseas y los vómitos inducidos por quimioterapia (NVIQ).» Texto original en inglés: "Fosaprepitant is a prodrug of aprepitant and accordingly, its antiemetic effects are attributable to aprepitant. Aprepitant is a selective high-affinity antagonist of human substance P/neurokinin 1 (NK-1) receptors. Aprepitant has little or no affinity for serotonin (5-HT 3 ), dopamine, and corticosteroid receptors, the targets of existing therapies for chemotherapy-induced nausea and vomiting (CINV)." ([DailyMed: Navitrux (fosaprepitant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a41b7c3a-1376-43a7-b5b9-6ba2eba1e169), versión del 2026-07-29; consultado el 2026-11-19). Según la información conocida, fosaprepitant es un profármaco de aprepitant, un antagonista del receptor de neuroquinina 1 (NK1) que bloquea la señalización de la sustancia P.
 
 El NSIAD se debe a mutaciones con ganancia de función en el receptor V2 de la vasopresina (AVPR2). **No se ha establecido un vínculo mecanístico directo**: el antagonismo de NK1 no tiene un papel conocido en la señalización del receptor V2. El elevado puntaje de TxGNN es únicamente una predicción del modelo TxGNN (aprendizaje profundo) y debe interpretarse con cautela.
 
@@ -119,6 +119,19 @@ La predicción para NSIAD se basa solo en el modelo (nivel L5), sin ensayos ni l
 - Establecer una hipótesis mecanística plausible entre NK1 y la señalización de AVPR2 y evaluarla en estudios preclínicos.
 - Valorar si otra indicación predicha con algún respaldo preclínico (retinitis) merece priorización como pregunta de investigación.
 - Revisar las interacciones mayores (eliglustat, naloxegol) y la contraindicación en insuficiencia hepática en cualquier plan futuro.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Navitrux (fosaprepitant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a41b7c3a-1376-43a7-b5b9-6ba2eba1e169) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

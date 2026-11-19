@@ -56,7 +56,7 @@ pero no hay ensayos clínicos y la literatura disponible describe la enfermedad 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, benzbromarona es un inhibidor potente de URAT1 (SLC22A12) que aumenta la excreción renal de ácido úrico y reduce el urato sérico.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Benzbromarone es (traducción no oficial): «Inhibidor del miembro 12 de la familia 22 de transportadores de solutos» Texto original en inglés: "Solute carrier family 22 member 12 inhibitor" ([ChEMBL CHEMBL388590 (benzbromarone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL388590), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, benzbromarona es un inhibidor potente de URAT1 (SLC22A12) que aumenta la excreción renal de ácido úrico y reduce el urato sérico.
 
 La hipouricemia renal se caracteriza por una pérdida excesiva de urato por el riñón, causada con mayor frecuencia por variantes de pérdida de función en URAT1 o GLUT9. Por ello, farmacológicamente benzbromarona imitaría o agravaría el defecto de base en lugar de corregirlo.
 
@@ -107,6 +107,19 @@ No existen ensayos clínicos ni estudios que evalúen benzbromarona como tratami
 - Advertencias y contraindicaciones del prospecto de AEMPS
 - Un análisis que explique el sentido de la asociación fármaco-enfermedad y confirme si el fármaco agravaría la enfermedad
 - Evidencia directa que respalde un beneficio terapéutico, antes de considerar cualquier estudio clínico
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL388590 (benzbromarone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL388590) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

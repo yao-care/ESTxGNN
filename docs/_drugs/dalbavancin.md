@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **vasculitis postinfeccios
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, dalbavancina es un antibiótico lipoglucopéptido activo frente a bacterias Gram positivas, con eficacia comprobada en infecciones de piel y tejidos blandos, y actúa sobre la síntesis de la pared celular bacteriana.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dalbavancin (traducción no oficial): «La dalbavancina es un fármaco antibacteriano. […] La dalbavancina, un lipoglucopéptido semisintético, interfiere en la síntesis de la pared celular al unirse al extremo D-alanil-D-alanina del pentapéptido troncal del peptidoglucano naciente de la pared celular, lo que impide el entrecruzamiento. La dalbavancina es bactericida in vitro frente a Staphylococcus aureus y Streptococcus pyogenes a concentraciones similares a las mantenidas durante todo el tratamiento en seres humanos tratados según la pauta posológica recomendada.» Texto original en inglés: "Dalbavancin is an antibacterial drug. […] Dalbavancin, a semisynthetic lipoglycopeptide, interferes with cell wall synthesis by binding to the D-alanyl-D-alanine terminus of the stem pentapeptide in nascent cell wall peptidoglycan, thus preventing cross-linking. Dalbavancin is bactericidal in vitro against Staphylococcus aureus and Streptococcus pyogenes at concentrations similar to those sustained throughout treatment in humans treated according to the recommended dosage regimen." ([DailyMed: Dalvance (dalbavancin) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b4674d8-4d1e-4728-8465-d42ada33fa5c), versión del 2025-01-13; consultado el 2026-11-19). Según la información conocida, dalbavancina es un antibiótico lipoglucopéptido activo frente a bacterias Gram positivas, con eficacia comprobada en infecciones de piel y tejidos blandos, y actúa sobre la síntesis de la pared celular bacteriana.
 
 La relación con la nueva indicación es débil. La vasculitis postinfecciosa suele ser de origen inmunomediado y aparece después de la infección, por lo que un antibiótico no tendría un papel mecanístico directo, salvo que una infección persistente por Gram positivos fuera el desencadenante. El puntaje alto de TxGNN (0,9976) es únicamente una predicción computacional.
 
@@ -102,6 +102,19 @@ La predicción se basa solo en el modelo (L5), sin ensayos ni literatura, y el m
 - Completar los datos del mecanismo de acción
 - Revisión de literatura y casos clínicos sobre dalbavancina en vasculitis postinfecciosa
 - Si se desea priorizar, explorar primero la celulitis orbitaria (revisión farmacocinética y de penetración tisular) como pregunta de investigación
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Dalvance (dalbavancin) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b4674d8-4d1e-4728-8465-d42ada33fa5c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

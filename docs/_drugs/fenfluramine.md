@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la fenfluramina actúa sobre la vía serotoninérgica (liberación de serotonina y actividad sobre receptores 5-HT). Las fuentes farmacológicas consultadas vinculan el fármaco con las enzimas triptófano hidroxilasa 1 y 2 (TPH1 y TPH2), aunque no se encontraron datos públicos de bioactividad que confirmen un diana molecular principal.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fenfluramine (traducción no oficial): «Se desconoce el mecanismo preciso por el cual la fenfluramina ejerce sus efectos terapéuticos en el tratamiento de las convulsiones asociadas con el síndrome de Dravet y el síndrome de Lennox-Gastaut. La fenfluramina y su metabolito, la norfenfluramina, presentan actividad agonista en los receptores de serotonina 5-HT2.» Texto original en inglés: "The precise mechanism by which fenfluramine exerts its therapeutic effects in the treatment of seizures associated with Dravet syndrome and Lennox-Gastaut syndrome is unknown. Fenfluramine and the metabolite, norfenfluramine, exhibit agonist activity at serotonin 5-HT2 receptors." ([DailyMed: Fintepla (fenfluramine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e88f360e-33ad-4cd6-b2de-5ef885857c5d), versión del 2026-10-22; consultado el 2026-11-19). Según la información conocida, la fenfluramina actúa sobre la vía serotoninérgica (liberación de serotonina y actividad sobre receptores 5-HT). Las fuentes farmacológicas consultadas vinculan el fármaco con las enzimas triptófano hidroxilasa 1 y 2 (TPH1 y TPH2), aunque no se encontraron datos públicos de bioactividad que confirmen un diana molecular principal.
 
 La deleción 16p11.2 se asocia con obesidad, trastornos del neurodesarrollo y epilepsia. Esto crea un vínculo plausible: el fármaco se usó contra la obesidad y hoy se emplea como antiepiléptico en síndromes como el de Dravet (aprobado por la FDA en 2020 para pacientes de 2 años o más) y el de Lennox-Gastaut (recomendado por NICE en el Reino Unido en febrero 2025). Por tanto, podría ser relevante tanto para el fenotipo de obesidad como para el de crisis epilépticas.
 
@@ -98,6 +98,19 @@ La predicción tiene un puntaje alto, pero carece de ensayos clínicos y literat
 - Realizar una búsqueda sistemática de literatura y ensayos en el síndrome 16p11.2
 - Evaluar la compatibilidad de la vía de administración (solución oral) con la población objetivo
 - Valorar el riesgo cardiovascular (valvulopatía e hipertensión pulmonar) en la población candidata antes de cualquier estudio
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Fintepla (fenfluramine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e88f360e-33ad-4cd6-b2de-5ef885857c5d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno obsesivo-co
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de desvenlafaxina en los datos compilados. Según la información conocida, desvenlafaxina es un IRSN (metabolito activo de la venlafaxina). Los datos farmacológicos compilados la relacionan con los transportadores de noradrenalina (NET), dopamina (DAT) y serotonina (SERT). Su eficacia en la depresión mayor está comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Desvenlafaxine (traducción no oficial): «Se desconoce el mecanismo exacto de la acción antidepresiva de la desvenlafaxina, pero se cree que está relacionado con la potenciación de la serotonina y la norepinefrina en el sistema nervioso central mediante la inhibición de su recaptación. Los estudios no clínicos han demostrado que la desvenlafaxina es un IRSN potente y selectivo.» Texto original en inglés: "The exact mechanism of the antidepressant action of desvenlafaxine is unknown, but is thought to be related to the potentiation of serotonin and norepinephrine in the central nervous system, through inhibition of their reuptake. Non-clinical studies have shown that desvenlafaxine is a potent and selective SNRI." ([DailyMed: Pristiq Extended-Release (desvenlafaxine succinate) prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f43610c-f290-46ea-d186-4f998ed99fce), versión del 2026-04-28; consultado el 2026-11-19). Según la información conocida, desvenlafaxina es un IRSN (metabolito activo de la venlafaxina). Los datos farmacológicos compilados la relacionan con los transportadores de noradrenalina (NET), dopamina (DAT) y serotonina (SERT). Su eficacia en la depresión mayor está comprobada.
 
 La modulación serotoninérgica es la base establecida del tratamiento farmacológico del TOC (ISRS, clomipramina), y una revisión de 2014 sobre antidepresivos con marcado efecto serotoninérgico en el TOC respalda esta idea. Por ello existe un vínculo mecanístico plausible entre la depresión y el TOC.
 
@@ -132,11 +132,12 @@ La predicción del TOC tiene un puntaje alto en TxGNN, pero no hay ensayos clín
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 16 autorizaciones vigentes, todas de monofármaco y en forma de comprimido de liberación prolongada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Pristiq Extended-Release (desvenlafaxine succinate) prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f43610c-f290-46ea-d186-4f998ed99fce) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone actualmente de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la farmacología conocida, el ácido acetohidroxámico inhibe la ureasa, una enzima que degrada la urea a amoníaco.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Acetohydroxamic Acid (traducción no oficial): «El AHA inhibe de forma reversible la enzima bacteriana ureasa, con lo que inhibe la hidrólisis de la urea y la producción de amoníaco en la orina infectada por microorganismos que desdoblan la urea. La reducción de las concentraciones de amoníaco y la disminución del pH potencian la eficacia de los agentes antimicrobianos y permiten un aumento de la tasa de curación de estas infecciones.» Texto original en inglés: "AHA reversibly inhibits the bacterial enzyme urease, thereby inhibiting the hydrolysis of urea and production of ammonia in urine infected with urea-splitting organisms. The reduced ammonia levels and decreased pH enhance the effectiveness of antimicrobial agents and allow an increased cure rate of these infections." ([DailyMed: Lithostat (acetohydroxamic acid) prescribing information, Mission Pharmacal Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6660b616-a82d-9109-19ce-2bdf9747acea), versión del 2026-01-08; consultado el 2026-11-19). Según la farmacología conocida, el ácido acetohidroxámico inhibe la ureasa, una enzima que degrada la urea a amoníaco.
 
 *Ureaplasma urealyticum* produce ureasa, de modo que existe un vínculo biológico plausible: inhibir la enzima podría reducir la producción de amoníaco y la alcalinización e irritación local asociadas. Este vínculo se infiere de la farmacología de la ureasa y de la predicción del modelo, no de datos clínicos.
 
@@ -100,6 +100,19 @@ La predicción se apoya únicamente en el modelo (puntaje 0,9963), sin ensayos c
 - Estudios preclínicos o clínicos que evalúen directamente la uretritis por Ureaplasma.
 - Evaluación de seguridad, en especial hematológica y reproductiva.
 - Análisis de compatibilidad de vía de administración y de similitud con la indicación original.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lithostat (acetohydroxamic acid) prescribing information, Mission Pharmacal Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6660b616-a82d-9109-19ce-2bdf9747acea) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

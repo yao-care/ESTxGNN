@@ -56,7 +56,7 @@ con **2 ensayos clínicos** (ninguno confirma a procarbazina como componente def
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, procarbazina es un agente alquilante oral con actividad frente a linfomas, y su eficacia en el linfoma de Hodgkin está establecida. Mecanísticamente, un daño al ADN similar podría ser aplicable a otras neoplasias linfoides.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Procarbazine (traducción no oficial): «El modo preciso de acción citotóxica de la procarbazina no se ha definido con claridad. Tras su activación metabólica, la procarbazina puede inhibir la transmetilación de los grupos metilo de la metionina al ARN de transferencia (ARNt). La falta de disponibilidad de ARNt impide la síntesis de proteínas y, en consecuencia, impide la síntesis de ADN y ARN.» Texto original en inglés: "The precise mode of cytotoxic action of procarbazine has not been clearly defined. After metabolic activation, procarbazine may inhibit the transmethylation of methyl groups of methionine into transfer RNA (t-RNA). The unavailability of t-RNA prevents protein synthesis, and consequently prevents DNA and RNA synthesis." ([DailyMed: Matulane (procarbazine hydrochloride) prescribing information, Leadiant Biosciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1aa75a3a-18c9-49e1-91a6-293d0b7da756), versión del 2026-10-09; consultado el 2026-11-19). Según la información conocida, procarbazina es un agente alquilante oral con actividad frente a linfomas, y su eficacia en el linfoma de Hodgkin está establecida. Mecanísticamente, un daño al ADN similar podría ser aplicable a otras neoplasias linfoides.
 
 El linfoma de Hodgkin y el linfoma folicular son ambos neoplasias de origen linfoide, lo que hace plausible un mecanismo compartido. Históricamente, los regímenes con procarbazina también se usaron en linfomas no Hodgkin, aunque cayeron en desuso con la llegada de CHOP.
 
@@ -116,6 +116,19 @@ Aunque el puntaje del modelo es alto, la evidencia directa se limita a un report
 - Obtener los datos del mecanismo de acción desde DrugBank.
 - Confirmar la composición del régimen del ensayo NCT00003113 y buscar estudios que evalúen procarbazina como componente definido en linfoma folicular.
 - Valorar la procarbazina frente a las terapias actuales del linfoma folicular, considerando su perfil de toxicidad hematológica y las numerosas interacciones farmacológicas.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Matulane (procarbazine hydrochloride) prescribing information, Leadiant Biosciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1aa75a3a-18c9-49e1-91a6-293d0b7da756) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

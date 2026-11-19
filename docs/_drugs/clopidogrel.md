@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **migraña con aura del tr
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción original en la información compilada. Según lo conocido, clopidogrel es un antagonista del receptor plaquetario P2Y12. Su eficacia como antitrombótico en patología coronaria y cerebrovascular está comprobada, y mecanísticamente podría ser aplicable a ciertos tipos de migraña con aura.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clopidogrel (traducción no oficial): «El clopidogrel es un inhibidor de la activación y la agregación plaquetarias mediante la unión irreversible de su metabolito activo a la clase P2Y 12 de receptores de ADP de las plaquetas.» Texto original en inglés: "Clopidogrel is an inhibitor of platelet activation and aggregation through the irreversible binding of its active metabolite to the P2Y 12 class of ADP receptors on platelets." ([DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227), versión del 2025-05-30; consultado el 2026-11-19). Según lo conocido, clopidogrel es un antagonista del receptor plaquetario P2Y12. Su eficacia como antitrombótico en patología coronaria y cerebrovascular está comprobada, y mecanísticamente podría ser aplicable a ciertos tipos de migraña con aura.
 
 La hipótesis de trabajo es que, en pacientes con cortocircuito derecha-izquierda (por ejemplo, FOP), la activación plaquetaria y la microembolia paradójica, junto con la liberación de mediadores vasoactivos y serotoninérgicos, podrían desencadenar el aura. Al inhibir la agregación plaquetaria, clopidogrel podría reducir esos episodios. Existe además cierta base preclínica sobre receptores P2Y12 en modelos animales de migraña.
 
@@ -139,11 +139,12 @@ Para la migraña con aura del tronco encefálico no hay ensayos clínicos y la e
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes, todas de medicamentos con clopidogrel como único principio activo. Las 20 están en vigor y " | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227) |
 
 <!-- review:end log -->
 

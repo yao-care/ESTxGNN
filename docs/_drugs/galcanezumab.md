@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para la **deficiencia de cofact
 
 ## ¿Por qué es Razonable esta Predicción?
 
-En los datos compilados para este informe, el mecanismo de acción original del fármaco no figura de forma detallada. Según la información conocida, galcanezumab es un anticuerpo monoclonal que neutraliza el CGRP y actúa sobre la vía trigeminovascular, lo que explica su eficacia en la migraña.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Galcanezumab (traducción no oficial): «El galcanezumab-gnlm es un anticuerpo monoclonal humanizado que se une al ligando del péptido relacionado con el gen de la calcitonina (CGRP) y bloquea su unión al receptor.» Texto original en inglés: "Galcanezumab-gnlm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor." ([DailyMed: Emgality (galcanezumab-gnlm) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33a147be-233a-40e8-a55e-e40936e28db0), versión del 2026-06-05; consultado el 2026-11-19). Según la información conocida, galcanezumab es un anticuerpo monoclonal que neutraliza el CGRP y actúa sobre la vía trigeminovascular, lo que explica su eficacia en la migraña.
 
 **La predicción no resulta biológicamente razonable.** La deficiencia de cofactor II de la heparina es una trombofilia causada por una menor inhibición de la trombina (vía SERPIND1) y no involucra la señalización del CGRP. No se ha identificado ningún vínculo mecanístico creíble entre ambas condiciones.
 
@@ -93,6 +93,19 @@ La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos cl
 - Un fundamento biológico plausible que relacione la vía del CGRP con la inhibición de la trombina
 - Estudios preclínicos o de mecanismo que justifiquen reconsiderar la hipótesis
 - Valorar la posible consideración de la seguridad vascular y trombótica de los inhibidores del CGRP en estos pacientes antes de cualquier uso
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Emgality (galcanezumab-gnlm) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33a147be-233a-40e8-a55e-e40936e28db0) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -57,7 +57,7 @@ El modelo TxGNN predice que podría ser efectivo para **Trastorno Específico de
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, el metilfenidato bloquea los transportadores de recaptación de dopamina y noradrenalina, mecanismo que sustenta su uso establecido en el TDAH, un trastorno del neurodesarrollo.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Methylphenidate (traducción no oficial): «El clorhidrato de metilfenidato es un estimulante del sistema nervioso central (SNC). Se desconoce el modo de acción terapéutica de METADATE CD en el tratamiento del TDAH en pacientes pediátricos de 6 años de edad o más. El metilfenidato bloquea la recaptación de noradrenalina y dopamina en la neurona presináptica y aumenta la liberación de estas monoaminas al espacio extraneuronal.» Texto original en inglés: "Methylphenidate hydrochloride is a central nervous system (CNS) stimulant. The mode of therapeutic action of METADATE CD in the treatment of ADHD in pediatric patients 6 years of age and older is not known. Methylphenidate blocks the reuptake of norepinephrine and dopamine into the presynaptic neuron and increases the release of these monoamines into the extraneuronal space." ([DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4), versión del 2026-10-21; consultado el 2026-11-19). Según la información conocida, el metilfenidato bloquea los transportadores de recaptación de dopamina y noradrenalina, mecanismo que sustenta su uso establecido en el TDAH, un trastorno del neurodesarrollo.
 
 La literatura recuperada está dominada por estudios de neurobiología del TDAH, ocupación de transportadores, respuesta al tratamiento y EEG. Esto sugiere una conexión mecanística indirecta con trastornos del desarrollo que cursan con síntomas atencionales. Solo un artículo (PMID 33012168, EEG cuantitativo) aborda las dificultades de aprendizaje.
 
@@ -121,6 +121,19 @@ No existen ensayos clínicos y la literatura es indirecta, centrada en el TDAH, 
 - Definir si "trastorno específico del desarrollo" aporta una población distinta al TDAH ya aprobado (por ejemplo, dificultades de aprendizaje o trastorno de la coordinación).
 - Revisión sistemática o ensayos clínicos específicos en la población objetivo.
 - Evaluación de seguridad cardiovascular, psiquiátrica y de interacciones (especialmente bupropión) en la población propuesta.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

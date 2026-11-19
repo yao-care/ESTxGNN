@@ -56,7 +56,7 @@ No hay **ningún ensayo clínico** registrado para esta indicación. Hay **20 pu
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Se sabe que la ranitidina bloquea el receptor H2 (gen HRH2) y, con ello, reduce la secreción de ácido gástrico.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ranitidine (traducción no oficial): «Los comprimidos de ranitidina son un inhibidor competitivo y reversible de la acción de la histamina en los receptores H 2 de la histamina, incluidos los receptores de las células gástricas. Los comprimidos de ranitidina no reducen el Ca ++ sérico en estados hipercalcémicos.» Texto original en inglés: "Ranitidine Tablets are a competitive, reversible inhibitor of the action of histamine at the histamine H 2 -receptors, including receptors on the gastric cells. Ranitidine Tablets do not lower serum Ca ++ in hypercalcemic states." ([DailyMed: ranitidine prescribing information, Atland Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcf27c99-8bd4-41fb-bff8-38fed9de76d9), versión del 2026-09-24; consultado el 2026-11-19). Se sabe que la ranitidina bloquea el receptor H2 (gen HRH2) y, con ello, reduce la secreción de ácido gástrico.
 
 La supresión ácida es un complemento habitual en el manejo de la enfermedad ulcerosa péptica, y esa relación explica la asociación que detecta el modelo. Sin embargo, la perforación es una urgencia quirúrgica. Un antagonista H2 no repara la lesión ni sustituye al cierre quirúrgico o al tratamiento de soporte.
 
@@ -109,6 +109,18 @@ La predicción se apoya solo en el puntaje del modelo (0.9988) y en literatura i
 - Estudios que evalúen directamente la ranitidina (u otro antagonista H2) como tratamiento complementario en la perforación de úlcera péptica.
 - Datos del mecanismo de acción y de advertencias y contraindicaciones del prospecto.
 - Evaluar si un antagonista H2 con perfil de calidad sin NDMA, u otras alternativas de supresión ácida como los inhibidores de la bomba de protones, aportaría más valor.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: ranitidine prescribing information, Atland Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcf27c99-8bd4-41fb-bff8-38fed9de76d9) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

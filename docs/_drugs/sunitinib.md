@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **2 e
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, sunitinib es un inhibidor multidiana de tirosina quinasas (VEGFR, PDGFR, KIT, RET, FLT3). Su eficacia en el carcinoma de células renales y en el GIST resistente a imatinib está establecida, y mecanísticamente podría ser aplicable al liposarcoma.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Sunitinib (traducción no oficial): «Sunitinib es una molécula pequeña que inhibe múltiples receptores con actividad tirosina cinasa (RTK), algunos de los cuales están implicados en el crecimiento tumoral, la angiogénesis patológica y la progresión metastásica del cáncer.» Texto original en inglés: "Sunitinib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs), some of which are implicated in tumor growth, pathologic angiogenesis, and metastatic progression of cancer." ([DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c), versión del 2026-02-20; consultado el 2026-11-19). Según la información conocida, sunitinib es un inhibidor multidiana de tirosina quinasas (VEGFR, PDGFR, KIT, RET, FLT3). Su eficacia en el carcinoma de células renales y en el GIST resistente a imatinib está establecida, y mecanísticamente podría ser aplicable al liposarcoma.
 
 La angiogénesis y la señalización de PDGFR son impulsores plausibles en los sarcomas de partes blandas, incluido el liposarcoma. Esto explica la proximidad entre la indicación original (tumores sólidos dependientes de angiogénesis y de quinasas, como el GIST) y la nueva indicación (sarcoma de partes blandas).
 
@@ -158,11 +158,12 @@ Para contexto, el análisis incluye otras predicciones con distinto grado de res
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes en total (todas monofármaco), la mayoría genéricos EFG" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c) |
 
 <!-- review:end log -->
 

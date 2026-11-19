@@ -56,7 +56,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, el polisulfato de pentosano es un polisacárido sulfatado con actividad similar a la heparina (potenciación de la antitrombina y del cofactor II de la heparina, además de efectos sobre la función plaquetaria y la fibrinólisis). Su eficacia en la cistitis intersticial es la base de su uso original.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pentosan Polysulfate (traducción no oficial): «Se desconoce el mecanismo de acción del pentosano polisulfato sódico en la cistitis intersticial.» Texto original en inglés: "The mechanism of action of pentosan polysulfate sodium in interstitial cystitis is not known." ([DailyMed: Elmiron (pentosan polysulfate sodium) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ba651e-3d8a-11df-8fbe-119855d89593), versión del 2024-09-18; consultado el 2026-11-19). Según la información conocida, el polisulfato de pentosano es un polisacárido sulfatado con actividad similar a la heparina (potenciación de la antitrombina y del cofactor II de la heparina, además de efectos sobre la función plaquetaria y la fibrinólisis). Su eficacia en la cistitis intersticial es la base de su uso original.
 
 Mecanísticamente, **la predicción resulta poco plausible**. Un defecto de liberación (secreción o gránulos de almacenamiento) plaquetaria cursa con tendencia al sangrado, y un fármaco con efecto anticoagulante tipo heparina tendería a empeorarla, no a tratarla. La relación con la indicación original (una patología urinaria) es prácticamente inexistente.
 
@@ -112,11 +112,12 @@ La predicción carece de ensayos clínicos y de literatura (nivel L5), y el meca
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Nota: existen 8 autorizaciones vigentes en total (todas de principio activo único); se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Elmiron (pentosan polysulfate sodium) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ba651e-3d8a-11df-8fbe-119855d89593) |
 
 <!-- review:end log -->
 

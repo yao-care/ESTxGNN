@@ -56,7 +56,7 @@ pero actualmente no hay **ensayos clínicos** ni **publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado en la base de datos. Según la información conocida, el triamtereno es un diurético ahorrador de potasio que bloquea el canal epitelial de sodio (ENaC) en la nefrona distal, lo que reduce el volumen y la presión arterial. Su eficacia en la hipertensión ha sido comprobada, por lo que un efecto antihipertensivo es plausible.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Triamterene es (traducción no oficial): «Bloqueador del canal de sodio sensible a amilorida, ENaC» Texto original en inglés: "Amiloride-sensitive sodium channel, ENaC blocker" ([ChEMBL CHEMBL585 (triamterene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL585), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, el triamtereno es un diurético ahorrador de potasio que bloquea el canal epitelial de sodio (ENaC) en la nefrona distal, lo que reduce el volumen y la presión arterial. Su eficacia en la hipertensión ha sido comprobada, por lo que un efecto antihipertensivo es plausible.
 
 Sin embargo, la enfermedad renal hipertensiva maligna es una emergencia hipertensiva con daño renal que requiere tratamiento parenteral rápido; un diurético oral de efecto moderado no es un tratamiento primario adecuado.
 
@@ -95,6 +95,19 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, 
 - Realizar una revisión de la literatura específica sobre triamtereno en hipertensión maligna y nefropatía hipertensiva.
 - Evaluar el riesgo de hiperpotasemia y deterioro renal en este contexto antes de cualquier estudio.
 - Considerar priorizar otras predicciones con apoyo indirecto más sólido, como el cor pulmonale crónico (manejo sintomático de la congestión).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL585 (triamterene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL585) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

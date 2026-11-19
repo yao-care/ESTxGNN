@@ -56,7 +56,7 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Por su clase farmacológica, alteplasa convierte el plasminógeno en plasmina, enzima que disuelve la fibrina de los coágulos. Esto la hace útil ante trombos agudos.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Alteplase (traducción no oficial): «Alteplasa es una enzima (serina proteasa) que tiene la propiedad de convertir el plasminógeno en plasmina de forma potenciada por la fibrina. En ausencia de fibrina, produce una conversión limitada del plasminógeno. Alteplasa se une a la fibrina de un trombo y convierte el plasminógeno atrapado en plasmina, con lo que inicia la fibrinólisis local.» Texto original en inglés: "Alteplase is an enzyme (serine protease) that has the property of fibrin-enhanced conversion of plasminogen to plasmin. It produces limited conversion of plasminogen in the absence of fibrin. Alteplase binds to fibrin in a thrombus and converts the entrapped plasminogen to plasmin, thereby initiating local fibrinolysis." ([DailyMed: Cathflo Activase (alteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91ecdef2-95ff-42dd-a31c-c8a09cab3ad9), versión del 2026-01-20; consultado el 2026-11-19). Por su clase farmacológica, alteplasa convierte el plasminógeno en plasmina, enzima que disuelve la fibrina de los coágulos. Esto la hace útil ante trombos agudos.
 
 La deficiencia de cofactor II de la heparina es una trombofilia hereditaria, con mayor tendencia a formar trombos. Mecanísticamente, alteplasa podría disolver un trombo agudo que aparezca en este contexto. Sin embargo, eso sería tratar el evento trombótico y no la deficiencia en sí.
 
@@ -99,6 +99,19 @@ La predicción tiene un puntaje alto (0,9972), pero no hay ensayos clínicos ni 
 - Datos del mecanismo de acción y de las advertencias y contraindicaciones del prospecto.
 - Evaluación de la relación beneficio-riesgo de sangrado y de trombosis de rebote en esta población.
 - Definición de la vía de administración y de la población diana.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cathflo Activase (alteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91ecdef2-95ff-42dd-a31c-c8a09cab3ad9) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

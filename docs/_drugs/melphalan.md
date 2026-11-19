@@ -56,7 +56,7 @@ con **7 ensayos clínicos** (de relevancia variable, la mayoría en fase tempran
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Según la información conocida, melfalán es un agente alquilante que forma entrecruzamientos covalentes entre las cadenas del ADN, lo que bloquea la replicación y provoca la muerte de las células tumorales.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Melphalan (traducción no oficial): «El melfalán es un agente alquilante del tipo bis-cloroetilamina. En consecuencia, su citotoxicidad parece estar relacionada con el grado de entrecruzamiento entre cadenas del ADN, probablemente mediante la unión en la posición N 7 de la guanina.» Texto original en inglés: "Melphalan is an alkylating agent of the bischloroethylamine type. As a result, its cytotoxicity appears to be related to the extent of its interstrand cross-linking with DNA, probably by binding at the N 7 position of guanine." ([DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c), versión del 2026-09-15; consultado el 2026-11-19). Según la información conocida, melfalán es un agente alquilante que forma entrecruzamientos covalentes entre las cadenas del ADN, lo que bloquea la replicación y provoca la muerte de las células tumorales.
 
 Los tumores de células germinales son muy quimiosensibles a los agentes que dañan el ADN. Por ello, la quimioterapia a altas dosis con melfalán y rescate con progenitores hematopoyéticos autólogos es una estrategia biológicamente plausible como rescate en enfermedad recidivante o de mal pronóstico.
 
@@ -134,11 +134,12 @@ Aunque el puntaje TxGNN es muy alto y existe un ensayo de fase 2 completado en t
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 8 autorizaciones vigentes (todas de medicamento monocomponente)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c) |
 
 <!-- review:end log -->
 

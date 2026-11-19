@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, idebenona es un análogo sintético de la coenzima Q10 que actúa como transportador de electrones en la cadena respiratoria mitocondrial y como antioxidante. Su uso en la neuropatía óptica hereditaria de Leber, una enfermedad mitocondrial, se relaciona con esta función.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Idebenone es (traducción no oficial): «Antioxidante y transportador de electrones mitocondrial» Texto original en inglés: "Antioxidant and mitochondrial electron carrier" ([ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, idebenona es un análogo sintético de la coenzima Q10 que actúa como transportador de electrones en la cadena respiratoria mitocondrial y como antioxidante. Su uso en la neuropatía óptica hereditaria de Leber, una enfermedad mitocondrial, se relaciona con esta función.
 
 Un vínculo meramente especulativo con la porfiria hepática sería el estrés oxidativo y la disfunción mitocondrial en el daño hepático asociado a las porfirinas. Sin embargo, **los datos compilados para este informe no respaldan este vínculo**. La puntuación alta (0,9992) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no una biología demostrada. La similitud con la indicación original está pendiente de evaluar.
 
@@ -107,6 +107,19 @@ La predicción para porfiria hepática se sustenta únicamente en la puntuación
 - Realizar una revisión sistemática de la literatura y buscar estudios preclínicos que relacionen idebenona con la porfiria hepática
 - Evaluar la compatibilidad de la vía de administración y la similitud con la indicación original
 - Considerar si alguna de las otras predicciones tiene una justificación biológica más plausible antes de priorizar recursos
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

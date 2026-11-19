@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la minociclina es una tetraciclina de uso sistémico, con eficacia comprobada en infecciones bacterianas y en acné, y mecanísticamente podría ser aplicable a patologías inflamatorias de la superficie ocular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Minocycline (traducción no oficial): «Se desconoce el mecanismo de acción de ARESTIN como complemento de los procedimientos de raspado y alisado radicular para la reducción de la profundidad de las bolsas en pacientes con periodontitis del adulto.» Texto original en inglés: "The mechanism of action of ARESTIN as an adjunct to scaling and root planing procedures for reduction of pocket depth in patients with adult periodontitis is unknown." ([DailyMed: Arestin (minocycline hydrochloride) prescribing information, OraPharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8515df41-1936-4f3b-86ba-d2bb2a8441fb), versión del 2024-05-31; consultado el 2026-11-19). Según la información conocida, la minociclina es una tetraciclina de uso sistémico, con eficacia comprobada en infecciones bacterianas y en acné, y mecanísticamente podría ser aplicable a patologías inflamatorias de la superficie ocular.
 
 Una justificación plausible es que la minociclina posee propiedades antiinflamatorias y de inhibición de metaloproteinasas de matriz (MMP). Las tetraciclinas se emplean en inflamación de la superficie ocular, como la disfunción de las glándulas de Meibomio y la blefaritis. La queratoconjuntivitis epitelial punteada implica inflamación de la superficie ocular, por lo que existe un solapamiento teórico.
 
@@ -98,6 +98,19 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Revisión sistemática de la literatura sobre tetraciclinas/minociclina en queratoconjuntivitis y patologías de la superficie ocular
 - Evaluar la compatibilidad de la vía de administración (la presentación autorizada es una cápsula oral; no hay datos de formulación oftálmica)
 - Estudios preclínicos o piloto que respalden eficacia y seguridad ocular
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Arestin (minocycline hydrochloride) prescribing information, OraPharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8515df41-1936-4f3b-86ba-d2bb2a8441fb) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

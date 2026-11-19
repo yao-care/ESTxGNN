@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, teprotumumab es un anticuerpo monoclonal que bloquea el receptor del factor de crecimiento similar a la insulina tipo 1 (IGF-1R), y su eficacia en el exoftalmos endocrino es la base de su uso clínico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Teprotumumab (traducción no oficial): «El mecanismo de acción del teprotumumab-trbw en pacientes con enfermedad ocular tiroidea no se ha caracterizado completamente. El teprotumumab-trbw se une al IGF-1R y bloquea su activación y señalización.» Texto original en inglés: "Teprotumumab-trbw's mechanism of action in patients with Thyroid Eye Disease has not been fully characterized. Teprotumumab-trbw binds to IGF-1R and blocks its activation and signaling." ([DailyMed: Tepezza (teprotumumab) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e6c54a1-cefd-4a5b-a855-ab9f268b6cce), versión del 2026-09-28; consultado el 2026-11-19). Según la información conocida, teprotumumab es un anticuerpo monoclonal que bloquea el receptor del factor de crecimiento similar a la insulina tipo 1 (IGF-1R), y su eficacia en el exoftalmos endocrino es la base de su uso clínico.
 
 Sin embargo, el análisis disponible **no identifica un vínculo mecanístico plausible** con la monosomía X. Se trata de un trastorno cromosómico (síndrome de Turner) cuyo manejo del crecimiento se basa en hormona de crecimiento; bloquear IGF-1R podría incluso ser contraproducente para el crecimiento. El puntaje alto (0.9979) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica o clínica.
 
@@ -102,6 +102,19 @@ La predicción se basa únicamente en el modelo (L5), sin ensayos ni literatura,
 - Texto de indicación aprobada de la autorización española
 - Estudios preclínicos o de mecanismo que justifiquen un vínculo entre IGF-1R y la indicación predicha
 - Evaluación de si alguna otra indicación predicha (por ejemplo, de menor puntaje) tiene un fundamento biológico más sólido
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tepezza (teprotumumab) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e6c54a1-cefd-4a5b-a855-ab9f268b6cce) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

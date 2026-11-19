@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **dermatitis seborreica**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone actualmente de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida y la literatura compilada, tacrolimus inhibe la calcineurina, lo que suprime la activación de los linfocitos T y la liberación de citocinas proinflamatorias (como IL-2 e IL-4).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tacrolimus (traducción no oficial): «El tacrolimus se une a una proteína intracelular, FKBP-12. A continuación, se forma un complejo de tacrolimus-FKBP-12, calcio, calmodulina y calcineurina (una enzima intracelular ubicua en los mamíferos) y se inhibe la actividad fosfatasa de la calcineurina.» Texto original en inglés: "Tacrolimus binds to an intracellular protein, FKBP-12. A complex of tacrolimus-FKBP-12, calcium, calmodulin, and calcineurin (an ubiquitous mammalian intracellular enzyme) is then formed and the phosphatase activity of calcineurin inhibited." ([DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7), versión del 2025-02-26; consultado el 2026-11-19). Según la información conocida y la literatura compilada, tacrolimus inhibe la calcineurina, lo que suprime la activación de los linfocitos T y la liberación de citocinas proinflamatorias (como IL-2 e IL-4).
 
 La dermatitis seborreica es una enfermedad inflamatoria crónica de la piel, con recaídas frecuentes, que afecta sobre todo a la cara y el cuero cabelludo. Implica una respuesta inflamatoria frente a levaduras del género *Malassezia*. Este componente inflamatorio se solapa con el de la dermatitis atópica, indicación en la que tacrolimus tópico ya está establecido, por lo que el mecanismo antiinflamatorio es plausible en ambas enfermedades.
 
@@ -141,11 +141,12 @@ Existe un ensayo de Fase 3 completado (n=120) y un estudio de Fase 4 (n=104) dir
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Tacrolimus cuenta con 20 autorizaciones vigentes (todas de monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7) |
 
 <!-- review:end log -->
 

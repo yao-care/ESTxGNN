@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertensión renovascul
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, irbesartán pertenece a la clase de los antagonistas del receptor de angiotensina II tipo 1 (ARA-II), bloquea la vía renina-angiotensina-aldosterona y su eficacia en hipertensión y nefropatía diabética está comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Irbesartan (traducción no oficial): «La angiotensina II es un potente vasoconstrictor que se forma a partir de la angiotensina I en una reacción catalizada por la enzima convertidora de angiotensina (ECA, cininasa II). La angiotensina II es la principal hormona vasoactiva del sistema renina-angiotensina y un componente importante de la fisiopatología de la hipertensión. […] El irbesartán bloquea los efectos vasoconstrictores y secretores de aldosterona de la angiotensina II al unirse selectivamente al receptor AT 1 de la angiotensina II, presente en muchos tejidos (p. ej., músculo liso vascular, glándula suprarrenal).» Texto original en inglés: "Angiotensin II is a potent vasoconstrictor formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. […] Irbesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively binding to the AT 1 angiotensin II receptor found in many tissues (e.g., vascular smooth muscle, adrenal gland)." ([DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98), versión del 2026-08-24; consultado el 2026-11-19). Según la información conocida, irbesartán pertenece a la clase de los antagonistas del receptor de angiotensina II tipo 1 (ARA-II), bloquea la vía renina-angiotensina-aldosterona y su eficacia en hipertensión y nefropatía diabética está comprobada.
 
 La hipertensión renovascular maligna está impulsada por una intensa activación del sistema renina-angiotensina, por lo que existe una justificación mecanística plausible para el bloqueo del receptor AT1. La relación con la indicación original es estrecha: se trata de una forma grave de hipertensión con afectación renal.
 
@@ -132,11 +132,12 @@ La predicción para hipertensión renovascular maligna se basa únicamente en la
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos con un único principio activo; ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98) |
 
 <!-- review:end log -->
 

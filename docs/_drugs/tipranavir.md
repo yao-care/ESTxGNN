@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para la **infección por el vir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, tipranavir es un inhibidor no peptídico de la proteasa del VIH-1, enzima necesaria para la maduración de las partículas virales. Su eficacia en la infección por VIH resistente a otros tratamientos es conocida.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Tipranavir es (traducción no oficial): «Inhibidor de la proteasa del virus de la inmunodeficiencia humana de tipo 1» Texto original en inglés: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, tipranavir es un inhibidor no peptídico de la proteasa del VIH-1, enzima necesaria para la maduración de las partículas virales. Su eficacia en la infección por VIH resistente a otros tratamientos es conocida.
 
 El SIV es un lentivirus muy cercano al VIH y posee una proteasa homóloga, por lo que existe un fundamento mecanístico plausible. Sin embargo, es un virus de modelos animales y no una indicación clínica humana. El puntaje elevado probablemente refleja la proximidad en la red de conocimiento con la indicación de VIH ya aprobada, más que una oportunidad real de reposicionamiento.
 
@@ -108,11 +108,12 @@ La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos ni lite
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Ambas autorizaciones están vigentes y corresponden a Boehringer Ingelheim International GmbH" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559) |
 
 <!-- review:end log -->
 

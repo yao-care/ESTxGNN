@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Por su clase conocida, carfilzomib es un inhibidor del proteasoma, y mecanísticamente podría afectar la supervivencia de células tumorales de estirpe melanocítica. Esta hipótesis no está respaldada por los datos compilados para este informe.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Carfilzomib (traducción no oficial): «Carfilzomib es un inhibidor del proteasoma de tipo tetrapéptido epoxicetona que se une de forma irreversible a los sitios activos que contienen treonina N-terminal del proteasoma 20S, la partícula central proteolítica del proteasoma 26S. In vitro, carfilzomib mostró actividad antiproliferativa y proapoptótica en células de tumores sólidos y hematológicos.» Texto original en inglés: "Carfilzomib is a tetrapeptide epoxyketone proteasome inhibitor that irreversibly binds to the N-terminal threonine-containing active sites of the 20S proteasome, the proteolytic core particle within the 26S proteasome. Carfilzomib had antiproliferative and proapoptotic activities in vitro in solid and hematologic tumor cells." ([DailyMed: Kyprolis (carfilzomib) prescribing information, Onyx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea66eb30-e665-4693-99a1-a9d3b4bbe2d6), versión del 2025-06-18; consultado el 2026-11-19). Por su clase conocida, carfilzomib es un inhibidor del proteasoma, y mecanísticamente podría afectar la supervivencia de células tumorales de estirpe melanocítica. Esta hipótesis no está respaldada por los datos compilados para este informe.
 
 No se dispone de información sobre la relación entre la indicación original y la nueva indicación, y la similitud con la indicación original está pendiente de evaluación. La predicción debe considerarse una hipótesis generada por el modelo, no una conclusión clínica.
 
@@ -123,6 +123,19 @@ La predicción para CMM7 se basa únicamente en el modelo (puntaje 0,9937), sin 
 - Datos del mecanismo de acción detallados
 - Advertencias y contraindicaciones del prospecto de la AEMPS para el cribado de seguridad
 - Aclarar la definición de la entidad "CMM7" y su relación con el melanoma
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Kyprolis (carfilzomib) prescribing information, Onyx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea66eb30-e665-4693-99a1-a9d3b4bbe2d6) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

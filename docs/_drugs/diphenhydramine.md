@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para la **conjuntivitis rosáce
 
 ## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la difenhidramina es un antagonista del receptor H1 de primera generación con efectos anticolinérgicos y sedantes, y su utilidad en conjuntivitis de origen alérgico está establecida. Por ello, un componente de inflamación ocular mediado por histamina podría, en teoría, ser aplicable a la conjuntivitis rosácea.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Diphenhydramine (traducción no oficial): «El clorhidrato de difenhidramina es un antihistamínico con efectos secundarios anticolinérgicos (secantes) y sedantes. Los antihistamínicos parecen competir con la histamina por los sitios receptores celulares en las células efectoras. El clorhidrato de difenhidramina en forma inyectable tiene un inicio de acción rápido.» Texto original en inglés: "Diphenhydramine hydrochloride is an antihistamine with anticholinergic (drying) and sedative side effects. Antihistamines appear to compete with histamine for cell receptor sites on effector cells. Diphenhydramine hydrochloride in the injectable form has a rapid onset of action." ([DailyMed: diphenhydramine hydrochloride prescribing information, Henry Schein, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af972e71-62ab-40c6-925a-cbcb4d6720a4), versión del 2026-10-28; consultado el 2026-11-19). Según la información conocida, la difenhidramina es un antagonista del receptor H1 de primera generación con efectos anticolinérgicos y sedantes, y su utilidad en conjuntivitis de origen alérgico está establecida. Por ello, un componente de inflamación ocular mediado por histamina podría, en teoría, ser aplicable a la conjuntivitis rosácea.
 
 El puntaje elevado de TxGNN (0.9920) probablemente refleja la cercanía en la red de conocimiento con las indicaciones conjuntivales ya aprobadas, más que una base mecanística sólida. La rosácea ocular se asocia principalmente con disfunción de las glándulas de Meibomio, inestabilidad de la película lagrimal, colonización por Demodex y desregulación inmunitaria innata y neurovascular, con poca evidencia de un papel dominante de la histamina.
 
@@ -126,11 +126,12 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Existen 8 autorizaciones vigentes en total (todas de composición simple); se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: diphenhydramine hydrochloride prescribing information, Henry Schein, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af972e71-62ab-40c6-925a-cbcb4d6720a4) |
 
 <!-- review:end log -->
 

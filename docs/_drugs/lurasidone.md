@@ -55,7 +55,7 @@ con **1 ensayo clínico** (retirado, sin participantes) y **20 publicaciones** q
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la farmacología general conocida, lurasidona es un antipsicótico atípico que antagoniza los receptores D2 y 5-HT2A/5-HT7 y es agonista parcial de 5-HT1A, un perfil compatible con un efecto estabilizador del ánimo.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lurasidone (traducción no oficial): «El mecanismo de acción de la lurasidona en el tratamiento de la esquizofrenia y la depresión bipolar no está claro. Sin embargo, su eficacia en la esquizofrenia y la depresión bipolar podría estar mediada por una combinación de antagonismo central de los receptores de dopamina D 2 y de serotonina tipo 2 (5HT 2A ).» Texto original en inglés: "The mechanism of action of lurasidone in the treatment of schizophrenia and bipolar depression is unclear. However, its efficacy in schizophrenia and bipolar depression could be mediated through a combination of central dopamine D 2 and serotonin Type 2 (5HT 2A ) receptor antagonism." ([DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8), versión del 2025-01-31; consultado el 2026-11-19). Según la farmacología general conocida, lurasidona es un antipsicótico atípico que antagoniza los receptores D2 y 5-HT2A/5-HT7 y es agonista parcial de 5-HT1A, un perfil compatible con un efecto estabilizador del ánimo.
 
 La indicación original (trastorno bipolar) y la nueva (episodio maníaco bipolar) pertenecen al mismo espectro clínico, por lo que la predicción tiene plausibilidad biológica. Sin embargo, la literatura disponible se centra sobre todo en la fase depresiva; la evidencia para la fase maníaca o mixta es más débil. Además, un reporte de caso describe mania inducida por lurasidona, lo que aconseja prudencia.
 
@@ -112,6 +112,19 @@ La predicción es plausible porque lurasidona ya se usa en el trastorno bipolar,
 - Completar los datos del mecanismo de acción (por ejemplo, desde DrugBank).
 - Ensayos clínicos controlados de lurasidona en episodios maníacos o mixtos, con datos de eficacia y seguridad.
 - Revisar la señal de manía inducida y el perfil metabólico, así como las interacciones de nivel mayor.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

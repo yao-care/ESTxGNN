@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, benazepril pertenece a la clase de los IECA: bloquea la conversión de angiotensina I en angiotensina II, reduciendo la vasoconstricción y la activación del sistema renina-angiotensina-aldosterona (SRAA).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Benazepril (traducción no oficial): «El benazepril y el benazeprilato inhiben la enzima convertidora de angiotensina (ECA) en seres humanos y en animales. El benazeprilato tiene una actividad inhibidora de la ECA mucho mayor que la del benazepril. La ECA es una peptidil dipeptidasa que cataliza la conversión de la angiotensina I en la sustancia vasoconstrictora angiotensina II.» Texto original en inglés: "Benazepril and benazeprilat inhibit angiotensin-converting enzyme (ACE) in human subjects and animals. Benazeprilat has much greater ACE inhibitory activity than does benazepril. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II." ([DailyMed: Lotensin (benazepril hydrochloride) prescribing information, Validus Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2abb091b-a53e-46b0-9b84-e5ee8f2bdd8e), versión del 2025-09-30; consultado el 2026-11-19). Según la información conocida, benazepril pertenece a la clase de los IECA: bloquea la conversión de angiotensina I en angiotensina II, reduciendo la vasoconstricción y la activación del sistema renina-angiotensina-aldosterona (SRAA).
 
 La enfermedad renal hipertensiva maligna implica hipertensión grave con activación del SRAA y daño renal, por lo que el bloqueo del SRAA es biológicamente plausible. Sin embargo, el puntaje elevado de TxGNN (0,9965) es una predicción computacional que probablemente se deba a la estrecha relación con la indicación ya aprobada de hipertensión. Es más una extensión de la indicación existente que un reposicionamiento genuino.
 
@@ -115,11 +115,12 @@ Las predicciones son solo computacionales (nivel L5), sin ensayos ni literatura 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Las tres autorizaciones son de medicamento con un solo principio activo y están vigentes" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lotensin (benazepril hydrochloride) prescribing information, Validus Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2abb091b-a53e-46b0-9b84-e5ee8f2bdd8e) |
 
 <!-- review:end log -->
 

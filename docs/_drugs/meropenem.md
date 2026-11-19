@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **artritis bacteriana (bac
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, meropenem es un carbapenem que inhibe la síntesis de la pared celular bacteriana al unirse a las proteínas fijadoras de penicilina, con actividad frente a bacterias Gram-negativas y Gram-positivas sensibles.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Meropenem (traducción no oficial): «El meropenem es un fármaco antibacteriano. […] La actividad bactericida del meropenem se debe a la inhibición de la síntesis de la pared celular. El meropenem penetra la pared celular de la mayoría de las bacterias grampositivas y gramnegativas para unirse a sus dianas, las proteínas de unión a penicilina (PBP).» Texto original en inglés: "Meropenem is an antibacterial drug. […] The bactericidal activity of meropenem results from the inhibition of cell wall synthesis. Meropenem penetrates the cell wall of most gram-positive and gram-negative bacteria to bind penicillin-binding-protein (PBP) targets." ([DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f), versión del 2026-11-02; consultado el 2026-11-19). Según la información conocida, meropenem es un carbapenem que inhibe la síntesis de la pared celular bacteriana al unirse a las proteínas fijadoras de penicilina, con actividad frente a bacterias Gram-negativas y Gram-positivas sensibles.
 
 Las infecciones de huesos y articulaciones están causadas por bacterias que pueden ser sensibles a este tipo de antibiótico. Por ello, desde el punto de vista mecanístico, la predicción es biológicamente plausible.
 
@@ -110,6 +110,18 @@ La puntuación del modelo es alta, pero no hay ensayos clínicos y la literatura
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) para el cribado de seguridad.
 - Evaluación del papel de meropenem frente a los tratamientos habituales, considerando la política de uso prudente de carbapenémicos.
 - Datos de dosificación y penetración en hueso y articulación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, tapentadol es un agonista del receptor mu-opioide con inhibición adicional de la recaptación de noradrenalina, lo que le permite modular las vías centrales del dolor. Teóricamente, esto podría ser aplicable a cuadros dolorosos como la migraña.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tapentadol (traducción no oficial): «El tapentadol es un analgésico sintético de acción central. Se desconoce el mecanismo de acción exacto. Aunque la relevancia clínica no está clara, los estudios preclínicos han demostrado que el tapentadol es un agonista del receptor opioide mu (MOR) y un inhibidor de la recaptación de noradrenalina (NRI).» Texto original en inglés: "Tapentadol is a centrally-acting synthetic analgesic. The exact mechanism of action is unknown. Although the clinical relevance is unclear, preclinical studies have shown that tapentadol is a mu-opioid receptor (MOR) agonist and a norepinephrine reuptake inhibitor (NRI)." ([DailyMed: Nucynta (tapentadol hydrochloride) prescribing information, Collegium Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80938c30-9fe3-4c7d-9d9c-5476638cfb2d), versión del 2025-12-30; consultado el 2026-11-19). Según la información conocida, tapentadol es un agonista del receptor mu-opioide con inhibición adicional de la recaptación de noradrenalina, lo que le permite modular las vías centrales del dolor. Teóricamente, esto podría ser aplicable a cuadros dolorosos como la migraña.
 
 Sin embargo, la predicción se basa únicamente en una puntuación alta del modelo (0.9967), sin ensayos clínicos ni literatura que la respalden. Además, los opioides no se recomiendan en general para la migraña por el riesgo de cefalea por abuso de medicación, cronificación y dependencia, y su eficacia es inferior a la de triptanes o gepantes.
 
@@ -140,11 +140,12 @@ La predicción se apoya solo en la puntuación del modelo (nivel L5), sin ensayo
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Nucynta (tapentadol hydrochloride) prescribing information, Collegium Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80938c30-9fe3-4c7d-9d9c-5476638cfb2d) |
 
 <!-- review:end log -->
 

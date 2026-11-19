@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, la acetazolamida inhibe varias isoenzimas de la anhidrasa carbónica (CA1, CA4, CA7, CA12, CA14), lo que modifica el equilibrio ácido-base y el transporte de líquidos e iones.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Acetazolamide (traducción no oficial): «La acetazolamida es un potente inhibidor de la anhidrasa carbónica, eficaz en el control de la secreción de líquidos (p. ej., algunos tipos de glaucoma), en el tratamiento de ciertos trastornos convulsivos (p. ej., epilepsia) y en la promoción de la diuresis en casos de retención anormal de líquidos (p. ej., edema cardíaco). La acetazolamida no es un diurético mercurial.» Texto original en inglés: "Acetazolamide is a potent carbonic anhydrase inhibitor, effective in the control of fluid secretion (e.g., some types of glaucoma), in the treatment of certain convulsive disorders (e.g., epilepsy), and in the promotion of diuresis in instances of abnormal fluid retention (e.g., cardiac edema). Acetazolamide is not a mercurial diuretic." ([DailyMed: acetazolamide prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8e48a25-5f6c-4b5a-a5f2-ee87aabea33b), versión del 2026-11-10; consultado el 2026-11-19). Según la información conocida, la acetazolamida inhibe varias isoenzimas de la anhidrasa carbónica (CA1, CA4, CA7, CA12, CA14), lo que modifica el equilibrio ácido-base y el transporte de líquidos e iones.
 
 La relación con la nueva indicación es solo especulativa: la inhibición de la anhidrasa carbónica podría influir en el equilibrio ácido-base y en el manejo de iones en el músculo durante el ejercicio. No existe evidencia clínica ni preclínica que confirme este vínculo.
 
@@ -95,6 +95,19 @@ La predicción se basa solo en la puntuación del modelo (0,9995), sin ensayos c
 - Datos de mecanismo de acción y un fundamento fisiopatológico claro
 - Estudios preclínicos que respalden la hipótesis
 - Advertencias y contraindicaciones del prospecto de la AEMPS para el análisis de seguridad
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: acetazolamide prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8e48a25-5f6c-4b5a-a5f2-ee87aabea33b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **la enfermedad pseudo-von
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, efmoroctocog alfa es un factor VIII recombinante fusionado a Fc (rFVIIIFc) que repone la actividad deficiente de FVIII, y su utilidad en hemofilia está establecida.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Efmoroctocog Alfa es (traducción no oficial): «Proteína exógena del factor VIII de la coagulación» Texto original en inglés: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, efmoroctocog alfa es un factor VIII recombinante fusionado a Fc (rFVIIIFc) que repone la actividad deficiente de FVIII, y su utilidad en hemofilia está establecida.
 
 La enfermedad pseudo-von Willebrand (von Willebrand de tipo plaquetario) está causada por una ganancia de función de la GPIbα plaquetaria, que aumenta la unión del factor von Willebrand (VWF) y favorece la eliminación de sus multímeros de alto peso molecular. El defecto es propio de la plaqueta y no una deficiencia de FVIII, por lo que el vínculo mecanístico directo es débil. Solo de forma especulativa podría haber una reducción secundaria de FVIII por bajos niveles de VWF.
 
@@ -104,6 +104,19 @@ La predicción se basa solo en el modelo (L5), sin ensayos ni publicaciones, y e
 - Textos de indicación aprobada de las autorizaciones españolas.
 - Evidencia clínica o preclínica de que la reposición de FVIII beneficia a pacientes con enfermedad pseudo-von Willebrand.
 - Definir una pregunta de investigación concreta para las candidatas de mayor coherencia mecanística.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

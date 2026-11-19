@@ -56,7 +56,7 @@ con **8 ensayos clínicos** y **20 publicaciones** relacionados con esta direcci
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Por su clase, docetaxel es un taxano: estabiliza los microtúbulos e impide la división de las células tumorales, lo que resulta citotóxico en células de proliferación rápida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Docetaxel (traducción no oficial): «El docetaxel es un agente antineoplásico que actúa alterando la red microtubular de las células, que es esencial para las funciones celulares mitóticas y de interfase. El docetaxel se une a la tubulina libre y promueve el ensamblaje de la tubulina en microtúbulos estables, al tiempo que inhibe su desensamblaje.» Texto original en inglés: "Docetaxel is an antineoplastic agent that acts by disrupting the microtubular network in cells that is essential for mitotic and interphase cellular functions. Docetaxel binds to free tubulin and promotes the assembly of tubulin into stable microtubules while simultaneously inhibiting their disassembly." ([DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b), versión del 2025-12-17; consultado el 2026-11-19). Por su clase, docetaxel es un taxano: estabiliza los microtúbulos e impide la división de las células tumorales, lo que resulta citotóxico en células de proliferación rápida.
 
 El sarcoma de Ewing es un tumor de hueso y partes blandas de crecimiento rápido, por lo que una acción antimitótica es biológicamente plausible. Sin embargo, la evidencia clínica procede sobre todo de docetaxel combinado con gemcitabina (secuencial o GEMDOX) o con irinotecán en enfermedad recidivante o refractaria, de modo que la contribución del docetaxel por sí solo no puede separarse. Los estudios de fase 2 muestran actividad modesta en cohortes pequeñas.
 
@@ -132,6 +132,18 @@ Varios estudios de fase 2 en sarcoma de Ewing recidivante incluyen docetaxel (co
 - Datos detallados del mecanismo de acción
 - Revisión de las advertencias y contraindicaciones del prospecto
 - Plan de monitoreo hematológico, hepático y de neuropatía, con especial atención a las interacciones con inhibidores potentes del CYP3A4 como claritromicina
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

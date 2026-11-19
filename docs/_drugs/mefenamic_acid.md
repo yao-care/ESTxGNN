@@ -56,7 +56,7 @@ con **0 ensayos clínicos registrados** y **20 publicaciones** recuperadas, de l
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, el ácido mefenámico es un AINE que bloquea la ciclooxigenasa (COX) y reduce la síntesis de prostaglandinas. Esto disminuye la sensibilización por prostaglandinas de las vías trigeminovasculares y, con ello, el dolor.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Mefenamic Acid (traducción no oficial): «El ácido mefenámico tiene propiedades analgésicas, antiinflamatorias y antipiréticas. El mecanismo de acción del ácido mefenámico, al igual que el de otros AINE, no se comprende por completo, pero implica la inhibición de la ciclooxigenasa (COX-1 y COX-2).» Texto original en inglés: "Mefenamic acid has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of mefenamic acid, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: mefenamic acid prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d15733a9-d5fd-4d5f-86ce-e7ed8c706c7f), versión del 2026-04-20; consultado el 2026-11-19). Según la información conocida, el ácido mefenámico es un AINE que bloquea la ciclooxigenasa (COX) y reduce la síntesis de prostaglandinas. Esto disminuye la sensibilización por prostaglandinas de las vías trigeminovasculares y, con ello, el dolor.
 
 Los ensayos doble ciego publicados en migraña (incluida la migraña menstrual) apoyan un efecto analgésico y preventivo. Conviene precisar que "trastorno de cefalea" es un término amplio y que la evidencia se concentra casi por completo en la migraña; no hay datos para otros tipos de cefalea.
 
@@ -105,6 +105,18 @@ Existen ensayos doble ciego pequeños y antiguos, además de guías, que apoyan 
 - Revisión del prospecto autorizado para completar advertencias y contraindicaciones.
 - Datos del mecanismo de acción desde DrugBank.
 - Plan de limitación de duración del tratamiento para reducir el riesgo de cefalea por abuso de medicación y de toxicidad gastrointestinal.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: mefenamic acid prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d15733a9-d5fd-4d5f-86ce-e7ed8c706c7f) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

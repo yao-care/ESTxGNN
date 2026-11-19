@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para **púrpura trombocitopéni
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la hemina induce la hemooxigenasa-1 y reprime la ALA sintasa hepática, lo que explica su utilidad en la porfiria aguda intermitente, donde frena la sobreproducción de precursores porfirínicos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Hemin (traducción no oficial): «El hemo actúa limitando la síntesis hepática y/o medular de porfirina. Es probable que esta acción se deba a la inhibición de la δ-aminolevulínico sintetasa, la enzima que limita la velocidad de la vía biosintética de la porfirina/hemo.» Texto original en inglés: "Heme acts to limit the hepatic and/or marrow synthesis of porphyrin. This action is likely due to the inhibition of δ-aminolevulinic acid synthetase, the enzyme which limits the rate of the porphyrin/heme biosynthetic pathway." ([DailyMed: Panhematin (hemin) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9984267a-4d57-4444-9bb5-16bca7dea691), versión del 2026-02-26; consultado el 2026-11-19). Según la información conocida, la hemina induce la hemooxigenasa-1 y reprime la ALA sintasa hepática, lo que explica su utilidad en la porfiria aguda intermitente, donde frena la sobreproducción de precursores porfirínicos.
 
 No se ha establecido un vínculo mecanístico directo con la púrpura trombocitopénica. Un posible papel inmunomodulador a través de la hemooxigenasa-1 en la trombocitopenia inmune es meramente especulativo. La relación entre ambas indicaciones es, por tanto, débil, y el alto puntaje de TxGNN debe interpretarse como una señal computacional sin respaldo clínico.
 
@@ -101,6 +101,19 @@ La predicción para púrpura trombocitopénica se basa únicamente en el modelo 
 - Estudios preclínicos o de mecanismo que evalúen el papel de la hemooxigenasa-1 en la trombocitopenia inmune
 - Revisión sistemática de la literatura específica sobre hemina y púrpura trombocitopénica
 - Evaluación de la compatibilidad de la vía de administración y de la similitud con la indicación original
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Panhematin (hemin) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9984267a-4d57-4444-9bb5-16bca7dea691) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

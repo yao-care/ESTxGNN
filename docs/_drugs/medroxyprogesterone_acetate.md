@@ -54,7 +54,7 @@ Medroxiprogesterona acetato es un progestágeno sintético comercializado en Esp
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la medroxiprogesterona acetato es un progestágeno. Estos fármacos pueden contrarrestar la proliferación del epitelio mamario inducida por estrógenos y suprimir las gonadotropinas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Medroxyprogesterone Acetate (traducción no oficial): «Depo-Provera CI (acetato de medroxiprogesterona [MPA]) inhibe la secreción de gonadotropinas, lo que principalmente impide la maduración folicular y la ovulación y causa el espesamiento del moco cervical. Estas acciones contribuyen a su efecto anticonceptivo.» Texto original en inglés: "Depo-Provera CI (medroxyprogesterone acetate [MPA]) inhibits the secretion of gonadotropins which primarily prevents follicular maturation and ovulation and causes thickening of cervical mucus. These actions contribute to its contraceptive effect." ([DailyMed: Depo-Provera (medroxyprogesterone acetate) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=199cf13e-0859-4a73-9b45-e700d0cd1049), versión del 2026-08-25; consultado el 2026-11-19). Según la información conocida, la medroxiprogesterona acetato es un progestágeno. Estos fármacos pueden contrarrestar la proliferación del epitelio mamario inducida por estrógenos y suprimir las gonadotropinas.
 
 La fisiopatología de la enfermedad fibroquística se describe como un predominio de estrógenos con déficit relativo de progesterona. Esto genera hiperproliferación del tejido conectivo y, después, del epitelio. Por ello, un progestágeno tiene una lógica biológica plausible.
 
@@ -110,6 +110,18 @@ Para el resto de la información de seguridad, consultar el prospecto.
 - Revisión sistemática de la literatura, con análisis de calidad, de los estudios directos sobre medroxiprogesterona acetato en enfermedad fibroquística.
 - Un ensayo clínico controlado y actual, con seguimiento de densidad mamaria y proliferación epitelial.
 - Prospecto de AEMPS con advertencias y contraindicaciones, y evaluación de compatibilidad de vía y forma farmacéutica para esta indicación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Depo-Provera (medroxyprogesterone acetate) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=199cf13e-0859-4a73-9b45-e700d0cd1049) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

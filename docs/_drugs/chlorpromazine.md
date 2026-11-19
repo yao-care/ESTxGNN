@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para **distrofia retiniana con 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información farmacológica conocida, la clorpromazina actúa como antagonista de múltiples receptores: dopaminérgicos (D1 a D5), serotoninérgicos (5-HT1A, 5-HT2A, 5-HT2C, 5-HT6, 5-HT7), adrenérgicos α2 y de histamina H1. Su efecto antipsicótico se atribuye principalmente al antagonismo del receptor D2.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Chlorpromazine (traducción no oficial): «No se conoce el mecanismo preciso por el cual se producen los efectos terapéuticos de la clorpromazina. Las principales acciones farmacológicas son psicotrópicas. También ejerce actividad sedante y antiemética. La clorpromazina tiene acciones en todos los niveles del sistema nervioso central –principalmente en los niveles subcorticales–, así como en múltiples sistemas orgánicos.» Texto original en inglés: "The precise mechanism whereby the therapeutic effects of chlorpromazine are produced is not known. The principal pharmacological actions are psychotropic. It also exerts sedative and antiemetic activity. Chlorpromazine has actions at all levels of the central nervous system –primarily at subcortical levels – as well as on multiple organ systems." ([DailyMed: chlorpromazine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd02d051-2a34-4cd3-a137-b965c0381267), versión del 2026-11-10; consultado el 2026-11-19). Según la información farmacológica conocida, la clorpromazina actúa como antagonista de múltiples receptores: dopaminérgicos (D1 a D5), serotoninérgicos (5-HT1A, 5-HT2A, 5-HT2C, 5-HT6, 5-HT7), adrenérgicos α2 y de histamina H1. Su efecto antipsicótico se atribuye principalmente al antagonismo del receptor D2.
 
 La relación entre la indicación original (trastornos psiquiátricos) y la distrofia retiniana es muy débil. La única publicación disponible (JAMA, 1967) describe reacciones fototóxicas con dosis altas de clorpromazina y tioridazina. La clorpromazina se acumula en tejidos con melanina, como el epitelio pigmentario de la retina, lo que sugiere un posible **daño** y no un beneficio en esta enfermedad.
 
@@ -102,6 +102,19 @@ La predicción para distrofia retiniana carece de ensayos clínicos y de un meca
 - Completar los datos del mecanismo de acción (por ejemplo, mediante consulta a DrugBank).
 - Evaluar la toxicidad ocular y retiniana de la clorpromazina con estudios preclínicos o de mecanismo antes de considerar cualquier uso en enfermedades de la retina.
 - Si se quiere priorizar una línea de investigación, considerar la esquizofrenia de inicio temprano como pregunta de investigación, con revisión de seguridad en población joven (síntomas extrapiramidales, sedación, efectos metabólicos) y comparación con antipsicóticos de segunda generación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: chlorpromazine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd02d051-2a34-4cd3-a137-b965c0381267) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

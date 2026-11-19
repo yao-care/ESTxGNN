@@ -56,7 +56,7 @@ con **5 ensayos clínicos** y **6 publicaciones** que actualmente respaldan esta
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados del mecanismo de acción en el registro del fármaco. Según la farmacología conocida, solriamfetol inhibe la recaptación de dopamina y noradrenalina, es decir, aumenta la señalización catecolaminérgica.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Solriamfetol (traducción no oficial): «El mecanismo de acción de solriamfetol para mejorar la vigilia en pacientes con somnolencia diurna excesiva asociada a narcolepsia o apnea obstructiva del sueño no está claro. Sin embargo, su eficacia podría estar mediada por su actividad como inhibidor de la recaptación de dopamina y norepinefrina (DNRI).» Texto original en inglés: "The mechanism of action of solriamfetol to improve wakefulness in patients with excessive daytime sleepiness associated with narcolepsy or obstructive sleep apnea is unclear. However, its efficacy could be mediated through its activity as a dopamine and norepinephrine reuptake inhibitor (DNRI)." ([DailyMed: Sunosi (solriamfetol) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=362f206b-73e7-4009-8c34-5a9df55679ab), versión del 2026-05-05; consultado el 2026-11-19). Según la farmacología conocida, solriamfetol inhibe la recaptación de dopamina y noradrenalina, es decir, aumenta la señalización catecolaminérgica.
 
 Potenciar esta señalización en los circuitos prefrontales es la base farmacológica establecida del tratamiento del TDAH (estimulantes y atomoxetina). Por ello, el mecanismo es directamente relevante para esta indicación.
 
@@ -110,6 +110,18 @@ Existe un ensayo de Fase 3 completado en adultos con TDAH (NCT05972044) y un pil
 - Esperar los resultados de los ensayos pediátricos de Fase 3 (NCT07717892, NCT07717879) y del estudio de seguridad a largo plazo (NCT07773883)
 - Datos detallados del mecanismo de acción y del prospecto (advertencias y contraindicaciones)
 - Plan de monitorización cardiovascular (presión arterial y frecuencia cardíaca) y de las interacciones con simpaticomiméticos y azul de metileno
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sunosi (solriamfetol) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=362f206b-73e7-4009-8c34-5a9df55679ab) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos** y la literatura recuperada (**20 p
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la citarabina es un antimetabolito análogo de nucleósidos de pirimidina que inhibe la síntesis de ADN en células en fase S. Su eficacia en leucemias agudas está bien establecida.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cytarabine (traducción no oficial): «Aunque el mecanismo de acción no se comprende por completo, parece que la citarabina actúa mediante la inhibición de la ADN polimerasa. También se ha notificado una incorporación limitada, pero significativa, de la citarabina tanto en el ADN como en el ARN.» Texto original en inglés: "Although the mechanism of action is not completely understood, it appears that cytarabine acts through the inhibition of DNA polymerase. A limited, but significant, incorporation of cytarabine into both DNA and RNA has also been reported." ([DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd), versión del 2026-10-19; consultado el 2026-11-19). Según la información conocida, la citarabina es un antimetabolito análogo de nucleósidos de pirimidina que inhibe la síntesis de ADN en células en fase S. Su eficacia en leucemias agudas está bien establecida.
 
 El carcinoma pulmonar de células pequeñas es un tumor de proliferación muy rápida, por lo que un fármaco que actúa sobre células que sintetizan ADN es conceptualmente compatible. Sin embargo, la literatura recuperada se refiere sobre todo al cáncer de pulmón no microcítico (estudios de fase II de 1990 con citarabina a dosis altas más cisplatino, con una tasa de respuesta global del 14% en uno de ellos y mielosupresión grave), a análogos relacionados (gemcitabina, decitabina) y a topotecán. No se identificaron datos clínicos de citarabina específicos para carcinoma pulmonar de células pequeñas; solo un artículo de 1987 sobre citarabina a dosis altas en esta enfermedad, sin resumen disponible.
 
@@ -135,11 +135,12 @@ Neuroblastoma es la predicción con más respaldo entre las evaluadas (nivel L3,
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 6 autorizaciones vigentes en total (todas de monofármaco); la tabla muestra las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd) |
 
 <!-- review:end log -->
 

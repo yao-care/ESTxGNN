@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **osteoporosis inducida po
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este fármaco. Según la información conocida, trastuzumab deruxtecán es un conjugado anticuerpo-fármaco: un anticuerpo dirigido a HER2 unido a un inhibidor de la topoisomerasa I (deruxtecán). Es un fármaco de uso oncológico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Trastuzumab Deruxtecan (traducción no oficial): «El fam-trastuzumab deruxtecán-nxki es un conjugado anticuerpo-fármaco dirigido contra HER2. El anticuerpo es una IgG1 anti-HER2 humanizada. La molécula pequeña, DXd, es un inhibidor de la topoisomerasa I unido al anticuerpo mediante un conector escindible.» Texto original en inglés: "Fam-trastuzumab deruxtecan-nxki is a HER2-directed antibody-drug conjugate. The antibody is a humanized anti-HER2 IgG1. The small molecule, DXd, is a topoisomerase I inhibitor attached to the antibody by a cleavable linker." ([DailyMed: Enhertu (fam-trastuzumab deruxtecan-nxki) prescribing information, Daiichi Sankyo Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6), versión del 2026-05-15; consultado el 2026-11-19). Según la información conocida, trastuzumab deruxtecán es un conjugado anticuerpo-fármaco: un anticuerpo dirigido a HER2 unido a un inhibidor de la topoisomerasa I (deruxtecán). Es un fármaco de uso oncológico.
 
 La única base de la predicción es la puntuación muy alta del modelo TxGNN (aprendizaje profundo) de TxGNN (0,9931). No se identifica una vía mecanística establecida que relacione la diana HER2 o la inhibición de la topoisomerasa I con la prevención o el tratamiento de la pérdida ósea causada por fármacos (por ejemplo, glucocorticoides o inhibidores de la aromatasa).
 
@@ -126,6 +126,19 @@ La predicción se apoya solo en una puntuación del modelo (nivel L5), sin ensay
 - Confirmar la indicación aprobada de las autorizaciones españolas
 - Realizar una revisión de literatura y estudios preclínicos que respalden un posible vínculo con el metabolismo óseo
 - Reevaluar la predicción antes de cualquier avance, dado que la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Enhertu (fam-trastuzumab deruxtecan-nxki) prescribing information, Daiichi Sankyo Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -54,7 +54,7 @@ Bendamustina es un agente alquilante con características de análogo de nucleó
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Bendamustina es un agente alquilante con rasgos de análogo de nucleósido. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada, pero su actividad frente a neoplasias de linfocitos B está documentada en la literatura y en numerosos ensayos.
+Bendamustina es un agente alquilante con rasgos de análogo de nucleósido. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Bendamustine (traducción no oficial): «La bendamustina es un derivado bifuncional de la mecloretamina que contiene un anillo de bencimidazol de tipo purínico. La mecloretamina y sus derivados forman grupos alquilo electrofílicos. Estos grupos forman enlaces covalentes con fracciones nucleofílicas ricas en electrones, lo que da lugar a entrecruzamientos entre las cadenas del ADN.» Texto original en inglés: "Bendamustine is a bifunctional mechlorethamine derivative containing a purine-like benzimidazole ring. Mechlorethamine and its derivatives form electrophilic alkyl groups. These groups form covalent bonds with electron-rich nucleophilic moieties, resulting in interstrand DNA crosslinks." ([DailyMed: Vivimusta (bendamustine hydrochloride) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bf0e08b3-50ab-48e0-a52b-89c04787a75f), versión del 2026-10-28; consultado el 2026-11-19).
 
 El linfoma de células del manto es una neoplasia madura de linfocitos B, estrechamente relacionada con otros linfomas B tratados con este fármaco. La combinación de bendamustina con rituximab (BR) es una pauta de base establecida en este linfoma, y ensayos recientes le añaden inhibidores de BTK (ibrutinib, acalabrutinib, orelabrutinib).
 
@@ -133,6 +133,19 @@ Varios ensayos de fase 3 completados (NCT00991211, NCT00877006, NCT01776840) est
 - Datos detallados del mecanismo de acción
 - Confirmación histológica y plan de monitorización hematológica y de infecciones
 - Comparación con las opciones de primera línea vigentes (p. ej., combinaciones con inhibidores de BTK)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Vivimusta (bendamustine hydrochloride) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bf0e08b3-50ab-48e0-a52b-89c04787a75f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **vasculitis reumatoide**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, certolizumab pegol es un inhibidor del TNF-α sin fracción Fc, cuya eficacia en la artritis reumatoide y otras enfermedades inflamatorias inmunomediadas ha sido comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Certolizumab Pegol (traducción no oficial): «El certolizumab pegol se une al TNFα humano con una KD de 90pM. El TNFα es una citocina proinflamatoria clave con un papel central en los procesos inflamatorios. El certolizumab pegol neutraliza selectivamente el TNFα (IC 90 de 4 ng/mL para la inhibición del TNFα humano en el ensayo in vitro de citotoxicidad en fibrosarcoma murino L929), pero no neutraliza la linfotoxina α (TNFβ).» Texto original en inglés: "Certolizumab pegol binds to human TNFα with a KD of 90pM. TNFα is a key pro-inflammatory cytokine with a central role in inflammatory processes. Certolizumab pegol selectively neutralizes TNFα (IC 90 of 4 ng/mL for inhibition of human TNFα in the in vitro L929 murine fibrosarcoma cytotoxicity assay) but does not neutralize lymphotoxin α (TNFβ)." ([DailyMed: Cimzia (certolizumab pegol) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d), versión del 2026-10-29; consultado el 2026-11-19). Según la información conocida, certolizumab pegol es un inhibidor del TNF-α sin fracción Fc, cuya eficacia en la artritis reumatoide y otras enfermedades inflamatorias inmunomediadas ha sido comprobada.
 
 La vasculitis reumatoide surge en el contexto de la artritis reumatoide, una de las indicaciones centrales del fármaco, y el TNF-α es un posible impulsor de la inflamación vascular. Esto da cierta plausibilidad mecanística a la predicción.
 
@@ -114,6 +114,19 @@ La predicción se apoya en un puntaje alto del modelo y en un único informe de 
 ### Nota sobre otras predicciones evaluadas
 
 Sin embargo, es en gran medida una indicación ya existente o muy cercana a las originales (espondilitis anquilosante), no un reposicionamiento genuino. Las predicciones de **hipermovilidad del coxis** y **enfermedad de Kümmell** carecen de evidencia (L5), y **enfermedad vertebral** es un término inespecífico (L4).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cimzia (certolizumab pegol) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

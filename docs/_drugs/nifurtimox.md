@@ -56,7 +56,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, nifurtimox es un antiprotozoario de la clase de los nitrofuranos y su eficacia en la enfermedad de Chagas es la indicación original conocida. Su actividad se atribuye generalmente a la nitrorreducción y al estrés oxidativo en los tripanosomas, aunque este punto no figura en los datos compilados para este informe.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Nifurtimox (traducción no oficial): «El nifurtimox es un fármaco antiprotozoario. […] El mecanismo de acción del nifurtimox no se comprende por completo. Los estudios sugieren que el nifurtimox es metabolizado/activado por nitrorreductasas (NTR) de tipo I (insensibles al oxígeno) y de tipo II (sensibles al oxígeno), lo que da lugar a la producción de metabolitos intermedios tóxicos y/o especies reactivas de oxígeno que inducen daño en el ADN y muerte celular tanto de las formas intracelulares como de las extracelulares de T. cruzi.» Texto original en inglés: "Nifurtimox is an antiprotozoal drug. […] The mechanism of action of nifurtimox is not fully understood. Studies suggest that nifurtimox is metabolized/activated, by Type I (oxygen insensitive) and Type II (oxygen sensitive) nitoreductases (NTR) leading to production of toxic intermediate metabolites and/or reactive oxygen species that induce DNA damage and cell death of both intracellular and extracellular forms of T. cruzi." ([DailyMed: Lampit (nifurtimox) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=90d09714-a8b1-4696-8ada-f99dc54d0721), versión del 2026-03-03; consultado el 2026-11-19). Según la información conocida, nifurtimox es un antiprotozoario de la clase de los nitrofuranos y su eficacia en la enfermedad de Chagas es la indicación original conocida. Su actividad se atribuye generalmente a la nitrorreducción y al estrés oxidativo en los tripanosomas, aunque este punto no figura en los datos compilados para este informe.
 
 La analbuminemia congénita es un trastorno genético raro de la síntesis de albúmina. No se identifica una relación farmacológica plausible entre la acción antiprotozoaria de nifurtimox y esta enfermedad, ni una similitud con la indicación original.
 
@@ -104,6 +104,19 @@ La predicción no cuenta con ensayos clínicos ni literatura (nivel L5), no exis
 - Completar los datos del mecanismo de acción (consultar la API de DrugBank).
 - Realizar una revisión de literatura preclínica para determinar si existe alguna base biológica que relacione nifurtimox con la síntesis de albúmina.
 - Reevaluar la prioridad de esta indicación frente a otras candidatas, dado que ninguna de las siete predicciones cuenta con evidencia de apoyo.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lampit (nifurtimox) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=90d09714-a8b1-4696-8ada-f99dc54d0721) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

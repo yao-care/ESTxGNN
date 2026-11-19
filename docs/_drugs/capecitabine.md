@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 
 ## Por qué es Razonable esta Predicción?
 
-Capecitabina es un profármaco del 5-fluorouracilo (5-FU) que inhibe la timidilato sintasa (TYMS), enzima clave en la síntesis de ADN, lo que afecta a las células de división rápida. Los datos compilados confirman TYMS como diana farmacológica. No se dispone de datos detallados sobre el mecanismo de acción en la fuente de datos principal, por lo que esta descripción se basa en el conocimiento farmacológico general.
+Capecitabina es un profármaco del 5-fluorouracilo (5-FU) que inhibe la timidilato sintasa (TYMS), enzima clave en la síntesis de ADN, lo que afecta a las células de división rápida. Los datos compilados confirman TYMS como diana farmacológica. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Capecitabine (traducción no oficial): «La capecitabina se metaboliza a fluorouracilo in vivo. Tanto las células normales como las tumorales metabolizan el fluorouracilo a monofosfato de 5-fluoro-2'-desoxiuridina (FdUMP) y trifosfato de 5-fluorouridina (FUTP). Estos metabolitos causan daño celular mediante dos mecanismos diferentes.» Texto original en inglés: "Capecitabine is metabolized to fluorouracil in vivo. Both normal and tumor cells metabolize fluorouracil to 5-fluoro-2'-deoxyuridine monophosphate (FdUMP) and 5-fluorouridine triphosphate (FUTP). These metabolites cause cell injury by two different mechanisms." ([DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5), versión del 2026-02-05; consultado el 2026-11-19).
 
 El puntaje tan alto probablemente refleja la cercanía con estas relaciones ya existentes más que una señal nueva de reposicionamiento.
 
@@ -81,7 +81,6 @@ Se muestran 5 de al menos 20 autorizaciones (lista parcial). Los textos de indic
 | 76109 | Capecitabina Kern Pharma 500 mg | Comprimido recubierto con película | Vigente |
 | 80078 | Capecitabina Normon 500 mg | Comprimido recubierto con película | Vigente |
 | 112762020 | Capecitabina Accord 150 mg | Comprimido recubierto con película | Vigente |
-
 
 ## Citotoxicidad
 
@@ -112,6 +111,19 @@ La predicción se basa solo en el modelo, sin estudios que aborden directamente 
 - Datos del mecanismo de acción completos
 - Búsqueda de estudios o series de casos de fluoropirimidinas en GAPPS o adenocarcinoma gástrico hereditario
 - Definir si la indicación de interés es el adenocarcinoma (ya cubierto por el cáncer gástrico) o la poliposis, para la cual no hay sustento mecanístico
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, p
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este fármaco. Según la información conocida, capmatinib es un inhibidor selectivo de la tirosina quinasa del receptor MET, una clase de fármacos dirigidos usada en oncología.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Capmatinib (traducción no oficial): «El capmatinib es un inhibidor de cinasas que actúa sobre MET, incluida la variante mutante producida por la omisión del exón 14. La omisión del exón 14 de MET da lugar a una proteína que carece de un dominio regulador, lo que reduce su regulación negativa y conduce a un aumento de la señalización descendente de MET.» Texto original en inglés: "Capmatinib is a kinase inhibitor that targets MET, including the mutant variant produced by exon 14 skipping. MET exon 14 skipping results in a protein with a missing regulatory domain that reduces its negative regulation leading to increased downstream MET signaling." ([DailyMed: Tabrecta (capmatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=455892c3-d144-4ba8-9ab4-79cabff9876d), versión del 2026-10-26; consultado el 2026-11-19). Según la información conocida, capmatinib es un inhibidor selectivo de la tirosina quinasa del receptor MET, una clase de fármacos dirigidos usada en oncología.
 
 La vía de MET se ha relacionado con la inflamación sinovial, la angiogénesis y la capacidad invasiva de los sinoviocitos tipo fibroblasto en la artritis reumatoide. Por ello existe un vínculo biológicamente plausible, aunque inferido del conocimiento general de la clase y no de datos propios del fármaco.
 
@@ -125,6 +125,19 @@ La predicción se basa únicamente en el modelo computacional (nivel L5), sin en
 - Completar los datos del mecanismo de acción desde DrugBank
 - Estudios preclínicos de inhibición de MET en modelos de artritis reumatoide (sinoviocitos, modelos animales)
 - Evaluar la relación beneficio-riesgo de un inhibidor oncológico en una enfermedad inflamatoria crónica, incluyendo las interacciones relevantes (p. ej., corticoides como la dexametasona)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tabrecta (capmatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=455892c3-d144-4ba8-9ab4-79cabff9876d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

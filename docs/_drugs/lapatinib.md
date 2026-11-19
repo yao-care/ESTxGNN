@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, lapatinib es un inhibidor dual de la tirosina quinasa de EGFR y HER2, y su eficacia en el carcinoma de mama HER2 positivo está establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lapatinib (traducción no oficial): «Lapatinib es un inhibidor de cinasas de tipo 4-anilinoquinazolina que actúa sobre los dominios intracelulares de tirosina cinasa tanto del receptor del factor de crecimiento epidérmico (EGFR [ErbB1]) como del receptor epidérmico humano de tipo 2 (HER2 [ErbB2]) (valores estimados de K i app de 3nM y 13nM, respectivamente), con una semivida de disociación mayor o igual a 300 minutos. Lapatinib inhibe el crecimiento de células tumorales impulsado por ErbB in vitro y en diversos modelos animales.» Texto original en inglés: "Lapatinib is a 4-anilinoquinazoline kinase inhibitor of the intracellular tyrosine kinase domains of both Epidermal Growth Factor Receptor (EGFR [ErbB1]) and of Human Epidermal Receptor Type 2 (HER2 [ErbB2]) receptors (estimated K i app values of 3nM and 13nM, respectively) with a dissociation half-life of greater than or equal to 300 minutes. Lapatinib inhibits ErbB-driven tumor cell growth in vitro and in various animal models." ([DailyMed: Tykerb (lapatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee37f88-ec6a-4c30-b8aa-e2c71f93088c), versión del 2026-01-27; consultado el 2026-11-19). Según la información conocida, lapatinib es un inhibidor dual de la tirosina quinasa de EGFR y HER2, y su eficacia en el carcinoma de mama HER2 positivo está establecida.
 
 El dermatofibrosarcoma protuberans (DFSP) está impulsado principalmente por la fusión génica COL1A1-PDGFB, que activa la señalización de PDGFRB. El tratamiento dirigido establecido es imatinib, un inhibidor de PDGFR. Por ello, el vínculo mecanístico entre lapatinib y el DFSP no es evidente: la inhibición de EGFR/HER2 no actúa directamente sobre el eje PDGFB-PDGFRB.
 
@@ -117,6 +117,19 @@ La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos cl
 - Advertencias y contraindicaciones del prospecto de la AEMPS para completar la evaluación de seguridad (hoy es un vacío bloqueante)
 - Revisión sistemática de literatura y ensayos que no se hayan capturado en los datos compilados
 - Evaluación de la compatibilidad de la vía de administración y de la similitud con la indicación original
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tykerb (lapatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee37f88-ec6a-4c30-b8aa-e2c71f93088c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

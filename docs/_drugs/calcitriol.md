@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 
 ## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, calcitriol es el metabolito activo de la vitamina D (1,25-dihidroxivitamina D3), por lo que existe un vínculo biológico plausible con los estados de deficiencia de esta vitamina.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Calcitriol (traducción no oficial): «La síntesis endógena y el catabolismo del calcitriol, así como los mecanismos de control fisiológico que afectan a estos procesos, desempeñan un papel fundamental en la regulación de la concentración sérica de calcitriol. La producción diaria fisiológica es normalmente de 0.5 a 1.0 mcg y es algo mayor durante los períodos de aumento de la síntesis ósea (p. ej., crecimiento o embarazo).» Texto original en inglés: "Endogenous synthesis and catabolism of calcitriol, as well as physiological control mechanisms affecting these processes, play a critical role regulating the serum level of calcitriol. Physiological daily production is normally 0.5 to 1.0 mcg and is somewhat higher during periods of increased bone synthesis (eg, growth or pregnancy)." ([DailyMed: calcitriol prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45f78bbe-4bbc-404d-a061-ead3db50908e), versión del 2026-10-15; consultado el 2026-11-19). Según la información conocida, calcitriol es el metabolito activo de la vitamina D (1,25-dihidroxivitamina D3), por lo que existe un vínculo biológico plausible con los estados de deficiencia de esta vitamina.
 
 Sin embargo, la entrada de la enfermedad está marcada como obsoleta en la ontología, y no se recuperó ningún ensayo ni publicación. El puntaje elevado es solo una predicción del modelo y probablemente refleja cercanía entre términos, no evidencia clínica nueva. Además, en la deficiencia nutricional se usa habitualmente la vitamina D nativa (colecalciferol o ergocalciferol) y no el metabolito activo.
 
@@ -95,6 +95,19 @@ La predicción carece de ensayos clínicos y literatura, la enfermedad está mar
 - Revisión de la literatura sobre calcitriol frente a vitamina D nativa en déficit de vitamina D
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones)
 - Plan de monitorización de calcio y fósforo y de las interacciones farmacológicas de mayor gravedad
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: calcitriol prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45f78bbe-4bbc-404d-a061-ead3db50908e) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

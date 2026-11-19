@@ -56,7 +56,7 @@ con **4 ensayos clínicos** (de los cuales ninguno evalúa citalopram de forma e
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, citalopram es un ISRS: bloquea la recaptación de serotonina y aumenta su disponibilidad en la sinapsis. Su eficacia en trastornos depresivos y de ansiedad está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Citalopram (traducción no oficial): «El mecanismo de acción del citalopram no está claro, pero se presume que está relacionado con la potenciación de la actividad serotoninérgica en el sistema nervioso central (SNC) derivada de su inhibición de la recaptación neuronal de serotonina (5-HT) en el SNC.» Texto original en inglés: "The mechanism of action of citalopram is unclear, but is presumed to be related to potentiation of serotonergic activity in the central nervous system (CNS) resulting from its inhibition of CNS neuronal reuptake of serotonin (5-HT)." ([DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177), versión del 2023-10-09; consultado el 2026-11-19). Según la información conocida, citalopram es un ISRS: bloquea la recaptación de serotonina y aumenta su disponibilidad en la sinapsis. Su eficacia en trastornos depresivos y de ansiedad está bien establecida.
 
 La disfunción del sistema serotoninérgico es un componente reconocido de la fisiopatología del TOC, y los ISRS son tratamiento farmacológico de primera línea en esta enfermedad. Por ello, mecanísticamente es plausible que citalopram sea aplicable al TOC, y la puntuación alta del modelo es coherente con este mecanismo de clase. Esta inferencia procede de la farmacología conocida de los ISRS y no del registro de datos compilado para este informe.
 
@@ -139,11 +139,12 @@ El TOC cuenta con un mecanismo plausible a nivel de clase (ISRS) y con varios es
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos de un único principio activo)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177) |
 
 <!-- review:end log -->
 

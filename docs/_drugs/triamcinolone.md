@@ -56,7 +56,7 @@ pero actualmente solo hay **2 publicaciones** (ambas reportes de caso, sin ensay
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la triamcinolona es un glucocorticoide con acción antiinflamatoria e inmunosupresora, su eficacia en múltiples enfermedades inflamatorias y autoinmunes está bien establecida, y mecanísticamente podría ser aplicable a la alopecia mucinosa.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Triamcinolone (traducción no oficial): «Los estudios indican que, tras una dosis intramuscular única de 60 mg a 100 mg de acetónido de triamcinolona, la supresión suprarrenal se produce en un plazo de 24 a 48 horas y luego vuelve gradualmente a la normalidad, por lo general en 30 a 40 días. Este hallazgo se correlaciona estrechamente con la duración prolongada de la acción terapéutica que se logra con el fármaco.» Texto original en inglés: "Studies indicate that following a single intramuscular dose of 60 mg to 100 mg of triamcinolone acetonide, adrenal suppression occurs within 24 to 48 hours and then gradually returns to normal, usually in 30 to 40 days. This finding correlates closely with the extended duration of therapeutic action achieved with the drug." ([DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad), versión del 2026-01-05; consultado el 2026-11-19). Según la información conocida, la triamcinolona es un glucocorticoide con acción antiinflamatoria e inmunosupresora, su eficacia en múltiples enfermedades inflamatorias y autoinmunes está bien establecida, y mecanísticamente podría ser aplicable a la alopecia mucinosa.
 
 La alopecia mucinosa (mucinosis folicular) se caracteriza por infiltrado linfocítico perifolicular y depósito de mucina. Un corticosteroide intralesional como la triamcinolona es una opción antiinflamatoria plausible, aunque esto es una inferencia mecanística y no un hallazgo demostrado.
 
@@ -112,11 +112,12 @@ La predicción se apoya únicamente en el modelo y en dos reportes de caso que n
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 12 autorizaciones vigentes (el texto de indicación aprobada no está disponible en los datos compilados)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad) |
 
 <!-- review:end log -->
 

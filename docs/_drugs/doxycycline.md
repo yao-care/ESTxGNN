@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para la **queratoconjuntivitis 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según lo conocido, la doxiciclina es una tetraciclina de amplio espectro con eficacia comprobada en infecciones bacterianas. Es activa frente a *Chlamydia trachomatis*, y mecanísticamente podría ser aplicable a la inflamación de la superficie ocular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Doxycycline (traducción no oficial): «La doxiciclina inhibe la síntesis de proteínas bacterianas al unirse a la subunidad ribosómica 30S. La doxiciclina tiene actividad bacteriostática contra una amplia variedad de bacterias grampositivas y gramnegativas.» Texto original en inglés: "Doxycycline inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit. Doxycycline has bacteriostatic activity against a broad range of Gram-positive and Gram-negative bacteria." ([DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8), versión del 2026-07-09; consultado el 2026-11-19). Según lo conocido, la doxiciclina es una tetraciclina de amplio espectro con eficacia comprobada en infecciones bacterianas. Es activa frente a *Chlamydia trachomatis*, y mecanísticamente podría ser aplicable a la inflamación de la superficie ocular.
 
 La relación con la indicación original es indirecta. La queratoconjuntivitis epitelial punctata suele asociarse a infecciones oculares, entre ellas las causadas por clamidia, un patógeno que la doxiciclina trata. Además, la doxiciclina tiene propiedades antiinflamatorias y de inhibición de metaloproteinasas de matriz (MMP), que podrían ayudar a controlar la inflamación corneal.
 
@@ -118,11 +118,12 @@ No hay ensayos clínicos y la única publicación es un reporte de dos casos de 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "El estado de mercado es "Comercializado", con 14 autorizaciones vigentes (14 de producto único, 0 combinaciones, 0 canceladas)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8) |
 
 <!-- review:end log -->
 

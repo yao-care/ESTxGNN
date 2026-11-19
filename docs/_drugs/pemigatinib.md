@@ -60,7 +60,7 @@ Sin embargo, actualmente hay **0 ensayos clínicos** y **0 publicaciones** que r
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Pemigatinib es un inhibidor selectivo de la tirosina quinasa de FGFR1, FGFR2 y FGFR3. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados; la descripción anterior procede del conocimiento general sobre el fármaco y de la valoración mecanística asociada a la predicción.
+Pemigatinib es un inhibidor selectivo de la tirosina quinasa de FGFR1, FGFR2 y FGFR3. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pemigatinib (traducción no oficial): «El pemigatinib es un inhibidor de cinasas de molécula pequeña que actúa sobre FGFR1, 2 y 3 con valores de IC 50 inferiores a 2 nM. El pemigatinib también inhibió FGFR4 in vitro a una concentración aproximadamente 100 veces superior a las que inhiben FGFR1, 2 y 3.» Texto original en inglés: "Pemigatinib is a small molecule kinase inhibitor that targets FGFR1, 2 and 3 with IC 50 values of less than 2 nM. Pemigatinib also inhibited FGFR4 in vitro at a concentration approximately 100 times higher than those that inhibit FGFR1, 2, and 3." ([DailyMed: Pemazyre (pemigatinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e1f2222-1d89-4e63-989c-ccebe2ab1eb4), versión del 2026-06-09; consultado el 2026-11-19).
 
 Algunos tumores endocrinos presentan implicación de la vía FGFR, lo que ofrece una plausibilidad biológica muy general. No obstante, los síndromes de neoplasia endocrina múltiple suelen estar impulsados por alteraciones en genes como MEN1 o RET, y los datos disponibles no respaldan un vínculo directo entre la inhibición de FGFR y estas enfermedades.
 
@@ -135,6 +135,19 @@ La predicción tiene un puntaje alto, pero carece de ensayos clínicos y literat
 - Completar los datos del mecanismo de acción desde DrugBank
 - Revisar literatura preclínica sobre FGFR en tumores endocrinos y síndromes MEN
 - Valorar si existen candidatas con mayor respaldo entre las otras predicciones; por ejemplo, el carcinoma de mama HER2 positivo cuenta con plausibilidad indirecta (FGFR1 y resistencia terapéutica), aunque solo con una revisión general (nivel L4)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Pemazyre (pemigatinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e1f2222-1d89-4e63-989c-ccebe2ab1eb4) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

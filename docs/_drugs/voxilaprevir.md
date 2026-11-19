@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **infección por virus de 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, voxilaprevir es un inhibidor de la proteasa NS3/4A del VHC que se administra en combinación con sofosbuvir y velpatasvir, y su eficacia en la hepatitis C está bien establecida.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Voxilaprevir es (traducción no oficial): «Inhibidor de la serina proteasa NS3/NS4A del virus de la hepatitis C» Texto original en inglés: "Hepatitis C virus serine protease, NS3/NS4A inhibitor" ([ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, voxilaprevir es un inhibidor de la proteasa NS3/4A del VHC que se administra en combinación con sofosbuvir y velpatasvir, y su eficacia en la hepatitis C está bien establecida.
 
 La relación mecanística con la hepatitis B es débil. El VHB no codifica una proteasa de tipo NS3/4A; sus dianas clave son la polimerasa y la cápside/core. El puntaje elevado proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas dentro de la categoría "hepatitis viral", no evidencia biológica ni una base farmacológica concreta.
 
@@ -118,6 +118,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos ni liter
 - Revisión de advertencias y contraindicaciones del prospecto de la AEMPS
 - Análisis de la relación de similitud con la indicación original y de la compatibilidad de vías de administración
 - Evaluación del riesgo de interacciones mayores (rosuvastatina, edoxabán, ciclosporina) si se planteara un estudio
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

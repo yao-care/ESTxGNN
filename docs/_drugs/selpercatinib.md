@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, selpercatinib es un inhibidor selectivo de la quinasa RET, y las publicaciones recuperadas lo sitúan en el tratamiento de cánceres con alteraciones de RET (cáncer de pulmón no microcítico con fusión de RET y carcinoma medular de tiroides).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Selpercatinib (traducción no oficial): «El selpercatinib es un inhibidor de cinasas. El selpercatinib inhibió el RET de tipo silvestre y múltiples isoformas mutadas de RET, así como VEGFR1 y VEGFR3, con valores de CI 50 que oscilaron entre 0,92 nM y 67,8 nM. En otros ensayos enzimáticos, el selpercatinib también inhibió FGFR 1, 2 y 3 a concentraciones más altas que aún eran alcanzables clínicamente.» Texto original en inglés: "Selpercatinib is a kinase inhibitor. Selpercatinib inhibited wild-type RET and multiple mutated RET isoforms as well as VEGFR1 and VEGFR3 with IC 50 values ranging from 0.92 nM to 67.8 nM. In other enzyme assays, selpercatinib also inhibited FGFR 1, 2, and 3 at higher concentrations that were still clinically achievable." ([DailyMed: Retevmo (selpercatinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7fa848ba-a59c-4144-9f52-64d090f4d828), versión del 2026-09-11; consultado el 2026-11-19). Según la información conocida, selpercatinib es un inhibidor selectivo de la quinasa RET, y las publicaciones recuperadas lo sitúan en el tratamiento de cánceres con alteraciones de RET (cáncer de pulmón no microcítico con fusión de RET y carcinoma medular de tiroides).
 
 El puntaje de TxGNN es muy alto (0.9918), proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Un posible vínculo hipotético sería la modulación de la señalización de receptores tirosina quinasa implicada en la remodelación vascular pulmonar, pero ningún dato respalda directamente esta idea.
 
@@ -115,6 +115,19 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Estudios preclínicos que evalúen la inhibición de RET en modelos de hipertensión pulmonar
 - Revisar si la señal de hipertensión pulmonar en los datos de farmacovigilancia corresponde a un riesgo de seguridad
 - Evaluar el riesgo de las interacciones de gravedad mayor, especialmente con fármacos que reducen la acidez gástrica
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Retevmo (selpercatinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7fa848ba-a59c-4144-9f52-64d090f4d828) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

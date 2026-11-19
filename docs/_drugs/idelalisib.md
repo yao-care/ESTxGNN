@@ -60,7 +60,7 @@ con **5 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, idelalisib es un inhibidor selectivo de la isoforma delta de la fosfatidilinositol 3-quinasa (PI3Kδ), una pieza central de la señalización del receptor de células B. Su eficacia en LLC y linfoma folicular ha sido comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Idelalisib (traducción no oficial): «El idelalisib es un inhibidor de la fosfatidilinositol 3-cinasa, PI3Kδ, que se expresa en las células B normales y malignas. El idelalisib indujo apoptosis e inhibió la proliferación en líneas celulares derivadas de células B malignas y en células tumorales primarias.» Texto original en inglés: "Idelalisib is an inhibitor of phosphatidylinositol 3-kinase, PI3Kδ, which is expressed in normal and malignant B-cells. Idelalisib induced apoptosis and inhibited proliferation in cell lines derived from malignant B-cells and in primary tumor cells." ([DailyMed: Zydelig (idelalisib) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efbdafa9-d18c-4e85-b4a2-1e620fc74e50), versión del 2026-09-10; consultado el 2026-11-19). Según la información conocida, idelalisib es un inhibidor selectivo de la isoforma delta de la fosfatidilinositol 3-quinasa (PI3Kδ), una pieza central de la señalización del receptor de células B. Su eficacia en LLC y linfoma folicular ha sido comprobada.
 
 El linfoma de células del manto depende de la señalización del receptor de células B y de PI3K delta para su supervivencia. Los estudios preclínicos indican que idelalisib reduce los mecanismos de regulación de la traducción y el crecimiento de las células de este linfoma. Se exploran combinaciones (inhibición de P300/CBP, inhibidores de CDK4/6) y se ha vinculado la pérdida de CBX5 con la resistencia.
 
@@ -144,6 +144,19 @@ Aunque el puntaje del modelo es alto y existe un racional mecanístico plausible
 - Completar los datos del mecanismo de acción (MOA)
 - Comparar con alternativas ya aprobadas para LCM (por ejemplo, inhibidores de BTK)
 - Definir un plan de monitoreo de seguridad (hepático, gastrointestinal, pulmonar e infeccioso)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zydelig (idelalisib) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efbdafa9-d18c-4e85-b4a2-1e620fc74e50) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

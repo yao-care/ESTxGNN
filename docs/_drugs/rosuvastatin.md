@@ -56,7 +56,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, rosuvastatina es una estatina cuya diana farmacológica registrada es la HMG-CoA reductasa (gen *HMGCR*). Su eficacia en dislipidemias ha sido comprobada, y la predicción se apoya en la proximidad entre ambas enfermedades dentro del metabolismo lipídico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rosuvastatin (traducción no oficial): «CRESTOR es un inhibidor de la HMG‑CoA reductasa, la enzima limitante de la velocidad que convierte la 3‑hidroxi‑3‑metilglutaril coenzima A en mevalonato, un precursor del colesterol.» Texto original en inglés: "CRESTOR is an inhibitor of HMG‑CoA reductase, the rate-limiting enzyme that converts 3‑hydroxy‑3‑methylglutaryl coenzyme A to mevalonate, a precursor of cholesterol." ([DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee), versión del 2026-09-23; consultado el 2026-11-19). Según la información conocida, rosuvastatina es una estatina cuya diana farmacológica registrada es la HMG-CoA reductasa (gen *HMGCR*). Su eficacia en dislipidemias ha sido comprobada, y la predicción se apoya en la proximidad entre ambas enfermedades dentro del metabolismo lipídico.
 
 La relación con la indicación original es débil. La deficiencia de CETP **eleva el colesterol HDL y reduce el LDL**. Por eso, reducir el colesterol LDL con una estatina no encaja de forma evidente como tratamiento. No se identificaron ensayos clínicos ni literatura que respalden la hipótesis.
 
@@ -113,11 +113,12 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos ni publi
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes, todas de medicamentos con un único principio activo y en forma de comprimido recubierto con película" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee) |
 
 <!-- review:end log -->
 

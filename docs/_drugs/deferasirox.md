@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pe
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Deferasirox es un quelante de hierro. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, su función como quelante de hierro ha sido comprobada en la sobrecarga de hierro asociada a la betatalasemia, y mecanísticamente podría ser aplicable a procesos en los que la homeostasis del hierro influya en la biología de una infección.
+Deferasirox es un quelante de hierro. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Deferasirox (traducción no oficial): «Exjade (deferasirox) es un quelante activo por vía oral que es selectivo para el hierro (como Fe 3+ ). Es un ligando tridentado que se une al hierro con alta afinidad en una proporción 2:1. Aunque el deferasirox tiene una afinidad muy baja por el zinc y el cobre, se producen disminuciones variables en la concentración sérica de estos oligoelementos tras la administración de deferasirox.» Texto original en inglés: "Exjade (deferasirox) is an orally active chelator that is selective for iron (as Fe 3+ ). It is a tridentate ligand that binds iron with high affinity in a 2:1 ratio. Although deferasirox has very low affinity for zinc and copper there are variable decreases in the serum concentration of these trace metals after the administration of deferasirox." ([DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85), versión del 2026-01-28; consultado el 2026-11-19). Según la información conocida, su función como quelante de hierro ha sido comprobada en la sobrecarga de hierro asociada a la betatalasemia, y mecanísticamente podría ser aplicable a procesos en los que la homeostasis del hierro influya en la biología de una infección.
 
 La única pista mecanística proviene de un estudio preclínico (PMID 34550543, 2021). Este describe que el hierro endolisosomal restringe la transactivación del LTR del VIH-1 mediada por Tat, al aumentar la oligomerización de Tat y la expresión de β-catenina. Esto sugiere que el hierro puede modular la transcripción del VIH-1.
 
@@ -129,11 +129,12 @@ La predicción se apoya solo en el modelo TxGNN y en un estudio preclínico indi
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de fármaco único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Se trata de una predicción puramente computacional (nivel de evidencia L5).
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados en los datos compilados. Según la información conocida, sacituzumab govitecan es un conjugado anticuerpo-fármaco dirigido a Trop-2 que libera SN-38, un inhibidor de la topoisomerasa I con acción citotóxica, y se emplea en oncología.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Sacituzumab Govitecan (traducción no oficial): «El sacituzumab govitecán-hziy es un conjugado anticuerpo-fármaco dirigido contra Trop-2. El sacituzumab es un anticuerpo humanizado que reconoce Trop-2. La molécula pequeña, SN-38, es un inhibidor de la topoisomerasa I, que está unida covalentemente al anticuerpo mediante un enlazador.» Texto original en inglés: "Sacituzumab govitecan-hziy is a Trop-2-directed antibody-drug conjugate. Sacituzumab is a humanized antibody that recognizes Trop-2. The small molecule, SN-38, is a topoisomerase I inhibitor, which is covalently attached to the antibody by a linker." ([DailyMed: Trodelvy (sacituzumab govitecan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d), versión del 2026-06-24; consultado el 2026-11-19). Según la información conocida, sacituzumab govitecan es un conjugado anticuerpo-fármaco dirigido a Trop-2 que libera SN-38, un inhibidor de la topoisomerasa I con acción citotóxica, y se emplea en oncología.
 
 **No se ha establecido un vínculo mecanístico** con la osteoporosis inducida por fármacos. El puntaje de 0,9978 proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, y no está respaldado por evidencia clínica ni bibliográfica. No existe una vía del metabolismo óseo que conecte este fármaco con la osteoporosis, y la quimioterapia citotóxica se asocia en general con pérdida ósea, no con protección.
 
@@ -137,6 +137,19 @@ La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos, lit
 - Disponer de evidencia preclínica que respalde un vínculo biológico con la osteoporosis inducida por fármacos.
 - Evaluar la compatibilidad de la vía de administración y la relación con la indicación original, hoy pendientes.
 - Valorar si alguna de las otras predicciones tiene más plausibilidad; con los datos actuales ninguna la muestra.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Trodelvy (sacituzumab govitecan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

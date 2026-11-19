@@ -56,7 +56,7 @@ pero actualmente hay **0 ensayos clínicos** y solo **1 estudio preclínico de f
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este fármaco. Según la información farmacológica compilada, budesonida actúa sobre el receptor de glucocorticoides (NR3C2 y NR3C1 incluidos entre sus dianas, junto con el receptor de mineralocorticoides y el de progesterona), lo que explica su efecto antiinflamatorio e inmunosupresor.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Budesonide (traducción no oficial): «La budesonida es un corticosteroide antiinflamatorio que presenta una potente actividad glucocorticoide y una débil actividad mineralocorticoide. En modelos estándar in vitro y en animales, la budesonida tiene una afinidad por el receptor de glucocorticoides aproximadamente 200 veces mayor y una potencia antiinflamatoria tópica 1000 veces mayor que el cortisol (ensayo de edema auricular inducido por aceite de crotón en ratas).» Texto original en inglés: "Budesonide is an anti-inflammatory corticosteroid that exhibits potent glucocorticoid activity and weak mineralocorticoid activity. In standard in vitro and animal models, budesonide has approximately a 200-fold higher affinity for the glucocorticoid receptor and a 1000-fold higher topical anti-inflammatory potency than cortisol (rat croton oil ear edema assay)." ([DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da), versión del 2026-06-10; consultado el 2026-11-19). Según la información farmacológica compilada, budesonida actúa sobre el receptor de glucocorticoides (NR3C2 y NR3C1 incluidos entre sus dianas, junto con el receptor de mineralocorticoides y el de progesterona), lo que explica su efecto antiinflamatorio e inmunosupresor.
 
 La inflamación de la piel en el eccema atópico está impulsada en gran medida por una respuesta inmunitaria de tipo Th2. Un glucocorticoide potente podría, en teoría, reducir esa inflamación. Además, los corticosteroides tópicos ya son un tratamiento establecido para el eccema, por lo que el puntaje elevado refleja sobre todo un efecto de clase y no evidencia específica de budesonida.
 
@@ -110,6 +110,19 @@ No existen ensayos clínicos de budesonida en eccema atópico, y la única publi
 - Fusionar las entradas duplicadas "atopic eczema" y "dermatitis, atopic" y definir claramente la indicación
 - Estudios clínicos controlados de budesonida tópica frente a corticosteroides tópicos estándar
 - Evaluación de compatibilidad de vía de administración (las formas comercializadas en España no incluyen una formulación dérmica) y de riesgos de sensibilización de contacto y absorción sistémica
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

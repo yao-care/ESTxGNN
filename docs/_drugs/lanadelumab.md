@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **Deficiencia de C1 inhibi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, lanadelumab es un anticuerpo monoclonal humano que inhibe la calicreína plasmática (diana: KLKB1), y su eficacia en la prevención de crisis de angioedema hereditario está comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lanadelumab (traducción no oficial): «Lanadelumab-flyo es un anticuerpo monoclonal totalmente humano (IgG1/cadena ligera κ) que se une a la calicreína plasmática e inhibe su actividad proteolítica. La calicreína plasmática es una proteasa que escinde el cininógeno de alto peso molecular (HMWK) para generar HMWK escindido (cHMWK) y bradicinina, un potente vasodilatador que aumenta la permeabilidad vascular, lo que provoca la hinchazón y el dolor asociados al AEH.» Texto original en inglés: "Lanadelumab-flyo is a fully human monoclonal antibody (IgG1/κ-light chain) that binds plasma kallikrein and inhibits its proteolytic activity. Plasma kallikrein is a protease that cleaves high-molecular-weight-kininogen (HMWK) to generate cleaved HMWK (cHMWK) and bradykinin, a potent vasodilator that increases vascular permeability resulting in swelling and pain associated with HAE." ([DailyMed: Takhzyro (lanadelumab-flyo) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=15f99d8c-efe7-4f7d-aa20-0d0f1e30c6e8), versión del 2026-09-18; consultado el 2026-11-19). Según la información conocida, lanadelumab es un anticuerpo monoclonal humano que inhibe la calicreína plasmática (diana: KLKB1), y su eficacia en la prevención de crisis de angioedema hereditario está comprobada.
 
 En la deficiencia de C1 inhibidor, la pérdida del control sobre la calicreína plasmática genera un exceso de bradicinina, un vasodilatador responsable de los episodios de edema. Inhibir directamente la calicreína actúa sobre esta vía patológica.
 
@@ -126,6 +126,19 @@ Existe evidencia sólida (ECA pivotal, ensayos de fase 3 completados, extensión
 - Confirmar los datos del mecanismo de acción desde fuentes primarias
 - Decidir si el interés está en la indicación ya autorizada o en buscar candidatos de reposicionamiento reales entre las predicciones de menor rango
 - Plan de monitoreo de seguridad en poblaciones específicas (p. ej., pediátrica)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Takhzyro (lanadelumab-flyo) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=15f99d8c-efe7-4f7d-aa20-0d0f1e30c6e8) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

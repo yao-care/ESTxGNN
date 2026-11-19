@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, treosulfán es un profármaco alquilante bifuncional que se convierte en especies epóxido que entrecruzan el ADN. Este efecto citotóxico es la base de su uso en acondicionamiento previo al trasplante hematopoyético y en cáncer de ovario.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Treosulfan (traducción no oficial): «El treosulfán es un agente alquilante. Se cree que la alquilación del ADN es responsable de las actividades citotóxicas del treosulfán. El treosulfán mostró actividad de depleción de células madre hematopoyéticas, así como actividad inmunosupresora y antitumoral, en modelos murinos de leucemia.» Texto original en inglés: "Treosulfan is an alkylating agent. DNA alkylation is thought to be responsible for the cytotoxic activities of treosulfan. Treosulfan showed hematopoietic stem cell depleting activity as well as immunosuppressive and antitumor activity in mouse models of leukemia." ([DailyMed: Grafapex (treosulfan) prescribing information, Medexus Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d06b03c-17aa-0492-e063-6294a90abd8f), versión del 2025-01-31; consultado el 2026-11-19). Según la información conocida, treosulfán es un profármaco alquilante bifuncional que se convierte en especies epóxido que entrecruzan el ADN. Este efecto citotóxico es la base de su uso en acondicionamiento previo al trasplante hematopoyético y en cáncer de ovario.
 
 La relación con la nueva indicación es muy débil. La catarata diabética se asocia con la activación de la vía de los polioles (aldosa reductasa), el estrés oxidativo y la opacificación del cristalino mediada por productos de glicación avanzada (AGE) y osteopontina. Ninguno de estos procesos tiene un vínculo mecanístico establecido con el entrecruzamiento del ADN.
 
@@ -104,6 +104,19 @@ La única base es un puntaje alto del modelo TxGNN, sin ensayos clínicos ni lit
 - Evidencia preclínica que respalde un vínculo biológico con la vía de los polioles o el estrés oxidativo del cristalino
 - Evaluación de compatibilidad de vía de administración (ocular frente a perfusión intravenosa)
 - Confirmar las indicaciones aprobadas en las autorizaciones españolas
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Grafapex (treosulfan) prescribing information, Medexus Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d06b03c-17aa-0492-e063-6294a90abd8f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

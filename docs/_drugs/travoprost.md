@@ -58,7 +58,7 @@ La evidencia que respalda esta nueva indicación es, por tanto, únicamente la p
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, travoprost es un análogo de la prostaglandina F2-alfa que actúa sobre los receptores FP y reduce la presión intraocular al aumentar el drenaje uveoescleral. Su eficacia en glaucoma e hipertensión ocular está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Travoprost (traducción no oficial): «El ácido libre de travoprost, un análogo de prostaglandina, es un agonista selectivo del receptor prostanoide FP que, según se cree, reduce la PIO al aumentar el flujo de salida uveoescleral. En este momento se desconoce el mecanismo de acción exacto.» Texto original en inglés: "Travoprost free acid, a prostaglandin analog is a selective FP prostanoid receptor agonist, which is believed to reduce IOP by increasing uveoscleral outflow. The exact mechanism of action is unknown at this time." ([DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5), versión del 2026-09-28; consultado el 2026-11-19). Según la información conocida, travoprost es un análogo de la prostaglandina F2-alfa que actúa sobre los receptores FP y reduce la presión intraocular al aumentar el drenaje uveoescleral. Su eficacia en glaucoma e hipertensión ocular está bien establecida.
 
 La relación con la enfermedad vascular es débil. La coincidencia parece deberse a términos vasculares presentes en los estudios (hiperemia conjuntival, diámetro vascular retiniano, flujo sanguíneo coroideo), no a un uso terapéutico en enfermedad vascular. El único estudio relacionado farmacodinámicamente es NCT00308945, una medición fisiológica en 20 pacientes con glaucoma que no demuestra beneficio terapéutico.
 
@@ -160,11 +160,12 @@ La predicción de enfermedad vascular se basa únicamente en el modelo (L5): nin
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 18 autorizaciones vigentes, todas de monofármaco y en forma de colirio" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5) |
 
 <!-- review:end log -->
 

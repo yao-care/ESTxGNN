@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para **hipodisplasia/aplasia re
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la liotironina es la forma activa de la hormona tiroidea (T3): su eficacia en el hipotiroidismo y en enfermedades tiroideas está bien establecida, y actúa sustituyendo la hormona deficiente y suprimiendo la TSH.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Liothyronine (traducción no oficial): «Las hormonas tiroideas ejercen sus acciones fisiológicas mediante el control de la transcripción del DNA y de la síntesis de proteínas. La triyodotironina (T3) y la L-tiroxina (T4) difunden al núcleo celular y se unen a proteínas receptoras tiroideas unidas al DNA.» Texto original en inglés: "Thyroid hormones exert their physiologic actions through control of DNA transcription and protein synthesis. Triiodothyronine (T3) and L-thyroxine (T4) diffuse into the cell nucleus and bind to thyroid receptor proteins attached to DNA." ([DailyMed: Cytomel (liothyronine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51452b31-ff68-4e0c-b982-c15502ebf1d3), versión del 2026-05-18; consultado el 2026-11-19). Según la información conocida, la liotironina es la forma activa de la hormona tiroidea (T3): su eficacia en el hipotiroidismo y en enfermedades tiroideas está bien establecida, y actúa sustituyendo la hormona deficiente y suprimiendo la TSH.
 
 Sin embargo, **no se identifica un vínculo mecanístico plausible** con la nueva indicación. La hipodisplasia o aplasia renal es una malformación congénita del desarrollo, de carácter estructural, y es improbable que una hormona administrada después del nacimiento pueda revertirla. El puntaje elevado proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas (fenotipos de anomalías congénitas compartidos), no evidencia biológica ni una justificación terapéutica.
 
@@ -98,6 +98,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos ni liter
 - Texto de indicaciones, advertencias y contraindicaciones del prospecto de AEMPS
 - Estudios preclínicos o de mecanismo que justifiquen un efecto sobre el desarrollo renal
 - Reevaluar candidatos con mayor sustento biológico antes de invertir más recursos en esta predicción
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cytomel (liothyronine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51452b31-ff68-4e0c-b982-c15502ebf1d3) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

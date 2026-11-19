@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pe
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, toremifeno es un antagonista/modulador de receptores de estrógenos de la misma familia que el tamoxifeno, y su eficacia en cáncer de mama hormonodependiente está establecida. Mecanísticamente, su aplicabilidad a VIH no está demostrada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Toremifene (traducción no oficial): «Toremifeno es un derivado no esteroideo del trifeniletileno. Toremifeno se une a los receptores de estrógenos y puede ejercer actividad estrogénica, antiestrogénica o ambas, según la duración del tratamiento, la especie animal, el sexo, el órgano diana o el criterio de valoración seleccionado.» Texto original en inglés: "Toremifene is a nonsteroidal triphenylethylene derivative. Toremifene binds to estrogen receptors and may exert estrogenic, antiestrogenic, or both activities, depending upon the duration of treatment, animal species, gender, target organ, or endpoint selected." ([DailyMed: Fareston (toremifene citrate) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2cab8dd1-3a10-48e6-86ce-0e5275ed49e5), versión del 2024-11-13; consultado el 2026-11-19). Según la información conocida, toremifeno es un antagonista/modulador de receptores de estrógenos de la misma familia que el tamoxifeno, y su eficacia en cáncer de mama hormonodependiente está establecida. Mecanísticamente, su aplicabilidad a VIH no está demostrada.
 
 La única publicación disponible (PMID 24520056, 2014) describe que los antagonistas de receptores de estrógenos, incluidos tamoxifeno y toremifeno, son fungicidas frente a *Cryptococcus*, se unen a proteínas con dominio EF-hand (como la calmodulina) y presentan sinergia con fluconazol y anfotericina B in vitro. La criptococosis es una infección oportunista importante en personas con VIH avanzado, por lo que el vínculo con VIH es **indirecto**: apuntaría, en todo caso, a un posible adyuvante frente a una infección oportunista asociada, no a una actividad antiviral contra el VIH.
 
@@ -119,11 +119,12 @@ La predicción se apoya únicamente en el modelo (L5) y en un estudio preclínic
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "comercializado en España como FARESTON 60 mg comprimidos" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Fareston (toremifene citrate) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2cab8dd1-3a10-48e6-86ce-0e5275ed49e5) |
 
 <!-- review:end log -->
 

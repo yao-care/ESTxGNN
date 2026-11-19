@@ -60,7 +60,7 @@ La predicción carece de plausibilidad mecanística y debe considerarse un artef
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, tamsulosina es un antagonista alfa-1A/1D adrenérgico que relaja el músculo liso de la próstata y del cuello vesical, lo que mejora los síntomas urinarios de la hiperplasia prostática benigna.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tamsulosin (traducción no oficial): «Los síntomas asociados a la hiperplasia prostática benigna (HPB) están relacionados con la obstrucción del tracto de salida vesical, que consta de dos componentes subyacentes: estático y dinámico. El componente estático está relacionado con un aumento del tamaño de la próstata causado, en parte, por una proliferación de células de músculo liso en el estroma prostático. […] La tamsulosina, un agente bloqueante de los adrenorreceptores alfa 1, presenta selectividad por los receptores alfa 1 de la próstata humana.» Texto original en inglés: "The symptoms associated with benign prostatic hyperplasia (BPH) are related to bladder outlet obstruction, which is comprised of two underlying components: static and dynamic. The static component is related to an increase in prostate size caused, in part, by a proliferation of smooth muscle cells in the prostatic stroma. […] Tamsulosin, an alpha 1 adrenoceptor blocking agent, exhibits selectivity for alpha 1 receptors in the human prostate." ([DailyMed: tamsulosin hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6b6aeab-bedd-4254-8811-4f65cf8a351f), versión del 2026-11-12; consultado el 2026-11-19). Según la información conocida, tamsulosina es un antagonista alfa-1A/1D adrenérgico que relaja el músculo liso de la próstata y del cuello vesical, lo que mejora los síntomas urinarios de la hiperplasia prostática benigna.
 
 **La predicción no parece razonable desde el punto de vista farmacológico.** El síndrome de Ambras es un trastorno genético raro, vinculado a reordenamientos cromosómicos que afectan la regulación de TRPS1. No hay evidencia de que el bloqueo alfa-1 adrenérgico influya en el desarrollo del folículo piloso ni en el mecanismo genético subyacente. La relación entre la indicación original (urológica, de aparición en la edad adulta) y la nueva (malformación congénita del pelo) es inexistente.
 
@@ -130,11 +130,12 @@ No existen ensayos clínicos ni literatura que respalden el uso de tamsulosina e
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único; ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: tamsulosin hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6b6aeab-bedd-4254-8811-4f65cf8a351f) |
 
 <!-- review:end log -->
 

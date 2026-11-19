@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para **alopecia areata (alopeci
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados del mecanismo de acción en los datos compilados para este informe. Se sabe que la hidrocortisona es un glucocorticoide con efectos antiinflamatorios e inmunosupresores, que reduce la actividad de las células inmunitarias y la producción de mediadores inflamatorios.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Hydrocortisone (traducción no oficial): «La hidrocortisona es un glucocorticoide. Los glucocorticoides, esteroides corticosuprarrenales, causan efectos metabólicos variados. Además, modifican las respuestas inmunitarias del organismo a diversos estímulos..» Texto original en inglés: "Hydrocortisone is a glucocorticoid. Glucocorticoids, adrenocortical steroids, cause varied metabolic effects. In addition, they modify the body's immune responses to diverse stimuli.." ([DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682), versión del 2026-04-21; consultado el 2026-11-19). Se sabe que la hidrocortisona es un glucocorticoide con efectos antiinflamatorios e inmunosupresores, que reduce la actividad de las células inmunitarias y la producción de mediadores inflamatorios.
 
 La alopecia areata es una enfermedad autoinmune mediada por linfocitos T que atacan los folículos pilosos. Un fármaco que suprime esa respuesta inmunitaria local podría, en teoría, frenar el ataque y permitir el rebrote del cabello. Los corticoides tópicos e intralesionales son una práctica habitual en esta enfermedad.
 
@@ -111,6 +111,18 @@ El único ensayo aleatorizado disponible utilizó la hidrocortisona 1 % como com
 - Datos del mecanismo de acción y de la vía de administración más adecuada (tópica frente a intralesional)
 - Revisión de advertencias y contraindicaciones del prospecto aprobado en España
 - Evaluación del perfil de seguridad en población pediátrica, dado que el ensayo existente se realizó en niños
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **osteoporosis inducida po
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, selinexor es un inhibidor selectivo de la exportación nuclear que actúa sobre XPO1/CRM1 y es un fármaco oncológico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Selinexor (traducción no oficial): «En estudios no clínicos, el selinexor inhibe de forma reversible la exportación nuclear de proteínas supresoras de tumores (TSP), reguladores del crecimiento y ARNm de proteínas oncogénicas mediante el bloqueo de la exportina 1 (XPO1). La inhibición de XPO1 por el selinexor provoca la acumulación de TSP en el núcleo y la reducción de varias oncoproteínas, como c-myc y la ciclina D1, la detención del ciclo celular y la apoptosis de las células cancerosas.» Texto original en inglés: "In nonclinical studies, selinexor reversibly inhibits nuclear export of tumor suppressor proteins (TSPs), growth regulators, and mRNAs of oncogenic proteins by blocking exportin 1 (XPO1). XPO1 inhibition by selinexor leads to accumulation of TSPs in the nucleus and reductions in several oncoproteins, such as c-myc and cyclin D1, cell cycle arrest, and apoptosis of cancer cells." ([DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8), versión del 2026-05-12; consultado el 2026-11-19). Según la información conocida, selinexor es un inhibidor selectivo de la exportación nuclear que actúa sobre XPO1/CRM1 y es un fármaco oncológico.
 
 Una hipótesis plausible, pero no verificada, es que la inhibición de XPO1 modifique vías de señalización relevantes para la remodelación ósea (por ejemplo, NF-κB, Wnt/β-catenina o la regulación de osteoclastos y osteoblastos). Este vínculo es especulativo y no está respaldado por evidencia aportada.
 
@@ -107,6 +107,19 @@ La única base es una puntuación alta del modelo TxGNN (nivel de evidencia L5),
 - Revisión sistemática de literatura sobre selinexor y salud ósea.
 - Evaluación de la relación beneficio-riesgo frente a las alternativas existentes para la osteoporosis inducida por fármacos.
 - Evaluación de compatibilidad de vía de administración y similitud con la indicación original (actualmente pendientes).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

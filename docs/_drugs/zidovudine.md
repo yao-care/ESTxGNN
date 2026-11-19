@@ -60,7 +60,7 @@ La respaldan **0 ensayos clínicos** y **20 publicaciones**, todas ellas estudio
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general, zidovudina es un análogo de la timidina que actúa como profármaco. Se fosforila en los linfocitos y bloquea la transcriptasa inversa del VIH, lo que detiene la replicación viral.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Zidovudine (traducción no oficial): «La zidovudina es un antirretroviral. […] La zidovudina es un análogo de nucleósido sintético. A nivel intracelular, la zidovudina se fosforila a su metabolito activo 5′-trifosfato, el trifosfato de zidovudina (ZDV-TP). El principal modo de acción del ZDV-TP es la inhibición de la transcriptasa inversa (RT) mediante la terminación de la cadena de ADN tras la incorporación del análogo de nucleótido.» Texto original en inglés: "Zidovudine is an antiretroviral agent. […] Zidovudine is a synthetic nucleoside analogue. Intracellularly, zidovudine is phosphorylated to its active 5′-triphosphate metabolite, zidovudine triphosphate (ZDV-TP). The principal mode of action of ZDV-TP is inhibition of reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84), versión del 2024-11-13; consultado el 2026-11-19). Según el conocimiento general, zidovudina es un análogo de la timidina que actúa como profármaco. Se fosforila en los linfocitos y bloquea la transcriptasa inversa del VIH, lo que detiene la replicación viral.
 
 El virus de la inmunodeficiencia felina (FIV) es un lentivirus cuya transcriptasa inversa es muy parecida a la del VIH. Por eso la inhibición de su replicación es mecanísticamente plausible. Es la misma lógica por la que el gato infectado con FIV se usa como modelo animal del VIH humano.
 
@@ -136,6 +136,19 @@ La indicación predicha es veterinaria, y la evidencia es exclusivamente preclí
 - Si se persigue la vía veterinaria, realizar ensayos controlados en gatos con evaluación de seguridad hematológica.
 
 **Nota adicional:** otras predicciones del modelo para este fármaco, como VIH congénito y complejo relacionado con el SIDA, tienen respaldo de ensayos de Fase 3. Corresponden a usos ya establecidos, no a un reposicionamiento nuevo.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

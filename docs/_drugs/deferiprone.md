@@ -56,7 +56,7 @@ con **0 ensayos clínicos** y **2 publicaciones preclínicas** (modelos murinos)
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, deferiprona es un quelante oral de hierro, su eficacia en la sobrecarga de hierro por talasemia está establecida, y mecanísticamente podría ser aplicable a porfirias en las que el hierro participa en la patología.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Deferiprone (traducción no oficial): «La deferiprona es un agente quelante con afinidad por los iones férricos (hierro III). La deferiprona se une a los iones férricos para formar complejos neutros 3:1 (deferiprona:hierro) que son estables a pH fisiológico.» Texto original en inglés: "Deferiprone is a chelating agent with an affinity for ferric ions (iron III). Deferiprone binds with ferric ions to form neutral 3:1 (deferiprone:iron) complexes that are stable at physiological pH." ([DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86), versión del 2026-01-28; consultado el 2026-11-19). Según la información conocida, deferiprona es un quelante oral de hierro, su eficacia en la sobrecarga de hierro por talasemia está establecida, y mecanísticamente podría ser aplicable a porfirias en las que el hierro participa en la patología.
 
 En ciertas porfirias, como la porfiria cutánea tarda, el exceso de hierro hepático y la inhibición oxidativa mediada por hierro de la uroporfirinógeno descarboxilasa son factores clave. Reducir el hierro mediante quelación es, por tanto, plausible. La flebotomía, que actúa probablemente por depleción de hierro hepático, es un tratamiento eficaz en esta enfermedad.
 
@@ -102,6 +102,19 @@ La predicción tiene un puntaje alto, pero la evidencia se limita a estudios pre
 - Aclarar el subtipo de porfiria con relevancia (cutánea tarda, eritropoyética congénita u otra) y su dependencia del hierro.
 - Estudios en humanos (series de casos o ensayo piloto) que apoyen la eficacia y la seguridad en porfiria.
 - Plan de manejo de las interacciones con antiácidos y suplementos minerales.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

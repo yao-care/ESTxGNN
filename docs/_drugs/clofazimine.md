@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **pneumocystosis (neumocis
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, clofazimina es un colorante de tipo riminofenazina cuya eficacia en lepra, como parte de la terapia multifármaco junto con dapsona y rifampicina, ha sido comprobada. Su actividad antimicobacteriana se atribuye probablemente a alteración de membrana y ciclo redox, aunque esto no está confirmado en los datos compilados.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clofazimine (traducción no oficial): «LAMPRENE es un fármaco antimicobacteriano. […] Clofazimina ejerce un efecto bactericida lento sobre Mycobacterium leprae (bacilo de Hansen). Clofazimina inhibe el crecimiento de las micobacterias y se une preferentemente al ADN micobacteriano. Clofazimina también ejerce propiedades antiinflamatorias en el tratamiento de las reacciones de eritema nudoso leproso.» Texto original en inglés: "LAMPRENE is an anti-mycobacterial drug. […] Clofazimine exerts a slow bactericidal effect on Mycobacterium leprae (Hansen’s bacillus). Clofazimine inhibits mycobacterial growth and binds preferentially to mycobacterial DNA. Clofazimine also exerts anti-inflammatory properties in treating erythema nodosum leprosum reactions." ([DailyMed: Lamprene (clofazimine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e07448f-f888-4747-80ab-570c1b621250), versión del 2026-08-17; consultado el 2026-11-19). Según la información conocida, clofazimina es un colorante de tipo riminofenazina cuya eficacia en lepra, como parte de la terapia multifármaco junto con dapsona y rifampicina, ha sido comprobada. Su actividad antimicobacteriana se atribuye probablemente a alteración de membrana y ciclo redox, aunque esto no está confirmado en los datos compilados.
 
 La neumocistosis es una infección oportunista pulmonar causada por un hongo. La relación con la indicación original es débil: la literatura recuperada trata sobre pacientes con sida en los que la clofazimina se usó contra *Mycobacterium avium* o en coinfecciones, sin mostrar actividad contra *Pneumocystis*.
 
@@ -124,6 +124,19 @@ La predicción es solo computacional (L5): no hay ensayos clínicos y la literat
 
 - **Malaria** (TxGNN 0.9960, nivel L4, categoría "pregunta de investigación"): solo hay evidencia preclínica indirecta, un estudio in vitro de análogos de clofazimina con actividad antiplasmodial (PMID 29026393). No hay ensayos clínicos. Justifica seguimiento preclínico, no recomendación clínica.
 - **Anomalía de la secreción de gastrina** (TxGNN 0.9957, nivel L5, Hold): sin ensayos ni literatura y sin fundamento mecanístico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lamprene (clofazimine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e07448f-f888-4747-80ab-570c1b621250) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

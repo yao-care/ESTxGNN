@@ -60,7 +60,7 @@ Se trata de una predicción sin respaldo real (nivel L5); la puntuación procede
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la fenitoína bloquea de forma dependiente del uso los canales de sodio dependientes de voltaje (entre ellos Nav1.2, codificado por SCN2A), lo que estabiliza las membranas neuronales y limita la descarga repetitiva de alta frecuencia. Su eficacia en la epilepsia está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Phenytoin (traducción no oficial): «No se ha establecido el mecanismo preciso por el cual la fenitoína ejerce su efecto terapéutico, pero se cree que implica el bloqueo dependiente del voltaje de los canales de sodio de la membrana, lo que produce una reducción de las descargas neuronales sostenidas de alta frecuencia.» Texto original en inglés: "The precise mechanism by which phenytoin exerts its therapeutic effect has not been established but is thought to involve the voltage-dependent blockade of membrane sodium channels resulting in a reduction in sustained high-frequency neuronal discharges." ([DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353), versión del 2026-06-25; consultado el 2026-11-19). Según la información conocida, la fenitoína bloquea de forma dependiente del uso los canales de sodio dependientes de voltaje (entre ellos Nav1.2, codificado por SCN2A), lo que estabiliza las membranas neuronales y limita la descarga repetitiva de alta frecuencia. Su eficacia en la epilepsia está bien establecida.
 
 Para la neoplasia del nervio trigémino, **no existe una justificación mecanística directa de actividad antitumoral**. El bloqueo de canales de sodio podría aliviar el dolor neuropático causado por la afectación nerviosa, pero sería un efecto sintomático y no modificador de la enfermedad. Los dos artículos recuperados tratan sobre la neuralgia del trigémino y el síndrome de Sturge-Weber, no sobre neoplasias del trigémino.
 
@@ -136,11 +136,12 @@ La predicción para neoplasia del nervio trigémino carece de ensayos clínicos,
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-12 | Autorizaciones vigentes: 6 → 4 (65340 y 65303 revocadas) | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353) |
 
 <!-- review:end log -->
 

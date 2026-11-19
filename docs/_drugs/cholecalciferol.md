@@ -56,7 +56,7 @@ Nota: la predicción mejor clasificada del modelo (displasia acromesomélica tip
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone actualmente de datos detallados sobre el mecanismo de acción en las fuentes consultadas. Según la información conocida, el colecalciferol es un profármaco: se hidroxila en el hígado a 25-hidroxivitamina D y luego en el riñón a calcitriol, la forma activa que regula la absorción de calcio y fosfato y la producción de hormona paratiroidea.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Cholecalciferol es (traducción no oficial): «Agonista del receptor de la vitamina D» Texto original en inglés: "Vitamin D receptor agonist" ([ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, el colecalciferol es un profármaco: se hidroxila en el hígado a 25-hidroxivitamina D y luego en el riñón a calcitriol, la forma activa que regula la absorción de calcio y fosfato y la producción de hormona paratiroidea.
 
 En la enfermedad renal crónica, la hidroxilación renal está alterada y se acumulan fosfato y déficit de vitamina D, lo que provoca hiperparatiroidismo secundario y trastorno mineral y óseo (CKD-MBD), cuya expresión ósea es la osteodistrofia renal. Por ello existe plausibilidad biológica: reponer vitamina D nutricional puede elevar la 25(OH)D, reducir la PTH y favorecer la mineralización.
 
@@ -100,7 +100,6 @@ Los datos disponibles muestran al menos 20 autorizaciones de medicamentos de col
 | 84727 | DELCRIN 10.000 UI/ML gotas orales en solución | Gotas orales en solución | No disponible |
 | 81223 | BENFEROL MENSUAL 25.000 UI cápsulas blandas | Cápsula blanda | No disponible |
 
-
 ## Consideraciones de Seguridad
 
 - **Relaciones de contraindicación registradas en el grafo de conocimiento** (no proceden del prospecto): hipercalcemia, nefrocalcinosis, trastornos del metabolismo del fósforo, hiperparatiroidismo, osteítis fibrosa, enfermedad renal, enfermedad hepática, sarcoidosis, hipertensión, diabetes mellitus, fibrilación auricular, hiperoxaluria primaria, enfermedad de Wilson y hemocromatosis hereditaria, entre otras.
@@ -121,6 +120,19 @@ Ningún ensayo ni publicación estudia directamente la osteodistrofia renal como
 - Datos del mecanismo de acción desde DrugBank.
 - Estudios controlados con desenlaces óseos directos (histomorfometría, fracturas) en pacientes con osteodistrofia renal.
 - Plan de seguridad para el control de calcio, fósforo y PTH en ERC.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

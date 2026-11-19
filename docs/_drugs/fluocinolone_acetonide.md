@@ -66,7 +66,7 @@ Otras indicaciones predichas con el mismo nivel de evidencia (L5) y recomendaci�
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica disponible, la fluocinolona acetónido actúa sobre el receptor de glucocorticoides (NR3C1), y es el componente activo de cremas para afecciones cutáneas inflamatorias y pruriginosas. También existen implantes intravítreos con este principio activo, aprobados por la FDA para el edema macular diabético y la uveítis posterior no infecciosa.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fluocinolone Acetonide (traducción no oficial): «Los corticosteroides desempeñan un papel en la señalización celular, la función inmunitaria, la inflamación y la regulación de proteínas; sin embargo, se desconoce el mecanismo de acción preciso en la psoriasis del cuero cabelludo.» Texto original en inglés: "Corticosteroids play a role in cellular signaling, immune function, inflammation, and protein regulation; however, the precise mechanism of action in psoriasis of the scalp is unknown." ([DailyMed: Derma-Smoothe/Fs (fluocinolone acetonide) prescribing information, Royal Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=113e167a-a9fe-440e-9446-d6d87963ef46), versión del 2026-10-27; consultado el 2026-11-19). Según la información farmacológica disponible, la fluocinolona acetónido actúa sobre el receptor de glucocorticoides (NR3C1), y es el componente activo de cremas para afecciones cutáneas inflamatorias y pruriginosas. También existen implantes intravítreos con este principio activo, aprobados por la FDA para el edema macular diabético y la uveítis posterior no infecciosa.
 
 Sus indicaciones originales (dermatitis atópica, lupus eritematoso discoide, granuloma anular, linfoma cutáneo de células T) son dermatosis inflamatorias o mediadas por el sistema inmunitario, con un componente de inflamación linfocitaria. El liquen plano y sus variantes comparten este tipo de infiltrado inflamatorio mediado por linfocitos T, por lo que una acción antiinflamatoria e inmunosupresora de los glucocorticoides resulta plausible.
 
@@ -116,6 +116,19 @@ La predicción se basa únicamente en el modelo computacional (nivel L5), sin en
 - Realizar una búsqueda sistemática de literatura y ensayos sobre corticosteroides tópicos en liquen plano
 - Evaluar la compatibilidad de la vía de administración, dado que la presentación autorizada en España es ótica
 - Priorizar las variantes con mayor plausibilidad clínica (p. ej., liquen plano hipertrófico) frente a las que suelen requerir tratamiento sistémico
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Derma-Smoothe/Fs (fluocinolone acetonide) prescribing information, Royal Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=113e167a-a9fe-440e-9446-d6d87963ef46) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

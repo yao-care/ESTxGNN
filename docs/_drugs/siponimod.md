@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Según la información conocida, siponimod es un modulador selectivo de los receptores de esfingosina-1-fosfato (S1P1 y S1P5). Estos receptores intervienen en la migración de los linfocitos y en la función de barrera endotelial.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Siponimod (traducción no oficial): «El siponimod es un modulador del receptor de S1P. El siponimod se une con alta afinidad a los receptores 1 y 5 de S1P. El siponimod bloquea la capacidad de los linfocitos de salir de los ganglios linfáticos, lo que reduce el número de linfocitos en la sangre periférica.» Texto original en inglés: "Siponimod is an S1P receptor modulator. Siponimod binds with high affinity to S1P receptors 1 and 5. Siponimod blocks the capacity of lymphocytes to egress from lymph nodes, reducing the number of lymphocytes in peripheral blood." ([DailyMed: Mayzent (siponimod) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44492772-5aed-4627-bd85-e8e89f308bb3), versión del 2026-06-30; consultado el 2026-11-19). Según la información conocida, siponimod es un modulador selectivo de los receptores de esfingosina-1-fosfato (S1P1 y S1P5). Estos receptores intervienen en la migración de los linfocitos y en la función de barrera endotelial.
 
 La señalización de S1P se ha relacionado con la remodelación vascular pulmonar y con la función de barrera del endotelio, lo que ofrece un posible vínculo teórico con la hipertensión pulmonar. Sin embargo, la modulación de S1P1 provoca bradicardia transitoria y podría tener efectos impredecibles sobre la vasculatura pulmonar.
 
@@ -130,6 +130,19 @@ La predicción para hipertensión pulmonar se basa únicamente en el modelo (L5)
 - Estudios preclínicos de siponimod en modelos de hipertensión pulmonar.
 - Evaluación específica del riesgo cardiovascular (bradicardia, conducción AV) en pacientes con enfermedad cardiopulmonar.
 - Priorizar, de forma exploratoria, la revisión de la hipótesis de artritis reumatoide como alternativa más plausible.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Mayzent (siponimod) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44492772-5aed-4627-bd85-e8e89f308bb3) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

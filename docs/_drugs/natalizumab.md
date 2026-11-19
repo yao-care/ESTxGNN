@@ -55,7 +55,7 @@ El modelo TxGNN (aprendizaje profundo) predice que podría ser efectivo para **b
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, natalizumab bloquea la integrina alfa-4 (VLA-4) y limita el tránsito de leucocitos hacia los tejidos, lo que explica su uso en enfermedades inflamatorias mediadas por el sistema inmune como la esclerosis múltiple y la enfermedad de Crohn.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Natalizumab (traducción no oficial): «El natalizumab se une a la subunidad α4 de las integrinas α4β1 y α4β7 expresadas en la superficie de todos los leucocitos, excepto los neutrófilos, e inhibe la adhesión mediada por α4 de los leucocitos a su(s) contrarreceptor(es). Los receptores de la familia α4 de integrinas incluyen la molécula de adhesión celular vascular 1 (VCAM-1), que se expresa en el endotelio vascular activado, y la molécula de adhesión celular adresina de la mucosa 1 (MAdCAM-1), presente en las células endoteliales vasculares del tubo digestivo.» Texto original en inglés: "Natalizumab binds to the α4-subunit of α4β1 and α4β7 integrins expressed on the surface of all leukocytes except neutrophils, and inhibits the α4-mediated adhesion of leukocytes to their counter-receptor(s). The receptors for the α4 family of integrins include vascular cell adhesion molecule-1 (VCAM-1), which is expressed on activated vascular endothelium, and mucosal addressin cell adhesion molecule-1 (MAdCAM-1) present on vascular endothelial cells of the gastrointestinal tract." ([DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962), versión del 2026-10-09; consultado el 2026-11-19). Según la información conocida, natalizumab bloquea la integrina alfa-4 (VLA-4) y limita el tránsito de leucocitos hacia los tejidos, lo que explica su uso en enfermedades inflamatorias mediadas por el sistema inmune como la esclerosis múltiple y la enfermedad de Crohn.
 
 Mecanísticamente, esta limitación del reclutamiento leucocitario podría atenuar la inflamación de las vías respiratorias impulsada por leucocitos. Sin embargo, no existe evidencia clínica ni bibliográfica que lo apoye, y la alta puntuación de TxGNN (0,9946) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -100,6 +100,19 @@ La predicción para bronquitis se apoya solo en el modelo (nivel L5), sin ensayo
 - Estudios preclínicos o de mecanismo que respalden un papel de la integrina alfa-4 en la bronquitis.
 - Evaluación del balance riesgo-beneficio frente a las alternativas terapéuticas existentes.
 - Revisión de las demás indicaciones predichas (parapsoriasis, psoriasis, retinopatía diabética no proliferativa grave, pitiriasis liquenoide aguda), ya que la evidencia disponible para varias de ellas (en especial psoriasis) sugiere reacciones paradójicas o inducidas por el fármaco, y no beneficio terapéutico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado en los datos compilados para este informe. Según la información conocida, atazanavir es un inhibidor de la proteasa del VIH-1, es decir, bloquea una enzima que el virus necesita para madurar y volverse infeccioso.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Atazanavir (traducción no oficial): «Atazanavir es un fármaco antirretroviral contra el VIH-1. […] Atazanavir (ATV) es un inhibidor de la proteasa (IP) del VIH-1 de tipo azapéptido. El compuesto inhibe de forma selectiva el procesamiento específico del virus de las poliproteínas virales Gag y Gag-Pol en las células infectadas por el VIH-1, lo que impide la formación de viriones maduros.» Texto original en inglés: "Atazanavir is an HIV-1 antiretroviral drug. […] Atazanavir (ATV) is an azapeptide HIV-1 protease inhibitor (PI). The compound selectively inhibits the virus-specific processing of viral Gag and Gag-Pol polyproteins in HIV-1-infected cells, thus preventing formation of mature virions." ([DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8), versión del 2024-12-05; consultado el 2026-11-19). Según la información conocida, atazanavir es un inhibidor de la proteasa del VIH-1, es decir, bloquea una enzima que el virus necesita para madurar y volverse infeccioso.
 
 El virus de la inmunodeficiencia felina (FIV) es un lentivirus emparentado con el VIH-1 y tiene su propia proteasa, por lo que existe una base mecanística plausible. Sin embargo, la proteasa del FIV difiere en la especificidad de sustrato y en la sensibilidad a los inhibidores, y no se dispone de datos que demuestren que atazanavir la inhiba de forma eficaz.
 
@@ -100,6 +100,19 @@ La predicción no cuenta con ensayos clínicos ni publicaciones que estudien dir
 - Estudios in vitro o en animales que evalúen la inhibición de la proteasa del FIV por atazanavir.
 - Definir si existe interés real en una aplicación veterinaria, dado que la indicación no corresponde a una enfermedad humana.
 - Revisar el prospecto para completar la información de seguridad (advertencias y contraindicaciones).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 
 ## Por qué es Razonable esta Predicción?
 
-Amantadina actúa sobre los receptores NMDA de glutamato; los datos farmacológicos compilados muestran su unión a las subunidades GluN2A, GluN2B, GluN2C y GluN2D. Los datos detallados sobre su mecanismo de acción original no están disponibles en este informe.
+Amantadina actúa sobre los receptores NMDA de glutamato; los datos farmacológicos compilados muestran su unión a las subunidades GluN2A, GluN2B, GluN2C y GluN2D. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Amantadine (traducción no oficial): «Se desconoce el mecanismo por el cual la amantadina ejerce su eficacia en el tratamiento de la discinesia en pacientes con enfermedad de Parkinson o como tratamiento complementario de levodopa/carbidopa en pacientes con enfermedad de Parkinson que presentan episodios 'off'. La amantadina es un antagonista no competitivo débil del receptor NMDA.» Texto original en inglés: "The mechanism by which amantadine exerts efficacy in the treatment of dyskinesia in patients with Parkinson's disease or as adjunctive treatment to levodopa/carbidopa in patients with Parkinson's disease experiencing 'off' episodes is unknown. Amantadine is a weak uncompetitive antagonist of the NMDA receptor." ([DailyMed: Gocovri (amantadine) prescribing information, Adamas Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82ff865f-78f3-4c94-b6a9-727a54944b28), versión del 2026-10-05; consultado el 2026-11-19).
 
 La encefalitis de Rasmussen es una enfermedad inflamatoria cerebral de origen inmunitario, asociada a lesión neuronal por excitotoxicidad relacionada con el glutamato y a crisis focales de difícil control. Por ello existe un vínculo teórico con el bloqueo de los receptores NMDA.
 
@@ -92,6 +92,19 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Datos detallados del mecanismo de acción (MOA)
 - Obtención y análisis del prospecto (advertencias y contraindicaciones)
 - Evaluación de seguridad en pacientes con epilepsia y otras poblaciones vulnerables antes de cualquier estudio
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Gocovri (amantadine) prescribing information, Adamas Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82ff865f-78f3-4c94-b6a9-727a54944b28) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -66,7 +66,7 @@ La indicación original (carcinoma basocelular) comparte con esta nueva indicaci
 Hay limitaciones importantes:
 - Los tumores con mutaciones en SUFU actúan por debajo de SMO y se espera que sean resistentes al fármaco.
 - El uso pediátrico preocupa por el riesgo de cierre prematuro de las placas de crecimiento.
-- No se dispone de datos detallados sobre el mecanismo de acción en las fuentes compiladas, y no hay estudios que respalden esta indicación concreta.
+- Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Vismodegib (traducción no oficial): «El vismodegib es un inhibidor de la vía Hedgehog. El vismodegib se une a Smoothened, una proteína transmembrana que participa en la transducción de señales de Hedgehog, y la inhibe.» Texto original en inglés: "Vismodegib is an inhibitor of the Hedgehog pathway. Vismodegib binds to and inhibits Smoothened, a transmembrane protein involved in Hedgehog signal transduction." ([DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a), versión del 2024-12-02; consultado el 2026-11-19).
 
 ---
 
@@ -128,6 +128,19 @@ La predicción tiene un puntaje alto y una base mecanística plausible en el sub
 - Un plan de prevención del riesgo embriofetal y de gestión de las interacciones farmacológicas.
 
 **Nota de contexto:** en los datos compilados, otras indicaciones predichas para este fármaco cuentan con más respaldo. El "cáncer de piel" corresponde esencialmente al uso ya aprobado (nivel L1, Proceed with Guardrails). La xeroderma pigmentosum tiene dos reportes de caso del uso de vismodegib para carcinomas basocelulares asociados (nivel L4).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

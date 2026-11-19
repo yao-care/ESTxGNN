@@ -56,7 +56,7 @@ No hay **ningún ensayo clínico** registrado, y de las **20 publicaciones** rec
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción del ácido cítrico en los datos compilados para este informe. Se sabe que es un ácido orgánico débil que modifica la acidez del medio y quelta cationes metálicos. Por eso se usa en formulaciones orales como acidulante y como componente de sales y quelantes.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para sodium picosulfate, magnesium oxide, and anhydrous citric acid (combinación que contiene Citric Acid) (traducción no oficial): «El óxido de magnesio y el ácido cítrico reaccionan para formar citrato de magnesio en solución, que es un agente osmótico que provoca la retención de agua en el tubo digestivo.» Texto original en inglés: "Magnesium oxide and citric acid react to create magnesium citrate in solution, which is an osmotic agent that causes water to be retained within the gastrointestinal tract." ([DailyMed: Clenpiq (sodium picosulfate, magnesium oxide, and anhydrous citric acid) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e95fff66-4ec0-4001-a727-33e66a5ec7d5), versión del 2026-04-15; consultado el 2026-11-19). Se sabe que es un ácido orgánico débil que modifica la acidez del medio y quelta cationes metálicos. Por eso se usa en formulaciones orales como acidulante y como componente de sales y quelantes.
 
 La literatura recuperada es indirecta. Incluye el uso de una comida de prueba con ácido cítrico para mejorar la precisión del test del aliento con urea en el diagnóstico de *Helicobacter pylori*, y un estudio sobre su efecto en la actividad de la ureasa intragástrica. También hay un estudio farmacocinético del citrato de bismuto en un compuesto antiulceroso y revisiones generales sobre dieta en la enfermedad ulcerosa. Ninguno muestra que el ácido cítrico trate una enfermedad gástrica.
 
@@ -113,6 +113,18 @@ La predicción tiene un puntaje alto (0,9974), pero ningún ensayo clínico ni p
 - Una búsqueda de literatura dirigida que identifique estudios preclínicos o clínicos donde el ácido cítrico se use como tratamiento.
 - Una definición precisa de la enfermedad gástrica de interés, la forma farmacéutica y la vía de administración.
 - Las advertencias y contraindicaciones del prospecto de la AEMPS, hoy no disponibles, y una revisión de las interacciones con hidróxido de aluminio y quinolonas.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Clenpiq (sodium picosulfate, magnesium oxide, and anhydrous citric acid) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e95fff66-4ec0-4001-a727-33e66a5ec7d5) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

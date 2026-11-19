@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser útil para la **taquicardia ventricular 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información farmacológica conocida, amiodarona actúa sobre varios canales iónicos (entre ellos el canal de sodio Nav1.5 y canales de potasio) y tiene efectos antiadrenérgicos, lo que explica su uso como antiarrítmico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Amiodarone (traducción no oficial): «La amiodarona se considera un fármaco antiarrítmico de clase III, pero posee características electrofisiológicas de las cuatro clases de Vaughan Williams. Al igual que los fármacos de clase I, la amiodarona bloquea los canales de sodio a frecuencias de estimulación rápidas y, al igual que los fármacos de clase II, la amiodarona ejerce una acción antisimpática no competitiva.» Texto original en inglés: "Amiodarone is considered a class III antiarrhythmic drug, but it possesses electrophysiologic characteristics of all four Vaughan Williams classes. Like class I drugs, amiodarone blocks sodium channels at rapid pacing frequencies, and like class II drugs, amiodarone exerts a noncompetitive antisympathetic action." ([DailyMed: Pacerone (amiodarone hydrochloride) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcadce9c-d0a0-4235-8ff8-dd93c09e03b3), versión del 2025-11-05; consultado el 2026-11-19). Según la información farmacológica conocida, amiodarona actúa sobre varios canales iónicos (entre ellos el canal de sodio Nav1.5 y canales de potasio) y tiene efectos antiadrenérgicos, lo que explica su uso como antiarrítmico.
 
 La taquicardia ventricular polimórfica catecolaminérgica es una canalopatía hereditaria rara, causada por fuga de calcio (mutaciones en RYR2 o CASQ2) y desencadenada por el estrés adrenérgico. Mecanísticamente, el efecto antiadrenérgico y de bloqueo de canales de amiodarona podría atenuar las arritmias desencadenadas por catecolaminas.
 
@@ -110,6 +110,18 @@ No hay ensayos clínicos ni estudios que evalúen amiodarona en esta enfermedad;
 - Datos detallados del mecanismo de acción
 - Advertencias y contraindicaciones del prospecto de la AEMPS
 - Comparación frente a los tratamientos de referencia
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Pacerone (amiodarone hydrochloride) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcadce9c-d0a0-4235-8ff8-dd93c09e03b3) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

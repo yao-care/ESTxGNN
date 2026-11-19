@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, canakinumab neutraliza la interleucina-1β, una citocina clave en la inflamación, y mecanísticamente podría ser aplicable a procesos en los que esa señal inflamatoria contribuya al daño tisular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Canakinumab (traducción no oficial): «Canakinumab es un anticuerpo monoclonal humano anti-IL-1β humana del isotipo IgG1/κ. Canakinumab se une a la IL-1β humana y neutraliza su actividad al bloquear su interacción con los receptores de IL-1, pero no se une a la IL-1α ni al antagonista del receptor de IL-1 (IL-1ra).» Texto original en inglés: "Canakinumab is a human monoclonal anti-human IL-1β antibody of the IgG1/κ isotype. Canakinumab binds to human IL-1β and neutralizes its activity by blocking its interaction with IL-1 receptors, but it does not bind IL-1α or IL-1 receptor antagonist (IL-1ra)." ([DailyMed: Ilaris (canakinumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d271f3b-e4f9-4d80-8dcf-28d49123f80e), versión del 2026-06-08; consultado el 2026-11-19). Según la información conocida, canakinumab neutraliza la interleucina-1β, una citocina clave en la inflamación, y mecanísticamente podría ser aplicable a procesos en los que esa señal inflamatoria contribuya al daño tisular.
 
 Una hipótesis plausible, pero sin respaldo, es que la inflamación mediada por IL-1β participe en la lesión de tejidos isquémicos, como el hígado. No existe evidencia directa que apoye el uso de canakinumab en esta situación, por lo que el vínculo es meramente especulativo y la similitud con las indicaciones originales está pendiente de evaluar.
 
@@ -95,6 +95,19 @@ La predicción para hepatic infarction (infarto hepático) se apoya solo en el p
 - Estudios preclínicos que muestren un papel de la IL-1β en el infarto hepático
 - Revisión de advertencias y contraindicaciones del prospecto de la AEMPS
 - Evaluación de la compatibilidad de la vía de administración y de la similitud con las indicaciones originales
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ilaris (canakinumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d271f3b-e4f9-4d80-8dcf-28d49123f80e) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

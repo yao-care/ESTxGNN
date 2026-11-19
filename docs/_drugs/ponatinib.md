@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, ponatinib es un inhibidor multiquinasa (BCR-ABL, FGFR, PDGFR, VEGFR, SRC, KIT) con eficacia comprobada en la leucemia mieloide crónica, y mecanísticamente podría actuar sobre las vías de proliferación de fibroblastos y de señalización fibrótica.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ponatinib (traducción no oficial): «El ponatinib es un inhibidor de cinasas. El ponatinib inhibió in vitro la actividad tirosina cinasa de ABL y de ABL con la mutación T315I con concentraciones de IC 50 de 0,4 nM y 2,0 nM, respectivamente. El ponatinib inhibió in vitro la actividad de otras cinasas con concentraciones de IC 50 de entre 0,1 nM y 20 nM, incluidos miembros de las familias de cinasas VEGFR, PDGFR, FGFR, receptores EPH y SRC, así como KIT, RET, TIE2 y FLT3.» Texto original en inglés: "Ponatinib is a kinase inhibitor. Ponatinib inhibited the in vitro tyrosine kinase activity of ABL and T315I mutant ABL with IC 50 concentrations of 0.4 nM and 2.0 nM, respectively. Ponatinib inhibited the in vitro activity of additional kinases with IC 50 concentrations between 0.1 nM and 20 nM, including members of the VEGFR, PDGFR, FGFR, EPH receptors and SRC families of kinases, and KIT, RET, TIE2, and FLT3." ([DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac), versión del 2026-08-14; consultado el 2026-11-19). Según la información conocida, ponatinib es un inhibidor multiquinasa (BCR-ABL, FGFR, PDGFR, VEGFR, SRC, KIT) con eficacia comprobada en la leucemia mieloide crónica, y mecanísticamente podría actuar sobre las vías de proliferación de fibroblastos y de señalización fibrótica.
 
 Este vínculo es especulativo y no está respaldado por ninguna evidencia aportada. La fibromatosis gingival es una enfermedad benigna y rara, a menudo hereditaria o inducida por fármacos. Para un fármaco con toxicidad cardiovascular y trombótica grave, el balance riesgo-beneficio es desfavorable sin evidencia que lo sustente.
 
@@ -115,6 +115,19 @@ La predicción se basa únicamente en un puntaje alto del modelo TxGNN (nivel L5
 - Evidencia preclínica específica de ponatinib en fibroblastos gingivales o modelos de fibrosis.
 - Revisión del texto completo de la publicación PMID 29132397 para confirmar si ponatinib fue evaluado, y búsqueda de datos in vitro/in vivo en liposarcoma como alternativa.
 - Análisis de compatibilidad de vías de administración y de similitud con la indicación original.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -58,7 +58,7 @@ El dinitrato de isosorbida es un donante de óxido nítrico con efecto vasodilat
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, el dinitrato de isosorbida es un donante de óxido nítrico (NO) y un vasodilatador. Su eficacia en la indicación original no puede confirmarse con los datos locales disponibles, porque la autorización española no incluye texto de indicación.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para hydralazine hydrochloride and isosorbide dinitrate (combinación que contiene Isosorbide Dinitrate) (traducción no oficial): «El dinitrato de isosorbida es un vasodilatador que actúa tanto sobre las arterias como sobre las venas.» Texto original en inglés: "Isosorbide dinitrate is a vasodilator affecting both arteries and veins." ([DailyMed: Bidil (hydralazine hydrochloride and isosorbide dinitrate) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e1e63cd5-d1e4-4af5-bad5-1ad41ea46b00), versión del 2025-11-30; consultado el 2026-11-19). Según la información conocida, el dinitrato de isosorbida es un donante de óxido nítrico (NO) y un vasodilatador. Su eficacia en la indicación original no puede confirmarse con los datos locales disponibles, porque la autorización española no incluye texto de indicación.
 
 La relación con la alopecia es solo **hipotética**. Se plantea que la vasodilatación podría mejorar la microcirculación del cuero cabelludo, de forma análoga a otros vasodilatadores como el minoxidil. No existe ningún estudio clínico ni publicación que respalde este vínculo, y el puntaje de 0,9999 es únicamente una predicción computacional de similitud en la red de conocimiento.
 
@@ -110,6 +110,19 @@ La predicción para alopecia se basa únicamente en el modelo (nivel L5), sin en
 - Revisión del prospecto oficial (advertencias y contraindicaciones), requisito previo para cualquier evaluación de seguridad.
 - Evaluación de la viabilidad de una vía de administración adecuada para el cuero cabelludo, hoy sin definir.
 - Valorar por separado otras predicciones del modelo que cuentan con algo más de literatura (por ejemplo, hipertensión pulmonar), cuya evaluación es independiente de esta.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Bidil (hydralazine hydrochloride and isosorbide dinitrate) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e1e63cd5-d1e4-4af5-bad5-1ad41ea46b00) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

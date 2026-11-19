@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **leucemia de células pil
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, interferón beta-1b es una proteína inmunomoduladora con eficacia comprobada en la esclerosis múltiple remitente-recurrente. Mecanísticamente, su actividad antiproliferativa e inmunomoduladora general podría ser aplicable a una neoplasia hematológica como la leucemia de células pilosas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Interferon Beta-1B (traducción no oficial): «Se desconoce el mecanismo de acción de BETASERON (interferón beta-1b) en pacientes con esclerosis múltiple.» Texto original en inglés: "The mechanism of action of BETASERON (interferon beta-1b) in patients with multiple sclerosis is unknown." ([DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5), versión del 2026-03-03; consultado el 2026-11-19). Según la información conocida, interferón beta-1b es una proteína inmunomoduladora con eficacia comprobada en la esclerosis múltiple remitente-recurrente. Mecanísticamente, su actividad antiproliferativa e inmunomoduladora general podría ser aplicable a una neoplasia hematológica como la leucemia de células pilosas.
 
 Sin embargo, esta relación es solo una hipótesis. Los datos disponibles no respaldan este vínculo para interferón beta-1b en concreto, y la similitud entre la indicación original (enfermedad autoinmune del sistema nervioso central) y la nueva (neoplasia hematológica) aún no ha sido evaluada. El puntaje del modelo es muy alto, pero no debe interpretarse como respaldo clínico.
 
@@ -127,11 +127,12 @@ La predicción tiene un puntaje alto (0.9916), pero no hay ningún ensayo clíni
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Las 5 autorizaciones están vigentes" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5) |
 
 <!-- review:end log -->
 

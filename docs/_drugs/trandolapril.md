@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, trandolapril pertenece a la clase de los inhibidores de la ECA: bloquea la conversión de angiotensina I en angiotensina II, reduciendo la vasoconstricción y la secreción de aldosterona. Su eficacia en hipertensión arterial está establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Trandolapril (traducción no oficial): «El trandolapril se desesterifica al metabolito diácido, trandolaprilato, que es aproximadamente ocho veces más activo como inhibidor de la actividad de la ECA. La ECA es una peptidil dipeptidasa que cataliza la conversión de la angiotensina I en el vasoconstrictor angiotensina II.» Texto original en inglés: "Trandolapril is deesterified to the diacid metabolite, trandolaprilat, which is approximately eight times more active as an inhibitor of ACE activity. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor, angiotensin II." ([DailyMed: trandolapril prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8143a6cf-dadc-4ef7-a8db-d16d7150ad34), versión del 2025-10-31; consultado el 2026-11-19). Según la información conocida, trandolapril pertenece a la clase de los inhibidores de la ECA: bloquea la conversión de angiotensina I en angiotensina II, reduciendo la vasoconstricción y la secreción de aldosterona. Su eficacia en hipertensión arterial está establecida.
 
 La hipertensión renovascular está impulsada en gran medida por la activación del sistema renina-angiotensina, por lo que el bloqueo de este eje es mecanísticamente plausible. La predicción tiene, por tanto, una base biológica razonable.
 
@@ -100,6 +100,19 @@ No existen ensayos clínicos ni literatura que respalden la hipertensión renova
 - Realizar una búsqueda sistemática de ensayos y literatura clínica sobre IECA en hipertensión renovascular maligna.
 - Evaluar el riesgo de insuficiencia renal aguda (estenosis bilateral de arteria renal) e hiperpotasemia, con un plan de monitoreo de función renal y potasio.
 - Confirmar la compatibilidad de vía y forma farmacéutica con la nueva indicación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: trandolapril prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8143a6cf-dadc-4ef7-a8db-d16d7150ad34) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

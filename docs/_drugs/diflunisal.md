@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélic
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Por su clase, diflunisal es un AINE derivado del ácido salicílico que inhibe la ciclooxigenasa y reduce la síntesis de prostaglandinas. Su eficacia como antiinflamatorio y analgésico en enfermedades reumáticas es conocida.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Diflunisal (traducción no oficial): «Se desconoce el mecanismo preciso de las acciones analgésicas y antiinflamatorias del diflunisal. El diflunisal es un inhibidor de la prostaglandina sintetasa. En animales, las prostaglandinas sensibilizan los nervios aferentes y potencian la acción de la bradicinina en la inducción del dolor.» Texto original en inglés: "The precise mechanism of the analgesic and anti-inflammatory actions of diflunisal is not known. Diflunisal is a prostaglandin synthetase inhibitor. In animals, prostaglandins sensitize afferent nerves and potentiate the action of bradykinin in inducing pain." ([DailyMed: Dolobid (diflunisal) prescribing information, INA Pharmaceutics Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725234b2-0e23-45c3-a42d-eb4e62273f9b), versión del 2025-10-06; consultado el 2026-11-19). Por su clase, diflunisal es un AINE derivado del ácido salicílico que inhibe la ciclooxigenasa y reduce la síntesis de prostaglandinas. Su eficacia como antiinflamatorio y analgésico en enfermedades reumáticas es conocida.
 
 La displasia acromesomélica tipo Hunter-Thompson es un trastorno esquelético hereditario raro, asociado al gen *GDF5* (CDMP1). No es una enfermedad de origen inflamatorio, y no se identifica un vínculo plausible con la inhibición de la COX. El puntaje elevado proviene del modelo TxGNN (aprendizaje profundo) y probablemente refleja similitudes que el modelo aprendió entre enfermedades relacionadas, como términos musculoesqueléticos (artropatía, artrosis), y no una justificación farmacológica ni evidencia biológica.
 
@@ -100,6 +100,19 @@ La predicción es solo del modelo (L5), sin ensayos ni literatura. Además, la e
 - Evidencia preclínica o clínica específica de esta enfermedad; hoy no hay ninguna.
 - Revisión de las advertencias y contraindicaciones del prospecto de la AEMPS, ya que no están disponibles en los datos compilados.
 - Considerar otras predicciones del mismo análisis con más respaldo. La **espondilitis anquilosante** (puntaje 0.9998, nivel L3) cuenta con un estudio doble ciego aleatorizado de 1986 que compara diflunisal con fenilbutazona en 38 pacientes (PMID 3524970). Es una evidencia antigua y de pequeña escala, y su novedad es limitada porque diflunisal ya se usa en patologías reumáticas inflamatorias.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Dolobid (diflunisal) prescribing information, INA Pharmaceutics Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725234b2-0e23-45c3-a42d-eb4e62273f9b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

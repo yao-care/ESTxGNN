@@ -56,7 +56,7 @@ pero actualmente no hay ensayos clínicos registrados y solo se dispone de **5 p
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, la oximetazolina es un agonista adrenérgico alfa (principalmente alfa-1 y alfa-2) de aplicación tópica que provoca vasoconstricción de los vasos de la mucosa nasal, reduciendo la congestión y la inflamación. Los datos de farmacología compilados confirman además afinidad por los receptores adrenérgicos α1A, α1B, α1D, α2A, α2B y α2C, así como por los receptores serotoninérgicos 5-HT1B, 5-HT1D y 5-HT2C.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Oxymetazoline (traducción no oficial): «La oximetazolina es un agonista de los adrenorreceptores alfa 1A. La oximetazolina actúa como vasoconstrictor.» Texto original en inglés: "Oxymetazoline is an alpha 1A adrenoceptor agonist. Oxymetazoline acts as a vasoconstrictor." ([DailyMed: Rhofade (oxymetazoline hydrochloride) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34298db6-647d-480d-88a8-dc53258a5164), versión del 2026-07-13; consultado el 2026-11-19). Según el conocimiento farmacológico general, la oximetazolina es un agonista adrenérgico alfa (principalmente alfa-1 y alfa-2) de aplicación tópica que provoca vasoconstricción de los vasos de la mucosa nasal, reduciendo la congestión y la inflamación. Los datos de farmacología compilados confirman además afinidad por los receptores adrenérgicos α1A, α1B, α1D, α2A, α2B y α2C, así como por los receptores serotoninérgicos 5-HT1B, 5-HT1D y 5-HT2C.
 
 La indicación original (resfriado común y faringitis) y la nueva indicación (enfermedad de la cavidad nasal) comparten el componente de edema y congestión de la mucosa de las vías respiratorias superiores. Por ello, la vasoconstricción tópica resulta biológicamente plausible.
 
@@ -120,11 +120,12 @@ La predicción tiene un puntaje TxGNN alto, pero no hay ensayos clínicos y la l
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos monocomponente)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Rhofade (oxymetazoline hydrochloride) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34298db6-647d-480d-88a8-dc53258a5164) |
 
 <!-- review:end log -->
 

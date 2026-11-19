@@ -56,7 +56,7 @@ pero **no hay ensayos clínicos ni publicaciones** vinculados a esta entrada con
 
 ## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el trióxido de arsénico es un fármaco antineoplásico que induce apoptosis y diferenciación celular, y tiene efectos sobre el microambiente de la médula ósea. Estos mecanismos son plausibles en enfermedades clonales mieloides.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Arsenic Trioxide (traducción no oficial): «El mecanismo de acción de TRISENOX no se conoce por completo. El trióxido de arsénico causa cambios morfológicos y fragmentación del ADN característicos de la apoptosis en células de leucemia promielocítica humana NB4 in vitro. El trióxido de arsénico también causa daño o degradación de la proteína de fusión leucemia promielocítica (PML)-receptor alfa del ácido retinoico (RAR).» Texto original en inglés: "The mechanism of action of TRISENOX is not completely understood. Arsenic trioxide causes morphological changes and DNA fragmentation characteristic of apoptosis in NB4 human promyelocytic leukemia cells in vitro. Arsenic trioxide also causes damage or degradation of the fusion protein promyelocytic leukemia (PML)-retinoic acid receptor (RAR)-alpha." ([DailyMed: Trisenox (arsenic trioxide) prescribing information, Cephalon, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=101fc347-d0ad-4aee-8b06-9feb187fd741), versión del 2022-06-30; consultado el 2026-11-19). Según la información conocida, el trióxido de arsénico es un fármaco antineoplásico que induce apoptosis y diferenciación celular, y tiene efectos sobre el microambiente de la médula ósea. Estos mecanismos son plausibles en enfermedades clonales mieloides.
 
 El síndrome mielodisplásico (SMD) es un trastorno clonal de la médula ósea con riesgo de evolución a leucemia mieloide aguda, una enfermedad en la que este fármaco ya se estudia. Por ello, la evidencia general en SMD es indirectamente relevante.
 
@@ -107,6 +107,19 @@ La predicción tiene un puntaje TxGNN muy alto (0,9993), pero no hay ningún ens
 - Datos detallados del mecanismo de acción.
 - Advertencias y contraindicaciones del prospecto de la AEMPS, hoy no disponibles en los datos compilados.
 - Un plan de monitorización cardiaca (QT) y electrolítica si se avanza a estudios clínicos.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Trisenox (arsenic trioxide) prescribing information, Cephalon, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=101fc347-d0ad-4aee-8b06-9feb187fd741) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

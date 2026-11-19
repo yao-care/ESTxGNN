@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, clomifeno actúa sobre el receptor de estrógeno alfa (ESR1) como modulador selectivo, lo que bloquea la retroalimentación estrogénica en el eje hipotálamo-hipófisis y aumenta la secreción de LH y FSH.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clomifene (traducción no oficial): «El citrato de clomifeno puede interactuar con tejidos que contienen receptores de estrógenos, como el hipotálamo, la hipófisis, el ovario, el endometrio, la vagina y el cuello uterino. Puede competir con el estrógeno por los sitios de unión a los receptores de estrógenos y puede retrasar la reposición de los receptores de estrógenos intracelulares.» Texto original en inglés: "Clomiphene citrate is capable of interacting with estrogen-receptor-containing tissues, including the hypothalamus, pituitary, ovary, endometrium, vagina, and cervix. It may compete with estrogen for estrogen-receptor-binding sites and may delay replenishment of intracellular estrogen receptors." ([DailyMed: Milophene (clomiphene citrate) prescribing information, Burel Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56131e5-efc7-43af-ac13-4a2ae918df4e), versión del 2025-10-07; consultado el 2026-11-19). Según la información conocida, clomifeno actúa sobre el receptor de estrógeno alfa (ESR1) como modulador selectivo, lo que bloquea la retroalimentación estrogénica en el eje hipotálamo-hipófisis y aumenta la secreción de LH y FSH.
 
 Un vínculo hipotético sería la estimulación de la esteroidogénesis residual de las células de Leydig mediante el aumento de LH. Sin embargo, en un defecto enzimático testicular primario el bloqueo biosintético se sitúa por debajo de la señalización de LH, por lo que un beneficio es poco probable.
 
@@ -96,6 +96,18 @@ La predicción se basa únicamente en el modelo, sin ensayos clínicos ni litera
 - Estudios preclínicos o series de casos que evalúen el efecto en defectos de la esteroidogénesis testicular
 - Revisión del prospecto de la AEMPS para advertencias y contraindicaciones
 - Evaluación de seguridad en la población objetivo (incluida la interacción con bexaroteno)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Milophene (clomiphene citrate) prescribing information, Burel Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56131e5-efc7-43af-ac13-4a2ae918df4e) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

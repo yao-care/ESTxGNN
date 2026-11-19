@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para la **infección por virus 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, ledipasvir actúa sobre la proteína NS5A del VHC y se administra junto con sofosbuvir (inhibidor de la polimerasa NS5B). Su eficacia en la hepatitis C está bien establecida.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Ledipasvir es (traducción no oficial): «Inhibidor de la proteína no estructural 5A» Texto original en inglés: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, ledipasvir actúa sobre la proteína NS5A del VHC y se administra junto con sofosbuvir (inhibidor de la polimerasa NS5B). Su eficacia en la hepatitis C está bien establecida.
 
 Mecanísticamente, el vínculo con la hepatitis B es débil. NS5A no tiene homólogo conocido en el VHB, por lo que cualquier efecto sobre el VHB sería probablemente indirecto, por ejemplo a través de la supresión del VHC en pacientes coinfectados. El puntaje alto del modelo probablemente refleja la proximidad en la red de conocimiento entre fármacos de hepatitis virales, y no una actividad antiviral directa contra el VHB.
 
@@ -116,6 +116,19 @@ El único estudio dirigido directamente a la hepatitis B es una prueba piloto de
 - Obtener datos del mecanismo de acción (p. ej., desde DrugBank) para analizar el vínculo mecanístico.
 - Estudios controlados y de mayor tamaño en monoinfección por VHB que confirmen o descarten el efecto sobre el HBsAg.
 - Confirmar el texto de la indicación autorizada en España.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

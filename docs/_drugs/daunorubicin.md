@@ -56,7 +56,7 @@ pero la evidencia directa es limitada: **2 ensayos clínicos** de Fase 2 (con re
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en las fuentes compiladas. Según la información conocida, la daunorrubicina es una antraciclina que se intercala en el ADN e inhibe la topoisomerasa II, un mecanismo relevante para neoplasias linfoides y hematológicas. Su eficacia en leucemias agudas está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Daunorubicin (traducción no oficial): «La daunorrubicina tiene actividad antimitótica y citotóxica a través de varios mecanismos de acción propuestos. La daunorrubicina forma complejos con el ADN mediante intercalación entre pares de bases. Inhibe la actividad de la topoisomerasa II al estabilizar el complejo ADN-topoisomerasa II, lo que impide la parte de religación de la reacción de ligación-religación que cataliza la topoisomerasa II.» Texto original en inglés: "Daunorubicin has antimitotic and cytotoxic activity through a number of proposed mechanisms of action. Daunorubicin forms complexes with DNA by intercalation between base pairs. It inhibits topoisomerase II activity by stabilizing the DNA-topoisomerase II complex, preventing the religation portion of the ligation-religation reaction that topoisomerase II catalyzes." ([DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f), versión del 2025-05-21; consultado el 2026-11-19). Según la información conocida, la daunorrubicina es una antraciclina que se intercala en el ADN e inhibe la topoisomerasa II, un mecanismo relevante para neoplasias linfoides y hematológicas. Su eficacia en leucemias agudas está bien establecida.
 
 Las leucemias agudas y el linfoma de Hodgkin son neoplasias hematológicas, y las antraciclinas forman parte de muchos esquemas de quimioterapia para ambos grupos de enfermedades. La literatura recuperada menciona que las antraciclinas se usan en leucemia linfoblástica aguda, leucemia mieloide aguda y linfoma de Hodgkin.
 
@@ -121,6 +121,19 @@ Aunque el puntaje del modelo es muy alto, la evidencia directa para el linfoma d
 - Estudios comparativos de daunorrubicina frente a doxorrubicina en linfoma de Hodgkin
 - Evaluación del riesgo cardiotóxico y mielosupresor en esta población
 - Revisión de las demás indicaciones predichas: neuroblastoma (nivel L4, evidencia indirecta) y el resto, con evidencia solo computacional o preclínica
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

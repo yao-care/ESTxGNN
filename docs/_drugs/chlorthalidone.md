@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la clortalidona es un diurético tiazídico-like con eficacia comprobada en hipertensión e insuficiencia cardíaca congestiva. Los datos farmacológicos compilados muestran que se une a varias anhidrasas carbónicas humanas (CA1, CA4, CA7, CA12 y CA14) y a la enzima NAPEPLD.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Chlorthalidone (traducción no oficial): «La clortalidona es un diurético oral de acción prolongada con actividad antihipertensiva. Los efectos diuréticos de la clortalidona y de los diuréticos benzotiadiazínicos (tiazídicos) parecen surgir de mecanismos similares, y el efecto máximo de la clortalidona y el de las tiazidas parecen ser similares.» Texto original en inglés: "Chlorthalidone is a long-acting oral diuretic with antihypertensive activity. The diuretic effects of chlorthalidone and the benzothiadiazine (thiazide) diuretics appear to arise from similar mechanisms and the maximal effect of chlorthalidone and the thiazides appear to be similar." ([DailyMed: Thalitone (chlorthalidone) prescribing information, Casper Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc5a0299-115b-4e60-bb3f-c75a95c51c15), versión del 2026-06-25; consultado el 2026-11-19). Según la información conocida, la clortalidona es un diurético tiazídico-like con eficacia comprobada en hipertensión e insuficiencia cardíaca congestiva. Los datos farmacológicos compilados muestran que se une a varias anhidrasas carbónicas humanas (CA1, CA4, CA7, CA12 y CA14) y a la enzima NAPEPLD.
 
 El vínculo con el glaucoma es débil. Los inhibidores de la anhidrasa carbónica pueden reducir la presión intraocular, y esa interacción con anhidrasas carbónicas podría ofrecer una vía especulativa. Sin embargo, la clortalidona no es un tratamiento establecido del glaucoma, y no hay datos que respalden un mecanismo concreto.
 
@@ -101,6 +101,19 @@ La predicción para glaucoma hereditario primario se basa solo en el modelo (L5)
 - Textos de indicación, advertencias y contraindicaciones del prospecto de la AEMPS
 - Evaluación de seguridad, dado el perfil metabólico y electrolítico de la clortalidona
 - Valorar, como alternativa más plausible, la cardiopatía pulmonar crónica (con insuficiencia cardíaca derecha)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Thalitone (chlorthalidone) prescribing information, Casper Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc5a0299-115b-4e60-bb3f-c75a95c51c15) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -54,7 +54,7 @@ La amilorida es un diurético ahorrador de potasio. El modelo TxGNN predice que 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Por su clase, la amilorida es un diurético ahorrador de potasio que actúa sobre el transporte de sodio en el riñón. Esto da una plausibilidad general en trastornos de la presión arterial con afectación renal.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Amiloride (traducción no oficial): «El clorhidrato de amilorida es un fármaco ahorrador de potasio (antikaliurético) que posee una actividad natriurética, diurética y antihipertensiva débil (en comparación con los diuréticos tiazídicos). En algunos estudios clínicos, estos efectos han sido parcialmente aditivos a los efectos de los diuréticos tiazídicos.» Texto original en inglés: "Amiloride HCl is a potassium-conserving (antikaliuretic) drug that possesses weak (compared with thiazide diuretics) natriuretic, diuretic, and antihypertensive activity. These effects have been partially additive to the effects of thiazide diuretics in some clinical studies." ([DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68), versión del 2026-11-11; consultado el 2026-11-19). Por su clase, la amilorida es un diurético ahorrador de potasio que actúa sobre el transporte de sodio en el riñón. Esto da una plausibilidad general en trastornos de la presión arterial con afectación renal.
 
 La relación con la nueva indicación es solo predictiva. No se recuperaron ensayos ni literatura sobre la enfermedad renal hipertensiva maligna, por lo que no hay datos de eficacia que sustenten un vínculo mecanístico específico.
 
@@ -103,6 +103,19 @@ La predicción tiene un puntaje alto (0,9982), pero no cuenta con ensayos clíni
 - Revisión sistemática de literatura clínica y preclínica específica de esta indicación.
 - Análisis de seguridad en insuficiencia renal (riesgo de hiperpotasemia) a partir del prospecto.
 - Evaluación de viabilidad de un estudio exploratorio con vigilancia estrecha de potasio y función renal.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

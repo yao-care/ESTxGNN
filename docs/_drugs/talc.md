@@ -61,7 +61,7 @@ La predicción carece de respaldo clínico y presenta una señal de seguridad.
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. El talco (silicato de magnesio) se comercializa en España como polvo cutáneo de uso tópico, y no se dispone de una indicación aprobada documentada en los datos compilados.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Talc (traducción no oficial): «Se considera que el talco instilado en la cavidad pleural provoca una reacción inflamatoria. Esta reacción favorece la adherencia de la pleura visceral y la parietal para impedir la reacumulación de aire o líquido pleural.» Texto original en inglés: "Talc instilled into the pleural cavity is thought to result in an inflammatory reaction. This reaction promotes adherence of the visceral and parietal pleura to prevent reaccumulation of pleural air or fluid." ([DailyMed: Steritalc 2G (talc) prescribing information, Novatech SA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c94e51d9-beef-4b06-e053-2a95a90a754a), versión del 2025-06-25; consultado el 2026-11-19). El talco (silicato de magnesio) se comercializa en España como polvo cutáneo de uso tópico, y no se dispone de una indicación aprobada documentada en los datos compilados.
 
 La literatura recuperada no respalda un efecto terapéutico en trombosis. Describe que el talco inyectado por vía intravenosa (por ejemplo, en consumidores de drogas que inyectan comprimidos triturados) provoca microembolia pulmonar, hipertensión pulmonar angiotrombótica, granulomatosis y microembolización retiniana y cerebral. El alto puntaje proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una relación terapéutica.
 
@@ -126,6 +126,19 @@ La predicción se basa solo en el modelo; la literatura apunta a que el talco ca
 - Obtener datos del mecanismo de acción (por ejemplo, desde DrugBank).
 - Confirmar si el puntaje del modelo TxGNN (deep learning), que puede reflejar similitudes aprendidas entre enfermedades relacionadas y no evidencia biológica, corresponde a un efecto adverso y no terapéutico.
 - Valorar otras indicaciones predichas solo si aparece evidencia directa; las demás (exóstosis, artritis reumatoide, bronquitis, déficit de cofactor II de heparina, entre otras) tienen evidencia L4-L5 y tampoco muestran respaldo terapéutico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Steritalc 2G (talc) prescribing information, Novatech SA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c94e51d9-beef-4b06-e053-2a95a90a754a) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de la cola 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la farmacología general, el ciclopentolato es un antagonista muscarínico (anticolinérgico). Su eficacia como cicloplégico en oftalmología está establecida, y mecanísticamente el bloqueo muscarínico podría tener alguna relevancia en trastornos con disfunción neuromuscular de la vejiga o el intestino.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cyclopentolate (traducción no oficial): «Este preparado anticolinérgico bloquea las respuestas del músculo esfínter del iris y del músculo acomodativo del cuerpo ciliar a la estimulación colinérgica, lo que produce dilatación pupilar (midriasis) y parálisis de la acomodación (cicloplejía). Actúa rápidamente, pero su duración es menor que la de la atropina.» Texto original en inglés: "This anticholinergic preparation blocks the responses of the sphincter muscle of the iris and the accommodative muscle of the ciliary body to cholinergic stimulation, producing pupillary dilation (mydriasis) and paralysis of accommodation (cycloplegia). It acts rapidly, but has a shorter duration than atropine." ([DailyMed: Cyclogyl (cyclopentolate hydrochloride) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d008c76-7210-4ace-90fa-7cd22762e12e), versión del 2024-06-25; consultado el 2026-11-19). Según la farmacología general, el ciclopentolato es un antagonista muscarínico (anticolinérgico). Su eficacia como cicloplégico en oftalmología está establecida, y mecanísticamente el bloqueo muscarínico podría tener alguna relevancia en trastornos con disfunción neuromuscular de la vejiga o el intestino.
 
 El síndrome de la cola de caballo es una emergencia neurológica compresiva con disfunción vesical, intestinal y motora, cuyo tratamiento definitivo es la descompresión quirúrgica. La única justificación plausible sería el control sintomático de la hiperactividad del detrusor mediante bloqueo muscarínico, un efecto indirecto que no modifica la enfermedad.
 
@@ -103,6 +103,19 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicacione
 - Revisar la bibliografía y los registros de ensayos clínicos para ciclopentolato en trastornos neurógenos de vejiga o intestino.
 - Reasignar el término obsoleto "vejiga neurógena" a una enfermedad vigente y valorar si es una indicación predicha más plausible.
 - Evaluar la compatibilidad de vía y formulación, y comparar con antimuscarínicos de uso establecido.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cyclogyl (cyclopentolate hydrochloride) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d008c76-7210-4ace-90fa-7cd22762e12e) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

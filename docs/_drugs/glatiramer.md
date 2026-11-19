@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **hemoglobinopatía**, per
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Glatiramero es un inmunomodulador, una mezcla aleatoria de polímeros de cuatro aminoácidos. Se cree que desvía las respuestas de los linfocitos T hacia fenotipos Th2/reguladores y que compite con los antígenos de la mielina por la presentación en el MHC. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe; la descripción anterior procede del análisis mecanístico de la propia predicción.
+Glatiramero es un inmunomodulador, una mezcla aleatoria de polímeros de cuatro aminoácidos. Se cree que desvía las respuestas de los linfocitos T hacia fenotipos Th2/reguladores y que compite con los antígenos de la mielina por la presentación en el MHC. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Glatiramer (traducción no oficial): «No se comprende por completo el mecanismo o los mecanismos por los cuales el acetato de glatirámero ejerce sus efectos en los pacientes con EM. Sin embargo, se cree que el acetato de glatirámero actúa modificando los procesos inmunitarios que se consideran responsables de la patogenia de la EM.» Texto original en inglés: "The mechanism(s) by which glatiramer acetate exerts its effects in patients with MS are not fully understood. However, glatiramer acetate is thought to act by modifying immune processes that are believed to be responsible for the pathogenesis of MS." ([DailyMed: Glatopa (glatiramer acetate) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0679689e-8930-4d6a-b922-5125082b2716), versión del 2026-10-26; consultado el 2026-11-19).
 
 **La predicción no tiene, a día de hoy, un respaldo mecanístico creíble.** Las hemoglobinopatías (por ejemplo, la anemia falciforme y la talasemia) son trastornos causados principalmente por mutaciones en los genes de la globina y por patología del glóbulo rojo. La modulación inmunitaria no es un eje terapéutico reconocido en ellas. El puntaje elevado de TxGNN (0.9903) es únicamente una predicción computacional y no está respaldado por evidencia clínica ni mecanística.
 
@@ -99,6 +99,19 @@ La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos ni e
 - Obtener y revisar el prospecto de AEMPS (advertencias, contraindicaciones e indicaciones aprobadas)
 - Aclarar la relación entre la indicación original y la predicha, y la compatibilidad de vía de administración
 - Revisión de la relevancia de la literatura vinculada, que actualmente es incidental
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Glatopa (glatiramer acetate) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0679689e-8930-4d6a-b922-5125082b2716) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **migraña (trastorno migr
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone actualmente de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, etoricoxib es un inhibidor selectivo de la ciclooxigenasa-2 (COX-2; gen PTGS2), utilizado en artritis reumatoide, artrosis, lumbalgia crónica, espondilitis anquilosante, dolor agudo y gota. Mecanísticamente podría ser aplicable a la migraña.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Etoricoxib es (traducción no oficial): «Inhibidor de la ciclooxigenasa-2» Texto original en inglés: "Cyclooxygenase-2 inhibitor" ([ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, etoricoxib es un inhibidor selectivo de la ciclooxigenasa-2 (COX-2; gen PTGS2), utilizado en artritis reumatoide, artrosis, lumbalgia crónica, espondilitis anquilosante, dolor agudo y gota. Mecanísticamente podría ser aplicable a la migraña.
 
 La inflamación neurogénica mediada por prostaglandinas y la sensibilización trigeminovascular contribuyen a la migraña, por lo que inhibir la COX-2 es biológicamente plausible. Un estudio preclínico en ganglios trigéminos de rata (PMID 29209105) examinó el efecto de AINE, incluido etoricoxib, sobre la liberación de CGRP y PGE2, lo que apoya de forma indirecta este mecanismo, aunque está vinculado a otra entidad (migraña con o sin aura, susceptibilidad).
 
@@ -131,11 +131,12 @@ Para migraña solo existe una predicción del modelo (nivel L5), sin ensayos cl�
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único, comprimidos recubiertos con película)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146) |
 
 <!-- review:end log -->
 

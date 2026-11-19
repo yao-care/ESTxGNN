@@ -56,7 +56,7 @@ pero no hay ensayos clínicos en esta enfermedad y la literatura recopilada (**8
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone actualmente de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por su naturaleza, laronidasa es una alfa-L-iduronidasa recombinante, una enzima que degrada glicosaminoglicanos en el lisosoma.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Laronidase (traducción no oficial): «Los trastornos por depósito de mucopolisacáridos se deben a la deficiencia de enzimas lisosómicas específicas necesarias para el catabolismo de los glucosaminoglucanos (GAG). La mucopolisacaridosis I (MPS I) se caracteriza por la deficiencia de α-L-iduronidasa, una hidrolasa lisosómica que cataliza la hidrólisis de los residuos terminales de ácido α-L-idurónico del dermatán sulfato y del heparán sulfato. […] La captación de ALDURAZYME por las células hacia los lisosomas está mediada, muy probablemente, por la unión de las cadenas de oligosacáridos con manosa-6-fosfato terminal de la laronidasa a receptores específicos de manosa-6-fosfato.» Texto original en inglés: "Mucopolysaccharide storage disorders are caused by the deficiency of specific lysosomal enzymes required for the catabolism of glycosaminoglycans (GAG). Mucopolysaccharidosis I (MPS I) is characterized by the deficiency of α-L-iduronidase, a lysosomal hydrolase which catalyzes the hydrolysis of terminal α-L-iduronic acid residues of dermatan sulfate and heparan sulfate. […] ALDURAZYME uptake by cells into lysosomes is most likely mediated by the mannose-6-phosphate-terminated oligosaccharide chains of laronidase binding to specific mannose-6-phosphate receptors." ([DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60), versión del 2026-09-11; consultado el 2026-11-19). Por su naturaleza, laronidasa es una alfa-L-iduronidasa recombinante, una enzima que degrada glicosaminoglicanos en el lisosoma.
 
 El síndrome de Sanfilippo (MPS III) se debe a la deficiencia de otras enzimas que degradan el heparán sulfato (como la heparán N-sulfatasa o la N-acetil-alfa-glucosaminidasa), no de la alfa-L-iduronidasa. Por tanto, laronidasa actúa en un paso distinto de la vía y no existe una justificación enzimática directa para corregir el sustrato acumulado en MPS III.
 
@@ -106,6 +106,18 @@ No hay ensayos clínicos ni estudios que evalúen la laronidasa directamente en 
 - Advertencias y contraindicaciones del prospecto de la AEMPS para la evaluación de seguridad
 
 ---
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

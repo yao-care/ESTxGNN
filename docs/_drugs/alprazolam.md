@@ -54,7 +54,7 @@ Alprazolam es una benzodiacepina utilizada como ansiolítico. El modelo TxGNN pr
 
 ## Por qué es Razonable esta Predicción
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por su clase, alprazolam es una benzodiacepina que potencia la actividad del receptor GABA-A, lo que produce efectos sedantes y ansiolíticos. Esta descripción se deduce de la clase farmacológica y no de los datos aportados.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Alprazolam (traducción no oficial): «El alprazolam es una 1,4 benzodiazepina. El alprazolam ejerce su efecto en el tratamiento del trastorno de pánico mediante su unión al sitio de las benzodiazepinas de los receptores del ácido gamma‑aminobutírico A (GABA A ) en el cerebro y potencia la inhibición sináptica mediada por GABA.» Texto original en inglés: "Alprazolam is a 1,4 benzodiazepine. Alprazolam exerts its effect for the treatment of panic disorder through binding to the benzodiazepine site of gamma‑aminobutyric acid-A (GABA A ) receptors in the brain and enhances GABA-mediated synaptic inhibition." ([DailyMed: Alprazolam Xr (alprazolam) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1338d1c9-7c75-42ed-95f3-9eb1b6fc51d3), versión del 2025-02-11; consultado el 2026-11-19). Por su clase, alprazolam es una benzodiacepina que potencia la actividad del receptor GABA-A, lo que produce efectos sedantes y ansiolíticos. Esta descripción se deduce de la clase farmacológica y no de los datos aportados.
 
 Mecanísticamente, un efecto sedante-hipnótico es plausible para el insomnio, en particular cuando coexiste con ansiedad. Los trastornos del sueño y la ansiedad suelen presentarse juntos, lo que hace coherente la dirección de la predicción.
 
@@ -112,6 +112,18 @@ La predicción se apoya en un puntaje alto de TxGNN y en un único estudio obser
 - Ensayos aleatorizados de alprazolam frente a comparadores en insomnio primario o comórbido con ansiedad
 - Datos del mecanismo de acción y de las advertencias y contraindicaciones del prospecto en AEMPS
 - Evaluación de riesgo-beneficio frente a alternativas hipnóticas, con atención a dependencia, uso prolongado y poblaciones vulnerables (ancianos, hepatopatía, apnea del sueño)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Alprazolam Xr (alprazolam) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1338d1c9-7c75-42ed-95f3-9eb1b6fc51d3) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

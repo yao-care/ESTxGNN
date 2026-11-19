@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **úlcera duodenal**, pero
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción dentro de los datos compilados para este informe. Según la información conocida, raloxifeno es un SERM que interactúa con los receptores de estrógenos alfa (ESR1) y beta (ESR2), además del receptor acoplado a proteína G GPER1. También figura como sustrato de la aldehído oxidasa 1 (AOX1). Su eficacia en la osteoporosis posmenopáusica está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Raloxifene (traducción no oficial): «El raloxifeno es un agonista/antagonista estrogénico, comúnmente denominado modulador selectivo de los receptores de estrógenos (SERM). Las acciones biológicas del raloxifeno están mediadas en gran parte por su unión a los receptores de estrógenos. Esta unión da lugar a la activación de las vías estrogénicas en algunos tejidos (agonismo) y al bloqueo de las vías estrogénicas en otros (antagonismo).» Texto original en inglés: "Raloxifene is an estrogen agonist/antagonist, commonly referred to as a selective estrogen receptor modulator (SERM). The biological actions of raloxifene are largely mediated through binding to estrogen receptors. This binding results in activation of estrogenic pathways in some tissues (agonism) and blockade of estrogenic pathways in others (antagonism)." ([DailyMed: Evista (raloxifene hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9), versión del 2026-02-11; consultado el 2026-11-19). Según la información conocida, raloxifeno es un SERM que interactúa con los receptores de estrógenos alfa (ESR1) y beta (ESR2), además del receptor acoplado a proteína G GPER1. También figura como sustrato de la aldehído oxidasa 1 (AOX1). Su eficacia en la osteoporosis posmenopáusica está bien establecida.
 
 Sin embargo, **los datos no respaldan un vínculo mecanístico claro** con la úlcera duodenal. No se identifica una vía establecida hacia su fisiopatología (infección por *H. pylori*, secreción ácida, lesión por AINE). El puntaje alto del modelo (0.9972) refleja una predicción del modelo TxGNN (aprendizaje profundo), no una relación terapéutica verificada. La similitud con la indicación original está pendiente de evaluación.
 
@@ -111,11 +111,12 @@ La predicción es de nivel L5: solo se apoya en el modelo, sin ensayos ni litera
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se listan 5 de las 15 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Evista (raloxifene hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9) |
 
 <!-- review:end log -->
 

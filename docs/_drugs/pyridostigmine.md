@@ -60,7 +60,7 @@ Actualmente no hay **ensayos clínicos** registrados y solo **3 publicaciones** 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la piridostigmina es un inhibidor reversible de la acetilcolinesterasa. Al impedir la degradación de la acetilcolina, aumenta su disponibilidad en la unión neuromuscular. Los datos farmacológicos compilados confirman como dianas la acetilcolinesterasa (ACHE) y la butirilcolinesterasa (BCHE).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pyridostigmine (traducción no oficial): «La solución oral de bromuro de piridostigmina inhibe la destrucción de la acetilcolina por la colinesterasa y, de este modo, permite una transmisión más libre de los impulsos nerviosos a través de la unión neuromuscular. La piridostigmina es un análogo de la neostigmina (Prostigmine TM ), pero difiere de ella en ciertos aspectos clínicamente significativos; por ejemplo, la piridostigmina se caracteriza por una duración de acción más prolongada y menos efectos secundarios gastrointestinales.» Texto original en inglés: "Pyridostigmine bromide oral solution inhibits the destruction of acetylcholine by cholinesterase and thereby permits freer transmission of nerve impulses across the neuromuscular junction. Pyridostigmine is an analog of neostigmine (Prostigmine TM ), but differs from it in certain clinically significant respects; for example, pyridostigmine is characterized by a longer duration of action and fewer gastrointestinal side effects." ([DailyMed: Pryidostigmine Bromide (pyridostigmine bromide) prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=beda905e-005a-439d-ac74-92db4e269780), versión del 2022-09-07; consultado el 2026-11-19). Según la información conocida, la piridostigmina es un inhibidor reversible de la acetilcolinesterasa. Al impedir la degradación de la acetilcolina, aumenta su disponibilidad en la unión neuromuscular. Los datos farmacológicos compilados confirman como dianas la acetilcolinesterasa (ACHE) y la butirilcolinesterasa (BCHE).
 
 La miastenia gravis con hiperplasia tímica es un subtipo de la miastenia gravis, enfermedad autoinmune en la que los anticuerpos reducen la transmisión neuromuscular. El alivio sintomático que ofrece la piridostigmina no depende de la patología del timo, por lo que la predicción es mecanísticamente coherente. Sin embargo, como se trata de un subtipo de la enfermedad ya tratada, no constituye un reposicionamiento genuino.
 
@@ -114,6 +114,19 @@ La piridostigmina es un tratamiento sintomático ya establecido y comercializado
 - Completar los datos detallados del mecanismo de acción (MOA) desde fuentes como DrugBank.
 - Buscar estudios que evalúen directamente la respuesta a la piridostigmina en miastenia gravis con hiperplasia tímica.
 - Verificar las contraindicaciones señaladas por el grafo de conocimiento (enfermedad renal, asma, obstrucción urinaria) frente al prospecto oficial.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Pryidostigmine Bromide (pyridostigmine bromide) prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=beda905e-005a-439d-ac74-92db4e269780) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

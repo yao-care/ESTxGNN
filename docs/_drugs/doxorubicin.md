@@ -62,7 +62,7 @@ con **30 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 
 ## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada. Según la información conocida, la doxorrubicina es un inhibidor de la topoisomerasa II e intercalante del ADN, con actividad comprobada en neoplasias hematológicas de células de rápida división (leucemia linfoblástica aguda y linfomas), y mecanísticamente es aplicable a otros tumores de células pequeñas redondas de alta proliferación.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Doxorubicin (traducción no oficial): «Se cree que el efecto citotóxico del clorhidrato de doxorrubicina sobre las células malignas y sus efectos tóxicos sobre diversos órganos están relacionados con las actividades de intercalación entre bases nucleotídicas y de unión a lípidos de la membrana celular de la doxorrubicina. La intercalación inhibe la replicación de nucleótidos y la acción de las ARN y ADN polimerasas.» Texto original en inglés: "The cytotoxic effect of doxorubicin hydrochloride on malignant cells and its toxic effects on various organs are thought to be related to nucleotide base intercalation and cell membrane lipid binding activities of doxorubicin. Intercalation inhibits nucleotide replication and action of DNA and RNA polymerases." ([DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd), versión del 2026-11-12; consultado el 2026-11-19). Según la información conocida, la doxorrubicina es un inhibidor de la topoisomerasa II e intercalante del ADN, con actividad comprobada en neoplasias hematológicas de células de rápida división (leucemia linfoblástica aguda y linfomas), y mecanísticamente es aplicable a otros tumores de células pequeñas redondas de alta proliferación.
 
 En el sarcoma de Ewing, la doxorrubicina ya forma parte del tratamiento estándar: es un componente del régimen VDC/IE (vincristina, doxorrubicina, ciclofosfamida alternando con ifosfamida y etopósido), usado en los grandes ensayos cooperativos de Norteamérica y Europa. Por tanto, la predicción del modelo coincide con la práctica clínica establecida, más que con un uso verdaderamente novedoso.
 
@@ -173,11 +173,12 @@ La doxorrubicina ya forma parte del esquema estándar VDC/IE en el sarcoma de Ew
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes (todas monofármaco):" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd) |
 
 <!-- review:end log -->
 

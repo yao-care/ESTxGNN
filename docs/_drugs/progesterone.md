@@ -56,7 +56,7 @@ pero hasta ahora **no hay ensayos clínicos** y la literatura disponible (**20 p
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, la progesterona se une al receptor de progesterona (PGR) y también interactúa con el receptor mineralocorticoide, los canales CatSper, TRPC5 y los receptores de glicina.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Progesterone (traducción no oficial): «La progesterona es un esteroide natural secretado por el ovario, la placenta y la glándula suprarrenal. En presencia de estrógeno suficiente, la progesterona transforma un endometrio proliferativo en un endometrio secretor.» Texto original en inglés: "Progesterone is a naturally occurring steroid that is secreted by the ovary, placenta, and adrenal gland. In the presence of adequate estrogen, progesterone transforms a proliferative endometrium into a secretory endometrium." ([DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1), versión del 2026-10-05; consultado el 2026-11-19). Según la información farmacológica conocida, la progesterona se une al receptor de progesterona (PGR) y también interactúa con el receptor mineralocorticoide, los canales CatSper, TRPC5 y los receptores de glicina.
 
 Las lesiones fibroquísticas de la mama son sensibles a las hormonas. La literatura discute un desequilibrio entre estrógeno y progesterona (déficit relativo de progesterona en la fase lútea) como posible factor contribuyente. Por ejemplo, un estudio sobre la relación estradiol/progesterona en mujeres con la enfermedad (n=50) frente a controles (n=40) explora este vínculo.
 
@@ -106,6 +106,18 @@ La predicción se apoya en un puntaje alto del modelo y en literatura fisiopatol
 - Datos del mecanismo de acción (MOA) y de las advertencias y contraindicaciones del prospecto.
 - Ensayos clínicos controlados de progesterona en la enfermedad fibroquística de la mama.
 - Evaluación de la vía de administración (tópica u oral) y de la seguridad mamaria, dado el riesgo asociado a la patología proliferativa de la mama.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

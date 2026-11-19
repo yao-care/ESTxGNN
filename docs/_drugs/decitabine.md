@@ -56,7 +56,7 @@ con **0 ensayos clínicos** y **2 publicaciones** (un estudio de cohorte y un re
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la farmacología conocida, la decitabina es un análogo nucleosídico hipometilante que inhibe la ADN metiltransferasa, lo que produce hipometilación del ADN y reexpresión de genes silenciados.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Decitabine (traducción no oficial): «Se cree que decitabina ejerce sus efectos antineoplásicos tras su fosforilación e incorporación directa en el ADN y la inhibición de la ADN metiltransferasa, lo que provoca hipometilación del ADN y diferenciación celular o apoptosis. Decitabina inhibe la metilación del ADN in vitro, lo cual se logra a concentraciones que no provocan una supresión importante de la síntesis de ADN.» Texto original en inglés: "Decitabine is believed to exert its antineoplastic effects after phosphorylation and direct incorporation into DNA and inhibition of DNA methyltransferase, causing hypomethylation of DNA and cellular differentiation or apoptosis. Decitabine inhibits DNA methylation in vitro, which is achieved at concentrations that do not cause major suppression of DNA synthesis." ([DailyMed: decitabine prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5975fa81-1e29-4d56-e063-6394a90a9cd5), versión del 2026-11-03; consultado el 2026-11-19). Según la farmacología conocida, la decitabina es un análogo nucleosídico hipometilante que inhibe la ADN metiltransferasa, lo que produce hipometilación del ADN y reexpresión de genes silenciados.
 
 La citopenia refractaria de la infancia (CRI) es el subtipo más frecuente de síndrome mielodisplásico (SMD) pediátrico. La decitabina ya se utiliza en neoplasias mieloides del adulto (LMA y SMD), por lo que la biología clonal mieloide compartida ofrece una base mecanística plausible.
 
@@ -109,6 +109,19 @@ La evidencia se limita a un estudio de cohorte retrospectivo de un solo centro y
 - Completar los datos del mecanismo de acción (DrugBank)
 - Evidencia clínica prospectiva en SMD/CRI pediátrico (ensayos de fase 2 o superior)
 - Evaluar la compatibilidad de vías y formulaciones en población pediátrica y un plan de monitoreo hematológico
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: decitabine prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5975fa81-1e29-4d56-e063-6394a90a9cd5) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

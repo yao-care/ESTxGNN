@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, el ácido acético es un antiséptico tópico y agente acidificante con actividad antibacteriana.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Acetic Acid (traducción no oficial): «El ácido acético es antibacteriano y antifúngico; el propilenglicol es hidrófilo y proporciona una baja tensión superficial; el cloruro de bencetonio es un agente tensioactivo que favorece el contacto de la solución con los tejidos.» Texto original en inglés: "Acetic acid is antibacterial and antifungal; propylene glycol is hydrophilic and provides a low surface tension; benzethonium chloride is a surface active agent that promotes contact of the solution with tissues." ([DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d), versión del 2026-03-18; consultado el 2026-11-19). Según la información conocida, el ácido acético es un antiséptico tópico y agente acidificante con actividad antibacteriana.
 
 Para el trastorno postbacteriano, un cuadro de secuelas inflamatorias o inmunomediadas tras una infección, no se ha establecido un vínculo mecanístico. La actividad antibacteriana local no explica por sí sola un beneficio sobre secuelas posteriores a la infección.
 
@@ -95,6 +95,19 @@ La predicción carece de ensayos clínicos y de publicaciones que estudien direc
 - Estudios preclínicos o clínicos que evalúen directamente esta indicación
 - Revisión del prospecto de los productos autorizados (advertencias y contraindicaciones)
 - Verificar la viabilidad de la vía de administración tópica para esta indicación
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

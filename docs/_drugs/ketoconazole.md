@@ -56,7 +56,7 @@ con **1 ensayo clínico** (aún sin resultados) y **15 publicaciones** de releva
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, ketoconazol es un antifúngico imidazólico cuya eficacia en infecciones por levaduras (como *Malassezia*) y dermatofitos está establecida, y mecanísticamente podría ser aplicable al acné.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ketoconazole (traducción no oficial): «El ketoconazol bloquea la síntesis de ergosterol, un componente clave de la membrana celular fúngica, mediante la inhibición de la enzima dependiente del citocromo P-450 lanosterol 14α-desmetilasa, responsable de la conversión del lanosterol en ergosterol en la membrana celular fúngica. Esto da lugar a una acumulación de precursores de esteroles metilados y a una depleción de ergosterol en la membrana celular, lo que debilita la estructura y la función de la membrana celular fúngica.» Texto original en inglés: "Ketoconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane." ([DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371), versión del 2025-11-18; consultado el 2026-11-19). Según la información conocida, ketoconazol es un antifúngico imidazólico cuya eficacia en infecciones por levaduras (como *Malassezia*) y dermatofitos está establecida, y mecanísticamente podría ser aplicable al acné.
 
 La relación con la indicación original se apoya en dos vías, ambas indirectas. Primero, *Malassezia* (Pityrosporum) puede causar foliculitis que se confunde con acné vulgar; un estudio de 62 pacientes con foliculitis por Pityrosporum señala justamente ese error diagnóstico frecuente. Segundo, estudios *in vitro* muestran que ketoconazol inhibe el crecimiento y la actividad lipasa de *Propionibacterium acnes*, lo que sugiere un posible efecto antibacteriano y antiinflamatorio.
 
@@ -124,11 +124,12 @@ La evidencia se limita a estudios preclínicos y mecanísticos (nivel L4) y a un
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 15 autorizaciones vigentes. Todas son monofármaco, ninguna está cancelada, y entre ellas hay cremas, geles y óvulos vag" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371) |
 
 <!-- review:end log -->
 

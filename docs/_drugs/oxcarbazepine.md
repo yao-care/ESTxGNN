@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **epilepsia visual**, aunq
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, oxcarbazepina actúa, a través de su metabolito activo monohidroxilado (MHD), bloqueando los canales de sodio dependientes de voltaje, y su eficacia en las crisis focales está establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Oxcarbazepine (traducción no oficial): «La actividad farmacológica de TRILEPTAL se ejerce principalmente a través del metabolito 10-monohidroxi (MHD) de la oxcarbazepina. Se desconoce el mecanismo exacto por el cual la oxcarbazepina y el MHD ejercen su efecto anticonvulsivo; sin embargo, estudios electrofisiológicos in vitro indican que producen el bloqueo de los canales de sodio sensibles al voltaje, lo que da lugar a la estabilización de las membranas neuronales hiperexcitadas, la inhibición de las descargas neuronales repetitivas y la disminución de la propagación de los impulsos sinápticos.» Texto original en inglés: "The pharmacological activity of TRILEPTAL is primarily exerted through the 10-monohydroxy metabolite (MHD) of oxcarbazepine. The precise mechanism by which oxcarbazepine and MHD exert their anti-seizure effect is unknown; however, in vitro electrophysiological studies indicate that they produce blockade of voltage-sensitive sodium channels, resulting in stabilization of hyperexcited neural membranes, inhibition of repetitive neuronal firing, and diminution of propagation of synaptic impulses." ([DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b), versión del 2026-10-28; consultado el 2026-11-19). Según la información conocida, oxcarbazepina actúa, a través de su metabolito activo monohidroxilado (MHD), bloqueando los canales de sodio dependientes de voltaje, y su eficacia en las crisis focales está establecida.
 
 La epilepsia visual (fotosensible u occipital) suele manifestarse con crisis de inicio focal, por lo que existe un vínculo plausible con la indicación original. Mecanísticamente, el bloqueo de canales de sodio podría ser aplicable.
 
@@ -140,11 +140,12 @@ No hay ensayos clínicos y la literatura recuperada es general (revisiones y gu�
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 15 autorizaciones vigentes (todas de medicamentos de un solo principio activo; ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b) |
 
 <!-- review:end log -->
 

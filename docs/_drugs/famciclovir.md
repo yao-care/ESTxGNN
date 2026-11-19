@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **neuralgia postinfecciosa
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, famciclovir es un profármaco del penciclovir, que en su forma trifosfato inhibe la ADN polimerasa del virus varicela-zóster (VZV). Esta es la base de su eficacia en el herpes zóster.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Famciclovir (traducción no oficial): «El famciclovir es un profármaco de administración oral del agente antiviral contra los alfaherpesvirus penciclovir.» Texto original en inglés: "Famciclovir is an orally administered prodrug of the anti-alpha herpes viral agent penciclovir." ([DailyMed: famciclovir prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c44b8d2-3b70-4e8b-af03-2e917178f761), versión del 2026-11-13; consultado el 2026-11-19). Según la información conocida, famciclovir es un profármaco del penciclovir, que en su forma trifosfato inhibe la ADN polimerasa del virus varicela-zóster (VZV). Esta es la base de su eficacia en el herpes zóster.
 
 La neuralgia postherpética es la complicación más frecuente del herpes zóster y persiste más de 90 días tras resolverse el episodio agudo. Mecanísticamente, el tratamiento antiviral temprano podría reducir la gravedad del episodio agudo y, posiblemente, el riesgo de neuralgia posterior.
 
@@ -120,11 +120,12 @@ Estos estudios son de zóster o de farmacocinética/seguridad, no ensayos de efi
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 13 autorizaciones vigentes (todas de medicamentos con un único principio activo; ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: famciclovir prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c44b8d2-3b70-4e8b-af03-2e917178f761) |
 
 <!-- review:end log -->
 

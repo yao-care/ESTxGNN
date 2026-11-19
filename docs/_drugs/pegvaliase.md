@@ -72,7 +72,7 @@ Otras predicciones del modelo, con el mismo nivel de evidencia (L5) y recomendac
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, pegvaliasa es una fenilalanina amoníaco liasa pegilada que degrada la fenilalanina y está comercializada para la fenilcetonuria. No obstante, la indicación original no figura en los textos de autorización disponibles.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pegvaliase (traducción no oficial): «La pegvaliasa-pqpz es una enzima fenilalanina amoníaco liasa (PAL) pegilada que convierte la fenilalanina en amoníaco y ácido trans -cinámico. Sustituye la actividad deficiente de la enzima fenilalanina hidroxilasa (PAH) en pacientes con PKU y reduce las concentraciones sanguíneas de fenilalanina.» Texto original en inglés: "Pegvaliase-pqpz is a PEGylated phenylalanine ammonia lyase (PAL) enzyme that converts phenylalanine to ammonia and trans -cinnamic acid. It substitutes for the deficient phenylalanine hydroxylase (PAH) enzyme activity in patients with PKU and reduces blood phenylalanine concentrations." ([DailyMed: Palynziq (pegvaliase-pqpz) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dba844a-db02-44f8-8593-ce497ed9406c), versión del 2026-03-02; consultado el 2026-11-19). Según la información conocida, pegvaliasa es una fenilalanina amoníaco liasa pegilada que degrada la fenilalanina y está comercializada para la fenilcetonuria. No obstante, la indicación original no figura en los textos de autorización disponibles.
 
 **Los datos compilados no respaldan un vínculo mecanístico** entre esta enzima y la retinopatía diabética. El puntaje elevado (0,9917) es una predicción del modelo TxGNN (aprendizaje profundo) y no constituye evidencia clínica. Una hipótesis meramente especulativa sería que la alteración del metabolismo de aminoácidos influya en las vías vasculares o neurodegenerativas de la retina, pero no hay datos que la sustenten.
 
@@ -134,11 +134,12 @@ La predicción es exclusivamente computacional (nivel L5), sin ensayos clínicos
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y está comercializada en España con el nombre PALYNZIQ" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Palynziq (pegvaliase-pqpz) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dba844a-db02-44f8-8593-ce497ed9406c) |
 
 <!-- review:end log -->
 

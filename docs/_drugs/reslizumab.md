@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, reslizumab es un anticuerpo monoclonal que bloquea la interleucina-5 (IL-5), la principal señal de supervivencia de los eosinófilos, y su uso se relaciona con enfermedades eosinofílicas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Reslizumab (traducción no oficial): «Reslizumab es un antagonista de la interleucina 5 (IgG4, kappa). La IL-5 es la principal citocina responsable del crecimiento y la diferenciación, el reclutamiento, la activación y la supervivencia de los eosinófilos. Reslizumab se une a la IL-5 con una constante de disociación de 81 pM e inhibe la bioactividad de la IL-5 al bloquear su unión a la cadena alfa del complejo del receptor de IL-5 expresado en la superficie de los eosinófilos.» Texto original en inglés: "Reslizumab is an interleukin-5 antagonist (IgG4, kappa). IL-5 is the major cytokine responsible for the growth and differentiation, recruitment, activation, and survival of eosinophils. Reslizumab binds to IL-5 with a dissociation constant of 81 pM, inhibiting the bioactivity of IL-5 by blocking its binding to the alpha chain of the IL-5 receptor complex expressed on the eosinophil surface." ([DailyMed: Cinqair (reslizumab) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=053b9158-2a5b-48b9-bf47-5fa78a35ec33), versión del 2020-02-29; consultado el 2026-11-19). Según la información conocida, reslizumab es un anticuerpo monoclonal que bloquea la interleucina-5 (IL-5), la principal señal de supervivencia de los eosinófilos, y su uso se relaciona con enfermedades eosinofílicas.
 
 No existe un mecanismo establecido que vincule el bloqueo de IL-5 con la destrucción inmune de plaquetas. La trombocitopenia inmune (por ejemplo, la PTI) se debe principalmente a autoanticuerpos, desregulación de linfocitos T y aclaramiento mediado por macrófagos. Una posible conexión, de carácter especulativo, sería la reducción de la inflamación asociada a eosinófilos en trombocitopenias inmunes secundarias con eosinofilia.
 
@@ -93,6 +93,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Revisión de literatura específica sobre IL-5/eosinófilos en trombocitopenia inmune.
 - Evaluar hipótesis mecanística (p. ej., trombocitopenia inmune secundaria con eosinofilia) y, de ser plausible, estudios preclínicos o de mecanismo.
 - Evaluar la compatibilidad de la vía de administración (actualmente pendiente).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cinqair (reslizumab) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=053b9158-2a5b-48b9-bf47-5fa78a35ec33) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

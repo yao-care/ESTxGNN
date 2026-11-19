@@ -60,7 +60,7 @@ pero actualmente hay **0 ensayos clínicos** y **1 publicación** de apoyo indir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado oficialmente. Según la información farmacológica compilada, vortioxetina actúa sobre el transportador de serotonina (SERT) y sobre varios receptores serotoninérgicos (5-HT1A, 5-HT1B, 5-HT1D, 5-HT3, 5-HT5A, 5-HT6 y 5-HT7). Este perfil multimodal explica su efecto antidepresivo y es plausiblemente relevante en cuadros ansioso-depresivos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Vortioxetine (traducción no oficial): «El mecanismo del efecto antidepresivo de la vortioxetina no se comprende completamente, pero se cree que está relacionado con su potenciación de la actividad serotoninérgica en el SNC mediante la inhibición de la recaptación de serotonina (5-HT). También tiene otras actividades, entre ellas el antagonismo del receptor 5-HT3 y el agonismo del receptor 5-HT1A.» Texto original en inglés: "The mechanism of the antidepressant effect of vortioxetine is not fully understood, but is thought to be related to its enhancement of serotonergic activity in the CNS through inhibition of the reuptake of serotonin (5-HT). It also has several other activities including 5-HT3 receptor antagonism and 5-HT1A receptor agonism." ([DailyMed: Trintellix (vortioxetine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd0107e5-1cb9-4b40-a6af-fa65fcbe6b4e), versión del 2026-04-23; consultado el 2026-11-19). Según la información farmacológica compilada, vortioxetina actúa sobre el transportador de serotonina (SERT) y sobre varios receptores serotoninérgicos (5-HT1A, 5-HT1B, 5-HT1D, 5-HT3, 5-HT5A, 5-HT6 y 5-HT7). Este perfil multimodal explica su efecto antidepresivo y es plausiblemente relevante en cuadros ansioso-depresivos.
 
 "Trastorno neurótico" es una categoría clásica y en desuso que agrupa cuadros como la depresión neurótica y los estados de ansiedad. Se solapa en gran medida con las indicaciones ya establecidas de vortioxetina (depresión y trastorno de ansiedad). Por ello, el puntaje alto del modelo probablemente refleja la cercanía semántica con las indicaciones aprobadas y no un uso terapéutico realmente nuevo.
 
@@ -114,6 +114,19 @@ La indicación predicha es una categoría diagnóstica obsoleta que se solapa co
 - Obtener las advertencias y contraindicaciones del prospecto de la AEMPS, que no están disponibles actualmente.
 - Disponer de datos formales del mecanismo de acción.
 - Si se busca un reposicionamiento con más sustento, valorar otras predicciones del modelo, por ejemplo melancolía, que cuenta con 6 ensayos clínicos de fase 2/3 en trastorno depresivo mayor. Esa evidencia es de uso en indicación aprobada y no específica del subtipo melancólico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Trintellix (vortioxetine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd0107e5-1cb9-4b40-a6af-fa65fcbe6b4e) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

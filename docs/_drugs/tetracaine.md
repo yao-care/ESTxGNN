@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para **acrodermatitis crónica 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la tetracaína es un anestésico local de tipo éster que actúa bloqueando los canales de sodio, con efecto sintomático (anestesia tópica o espinal), y su uso en dermatitis se relaciona con el alivio local de síntomas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tetracaine (traducción no oficial): «La tetracaína bloquea los canales de iones de sodio necesarios para el inicio y la conducción de los impulsos neuronales, produciendo así anestesia local.» Texto original en inglés: "Tetracaine blocks sodium ion channels required for the initiation and conduction of neuronal impulses thereby affecting local anesthesia." ([DailyMed: tetracaine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01fba5f8-a60a-444c-9abd-299540b8815a), versión del 2026-08-28; consultado el 2026-11-19). Según la información conocida, la tetracaína es un anestésico local de tipo éster que actúa bloqueando los canales de sodio, con efecto sintomático (anestesia tópica o espinal), y su uso en dermatitis se relaciona con el alivio local de síntomas.
 
 Para la acrodermatitis crónica atrófica, sin embargo, **no se identifica un vínculo mecanístico plausible**. Esta enfermedad es una infección cutánea tardía por *Borrelia*, y la tetracaína no tiene actividad antimicrobiana relevante. El puntaje elevado (0.9993) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -101,6 +101,19 @@ La predicción es solo del modelo (L5), sin ensayos ni literatura, y no existe u
 - Evaluar la compatibilidad de vías de administración (pendiente).
 
 **Nota sobre otras predicciones:** entre las demás indicaciones predichas, ninguna justifica avanzar. Los datos para acné queloide (L4) se refieren a analgesia durante procedimientos con láser, no al tratamiento de la enfermedad. La literatura sobre síndrome de cauda equina describe a la tetracaína como **causa** de neurotoxicidad, por lo que esa predicción refleja un efecto adverso y no un uso terapéutico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: tetracaine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01fba5f8-a60a-444c-9abd-299540b8815a) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

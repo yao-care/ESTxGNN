@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femeni
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, cabazitaxel es un taxano semisintético que estabiliza los microtúbulos y bloquea la dinámica del huso mitótico, lo que provoca la detención del ciclo celular y apoptosis.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cabazitaxel (traducción no oficial): «El cabazitaxel es un inhibidor de los microtúbulos. El cabazitaxel se une a la tubulina y promueve su ensamblaje en microtúbulos, a la vez que inhibe su desensamblaje. Esto conduce a la estabilización de los microtúbulos, lo que da lugar a la inhibición de las funciones celulares mitóticas y de interfase.» Texto original en inglés: "Cabazitaxel is a microtubule inhibitor. Cabazitaxel binds to tubulin and promotes its assembly into microtubules while simultaneously inhibiting disassembly. This leads to the stabilization of microtubules, which results in the inhibition of mitotic and interphase cellular functions." ([DailyMed: Jevtana (cabazitaxel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de3d9c26-572b-4ea4-9b2d-dd58a2b3e8fa), versión del 2025-10-07; consultado el 2026-11-19). Según la información conocida, cabazitaxel es un taxano semisintético que estabiliza los microtúbulos y bloquea la dinámica del huso mitótico, lo que provoca la detención del ciclo celular y apoptosis.
 
 Este mecanismo es compartido con otros taxanos (paclitaxel y docetaxel), que ya son tratamientos establecidos en cáncer de mama. Además, cabazitaxel es un mal sustrato de la bomba de eflujo P-gp, por lo que podría superar parte de la resistencia a taxanos, un argumento plausible en cáncer de mama.
 
@@ -154,11 +154,12 @@ La predicción para carcinoma de mama es mecanísticamente plausible y existe un
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se listan 5 de las 15 autorizaciones vigentes (todas de medicamentos con un único principio activo)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Jevtana (cabazitaxel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de3d9c26-572b-4ea4-9b2d-dd58a2b3e8fa) |
 
 <!-- review:end log -->
 

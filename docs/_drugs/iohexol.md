@@ -60,7 +60,7 @@ La predicción carece de plausibilidad biológica y debe considerarse un probabl
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, iohexol es un medio de contraste yodado, no iónico e hidrosoluble, que actúa por atenuación de los rayos X y es farmacológicamente inerte.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Iohexol (traducción no oficial): «Los átomos de yodo del iohexol atenúan los rayos X en proporción directa a la concentración de iohexol. Dado que la concentración varía con el tiempo, el iohexol proporciona un contraste de imagen dependiente del tiempo que puede ayudar a visualizar las estructuras corporales.» Texto original en inglés: "The iodine atoms in iohexol provide attenuation of X-rays in direct proportion to the concentration of iohexol. Since concentration changes over time, iohexol provides time-dependent image contrast which may assist in visualizing body structures." ([DailyMed: Omnipaque (iohexol) prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=508c42eb-f5e5-44f1-e063-6294a90a4d1f), versión del 2026-04-28; consultado el 2026-11-19). Según la información conocida, iohexol es un medio de contraste yodado, no iónico e hidrosoluble, que actúa por atenuación de los rayos X y es farmacológicamente inerte.
 
 No se identifica un vínculo mecanístico con el insomnio. Iohexol no tiene actividad conocida sobre las vías que regulan el sueño (GABAérgica, orexinérgica, melatoninérgica o monoaminérgica). La relación con su uso original (diagnóstico por imagen) tampoco se traslada a un efecto terapéutico sobre el sueño.
 
@@ -123,6 +123,19 @@ La predicción es solo computacional (nivel L5): no hay ensayos ni literatura, y
 - Advertencias y contraindicaciones del prospecto, para completar el cribado de seguridad
 - Una hipótesis mecanística y evidencia preclínica que justifiquen el insomnio antes de reconsiderar la candidatura
 - Valorar si el sistema debe filtrar predicciones de agentes de diagnóstico farmacológicamente inertes
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Omnipaque (iohexol) prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=508c42eb-f5e5-44f1-e063-6294a90a4d1f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

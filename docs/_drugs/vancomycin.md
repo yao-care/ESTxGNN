@@ -60,7 +60,7 @@ La evidencia es únicamente computacional y la predicción carece de plausibilid
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la vancomicina es un antibiótico glucopéptido que inhibe la síntesis de la pared celular de bacterias grampositivas, y su eficacia en infecciones por grampositivos y colitis por *C. difficile* está bien establecida.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Vancomycin (traducción no oficial): «La vancomicina es un fármaco antibacteriano. […] La acción bactericida de la vancomicina se debe principalmente a la inhibición de la biosíntesis de la pared celular. Además, la vancomicina altera la permeabilidad de la membrana celular bacteriana y la síntesis de ARN.» Texto original en inglés: "Vancomycin is an antibacterial drug. […] The bactericidal action of vancomycin results primarily from inhibition of cell-wall biosynthesis. In addition, vancomycin alters bacterial-cell-membrane permeability and RNA synthesis." ([DailyMed: Tyzavan (vancomycin) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e9c5e2-07cc-4a8b-ba64-b2e7619ea560), versión del 2026-08-19; consultado el 2026-11-19). Según la información conocida, la vancomicina es un antibiótico glucopéptido que inhibe la síntesis de la pared celular de bacterias grampositivas, y su eficacia en infecciones por grampositivos y colitis por *C. difficile* está bien establecida.
 
 Sin embargo, **la predicción no resulta razonable desde el punto de vista biológico**. La esclerodermia difusa (esclerosis sistémica) es una enfermedad autoinmune y fibrótica, sin un componente bacteriano que la vancomicina pueda tratar. El análisis de los datos indica que no existe un vínculo mecanístico plausible y que el puntaje alto de TxGNN parece ser un artefacto del modelo TxGNN (aprendizaje profundo).
 
@@ -125,11 +125,12 @@ La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos cl
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes, todas de principio activo único" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tyzavan (vancomycin) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e9c5e2-07cc-4a8b-ba64-b2e7619ea560) |
 
 <!-- review:end log -->
 

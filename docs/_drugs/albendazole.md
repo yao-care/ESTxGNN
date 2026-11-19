@@ -56,7 +56,7 @@ con **9 ensayos clínicos** (todos en neurocisticercosis, ninguno en cenurosis) 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, albendazol pertenece a la clase de los benzimidazoles antihelmínticos, que actúan inhibiendo la beta-tubulina del parásito.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Albendazole (traducción no oficial): «ALBENZA (albendazol) es un fármaco antihelmíntico sintético de la clase de los bencimidazoles. […] ALBENZA se une al sitio sensible a la colchicina de la β-tubulina e inhibe su polimerización en microtúbulos. La disminución de los microtúbulos en las células intestinales de los parásitos reduce su función de absorción, en especial la captación de glucosa por las formas adultas y larvarias de los parásitos, y también agota las reservas de glucógeno.» Texto original en inglés: "ALBENZA (albendazole) is a synthetic, antihelminthic drug of the class benzimidazole. […] ALBENZA binds to the colchicine-sensitive site of β-tubulin inhibiting their polymerization into microtubules. The decrease in microtubules in the intestinal cells of the parasites decreases their absorptive function, especially the uptake of glucose by the adult and larval forms of the parasites, and also depletes glycogen storage." ([DailyMed: Albenza (albendazole) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1977a867-0ee1-44c0-8da3-fe59c48699f5), versión del 2019-09-23; consultado el 2026-11-19). Según la información conocida, albendazol pertenece a la clase de los benzimidazoles antihelmínticos, que actúan inhibiendo la beta-tubulina del parásito.
 
 La cenurosis está causada por larvas de *Taenia multiceps* y especies relacionadas, un cestodo muy próximo a *Taenia solium*, agente de la neurocisticercosis. Dado que el mecanismo se dirige a las larvas de cestodos, es plausible que sea aplicable también a la cenurosis.
 
@@ -117,6 +117,18 @@ Ningún ensayo ni publicación estudia directamente la cenurosis; la evidencia p
 - Datos del mecanismo de acción del fármaco.
 - Advertencias y contraindicaciones del prospecto, hoy no disponibles, para el análisis de seguridad.
 - Revisión de las interacciones farmacológicas relevantes.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Albenza (albendazole) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1977a867-0ee1-44c0-8da3-fe59c48699f5) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

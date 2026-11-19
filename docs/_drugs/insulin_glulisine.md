@@ -60,7 +60,7 @@ Cabe señalar que la diabetes tipo 1 ya está dentro del alcance de la indicaci�
 
 ## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la insulina glulisina es un análogo de insulina humana de acción rápida que se une al receptor de insulina, favorece la captación periférica de glucosa y suprime la producción hepática de glucosa. Su perfil farmacocinético se caracteriza por un inicio de acción más rápido y una duración más corta que la insulina humana regular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Insulin Glulisine (traducción no oficial): «La regulación del metabolismo de la glucosa es la actividad principal de las insulinas y los análogos de insulina, incluida la insulina glulisina. Las insulinas disminuyen la glucemia al estimular la captación periférica de glucosa por el músculo esquelético y el tejido adiposo, y al inhibir la producción hepática de glucosa.» Texto original en inglés: "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin glulisine. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa), versión del 2025-11-25; consultado el 2026-11-19). Según la información conocida, la insulina glulisina es un análogo de insulina humana de acción rápida que se une al receptor de insulina, favorece la captación periférica de glucosa y suprime la producción hepática de glucosa. Su perfil farmacocinético se caracteriza por un inicio de acción más rápido y una duración más corta que la insulina humana regular.
 
 Es importante subrayar que esta predicción no constituye un reposicionamiento genuino: la diabetes tipo 1 queda comprendida dentro de la indicación original de diabetes mellitus. Las demás indicaciones predichas (rangos 2 a 10) tienen únicamente respaldo del modelo (L4-L5), sin ensayos ni literatura, y varias parecen reflejar comorbilidad (síndrome de la persona rígida) o incluso un efecto adverso conocido de la insulina (lipodistrofia localizada), por lo que no se consideran oportunidades terapéuticas.
 
@@ -156,11 +156,12 @@ Existe un amplio cuerpo de ensayos clínicos (incluidos varios de Fase 3 en DM1)
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Las cinco autorizaciones están vigentes, son de monofármaco y pertenecen a Sanofi-Aventis Deutschland GmbH" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa) |
 
 <!-- review:end log -->
 

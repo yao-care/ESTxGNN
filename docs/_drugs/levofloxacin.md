@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **queratoconjuntivitis epi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Levofloxacino inhibe la ADN girasa y la topoisomerasa IV bacterianas, lo que impide la replicación del ADN de la bacteria. No se dispone de datos detallados del mecanismo de acción en los datos compilados para este informe, pero esta es la acción conocida de la clase.
+Levofloxacino inhibe la ADN girasa y la topoisomerasa IV bacterianas, lo que impide la replicación del ADN de la bacteria. Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Levofloxacin (traducción no oficial): «La levofloxacina es un miembro de la clase de agentes antibacterianos de las fluoroquinolonas. […] La levofloxacina es el isómero L del racemato ofloxacina, un agente antimicrobiano quinolónico. La actividad antibacteriana de la ofloxacina reside principalmente en el isómero L. El mecanismo de acción de la levofloxacina y de otros antimicrobianos fluoroquinolónicos implica la inhibición de la topoisomerasa IV bacteriana y de la ADN girasa (ambas topoisomerasas de tipo II), enzimas necesarias para la replicación, la transcripción, la reparación y la recombinación del ADN.» Texto original en inglés: "Levofloxacin is a member of the fluoroquinolone class of antibacterial agents. […] Levofloxacin is the L-isomer of the racemate, ofloxacin, a quinolone antimicrobial agent. The antibacterial activity of ofloxacin resides primarily in the L-isomer. The mechanism of action of levofloxacin and other fluoroquinolone antimicrobials involves inhibition of bacterial topoisomerase IV and DNA gyrase (both of which are type II topoisomerases), enzymes required for DNA replication, transcription, repair and recombination." ([DailyMed: levofloxacin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814450ae-439e-4a5d-8c60-9b21b6f14be5), versión del 2026-11-05; consultado el 2026-11-19).
 
 Existe una lógica antiinfecciosa ocular general, ya que el fármaco se utiliza en conjuntivitis bacterianas. Sin embargo, el único artículo recuperado describe un brote de queratoconjuntivitis por microsporidios, patógenos frente a los cuales las fluoroquinolonas no tienen actividad establecida. No hay evidencia directa que respalde su uso en la queratoconjuntivitis epitelial punteada.
 
@@ -100,6 +100,18 @@ La predicción se basa solo en el modelo; el único artículo disponible trata d
 - Definir la etiología (viral, bacteriana u otra) de los casos objetivo
 - Datos del mecanismo de acción y de las advertencias y contraindicaciones del prospecto
 - Evaluación de la formulación oftálmica y de la vía de administración adecuada
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: levofloxacin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814450ae-439e-4a5d-8c60-9b21b6f14be5) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

@@ -56,7 +56,7 @@ con **1 ensayo clínico** (de relevancia baja) y **2 publicaciones** que actualm
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general, febuxostat es un inhibidor selectivo no purínico de la xantina oxidasa que reduce el ácido úrico sérico, y su eficacia en hiperuricemia y gota está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Febuxostat (traducción no oficial): «ULORIC, un inhibidor de la xantina oxidasa, logra su efecto terapéutico al disminuir el ácido úrico sérico. No se espera que ULORIC inhiba otras enzimas implicadas en la síntesis y el metabolismo de las purinas y las pirimidinas a concentraciones terapéuticas.» Texto original en inglés: "ULORIC, a xanthine oxidase inhibitor, achieves its therapeutic effect by decreasing serum uric acid. ULORIC is not expected to inhibit other enzymes involved in purine and pyrimidine synthesis and metabolism at therapeutic concentrations." ([DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd), versión del 2025-12-24; consultado el 2026-11-19). Según el conocimiento general, febuxostat es un inhibidor selectivo no purínico de la xantina oxidasa que reduce el ácido úrico sérico, y su eficacia en hiperuricemia y gota está bien establecida.
 
 Sin embargo, **la predicción es mecanísticamente cuestionable**. La hipouricemia renal es una condición de urato sérico ya bajo, causada por una reabsorción renal defectuosa de urato (pérdida de función de URAT1/SLC22A12 o GLUT9/SLC2A9). Reducir aún más el urato no corrige el defecto de fondo. Es probable que la puntuación del modelo se deba a la proximidad en la red a genes del metabolismo del urato y no a una razón terapéutica.
 
@@ -121,11 +121,12 @@ La predicción principal (hipouricemia renal) carece de racionalidad mecanístic
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas monofármaco, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd) |
 
 <!-- review:end log -->
 

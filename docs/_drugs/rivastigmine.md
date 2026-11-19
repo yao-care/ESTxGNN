@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **glaucoma**, aunque por a
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Rivastigmina inhibe dos enzimas: la acetilcolinesterasa y la butirilcolinesterasa. Al bloquearlas, aumenta la acetilcolina disponible y refuerza la señal colinérgica. No se dispone de datos curados sobre su mecanismo de acción original, por lo que esta descripción se infiere a partir de sus dianas farmacológicas y de su clase.
+Rivastigmina inhibe dos enzimas: la acetilcolinesterasa y la butirilcolinesterasa. Al bloquearlas, aumenta la acetilcolina disponible y refuerza la señal colinérgica. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rivastigmine (traducción no oficial): «Aunque se desconoce el mecanismo de acción exacto de la rivastigmina, se cree que ejerce su efecto terapéutico potenciando la función colinérgica. Esto se logra aumentando la concentración de acetilcolina mediante la inhibición reversible de su hidrólisis por la colinesterasa.» Texto original en inglés: "Although the precise mechanism of action of rivastigmine is unknown, it is thought to exert its therapeutic effect by enhancing cholinergic function. This is accomplished by increasing the concentration of acetylcholine through reversible inhibition of its hydrolysis by cholinesterase." ([DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d), versión del 2025-11-11; consultado el 2026-11-19).
 
 En el ojo, un mayor tono colinérgico puede favorecer la contracción del músculo ciliar y facilitar el drenaje del humor acuoso a través de la malla trabecular. Es el mismo principio de los agentes mióticos colinérgicos, como pilocarpina o fisostigmina, usados históricamente para reducir la presión intraocular (PIO). Un estudio preclínico en conejos (2000) observó que la rivastigmina tópica redujo la PIO, lo que apoya la plausibilidad biológica.
 
@@ -117,11 +117,12 @@ La evidencia se limita a un estudio animal y a revisiones, sin ensayos en humano
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se registran 20 autorizaciones vigentes, todas de principio activo único" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d) |
 
 <!-- review:end log -->
 

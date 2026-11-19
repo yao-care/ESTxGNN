@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, paliperidona (metabolito activo de la risperidona) actúa como antagonista de los receptores dopaminérgicos D2 y serotoninérgicos 5-HT2A, y su eficacia en esquizofrenia y trastorno esquizoafectivo está establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Paliperidone (traducción no oficial): «La paliperidona es el principal metabolito activo de la risperidona. El mecanismo de acción de la paliperidona en la esquizofrenia no está claro. Sin embargo, el efecto terapéutico del fármaco en la esquizofrenia podría estar mediado por una combinación de antagonismo de los receptores centrales de dopamina de tipo 2 (D 2 ) y de serotonina de tipo 2 (5HT 2A ).» Texto original en inglés: "Paliperidone is the major active metabolite of risperidone. The mechanism of action of paliperidone in schizophrenia is unclear. However, the drug's therapeutic effect in schizophrenia could be mediated through a combination of central dopamine Type 2 (D 2 ) and serotonin Type 2 (5HT 2A ) receptor antagonism." ([DailyMed: Invega (paliperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916), versión del 2025-01-31; consultado el 2026-11-19). Según el conocimiento general, paliperidona (metabolito activo de la risperidona) actúa como antagonista de los receptores dopaminérgicos D2 y serotoninérgicos 5-HT2A, y su eficacia en esquizofrenia y trastorno esquizoafectivo está establecida.
 
 Con la información disponible, **no se identifica un vínculo mecanístico plausible** entre este perfil farmacológico y la fisiopatología de las distrofias retinianas hereditarias, que son enfermedades de origen genético. El puntaje del modelo es muy alto (0.9992), pero proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; carece de respaldo clínico ni bibliográfico. Las otras predicciones de mayor puntaje (miopía ligada al X, hidranencefalia, enfermedad de Charcot-Marie-Tooth, entre otras) presentan la misma limitación.
 
@@ -102,6 +102,19 @@ La predicción para distrofia retiniana carece de ensayos clínicos, literatura 
 - Obtención y análisis de las advertencias y contraindicaciones del prospecto de la AEMPS
 - Evaluación de la compatibilidad de vías de administración para uso oftalmológico
 - Reconsiderar candidatos con más respaldo: la única predicción con estudios asociados es la esquizofrenia resistente al tratamiento (L4), pero es una subpoblación de la indicación ya aprobada, no un reposicionamiento real
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Invega (paliperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -57,7 +57,7 @@ El modelo TxGNN predice que podría ser efectivo para el **déficit adquirido de
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, emicizumab es un anticuerpo biespecífico que une el factor IX activado (FIXa) y el factor X (FX), imitando la función del factor VIII activado (FVIIIa). Se une a FIXa con una constante de afinidad (KD) de 1,52 µM y a FXa con una KD de 0,98 µM.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Emicizumab (traducción no oficial): «HEMLIBRA establece un puente entre el factor IX activado y el factor X para restablecer la función del factor VIII activado ausente, que es necesario para una hemostasia eficaz.» Texto original en inglés: "HEMLIBRA bridges activated factor IX and factor X to restore the function of missing activated factor VIII that is needed for effective hemostasis." ([DailyMed: Hemlibra (emicizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2483adba-fab6-4d1b-96c5-c195577ed071), versión del 2025-07-11; consultado el 2026-11-19). Según la información conocida, emicizumab es un anticuerpo biespecífico que une el factor IX activado (FIXa) y el factor X (FX), imitando la función del factor VIII activado (FVIIIa). Se une a FIXa con una constante de afinidad (KD) de 1,52 µM y a FXa con una KD de 0,98 µM.
 
 En la hemofilia A congénita falta el FVIII; en la hemofilia A adquirida, autoanticuerpos neutralizan el FVIII endógeno. Como emicizumab no depende del FVIII y no es neutralizado por estos inhibidores, existe una justificación mecanística directa. De hecho, ya está aprobado para hemofilia A congénita con o sin inhibidores, y en Japón se ha estudiado en fase 3 para la hemofilia A adquirida.
 
@@ -133,6 +133,18 @@ Hay estudios prospectivos de fase 2/3 (GTH-AHA-EMI, estudio japonés de fase III
 | Púrpura trombótica trombocitopénica | 0.9961 | L5 | Posiblemente dañino por riesgo trombótico; probable falso positivo |
 | Trombocitopenia aloinmune fetal y neonatal | 0.9952 | L5 | Mecanismo inmunitario no abordado |
 | "Flood factor deficiency" | 0.9940 | L5 | Nombre ambiguo; requiere aclaración |
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Hemlibra (emicizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2483adba-fab6-4d1b-96c5-c195577ed071) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

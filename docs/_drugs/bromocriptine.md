@@ -56,7 +56,7 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información farmacológica conocida, la bromocriptina actúa principalmente como agonista del receptor dopaminérgico D2, con actividad adicional sobre otros receptores dopaminérgicos, serotoninérgicos y adrenérgicos α2.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Bromocriptine (traducción no oficial): «CYCLOSET contiene mesilato de bromocriptina, un agonista simpaticolítico del receptor de dopamina D2. En pacientes con diabetes tipo 2, la administración de CYCLOSET programada por la mañana se asocia con un aumento de la sensibilidad a la insulina y de la eliminación de glucosa, y con una reducción de la hiperglucemia en ayunas y posprandial a lo largo de las comidas del día, sin elevar las concentraciones plasmáticas de insulina.» Texto original en inglés: "CYCLOSET contains bromocriptine mesylate, a sympatholytic, dopamine D2 receptor agonist. In patients with type 2 diabetes, timed morning administration of CYCLOSET is associated with increased insulin sensitivity and glucose disposal and reduced fasting and postprandial hyperglycemia throughout the meals of the day without raising plasma insulin levels." ([DailyMed: Cycloset (bromocriptine mesylate) prescribing information, Avvisto Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e42ba916-16b9-4d1c-8d09-9d2fbb1b6c20), versión del 2026-01-12; consultado el 2026-11-19). Según la información farmacológica conocida, la bromocriptina actúa principalmente como agonista del receptor dopaminérgico D2, con actividad adicional sobre otros receptores dopaminérgicos, serotoninérgicos y adrenérgicos α2.
 
 No se ha identificado un vínculo mecanístico entre el agonismo dopaminérgico y las vías de fucosilación implicadas en este trastorno de la glicosilación. El puntaje de TxGNN es muy alto (0,9983), pero refleja una predicción puramente computacional, sin respaldo de estudios clínicos ni de literatura.
 
@@ -95,6 +95,19 @@ La predicción no cuenta con ensayos clínicos ni publicaciones, y no se ha iden
 - Datos preclínicos en modelos celulares o animales del trastorno
 - Revisión del prospecto para completar el perfil de seguridad (advertencias y contraindicaciones)
 - Datos detallados del mecanismo de acción del fármaco
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cycloset (bromocriptine mesylate) prescribing information, Avvisto Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e42ba916-16b9-4d1c-8d09-9d2fbb1b6c20) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

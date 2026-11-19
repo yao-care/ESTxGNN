@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertermia maligna indu
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información farmacológica compilada, la metirapona actúa sobre CYP11B1 (11-beta-hidroxilasa) y CYP11B2 (aldosterona sintasa), con lo que bloquea la síntesis de cortisol.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Metyrapone (traducción no oficial): «El efecto farmacológico de Metopirone consiste en reducir la producción de cortisol y corticosterona mediante la inhibición de la reacción de 11-beta-hidroxilación en la corteza suprarrenal. La eliminación del potente mecanismo de retroalimentación inhibitoria ejercido por el cortisol da lugar a un aumento de la producción de hormona adrenocorticotrópica (ACTH) por parte de la hipófisis.» Texto original en inglés: "The pharmacological effect of Metopirone is to reduce cortisol and corticosterone production by inhibiting the 11-beta-hydroxylation reaction in the adrenal cortex. Removal of the strong inhibitory feedback mechanism exerted by cortisol results in an increase in adrenocorticotropic hormone (ACTH) production by the pituitary." ([DailyMed: Metopirone (metyrapone) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4046b167-7a46-8f4a-e063-6394a90a147f), versión del 2026-05-19; consultado el 2026-11-19). Según la información farmacológica compilada, la metirapona actúa sobre CYP11B1 (11-beta-hidroxilasa) y CYP11B2 (aldosterona sintasa), con lo que bloquea la síntesis de cortisol.
 
 **En este caso, la predicción no resulta biológicamente plausible.** La hipertermia maligna depende de una liberación desregulada de calcio en el músculo esquelético (variantes de RYR1), una vía sin relación con la esteroidogénesis suprarrenal. El análisis no identifica ningún vínculo mecanístico establecido. El puntaje alto proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -101,6 +101,19 @@ La predicción se apoya únicamente en el modelo (L5), sin ensayos ni literatura
 - Obtener y analizar el prospecto de la AEMPS (indicaciones, advertencias y contraindicaciones oficiales).
 - Datos del mecanismo de acción confirmados en DrugBank.
 - Si se desea explorar la parálisis periódica, revisar el texto completo de la publicación de 1971 y valorar su relevancia real.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Metopirone (metyrapone) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4046b167-7a46-8f4a-e063-6394a90a147f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **candidiasis vulvovaginal
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la idoxuridina es un análogo nucleosídico de la timidina que inhibe la síntesis de ADN viral, y su eficacia se ha establecido en infecciones por herpes simple de uso tópico (queratitis).
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Idoxuridine es (traducción no oficial): «Inhibidor del ADN» Texto original en inglés: "DNA inhibitor" ([ChEMBL CHEMBL788 (idoxuridine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL788), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la idoxuridina es un análogo nucleosídico de la timidina que inhibe la síntesis de ADN viral, y su eficacia se ha establecido en infecciones por herpes simple de uso tópico (queratitis).
 
 Para la candidiasis vulvovaginal, **la plausibilidad mecanística es baja**. *Candida* es un hongo, y un antiviral análogo de la timidina no tiene una actividad antifúngica directa conocida. El puntaje alto (0.9992) refleja una asociación derivada de la red de conocimiento, no una evidencia biológica o clínica. Además, existen tratamientos antifúngicos estándar bien establecidos.
 
@@ -112,11 +112,12 @@ La predicción para candidiasis vulvovaginal se apoya únicamente en el puntaje 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Las tres autorizaciones están vigentes, son de un solo principio activo y pertenecen a Laboratorios Viñas S.A. Todas son de uso cutáneo/tópi" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL788 (idoxuridine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL788) |
 
 <!-- review:end log -->
 

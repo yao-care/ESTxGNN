@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para **esotropía**, pero actua
 
 ## ¿Por qué es Razonable esta Predicción?
 
-La eflornitina inhibe de forma irreversible la ornitina descarboxilasa (ODC, gen *ODC1*), enzima limitante de la biosíntesis de poliaminas. Esta acción explica su uso en la tripanosomiasis africana y en el hirsutismo facial (crema tópica). Los datos compilados indican además usos recientes en neuroblastoma de alto riesgo (autorización de la FDA en diciembre de 2023) y una designación huérfana de la EMA en glioma (2016). No se dispone de datos más detallados del mecanismo de acción en los datos compilados para este informe.
+La eflornitina inhibe de forma irreversible la ornitina descarboxilasa (ODC, gen *ODC1*), enzima limitante de la biosíntesis de poliaminas. Esta acción explica su uso en la tripanosomiasis africana y en el hirsutismo facial (crema tópica). Los datos compilados indican además usos recientes en neuroblastoma de alto riesgo (autorización de la FDA en diciembre de 2023) y una designación huérfana de la EMA en glioma (2016). Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Eflornithine (traducción no oficial): «La eflornitina es un inhibidor irreversible de la enzima ornitina descarboxilasa (ODC), la primera enzima y la enzima limitante de la velocidad en la biosíntesis de poliaminas, y una diana transcripcional de MYCN. Las poliaminas participan en la diferenciación y la proliferación de las células de mamíferos y son importantes para la transformación neoplásica.» Texto original en inglés: "Eflornithine is an irreversible inhibitor of the enzyme ornithine decarboxylase (ODC), the first and rate-limiting enzyme in the biosynthesis of polyamines and a transcriptional target of MYCN. Polyamines are involved in differentiation and proliferation of mammalian cells and are important for neoplastic transformation." ([DailyMed: Iwilfin (eflornithine hydrochloride) prescribing information, USWM, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6716d8cc-66e6-4cee-935c-ccb85ed984f5), versión del 2026-03-26; consultado el 2026-11-19).
 
 La relación entre la indicación original y la esotropía es débil. La esotropía es un trastorno de la alineación ocular causado por factores neuromusculares, refractivos o de visión binocular, y no existe una vía mecanística establecida que conecte la inhibición de la ODC o la depleción de poliaminas con su fisiopatología.
 
@@ -101,6 +101,19 @@ La predicción para esotropía es solo del modelo (nivel L5), sin ensayos clíni
 - Establecer una hipótesis biológica plausible que vincule la inhibición de la ODC con la esotropía, apoyada por estudios preclínicos.
 - Evaluar la compatibilidad de vía de administración (la presentación actual es crema tópica, y está pendiente determinar la vía necesaria para uso oftalmológico).
 - Revisar la literatura y los registros de ensayos para detectar cualquier evidencia directa; si no existe, valorar la queratopatía neurotrófica solo tras aclarar la dirección del efecto.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Iwilfin (eflornithine hydrochloride) prescribing information, USWM, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6716d8cc-66e6-4cee-935c-ccb85ed984f5) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

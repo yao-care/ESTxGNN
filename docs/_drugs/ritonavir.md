@@ -56,7 +56,7 @@ con **0 ensayos clínicos** y **10 publicaciones** preclínicas (modelos animale
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, ritonavir es un inhibidor de la proteasa del VIH-1 y un potente inhibidor de CYP3A4, por lo que se emplea también como potenciador farmacocinético de otros antirretrovirales. Su eficacia en la infección por VIH está comprobada, y mecanísticamente podría ser aplicable a la infección por SIV.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ritonavir (traducción no oficial): «Ritonavir es un fármaco antirretroviral. […] Ritonavir es un inhibidor peptidomimético de la proteasa del VIH-1. La inhibición de la proteasa del VIH impide que la enzima procese el precursor poliproteico Gag-Pol, lo que da lugar a la producción de partículas inmaduras de VIH no infecciosas.» Texto original en inglés: "Ritonavir is an antiretroviral drug. […] Ritonavir is a peptidomimetic inhibitor of the HIV-1 protease. Inhibition of HIV protease renders the enzyme incapable of processing the Gag-Pol polyprotein precursor which leads to production of non-infectious immature HIV particles." ([DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3), versión del 2026-07-23; consultado el 2026-11-19). Según la información conocida, ritonavir es un inhibidor de la proteasa del VIH-1 y un potente inhibidor de CYP3A4, por lo que se emplea también como potenciador farmacocinético de otros antirretrovirales. Su eficacia en la infección por VIH está comprobada, y mecanísticamente podría ser aplicable a la infección por SIV.
 
 El SIV es un lentivirus muy próximo al VIH y posee una proteasa aspártica homóloga. Estudios in vitro indican que el SIVmac239 es inhibido por ritonavir con una concentración efectiva del 50% de unos 13 nM, frente a unos 25 nM para el VIH-1 (PMID 12709355). Esto hace biológicamente plausible la actividad contra el SIV.
 
@@ -110,6 +110,19 @@ Las otras dos predicciones de mayor rango tampoco apoyan un avance: la del SIDA 
 - Obtener los datos del mecanismo de acción desde DrugBank.
 - Valorar si existe una indicación humana distinta del VIH con interés real de reposicionamiento, ya que la predicción actual es esencialmente un modelo animal de una indicación ya aprobada.
 - Evaluar el perfil de riesgo cardiovascular, hepático y metabólico, así como las interacciones, antes de cualquier uso en una nueva población.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

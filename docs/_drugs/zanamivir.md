@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **pielonefritis**, pero no
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, zanamivir es un inhibidor de la neuraminidasa viral con actividad frente a los virus de la gripe A y B, y su uso está establecido en la gripe (por vía inhalada o intravenosa).
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Zanamivir (traducción no oficial): «El zanamivir es un fármaco antiviral con actividad contra el virus de la influenza. […] El zanamivir es un inhibidor de la neuraminidasa (NA) del virus de la influenza, una enzima que libera las partículas virales de la membrana plasmática de las células infectadas y promueve la propagación del virus en las vías respiratorias. En ensayos de inhibición de la neuraminidasa, el zanamivir es activo contra todos los subtipos de la enzima NA, de N1 a N9.» Texto original en inglés: "Zanamivir is an antiviral drug with activity against influenza virus. […] Zanamivir is an inhibitor of influenza virus neuraminidase (NA), an enzyme that releases viral particles from the plasma membrane of infected cells and promotes virus spread in the respiratory tract. In neuraminidase inhibition assays, zanamivir is active against all NA enzyme subtypes N1 to N9." ([DailyMed: Relenza (zanamivir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4e68930-4e6d-4d27-b1f0-abf60d12e28d), versión del 2026-07-23; consultado el 2026-11-19). Según la información conocida, zanamivir es un inhibidor de la neuraminidasa viral con actividad frente a los virus de la gripe A y B, y su uso está establecido en la gripe (por vía inhalada o intravenosa).
 
 Sin embargo, el análisis no identifica un vínculo mecanístico creíble con la pielonefritis. Esta es una infección del riñón de origen predominantemente bacteriano (habitualmente *E. coli*), por lo que un antiviral inhibidor de la neuraminidasa no tiene una diana o vía de acción establecida en este contexto.
 
@@ -101,6 +101,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 ---
 
 **Nota sobre la segunda predicción (trastorno del metabolismo de la tirosina; puntaje TxGNN 0.9902, nivel L5, decisión Hold):** no se identifica ningún vínculo mecanístico, ya que zanamivir no interactúa con las enzimas del catabolismo de la tirosina. Las tres publicaciones recuperadas tratan sobre resistencia antiviral y la neuraminidasa de la gripe, sin relación con esta indicación; probablemente aparecieron por la notación de mutaciones con aminoácidos (por ejemplo, H274Y, N294S). No aportan evidencia clínica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Relenza (zanamivir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4e68930-4e6d-4d27-b1f0-abf60d12e28d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ Esta nueva indicación coincide en la práctica con la indicación original, por
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, el acetato de megestrol es un progestágeno que actúa a través de los receptores de progesterona y glucocorticoides. La terapia con progestágenos es un tratamiento hormonal establecido para el cáncer de endometrio con receptores hormonales positivos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Megestrol Acetate (traducción no oficial): «Varios investigadores han informado sobre la propiedad estimulante del apetito del acetato de megestrol y su posible uso en la caquexia. Actualmente se desconoce el mecanismo preciso por el cual el acetato de megestrol produce efectos en la anorexia y la caquexia.» Texto original en inglés: "Several investigators have reported on the appetite enhancing property of megestrol acetate and its possible use in cachexia. The precise mechanism by which megestrol acetate produces effects in anorexia and cachexia is unknown at the present time." ([DailyMed: megestrol acetate prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc921d5-e423-4379-a345-151e87d13651), versión del 2026-04-14; consultado el 2026-11-19). Según la información conocida, el acetato de megestrol es un progestágeno que actúa a través de los receptores de progesterona y glucocorticoides. La terapia con progestágenos es un tratamiento hormonal establecido para el cáncer de endometrio con receptores hormonales positivos.
 
 La nueva indicación predicha es esencialmente la indicación original, de modo que la alta puntuación del modelo es coherente con el uso clínico conocido. Esto respalda la validez de la predicción, pero no aporta un beneficio de reposicionamiento más allá de la indicación existente.
 
@@ -125,11 +125,12 @@ La indicación predicha coincide con la indicación original, y existe un ensayo
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Todas son monofármaco y están vigentes" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: megestrol acetate prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc921d5-e423-4379-a345-151e87d13651) |
 
 <!-- review:end log -->
 

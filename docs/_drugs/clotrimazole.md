@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, pero solo exist
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, clotrimazol es un antifúngico azólico que inhibe la CYP51 (lanosterol 14-alfa-desmetilasa) del hongo. Esto bloquea la síntesis de ergosterol y altera la integridad de la membrana fúngica. Su eficacia en micosis cutáneas y candidiasis está bien establecida. También se le atribuyen efectos antiinflamatorios y antimicrobianos modestos.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clotrimazole (traducción no oficial): «El clotrimazol es un agente antifúngico de amplio espectro que inhibe el crecimiento de levaduras patógenas al alterar la permeabilidad de las membranas celulares. La acción del clotrimazol es fungistática a concentraciones del fármaco de hasta 20 mcg/mL y puede ser fungicida in vitro contra Candida albicans y otras especies del género Candida a concentraciones más altas.» Texto original en inglés: "Clotrimazole is a broad-spectrum antifungal agent that inhibits the growth of pathogenic yeasts by altering the permeability of cell membranes. The action of clotrimazole is fungistatic at concentrations of drug up to 20 mcg/mL and may be fungicidal in vitro against Candida albicans and other species of the genus Candida at higher concentrations." ([DailyMed: clotrimazole prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=980736aa-751a-4642-ab85-a309435fd02f), versión del 2025-03-27; consultado el 2026-11-19). Según la información conocida, clotrimazol es un antifúngico azólico que inhibe la CYP51 (lanosterol 14-alfa-desmetilasa) del hongo. Esto bloquea la síntesis de ergosterol y altera la integridad de la membrana fúngica. Su eficacia en micosis cutáneas y candidiasis está bien establecida. También se le atribuyen efectos antiinflamatorios y antimicrobianos modestos.
 
 Un posible vínculo con el acné sería el papel de *Malassezia* (*Pityrosporum*) en la inflamación folicular. Otra posibilidad sería el efecto de una combinación tópica con antibiótico y corticoide. Sin embargo, esta relación es hipotética. El único ensayo disponible usa una combinación fija (beclometasona + gentamicina + clotrimazol), por lo que no se puede aislar la contribución del clotrimazol.
 
@@ -121,6 +121,19 @@ La predicción para acné se basa únicamente en el modelo. El único ensayo es 
 - Revisar las advertencias y contraindicaciones del prospecto oficial en la AEMPS.
 
 No constituye un reposicionamiento real, sino una confirmación de un uso existente.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: clotrimazole prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=980736aa-751a-4642-ab85-a309435fd02f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

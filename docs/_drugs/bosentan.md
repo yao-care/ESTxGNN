@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, p
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, bosentán es un antagonista dual de los receptores de endotelina ET-A y ET-B, su eficacia en hipertensión arterial pulmonar y esclerosis sistémica (úlceras digitales) está establecida, y mecanísticamente podría ser aplicable a enfermedades inflamatorias mediadas por endotelina.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Bosentan (traducción no oficial): «Bosentán es un antagonista específico y competitivo de los receptores de endotelina de tipo ET A y ET B. Bosentán tiene una afinidad ligeramente mayor por los receptores ET A que por los receptores ET B. Se desconoce el impacto clínico del bloqueo dual de la endotelina.» Texto original en inglés: "Bosentan is a specific and competitive antagonist at endothelin receptor types ET A and ET B. Bosentan has a slightly higher affinity for ET A receptors than for ET B receptors. The clinical impact of dual endothelin blockage is unknown." ([DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c), versión del 2025-11-17; consultado el 2026-11-19). Según la información conocida, bosentán es un antagonista dual de los receptores de endotelina ET-A y ET-B, su eficacia en hipertensión arterial pulmonar y esclerosis sistémica (úlceras digitales) está establecida, y mecanísticamente podría ser aplicable a enfermedades inflamatorias mediadas por endotelina.
 
 La endotelina-1 contribuye a la inflamación sinovial, la vasculopatía y la liberación de citocinas (TNF-alfa, LTB4). En ratones, bosentán redujo la inflamación en la artritis inducida por colágeno (PMID 22249931), y los antagonistas de endotelina modularon la respuesta inflamatoria en la artritis inducida por zimosán (PMID 18515326). Además, los niveles de ET-1 están elevados en plasma y membrana sinovial de pacientes con artritis reumatoide.
 
@@ -122,11 +122,12 @@ Las predicciones (síndrome de braquidactilia-sindactilia, gota, hipertricosis, 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c) |
 
 <!-- review:end log -->
 

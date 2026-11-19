@@ -54,7 +54,7 @@ Aliskiren es un inhibidor directo de la renina que reduce la formación de angio
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Aliskiren inhibe directamente la renina, el primer paso limitante del sistema renina-angiotensina (SRA), y con ello reduce la generación de angiotensina II. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe, por lo que este planteamiento procede de lo conocido sobre la clase del fármaco.
+Aliskiren inhibe directamente la renina, el primer paso limitante del sistema renina-angiotensina (SRA), y con ello reduce la generación de angiotensina II. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Aliskiren (traducción no oficial): «La renina es secretada por el riñón en respuesta a disminuciones del volumen sanguíneo y de la perfusión renal. La renina escinde el angiotensinógeno para formar el decapéptido inactivo angiotensina I (Ang I). La Ang I se convierte en el octapéptido activo angiotensina II (Ang II) mediante la ECA y vías distintas de la ECA.» Texto original en inglés: "Renin is secreted by the kidney in response to decreases in blood volume and renal perfusion. Renin cleaves angiotensinogen to form the inactive decapeptide angiotensin I (Ang I). Ang I is converted to the active octapeptide angiotensin II (Ang II) by ACE and non-ACE pathways." ([DailyMed: aliskiren prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3fd2503-25ef-4660-a29a-f62c491e28fb), versión del 2022-12-30; consultado el 2026-11-19).
 
 Los estudios preclínicos asocian la hipoxia intermitente crónica con la activación del SRA, la sobreexcitación simpática y el remodelado tisular (por ejemplo, remodelado auricular en ratas y sobreexcitación simpática mediada por angiotensina II). Esto da cierta plausibilidad biológica para el remodelado cardiovascular relacionado con la hipoxia.
 
@@ -107,6 +107,19 @@ No existe ningún ensayo ni publicación que estudie directamente la hipertensi�
 - Datos detallados del mecanismo de acción y su vínculo con la circulación pulmonar.
 - Advertencias y contraindicaciones del prospecto de la AEMPS, aún sin incorporar.
 - Evaluación de seguridad en pacientes con enfermedad pulmonar e hipoxia, incluyendo hipotensión, hiperpotasemia y función renal.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: aliskiren prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3fd2503-25ef-4660-a29a-f62c491e28fb) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

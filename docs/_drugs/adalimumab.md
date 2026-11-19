@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por su clase, adalimumab es un inhibidor del TNF-α, una citocina central en varios procesos inflamatorios crónicos mediados por el sistema inmunitario.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Adalimumab (traducción no oficial): «Los productos de adalimumab se unen específicamente al TNF-alfa y bloquean su interacción con los receptores de TNF p55 y p75 de la superficie celular. Los productos de adalimumab también lisan in vitro las células que expresan TNF en su superficie en presencia del complemento.» Texto original en inglés: "Adalimumab products bind specifically to TNF-alpha and block its interaction with the p55 and p75 cell surface TNF receptors. Adalimumab products also lyse surface TNF expressing cells in vitro in the presence of complement." ([DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc), versión del 2026-11-11; consultado el 2026-11-19). Por su clase, adalimumab es un inhibidor del TNF-α, una citocina central en varios procesos inflamatorios crónicos mediados por el sistema inmunitario.
 
 Para la hipermovilidad del cóccix no se ha establecido un mecanismo inflamatorio dependiente del TNF. Se trata de una condición generalmente mecánica o traumática. La puntuación elevada parece reflejar la proximidad en la red del modelo con términos de espondiloartropatía, y no una relación biológica demostrada.
 
@@ -102,6 +102,19 @@ La predicción se basa solo en el modelo computacional (puntaje 0,9977), sin ens
 - Datos del mecanismo de acción de adalimumab y un fundamento biológico que vincule el TNF-α con la hipermovilidad del cóccix
 - Revisión bibliográfica dirigida que busque estudios directos sobre esta condición
 - Obtención de las advertencias y contraindicaciones del prospecto de la AEMPS antes de cualquier evaluación de seguridad
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

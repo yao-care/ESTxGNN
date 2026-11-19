@@ -55,7 +55,7 @@ pero actualmente no hay **ensayos clínicos** registrados para esta indicación 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, rizatriptán pertenece a la clase de los triptanes (agonistas de 5-HT1B/1D), su eficacia en la migraña aguda está bien establecida, y mecanísticamente podría ser aplicable a otros subtipos de migraña.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rizatriptan (traducción no oficial): «Rizatriptán se une con alta afinidad a los receptores 5-HT 1B/1D humanos clonados. Presumiblemente, rizatriptán ejerce sus efectos terapéuticos en el tratamiento de la cefalea migrañosa al unirse a los receptores 5-HT 1B/1D ubicados en los vasos sanguíneos intracraneales y en los nervios sensitivos del sistema trigeminal.» Texto original en inglés: "Rizatriptan binds with high affinity to human cloned 5-HT 1B/1D receptors. Rizatriptan presumably exerts its therapeutic effects in the treatment of migraine headache by binding to 5-HT 1B/1D receptors located on intracranial blood vessels and sensory nerves of the trigeminal system." ([DailyMed: rizatriptan prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f000d96c-42a0-4aac-96ca-8cef289979ce), versión del 2025-11-26; consultado el 2026-11-19). Según la información conocida, rizatriptán pertenece a la clase de los triptanes (agonistas de 5-HT1B/1D), su eficacia en la migraña aguda está bien establecida, y mecanísticamente podría ser aplicable a otros subtipos de migraña.
 
 La migraña con aura del tronco encefálico (antes llamada migraña de tipo basilar) comparte la fisiopatología central de la migraña: activación trigémino-vascular, liberación de CGRP y vasoconstricción craneal. El alto puntaje de TxGNN refleja esta cercanía en la red de enfermedades respecto de la indicación aprobada.
 
@@ -128,11 +128,12 @@ La predicción se apoya solo en la proximidad en la red de conocimiento (L4: evi
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: rizatriptan prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f000d96c-42a0-4aac-96ca-8cef289979ce) |
 
 <!-- review:end log -->
 

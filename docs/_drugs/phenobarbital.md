@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio tri
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el fenobarbital es un modulador alostérico positivo del receptor GABA-A con actividad anticonvulsiva de amplio espectro. Además, la base de datos farmacológica lo registra como ligando del receptor X de pregnano (NR1I2), lo que explica su efecto inductor enzimático.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Phenobarbital (traducción no oficial): «El mecanismo de acción preciso del fenobarbital para el tratamiento de las crisis convulsivas neonatales no se conoce por completo, pero se cree que implica la potenciación de la inhibición sináptica mediante una acción sobre el receptor GABA A.» Texto original en inglés: "The precise mechanism of action for phenobarbital for the treatment of neonatal seizures is not fully understood, but it is thought to involve potentiation of synaptic inhibition through an action on the GABA A receptor." ([DailyMed: Sezaby (phenobarbital sodium) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c7d0402-4977-4c25-bc4b-11db91339e9a), versión del 2026-10-23; consultado el 2026-11-19). Según la información conocida, el fenobarbital es un modulador alostérico positivo del receptor GABA-A con actividad anticonvulsiva de amplio espectro. Además, la base de datos farmacológica lo registra como ligando del receptor X de pregnano (NR1I2), lo que explica su efecto inductor enzimático.
 
 **En este caso la predicción no es creíble.** La neoplasia del nervio trigémino es un tumor, y no existe un vínculo mecanístico creíble con el fenobarbital: como mucho podría controlar crisis asociadas, pero no trataría el tumor. La única publicación recuperada (PMID 9157801) trata del síndrome de Sturge-Weber, que es otra enfermedad. El puntaje alto proviene del modelo TxGNN (deep learning) y probablemente refleja similitudes que el modelo aprendió entre enfermedades relacionadas (epilepsia y trigémino), no evidencia biológica.
 
@@ -112,6 +112,19 @@ La predicción para neoplasia del nervio trigémino carece de ensayos clínicos,
 - Datos detallados del mecanismo de acción (MOA).
 - Evidencia preclínica o clínica directa en tumores del trigémino; de lo contrario, no se recomienda priorizar esta indicación.
 - Si se busca reposicionamiento dentro de la neurología, valorar candidatas con más sustento (por ejemplo, epilepsias reflejas), teniendo en cuenta que son extensiones de clase y que existe evidencia de riesgo cognitivo en edades tempranas.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sezaby (phenobarbital sodium) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c7d0402-4977-4c25-bc4b-11db91339e9a) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

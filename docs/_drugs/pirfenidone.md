@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **mastocitoma extracutáne
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, pirfenidona es un agente antifibrótico y antiinflamatorio oral que modula la vía del TGF-β y reduce la proliferación de fibroblastos y la síntesis de colágeno. Su uso está establecido en la fibrosis pulmonar idiopática.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pirfenidone (traducción no oficial): «No se ha establecido el mecanismo de acción de la pirfenidona en el tratamiento de la FPI.» Texto original en inglés: "The mechanism of action of pirfenidone in the treatment of IPF has not been established." ([DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e), versión del 2025-12-05; consultado el 2026-11-19). Según la información conocida, pirfenidona es un agente antifibrótico y antiinflamatorio oral que modula la vía del TGF-β y reduce la proliferación de fibroblastos y la síntesis de colágeno. Su uso está establecido en la fibrosis pulmonar idiopática.
 
 Para el mastocitoma extracutáneo **no se identifica un vínculo mecanístico respaldado por los datos**. Las neoplasias de mastocitos suelen depender de otras vías (por ejemplo, mutaciones de KIT), que pirfenidona no actúa sobre. El puntaje alto (0,9971) es una predicción del modelo y no constituye evidencia clínica.
 
@@ -112,11 +112,12 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de fármaco único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e) |
 
 <!-- review:end log -->
 

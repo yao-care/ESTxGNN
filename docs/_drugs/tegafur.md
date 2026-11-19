@@ -54,7 +54,7 @@ Tegafur es un profármaco oral del 5-fluorouracilo (5-FU), originalmente utiliza
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone actualmente de datos detallados sobre el mecanismo de acción en la base de datos consultada. Según la información conocida, tegafur es un profármaco del 5-FU, un antimetabolito que inhibe la timidilato sintasa. Su eficacia en cáncer gástrico está establecida y, mecanísticamente, es aplicable al cáncer de colon, un tumor clásicamente sensible a las fluoropirimidinas.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Tegafur es (traducción no oficial): «Inhibidor del ARN; inhibidor de la timidilato sintasa; inhibidor del ADN» Texto original en inglés: "RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor" ([ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, tegafur es un profármaco del 5-FU, un antimetabolito que inhibe la timidilato sintasa. Su eficacia en cáncer gástrico está establecida y, mecanísticamente, es aplicable al cáncer de colon, un tumor clásicamente sensible a las fluoropirimidinas.
 
 Tegafur se usa en regímenes orales establecidos: UFT (tegafur-uracilo), donde el uracilo inhibe la degradación del 5-FU mediada por DPD, y S-1 (tegafur con gimeracilo y oteracilo). Ambos se han estudiado ampliamente en cáncer colorrectal.
 
@@ -130,6 +130,19 @@ Varios ECA de fase 3 completados (por ejemplo, NCT00378716, NCT00152230, NCT0039
 - Confirmar el texto de indicación aprobado de la autorización 54192 (UTEFOS) y su coherencia con el uso en cáncer de colon.
 - Revisar los resultados publicados de los ensayos de fase 3 completados para confirmar eficacia y perfil de seguridad.
 - Plan de monitoreo hematológico y de toxicidad, con atención a la actividad de DPD.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

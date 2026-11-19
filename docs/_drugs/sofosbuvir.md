@@ -56,7 +56,7 @@ Esta dirección cuenta con **12 ensayos clínicos** y **19 publicaciones**, pero
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Sofosbuvir es un profármaco nucleotídico. Dentro de la célula se convierte en su trifosfato activo, que bloquea la polimerasa de ARN dependiente de ARN NS5B. No hay datos detallados de mecanismo de acción en los datos compilados para este informe, pero este mecanismo es bien conocido.
+Sofosbuvir es un profármaco nucleotídico. Dentro de la célula se convierte en su trifosfato activo, que bloquea la polimerasa de ARN dependiente de ARN NS5B. Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Sofosbuvir (traducción no oficial): «El sofosbuvir es un antiviral de acción directa contra el virus de la hepatitis C. […] El sofosbuvir es un inhibidor de la ARN polimerasa dependiente de ARN NS5B del VHC, que es esencial para la replicación viral. El sofosbuvir es un profármaco nucleotídico que se metaboliza a nivel intracelular para formar el trifosfato análogo de uridina farmacológicamente activo (GS-461203), que puede ser incorporado al ARN del VHC por la polimerasa NS5B y actúa como terminador de cadena.» Texto original en inglés: "Sofosbuvir is a direct-acting antiviral agent against the hepatitis C virus. […] Sofosbuvir is an inhibitor of the HCV NS5B RNA-dependent RNA polymerase, which is essential for viral replication. Sofosbuvir is a nucleotide prodrug that undergoes intracellular metabolism to form the pharmacologically active uridine analog triphosphate (GS-461203), which can be incorporated into HCV RNA by the NS5B polymerase and acts as a chain terminator." ([DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf), versión del 2024-12-26; consultado el 2026-11-19).
 
 El virus de la hepatitis B se replica de otra manera: usa una polimerasa con actividad de transcriptasa inversa dependiente de ADN. Por eso **no se espera una acción antiviral directa** de sofosbuvir sobre este virus. Los ensayos disponibles incluyen sobre todo a pacientes con coinfección por los virus de la hepatitis C y B. En ellos se vigila la reactivación del virus de la hepatitis B o la cinética del ADN viral y del HBsAg durante el tratamiento antiviral. No demuestran que sofosbuvir trate por sí mismo la infección por el virus de la hepatitis B.
 
@@ -113,6 +113,18 @@ La evidencia directa se limita a un único estudio piloto de fase 2, pequeño y 
 - Ensayos controlados y de mayor tamaño en infección por el virus de la hepatitis B sin coinfección, con criterios de valoración virológicos (ADN viral, HBsAg).
 - Datos sobre el mecanismo de acción que expliquen cualquier efecto sobre este virus.
 - Información de seguridad del prospecto, incluidas advertencias y contraindicaciones, y un plan de monitorización de la reactivación viral.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

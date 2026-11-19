@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone actualmente de datos detallados sobre el mecanismo de acción registrados para este informe. Por su clase, bisoprolol bloquea de forma selectiva los receptores beta-1 adrenérgicos, lo que reduce la frecuencia cardíaca, el gasto cardíaco y la presión arterial.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Bisoprolol (traducción no oficial): «El FUMARATO DE BISOPROLOL es un bloqueante de los adrenorreceptores beta 1 -selectivo (cardioselectivo) sin actividad estabilizadora de membrana ni actividad simpaticomimética intrínseca significativas en su intervalo de dosis terapéuticas. Sin embargo, la cardioselectividad no es absoluta y, a dosis más altas (≥ 20 mg), el fumarato de bisoprolol también inhibe los adrenorreceptores beta 2 , localizados principalmente en la musculatura bronquial y vascular; por lo tanto, para conservar la selectividad es importante utilizar la dosis eficaz más baja.» Texto original en inglés: "BISOPROLOL FUMARATE is a beta 1 -selective (cardioselective) adrenoceptor blocking agent without significant membrane stabilizing activity or intrinsic sympathomimetic activity in its therapeutic dosage range. Cardioselectivity is not absolute, however, and at higher doses (≥ 20 mg) bisoprolol fumarate also inhibits beta 2 -adrenoceptors, chiefly located in the bronchial and vascular musculature; to retain selectivity it is therefore important to use the lowest effective dose." ([DailyMed: bisoprolol fumarate prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6517d564-ea55-4084-a8ab-34fea548c24e), versión del 2026-11-11; consultado el 2026-11-19). Por su clase, bisoprolol bloquea de forma selectiva los receptores beta-1 adrenérgicos, lo que reduce la frecuencia cardíaca, el gasto cardíaco y la presión arterial.
 
 La enfermedad renal hipertensiva maligna es una complicación grave de órgano diana de la hipertensión severa, por lo que reducir la presión arterial es mecanísticamente plausible. Además, el bloqueo beta-1 disminuye la liberación de renina, algo potencialmente relevante en el daño renal mediado por el sistema renina-angiotensina.
 
@@ -101,6 +101,19 @@ La predicción no cuenta con ensayos clínicos ni literatura propios y el puntaj
 - Revisión de la evidencia clínica específica sobre bisoprolol en nefropatía hipertensiva maligna
 - Información de seguridad del prospecto de la AEMPS (advertencias y contraindicaciones)
 - Evaluación de la viabilidad clínica frente a los tratamientos intravenosos estándar
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: bisoprolol fumarate prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6517d564-ea55-4084-a8ab-34fea548c24e) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

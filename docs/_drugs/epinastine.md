@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Epinastina es un antagonista tópico del receptor H1 de histamina con actividad estabilizadora de mastocitos. Se presenta en forma de colirio para conjuntivitis alérgica, vernal y papilar, pero actualmente no está comercializada en este país (solo constan registros cancelados). Actualmente no se dispone de datos detallados sobre el mecanismo de acción dentro de los datos compilados para este informe, pero la farmacología conocida del fármaco apunta a la inhibición de la histamina y de la liberación de mediadores desde los mastocitos.
+Epinastina es un antagonista tópico del receptor H1 de histamina con actividad estabilizadora de mastocitos. Se presenta en forma de colirio para conjuntivitis alérgica, vernal y papilar, pero actualmente no está comercializada en este país (solo constan registros cancelados). Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Epinastine (traducción no oficial): «La epinastina es un antagonista directo del receptor H 1, de acción tópica, y un inhibidor de la liberación de histamina desde el mastocito. La epinastina es selectiva para el receptor H 1 de la histamina y tiene afinidad por el receptor H 2 de la histamina.» Texto original en inglés: "Epinastine is a topically active, direct H 1 -receptor antagonist and an inhibitor of the release of histamine from the mast cell. Epinastine is selective for the histamine H 1 -receptor and has affinity for the histamine H 2 -receptor." ([DailyMed: epinastine hydrochloride prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4ee45c-e58f-4b7c-b389-898f5c27f54d), versión del 2025-03-22; consultado el 2026-11-19).
 
 La conjuntivitis rosácea (rosácea ocular) se debe principalmente a disfunción de las glándulas de Meibomio, inflamación del borde palpebral y factores microbianos o de *Demodex*, más que a una alergia clásica mediada por IgE. Por ello, el mecanismo antihistamínico y de estabilización de mastocitos ofrece solo un vínculo plausible y parcial, probablemente limitado al componente inflamatorio o al picor asociado.
 
@@ -101,6 +101,19 @@ La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos clínic
 ### Nota sobre la segunda predicción (urticaria alérgica)
 
 El segundo candidato, **urticaria alérgica** (puntaje TxGNN 0,9928), tiene una evidencia indirecta algo mayor (nivel L4, recomendación "Research Question"). La literatura disponible consiste en revisiones y estudios farmacodinámicos de supresión de roncha y eritema inducidos por histamina (por ejemplo, un ensayo cruzado doble ciego en voluntarios sanos, PMID [10442525](https://pubmed.ncbi.nlm.nih.gov/10442525/)), pero no hay ensayos clínicos registrados ni un ECA específico en urticaria. Además, la autorización española corresponde únicamente a un colirio oftálmico, por lo que habría que verificar la formulación oral y su estado regulatorio antes de cualquier decisión.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: epinastine hydrochloride prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4ee45c-e58f-4b7c-b389-898f5c27f54d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ Sin embargo, no hay ensayos clínicos y la única publicación disponible es un 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la codeína es un agonista del receptor opioide μ (OPRM1), con uso clínico como analgésico, antitusígeno y antidiarreico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Codeine (traducción no oficial): «El sulfato de codeína es un agonista opioide relativamente selectivo del receptor opioide mu, pero con una afinidad mucho más débil que la morfina. Se ha especulado que las propiedades analgésicas de la codeína provienen de su conversión en morfina, aunque el mecanismo exacto de la acción analgésica sigue sin conocerse.» Texto original en inglés: "Codeine sulfate is an opioid agonist relatively selective for the mu-opioid receptor, but with a much weaker affinity than morphine. The analgesic properties of codeine have been speculated to come from its conversion to morphine, although the exact mechanism of analgesic action remains unknown." ([DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293), versión del 2026-01-16; consultado el 2026-11-19). Según la información conocida, la codeína es un agonista del receptor opioide μ (OPRM1), con uso clínico como analgésico, antitusígeno y antidiarreico.
 
 La predicción del modelo TxGNN (deep learning) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica: la codeína ya figura para rinitis, resfriado común y nasofaringitis, que afectan a la cavidad nasal. Esto sugiere una extensión de las indicaciones existentes más que una señal de reposicionamiento genuina.
 
@@ -124,12 +124,13 @@ Las otras indicaciones predichas tampoco respaldan el reposicionamiento: laringo
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Las 6 autorizaciones son de monofármaco y están vigentes" | Corregido (revisado el 2026-11-12; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-12 | La sexta autorización (20709, Fludan Codeína) está revocada, no vigente | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293) |
 
 <!-- review:end log -->
 

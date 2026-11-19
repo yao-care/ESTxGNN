@@ -56,7 +56,7 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicció
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, ruxolitinib es un inhibidor de las quinasas JAK1 y JAK2 de la vía JAK-STAT. Su eficacia en neoplasias mieloproliferativas, caracterizadas por una señalización JAK-STAT hiperactiva, está establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ruxolitinib (traducción no oficial): «Ruxolitinib, un inhibidor de cinasas, inhibe las cinasas asociadas a Janus (JAK), JAK1 y JAK2, que median la señalización de varias citocinas y factores de crecimiento importantes para la hematopoyesis y la función inmunitaria. La señalización de JAK implica el reclutamiento de STAT (transductores de señales y activadores de la transcripción) hacia los receptores de citocinas, su activación y la posterior localización de las STAT en el núcleo, lo que conduce a la modulación de la expresión génica.» Texto original en inglés: "Ruxolitinib, a kinase inhibitor, inhibits Janus Associated Kinases (JAKs), JAK1 and JAK2, which mediate the signaling of a number of cytokines and growth factors that are important for hematopoiesis and immune function. JAK signaling involves recruitment of STATs (signal transducers and activators of transcription) to cytokine receptors, activation, and subsequent localization of STATs to the nucleus leading to modulation of gene expression." ([DailyMed: Jakafi (ruxolitinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b), versión del 2026-07-20; consultado el 2026-11-19). Según la información conocida, ruxolitinib es un inhibidor de las quinasas JAK1 y JAK2 de la vía JAK-STAT. Su eficacia en neoplasias mieloproliferativas, caracterizadas por una señalización JAK-STAT hiperactiva, está establecida.
 
 Para el PEComa uterino, el vínculo mecanístico es **especulativo**. El PEComa se asocia principalmente con la vía mTOR, y solo se plantea una posible interacción con la señalización JAK-STAT. Los datos compilados no aportan ensayos ni literatura que confirmen esta relación.
 
@@ -116,6 +116,19 @@ La predicción para el PEComa uterino se basa únicamente en el modelo (L5), sin
 - Estudios preclínicos que evalúen la señalización JAK-STAT en PEComa.
 - Considerar priorizar la evaluación de HLH, la indicación con mayor evidencia (L3) entre las predicciones, mediante un informe específico.
 - Un plan de monitoreo hematológico y de interacciones, en especial con inhibidores potentes de CYP3A4 como la claritromicina.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Jakafi (ruxolitinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

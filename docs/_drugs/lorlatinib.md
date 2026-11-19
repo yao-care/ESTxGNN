@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos compilada. Según la información conocida, lorlatinib es un inhibidor de tirosina quinasas de tercera generación dirigido contra ALK y ROS1, con eficacia comprobada en el CPNM con reordenamientos de ALK, incluida la actividad intracraneal.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lorlatinib (traducción no oficial): «El lorlatinib es un inhibidor de cinasas con actividad in vitro contra ALK y ROS1, así como contra TYK1, FER, FPS, TRKA, TRKB, TRKC, FAK, FAK2 y ACK. El lorlatinib demostró actividad in vitro contra múltiples formas mutantes de la enzima ALK, incluidas algunas mutaciones detectadas en tumores en el momento de la progresión de la enfermedad durante el tratamiento con crizotinib y otros inhibidores de ALK.» Texto original en inglés: "Lorlatinib is a kinase inhibitor with in vitro activity against ALK and ROS1 as well as TYK1, FER, FPS, TRKA, TRKB, TRKC, FAK, FAK2, and ACK. Lorlatinib demonstrated in vitro activity against multiple mutant forms of the ALK enzyme, including some mutations detected in tumors at the time of disease progression on crizotinib and other ALK inhibitors." ([DailyMed: Lorbrena (lorlatinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b34d62d-e02a-4af3-bc0d-1571dd4ee76d), versión del 2026-06-26; consultado el 2026-11-19). Según la información conocida, lorlatinib es un inhibidor de tirosina quinasas de tercera generación dirigido contra ALK y ROS1, con eficacia comprobada en el CPNM con reordenamientos de ALK, incluida la actividad intracraneal.
 
 Para la fibromatosis gingival no se ha identificado una justificación mecanística. La fibromatosis gingival es un trastorno de proliferación del tejido conectivo de la encía, y no se ha establecido ningún vínculo con las vías de ALK/ROS1. El puntaje alto (0.9981) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no una base biológica demostrada.
 
@@ -130,6 +130,19 @@ La predicción para fibromatosis gingival carece de ensayos clínicos, literatur
 ### Nota sobre otras predicciones evaluadas
 
 Entre las otras candidatas, **cáncer de hilio pulmonar** (L4, puntaje 0.9974) es la que cuenta con respaldo más plausible, aunque se trata en gran medida de una extensión de la indicación aprobada de CPNM y se apoya en un único reporte de caso. Para **neoplasia benigna de pulmón** y **tumor de células germinales de pulmón**, la literatura es indirecta (corresponde a CPNM maligno y neuroblastoma, respectivamente) y no debe extrapolarse. El resto carece de evidencia.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lorbrena (lorlatinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b34d62d-e02a-4af3-bc0d-1571dd4ee76d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

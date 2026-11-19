@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno por défici
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone actualmente de datos detallados del mecanismo de acción en la ficha del fármaco. Según la información farmacológica compilada, la rotigotina es un agonista dopaminérgico no ergolínico que actúa sobre los receptores D1 a D5 (con mayor afinidad por D3), con agonismo adicional sobre 5-HT1A y antagonismo sobre alfa-2B. Su eficacia en la enfermedad de Parkinson y el síndrome de piernas inquietas está establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rotigotine (traducción no oficial): «La rotigotina es un agonista dopaminérgico no ergolínico. Se desconoce el mecanismo de acción preciso de la rotigotina como tratamiento de la enfermedad de Parkinson, aunque se cree que está relacionado con su capacidad de estimular los receptores de dopamina en el caudado-putamen del cerebro.» Texto original en inglés: "Rotigotine is a non-ergoline dopamine agonist. The precise mechanism of action of rotigotine as a treatment for Parkinson's disease is unknown, although it is thought to be related to its ability to stimulate dopamine receptors within the caudate-putamen in the brain." ([DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0), versión del 2026-11-11; consultado el 2026-11-19). Según la información farmacológica compilada, la rotigotina es un agonista dopaminérgico no ergolínico que actúa sobre los receptores D1 a D5 (con mayor afinidad por D3), con agonismo adicional sobre 5-HT1A y antagonismo sobre alfa-2B. Su eficacia en la enfermedad de Parkinson y el síndrome de piernas inquietas está establecida.
 
 El TDAH implica una desregulación dopaminérgica y noradrenérgica. Un estudio preclínico sobre la heteromerización entre el receptor D4 de dopamina y el adrenoceptor α2A ofrece un posible vínculo a nivel de receptores. Además, el síndrome de piernas inquietas pediátrico suele coexistir con el TDAH, lo que explica que la literatura recuperada se centre en esa enfermedad.
 
@@ -117,11 +117,12 @@ La predicción tiene un puntaje TxGNN muy alto, pero no existen ensayos clínico
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0) |
 
 <!-- review:end log -->
 

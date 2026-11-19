@@ -60,7 +60,7 @@ La predicción con más respaldo documental es **tricotilomanía**, con **0 ensa
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, quetiapina es un antipsicótico atípico con eficacia comprobada en esquizofrenia y trastorno bipolar. Los datos farmacológicos compilados indican afinidad por los receptores serotoninérgicos (5-HT1A, 5-HT1D, 5-HT1E, 5-HT1F, 5-HT2A), el receptor dopaminérgico D2, el receptor histamínico H1 y el transportador de noradrenalina (NET).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Quetiapine (traducción no oficial): «El mecanismo de acción de la quetiapina en las indicaciones enumeradas no está claro. Sin embargo, la eficacia de la quetiapina en estas indicaciones podría estar mediada por una combinación de antagonismo de los receptores de dopamina de tipo 2 (D 2 ) y de serotonina de tipo 2A (5HT 2A ).» Texto original en inglés: "The mechanism of action of quetiapine in the listed indications is unclear. However, the efficacy of quetiapine in these indications could be mediated through a combination of dopamine type 2 (D 2 ) and serotonin type 2A (5HT 2A ) antagonism." ([DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933), versión del 2026-10-08; consultado el 2026-11-19). Según la información conocida, quetiapina es un antipsicótico atípico con eficacia comprobada en esquizofrenia y trastorno bipolar. Los datos farmacológicos compilados indican afinidad por los receptores serotoninérgicos (5-HT1A, 5-HT1D, 5-HT1E, 5-HT1F, 5-HT2A), el receptor dopaminérgico D2, el receptor histamínico H1 y el transportador de noradrenalina (NET).
 
 Para la distrofia retiniana no se identificó ningún vínculo mecanístico con los datos disponibles. Es un trastorno hereditario de la retina y no hay estudios que relacionen la quetiapina con esta enfermedad. El puntaje alto del modelo (0.9957) es una predicción computacional sin respaldo clínico, por lo que debe interpretarse con mucha cautela.
 
@@ -126,11 +126,12 @@ La predicción de distrofia retiniana se basa únicamente en el modelo (L5), sin
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se registran 20 autorizaciones vigentes (todas monofármaco, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933) |
 
 <!-- review:end log -->
 

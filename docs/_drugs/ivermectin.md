@@ -56,7 +56,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, ivermectina actúa principalmente sobre los canales de cloruro dependientes de glutamato en invertebrados, lo que explica su eficacia en infecciones parasitarias como la estrongiloidiasis y la oncocercosis. Los datos compilados también muestran interacción farmacológica con varios receptores humanos (receptor de glicina, receptor nicotínico α7, P2X4 y P2X7).
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ivermectin (traducción no oficial): «Los estudios in vitro con microsomas hepáticos humanos y enzimas CYP450 recombinantes han demostrado que la ivermectina se metaboliza principalmente por CYP3A4.» Texto original en inglés: "In vitro studies using human liver microsomes and recombinant CYP450 enzymes have shown that ivermectin is primarily metabolized by CYP3A4." ([DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd), versión del 2024-09-20; consultado el 2026-11-19). Según la información conocida, ivermectina actúa principalmente sobre los canales de cloruro dependientes de glutamato en invertebrados, lo que explica su eficacia en infecciones parasitarias como la estrongiloidiasis y la oncocercosis. Los datos compilados también muestran interacción farmacológica con varios receptores humanos (receptor de glicina, receptor nicotínico α7, P2X4 y P2X7).
 
 La relación entre la indicación original (infecciones parasitarias) y la nueva (infección fúngica por *Candida*) es débil. No existe un vínculo mecanístico establecido: ivermectina no tiene actividad antifúngica clínica reconocida frente a *Candida*. El puntaje elevado proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no una evidencia biológica, clínica o preclínica.
 
@@ -105,6 +105,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Textos de indicación aprobada de las autorizaciones españolas
 - Análisis de compatibilidad de vía de administración (comprimido y crema frente a la vía requerida)
 - Evaluación de similitud con la indicación original y revisión de literatura específica de candidiasis
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

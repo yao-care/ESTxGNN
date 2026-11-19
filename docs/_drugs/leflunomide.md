@@ -56,7 +56,7 @@ pero actualmente **no existe ningún ensayo clínico ni publicación** que respa
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, leflunomida inhibe la enzima dihidroorotato deshidrogenasa (DHODH, gen *DHODH*), lo que reduce la síntesis de pirimidinas en los linfocitos en proliferación. Esto explica su eficacia en enfermedades autoinmunes como la artritis reumatoide y la artritis psoriásica.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Leflunomide (traducción no oficial): «La leflunomida es un agente inmunomodulador isoxazólico que inhibe la dihidroorotato deshidrogenasa (una enzima mitocondrial que participa en la síntesis de novo de pirimidinas) y tiene actividad antiproliferativa. Varios modelos experimentales in vivo e in vitro han demostrado un efecto antiinflamatorio.» Texto original en inglés: "Leflunomide is an isoxazole immunomodulatory agent that inhibits dihydroorotate dehydrogenase (a mitochondrial enzyme involved in de novo pyrimidine synthesis) and has antiproliferative activity. Several in vivo and in vitro experimental models have demonstrated an anti-inflammatory effect." ([DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52), versión del 2025-06-04; consultado el 2026-11-19). Según la información farmacológica conocida, leflunomida inhibe la enzima dihidroorotato deshidrogenasa (DHODH, gen *DHODH*), lo que reduce la síntesis de pirimidinas en los linfocitos en proliferación. Esto explica su eficacia en enfermedades autoinmunes como la artritis reumatoide y la artritis psoriásica.
 
 **No se ha establecido un vínculo mecanístico** entre esta inhibición y la fisiopatología del síndrome de braquidactilia-sindactilia, una malformación congénita del desarrollo de las extremidades. La similitud con las indicaciones originales no ha sido evaluada. El puntaje de 0,9993 es únicamente una predicción computacional, sin respaldo de ensayos clínicos ni literatura.
 
@@ -114,11 +114,12 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único):" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52) |
 
 <!-- review:end log -->
 

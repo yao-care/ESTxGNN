@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero actualm
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, pitolisant es un antagonista/agonista inverso selectivo del receptor de histamina H3: aumenta la neurotransmisión histaminérgica en el cerebro y promueve la vigilia. Su eficacia en la narcolepsia ha sido comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pitolisant (traducción no oficial): «El mecanismo de acción de pitolisant en la somnolencia diurna excesiva (SDE) o la cataplejía en pacientes de 6 años o más con narcolepsia no está claro. Sin embargo, su eficacia podría estar mediada por su actividad como antagonista/agonista inverso de los receptores de histamina 3 (H3).» Texto original en inglés: "The mechanism of action of pitolisant in excessive daytime sleepiness (EDS) or cataplexy in patients 6 years and older with narcolepsy is unclear. However, its efficacy could be mediated through its activity as an antagonist/inverse agonist at histamine-3 (H3) receptors." ([DailyMed: Wakix (pitolisant hydrochloride) prescribing information, Harmony Biosciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8daa5562-824e-476c-9652-26ceef3d4b0e), versión del 2026-02-13; consultado el 2026-11-19). Según la información conocida, pitolisant es un antagonista/agonista inverso selectivo del receptor de histamina H3: aumenta la neurotransmisión histaminérgica en el cerebro y promueve la vigilia. Su eficacia en la narcolepsia ha sido comprobada.
 
 Sin embargo, **el mecanismo apunta en dirección opuesta a lo que requiere el tratamiento del insomnio**. Un fármaco que promueve la vigilia difícilmente aliviará la dificultad para dormir, y el insomnio es un efecto adverso conocido de pitolisant. El puntaje alto de TxGNN (0.9971) probablemente refleja la proximidad en la red entre trastornos del sueño y la vigilia, y no una relación terapéutica real.
 
@@ -108,6 +108,19 @@ No existen ensayos clínicos ni literatura que evalúe pitolisant en insomnio, y
 - Datos del mecanismo de acción y del prospecto de AEMPS (advertencias y contraindicaciones), actualmente ausentes.
 - Una justificación farmacológica que explique cómo un agente promotor de la vigilia podría tratar el insomnio, o bien descartar esta indicación.
 - Evaluar prioritariamente otras predicciones: el **TDAH** (puntaje 0.9936, nivel L4) tiene un racional mecanístico plausible (liberación de histamina, acetilcolina, noradrenalina y dopamina en corteza prefrontal), aunque sin ensayos registrados ni datos directos de eficacia, por lo que se considera una hipótesis de investigación. El **síndrome faciodigitogenital** (0.9929, nivel L5) no tiene vínculo mecanístico identificable ni evidencia, y no se recomienda avanzar.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Wakix (pitolisant hydrochloride) prescribing information, Harmony Biosciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8daa5562-824e-476c-9652-26ceef3d4b0e) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

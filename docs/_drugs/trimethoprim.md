@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, trimetoprima es un antibacteriano que inhibe la dihidrofolato reductasa bacteriana, y su eficacia en infecciones bacterianas, incluidas las oculares superficiales, está documentada. Esto no se ha podido confirmar con los datos suministrados.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Trimethoprim (traducción no oficial): «La trimetoprima bloquea la producción de ácido tetrahidrofólico a partir de ácido dihidrofólico al unirse a la enzima necesaria, la dihidrofolato reductasa, e inhibirla de forma reversible. Esta unión es mucho más fuerte para la enzima bacteriana que para la enzima correspondiente de los mamíferos.» Texto original en inglés: "Trimethoprim blocks the production of tetrahydrofolic acid from dihydrofolic acid by binding to and reversibly inhibiting the required enzyme, dihydrofolate reductase. This binding is very much stronger for the bacterial enzyme than for the corresponding mammalian enzyme." ([DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597), versión del 2026-11-15; consultado el 2026-11-19). Según la información conocida, trimetoprima es un antibacteriano que inhibe la dihidrofolato reductasa bacteriana, y su eficacia en infecciones bacterianas, incluidas las oculares superficiales, está documentada. Esto no se ha podido confirmar con los datos suministrados.
 
 La predicción probablemente refleja la proximidad en la red de conocimiento con las indicaciones oculares ya conocidas (conjuntivitis, conjuntivitis contagiosa aguda y blefaroconjuntivitis), en las que trimetoprima se usa de forma tópica, habitualmente combinada con polimixina B.
 
@@ -115,6 +115,19 @@ Aunque el puntaje de TxGNN es muy alto (0.9957), no existe ningún ensayo ni pub
 - Texto oficial del prospecto (advertencias y contraindicaciones) de la AEMPS
 - Evaluación de la viabilidad de una vía de administración oftálmica, ya que las autorizaciones españolas son solo orales
 - Justificación clínica frente a las alternativas existentes (antivirales, antiinflamatorios o lágrimas artificiales según la causa)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

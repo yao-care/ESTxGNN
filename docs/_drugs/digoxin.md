@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para **Angina de Prinzmetal**, 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la digoxina inhibe la bomba Na+/K+-ATPasa (subunidad α-1, gen ATP1A1), lo que aumenta el calcio intracelular y la contractilidad miocárdica. Su eficacia en la fibrilación auricular está comprobada, pero no hay una base mecanística clara para la angina de Prinzmetal.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Digoxin (traducción no oficial): «Todas las acciones de la digoxina están mediadas por sus efectos sobre la Na-K ATPasa. Esta enzima, la «bomba de sodio», se encarga de mantener el medio intracelular en todo el organismo, desplazando los iones sodio hacia el exterior de las células y los iones potasio hacia su interior.» Texto original en inglés: "All of digoxin’s actions are mediated through its effects on Na-K ATPase. This enzyme, the “sodium pump,” is responsible for maintaining the intracellular milieu throughout the body by moving sodium ions out of and potassium ions into cells." ([DailyMed: Lanoxin (digoxin) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ec84cac-6ecc-43dc-8006-6ccc029e2707), versión del 2025-10-17; consultado el 2026-11-19). Según la información conocida, la digoxina inhibe la bomba Na+/K+-ATPasa (subunidad α-1, gen ATP1A1), lo que aumenta el calcio intracelular y la contractilidad miocárdica. Su eficacia en la fibrilación auricular está comprobada, pero no hay una base mecanística clara para la angina de Prinzmetal.
 
 La angina de Prinzmetal se debe a vasoespasmo coronario y se trata con antagonistas del calcio y nitratos. El aumento del calcio intracelular y el potencial de vasoconstricción hacen que la digoxina sea, en teoría, desfavorable para esta indicación.
 
@@ -99,6 +99,19 @@ La predicción se basa únicamente en el modelo (nivel L5): no hay ensayos clín
 - Estudios preclínicos o clínicos específicos de digoxina en angina de Prinzmetal
 - Prospecto de la AEMPS con advertencias, contraindicaciones e indicaciones aprobadas, para completar el cribado de seguridad
 - Evaluación de la relación riesgo-beneficio frente a los tratamientos estándar (antagonistas del calcio y nitratos)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lanoxin (digoxin) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ec84cac-6ecc-43dc-8006-6ccc029e2707) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

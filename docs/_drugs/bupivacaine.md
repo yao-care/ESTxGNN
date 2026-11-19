@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para **acrodermatitis crónica 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone actualmente de datos detallados sobre el mecanismo de acción registrado para este informe. Por conocimiento general, la bupivacaína es un anestésico local de tipo amida que bloquea los canales de sodio dependientes de voltaje y, con ello, la conducción nerviosa. Los datos farmacológicos compilados también muestran actividad sobre canales de potasio (Kir3.2, Kv1.5, Kv4.3) y sobre Nav1.5, aunque sin datos de afinidad públicos que sustenten su mecanismo principal.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Bupivacaine (traducción no oficial): «Los anestésicos locales bloquean la generación y la conducción de los impulsos nerviosos, presumiblemente al aumentar el umbral de excitación eléctrica del nervio, al ralentizar la propagación del impulso nervioso y al reducir la velocidad de ascenso del potencial de acción. En general, la progresión de la anestesia está relacionada con el diámetro, la mielinización y la velocidad de conducción de las fibras nerviosas afectadas.» Texto original en inglés: "Local anesthetics block the generation and the conduction of nerve impulses presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential. In general, the progression of anesthesia is related to the diameter, myelination, and conduction velocity of affected nerve fibers." ([DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66), versión del 2026-11-09; consultado el 2026-11-19). Por conocimiento general, la bupivacaína es un anestésico local de tipo amida que bloquea los canales de sodio dependientes de voltaje y, con ello, la conducción nerviosa. Los datos farmacológicos compilados también muestran actividad sobre canales de potasio (Kir3.2, Kv1.5, Kv4.3) y sobre Nav1.5, aunque sin datos de afinidad públicos que sustenten su mecanismo principal.
 
 La acrodermatitis crónica atrófica es la manifestación cutánea tardía de la infección por *Borrelia* (borreliosis de Lyme) y se trata con antibióticos. Un anestésico local no tiene acción antimicrobiana ni modificadora de la enfermedad conocida en este contexto. No se ha establecido un vínculo mecanístico creíble.
 
@@ -98,6 +98,19 @@ La predicción se basa únicamente en el modelo, sin ensayos clínicos ni litera
 - Datos detallados del mecanismo de acción y de una hipótesis biológica plausible
 - Advertencias y contraindicaciones del prospecto de la AEMPS para el análisis de seguridad
 - Evaluación de la compatibilidad de vía de administración con la nueva indicación
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

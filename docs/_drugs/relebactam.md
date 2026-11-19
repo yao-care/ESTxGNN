@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia**, pero 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, relebactam es un inhibidor de beta-lactamasas de serina de clase A y C que se combina con imipenem/cilastatina para proteger al antibiótico de la degradación enzimática. Su utilidad en infecciones urinarias complicadas y pielonefritis procede de ese efecto adyuvante antibacteriano.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Relebactam es (traducción no oficial): «Inhibidor de la betalactamasa SHV-1; inhibidor de la betalactamasa bacteriana TEM; inhibidor de betalactamasas; inhibidor de la betalactamasa hidrolizante de carbapenémicos KPC» Texto original en inglés: "Beta-lactamase SHV-1 inhibitor; Bacterial beta-lactamase TEM inhibitor; Beta-lactamase inhibitor; Carbapenem-hydrolyzing beta-lactamase KPC inhibitor" ([ChEMBL CHEMBL3301605 (relebactam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301605), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, relebactam es un inhibidor de beta-lactamasas de serina de clase A y C que se combina con imipenem/cilastatina para proteger al antibiótico de la degradación enzimática. Su utilidad en infecciones urinarias complicadas y pielonefritis procede de ese efecto adyuvante antibacteriano.
 
 Sin embargo, **no se identifica un vínculo mecanístico creíble** con la hiperamilasemia. Relebactam no tiene acción conocida sobre el metabolismo ni el aclaramiento de la amilasa pancreática o salival. Además, la hiperamilasemia suele ser un hallazgo de laboratorio (pancreatitis, insuficiencia renal, enfermedad de glándulas salivales) más que una enfermedad tratable en sí misma, por lo que el fundamento de reposicionamiento es débil.
 
@@ -106,6 +106,19 @@ La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ens
 - Evidencia preclínica o clínica que sustente un vínculo biológico con la hiperamilasemia
 - Evaluación de la compatibilidad de vía de administración (el fármaco solo está disponible como perfusión intravenosa) y de la similitud con la indicación original
 - Considerar priorizar otras indicaciones con mejor sustento biológico, ya que las tres predicciones principales carecen de evidencia
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL3301605 (relebactam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301605) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

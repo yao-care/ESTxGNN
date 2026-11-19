@@ -58,7 +58,7 @@ La pravastatina es una estatina (inhibidor de la HMG-CoA reductasa) utilizada or
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados del mecanismo de acción en los datos compilados. Sin embargo, la pravastatina pertenece a la clase de las estatinas, cuyo objetivo farmacológico es la enzima HMG-CoA reductasa (HMGCR). Al inhibirla, reduce la síntesis hepática de colesterol y aumenta los receptores hepáticos de LDL, con lo que disminuye el colesterol LDL circulante.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pravastatin (traducción no oficial): «La pravastatina es un inhibidor reversible de la HMG-CoA reductasa, la enzima limitante de la velocidad que convierte la HMG-CoA en mevalonato, un precursor del colesterol.» Texto original en inglés: "Pravastatin is a reversible inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol." ([DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d), versión del 2026-10-23; consultado el 2026-11-19). Sin embargo, la pravastatina pertenece a la clase de las estatinas, cuyo objetivo farmacológico es la enzima HMG-CoA reductasa (HMGCR). Al inhibirla, reduce la síntesis hepática de colesterol y aumenta los receptores hepáticos de LDL, con lo que disminuye el colesterol LDL circulante.
 
 La hipercolesterolemia familiar es una enfermedad hereditaria con colesterol LDL muy elevado, estrechamente relacionada con las indicaciones originales del fármaco (hiperlipidemia y aterosclerosis). Por eso el modelo la identifica como cercana en la red de conocimiento.
 
@@ -136,11 +136,12 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "La pravastatina cuenta con 20 autorizaciones vigentes, todas de fármaco único y en forma de comprimido" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d) |
 
 <!-- review:end log -->
 

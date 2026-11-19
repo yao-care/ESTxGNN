@@ -56,7 +56,7 @@ pero hasta ahora no hay ensayos clínicos y solo existen **8 publicaciones**, ca
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, amikacina pertenece a la clase de los aminoglucósidos, que actúan contra bacterias gramnegativas, entre ellas enterobacterias como *Salmonella*. Por tanto, existe un vínculo antibacteriano plausible con la fiebre paratifoidea, causada por *Salmonella* Paratyphi.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Amikacin (traducción no oficial): «La amikacina, un aminoglucósido, se une al ribosoma procariota e inhibe la síntesis de proteínas en las bacterias sensibles. Es bactericida in vitro frente a bacterias grampositivas y gramnegativas.» Texto original en inglés: "Amikacin, an aminoglycoside, binds to the prokaryotic ribosome, inhibiting protein synthesis in susceptible bacteria. It is bactericidal in vitro against Gram-positive and Gram-negative bacteria." ([DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890), versión del 2026-07-27; consultado el 2026-11-19). Según la información conocida, amikacina pertenece a la clase de los aminoglucósidos, que actúan contra bacterias gramnegativas, entre ellas enterobacterias como *Salmonella*. Por tanto, existe un vínculo antibacteriano plausible con la fiebre paratifoidea, causada por *Salmonella* Paratyphi.
 
 Sin embargo, el vínculo es débil en la práctica: *Salmonella* vive dentro de los macrófagos y los aminoglucósidos penetran mal en el interior de las células, por lo que en general no son eficaces en la fiebre entérica. Además, ninguno de los estudios aportados evalúa directamente la amikacina como tratamiento de la fiebre paratifoidea.
 
@@ -105,6 +105,19 @@ No hay ensayos clínicos y ningún estudio evalúa directamente la amikacina en 
 - Datos del mecanismo de acción y de la penetración intracelular frente a *Salmonella*
 - Información de advertencias y contraindicaciones del prospecto de las autorizaciones españolas
 - Plan de monitorización de seguridad (función renal, audición y función neuromuscular), dado el perfil de riesgo de los aminoglucósidos
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

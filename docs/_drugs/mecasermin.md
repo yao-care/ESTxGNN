@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, mecasermina es IGF-1 recombinante, que actúa sobre el receptor de IGF-1 y reproduce el efecto de la hormona del crecimiento a nivel posterior (downstream). Su eficacia en la insensibilidad a la hormona del crecimiento se debe a que evita la señalización defectuosa de dicha hormona.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Mecasermin (traducción no oficial): «El factor de crecimiento insulinoide tipo 1 (IGF-1) es un mediador hormonal clave del crecimiento estatural. En circunstancias normales, la hormona del crecimiento (GH) se une a su receptor en el hígado y en otros tejidos, y estimula la síntesis/secreción de IGF-1.» Texto original en inglés: "Insulin-like growth factor-1 (IGF-1) is a key hormonal mediator on statural growth. Under normal circumstances, growth hormone (GH) binds to its receptor in the liver, and other tissues, and stimulates the synthesis/secretion of IGF-1." ([DailyMed: Increlex (mecasermin) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d5b2b0e1-c523-468d-9a0b-4ae4e4a8dbce), versión del 2026-05-18; consultado el 2026-11-19). Según la información conocida, mecasermina es IGF-1 recombinante, que actúa sobre el receptor de IGF-1 y reproduce el efecto de la hormona del crecimiento a nivel posterior (downstream). Su eficacia en la insensibilidad a la hormona del crecimiento se debe a que evita la señalización defectuosa de dicha hormona.
 
 El síndrome de Turner (monosomía X) se caracteriza por talla baja, que habitualmente se trata con hormona del crecimiento. Por ello existe un vínculo plausible a través de los efectos promotores del crecimiento. Sin embargo, las pacientes con síndrome de Turner suelen tener intacta la vía GH–IGF-1, por lo que el beneficio de reponer IGF-1 es especulativo.
 
@@ -96,6 +96,19 @@ La predicción para monosomía X se basa solo en el modelo (nivel L5), sin ensay
 - Advertencias y contraindicaciones del prospecto de la AEMPS, que son necesarias antes de cualquier evaluación de seguridad.
 - Análisis de compatibilidad de vía de administración y similitud con la indicación original.
 - Considerar que otras predicciones tienen mayor plausibilidad mecanística (p. ej., síndrome de insensibilidad a la GH con disregulación inmune 2, autosómico dominante), aunque probablemente ya queda dentro del alcance de la indicación existente y no sería un reposicionamiento genuino.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Increlex (mecasermin) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d5b2b0e1-c523-468d-9a0b-4ae4e4a8dbce) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

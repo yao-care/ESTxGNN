@@ -58,7 +58,7 @@ con **3 ensayos clínicos** (1 de ellos terminado con solo 11 pacientes y 1 reti
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, niraparib pertenece a la clase de los inhibidores de PARP, que explotan la letalidad sintética en tumores con deficiencia de recombinación homóloga (HRD).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Niraparib (traducción no oficial): «El niraparib es un inhibidor de las enzimas PARP, incluidas PARP-1 y PARP-2, que desempeñan un papel en la reparación del ADN. Los estudios in vitro han demostrado que la citotoxicidad inducida por niraparib puede implicar la inhibición de la actividad enzimática de PARP y un aumento de la formación de complejos PARP-ADN, lo que da lugar a daño del ADN, apoptosis y muerte celular.» Texto original en inglés: "Niraparib is an inhibitor of PARP enzymes, including PARP-1 and PARP-2, that play a role in DNA repair. In vitro studies have shown that niraparib-induced cytotoxicity may involve inhibition of PARP enzymatic activity and increased formation of PARP-DNA complexes resulting in DNA damage, apoptosis, and cell death." ([DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d), versión del 2026-07-28; consultado el 2026-11-19). Según la información conocida, niraparib pertenece a la clase de los inhibidores de PARP, que explotan la letalidad sintética en tumores con deficiencia de recombinación homóloga (HRD).
 
 La etiqueta "neoplasia quística" parece ser una asignación amplia de la ontología hacia tumores de tipo seroso/ovárico. Los ensayos y publicaciones disponibles se refieren al carcinoma seroso de endometrio y al carcinoma seroso de alto grado de ovario, tumores con características moleculares similares (inestabilidad cromosómica, alteraciones en el número de copias) y con posible HRD, lo que los hace plausiblemente sensibles a los inhibidores de PARP.
 
@@ -134,6 +134,19 @@ La candidata "neoplasia quística" tiene solo evidencia de fase 2 en curso (sin 
 - Esperar los resultados del ensayo de fase 2 NCT04716686 y de nuevos ensayos de fase 3
 - Establecer la presencia de HRD u otros biomarcadores en la población objetivo
 - Elaborar un plan de monitoreo hematológico y de presión arterial, y revisar las interacciones de nivel Mayor y Moderado
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

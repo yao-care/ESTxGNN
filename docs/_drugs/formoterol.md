@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **malformación respirator
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, formoterol es un agonista beta2 de acción prolongada que relaja el músculo liso bronquial, y se administra por vía inhalatoria.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Formoterol (traducción no oficial): «El fumarato de formoterol es un agonista de los receptores beta 2 -adrenérgicos de acción prolongada (agonista beta 2 ). El fumarato de formoterol inhalado actúa localmente en el pulmón como broncodilatador. Los estudios in vitro han demostrado que el formoterol tiene una actividad agonista más de 200 veces mayor en los receptores beta 2 que en los receptores beta 1 .» Texto original en inglés: "Formoterol fumarate is a long-acting, beta 2 -adrenergic receptor agonist (beta 2 -agonist). Inhaled formoterol fumarate acts locally in the lung as a bronchodilator. In vitro studies have shown that formoterol has more than 200-fold greater agonist activity at beta 2 -receptors than at beta 1 -receptors." ([DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79), versión del 2025-12-10; consultado el 2026-11-19). Según la información conocida, formoterol es un agonista beta2 de acción prolongada que relaja el músculo liso bronquial, y se administra por vía inhalatoria.
 
 Este mecanismo actúa sobre el tono de las vías respiratorias, pero no puede corregir malformaciones estructurales congénitas del tracto respiratorio. No se identifica un vínculo mecanístico creíble con esta nueva indicación.
 
@@ -106,6 +106,18 @@ No existen ensayos ni publicaciones que estudien directamente la malformación r
 - Un fundamento biológico plausible que vincule la acción beta2-agonista con la malformación respiratoria
 - Estudios preclínicos o clínicos que aborden directamente esta enfermedad
 - Advertencias y contraindicaciones del prospecto de la AEMPS para el cribado de seguridad
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

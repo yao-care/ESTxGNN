@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser eficaz en el **mesotelioma peritoneal ma
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados del mecanismo de acción en la base de datos consultada. Según el análisis compilado para este informe, pemetrexed inhibe la timidilato sintasa (TS), la dihidrofolato reductasa (DHFR) y la glicinamida ribonucleótido formiltransferasa (GARFT). Con ello bloquea la síntesis de nucleótidos dependiente de folato y frena la división de las células tumorales.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pemetrexed (traducción no oficial): «El pemetrexed es un inhibidor metabólico análogo del folato que altera los procesos metabólicos dependientes del folato esenciales para la replicación celular. Los estudios in vitro muestran que el pemetrexed inhibe la timidilato sintasa (TS), la dihidrofolato reductasa (DHFR) y la glicinamida ribonucleótido formiltransferasa (GARFT), que son enzimas dependientes del folato que intervienen en la biosíntesis de novo de los nucleótidos de timidina y de purina.» Texto original en inglés: "Pemetrexed is a folate analog metabolic inhibitor that disrupts folate-dependent metabolic processes essential for cell replication. In vitro studies show that pemetrexed inhibits thymidylate synthase (TS), dihydrofolate reductase (DHFR), and glycinamide ribonucleotide formyltransferase (GARFT), which are folate-dependent enzymes involved in the de novo biosynthesis of thymidine and purine nucleotides." ([DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0), versión del 2026-06-18; consultado el 2026-11-19). Según el análisis compilado para este informe, pemetrexed inhibe la timidilato sintasa (TS), la dihidrofolato reductasa (DHFR) y la glicinamida ribonucleótido formiltransferasa (GARFT). Con ello bloquea la síntesis de nucleótidos dependiente de folato y frena la división de las células tumorales.
 
 El mesotelioma pleural y el peritoneal comparten histología y biología. Por eso es plausible que la sensibilidad a los antifolatos demostrada en la enfermedad pleural se extienda a la peritoneal. De hecho, la combinación de pemetrexed y cisplatino, estándar en el mesotelioma pleural, ya se utiliza con frecuencia en el peritoneal, aunque su eficacia en esta localización sigue sin estar bien definida.
 
@@ -141,11 +141,12 @@ Existe un ensayo de Fase 2 completado con pemetrexed en mesotelioma pleural o pe
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes, todas de principio activo único; aquí se muestran 5" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0) |
 
 <!-- review:end log -->
 

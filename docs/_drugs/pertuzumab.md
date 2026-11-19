@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para el **subtipo de carcinoma 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Pertuzumab se une al subdominio II de HER2 e impide su dimerización con otros receptores de la familia (en particular HER3). Esto bloquea las vías de señalización PI3K/AKT y MAPK en tumores que dependen de HER2. Por ello es plausible su uso en cáncer de mama impulsado por HER2. Actualmente no se dispone de datos detallados del mecanismo de acción en las bases consultadas, pero esta descripción es la aceptada para el fármaco.
+Pertuzumab se une al subdominio II de HER2 e impide su dimerización con otros receptores de la familia (en particular HER3). Esto bloquea las vías de señalización PI3K/AKT y MAPK en tumores que dependen de HER2. Por ello es plausible su uso en cáncer de mama impulsado por HER2. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pertuzumab (traducción no oficial): «El pertuzumab se dirige al dominio de dimerización extracelular (subdominio II) de la proteína del receptor 2 del factor de crecimiento epidérmico humano (HER2) y, de este modo, bloquea la heterodimerización dependiente de ligando de HER2 con otros miembros de la familia HER, incluidos EGFR, HER3 y HER4. Como resultado, el pertuzumab inhibe la señalización intracelular iniciada por ligando a través de dos vías de señalización principales: la de la proteína cinasa activada por mitógenos (MAP) y la de la fosfoinositida 3-cinasa (PI3K).» Texto original en inglés: "Pertuzumab targets the extracellular dimerization domain (Subdomain II) of the human epidermal growth factor receptor 2 protein (HER2) and, thereby, blocks ligand-dependent heterodimerization of HER2 with other HER family members, including EGFR, HER3, and HER4. As a result, pertuzumab inhibits ligand-initiated intracellular signaling through two major signal pathways, mitogen-activated protein (MAP) kinase, and phosphoinositide 3-kinase (PI3K)." ([DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff), versión del 2026-04-30; consultado el 2026-11-19).
 
 La nueva indicación predicha es un subtipo molecular dentro del cáncer de mama, es decir, está relacionada con la indicación original. Sin embargo, el subtipo de tipo normal suele ser HER2-bajo o HER2-negativo, y no se ha demostrado dependencia de HER2 en él. El mecanismo de pertuzumab, que requiere la presencia de HER2 como diana, no respalda de forma directa su eficacia aquí.
 
@@ -113,6 +113,19 @@ Otras predicciones del mismo análisis tienen más respaldo, pero corresponden a
 - Revisar la bibliografía y los registros de ensayos específicos para esta indicación.
 - Obtener del prospecto de la AEMPS las advertencias y contraindicaciones, y el texto de las indicaciones aprobadas.
 - Completar los datos del mecanismo de acción y la similitud con la indicación original.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

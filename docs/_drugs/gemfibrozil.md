@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, a
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Según el conocimiento general, gemfibrozilo es un agonista del receptor activado por proliferadores de peroxisomas alfa (PPAR-alfa), que reduce los triglicéridos y aumenta el HDL. Su eficacia en la hipertrigliceridemia está bien establecida.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Gemfibrozil (traducción no oficial): «El gemfibrozilo es un agente regulador de los lípidos que disminuye los triglicéridos séricos y el colesterol de las lipoproteínas de muy baja densidad (VLDL), y aumenta el colesterol de las lipoproteínas de alta densidad (HDL). Si bien pueden observarse disminuciones moderadas del colesterol total y del colesterol de las lipoproteínas de baja densidad (LDL) con el tratamiento con gemfibrozilo, el tratamiento de pacientes con triglicéridos elevados debido a hiperlipoproteinemia de tipo IV a menudo produce un aumento del colesterol LDL.» Texto original en inglés: "Gemfibrozil is a lipid regulating agent which decreases serum triglycerides and very low density lipoprotein (VLDL) cholesterol, and increases high density lipoprotein (HDL) cholesterol. While modest decreases in total and low density lipoprotein (LDL) cholesterol may be observed with gemfibrozil therapy, treatment of patients with elevated triglycerides due to Type IV hyperlipoproteinemia often results in a rise in LDL-cholesterol." ([DailyMed: gemfibrozil prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5501438d-5247-4f2a-8e15-085276d01725), versión del 2026-11-10; consultado el 2026-11-19). Según el conocimiento general, gemfibrozilo es un agonista del receptor activado por proliferadores de peroxisomas alfa (PPAR-alfa), que reduce los triglicéridos y aumenta el HDL. Su eficacia en la hipertrigliceridemia está bien establecida.
 
 Mecanísticamente, la activación de PPAR-alfa tiene efectos antiinflamatorios (reducción de la señalización de NF-κB y modulación de las respuestas de los linfocitos T), lo que podría ser relevante en una enfermedad autoinmune e inflamatoria como la artritis reumatoide. En un modelo de artritis inducida por adyuvante en ratas, la combinación de gemfibrozilo con una dosis reducida de esteroides logró un cuadro de manejo similar al de la dosis completa de esteroides (PMID 30074417). Además, bezafibrato, un agonista pan-PPAR, atenuó la artritis experimental (PMID 41207105).
 
@@ -131,6 +131,19 @@ La predicción de TxGNN para artritis reumatoide es alta (0.9990), pero la evide
 ### Nota sobre otras indicaciones predichas
 
 Entre las demás predicciones, la **infección por VIH** tiene mayor respaldo (nivel L2, **Proceed with Guardrails**). Se trata de un uso derivado de la indicación lipídica original: tratamiento de la hipertrigliceridemia asociada a inhibidores de la proteasa. Dispone de un estudio aleatorizado doble ciego (PMID 12409741) y un ensayo de fase 1 completado (NCT00039663). Sus principales precauciones son las interacciones con inhibidores de la proteasa y estatinas, y el riesgo de miopatía.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: gemfibrozil prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5501438d-5247-4f2a-8e15-085276d01725) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

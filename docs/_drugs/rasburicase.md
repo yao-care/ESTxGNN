@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectiva para **hipouricemia renal**, pe
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados en las fuentes consultadas. Según la información conocida, la rasburicasa es una enzima urato oxidasa recombinante que convierte el ácido úrico en alantoína, más soluble, con lo que reduce el ácido úrico sérico. Su eficacia en la hiperuricemia es el fundamento de su uso original.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rasburicase (traducción no oficial): «En los seres humanos, el ácido úrico es el paso final de la vía catabólica de las purinas. La rasburicasa cataliza la oxidación enzimática del ácido úrico, poco soluble, a un metabolito inactivo y más soluble (alantoína).» Texto original en inglés: "In humans, uric acid is the final step in the catabolic pathway of purines. Rasburicase catalyzes enzymatic oxidation of poorly soluble uric acid into an inactive and more soluble metabolite (allantoin)." ([DailyMed: Elitek (rasburicase) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922), versión del 2026-07-30; consultado el 2026-11-19). Según la información conocida, la rasburicasa es una enzima urato oxidasa recombinante que convierte el ácido úrico en alantoína, más soluble, con lo que reduce el ácido úrico sérico. Su eficacia en la hiperuricemia es el fundamento de su uso original.
 
 Sin embargo, en este caso **la predicción no resulta mecanísticamente razonable**. La hipouricemia renal es un estado de ácido úrico sérico ya bajo, causado por un defecto en la reabsorción renal de urato (por ejemplo, variantes de SLC22A12/URAT1 o SLC2A9). Reducir aún más el ácido úrico no trataría la enfermedad y podría empeorarla, además de añadir riesgo de lesión renal aguda inducida por el ejercicio.
 
@@ -130,6 +130,19 @@ La predicción se basa únicamente en el modelo (L5), sin ensayos ni literatura,
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Si se desea explorar la deficiencia parcial de HPRT, revisar la literatura sobre uso agudo de rasburicasa y evaluar inmunogenicidad y alternativas establecidas (alopurinol, febuxostat).
 - Verificar la compatibilidad de vía de administración (actualmente pendiente) y la similitud con la indicación original.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Elitek (rasburicase) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

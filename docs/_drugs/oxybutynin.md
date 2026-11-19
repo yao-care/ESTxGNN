@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, la oxibutinina es un antagonista de los receptores muscarínicos (los datos farmacológicos compilados la vinculan con los receptores M1 a M5) y su eficacia en la vejiga hiperactiva está establecida. Además, se le atribuye una acción antiespasmódica directa sobre el músculo liso.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Oxybutynin (traducción no oficial): «La oxibutinina relaja el músculo liso de la vejiga. El cloruro de oxibutinina ejerce un efecto antiespasmódico directo sobre el músculo liso e inhibe la acción muscarínica de la acetilcolina sobre el músculo liso. No se producen efectos de bloqueo en las uniones neuromusculares esqueléticas ni en los ganglios autónomos (efectos antinicotínicos).» Texto original en inglés: "Oxybutynin relaxes bladder smooth muscle. Oxybutynin chloride exerts a direct antispasmodic effect on smooth muscle and inhibits the muscarinic action of acetylcholine on smooth muscle. No blocking effects occur at skeletal neuromuscular junctions or autonomic ganglia (antinicotinic effects)." ([DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67), versión del 2026-11-11; consultado el 2026-11-19). Según la información conocida, la oxibutinina es un antagonista de los receptores muscarínicos (los datos farmacológicos compilados la vinculan con los receptores M1 a M5) y su eficacia en la vejiga hiperactiva está establecida. Además, se le atribuye una acción antiespasmódica directa sobre el músculo liso.
 
 Una posible relación es que el desequilibrio colinérgico/dopaminérgico se ha discutido en la fisiopatología del síndrome de piernas inquietas. Sin embargo, este vínculo es especulativo: los anticolinérgicos con actividad central suelen describirse como agravantes o sin beneficio claro en este síndrome. La relación con la indicación original (un trastorno urológico) es débil y no está establecida.
 
@@ -113,6 +113,19 @@ La predicción tiene un puntaje alto (0.9974), pero no cuenta con ningún ensayo
 - Obtención de los textos de indicación y del prospecto de la AEMPS (advertencias y contraindicaciones oficiales)
 - Evaluación de la compatibilidad de las vías de administración (pendiente)
 - Evidencia clínica o preclínica directa antes de reconsiderar la decisión
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

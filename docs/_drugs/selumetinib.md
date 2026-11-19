@@ -56,7 +56,7 @@ Entre las demás predicciones de alto puntaje, la mejor respaldada es el **schwa
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, selumetinib es un inhibidor de MEK1/2 de la vía RAS/RAF/MEK/ERK. Su eficacia en la neurofibromatosis (tumores del tipo neurofibroma plexiforme) ha sido comprobada y es la base de su comercialización.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Selumetinib (traducción no oficial): «El selumetinib es un inhibidor de las cinasas 1 y 2 de la proteína cinasa activada por mitógenos (MEK1/2). Las proteínas MEK1/2 son reguladores ascendentes de la vía de la cinasa relacionada con señales extracelulares (ERK). Tanto MEK como ERK son componentes fundamentales de la vía RAF-MEK-ERK regulada por RAS, que con frecuencia está activada en distintos tipos de cáncer.» Texto original en inglés: "Selumetinib is an inhibitor of mitogen-activated protein kinase kinases 1 and 2 (MEK1/2). MEK1/2 proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway. Both MEK and ERK are critical components of the RAS-regulated RAF-MEK-ERK pathway, which is often activated in different types of cancers." ([DailyMed: Koselugo (selumetinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d042c61-f28f-4ab5-ab10-d7558c0d49ff), versión del 2026-05-26; consultado el 2026-11-19). Según la información conocida, selumetinib es un inhibidor de MEK1/2 de la vía RAS/RAF/MEK/ERK. Su eficacia en la neurofibromatosis (tumores del tipo neurofibroma plexiforme) ha sido comprobada y es la base de su comercialización.
 
 Los síndromes de lentiginosis pigmentaria suelen implicar una desregulación de la vía RAS/MAPK, que es una diana plausible de la inhibición de MEK. Además, las manchas café con leche y otros rasgos pigmentarios son característicos de la neurofibromatosis, lo que explica la cercanía fenotípica que probablemente capta el modelo.
 
@@ -131,6 +131,19 @@ La predicción para lentiginosis generalizada familiar es solo del modelo (nivel
 - Revisión de literatura específica sobre lentiginosis generalizada familiar y su base molecular (vía RAS/MAPK)
 - Evaluar la similitud con la indicación original y la compatibilidad de vías de administración
 - Valorar si procede reorientar el análisis hacia el schwannoma de nervio periférico y seguir los resultados de los ensayos NCT07707947 y NCT07713745
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Koselugo (selumetinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d042c61-f28f-4ab5-ab10-d7558c0d49ff) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno por défici
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Pramipexol es un agonista dopaminérgico no ergolínico con actividad sobre los receptores D2 y D3 (con preferencia por D3). No se dispone de una descripción detallada del mecanismo de acción, pero los datos farmacológicos compilados confirman que sus dianas son los receptores DRD2 y DRD3. Su eficacia está establecida en el síndrome de piernas inquietas y en la enfermedad de Parkinson idiopática, ambas con un componente de disfunción dopaminérgica.
+Pramipexol es un agonista dopaminérgico no ergolínico con actividad sobre los receptores D2 y D3 (con preferencia por D3). Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pramipexole (traducción no oficial): «El pramipexol es un agonista dopaminérgico no ergolínico con una especificidad relativa in vitro elevada y actividad intrínseca completa en la subfamilia D 2 de receptores de dopamina, que se une con mayor afinidad a los subtipos de receptores D 3 que a los D 2 o D 4. Enfermedad de Parkinson Se desconoce el mecanismo de acción exacto del pramipexol como tratamiento de la enfermedad de Parkinson, aunque se cree que está relacionado con su capacidad para estimular los receptores de dopamina en el cuerpo estriado.» Texto original en inglés: "Pramipexole is a non-ergot dopamine agonist with high relative in vitro specificity and full intrinsic activity at the D 2 subfamily of dopamine receptors, binding with higher affinity to D 3 than to D 2 or D 4 receptor subtypes. Parkinson’s Disease The precise mechanism of action of pramipexole as a treatment for Parkinson's disease is unknown, although it is believed to be related to its ability to stimulate dopamine receptors in the striatum." ([DailyMed: pramipexole dihydrochloride prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29b639e3-25a5-4c2f-b4ea-a119db79fe0c), versión del 2026-09-09; consultado el 2026-11-19). Su eficacia está establecida en el síndrome de piernas inquietas y en la enfermedad de Parkinson idiopática, ambas con un componente de disfunción dopaminérgica.
 
 La relación con el TDAH es plausible pero indirecta. La desregulación dopaminérgica se ha implicado en el TDAH, y variantes del gen del receptor D4 (DRD4) se han asociado con este trastorno. Un estudio preclínico reciente (2021) sugiere además interacciones entre receptores dopaminérgicos y adrenérgicos α2A, diana de fármacos como la guanfacina.
 
@@ -136,11 +136,12 @@ La predicción de TxGNN es muy alta, pero no hay ensayos clínicos ni estudios d
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Pramipexol está comercializado con 20 autorizaciones vigentes, todas de principio activo único y ninguna cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: pramipexole dihydrochloride prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29b639e3-25a5-4c2f-b4ea-a119db79fe0c) |
 
 <!-- review:end log -->
 

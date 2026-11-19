@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **colangitis esclerosante*
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, cidofovir es un análogo nucleotídico que inhibe la ADN polimerasa viral, y se utiliza como antiviral en infecciones por citomegalovirus y otros virus de ADN.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cidofovir (traducción no oficial): «El cidofovir suprime la replicación del citomegalovirus (CMV) mediante la inhibición selectiva de la síntesis del ADN viral. Los datos bioquímicos respaldan la inhibición selectiva de la ADN polimerasa del CMV por el difosfato de cidofovir, el metabolito intracelular activo del cidofovir.» Texto original en inglés: "Cidofovir suppresses cytomegalovirus (CMV) replication by selective inhibition of viral DNA synthesis. Biochemical data support selective inhibition of CMV DNA polymerase by cidofovir diphosphate, the active intracellular metabolite of cidofovir." ([DailyMed: Cidofovir (cidofovir anhydrous) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56541229-8c1a-4550-8951-2415ed08e7e9), versión del 2021-04-15; consultado el 2026-11-19). Según la información conocida, cidofovir es un análogo nucleotídico que inhibe la ADN polimerasa viral, y se utiliza como antiviral en infecciones por citomegalovirus y otros virus de ADN.
 
 La colangitis esclerosante es principalmente una enfermedad de origen inmunomediado. Un vínculo plausible sería solo indirecto, por ejemplo una colangiopatía de origen viral (como CMV) en pacientes inmunodeprimidos. Por ello, la justificación mecanística directa es débil.
 
@@ -103,6 +103,19 @@ La predicción para colangitis esclerosante es solo computacional (nivel L5), si
 - Advertencias y contraindicaciones del prospecto de la AEMPS
 - Estudios preclínicos o series de casos que apoyen un papel antiviral en colangiopatías (por ejemplo, de origen por CMV)
 - Evaluación del balance beneficio-riesgo renal en pacientes con enfermedad hepatobiliar
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cidofovir (cidofovir anhydrous) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56541229-8c1a-4550-8951-2415ed08e7e9) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

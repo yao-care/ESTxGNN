@@ -60,7 +60,7 @@ El modelo TxGNN predice que podría ser efectivo para **hemorragia subaracnoidea
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la vincamina es un derivado de los alcaloides de la vinca que se ha utilizado como vasodilatador cerebral y potenciador metabólico. Se le atribuye mejorar el flujo sanguíneo cerebral y el aprovechamiento de oxígeno y glucosa por parte de las neuronas, además de cierta actividad de bloqueo de canales de sodio y antioxidante.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Vincamine es (traducción no oficial): «Desconocido» Texto original en inglés: "Unknown" ([ChEMBL CHEMBL1165342 (vincamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1165342), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la vincamina es un derivado de los alcaloides de la vinca que se ha utilizado como vasodilatador cerebral y potenciador metabólico. Se le atribuye mejorar el flujo sanguíneo cerebral y el aprovechamiento de oxígeno y glucosa por parte de las neuronas, además de cierta actividad de bloqueo de canales de sodio y antioxidante.
 
 Estas propiedades podrían relacionarse, en teoría, con el vasoespasmo cerebral y la isquemia cerebral tardía que aparecen tras una hemorragia subaracnoidea. Sin embargo, este vínculo es **hipotético** y no se ha verificado con los datos aportados. Que el nimodipino, un fármaco relacionado con la circulación cerebral, tenga un papel establecido en este contexto no constituye por sí mismo un respaldo para la vincamina.
 
@@ -111,6 +111,19 @@ La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ens
 - Evaluar el riesgo hemorrágico y la señal de contraindicación del grafo antes de cualquier estudio.
 - Valorar estudios preclínicos que sustenten el vínculo mecanístico con el vasoespasmo y la isquemia cerebral tardía.
 - Comprobar la compatibilidad de vías de administración con el uso propuesto (actualmente solo hay forma oral en cápsula).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1165342 (vincamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1165342) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

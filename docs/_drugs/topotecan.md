@@ -56,7 +56,7 @@ con **3 ensayos clínicos** (todos de fase temprana o terminados sin resultados 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, topotecan es un inhibidor de la topoisomerasa I que provoca roturas de cadena sencilla en el ADN y daño asociado a la replicación en células tumorales en proliferación. Su eficacia en cáncer de ovario está establecida, y mecanísticamente podría ser aplicable a otros tumores de rápida proliferación, como el cáncer de mama.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Topotecan (traducción no oficial): «La topoisomerasa I alivia la tensión torsional del ADN induciendo roturas reversibles de cadena sencilla. El topotecán se une al complejo topoisomerasa I-ADN e impide la religación de estas roturas de cadena sencilla. Se cree que la citotoxicidad del topotecán se debe al daño del ADN de doble cadena producido durante la síntesis de ADN, cuando las enzimas de replicación interactúan con el complejo ternario formado por el topotecán, la topoisomerasa I y el ADN.» Texto original en inglés: "Topoisomerase I relieves torsional strain in DNA by inducing reversible single-strand breaks. Topotecan binds to the topoisomerase I-DNA complex and prevents re-ligation of these single-strand breaks. The cytotoxicity of topotecan is thought to be due to double-strand DNA damage produced during DNA synthesis, when replication enzymes interact with the ternary complex formed by topotecan, topoisomerase I, and DNA." ([DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579), versión del 2023-09-18; consultado el 2026-11-19). Según la información conocida, topotecan es un inhibidor de la topoisomerasa I que provoca roturas de cadena sencilla en el ADN y daño asociado a la replicación en células tumorales en proliferación. Su eficacia en cáncer de ovario está establecida, y mecanísticamente podría ser aplicable a otros tumores de rápida proliferación, como el cáncer de mama.
 
 Hay cierto respaldo preclínico: un estudio (PMID 37987734) sugiere que la inhibición de la topoisomerasa 1 genera letalidad sintética en cánceres dependientes de MYC mediante acumulación anómala de bucles R, incluyendo líneas celulares de cáncer de mama. También se sabe que la proteína de resistencia del cáncer de mama (BCRP/ABCG2) expulsa topotecan de la célula y constituye un posible mecanismo de resistencia.
 
@@ -141,11 +141,12 @@ El puntaje de TxGNN es muy alto, pero la evidencia clínica es escasa: los ensay
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 9 autorizaciones vigentes en total (todas de monofármaco); la tabla muestra las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579) |
 
 <!-- review:end log -->
 

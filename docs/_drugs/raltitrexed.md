@@ -56,7 +56,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, raltitrexed inhibe la timidilato sintasa (TYMS), enzima clave en la síntesis de ADN, y bloquea así la proliferación de células que se dividen rápidamente. Su eficacia se ha utilizado en cáncer colorrectal y mesotelioma maligno.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Raltitrexed es (traducción no oficial): «Inhibidor de la timidilato sintasa» Texto original en inglés: "Thymidylate synthase inhibitor" ([ChEMBL CHEMBL225071 (raltitrexed): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL225071), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, raltitrexed inhibe la timidilato sintasa (TYMS), enzima clave en la síntesis de ADN, y bloquea así la proliferación de células que se dividen rápidamente. Su eficacia se ha utilizado en cáncer colorrectal y mesotelioma maligno.
 
 Con los datos compilados, **no se identifica un vínculo mecanístico plausible** entre la inhibición de la timidilato sintasa y la patología colestásica, inmunomediada y fibroinflamatoria de la colangitis esclerosante. El puntaje elevado del modelo TxGNN (deep learning) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni evidencia específica del fármaco. Además, la elevación de transaminasas asociada al fármaco es una preocupación en una enfermedad hepatobiliar.
 
@@ -114,6 +114,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Confirmar la indicación aprobada en la autorización de la AEMPS
 - Evidencia preclínica o clínica que respalde un vínculo entre la inhibición de la timidilato sintasa y la colangitis esclerosante
 - Evaluar la compatibilidad de la vía de administración (actualmente solo perfusión intravenosa)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL225071 (raltitrexed): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL225071) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

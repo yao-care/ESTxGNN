@@ -60,7 +60,7 @@ Sin embargo, el único ensayo controlado de Fase 2 (en dermatitis atópica) no d
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Risankizumab bloquea selectivamente la subunidad p19 de la IL-23, situada aguas arriba de la activación de las células Th17/Th22. Este mecanismo está bien validado en la psoriasis. No se dispone de datos formales de mecanismo de acción en la base de datos consultada, por lo que esta descripción se basa en el análisis mecanístico del informe y en la literatura.
+Risankizumab bloquea selectivamente la subunidad p19 de la IL-23, situada aguas arriba de la activación de las células Th17/Th22. Este mecanismo está bien validado en la psoriasis. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Risankizumab (traducción no oficial): «Risankizumab-rzaa es un anticuerpo monoclonal IgG1 humanizado que se une selectivamente a la subunidad p19 de la citocina IL-23 humana e inhibe su interacción con el receptor de IL-23. La IL-23 es una citocina de origen natural que participa en las respuestas inflamatorias e inmunitarias.» Texto original en inglés: "Risankizumab-rzaa is a humanized IgG1 monoclonal antibody that selectively binds to the p19 subunit of human IL-23 cytokine and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in inflammatory and immune responses." ([DailyMed: Skyrizi (risankizumab-rzaa) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858), versión del 2026-10-23; consultado el 2026-11-19).
 
 La dermatitis atópica está impulsada sobre todo por la vía Th2, y el eje IL-23 contribuye solo de forma menor, por lo que el fundamento mecanístico es más débil que en la psoriasis. El ensayo de Fase 2 (NCT03706040) no mostró una eficacia relevante frente a placebo, lo que concuerda con esa limitación. Es probable que el puntaje tan alto de TxGNN proceda del modelo TxGNN (deep learning) y refleje similitudes que el modelo aprendió entre enfermedades relacionadas, como la psoriasis, y no evidencia biológica independiente en dermatitis atópica.
 
@@ -132,6 +132,19 @@ El único ensayo controlado de Fase 2 en dermatitis atópica no demostró eficac
 - Análisis completo del ensayo NCT03706040 y de sus subgrupos, para evaluar si algún fenotipo se beneficia.
 - Estudios específicos en fenotipos de solapamiento psoriasis/eccema, si se quiere explorar ese nicho.
 - Evaluación del riesgo de eccema paradójico y de las interacciones con otros inmunosupresores.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Skyrizi (risankizumab-rzaa) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

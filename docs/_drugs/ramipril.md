@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos** y solo **un estudio preclínico en
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Ramipril inhibe la ECA y, con ello, reduce la formación de angiotensina II, un potente vasoconstrictor implicado también en el remodelado vascular. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe, pero este mecanismo general de la clase es bien conocido.
+Ramipril inhibe la ECA y, con ello, reduce la formación de angiotensina II, un potente vasoconstrictor implicado también en el remodelado vascular. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ramipril (traducción no oficial): «El ramipril y el ramiprilato inhiben la ECA en seres humanos y en animales. La enzima convertidora de angiotensina es una peptidil dipeptidasa que cataliza la conversión de la angiotensina I en la sustancia vasoconstrictora angiotensina II. La angiotensina II también estimula la secreción de aldosterona por la corteza suprarrenal.» Texto original en inglés: "Ramipril and ramiprilat inhibit ACE in human subjects and animals. Angiotensin converting enzyme is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex." ([DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59), versión del 2026-11-11; consultado el 2026-11-19).
 
 La hipertensión arterial sistémica y la hipertensión pulmonar comparten la participación del sistema renina-angiotensina en el tono y el remodelado vascular. Un estudio preclínico de 1996 en ratas (PMID 9200213) mostró que el ramipril atenuó los efectos de la hipoxia crónica sobre los vasos pulmonares, con menor presión de perfusión basal. Esto es biológicamente plausible para la hipertensión pulmonar asociada a hipoxia.
 
@@ -124,11 +124,12 @@ La predicción se apoya solo en un estudio preclínico en ratas de 1996 y en el 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes en total (todas de principio activo único); aquí se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59) |
 
 <!-- review:end log -->
 

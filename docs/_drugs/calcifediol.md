@@ -54,7 +54,7 @@ Calcifediol es el metabolito circulante principal de la vitamina D (25-hidroxivi
 
 ## Por qué es Razonable esta Predicción?
 
-Calcifediol es la forma principal de vitamina D en la circulación y el precursor directo del calcitriol, la forma activa. Los datos detallados sobre su mecanismo de acción no están disponibles en los datos compilados, pero su papel en el metabolismo de la vitamina D hace plausible que restablezca el estado de esta vitamina.
+Calcifediol es la forma principal de vitamina D en la circulación y el precursor directo del calcitriol, la forma activa. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Calcifediol (traducción no oficial): «El calcifediol (25-hidroxivitamina D 3 ) es una prohormona de la forma activa de la vitamina D 3, el calcitriol (1,25‑dihidroxivitamina D 3 ). El calcifediol se convierte en calcitriol por acción del citocromo P450 27B1 (CYP27B1), también denominado 1-alfa hidroxilasa, principalmente en el riñón.» Texto original en inglés: "Calcifediol (25-hydroxyvitamin D 3 ) is a prohormone of the active form of vitamin D 3, calcitriol (1,25‑dihydroxyvitamin D 3 ). Calcifediol is converted to calcitriol by cytochrome P450 27B1 (CYP27B1), also called 1-alpha hydroxylase, primarily in the kidney." ([DailyMed: Rayaldee (calcifediol) prescribing information, OPKO Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a95effd-32a5-46b6-a30e-7f4f9bf8cc77), versión del 2024-01-19; consultado el 2026-11-19).
 
 Sin embargo, el término de enfermedad figura como obsoleto en la ontología, por lo que probablemente es un duplicado heredado de los términos actuales de deficiencia de vitamina D. Además, la predicción está muy cerca del uso ya conocido del fármaco en trastornos del metabolismo de la vitamina D, por lo que podría no constituir un reposicionamiento genuino.
 
@@ -93,6 +93,19 @@ La predicción tiene un puntaje alto, pero carece de ensayos clínicos y de lite
 - Revisar ensayos y literatura sobre la enfermedad
 - Obtener las advertencias y contraindicaciones del prospecto de la AEMPS
 - Valorar las interacciones de nivel mayor con otros análogos de vitamina D y burosumab
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Rayaldee (calcifediol) prescribing information, OPKO Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a95effd-32a5-46b6-a30e-7f4f9bf8cc77) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

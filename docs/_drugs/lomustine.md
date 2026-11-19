@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **linfosarcoma (lymphosarc
 
 ## Por que es Razonable esta Prediccion?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general, la lomustina es un alquilante lipofílico de tipo nitrosourea que entrecruza el ADN, un efecto citotóxico plausible en neoplasias linfoides. Su capacidad para penetrar el sistema nervioso central la hace especialmente interesante en linfomas con afectación cerebral.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lomustine (traducción no oficial): «La lomustina alquila el ADN y el ARN. Al igual que otras nitrosoureas, también puede inhibir varios procesos enzimáticos clave mediante la carbamoilación de aminoácidos de las proteínas.» Texto original en inglés: "Lomustine alkylates DNA and RNA. As with other nitrosoureas, it may also inhibit several key enzymatic processes by carbamoylation of amino acids in proteins." ([DailyMed: Gleostine (lomustine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3529fe2f-3c23-4862-bb20-b48026957082), versión del 2025-09-25; consultado el 2026-11-19). Según el conocimiento general, la lomustina es un alquilante lipofílico de tipo nitrosourea que entrecruza el ADN, un efecto citotóxico plausible en neoplasias linfoides. Su capacidad para penetrar el sistema nervioso central la hace especialmente interesante en linfomas con afectación cerebral.
 
 En la práctica, la lomustina se ha empleado en regímenes orales multifármaco (con procarbazina, etopósido, ciclofosfamida o metotrexato) en linfomas no Hodgkin, linfomas asociados al SIDA y linfoma primario del SNC. Sin embargo, en estos estudios no puede aislarse la contribución individual de la lomustina.
 
@@ -129,6 +129,18 @@ El único estudio que aborda directamente el linfosarcoma es preclínico en rato
 - Advertencias y contraindicaciones del prospecto oficial (AEMPS).
 - Plan de monitoreo hematológico, hepático, renal y pulmonar, y revisión de las interacciones de gravedad mayor.
 - Análisis de viabilidad regulatoria, dado que la única autorización en España está cancelada.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Gleostine (lomustine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3529fe2f-3c23-4862-bb20-b48026957082) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

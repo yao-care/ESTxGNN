@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para **hipodisplasia/aplasia re
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la levotiroxina es la forma sintética de la tiroxina (T4) y actúa sobre los receptores de hormona tiroidea alfa (THRA) y beta (THRB). Su uso en enfermedades tiroideas es la base de su perfil terapéutico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Levothyroxine (traducción no oficial): «Las hormonas tiroideas ejercen sus acciones fisiológicas mediante el control de la transcripción del DNA y de la síntesis de proteínas. La triyodotironina (T3) y la L-tiroxina (T4) difunden al núcleo celular y se unen a proteínas receptoras tiroideas unidas al DNA.» Texto original en inglés: "Thyroid hormones exert their physiologic actions through control of DNA transcription and protein synthesis. Triiodothyronine (T3) and L-thyroxine (T4) diffuse into the cell nucleus and bind to thyroid receptor proteins attached to DNA." ([DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174), versión del 2026-11-06; consultado el 2026-11-19). Según la información conocida, la levotiroxina es la forma sintética de la tiroxina (T4) y actúa sobre los receptores de hormona tiroidea alfa (THRA) y beta (THRB). Su uso en enfermedades tiroideas es la base de su perfil terapéutico.
 
 La relación con la hipodisplasia/aplasia renal es débil. La hormona tiroidea participa en el desarrollo fetal en general, incluido el renal, y el hipotiroidismo congénito se ha asociado de forma laxa con otras anomalías congénitas. Sin embargo, la hipodisplasia o aplasia renal tiene un origen genético y del desarrollo (por ejemplo, genes como PAX2, RET o HNF1B), y el reemplazo con levotiroxina no se esperaría que revierta un defecto estructural de las nefronas.
 
@@ -100,6 +100,19 @@ No existe ningún estudio clínico ni publicación que aborde la hipodisplasia/a
 - Advertencias y contraindicaciones del prospecto de la AEMPS.
 - Estudios preclínicos o clínicos que evalúen directamente la hipodisplasia/aplasia renal.
 - Valorar si las otras predicciones (aplasia renal bilateral, secuencia de Potter y complejo de Carney) merecen revisión; el complejo de Carney es la más verosímil biológicamente, aunque también sin evidencia clínica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

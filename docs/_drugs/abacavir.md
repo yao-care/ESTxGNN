@@ -56,7 +56,7 @@ con **0 ensayos clínicos** y **1 publicación** preclínica que actualmente res
 
 ## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, abacavir pertenece a la clase de los inhibidores nucleosídicos de la transcriptasa inversa, que bloquean la replicación de retrovirus al interferir con esta enzima.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para abacavir and lamivudine (combinación que contiene Abacavir) (traducción no oficial): «Abacavir y lamivudina es un agente antirretroviral con actividad contra el VIH-1.» Texto original en inglés: "Abacavir and lamivudine is an antiretroviral agent with activity against HIV-1." ([DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c), versión del 2026-09-18; consultado el 2026-11-19). Según la información conocida, abacavir pertenece a la clase de los inhibidores nucleosídicos de la transcriptasa inversa, que bloquean la replicación de retrovirus al interferir con esta enzima.
 
 El virus de la inmunodeficiencia felina (FIV) es un lentivirus con una transcriptasa inversa biológicamente emparentada con la del VIH. Por ello existe una base mecanística plausible, y varios inhibidores de la transcriptasa inversa activos frente al VIH también lo son frente al FIV. Este vínculo se infiere del conocimiento de la clase farmacológica y no de datos aportados directamente.
 
@@ -101,6 +101,19 @@ La única evidencia es un estudio preclínico in vitro con una combinación de t
 - Estudios que aíslen el efecto de abacavir frente al FIV
 - Definir si existe un interés veterinario real y la vía regulatoria correspondiente
 - Revisión de las advertencias y contraindicaciones del prospecto
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

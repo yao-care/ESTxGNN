@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser útil para **Infección por VIH (HIV inf
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, eltrombopag actúa sobre el receptor de trombopoyetina, estimulando la diferenciación y proliferación de megacariocitos y elevando el recuento de plaquetas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Eltrombopag (traducción no oficial): «El eltrombopag es un agonista del receptor de TPO que interactúa con el dominio transmembrana del receptor de TPO humano (también conocido como cMpl) e inicia cascadas de señalización que inducen la proliferación y la diferenciación de los megacariocitos, lo que conduce a un aumento de la producción de plaquetas.» Texto original en inglés: "Eltrombopag is a TPO-receptor agonist that interacts with the transmembrane domain of the human TPO-receptor (also known as cMpl) and initiates signaling cascades that induce proliferation and differentiation of megakaryocytes leading to increased platelet production." ([DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46), versión del 2026-05-20; consultado el 2026-11-19). Según la información conocida, eltrombopag actúa sobre el receptor de trombopoyetina, estimulando la diferenciación y proliferación de megacariocitos y elevando el recuento de plaquetas.
 
 En la infección por VIH es frecuente la trombocitopenia (púrpura trombocitopénica inmune asociada al VIH, trombocitopenia por reconstitución inmune, fallo medular). En ese contexto, eltrombopag podría actuar como tratamiento de soporte, independientemente de la causa viral. Es decir, el vínculo es el manejo de la trombocitopenia asociada al VIH, no una actividad antiviral contra el VIH.
 
@@ -110,6 +110,18 @@ Ningún estudio citado evalúa el tratamiento de la infección por VIH; la evide
 - Estudios que evalúen directamente el efecto de eltrombopag sobre la infección por VIH, o definir si el objetivo real es la trombocitopenia asociada al VIH
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones)
 - Confirmar los datos de seguridad en poblaciones con VIH, incluidas las interacciones con antirretrovirales
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

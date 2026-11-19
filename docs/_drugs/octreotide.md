@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica disponible, octreotida actúa como ligando de los receptores de somatostatina SST2, SST3 y SST5 (genes SSTR2, SSTR3 y SSTR5). Se utiliza en tumores secretores de hormona de crecimiento, tumores hipofisarios secretores de TSH y en la obtención de imágenes de tumores neuroendocrinos que expresan receptores de somatostatina.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Octreotide (traducción no oficial): «Sandostatin Inyectable ejerce acciones farmacológicas similares a las de la hormona natural somatostatina. Es un inhibidor aún más potente de la GH, el glucagón y la insulina que la somatostatina. […] En virtud de estas acciones farmacológicas, la octreotida se ha utilizado para tratar los síntomas asociados con los tumores carcinoides metastásicos (rubefacción y diarrea) y los adenomas secretores de VIP (diarrea acuosa).» Texto original en inglés: "Sandostatin Injection exerts pharmacologic actions similar to the natural hormone, somatostatin. It is an even more potent inhibitor of GH, glucagon, and insulin than somatostatin. […] By virtue of these pharmacological actions, octreotide has been used to treat the symptoms associated with metastatic carcinoid tumors (flushing and diarrhea), and VIP secreting adenomas (watery diarrhea)." ([DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39), versión del 2026-07-22; consultado el 2026-11-19). Según la información farmacológica disponible, octreotida actúa como ligando de los receptores de somatostatina SST2, SST3 y SST5 (genes SSTR2, SSTR3 y SSTR5). Se utiliza en tumores secretores de hormona de crecimiento, tumores hipofisarios secretores de TSH y en la obtención de imágenes de tumores neuroendocrinos que expresan receptores de somatostatina.
 
 **No se identifica un vínculo mecanístico respaldado por los datos** entre la señalización de los receptores de somatostatina y la queratosis folicular invertida vulvar. Esta última es una lesión epitelial benigna poco frecuente, que normalmente se trata mediante escisión. La puntuación alta de TxGNN (0.9958) es una predicción computacional del modelo de aprendizaje profundo, sin respaldo clínico ni biológico demostrado en este análisis. La similitud con la indicación original está pendiente de evaluar.
 
@@ -113,11 +113,12 @@ La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensa
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 16 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39) |
 
 <!-- review:end log -->
 

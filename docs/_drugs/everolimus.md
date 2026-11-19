@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **1 e
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, everolimus inhibe mTORC1, una proteína situada por debajo de la vía PI3K/AKT que regula la proliferación y la supervivencia celular. Su eficacia en el carcinoma de células renales y en otros tumores está establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Everolimus (traducción no oficial): «El everolimus inhibe la activación y la proliferación de los linfocitos T y B estimuladas por antígenos y por interleucinas (IL-2 e IL-15). En las células, el everolimus se une a una proteína citoplasmática, la proteína de unión a FK506-12 (FKBP-12), para formar un complejo inmunosupresor (everolimus: FKBP-12) que se une a la diana de la rapamicina en mamíferos (mTOR), una cinasa reguladora clave, y la inhibe.» Texto original en inglés: "Everolimus inhibits antigenic and interleukin (IL-2 and IL-15) stimulated activation and proliferation of T and B lymphocytes. In cells, everolimus binds to a cytoplasmic protein, the FK506 Binding Protein-12 (FKBP-12), to form an immunosuppressive complex (everolimus: FKBP-12) that binds to and inhibits the mammalian target of rapamycin (mTOR), a key regulatory kinase." ([DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a), versión del 2026-09-16; consultado el 2026-11-19). Según la información conocida, everolimus inhibe mTORC1, una proteína situada por debajo de la vía PI3K/AKT que regula la proliferación y la supervivencia celular. Su eficacia en el carcinoma de células renales y en otros tumores está establecida.
 
 En el liposarcoma desdiferenciado, que se caracteriza por la amplificación de CDK4/MDM2, se plantea la hipótesis de que combinar un inhibidor de CDK4/6 (ribociclib) con la inhibición de mTOR bloquearía vías proliferativas y de supervivencia paralelas. Existe por tanto una lógica biológica, aunque indirecta.
 
@@ -150,11 +150,12 @@ Aunque el puntaje TxGNN es muy alto (0,9988), la única evidencia clínica es un
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a) |
 
 <!-- review:end log -->
 

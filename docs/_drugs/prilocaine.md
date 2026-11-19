@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis papilar**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la prilocaína es un anestésico local que bloquea los canales de sodio dependientes de voltaje, y su eficacia como anestésico (solo o en la mezcla eutéctica con lidocaína, EMLA) está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Prilocaine (traducción no oficial): «La prilocaína estabiliza la membrana neuronal al inhibir los flujos iónicos necesarios para el inicio y la conducción de los impulsos, con lo que produce la acción anestésica local.» Texto original en inglés: "Prilocaine stabilizes the neuronal membrane by inhibiting the ionic fluxes required for the initiation and conduction of impulses, thereby effecting local anesthetic action." ([DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41), versión del 2021-11-10; consultado el 2026-11-19). Según la información conocida, la prilocaína es un anestésico local que bloquea los canales de sodio dependientes de voltaje, y su eficacia como anestésico (solo o en la mezcla eutéctica con lidocaína, EMLA) está bien establecida.
 
 La relación con la conjuntivitis papilar es débil y especulativa. Se trata de una enfermedad inflamatoria/alérgica de la conjuntiva, y no existe una justificación farmacológica clara que vincule el bloqueo de canales de sodio con su tratamiento. El puntaje alto del modelo TxGNN (aprendizaje profundo) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, y no evidencia biológica.
 
@@ -97,6 +97,19 @@ La indicación predicha (conjuntivitis papilar) solo tiene respaldo del modelo (
 - Evaluar la compatibilidad de la vía de administración (oftálmica frente a la inyectable autorizada).
 
 **Nota sobre otras predicciones:** entre las candidatas de mayor rango, la **neuralgia** (puntaje 0.9934, nivel L3) es la que cuenta con más respaldo: un ensayo de Fase 2 abierto (n=20) con crema de lidocaína/prilocaína y estudios antiguos en neuralgia posherpética. La evidencia es pequeña y confundida por el componente de lidocaína, por lo que podría explorarse como pregunta de investigación. El resto de las predicciones no tiene evidencia terapéutica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

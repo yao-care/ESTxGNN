@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para la **enfermedad metabólic
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la cianocobalamina es una forma sintética de vitamina B12, su eficacia en la deficiencia de B12 y las anemias carenciales está bien establecida, y mecanísticamente podría ser aplicable a trastornos metabólicos relacionados con cofactores vitamínicos.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cyanocobalamin (traducción no oficial): «FARMACOLOGÍA CLÍNICA La vitamina B12 es esencial para el crecimiento, la reproducción celular, la hematopoyesis y la síntesis de nucleoproteínas y de mielina.» Texto original en inglés: "CLINICAL PHAMRACOLOGY Vitamin B12 is essential to growth, cell reproduction, hematopoiesis, and nucleoprotein and myelin synthesis." ([DailyMed: cyanocobalamin prescribing information, SOLA Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e559c6c8-2973-77fb-e053-2995a90af43d), versión del 2025-12-08; consultado el 2026-11-19). Según la información conocida, la cianocobalamina es una forma sintética de vitamina B12, su eficacia en la deficiencia de B12 y las anemias carenciales está bien establecida, y mecanísticamente podría ser aplicable a trastornos metabólicos relacionados con cofactores vitamínicos.
 
 Una posible conexión indirecta es que la cobalamina y la biotina actúan como cofactores enzimáticos en reacciones mitocondriales de mutasa y carboxilación (metilmalonil-CoA mutasa para la B12; propionil-CoA carboxilasa para la biotina), y ambas convergen en el metabolismo del propionato y el metilmalonato.
 
@@ -112,11 +112,12 @@ La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos clínic
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 6 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: cyanocobalamin prescribing information, SOLA Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e559c6c8-2973-77fb-e053-2995a90af43d) |
 
 <!-- review:end log -->
 

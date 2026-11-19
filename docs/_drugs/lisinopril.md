@@ -60,7 +60,7 @@ Se trata de un subtipo anatómico de una indicación ya conocida, por lo que no 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, lisinopril pertenece a la clase de los IECA: bloquea la conversión de angiotensina I en angiotensina II, lo que reduce la vasoconstricción y la carga hemodinámica sobre el corazón.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lisinopril (traducción no oficial): «El lisinopril inhibe la enzima convertidora de angiotensina (ECA) en seres humanos y en animales. La ECA es una peptidil dipeptidasa que cataliza la conversión de la angiotensina I en la sustancia vasoconstrictora angiotensina II. La angiotensina II también estimula la secreción de aldosterona por la corteza suprarrenal.» Texto original en inglés: "Lisinopril inhibits angiotensin-converting enzyme (ACE) in human subjects and animals. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex." ([DailyMed: Qbrelis (lisinopril) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6e4e57-a489-4b36-b093-b93865d3717c), versión del 2025-12-16; consultado el 2026-11-19). Según la información conocida, lisinopril pertenece a la clase de los IECA: bloquea la conversión de angiotensina I en angiotensina II, lo que reduce la vasoconstricción y la carga hemodinámica sobre el corazón.
 
 El infarto de miocardio ya figura entre las indicaciones originales de lisinopril. El infarto posterolateral es un subtipo anatómico del infarto de miocardio, por lo que el beneficio de la inhibición de la ECA (menor remodelado ventricular y menor mortalidad tras el infarto) se extiende de forma plausible a esta localización.
 
@@ -126,11 +126,12 @@ La predicción es de alta puntuación, pero corresponde a un subtipo anatómico 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se identificaron 20 autorizaciones vigentes, todas de monofármaco, en forma de comprimido" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Qbrelis (lisinopril) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6e4e57-a489-4b36-b093-b93865d3717c) |
 
 <!-- review:end log -->
 

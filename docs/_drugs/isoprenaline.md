@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos** y solo **1 publicación** (un repo
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, la isoprenalina es un agonista beta-adrenérgico no selectivo que activa los receptores β1, β2 y β3, con aumento del AMP cíclico. Sus efectos clásicos son cardioestimulación (β1) y broncodilatación/vasodilatación (β2).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Isoprenaline (traducción no oficial): «El isoproterenol es un agonista beta-adrenérgico no selectivo potente con muy baja afinidad por los receptores alfa‑adrenérgicos.» Texto original en inglés: "Isoproterenol is a potent nonselective beta-adrenergic agonist with very low affinity for alpha‑adrenergic receptors." ([DailyMed: isoproterenol hydrochloride prescribing information, KVK-Tech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=051acbc2-7bf8-4059-e063-6394a90a115b), versión del 2026-11-12; consultado el 2026-11-19). Según la información conocida, la isoprenalina es un agonista beta-adrenérgico no selectivo que activa los receptores β1, β2 y β3, con aumento del AMP cíclico. Sus efectos clásicos son cardioestimulación (β1) y broncodilatación/vasodilatación (β2).
 
 La relación con la nueva indicación es débil. Un efecto descongestionante o sobre la mucosa mediado por receptores beta es concebible, pero no hay datos que lo respalden. La única publicación recuperada trata de taquicardia ventricular perioperatoria y espasmo coronario, y no tiene relación con la enfermedad nasal. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -100,6 +100,19 @@ La predicción para enfermedad de la cavidad nasal se basa solo en el modelo (ni
 - Extracción de las advertencias, contraindicaciones e indicaciones aprobadas de los prospectos de la AEMPS.
 
 **Nota sobre otras predicciones:** entre las demás indicaciones predichas, **enfermedad bronquial** (puntaje 0.9977, nivel L4) es la que cuenta con más respaldo, con 19 publicaciones, principalmente revisiones de la clase de agonistas β2 y estudios históricos de isoprenalina en asma. Se trata más de un uso histórico ya establecido que de un reposicionamiento novedoso, y la evidencia es indirecta. Esta alternativa merece una evaluación específica por separado.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: isoproterenol hydrochloride prescribing information, KVK-Tech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=051acbc2-7bf8-4059-e063-6394a90a115b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

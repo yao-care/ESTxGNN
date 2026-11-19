@@ -56,7 +56,7 @@ con **6 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-En los datos compilados para este informe no figura una descripción detallada del mecanismo de acción. Según la información conocida y la bibliografía recuperada, bupropion inhibe la recaptación de noradrenalina y dopamina, sin actividad serotoninérgica relevante.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Bupropion (traducción no oficial): «Se desconoce el mecanismo exacto por el cual los comprimidos de liberación prolongada de clorhidrato de bupropión (SR) potencian la capacidad de los pacientes para abstenerse de fumar, pero se presume que está relacionado con mecanismos noradrenérgicos y/o dopaminérgicos. El bupropión es un inhibidor relativamente débil de la recaptación neuronal de noradrenalina y dopamina, y no inhibe la recaptación de serotonina.» Texto original en inglés: "The exact mechanism by which bupropion hydrochloride extended-release tablets (SR) enhances the ability of patients to abstain from smoking is not known but is presumed to be related to noradrenergic and/or dopaminergic mechanisms. Bupropion is a relatively weak inhibitor of the neuronal reuptake of norepinephrine and dopamine, and does not inhibit the reuptake of serotonin." ([DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119), versión del 2026-11-11; consultado el 2026-11-19). Según la información conocida y la bibliografía recuperada, bupropion inhibe la recaptación de noradrenalina y dopamina, sin actividad serotoninérgica relevante.
 
 Esa es la misma vía catecolaminérgica sobre la que actúan fármacos ya empleados en el TDAH, como el metilfenidato y la atomoxetina. Esto ofrece un fundamento plausible para mejorar la atención y el control de impulsos.
 
@@ -119,6 +119,19 @@ Existe un ensayo de Fase 3 completado, aleatorizado y controlado con placebo en 
 - Datos de advertencias y contraindicaciones del prospecto de la AEMPS
 - Datos detallados del mecanismo de acción
 - Plan de monitorización del umbral convulsivo y de pacientes con consumo de sustancias o trastornos alimentarios
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

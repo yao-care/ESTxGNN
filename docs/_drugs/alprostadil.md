@@ -56,7 +56,7 @@ con **0 ensayos clínicos** y **8 publicaciones** recuperadas, de las cuales sol
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Por lo que se conoce de la farmacología de la prostaglandina E1, alprostadil relaja el músculo liso del conducto arterioso y mantiene su permeabilidad. Esto es útil en recién nacidos con cardiopatías congénitas que dependen del conducto para mantener la circulación sistémica o pulmonar.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Alprostadil (traducción no oficial): «Alprostadil (PGE1) es una prostaglandina con una amplia variedad de acciones farmacológicas, entre ellas vasodilatación e inhibición de la agregación plaquetaria. Alprostadil induce la erección mediante la relajación del músculo liso trabecular y la dilatación de las arterias cavernosas, al unirse a sus receptores y aumentar los niveles intracelulares de monofosfato de adenosina cíclico (cAMP) mediante la modulación de la adenilato ciclasa.» Texto original en inglés: "Alprostadil (PGE1) is a prostaglandin with a wide variety of pharmacological actions including vasodilation and inhibition of platelet aggregation. Alprostadil induces erection by relaxation of trabecular smooth muscle and by dilation of cavernosal arteries by binding to its receptors and increasing intracellular cyclic adenosine monophosphate (cAMP) levels via modulation of adenylate cyclase." ([DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98), versión del 2024-05-13; consultado el 2026-11-19). Por lo que se conoce de la farmacología de la prostaglandina E1, alprostadil relaja el músculo liso del conducto arterioso y mantiene su permeabilidad. Esto es útil en recién nacidos con cardiopatías congénitas que dependen del conducto para mantener la circulación sistémica o pulmonar.
 
 Las malformaciones del arco aórtico, como la coartación o el arco aórtico interrumpido, pueden depender del conducto para el flujo sanguíneo sistémico. Por ello, el vínculo mecanístico es plausible. No obstante, el término «malformación aórtica» es amplio y se solapa en gran medida con usos ya conocidos del fármaco en cardiopatías ductodependientes, por lo que se parece más a una extensión o reetiquetado de indicación que a un reposicionamiento novedoso.
 
@@ -112,6 +112,18 @@ No hay ensayos clínicos y ninguna publicación estudia de forma directa la malf
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones)
 - Estudios clínicos o series de casos que evalúen específicamente lesiones aórticas ductodependientes
 - Plan de monitorización de seguridad en neonatos, dada la toxicidad asociada a la perfusión prolongada (apnea, estenosis pilórica, alteraciones electrolíticas)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

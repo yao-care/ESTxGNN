@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **acné (enfermedad)**, co
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Acitretina es un retinoide oral de segunda generación que modula la diferenciación y proliferación de los queratinocitos y tiene efectos antiinflamatorios. Actualmente no se dispone de datos detallados del mecanismo de acción en las fuentes compiladas, pero esta descripción general de clase es coherente con la literatura revisada.
+Acitretina es un retinoide oral de segunda generación que modula la diferenciación y proliferación de los queratinocitos y tiene efectos antiinflamatorios. Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Acitretin (traducción no oficial): «Se desconoce el mecanismo de acción de la acitretina.» Texto original en inglés: "The mechanism of action of acitretin is unknown." ([DailyMed: acitretin prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6af396c2-af3e-436d-ba9a-583637495910), versión del 2026-10-20; consultado el 2026-11-19).
 
 Los retinoides reducen la actividad de las glándulas sebáceas y la hiperqueratinización folicular, procesos centrales en la patogenia del acné. Sin embargo, el retinoide de referencia para el acné noduloquístico es la isotretinoína, no la acitretina. La señal más fuerte en los datos corresponde al acné inverso / hidradenitis supurativa (HS), una enfermedad de oclusión folicular distinta del acné vulgar.
 
@@ -126,6 +126,19 @@ La evidencia es de nivel L3 y se centra en la hidradenitis supurativa, no en el 
 - Definir si la indicación objetivo es acné vulgar o hidradenitis supurativa, y obtener los resultados del ensayo NCT07708480.
 - Evidencia comparativa frente a la isotretinoína en acné.
 - Plan de gestión de riesgos (prevención del embarazo, monitorización hepática y lipídica).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: acitretin prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6af396c2-af3e-436d-ba9a-583637495910) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

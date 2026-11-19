@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno afectivo bipol
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Granisetrón es un antagonista selectivo del receptor 5-HT3 de serotonina. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados; sin embargo, la clase de los antagonistas 5-HT3 es conocida por su uso en la prevención de náuseas y vómitos, y los productos en España (inyectables, comprimidos, parche) son coherentes con ese perfil.
+Granisetrón es un antagonista selectivo del receptor 5-HT3 de serotonina. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Granisetron (traducción no oficial): «El granisetrón es un antagonista selectivo de los receptores de 5-hidroxitriptamina 3 (5-HT 3 ) con poca o ninguna afinidad por otros receptores de serotonina, incluidos 5-HT 1, 5-HT 1A, 5-HT 1B/C, 5-HT 2; por los adrenorreceptores alfa 1, alfa 2 o beta; por los receptores de dopamina D 2; ni por los receptores de histamina H 1, de benzodiazepinas, de picrotoxina ni opioides. Los receptores de serotonina del tipo 5-HT 3 se localizan periféricamente en las terminaciones nerviosas vagales y centralmente en la zona gatillo quimiorreceptora del área postrema.» Texto original en inglés: "Granisetron is a selective 5-hydroxytryptamine 3 (5-HT 3 ) receptor antagonist with little or no affinity for other serotonin receptors, including 5-HT 1, 5-HT 1A, 5-HT 1B/C, 5-HT 2; for alpha 1-, alpha 2-, or beta-adrenoreceptors; for dopamine-D 2; or for histamine-H 1; benzodiazepine; picrotoxin or opioid receptors. Serotonin receptors of the 5-HT 3 type are located peripherally on vagal nerve terminals and centrally in the chemoreceptor trigger zone of the area postrema." ([DailyMed: Sustol (granisetron) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7c7ffdd-8270-4030-bc1e-a1cb28a6de56), versión del 2026-04-30; consultado el 2026-11-19).
 
 La relación con el trastorno bipolar maníaco es **especulativa**. Se ha planteado que la modulación de 5-HT3 podría influir en la señalización dopaminérgica y serotoninérgica relacionada con la regulación del ánimo, pero no hay ensayos ni literatura que lo confirmen. La puntuación alta de TxGNN (0,9962) refleja únicamente una predicción del modelo TxGNN (aprendizaje profundo).
 
@@ -142,11 +142,12 @@ La predicción para trastorno bipolar maníaco se basa solo en el modelo (nivel 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 11 autorizaciones vigentes (todas de monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sustol (granisetron) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7c7ffdd-8270-4030-bc1e-a1cb28a6de56) |
 
 <!-- review:end log -->
 
