@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 552
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Naproxen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Naproxen: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 5; autorizadas no comercializadas: 1)"

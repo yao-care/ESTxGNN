@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 749
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "sulbactam"
 predicted_indications: ["bacterial arthritis"]
 description: "Sulbactam: nueva indicación predicha, Artritis bacteriana (bacterial arthritis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0; autorizadas no comercializadas: 1)"

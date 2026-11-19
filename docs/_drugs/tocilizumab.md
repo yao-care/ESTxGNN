@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 801
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab: nueva indicación predicha, Espondilitis anquilosante (ankylosing spondylitis) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 11 (comercializadas: 10; autorizadas no comercializadas: 1)"

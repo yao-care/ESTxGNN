@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 741
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
 description: "Sofosbuvir: nueva indicación predicha, Infección por el virus de la hepatitis B (hepatitis B virus infection) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"

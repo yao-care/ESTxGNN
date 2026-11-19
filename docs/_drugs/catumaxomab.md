@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 153
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "CATUMAXOMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "drug-induced osteoporosis", "diabetic retinopathy"]
 description: "Catumaxomab: nueva indicación predicha, Retinopatía diabética no proliferativa grave (severe nonproliferative diabetic retinopathy) (nivel de evidencia L5). Indicación original: No consta en los dato…"

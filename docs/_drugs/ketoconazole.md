@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 440
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "ketoconazole"
 predicted_indications: ["acne (disease)"]
 description: "Ketoconazole: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 15 (comercializadas: 8; autorizadas no comercializadas: 1)"

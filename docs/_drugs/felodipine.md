@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 328
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "felodipine"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Felodipine: nueva indicación predicha, Pulmonary hypertension with unclear multifactorial mechanism (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 4)"

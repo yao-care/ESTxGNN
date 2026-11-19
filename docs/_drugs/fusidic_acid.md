@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 366
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "fusidic acid"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
 description: "Fusidic Acid: nueva indicación predicha, Queratitis por exposición (exposure keratitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 13 (comercializadas: 9; autorizadas no comercializadas: 2)"

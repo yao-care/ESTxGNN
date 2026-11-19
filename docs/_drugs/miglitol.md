@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 528
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "MIGLITOL"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pancreatic agenesis", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
 description: "Miglitol: nueva indicación predicha, Focal stiff limb syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 0)"

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 654
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "prasterone"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "severe nonproliferative diabetic retinopathy", "thrombophilia due to protein S deficiency, autosomal recessive", "scleroderma (disease)", "complement component 4a deficiency", "pseudo-von Willebrand disease", "primary release disorder of platelets"]
 description: "Prasterone: nueva indicación predicha, Deficiencia del cofactor 2 de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"

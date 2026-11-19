@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 618
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "PEMBROLIZUMAB"
 predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "fibroma of lung", "lung benign neoplasm", "ovarioleukodystrophy", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
 description: "Pembrolizumab: nueva indicación predicha, Fibromatosis gingival (fibromatosis, gingival) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 4; autorizadas no comercializadas: 2)"

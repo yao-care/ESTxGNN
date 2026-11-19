@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 339
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Fluconazole: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: Candidiasis oral (y otras candidiasis, meningitis criptocócica)"
 monitor_inn: "Fluconazole"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]

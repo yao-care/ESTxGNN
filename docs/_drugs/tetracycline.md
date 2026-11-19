@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 786
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "tetracycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
 description: "Tetracycline: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locale"

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 588
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Olopatadine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Olopatadine: nueva indicación predicha, Conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 3; autorizadas no comercializadas: 5)"

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 199
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Clonidine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
 description: "Clonidine: nueva indicación predicha, Faciodigitogenital syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"

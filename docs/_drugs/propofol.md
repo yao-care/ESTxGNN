@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 669
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
 description: "Propofol: nueva indicación predicha, Migraña (migraine disorder) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 19 (comercializadas: 8; autorizadas no comercializadas: 4)"

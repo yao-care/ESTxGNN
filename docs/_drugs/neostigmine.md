@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 559
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Neostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly", "bronchitis", "fetal akinesia deformation sequence", "myasthenia, congenital, refractory to acetylcholinesterase inhibitors"]
 description: "Neostigmine: nueva indicación predicha, Autoimmune disease of peripheral nervous system (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 1)"

@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 541
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: al menos 20"

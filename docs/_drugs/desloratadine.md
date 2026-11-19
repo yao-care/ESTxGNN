@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 234
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Desloratadine"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
 description: "Desloratadine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"

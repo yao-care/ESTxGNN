@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Beclomethasone dipropionate"
 predicted_indications: ["atopic eczema"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Beclomethasone Dipropionate: nueva indicación predicha, eccema atópico (atopic eczema) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 16 (comercializadas: 12)"
 ---
 

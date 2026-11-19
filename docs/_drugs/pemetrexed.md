@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 619
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-13
+last_modified_at: 2026-11-20
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: nueva indicación predicha, Pleural adenomatoid tumor (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"

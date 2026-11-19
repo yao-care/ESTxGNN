@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 264
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
 description: "Doxorubicin: nueva indicación predicha, Sarcoma de Ewing (Ewing sarcoma) (nivel de evidencia L1). En España, autorizaciones de la AEMPS: 10 (comercializadas: 7; autorizadas no comercializadas: 1)"

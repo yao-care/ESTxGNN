@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 226
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "daunorubicin"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
 description: "Daunorubicin: nueva indicación predicha, Linfoma de Hodgkin (Hodgkins lymphoma) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"

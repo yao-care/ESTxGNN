@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 271
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
 description: "Dupilumab: nueva indicación predicha, bronquitis (bronchitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 4)"

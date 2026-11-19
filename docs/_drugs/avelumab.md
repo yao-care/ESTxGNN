@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "AVELUMAB"
 predicted_indications: ["human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "adenosine deaminase deficiency", "reticular dysgenesis", "Immunoerythromyeloid hypoplasia", "non-severe combined immunodeficiency", "kidney pelvis sarcomatoid transitional cell carcinoma"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Avelumab: nueva indicación predicha, Tumor relacionado con el herpesvirus humano 8 (human herpesvirus 8-related tumor) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"
 ---
 

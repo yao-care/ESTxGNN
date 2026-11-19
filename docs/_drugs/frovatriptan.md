@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 364
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "FROVATRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Frovatriptan: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0)"

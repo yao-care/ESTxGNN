@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CALCITRIOL"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Calcitriol: nueva indicación predicha, Deficiencia de vitamina D obsoleta (obsolete vitamin D deficiency) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 3)"
 ---
 

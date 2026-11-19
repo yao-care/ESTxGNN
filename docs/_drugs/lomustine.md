@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 478
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Lomustine"
 predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer"]
 description: "Lomustine: nueva indicación predicha, linfosarcoma (lymphosarcoma) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0)"

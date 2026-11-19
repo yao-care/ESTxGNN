@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 577
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Nortriptyline"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
 description: "Nortriptyline: nueva indicación predicha, Attention deficit-hyperactivity disorder (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 3 (comercializadas: 2)"

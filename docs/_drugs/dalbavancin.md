@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 216
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "dalbavancin"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "otitis externa", "ophthalmic herpes zoster", "infectious mononucleosis", "orbital cellulitis"]
 description: "Dalbavancin: nueva indicación predicha, Postinfectious vasculitis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 5; autorizadas no comercializadas: 2)"

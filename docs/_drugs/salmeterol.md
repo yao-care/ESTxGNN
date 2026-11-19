@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 724
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "SALMETEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 5)"

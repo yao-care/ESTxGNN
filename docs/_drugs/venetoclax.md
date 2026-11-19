@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 842
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
 description: "Venetoclax: nueva indicación predicha, Hodgkins lymphoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 5)"

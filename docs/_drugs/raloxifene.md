@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 677
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
 description: "Raloxifene: nueva indicación predicha, Úlcera duodenal (duodenal ulcer (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 15 (comercializadas: 6; autorizadas no comercializadas: 4)"

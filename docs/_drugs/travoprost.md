@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 818
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-13
+last_modified_at: 2026-11-20
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
 description: "Travoprost: nueva indicación predicha, Visceral calciphylaxis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 18 (comercializadas: 9; autorizadas no comercializadas: 2)"

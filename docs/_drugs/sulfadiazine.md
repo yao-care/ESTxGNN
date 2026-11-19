@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 750
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Sulfadiazine"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis"]
 description: "Sulfadiazine: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 260
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 description: "Donepezil: nueva indicación predicha, Psychogenic movement disorders (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"

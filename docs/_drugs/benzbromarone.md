@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "benzbromarone"
 predicted_indications: ["hypouricemia, renal"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Benzbromarone: nueva indicación predicha, hipouricemia renal (hypouricemia, renal) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 

@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 594
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "oxaliplatin"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 description: "Oxaliplatin: nueva indicación predicha, Mesotelioma pleural maligno (malignant pleural mesothelioma) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 13 (comercializadas: 6; autorizadas no comercializadas: 2)"

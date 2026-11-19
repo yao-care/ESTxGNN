@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "carbetocin"
 predicted_indications: ["isotretinoin-like syndrome", "Goodman syndrome"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Carbetocin: nueva indicación predicha, Síndrome similar a la isotretinoína (isotretinoin-like syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
 ---
 

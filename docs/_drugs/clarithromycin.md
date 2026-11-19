@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 187
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Clarithromycin: nueva indicación predicha, hiperamilasemia (nivel de evidencia L5). Indicación original: Infecciones bacterianas (otitis media infecciosa…"
 monitor_inn: "Clarithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]

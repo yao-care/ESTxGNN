@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 573
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 description: "Norepinephrine: nueva indicación predicha, Enfermedad pulmonar obstructiva (obstructive lung disease) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 12 (comercializadas: 7; autorizadas no comercializadas: 3)"

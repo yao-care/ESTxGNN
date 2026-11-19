@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 444
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
 description: "Lactic Acid: nueva indicación predicha, Coartación atípica de la aorta (atypical coarctation of aorta) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 2)"

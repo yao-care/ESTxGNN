@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 369
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "GALCANEZUMAB"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Galcanezumab: nueva indicación predicha, Deficiencia de cofactor II de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 1; autorizadas no comercializadas: 1)"

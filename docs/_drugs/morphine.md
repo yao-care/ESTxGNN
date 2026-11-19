@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 543
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: nueva indicación predicha, Síndrome de dolor miofascial (myofascial pain syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"

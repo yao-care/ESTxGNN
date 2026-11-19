@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 747
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Spironolactone"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 8; autorizadas no comercializadas: 1)"

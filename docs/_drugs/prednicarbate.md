@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 657
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Prednicarbate"
 predicted_indications: ["vulvar inverted follicular keratosis", "lichen planus pigmentosus", "hypertrophic lichen planus", "annular atrophic lichen planus", "lichen planus pemphigoides", "2-hydroxyethyl methacrylate sensitization", "primary cutaneous B-cell lymphoma"]
 description: "Prednicarbate: nueva indicación predicha, Queratosis folicular invertida vulvar (vulvar inverted follicular keratosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 6)"

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 525
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
 description: "Midazolam: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: al menos 20"

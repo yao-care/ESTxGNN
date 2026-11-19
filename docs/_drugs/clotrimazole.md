@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 202
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Clotrimazole"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
 description: "Clotrimazole: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"

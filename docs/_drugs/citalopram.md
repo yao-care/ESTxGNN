@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 184
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder"]
 description: "Citalopram: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: al menos 20"

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 668
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
 description: "Propafenone: nueva indicación predicha, Trastorno bipolar maníaco (manic bipolar affective disorder) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 3)"

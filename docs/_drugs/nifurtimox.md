@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 565
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "NIFURTIMOX"
 predicted_indications: ["congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "blood group incompatibility", "monoclonal gammopathy", "premalignant hematological system disease", "hematological disease associated with an acquired peripheral neuropathy"]
 description: "Nifurtimox: nueva indicación predicha, Analbuminemia congénita (congenital analbuminemia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"

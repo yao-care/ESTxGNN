@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 222
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Dapsone"
 predicted_indications: ["pneumocystosis"]
 description: "Dapsone: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L1). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0; autorizadas no comercializadas: 1)"

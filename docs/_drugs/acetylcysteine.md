@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Acetylcysteine"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Acetylcysteine: nueva indicación predicha, Enfermedad trombótica (thrombotic disease) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 

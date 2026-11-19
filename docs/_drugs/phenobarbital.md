@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 631
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Phenobarbital: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 3)"

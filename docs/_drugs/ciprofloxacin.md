@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 183
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 description: "Ciprofloxacin: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 404
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Idoxuridine"
 predicted_indications: ["vulvovaginal candidiasis", "vaginitis (disease)", "trichomonal vulvovaginitis", "vulvitis", "herpetic vulvovaginitis", "vaginal discharge", "bacterial vaginosis", "leukoplakia of vagina", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
 description: "Idoxuridine: nueva indicación predicha, Candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 0)"

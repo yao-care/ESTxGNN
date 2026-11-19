@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 710
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "rizatriptan"
 predicted_indications: ["atrophoderma vermiculata"]
 description: "Rizatriptan: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"

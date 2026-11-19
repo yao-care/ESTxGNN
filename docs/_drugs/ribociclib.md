@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 697
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "RIBOCICLIB"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
 description: "Ribociclib: nueva indicación predicha, Leucemia mieloide (myeloid leukemia) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 568
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "NINTEDANIB"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 description: "Nintedanib: nueva indicación predicha, Dermatofibrosarcoma protuberans (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"

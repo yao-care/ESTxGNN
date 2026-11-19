@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 771
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "temoporfin"
 predicted_indications: ["nasopharyngeal teratoma", "odontogenic cyst", "pre-malignant neoplasm", "epiglottis neoplasm", "tumor of testis and paratestis", "cystic neoplasm", "benign neoplasm of floor of mouth", "benign neoplasm of tongue", "benign neoplasm of hypopharynx", "cervical neuroblastoma"]
 description: "Temoporfin: nueva indicación predicha, Teratoma nasofaríngeo (nasopharyngeal teratoma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 0; autorizadas no comercializadas: 4)"

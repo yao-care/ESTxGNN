@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 770
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "telmisartan"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
 description: "Telmisartan: nueva indicación predicha, Angina de Prinzmetal (Prinzmetal angina) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"

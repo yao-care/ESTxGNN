@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 171
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Chlordiazepoxide"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "sleep disorder, initiating and maintaining sleep", "barbiturate abuse", "hallucinogen abuse", "antidepressant type abuse", "myofascial pain syndrome"]
 description: "Chlordiazepoxide: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 2)"

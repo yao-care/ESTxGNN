@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 858
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Vortioxetine"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 description: "Vortioxetine: nueva indicación predicha, Trastorno neurótico (neurotic disorder) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: al menos 20"

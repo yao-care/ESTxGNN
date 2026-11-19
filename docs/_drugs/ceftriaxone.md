@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 159
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Ceftriaxone"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
 description: "Ceftriaxone: nueva indicación predicha, hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"

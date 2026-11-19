@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 774
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "tenecteplase"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
 description: "Tenecteplase: nueva indicación predicha, Congenital coronary artery anomaly (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"

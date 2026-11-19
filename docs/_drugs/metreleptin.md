@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 519
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "metreleptin"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "Moynahan syndrome", "rhabdoid tumor", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "acromelanosis", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "benign neoplasm of adrenal gland", "peripheral nerve schwannoma"]
 description: "Metreleptin: nueva indicación predicha, Lentiginosis generalizada familiar (familial generalized lentiginosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"

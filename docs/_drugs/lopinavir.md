@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 481
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "lopinavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Lopinavir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 7 (comercializadas: 3; autorizadas no comercializadas: 3)"

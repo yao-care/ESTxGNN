@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 839
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Vancomycin"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
 description: "Vancomycin: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 10 (comercializadas: 7; autorizadas no comercializadas: 1)"

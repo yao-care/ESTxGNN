@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 683
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "Ranitidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
 description: "Ranitidine: nueva indicación predicha, Perforación de úlcera péptica (peptic ulcer perforation) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"

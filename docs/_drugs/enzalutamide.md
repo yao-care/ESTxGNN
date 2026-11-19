@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 293
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Enzalutamide"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
 description: "Enzalutamide: nueva indicación predicha, Prostate leiomyoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 17 (comercializadas: 1; autorizadas no comercializadas: 16)"

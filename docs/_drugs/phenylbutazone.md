@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 632
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "phenylbutazone"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis"]
 description: "Phenylbutazone: nueva indicación predicha, Síndrome de microftalmia colobomatosa-displasia rizomélica (colobomatous microphthalmia-rhizomelic dysplasia syndrome) (nivel de evidencia L5)."

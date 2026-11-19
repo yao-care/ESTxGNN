@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 650
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Ponatinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: Leucemia mieloide crónica, BCR-ABL1 positiva"
 monitor_inn: "PONATINIB"
 predicted_indications: ["fibromatosis, gingival", "liposarcoma"]

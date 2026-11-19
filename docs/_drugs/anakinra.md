@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ANAKINRA"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Anakinra: nueva indicación predicha, mastocitoma extracutáneo (extracutaneous mastocytoma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 

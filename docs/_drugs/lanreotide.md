@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 450
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Lanreotide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
 description: "Lanreotide: nueva indicación predicha, Hipertricosis (hypertrichosis (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 10 (comercializadas: 6; autorizadas no comercializadas: 3)"

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 165
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "CERTOLIZUMAB PEGOL"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
 description: "Certolizumab Pegol: nueva indicación predicha, Hypermobility of coccyx (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 2; autorizadas no comercializadas: 2)"

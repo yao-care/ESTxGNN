@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 819
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Trazodone"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
 description: "Trazodone: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 9 (comercializadas: 4; autorizadas no comercializadas: 3)"

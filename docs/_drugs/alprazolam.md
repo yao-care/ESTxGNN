@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 2
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Alprazolam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 

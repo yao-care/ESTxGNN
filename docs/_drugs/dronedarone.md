@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 268
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "dronedarone"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
 description: "Dronedarone: nueva indicación predicha, Ictus (stroke disorder) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 9 (comercializadas: 7)"

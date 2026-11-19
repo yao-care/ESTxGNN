@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 295
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Epinastine"
 predicted_indications: ["rosacea conjunctivitis", "allergic urticaria"]
 description: "Epinastine: nueva indicación predicha, Conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0)"

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 263
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Doxazosin"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 description: "Doxazosin: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: al menos 20"

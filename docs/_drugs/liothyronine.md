@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Liothyronine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Carney complex", "peripheral dysostosis", "Potter sequence", "acrodysostosis with or without hormone resistance", "myxoma", "angiomyxoma", "hypotrichosis simplex of the scalp"]
 description: "Liothyronine: nueva indicación predicha, Hipodisplasia/aplasia renal (renal hypodysplasia/aplasia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0)"

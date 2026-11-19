@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 846
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "vilanterol"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 description: "Vilanterol: nueva indicación predicha, Hyperlucent lung (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 20 (comercializadas: 16; autorizadas no comercializadas: 3)"

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 338
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Flecainide"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Flecainide: nueva indicación predicha, Ictus (stroke disorder) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 6 (comercializadas: 5)"

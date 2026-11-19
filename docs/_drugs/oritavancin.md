@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 591
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "oritavancin"
 predicted_indications: ["Bacteroidaceae infectious disease", "ophthalmic herpes zoster", "Mycoplasma pneumoniae pneumonia"]
 description: "Oritavancin: nueva indicación predicha, Enfermedad infecciosa por Bacteroidaceae (Bacteroidaceae infectious disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"

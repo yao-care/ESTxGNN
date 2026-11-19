@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 563
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "nicardipine"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
 description: "Nicardipine: nueva indicación predicha, Pulmonary hypertension owing to lung disease and/or hypoxia (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 5)"

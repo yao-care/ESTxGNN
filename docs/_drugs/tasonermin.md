@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 765
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "tasonermin"
 predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "HER2 positive breast carcinoma", "uterine ligament adenocarcinoma", "endocervical carcinoma", "uterine ligament serous adenocarcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament clear cell adenocarcinoma"]
 description: "Tasonermin: nueva indicación predicha, Carcinoma urotelial de la uretra prostática (prostatic urethra urothelial carcinoma) (nivel de evidencia L5). Indicación original: No consta en los datos locale"

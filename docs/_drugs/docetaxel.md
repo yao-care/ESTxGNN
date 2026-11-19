@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 258
 evidence_level: L2
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "DOCETAXEL"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
 description: "Docetaxel: nueva indicación predicha, Sarcoma de Ewing (Ewing sarcoma) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: al menos 20"

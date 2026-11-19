@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 507
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "MEROPENEM"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
 description: "Meropenem: nueva indicación predicha, artritis bacteriana (bacterial arthritis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"

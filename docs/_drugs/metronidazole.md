@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 520
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 description: "Metronidazole: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 17 (comercializadas: 12; autorizadas no comercializadas: 2)"

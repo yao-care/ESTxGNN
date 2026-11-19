@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 629
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab: nueva indicación predicha, Ectomesenchymoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 5; autorizadas no comercializadas: 1)"
