@@ -14,25 +14,25 @@ Cada conclusión puede rastrearse hasta una fuente de datos pública: nada es un
 
 ---
 
-<!-- site-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
-## España: datos de este sitio
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## España: qué cubren los datos locales
 
-Este sitio publica informes de **{{ site.data.drug_stats.total_drugs }}** medicamentos que figuran en los datos de registro de [AEMPS](https://www.aemps.gob.es/) (España).
+Datos locales: [AEMPS: CIMA](https://cima.aemps.es/cima/rest/medicamentos). Los datos locales son las autorizaciones de la AEMPS en CIMA, que distingue medicamentos comercializados, autorizados no comercializados y revocados o suspendidos. Aquí solo cuentan como vigentes los comercializados; los autorizados no comercializados se cuentan aparte.
 
-Informes por nivel de evidencia:
+| Concepto | Valor |
+|---|---|
+| Medicamentos presentes en los datos locales | {{ site.data.local_facts.licence.drugs_with_data }} |
+| …con al menos un registro comercializadas | {{ site.data.local_facts.licence.drugs_with_current }} |
+| …con registros pero ninguno comercializadas | {{ site.data.local_facts.licence.drugs_none_current }} |
+| Medicamentos ausentes de los datos locales | {{ site.data.local_facts.licence.drugs_without_data }} |
+| Registros locales (autorizaciones de la AEMPS (CIMA)) | {{ site.data.local_facts.licence.items_total }} |
+| …de ellos comercializadas | {{ site.data.local_facts.licence.items_current }} |
 
-| Nivel de evidencia | Informes | Proporción |
-|---|---|---|
-| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+{% if site.data.local_facts.no_current.size > 0 %}Medicamentos con autorizaciones de la AEMPS (CIMA) en estos datos pero ninguno comercializadas: {% for r in site.data.local_facts.no_current %}[{{ r.t }}]({{ r.u | relative_url }}){% unless forloop.last %}, {% endunless %}{% endfor %}{% if site.data.local_facts.no_current_more > 0 %}, y {{ site.data.local_facts.no_current_more }} más{% endif %}{% endif %}
 
-32 pares medicamento–enfermedad predichos en este sitio no aparecen en ningún otro de los 30 sitios TxGNN.
+{% if site.data.local_facts.recent_licence_reviews.size > 0 %}Últimas correcciones de datos regulatorios locales: {% for r in site.data.local_facts.recent_licence_reviews %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.d }}): {{ r.s }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% endif %}
 
-<!-- site-data:end -->
+<!-- local-facts:end -->
 
 ## Resumen de fuentes
 

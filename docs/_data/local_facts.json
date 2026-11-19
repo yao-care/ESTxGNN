@@ -1,0 +1,547 @@
+{
+ "_about": "本檔由 scripts/local_facts.py 產生（母目錄 .claude/local_facts_lib.py），勿手改；cross 欄位由母目錄 .claude/gen_local_pages_20261119.py 更新",
+ "drugs_total": 859,
+ "level_counts": {
+  "L1": 12,
+  "L2": 33,
+  "L3": 29,
+  "L4": 48,
+  "L5": 708
+ },
+ "level_na": 29,
+ "public_pages": 859,
+ "licence_snapshot": "es_licenses.json.gz",
+ "licence": {
+  "drugs_with_data": 682,
+  "drugs_with_current": 606,
+  "drugs_none_current": 76,
+  "drugs_without_data": 177,
+  "drugs_partial": 0,
+  "items_total": 3678,
+  "items_current": 2447
+ },
+ "reviews": {
+  "records": 251,
+  "pages": 244,
+  "public_pages_with_records": 244,
+  "by_action": {
+   "correct": 251
+  }
+ },
+ "fhir": {
+  "medication_knowledge": 859,
+  "clinical_use_definition": 4799
+ },
+ "top_licensed": [
+  {
+   "t": "Ethinylestradiol",
+   "u": "/drugs/ethinylestradiol/",
+   "l": "L5",
+   "lt": 239,
+   "lv": 144,
+   "r": 0,
+   "i": "Zinc plasmático elevado"
+  },
+  {
+   "t": "Methionine",
+   "u": "/drugs/methionine/",
+   "l": "L5",
+   "lt": 67,
+   "lv": 50,
+   "r": 2,
+   "i": "acne (disease)"
+  },
+  {
+   "t": "Trastuzumab",
+   "u": "/drugs/trastuzumab/",
+   "l": "L5",
+   "lt": 17,
+   "lv": 17,
+   "r": 0,
+   "i": "malignant cutaneous granular cell skin tumor"
+  },
+  {
+   "t": "Almotriptan",
+   "u": "/drugs/almotriptan/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 16,
+   "r": 0,
+   "i": "Atrofodermia vermiculada"
+  },
+  {
+   "t": "Treprostinil",
+   "u": "/drugs/treprostinil/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 16,
+   "r": 0,
+   "i": "pulmonary arteriovenous malformation (disease)"
+  },
+  {
+   "t": "Vilanterol",
+   "u": "/drugs/vilanterol/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 16,
+   "r": 1,
+   "i": "hyperlucent lung"
+  },
+  {
+   "t": "Progesterone",
+   "u": "/drugs/progesterone/",
+   "l": "L4",
+   "lt": 20,
+   "lv": 15,
+   "r": 0,
+   "i": "Enfermedad fibroquística de la mama"
+  },
+  {
+   "t": "Desvenlafaxine",
+   "u": "/drugs/desvenlafaxine/",
+   "l": "L4",
+   "lt": 16,
+   "lv": 14,
+   "r": 1,
+   "i": "obsessive-compulsive disorder"
+  }
+ ],
+ "no_current": [
+  {
+   "t": "Alfentanil",
+   "u": "/drugs/alfentanil/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "nephrogenic syndrome of inappropriate antidiuresis"
+  },
+  {
+   "t": "Almasilate",
+   "u": "/drugs/almasilate/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": "gastroduodenitis"
+  },
+  {
+   "t": "Andexanet Alfa",
+   "u": "/drugs/andexanet-alfa/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": "Glanzmann thrombasthenia"
+  },
+  {
+   "t": "Artemether",
+   "u": "/drugs/artemether/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "angioedema adquirido"
+  },
+  {
+   "t": "Ataluren",
+   "u": "/drugs/ataluren/",
+   "l": "L5",
+   "lt": 3,
+   "lv": 0,
+   "r": 0,
+   "i": "colestasis intrahepática recurrente benigna"
+  },
+  {
+   "t": "Benazepril",
+   "u": "/drugs/benazepril/",
+   "l": "L5",
+   "lt": 5,
+   "lv": 0,
+   "r": 1,
+   "i": "Enfermedad renal hipertensiva maligna"
+  },
+  {
+   "t": "Bendroflumethiazide",
+   "u": "/drugs/bendroflumethiazide/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "enfermedad renal hipertensiva maligna"
+  },
+  {
+   "t": "Bentazepam",
+   "u": "/drugs/bentazepam/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "insomnio"
+  },
+  {
+   "t": "Bezlotoxumab",
+   "u": "/drugs/bezlotoxumab/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "peritonitis pélvica aguda femenina"
+  },
+  {
+   "t": "Capreomycin",
+   "u": "/drugs/capreomycin/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "Gota"
+  },
+  {
+   "t": "Carbenoxolone",
+   "u": "/drugs/carbenoxolone/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": "Malformación esofágica no sindrómica"
+  },
+  {
+   "t": "Catumaxomab",
+   "u": "/drugs/catumaxomab/",
+   "l": "L5",
+   "lt": 4,
+   "lv": 0,
+   "r": 2,
+   "i": "Retinopatía diabética no proliferativa grave"
+  }
+ ],
+ "no_current_more": 64,
+ "most_reviewed": [
+  {
+   "t": "Catumaxomab",
+   "u": "/drugs/catumaxomab/",
+   "l": "L5",
+   "lt": 4,
+   "lv": 0,
+   "r": 2,
+   "i": "Retinopatía diabética no proliferativa grave"
+  },
+  {
+   "t": "Clindamycin",
+   "u": "/drugs/clindamycin/",
+   "l": "L5",
+   "lt": 16,
+   "lv": 13,
+   "r": 2,
+   "i": "Queratoconjuntivitis epitelial punteada"
+  },
+  {
+   "t": "Codeine",
+   "u": "/drugs/codeine/",
+   "l": "L5",
+   "lt": 6,
+   "lv": 4,
+   "r": 2,
+   "i": "Enfermedad de la cavidad nasal"
+  },
+  {
+   "t": "Diosmin",
+   "u": "/drugs/diosmin/",
+   "l": "L5",
+   "lt": 15,
+   "lv": 9,
+   "r": 2,
+   "i": "amenorrhea (disease)"
+  },
+  {
+   "t": "Methionine",
+   "u": "/drugs/methionine/",
+   "l": "L5",
+   "lt": 67,
+   "lv": 50,
+   "r": 2,
+   "i": "acne (disease)"
+  },
+  {
+   "t": "Pentoxyverine",
+   "u": "/drugs/pentoxyverine/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 1,
+   "r": 2,
+   "i": "Enfermedad de la cavidad nasal"
+  }
+ ],
+ "example": {
+  "t": "Bendamustine",
+  "u": "/drugs/bendamustine/",
+  "l": "L1",
+  "lt": 14,
+  "lv": 9,
+  "r": 0,
+  "i": "Linfoma de células del manto"
+ },
+ "recent_reviews": [
+  {
+   "t": "Salmeterol",
+   "u": "/drugs/salmeterol/",
+   "s": "Autorizaciones vigentes: 9 → 5 de 9 (4 revocadas)",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Phenytoin",
+   "u": "/drugs/phenytoin/",
+   "s": "Autorizaciones vigentes: 6 → 4 (65340 y 65303 revocadas)",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Indacaterol",
+   "u": "/drugs/indacaterol/",
+   "s": "\"12 autorizaciones vigentes\" → 12 autorizaciones (2 comercializadas, 6 autorizadas no comercializadas, 4…",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Codeine",
+   "u": "/drugs/codeine/",
+   "s": "La sexta autorización (20709, Fludan Codeína) está revocada, no vigente",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Zolpidem",
+   "u": "/drugs/zolpidem/",
+   "s": "Eliminado: \"Se muestran 5 de las 20 autorizaciones vigentes\"",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Zolmitriptan",
+   "u": "/drugs/zolmitriptan/",
+   "s": "Eliminado: \"Hay 20 autorizaciones vigentes en total (todas de monofármaco), sin ninguna cancelada\"",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Xylometazoline",
+   "u": "/drugs/xylometazoline/",
+   "s": "Eliminado: \"Hay 9 autorizaciones vigentes en total (todas de fármaco único según el registro); aquí se listan…",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Vinorelbine",
+   "u": "/drugs/vinorelbine/",
+   "s": "Eliminado: \"Hay 16 autorizaciones vigentes en total (todas de monofármaco, ninguna cancelada), con…",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Vildagliptin",
+   "u": "/drugs/vildagliptin/",
+   "s": "Eliminado: \"Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único)\"",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Vilanterol",
+   "u": "/drugs/vilanterol/",
+   "s": "Eliminado: \"Se listan 5 de las 20 autorizaciones vigentes (todas de tipo monofármaco según el registro; los…",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Verapamil",
+   "u": "/drugs/verapamil/",
+   "s": "Eliminado: \"Existen 7 autorizaciones vigentes en total (todas de principio activo único); además de las…",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Vancomycin",
+   "u": "/drugs/vancomycin/",
+   "s": "Eliminado: \"Se muestran 5 de las 10 autorizaciones vigentes, todas de principio activo único\"",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Valproic Acid",
+   "u": "/drugs/valproic-acid/",
+   "s": "Eliminado: \"Se muestran 5 de las 14 autorizaciones vigentes (todas de principio activo único, ninguna…",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Ustekinumab",
+   "u": "/drugs/ustekinumab/",
+   "s": "Eliminado: \"Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamento de un solo principio…",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Triflusal",
+   "u": "/drugs/triflusal/",
+   "s": "Eliminado: \"Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco)\"",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Triamcinolone",
+   "u": "/drugs/triamcinolone/",
+   "s": "Eliminado: \"Se muestran 5 de las 12 autorizaciones vigentes (el texto de indicación aprobada no está…",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Trazodone",
+   "u": "/drugs/trazodone/",
+   "s": "Eliminado: \"Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único, ninguna…",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Travoprost",
+   "u": "/drugs/travoprost/",
+   "s": "Eliminado: \"Se muestran 5 de las 18 autorizaciones vigentes, todas de monofármaco y en forma de colirio\"",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Tranexamic Acid",
+   "u": "/drugs/tranexamic-acid/",
+   "s": "Eliminado: \"Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único)\"",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Tramadol",
+   "u": "/drugs/tramadol/",
+   "s": "Eliminado: \"Se registran 20 autorizaciones vigentes, todas de medicamentos con tramadol como único principio…",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Trabectedin",
+   "u": "/drugs/trabectedin/",
+   "s": "Eliminado: \"Hay 12 autorizaciones vigentes en total (Pharma Mar, Sun, Teva, Accord, Ever Pharma y Stada, en…",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Toremifene",
+   "u": "/drugs/toremifene/",
+   "s": "Eliminado: \"comercializado en España como FARESTON 60 mg comprimidos\"",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Topotecan",
+   "u": "/drugs/topotecan/",
+   "s": "Eliminado: \"Hay 9 autorizaciones vigentes en total (todas de monofármaco); la tabla muestra las 5 principales\"",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Topiramate",
+   "u": "/drugs/topiramate/",
+   "s": "Eliminado: \"Topiramato está comercializado en España con 20 autorizaciones vigentes (todas de monofármaco…",
+   "d": "2026-11-05"
+  }
+ ],
+ "recent_licence_reviews": [
+  {
+   "t": "Salmeterol",
+   "u": "/drugs/salmeterol/",
+   "s": "Autorizaciones vigentes: 9 → 5 de 9 (4 revocadas)",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Phenytoin",
+   "u": "/drugs/phenytoin/",
+   "s": "Autorizaciones vigentes: 6 → 4 (65340 y 65303 revocadas)",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Indacaterol",
+   "u": "/drugs/indacaterol/",
+   "s": "\"12 autorizaciones vigentes\" → 12 autorizaciones (2 comercializadas, 6 autorizadas no comercializadas, 4…",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Codeine",
+   "u": "/drugs/codeine/",
+   "s": "La sexta autorización (20709, Fludan Codeína) está revocada, no vigente",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Zolpidem",
+   "u": "/drugs/zolpidem/",
+   "s": "Eliminado: \"Se muestran 5 de las 20 autorizaciones vigentes\"",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Zolmitriptan",
+   "u": "/drugs/zolmitriptan/",
+   "s": "Eliminado: \"Hay 20 autorizaciones vigentes en total (todas de monofármaco), sin ninguna cancelada\"",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Xylometazoline",
+   "u": "/drugs/xylometazoline/",
+   "s": "Eliminado: \"Hay 9 autorizaciones vigentes en total (todas de fármaco único según el registro); aquí se listan…",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Vinorelbine",
+   "u": "/drugs/vinorelbine/",
+   "s": "Eliminado: \"Hay 16 autorizaciones vigentes en total (todas de monofármaco, ninguna cancelada), con…",
+   "d": "2026-11-05"
+  }
+ ],
+ "files": {
+  "search_index": 859,
+  "drugs_json": 859
+ },
+ "by_level": {
+  "L1": {
+   "n": 12,
+   "current": 9
+  },
+  "L2": {
+   "n": 33,
+   "current": 32
+  },
+  "L3": {
+   "n": 29,
+   "current": 29
+  },
+  "L4": {
+   "n": 48,
+   "current": 46
+  },
+  "L5": {
+   "n": 708,
+   "current": 638
+  }
+ },
+ "cross": {
+  "unique_pairs": 32,
+  "unique_examples": [
+   {
+    "t": "Almasilate",
+    "u": "/drugs/almasilate/",
+    "i": "gastroduodenitis"
+   },
+   {
+    "t": "Bentazepam",
+    "u": "/drugs/bentazepam/",
+    "i": "insomnio"
+   },
+   {
+    "t": "Brotizolam",
+    "u": "/drugs/brotizolam/",
+    "i": "Delirio por abstinencia de alcohol"
+   },
+   {
+    "t": "Medazepam",
+    "u": "/drugs/medazepam/",
+    "i": "insomnio"
+   },
+   {
+    "t": "Niflumic Acid",
+    "u": "/drugs/niflumic-acid/",
+    "i": "Raynaud disease"
+   },
+   {
+    "t": "Tramazoline",
+    "u": "/drugs/tramazoline/",
+    "i": "Urticaria alérgica"
+   },
+   {
+    "t": "Vincamine",
+    "u": "/drugs/vincamine/",
+    "i": "subarachnoid hemorrhage (disease)"
+   }
+  ]
+ }
+}

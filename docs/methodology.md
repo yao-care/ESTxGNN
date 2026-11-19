@@ -14,6 +14,23 @@ De la predicción de la IA a la gradación de la evidencia: cada candidato tiene
 
 ---
 
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## España: cómo se aplica el método en este sitio
+
+Datos locales: [AEMPS: CIMA](https://cima.aemps.es/cima/rest/medicamentos). Los datos locales son las autorizaciones de la AEMPS en CIMA, que distingue medicamentos comercializados, autorizados no comercializados y revocados o suspendidos. Aquí solo cuentan como vigentes los comercializados; los autorizados no comercializados se cuentan aparte.
+
+| Nivel | Informes | …con registro local comercializadas |
+|---|---|---|
+| L1 | {{ site.data.local_facts.by_level.L1.n }} | {{ site.data.local_facts.by_level.L1.current }} |
+| L2 | {{ site.data.local_facts.by_level.L2.n }} | {{ site.data.local_facts.by_level.L2.current }} |
+| L3 | {{ site.data.local_facts.by_level.L3.n }} | {{ site.data.local_facts.by_level.L3.current }} |
+| L4 | {{ site.data.local_facts.by_level.L4.n }} | {{ site.data.local_facts.by_level.L4.current }} |
+| L5 | {{ site.data.local_facts.by_level.L5.n }} | {{ site.data.local_facts.by_level.L5.current }} |
+
+El registro de revisiones tiene **{{ site.data.local_facts.reviews.records }}** entradas en **{{ site.data.local_facts.reviews.public_pages_with_records }}** páginas; las correcciones solo cambian datos regulatorios, nunca las predicciones del modelo.
+
+<!-- local-facts:end -->
+
 ## Flujo general
 
 <p class="key-answer" data-question="¿Cómo genera ESTxGNN sus predicciones?">

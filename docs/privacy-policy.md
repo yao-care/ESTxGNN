@@ -48,11 +48,32 @@ envían a ClinicalTrials.gov los nombres del medicamento y de la indicación.
 
 ---
 
-## Derechos de los interesados
+<!-- privacy-law:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改；法規與連結見 .claude/privacy_text_20261119.py）-->
+## Legislación aplicable
 
-Este sitio no tiene cuentas y no guarda registros personales en servidores propios (no los tiene). Las estadísticas
-de uso las recopila Google Analytics 4; puede bloquear o eliminar sus cookies en la configuración de su navegador.
-Para cualquier consulta sobre esta política, escriba a service@yao.care.
+Para visitantes en España se aplican el [Reglamento General de Protección de Datos (RGPD)](https://eur-lex.europa.eu/eli/reg/2016/679/oj) y la [Ley Orgánica 3/2018 (LOPDGDD)](https://www.boe.es/eli/es/lo/2018/12/05/3); las cookies de análisis también se rigen por la LSSI. La autoridad de control es la [Agencia Española de Protección de Datos (AEPD)](https://www.aepd.es/). El responsable está en Taiwán y no tiene establecimiento en la UE; el tratamiento afectado son los datos de uso de Google Analytics 4.
+
+## Sus derechos y cómo ejercerlos
+
+- Derecho de acceso (art. 15 RGPD) y de rectificación (art. 16).
+- Derecho de supresión (art. 17) y de limitación (art. 18).
+- Derecho de oposición (art. 21), también a la analítica.
+- Derecho a reclamar ante la AEPD (art. 77).
+
+Solicitudes: service@yao.care (no hay cuentas: indique la fecha y las páginas de su visita). Puede bloquear o borrar las cookies de análisis en su navegador.
+
+## Derechos de autor y fuentes de datos
+
+Los textos del sitio están protegidos por el [texto refundido de la Ley de Propiedad Intelectual (Real Decreto Legislativo 1/1996)](https://www.boe.es/eli/es/rdlg/1996/04/12/1/con). El código del sitio se publica con licencia MIT en el [repositorio de GitHub](https://github.com/yao-care/ESTxGNN); los textos de los informes son © 藥提醒科技有限公司 (yao.care).
+
+Fuentes de datos de este sitio y sus condiciones:
+
+- Datos de **TxGNN** (Harvard Dataverse): CC0 1.0; cite Huang et al., *Nature Medicine* 2024.
+- **ClinicalTrials.gov**, **PubMed**: [condiciones de ClinicalTrials.gov](https://clinicaltrials.gov/about-site/terms-conditions), [políticas del NCBI](https://www.ncbi.nlm.nih.gov/home/about/policies/).
+- **DrugBank**: términos de licencia de [DrugBank](https://go.drugbank.com/), uso no comercial.
+- **Conjunto de datos local**: [AEMPS: CIMA](https://cima.aemps.es/cima/rest/medicamentos), publicado por Agencia Española de Medicamentos y Productos Sanitarios (AEMPS); su reutilización se rige por las condiciones del editor, y este sitio no otorga derechos adicionales.
+
+<!-- privacy-law:end -->
 
 ---
 
