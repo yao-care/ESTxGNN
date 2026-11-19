@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-05
 monitor_inn: "VISMODEGIB"
 predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
-description: "Vismodegib: nueva indicación predicha, Meduloblastoma con nodularidad extensa (medulloblastoma with extensive nodularity) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Vismodegib: nueva indicación predicha, Meduloblastoma con nodularidad extensa (medulloblastoma with extensive nodularity) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
 # Vismodegib

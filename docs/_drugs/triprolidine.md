@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-05
 monitor_inn: "triprolidine"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
-description: "Triprolidine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Triprolidine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 1)"
 ---
 
 # Triprolidine

@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-05
 monitor_inn: "glutamic acid"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
-description: "Glutamic Acid: nueva indicación predicha, Osteoporosis posmenopáusica (postmenopausal osteoporosis) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
+description: "Glutamic Acid: nueva indicación predicha, Osteoporosis posmenopáusica (postmenopausal osteoporosis) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
 # Glutamic Acid

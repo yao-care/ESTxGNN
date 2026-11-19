@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-12
 monitor_inn: "CLOPIDOGREL"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]
-description: "Clopidogrel: nueva indicación predicha, Migraña con aura del tronco encefálico (migraine with brainstem aura) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Clopidogrel: nueva indicación predicha, Migraña con aura del tronco encefálico (migraine with brainstem aura) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
 # Clopidogrel

@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-05
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
-description: "Miconazole: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
+description: "Miconazole: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 3 (comercializadas: 2)"
 ---
 
 # Miconazole

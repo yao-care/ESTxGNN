@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-05
 monitor_inn: "medazepam"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "hallucinogen abuse", "antidepressant type abuse", "barbiturate abuse"]
-description: "Medazepam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Medazepam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
 drugbank_id: DB13437
 ---
 

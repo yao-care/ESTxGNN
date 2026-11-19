@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "Vildagliptin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-description: "Vildagliptin: nueva indicación predicha, Classic stiff person syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Vildagliptin: nueva indicación predicha, Classic stiff person syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
 # Vildagliptin

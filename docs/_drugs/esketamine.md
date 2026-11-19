@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-05
 monitor_inn: "Esketamine"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
-description: "Esketamine: nueva indicación predicha, Agorafobia (agoraphobia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Esketamine: nueva indicación predicha, Agorafobia (agoraphobia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
 # Esketamine

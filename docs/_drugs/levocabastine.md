@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-05
 monitor_inn: "Levocabastine"
 predicted_indications: ["allergic urticaria", "rosacea conjunctivitis"]
-description: "Levocabastine: nueva indicación predicha, Urticaria alérgica (allergic urticaria) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Levocabastine: nueva indicación predicha, Urticaria alérgica (allergic urticaria) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 2)"
 ---
 
 # Levocabastine

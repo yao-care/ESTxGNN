@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-05
 monitor_inn: "pibrentasvir"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-description: "Pibrentasvir: nueva indicación predicha, Infección por virus de la hepatitis B (hepatitis B virus infection) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
+description: "Pibrentasvir: nueva indicación predicha, Infección por virus de la hepatitis B (hepatitis B virus infection) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
 ---
 
 # Pibrentasvir

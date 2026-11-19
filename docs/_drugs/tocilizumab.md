@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-05
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
-description: "Tocilizumab: nueva indicación predicha, Espondilitis anquilosante (ankylosing spondylitis) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
+description: "Tocilizumab: nueva indicación predicha, Espondilitis anquilosante (ankylosing spondylitis) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 11 (comercializadas: 10; autorizadas no comercializadas: 1)"
 ---
 
 # Tocilizumab

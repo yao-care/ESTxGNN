@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-12
 monitor_inn: "icatibant"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
-description: "Icatibant: nueva indicación predicha, Serpinopathy with toxic serpin polymerization (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Icatibant: nueva indicación predicha, Serpinopathy with toxic serpin polymerization (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 13 (comercializadas: 4; autorizadas no comercializadas: 5)"
 ---
 
 # Icatibant

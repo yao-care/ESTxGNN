@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-05
 monitor_inn: "BROTIZOLAM"
 predicted_indications: ["alcohol withdrawal delirium", "antidepressant type abuse", "barbiturate abuse", "hallucinogen abuse", "anxiety"]
-description: "Brotizolam: nueva indicación predicha, Delirio por abstinencia de alcohol (alcohol withdrawal delirium) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Brotizolam: nueva indicación predicha, Delirio por abstinencia de alcohol (alcohol withdrawal delirium) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 drugbank_id: DB09017
 ---
 

@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-05
 monitor_inn: "ETANERCEPT"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-description: "Etanercept: nueva indicación predicha, Hypermobility of coccyx (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Etanercept: nueva indicación predicha, Hypermobility of coccyx (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 13 (comercializadas: 13)"
 ---
 
 # Etanercept

@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-05
 monitor_inn: "Vinpocetine"
 predicted_indications: ["coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery", "lissencephaly", "alexia", "respiratory malformation", "Rienhoff syndrome"]
-description: "Vinpocetine: nueva indicación predicha, Enfermedad de las arterias coronarias (coronary artery disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Vinpocetine: nueva indicación predicha, Enfermedad de las arterias coronarias (coronary artery disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
 ---
 
 # Vinpocetine

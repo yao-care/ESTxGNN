@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-05
 monitor_inn: "ELTROMBOPAG"
 predicted_indications: ["HIV infectious disease"]
-description: "Eltrombopag: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Eltrombopag: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
 # Eltrombopag

@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-05
 monitor_inn: "oteracil"
 predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
-description: "Oteracil: nueva indicación predicha, Adenoma velloso del ciego (cecum villous adenoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Oteracil: nueva indicación predicha, Adenoma velloso del ciego (cecum villous adenoma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 0; autorizadas no comercializadas: 4)"
 ---
 
 # Oteracil

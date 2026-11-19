@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "ABATACEPT"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 last_modified_at: 2026-11-05
-description: "Abatacept: nueva indicación predicha, espondilitis anquilosante (ankylosing spondylitis) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
+description: "Abatacept: nueva indicación predicha, espondilitis anquilosante (ankylosing spondylitis) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"
 ---
 
 # Abatacept

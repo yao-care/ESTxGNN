@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-05
 monitor_inn: "Clofazimine"
 predicted_indications: ["pneumocystosis", "malaria", "gastrin secretion abnormality"]
-description: "Clofazimine: nueva indicación predicha, Pneumocystosis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Clofazimine: nueva indicación predicha, Pneumocystosis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0)"
 ---
 
 # Clofazimine

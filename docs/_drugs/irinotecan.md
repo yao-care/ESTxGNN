@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "irinotecan"
 predicted_indications: ["female breast carcinoma"]
-description: "Irinotecan: nueva indicación predicha, Carcinoma de mama femenino (female breast carcinoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Irinotecan: nueva indicación predicha, Carcinoma de mama femenino (female breast carcinoma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 11 (comercializadas: 10)"
 ---
 
 # Irinotecan

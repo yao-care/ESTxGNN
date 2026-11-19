@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-05
 monitor_inn: "norgestimate"
 predicted_indications: ["zinc, elevated plasma"]
-description: "Norgestimate: nueva indicación predicha, Zinc plasmático elevado (zinc, elevated plasma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Norgestimate: nueva indicación predicha, Zinc plasmático elevado (zinc, elevated plasma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 1)"
 ---
 
 # Norgestimate

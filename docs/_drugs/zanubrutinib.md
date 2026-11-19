@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-05
 monitor_inn: "ZANUBRUTINIB"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
-description: "Zanubrutinib: nueva indicación predicha, Leucemia mieloide (myeloid leukemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Zanubrutinib: nueva indicación predicha, Leucemia mieloide (myeloid leukemia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 2; autorizadas no comercializadas: 2)"
 ---
 
 # Zanubrutinib

@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-05
 monitor_inn: "Ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
-description: "Ethinylestradiol: nueva indicación predicha, Zinc plasmático elevado (zinc, elevated plasma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Ethinylestradiol: nueva indicación predicha, Zinc plasmático elevado (zinc, elevated plasma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 239 (comercializadas: 144; autorizadas no comercializadas: 26)"
 ---
 
 # Ethinylestradiol

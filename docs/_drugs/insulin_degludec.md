@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-05
 monitor_inn: "insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
-description: "Insulin Degludec: nueva indicación predicha, Autoimmune oophoritis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Insulin Degludec: nueva indicación predicha, Autoimmune oophoritis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 3; autorizadas no comercializadas: 4)"
 ---
 
 # Insulin Degludec

@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Benzocaine"
 predicted_indications: ["papillary conjunctivitis"]
 last_modified_at: 2026-11-05
-description: "Benzocaine: nueva indicación predicha, conjuntivitis papilar (papillary conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Benzocaine: nueva indicación predicha, conjuntivitis papilar (papillary conjunctivitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 6)"
 ---
 
 # Benzocaine

@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-05
 monitor_inn: "mefenamic acid"
 predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
-description: "Mefenamic Acid: nueva indicación predicha, Trastorno de cefalea (headache disorder) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+description: "Mefenamic Acid: nueva indicación predicha, Trastorno de cefalea (headache disorder) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
 # Mefenamic Acid

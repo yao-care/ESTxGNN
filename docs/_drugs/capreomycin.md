@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "capreomycin"
 predicted_indications: ["gout", "rheumatoid arthritis", "osteoarthritis", "sclerosing cholangitis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "meningococcal infection", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type"]
 last_modified_at: 2026-11-05
-description: "Capreomycin: nueva indicación predicha, Gota (gout) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Capreomycin: nueva indicación predicha, Gota (gout) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0)"
 ---
 
 # Capreomycin

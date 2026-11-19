@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-05
 monitor_inn: "PINAZEPAM"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "antidepressant type abuse", "hallucinogen abuse", "barbiturate abuse", "sleep disorder, initiating and maintaining sleep"]
-description: "Pinazepam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Pinazepam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 0)"
 ---
 
 # Pinazepam

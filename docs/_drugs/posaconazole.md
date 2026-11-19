@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "posaconazole"
 predicted_indications: ["pneumocystosis"]
-description: "Posaconazole: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Posaconazole: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 18 (comercializadas: 13; autorizadas no comercializadas: 3)"
 ---
 
 # Posaconazole

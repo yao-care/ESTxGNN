@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-05
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema"]
-description: "Montelukast: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+description: "Montelukast: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
 # Montelukast

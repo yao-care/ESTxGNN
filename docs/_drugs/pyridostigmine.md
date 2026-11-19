@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-05
 monitor_inn: "Pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
-description: "Pyridostigmine: nueva indicación predicha, Autoimmune disease of peripheral nervous system (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Pyridostigmine: nueva indicación predicha, Autoimmune disease of peripheral nervous system (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 1)"
 ---
 
 # Pyridostigmine

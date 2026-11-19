@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Doxylamine"
 predicted_indications: ["nasal cavity disease"]
-description: "Doxylamine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Doxylamine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 18 (comercializadas: 10)"
 ---
 
 # Doxylamine

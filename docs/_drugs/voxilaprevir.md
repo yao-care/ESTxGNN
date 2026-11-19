@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-05
 monitor_inn: "voxilaprevir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "chronic hepatitis B virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
-description: "Voxilaprevir: nueva indicación predicha, Infección por virus de la hepatitis B (hepatitis B virus infection) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Voxilaprevir: nueva indicación predicha, Infección por virus de la hepatitis B (hepatitis B virus infection) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
 # Voxilaprevir

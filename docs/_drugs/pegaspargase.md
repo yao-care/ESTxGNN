@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-05
 monitor_inn: "pegaspargase"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
-description: "Pegaspargase: nueva indicación predicha, Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Pegaspargase: nueva indicación predicha, Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 1; autorizadas no comercializadas: 1)"
 ---
 
 # Pegaspargase

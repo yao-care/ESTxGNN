@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-05
 monitor_inn: "Tetracaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome"]
-description: "Tetracaine: nueva indicación predicha, Acrodermatitis crónica atrófica (acrodermatitis chronica atrophicans) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Tetracaine: nueva indicación predicha, Acrodermatitis crónica atrófica (acrodermatitis chronica atrophicans) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 2)"
 ---
 
 # Tetracaine

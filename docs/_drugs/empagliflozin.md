@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-05
 monitor_inn: "Empagliflozin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
-description: "Empagliflozin: nueva indicación predicha, Focal stiff limb syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Empagliflozin: nueva indicación predicha, Focal stiff limb syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 2; autorizadas no comercializadas: 6)"
 ---
 
 # Empagliflozin

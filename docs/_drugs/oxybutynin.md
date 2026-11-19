@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-05
 monitor_inn: "Oxybutynin"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
-description: "Oxybutynin: nueva indicación predicha, Síndrome de piernas inquietas (restless legs syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Oxybutynin: nueva indicación predicha, Síndrome de piernas inquietas (restless legs syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 3; autorizadas no comercializadas: 1)"
 ---
 
 # Oxybutynin

@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-05
 monitor_inn: "chlortetracycline"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
-description: "Chlortetracycline: nueva indicación predicha, Postinfectious vasculitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Chlortetracycline: nueva indicación predicha, Postinfectious vasculitis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 2)"
 ---
 
 # Chlortetracycline

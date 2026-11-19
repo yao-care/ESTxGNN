@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-05
 monitor_inn: "Decitabine"
 predicted_indications: ["refractory cytopenia of childhood"]
-description: "Decitabine: nueva indicación predicha, Citopenia refractaria de la infancia (refractory cytopenia of childhood) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Decitabine: nueva indicación predicha, Citopenia refractaria de la infancia (refractory cytopenia of childhood) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 1; autorizadas no comercializadas: 1)"
 ---
 
 # Decitabine

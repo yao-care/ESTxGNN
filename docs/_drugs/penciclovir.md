@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-05
 monitor_inn: "PENCICLOVIR"
 predicted_indications: ["fascioliasis"]
-description: "Penciclovir: nueva indicación predicha, Fascioliasis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Penciclovir: nueva indicación predicha, Fascioliasis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
 # Penciclovir

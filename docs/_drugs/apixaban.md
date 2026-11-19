@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-05
 monitor_inn: "apixaban"
 predicted_indications: ["migraine disorder"]
-description: "Apixaban: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Apixaban: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
 # Apixaban

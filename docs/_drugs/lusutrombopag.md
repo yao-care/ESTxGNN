@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-05
 monitor_inn: "LUSUTROMBOPAG"
 predicted_indications: ["hereditary thrombocytopenia with normal platelets", "marcothrombocytopenia with mitral valve insufficiency", "transient neonatal thrombocytopenia", "dense granule disease", "platelet storage pool deficiency", "amyotrophic lateral sclerosis", "lower motor neuron syndrome with late-adult onset", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia"]
-description: "Lusutrombopag: nueva indicación predicha, Hereditary thrombocytopenia with normal platelets (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Lusutrombopag: nueva indicación predicha, Hereditary thrombocytopenia with normal platelets (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0; autorizadas no comercializadas: 1)"
 ---
 
 # Lusutrombopag

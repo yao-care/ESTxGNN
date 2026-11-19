@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-05
 monitor_inn: "Guanfacine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
-description: "Guanfacine: nueva indicación predicha, Faciodigitogenital syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Guanfacine: nueva indicación predicha, Faciodigitogenital syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 11 (comercializadas: 11)"
 ---
 
 # Guanfacine

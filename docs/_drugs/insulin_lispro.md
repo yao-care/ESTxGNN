@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "Insulin lispro"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-description: "Insulin Lispro: nueva indicación predicha, Ooforitis autoinmune (autoimmune oophoritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Insulin Lispro: nueva indicación predicha, Ooforitis autoinmune (autoimmune oophoritis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 3; autorizadas no comercializadas: 5)"
 ---
 
 # Insulin Lispro

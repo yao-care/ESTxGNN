@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-05
 monitor_inn: "methoxsalen"
 predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
-description: "Methoxsalen: nueva indicación predicha, Reticulosis pagetoide localizada (localized pagetoid reticulosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Methoxsalen: nueva indicación predicha, Reticulosis pagetoide localizada (localized pagetoid reticulosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 3; autorizadas no comercializadas: 1)"
 ---
 
 # Methoxsalen

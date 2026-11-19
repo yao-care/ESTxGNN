@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "acarbose"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 last_modified_at: 2026-11-05
-description: "Acarbose: nueva indicación predicha, Síndrome de la extremidad rígida focal (focal stiff limb syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Acarbose: nueva indicación predicha, Síndrome de la extremidad rígida focal (focal stiff limb syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 12 (comercializadas: 4; autorizadas no comercializadas: 4)"
 ---
 
 # Acarbose

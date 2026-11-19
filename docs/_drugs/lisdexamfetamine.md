@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "lisdexamfetamine"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "autosomal dominant cerebellar ataxia", "cerebellar ataxia", "spinocerebellar degeneration with slow eye movements", "trichotillomania", "transient tic disorder", "narcolepsy"]
-description: "Lisdexamfetamine: nueva indicación predicha, Trastorno específico del desarrollo (specific developmental disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Lisdexamfetamine: nueva indicación predicha, Trastorno específico del desarrollo (specific developmental disorder) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 19 (comercializadas: 6; autorizadas no comercializadas: 10)"
 ---
 
 # Lisdexamfetamine

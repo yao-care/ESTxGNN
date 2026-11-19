@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-05
 monitor_inn: "lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
-description: "Lactic Acid: nueva indicación predicha, Coartación atípica de la aorta (atypical coarctation of aorta) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Lactic Acid: nueva indicación predicha, Coartación atípica de la aorta (atypical coarctation of aorta) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 2)"
 ---
 
 # Lactic Acid

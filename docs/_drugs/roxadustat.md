@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-05
 monitor_inn: "ROXADUSTAT"
 predicted_indications: ["dry eye syndrome", "bone Paget disease", "dentinogenesis imperfecta", "squamous cell carcinoma"]
-description: "Roxadustat: nueva indicación predicha, Síndrome del ojo seco (dry eye syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Roxadustat: nueva indicación predicha, Síndrome del ojo seco (dry eye syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 5)"
 ---
 
 # Roxadustat

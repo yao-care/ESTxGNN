@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "OFATUMUMAB"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
 last_modified_at: 2026-11-05
-description: "Ofatumumab: nueva indicación predicha, Linfoma folicular (follicular lymphoma) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+description: "Ofatumumab: nueva indicación predicha, Linfoma folicular (follicular lymphoma) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
 # Ofatumumab

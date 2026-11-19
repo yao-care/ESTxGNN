@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-05
 monitor_inn: "Sertraline"
 predicted_indications: ["schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-description: "Sertraline: nueva indicación predicha, Trastorno esquizoide de la personalidad (schizoid personality disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Sertraline: nueva indicación predicha, Trastorno esquizoide de la personalidad (schizoid personality disorder) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
 # Sertraline

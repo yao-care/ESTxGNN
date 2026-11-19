@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-05
 monitor_inn: "IMIQUIMOD"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
-description: "Imiquimod: nueva indicación predicha, Neoplasia premaligna (pre-malignant neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Imiquimod: nueva indicación predicha, Neoplasia premaligna (pre-malignant neoplasm) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 4; autorizadas no comercializadas: 1)"
 ---
 
 # Imiquimod

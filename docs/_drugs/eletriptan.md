@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "eletriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
-description: "Eletriptan: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Eletriptan: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 10 (comercializadas: 8)"
 ---
 
 # Eletriptan

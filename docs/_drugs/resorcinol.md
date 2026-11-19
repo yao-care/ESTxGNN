@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-05
 monitor_inn: "resorcinol"
 predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial"]
-description: "Resorcinol: nueva indicación predicha, Acné queloideo (acne keloid) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Resorcinol: nueva indicación predicha, Acné queloideo (acne keloid) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
 # Resorcinol

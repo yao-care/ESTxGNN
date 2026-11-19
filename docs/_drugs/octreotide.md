@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "Octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
-description: "Octreotide: nueva indicación predicha, Queratosis folicular invertida vulvar (vulvar inverted follicular keratosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Octreotide: nueva indicación predicha, Queratosis folicular invertida vulvar (vulvar inverted follicular keratosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 16 (comercializadas: 9; autorizadas no comercializadas: 3)"
 ---
 
 # Octreotide

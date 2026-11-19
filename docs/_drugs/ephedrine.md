@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-05
 monitor_inn: "ephedrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
-description: "Ephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
+description: "Ephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 13 (comercializadas: 12; autorizadas no comercializadas: 1)"
 ---
 
 # Ephedrine

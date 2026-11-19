@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-05
 monitor_inn: "rifampicin"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
-description: "Rifampicin: nueva indicación predicha, Conjuntivitis (conjunctivitis) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+description: "Rifampicin: nueva indicación predicha, Conjuntivitis (conjunctivitis) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 7 (comercializadas: 7)"
 ---
 
 # Rifampicin

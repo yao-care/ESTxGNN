@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-05
 monitor_inn: "Nelarabine"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
-description: "Nelarabine: nueva indicación predicha, Esclerosis múltiple remitente-recurrente (relapsing-remitting multiple sclerosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Nelarabine: nueva indicación predicha, Esclerosis múltiple remitente-recurrente (relapsing-remitting multiple sclerosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
 # Nelarabine

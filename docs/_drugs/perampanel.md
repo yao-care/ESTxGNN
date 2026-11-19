@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-05
 monitor_inn: "PERAMPANEL"
 predicted_indications: ["beta-ketothiolase deficiency"]
-description: "Perampanel: nueva indicación predicha, Beta-ketothiolase deficiency (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Perampanel: nueva indicación predicha, Beta-ketothiolase deficiency (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
 # Perampanel

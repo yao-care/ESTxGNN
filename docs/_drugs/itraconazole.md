@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-13
 monitor_inn: "Itraconazole"
 predicted_indications: ["pneumocystosis"]
-description: "Itraconazole: nueva indicación predicha, Pneumocistosis (pneumocystosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Itraconazole: nueva indicación predicha, Pneumocistosis (pneumocystosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 13 (comercializadas: 11)"
 ---
 
 # Itraconazole

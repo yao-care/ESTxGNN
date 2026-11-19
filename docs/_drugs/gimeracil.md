@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-05
 monitor_inn: "gimeracil"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
-description: "Gimeracil: nueva indicación predicha, Cecum villous adenoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Gimeracil: nueva indicación predicha, Cecum villous adenoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 0; autorizadas no comercializadas: 4)"
 ---
 
 # Gimeracil

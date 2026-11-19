@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-05
 monitor_inn: "epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
-description: "Epirubicin: nueva indicación predicha, linfoma pulmonar primario (primary pulmonary lymphoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Epirubicin: nueva indicación predicha, linfoma pulmonar primario (primary pulmonary lymphoma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 4; autorizadas no comercializadas: 1)"
 ---
 
 # Epirubicin

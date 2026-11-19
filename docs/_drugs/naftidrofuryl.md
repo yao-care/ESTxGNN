@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-05
 monitor_inn: "naftidrofuryl"
 predicted_indications: ["stroke disorder"]
-description: "Naftidrofuryl: nueva indicación predicha, Ictus (stroke disorder) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
+description: "Naftidrofuryl: nueva indicación predicha, Ictus (stroke disorder) (nivel de evidencia L1). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0)"
 ---
 
 # Naftidrofuryl

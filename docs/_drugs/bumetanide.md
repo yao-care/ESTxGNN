@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Bumetanide"
 predicted_indications: ["acute pulmonary heart disease"]
 last_modified_at: 2026-11-05
-description: "Bumetanide: nueva indicación predicha, Cardiopatía pulmonar aguda (acute pulmonary heart disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Bumetanide: nueva indicación predicha, Cardiopatía pulmonar aguda (acute pulmonary heart disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
 # Bumetanide

@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-05
 monitor_inn: "methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
-description: "Methylphenidate: nueva indicación predicha, Faciodigitogenital syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Methylphenidate: nueva indicación predicha, Faciodigitogenital syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
 # Methylphenidate

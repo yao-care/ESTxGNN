@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-12
 monitor_inn: "Mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
-description: "Mitoxantrone: nueva indicación predicha, Neoplasia del tracto aerodigestivo superior (upper aerodigestive tract neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Mitoxantrone: nueva indicación predicha, Neoplasia del tracto aerodigestivo superior (upper aerodigestive tract neoplasm) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 0)"
 ---
 
 # Mitoxantrone

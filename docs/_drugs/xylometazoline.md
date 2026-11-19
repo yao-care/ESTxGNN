@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "xylometazoline"
 predicted_indications: ["nasal cavity disease"]
-description: "Xylometazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
+description: "Xylometazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 9 (comercializadas: 6)"
 ---
 
 # Xylometazoline

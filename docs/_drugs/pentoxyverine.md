@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "pentoxyverine"
 predicted_indications: ["nasal cavity disease"]
 last_modified_at: 2026-11-12
-description: "Pentoxyverine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Pentoxyverine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
 # Pentoxyverine

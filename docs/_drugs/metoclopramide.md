@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-05
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
-description: "Metoclopramide: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Metoclopramide: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 8)"
 ---
 
 # Metoclopramide

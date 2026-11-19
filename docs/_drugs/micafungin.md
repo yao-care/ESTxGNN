@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "micafungin"
 predicted_indications: ["urinary tract infection (disease)"]
-description: "Micafungin: nueva indicación predicha, Infección del tracto urinario (urinary tract infection (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
+description: "Micafungin: nueva indicación predicha, Infección del tracto urinario (urinary tract infection (disease)) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
 # Micafungin

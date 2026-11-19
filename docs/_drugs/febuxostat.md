@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
-description: "Febuxostat: nueva indicación predicha, Hipouricemia renal (hypouricemia, renal) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
+description: "Febuxostat: nueva indicación predicha, Hipouricemia renal (hypouricemia, renal) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
 # Febuxostat

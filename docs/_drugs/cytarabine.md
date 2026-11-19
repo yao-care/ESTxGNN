@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "Cytarabine"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
-description: "Cytarabine: nueva indicación predicha, Small cell lung carcinoma (nivel de evidencia L4). Indicación original: No consta en los datos locales"
+description: "Cytarabine: nueva indicación predicha, Small cell lung carcinoma (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 6 (comercializadas: 4)"
 ---
 
 # Cytarabine

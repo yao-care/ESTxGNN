@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-12
 monitor_inn: "melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
-description: "Melphalan: nueva indicación predicha, Female breast carcinoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Melphalan: nueva indicación predicha, Female breast carcinoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 4; autorizadas no comercializadas: 2)"
 ---
 
 # Melphalan

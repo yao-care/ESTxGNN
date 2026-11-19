@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-05
 monitor_inn: "MIGLUSTAT"
 predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "Krabbe disease", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "encephalopathy due to prosaposin deficiency", "Tay-Sachs disease", "benign neoplasm of adrenal gland", "recessive X-linked ichthyosis", "fatty acid hydroxylase-associated neurodegeneration"]
-description: "Miglustat: nueva indicación predicha, Autosomal ichthyosis syndrome with fatal disease course (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Miglustat: nueva indicación predicha, Autosomal ichthyosis syndrome with fatal disease course (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 7)"
 ---
 
 # Miglustat

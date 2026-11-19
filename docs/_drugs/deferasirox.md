@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-12
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
-description: "Deferasirox: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
+description: "Deferasirox: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
 # Deferasirox

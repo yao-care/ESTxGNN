@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "AFLIBERCEPT"
 predicted_indications: ["esotropia"]
 last_modified_at: 2026-11-05
-description: "Aflibercept: nueva indicación predicha, esotropía (esotropia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Aflibercept: nueva indicación predicha, esotropía (esotropia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
 # Aflibercept

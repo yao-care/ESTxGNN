@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
-description: "Diphenhydramine: nueva indicación predicha, Conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Diphenhydramine: nueva indicación predicha, Conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 5)"
 ---
 
 # Diphenhydramine

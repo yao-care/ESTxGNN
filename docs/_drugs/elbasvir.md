@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-05
 monitor_inn: "elbasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-description: "Elbasvir: nueva indicación predicha, infección por el virus de la hepatitis B (hepatitis B virus infection) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Elbasvir: nueva indicación predicha, infección por el virus de la hepatitis B (hepatitis B virus infection) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0; autorizadas no comercializadas: 1)"
 ---
 
 # Elbasvir

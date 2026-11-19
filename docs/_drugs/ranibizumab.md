@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-09
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "mature cataract", "tetanic cataract", "immature cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
-description: "Ranibizumab: nueva indicación predicha, Diabetes mellitus type 2 associated cataract (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Ranibizumab: nueva indicación predicha, Diabetes mellitus type 2 associated cataract (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 11 (comercializadas: 8; autorizadas no comercializadas: 3)"
 ---
 
 # Ranibizumab

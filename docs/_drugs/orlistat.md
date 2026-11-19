@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "ORLISTAT"
 predicted_indications: ["hypervitaminosis"]
-description: "Orlistat: nueva indicación predicha, Hipervitaminosis (hypervitaminosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Orlistat: nueva indicación predicha, Hipervitaminosis (hypervitaminosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
 # Orlistat

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-05
 monitor_inn: "CETUXIMAB"
 predicted_indications: ["bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "ductal or ductular proliferation", "non-seminomatous lesion", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "epiglottis neoplasm", "cystic neoplasm", "pre-malignant neoplasm"]
-description: "Cetuximab: nueva indicación predicha, Bronchial adenomas/carcinoids childhood (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Cetuximab: nueva indicación predicha, Bronchial adenomas/carcinoids childhood (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
 # Cetuximab

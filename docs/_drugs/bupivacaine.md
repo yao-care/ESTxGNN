@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "Bupivacaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
 last_modified_at: 2026-11-05
-description: "Bupivacaine: nueva indicación predicha, Acrodermatitis crónica atrófica (acrodermatitis chronica atrophicans) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Bupivacaine: nueva indicación predicha, Acrodermatitis crónica atrófica (acrodermatitis chronica atrophicans) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 10 (comercializadas: 5)"
 ---
 
 # Bupivacaine

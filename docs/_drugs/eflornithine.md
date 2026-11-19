@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-05
 monitor_inn: "eflornithine"
 predicted_indications: ["esotropia", "neurotrophic keratopathy"]
-description: "Eflornithine: nueva indicación predicha, Esotropía (esotropia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Eflornithine: nueva indicación predicha, Esotropía (esotropia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 1; autorizadas no comercializadas: 2)"
 ---
 
 # Eflornithine

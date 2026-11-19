@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "ERTAPENEM"
 predicted_indications: ["bacterial arthritis"]
-description: "Ertapenem: nueva indicación predicha, Artritis bacteriana (bacterial arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Ertapenem: nueva indicación predicha, Artritis bacteriana (bacterial arthritis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 6; autorizadas no comercializadas: 1)"
 ---
 
 # Ertapenem

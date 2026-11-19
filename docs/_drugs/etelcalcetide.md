@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-05
 monitor_inn: "Etelcalcetide"
 predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices with bleeding", "esophageal varices without bleeding", "varicose disease"]
-description: "Etelcalcetide: nueva indicación predicha, hiperfosfatemia (hyperphosphatemia (disease)) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
+description: "Etelcalcetide: nueva indicación predicha, hiperfosfatemia (hyperphosphatemia (disease)) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"
 ---
 
 # Etelcalcetide

@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "busulfan"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "simian immunodeficiency virus infection"]
 last_modified_at: 2026-11-05
-description: "Busulfan: nueva indicación predicha, Síndrome mielodisplásico (myelodysplastic syndrome) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
+description: "Busulfan: nueva indicación predicha, Síndrome mielodisplásico (myelodysplastic syndrome) (nivel de evidencia L1). En España, autorizaciones de la AEMPS: 7 (comercializadas: 5)"
 ---
 
 # Busulfan

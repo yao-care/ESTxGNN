@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "nimodipine"
 predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
-description: "Nimodipine: nueva indicación predicha, Hipercolesterolemia familiar homocigota (homozygous familial hypercholesterolemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Nimodipine: nueva indicación predicha, Hipercolesterolemia familiar homocigota (homozygous familial hypercholesterolemia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 4)"
 ---
 
 # Nimodipine

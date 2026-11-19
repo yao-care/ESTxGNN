@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-05
 monitor_inn: "Hydroxocobalamin"
 predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding"]
-description: "Hydroxocobalamin: nueva indicación predicha, Esophageal varices with bleeding (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Hydroxocobalamin: nueva indicación predicha, Esophageal varices with bleeding (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 3; autorizadas no comercializadas: 1)"
 ---
 
 # Hydroxocobalamin

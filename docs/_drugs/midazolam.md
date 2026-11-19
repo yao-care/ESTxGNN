@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
-description: "Midazolam: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
+description: "Midazolam: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
 # Midazolam

@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "tetryzoline"
 predicted_indications: ["nasal cavity disease"]
-description: "Tetryzoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Tetryzoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 11 (comercializadas: 7; autorizadas no comercializadas: 2)"
 ---
 
 # Tetryzoline

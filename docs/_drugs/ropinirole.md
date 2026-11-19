@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "Ropinirole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
-description: "Ropinirole: nueva indicación predicha, Attention deficit-hyperactivity disorder (nivel de evidencia L3). Indicación original: No consta en los datos locales"
+description: "Ropinirole: nueva indicación predicha, Attention deficit-hyperactivity disorder (nivel de evidencia L3). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
 # Ropinirole

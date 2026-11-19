@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-12
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
-description: "Propofol: nueva indicación predicha, Migraña (migraine disorder) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+description: "Propofol: nueva indicación predicha, Migraña (migraine disorder) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 19 (comercializadas: 8; autorizadas no comercializadas: 4)"
 ---
 
 # Propofol

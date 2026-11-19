@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-12
 monitor_inn: "Megestrol acetate"
 predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline epithelial tumor of ovary", "uterine carcinosarcoma", "placenta cancer", "ovarian clear cell adenocarcinoma", "ovarian cancer", "malignant dysgerminomatous germ cell tumor of ovary"]
-description: "Megestrol Acetate: nueva indicación predicha, Hereditary breast ovarian cancer syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Megestrol Acetate: nueva indicación predicha, Hereditary breast ovarian cancer syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 3; autorizadas no comercializadas: 1)"
 ---
 
 # Megestrol Acetate

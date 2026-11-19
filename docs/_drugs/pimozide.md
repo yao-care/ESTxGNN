@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-05
 monitor_inn: "Pimozide"
 predicted_indications: ["trichotillomania", "manic bipolar affective disorder", "insomnia (disease)", "major affective disorder", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "Malan overgrowth syndrome", "attention deficit hyperactivity disorder, inattentive type", "agoraphobia", "benign paroxysmal torticollis of infancy"]
-description: "Pimozide: nueva indicación predicha, Tricotilomanía (trichotillomania) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
+description: "Pimozide: nueva indicación predicha, Tricotilomanía (trichotillomania) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
 ---
 
 # Pimozide

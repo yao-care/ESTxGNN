@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-05
 monitor_inn: "PIMECROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
-description: "Pimecrolimus: nueva indicación predicha, Dermatitis seborreica (seborrheic dermatitis) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+description: "Pimecrolimus: nueva indicación predicha, Dermatitis seborreica (seborrheic dermatitis) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
 # Pimecrolimus

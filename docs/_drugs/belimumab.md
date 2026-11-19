@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "BELIMUMAB"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "severe nonproliferative diabetic retinopathy", "autosomal dominant macrothrombocytopenia"]
 last_modified_at: 2026-11-05
-description: "Belimumab: nueva indicación predicha, trastorno primario de liberación plaquetaria (primary release disorder of platelets) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Belimumab: nueva indicación predicha, trastorno primario de liberación plaquetaria (primary release disorder of platelets) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"
 ---
 
 # Belimumab

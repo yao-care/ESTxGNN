@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-05
 monitor_inn: "LONOCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome"]
-description: "Lonoctocog Alfa: nueva indicación predicha, Enfermedad de pseudo-von Willebrand (pseudo-von Willebrand disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Lonoctocog Alfa: nueva indicación predicha, Enfermedad de pseudo-von Willebrand (pseudo-von Willebrand disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 4; autorizadas no comercializadas: 3)"
 ---
 
 # Lonoctocog Alfa

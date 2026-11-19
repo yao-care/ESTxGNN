@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "clioquinol"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
 last_modified_at: 2026-11-05
-description: "Clioquinol: nueva indicación predicha, Ectothrix infectious disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Clioquinol: nueva indicación predicha, Ectothrix infectious disease (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"
 ---
 
 # Clioquinol

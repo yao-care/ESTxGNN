@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-05
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
-description: "Omalizumab: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Omalizumab: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 7; autorizadas no comercializadas: 1)"
 ---
 
 # Omalizumab

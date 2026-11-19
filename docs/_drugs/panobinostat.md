@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-05
 monitor_inn: "PANOBINOSTAT"
 predicted_indications: ["myeloid leukemia"]
-description: "Panobinostat: nueva indicación predicha, Leucemia mieloide (myeloid leukemia) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+description: "Panobinostat: nueva indicación predicha, Leucemia mieloide (myeloid leukemia) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 3 (comercializadas: 0; autorizadas no comercializadas: 3)"
 ---
 
 # Panobinostat

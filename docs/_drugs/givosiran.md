@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-05
 monitor_inn: "GIVOSIRAN"
 predicted_indications: ["hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "chronic hepatitis C virus infection", "glycogen storage disease due to hepatic glycogen synthase deficiency", "chronic hepatitis B virus infection", "disorder of phenylalanine metabolism"]
-description: "Givosiran: nueva indicación predicha, Hepatopulmonary syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Givosiran: nueva indicación predicha, Hepatopulmonary syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
 # Givosiran

@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "CANAKINUMAB"
 predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "syndrome with combined immunodeficiency", "periodic fever-infantile enterocolitis-autoinflammatory syndrome", "extracutaneous mastocytoma", "Blau syndrome", "monosomy X", "liver angiosarcoma"]
 last_modified_at: 2026-11-05
-description: "Canakinumab: nueva indicación predicha, hepatic infarction (infarto hepático) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Canakinumab: nueva indicación predicha, hepatic infarction (infarto hepático) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 1)"
 ---
 
 # Canakinumab

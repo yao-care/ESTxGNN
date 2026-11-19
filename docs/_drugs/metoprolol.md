@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "METOPROLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
 last_modified_at: 2026-11-05
-description: "Metoprolol: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Metoprolol: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 3)"
 ---
 
 # Metoprolol

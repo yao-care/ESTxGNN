@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-05
 monitor_inn: "oritavancin"
 predicted_indications: ["Bacteroidaceae infectious disease", "ophthalmic herpes zoster", "Mycoplasma pneumoniae pneumonia"]
-description: "Oritavancin: nueva indicación predicha, Enfermedad infecciosa por Bacteroidaceae (Bacteroidaceae infectious disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Oritavancin: nueva indicación predicha, Enfermedad infecciosa por Bacteroidaceae (Bacteroidaceae infectious disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
 ---
 
 # Oritavancin

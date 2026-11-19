@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-05
 monitor_inn: "disopyramide"
 predicted_indications: ["Tourette syndrome", "attention deficit-hyperactivity disorder", "trichotillomania", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "idiopathic neonatal atrial flutter", "chondromyxoid fibroma", "multifocal atrial tachycardia (disease)", "trigeminal nerve neoplasm"]
-description: "Disopyramide: nueva indicación predicha, Síndrome de Tourette (Tourette syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Disopyramide: nueva indicación predicha, Síndrome de Tourette (Tourette syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
 # Disopyramide

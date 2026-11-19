@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "CABOZANTINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
 last_modified_at: 2026-11-05
-description: "Cabozantinib: nueva indicación predicha, liposarcoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Cabozantinib: nueva indicación predicha, liposarcoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 3; autorizadas no comercializadas: 3)"
 ---
 
 # Cabozantinib

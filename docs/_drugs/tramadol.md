@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "TRAMADOL"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
-description: "Tramadol: nueva indicación predicha, Acromesomelic dysplasia, Hunter-Thompson type (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Tramadol: nueva indicación predicha, Acromesomelic dysplasia, Hunter-Thompson type (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
 # Tramadol

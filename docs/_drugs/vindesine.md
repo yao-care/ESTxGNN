@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-05
 monitor_inn: "Vindesine"
 predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "neuroblastoma", "retroperitoneal neoplasm"]
-description: "Vindesine: nueva indicación predicha, Ganglioneuroblastoma (ganglioneuroblastoma (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Vindesine: nueva indicación predicha, Ganglioneuroblastoma (ganglioneuroblastoma (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0)"
 ---
 
 # Vindesine

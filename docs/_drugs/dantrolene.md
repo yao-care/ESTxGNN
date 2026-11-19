@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-05
 monitor_inn: "Dantrolene"
 predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
-description: "Dantrolene: nueva indicación predicha, Moderate multiminicore disease with hand involvement (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Dantrolene: nueva indicación predicha, Moderate multiminicore disease with hand involvement (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
 # Dantrolene

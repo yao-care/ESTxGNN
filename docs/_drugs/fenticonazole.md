@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-05
 monitor_inn: "fenticonazole"
 predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvitis", "herpetic vulvovaginitis"]
-description: "Fenticonazole: nueva indicación predicha, vulvovaginitis por tricomonas (trichomonal vulvovaginitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Fenticonazole: nueva indicación predicha, vulvovaginitis por tricomonas (trichomonal vulvovaginitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 6)"
 ---
 
 # Fenticonazole

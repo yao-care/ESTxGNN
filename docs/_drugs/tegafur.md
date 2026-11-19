@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-05
 monitor_inn: "TEGAFUR"
 predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "colonic lymphangioma", "cavernous hemangioma of colon"]
-description: "Tegafur: nueva indicación predicha, Cecum villous adenoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Tegafur: nueva indicación predicha, Cecum villous adenoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
 # Tegafur

@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 last_modified_at: 2026-11-05
-description: "Ampicillin: nueva indicación predicha, laringitis (laryngitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Ampicillin: nueva indicación predicha, laringitis (laryngitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 10 (comercializadas: 8; autorizadas no comercializadas: 2)"
 ---
 
 # Ampicillin

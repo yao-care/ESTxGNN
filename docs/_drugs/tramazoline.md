@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-05
 monitor_inn: "Tramazoline"
 predicted_indications: ["allergic urticaria", "nasal cavity disease", "rosacea conjunctivitis", "cold urticaria", "headache disorder", "trigeminal autonomic cephalalgia"]
-description: "Tramazoline: nueva indicación predicha, Urticaria alérgica (allergic urticaria) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Tramazoline: nueva indicación predicha, Urticaria alérgica (allergic urticaria) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
 ---
 
 # Tramazoline

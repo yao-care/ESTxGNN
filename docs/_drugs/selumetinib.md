@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-05
 monitor_inn: "SELUMETINIB"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "trigeminal schwannoma"]
-description: "Selumetinib: nueva indicación predicha, Lentiginosis generalizada familiar (familial generalized lentiginosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Selumetinib: nueva indicación predicha, Lentiginosis generalizada familiar (familial generalized lentiginosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 2; autorizadas no comercializadas: 2)"
 ---
 
 # Selumetinib

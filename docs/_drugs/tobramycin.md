@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
-description: "Tobramycin: nueva indicación predicha, Queratitis por exposición (exposure keratitis) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
+description: "Tobramycin: nueva indicación predicha, Queratitis por exposición (exposure keratitis) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 18 (comercializadas: 10)"
 ---
 
 # Tobramycin

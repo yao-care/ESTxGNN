@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-05
 monitor_inn: "Lomustine"
 predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer"]
-description: "Lomustine: nueva indicación predicha, linfosarcoma (lymphosarcoma) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
+description: "Lomustine: nueva indicación predicha, linfosarcoma (lymphosarcoma) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0)"
 ---
 
 # Lomustine

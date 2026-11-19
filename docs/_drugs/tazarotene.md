@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "Tazarotene"
 predicted_indications: ["seborrheic dermatitis", "seborrheic keratosis", "vulvar inverted follicular keratosis"]
-description: "Tazarotene: nueva indicación predicha, Dermatitis seborreica (seborrheic dermatitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Tazarotene: nueva indicación predicha, Dermatitis seborreica (seborrheic dermatitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 0)"
 ---
 
 # Tazarotene

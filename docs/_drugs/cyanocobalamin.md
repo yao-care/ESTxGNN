@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Cyanocobalamin"
 predicted_indications: ["biotin metabolic disease"]
-description: "Cyanocobalamin: nueva indicación predicha, Enfermedad metabólica de la biotina (biotin metabolic disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Cyanocobalamin: nueva indicación predicha, Enfermedad metabólica de la biotina (biotin metabolic disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 4; autorizadas no comercializadas: 1)"
 ---
 
 # Cyanocobalamin

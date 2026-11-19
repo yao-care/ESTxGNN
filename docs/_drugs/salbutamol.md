@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-12
 monitor_inn: "SALBUTAMOL"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
-description: "Salbutamol: nueva indicación predicha, Conjuntivitis papilar (papillary conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Salbutamol: nueva indicación predicha, Conjuntivitis papilar (papillary conjunctivitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 15 (comercializadas: 9; autorizadas no comercializadas: 2)"
 ---
 
 # Salbutamol
