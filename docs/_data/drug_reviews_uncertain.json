@@ -1313,6 +1313,19 @@
     "ChEMBL drug mechanism"
    ],
    "reason": "no single-ingredient US prescription label for 'zuclopenthixol' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'zuclopenthixol'"
+  },
+  {
+   "file": "nitrendipine.md",
+   "drug": "nitrendipine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-20",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'nitrendipine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'nitrendipine'"
   }
  ]
 }

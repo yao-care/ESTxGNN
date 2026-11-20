@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 429
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Ipilimumab: nueva indicación predicha, Coroideremia (nivel de evidencia L5). Indicación original: Melanoma metastásico"
 monitor_inn: "IPILIMUMAB"
 predicted_indications: ["choroideremia"]
@@ -60,7 +60,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Ipilimumab bloquea el receptor CTLA-4 en los linfocitos T. Esto potencia su activación y su capacidad de atacar células tumorales, y es la base de su uso en melanoma. No se dispone de una descripción detallada del mecanismo de acción más allá de este bloqueo de CTLA-4.
+Ipilimumab bloquea el receptor CTLA-4 en los linfocitos T. Esto potencia su activación y su capacidad de atacar células tumorales, y es la base de su uso en melanoma. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ipilimumab (traducción no oficial): «CTLA-4 es un regulador negativo de la actividad de los linfocitos T. Ipilimumab es un anticuerpo monoclonal que se une a CTLA-4 y bloquea la interacción de CTLA-4 con sus ligandos, CD80/CD86. Se ha demostrado que el bloqueo de CTLA-4 aumenta la activación y la proliferación de los linfocitos T, incluidas la activación y la proliferación de los linfocitos T efectores infiltrantes de tumores.» Texto original en inglés: "CTLA-4 is a negative regulator of T-cell activity. Ipilimumab is a monoclonal antibody that binds to CTLA-4 and blocks the interaction of CTLA-4 with its ligands, CD80/CD86. Blockade of CTLA-4 has been shown to augment T-cell activation and proliferation, including the activation and proliferation of tumor infiltrating T-effector cells." ([DailyMed: Yervoy (ipilimumab) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2265ef30-253e-11df-8a39-0800200c9a66), versión del 2026-08-20; consultado el 2026-11-20).
 
 **La relación mecanística con la coroideremia es muy débil.** La coroideremia es una degeneración retiniana hereditaria ligada al cromosoma X, causada por la pérdida de función del gen *CHM* (REP1). Su patología consiste en la degeneración progresiva del epitelio pigmentario de la retina, los fotorreceptores y la coroides. No depende de la evasión inmune tumoral, que es el proceso sobre el que actúa ipilimumab.
 
@@ -129,6 +129,18 @@ La predicción para coroideremia carece de ensayos clínicos y de literatura, y 
 - Estudios preclínicos en modelos de coroideremia que evalúen eficacia y seguridad ocular.
 - Revisión de las alternativas terapéuticas ya dirigidas a la causa de la enfermedad (por ejemplo, enfoques de terapia génica).
 - Verificación del texto de indicaciones, advertencias y contraindicaciones en la ficha técnica vigente de la AEMPS.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-20 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Yervoy (ipilimumab) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2265ef30-253e-11df-8a39-0800200c9a66) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

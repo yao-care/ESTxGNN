@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 687
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Reboxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "Keppen-Lubinsky syndrome", "ligneous conjunctivitis"]
 description: "Reboxetine: nueva indicación predicha, Benign paroxysmal torticollis of infancy (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podria ser efectivo para **agorafobia**, con **0 ens
 
 ## Por que es Razonable esta Prediccion?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion en los datos compilados. Segun la informacion conocida, reboxetina es un inhibidor selectivo de la recaptacion de noradrenalina: se une al transportador de noradrenalina (NET, gen SLC6A2) y bloquea la recaptacion de esta en las terminales nerviosas, con baja afinidad por otros transportadores y receptores.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Reboxetine es (traducción no oficial): «Inhibidor del transportador de noradrenalina». Texto original en inglés: "Norepinephrine transporter inhibitor" ([ChEMBL CHEMBL14370 (reboxetine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL14370), CC BY-SA 3.0; consultado el 2026-11-20). Segun la informacion conocida, reboxetina es un inhibidor selectivo de la recaptacion de noradrenalina: se une al transportador de noradrenalina (NET, gen SLC6A2) y bloquea la recaptacion de esta en las terminales nerviosas, con baja afinidad por otros transportadores y receptores.
 
 La desregulacion noradrenergica esta implicada en los trastornos de panico y de ansiedad. La agorafobia suele aparecer asociada al trastorno de panico, y la depresion y la ansiedad presentan alta comorbilidad. Por ello es mecanisticamente plausible que un fármaco eficaz en depresion tambien tenga actividad en este cuadro.
 
@@ -125,6 +125,18 @@ Existe plausibilidad biologica y estudios pequeños (uno abierto) en trastorno d
 |------|------|------|------|
 | Trastorno neurotico | 0.9966 | L5 | Categoria obsoleta; solo prediccion |
 | Torticolis paroxistico benigno de la infancia, sindrome de Ohdo y variantes, sindrome de blefarofimosis-discapacidad intelectual tipo Ohdo, sindrome de Keppen-Lubinsky, conjuntivitis leñosa | 0.9940–0.9992 | L5 | Sin vinculo mecanistico plausible ni evidencia; las puntuaciones provienen del modelo TxGNN (aprendizaje profundo) y pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica |
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-20 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL14370 (reboxetine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL14370) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

@@ -1420,7 +1420,7 @@
   "with_current": 638,
   "none_current": 69,
   "without_data": 140,
-  "with_reviews": 557,
+  "with_reviews": 561,
   "rows": [
    {
     "t": "Ethinylestradiol",
@@ -1748,7 +1748,7 @@
     "i": "Torticolis paroxistica benigna de la infancia",
     "lt": 0,
     "lv": 16,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Se listan 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo)\"",
     "x": 0
    },
@@ -4455,7 +4455,7 @@
     "lt": 5,
     "lv": 5,
     "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "rs": "\"En los datos compilados para este informe no consta una descripción detallada del mecanismo de acción del…",
     "x": 0
    },
    {
@@ -4751,8 +4751,8 @@
     "i": "Trastorno esquizoide de la personalidad",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -5268,8 +5268,8 @@
     "i": "Neurodegeneración asociada a PLA2G6",
     "lt": 5,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -6236,8 +6236,8 @@
     "i": "choroideremia",
     "lt": 3,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -6489,8 +6489,8 @@
     "i": "benign paroxysmal torticollis of infancy",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {

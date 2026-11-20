@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 584
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Olanzapine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: nueva indicación predicha, Torticolis paroxistica benigna de la infancia (benign paroxysmal torticollis of infancy) (nivel de evidencia L5). Indicación original: No consta en los datos lo…"
@@ -59,7 +59,7 @@ El modelo TxGNN predice que podria ser efectivo para **torticolis paroxistica be
 
 ## Por que es Razonable esta Prediccion?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion. Segun la informacion conocida, olanzapina es un antipsicotico atipico con antagonismo multirreceptor (dopamina D2, serotonina 5-HT2A/5-HT2C, histamina H1, entre otros), y su eficacia en esquizofrenia y trastorno bipolar esta comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Olanzapine (traducción no oficial): «Se desconoce el mecanismo de acción de la olanzapina en las indicaciones enumeradas. Sin embargo, la eficacia de la olanzapina en la esquizofrenia podría estar mediada por una combinación de antagonismo de los receptores de dopamina y de serotonina tipo 2 (5HT 2 ).» Texto original en inglés: "The mechanism of action of olanzapine, in the listed indications, is unclear. However, the efficacy of olanzapine in schizophrenia could be mediated through a combination of dopamine and serotonin type 2 (5HT 2 ) antagonism." ([DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c), versión del 2026-10-26; consultado el 2026-11-20). Segun la informacion conocida, olanzapina es un antipsicotico atipico con antagonismo multirreceptor (dopamina D2, serotonina 5-HT2A/5-HT2C, histamina H1, entre otros), y su eficacia en esquizofrenia y trastorno bipolar esta comprobada.
 
 La torticolis paroxistica benigna de la infancia es un trastorno pediatrico raro, relacionado con el espectro de la migrana y con variantes del gen CACNA1A. En teoria, el bloqueo de receptores dopaminergicos, serotoninergicos y histaminicos podria influir en los sintomas distonicos o vestibulares.
 
@@ -126,11 +126,12 @@ La prediccion (0.9954) es solo computacional, sin ensayos ni literatura que la r
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-20 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c) |
 
 <!-- review:end log -->
 

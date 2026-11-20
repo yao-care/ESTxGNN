@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 291
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Entacapone"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
 description: "Entacapone: nueva indicación predicha, Neurodegeneración asociada a PLA2G6 (PLA2G6-associated neurodegeneration) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 3)"
@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **neurodegeneración asoci
 
 ## ¿Por qué es Razonable esta Predicción?
 
-La entacapona inhibe la COMT, enzima que degrada la levodopa y las catecolaminas en la periferia. Al bloquearla, prolonga la acción de la levodopa y mejora el control de las fluctuaciones motoras en la enfermedad de Parkinson. Los datos farmacológicos compilados confirman la COMT como diana principal; también figuran como dianas los transportadores mitocondriales de piruvato MPC2 y MPC1L, cuya relevancia clínica no está establecida. No se dispone de una descripción detallada del mecanismo de acción en otras fuentes.
+La entacapona inhibe la COMT, enzima que degrada la levodopa y las catecolaminas en la periferia. Al bloquearla, prolonga la acción de la levodopa y mejora el control de las fluctuaciones motoras en la enfermedad de Parkinson. Los datos farmacológicos compilados confirman la COMT como diana principal; también figuran como dianas los transportadores mitocondriales de piruvato MPC2 y MPC1L, cuya relevancia clínica no está establecida. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Entacapone (traducción no oficial): «La entacapona es un inhibidor selectivo y reversible de la COMT. En los mamíferos, la COMT está distribuida en diversos órganos, con las actividades más altas en el hígado y el riñón. La COMT también se encuentra en el corazón, el pulmón, los músculos liso y esquelético, el tracto intestinal, los órganos reproductores, diversas glándulas, el tejido adiposo, la piel, las células sanguíneas y los tejidos neuronales, especialmente en las células gliales.» Texto original en inglés: "Entacapone is a selective and reversible inhibitor of COMT. In mammals, COMT is distributed throughout various organs with the highest activities in the liver and kidney. COMT also occurs in the heart, lung, smooth and skeletal muscles, intestinal tract, reproductive organs, various glands, adipose tissue, skin, blood cells, and neuronal tissues, especially in glial cells." ([DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd), versión del 2026-02-16; consultado el 2026-11-20).
 
 La neurodegeneración asociada a PLA2G6 (PLAN) incluye la distrofia neuroaxonal infantil y la distonía-parkinsonismo relacionada con PLA2G6. El fenotipo parkinsoniano se solapa con la indicación original, por lo que existe una justificación dopaminérgica plausible.
 
@@ -124,6 +124,19 @@ La predicción principal es solo computacional (nivel L5), sin ensayos ni litera
 - Datos detallados del mecanismo de acción
 - Evaluación del perfil de seguridad en población pediátrica y neurodegenerativa
 - Si hay interés en demencia con cuerpos de Lewy o PSP-síndrome corticobasal, estudios preclínicos y clínicos específicos con entacapona
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-20 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
