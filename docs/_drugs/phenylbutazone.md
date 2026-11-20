@@ -56,7 +56,7 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Phenylbutazone es (traducción no oficial): «Inhibidor de la ciclooxigenasa» Texto original en inglés: "Cyclooxygenase inhibitor" ([ChEMBL CHEMBL101 (phenylbutazone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL101), CC BY-SA 3.0; consultado el 2026-11-19). Por su clase, la fenilbutazona es un AINE, un grupo que actúa sobre la vía de las ciclooxigenasas (COX) y reduce la inflamación y el dolor.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Phenylbutazone es (traducción no oficial): «Inhibidor de la ciclooxigenasa». Texto original en inglés: "Cyclooxygenase inhibitor" ([ChEMBL CHEMBL101 (phenylbutazone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL101), CC BY-SA 3.0; consultado el 2026-11-19). Por su clase, la fenilbutazona es un AINE, un grupo que actúa sobre la vía de las ciclooxigenasas (COX) y reduce la inflamación y el dolor.
 
 Este síndrome es una malformación del desarrollo, ultra rara y de base genética. La inhibición de COX por un AINE no se espera que corrija un defecto estructural del desarrollo. No se identifica un vínculo mecanístico plausible entre el fármaco y esta enfermedad.
 
@@ -111,7 +111,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL101 (phenylbutazone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL101) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL101 (phenylbutazone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL101) |
 
 <!-- review:end log -->
 

@@ -65,7 +65,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Diosmin es (traducción no oficial): «Desconocido» Texto original en inglés: "Unknown" ([ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884), CC BY-SA 3.0; consultado el 2026-11-19). Según la información general conocida, la diosmina es un flavonoide venoactivo que se emplea en la insuficiencia venosa crónica y las hemorroides, con efectos propuestos sobre el tono venoso, la permeabilidad capilar y la inflamación.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Diosmin es (traducción no oficial): «Desconocido». Texto original en inglés: "Unknown" ([ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884), CC BY-SA 3.0; consultado el 2026-11-19). Según la información general conocida, la diosmina es un flavonoide venoactivo que se emplea en la insuficiencia venosa crónica y las hemorroides, con efectos propuestos sobre el tono venoso, la permeabilidad capilar y la inflamación.
 
 No se ha establecido un vínculo mecanístico con la amenorrea a partir de los datos disponibles. Una conexión hipotética (por efectos antiinflamatorios, antioxidantes o microcirculatorios sobre el ovario o el útero) es especulativa y no está respaldada por evidencia aportada.
 
@@ -129,7 +129,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Diosmina es un flavonoide utilizado habitualmente como agente venoactivo, con 15 autorizaciones vigentes en España; sin embargo, los datos c" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-05 | Eliminado: "Se listan 5 de las 15 autorizaciones vigentes (todas de diosmina como monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884) |
 
 <!-- review:end log -->
 

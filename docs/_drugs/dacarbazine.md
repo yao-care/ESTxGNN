@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia del tracto aer
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Dacarbazina es un agente alquilante que actúa como profármaco metilante: se activa en el hígado mediante enzimas del citocromo P450 hasta MTIC, que daña el ADN y es citotóxico para células en rápida división. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dacarbazine es (traducción no oficial): «Inhibidor del ADN» Texto original en inglés: "DNA inhibitor" ([ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476), CC BY-SA 3.0; consultado el 2026-11-19).
+Dacarbazina es un agente alquilante que actúa como profármaco metilante: se activa en el hígado mediante enzimas del citocromo P450 hasta MTIC, que daña el ADN y es citotóxico para células en rápida división. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dacarbazine es (traducción no oficial): «Inhibidor del ADN». Texto original en inglés: "DNA inhibitor" ([ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476), CC BY-SA 3.0; consultado el 2026-11-19).
 
 La relación con la nueva indicación es indirecta. El tracto aerodigestivo superior puede albergar histologías en las que dacarbazina tiene uso o actividad: melanoma mucoso de cabeza y cuello, paragangliomas malignos de cabeza y cuello y linfoma de Hodgkin con afectación de cabeza y cuello. Sin embargo, el tumor dominante en esta región es el carcinoma escamoso, para el cual no hay evidencia de beneficio en los datos disponibles.
 
@@ -127,7 +127,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476) |
 
 <!-- review:end log -->
 

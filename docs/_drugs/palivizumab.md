@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia benigna de la 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Palivizumab es (traducción no oficial): «Inhibidor de la glucoproteína de fusión F0» Texto original en inglés: "Fusion glycoprotein F0 inhibitor" ([ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, palivizumab es un anticuerpo monoclonal humanizado que se une a la proteína F de fusión del VRS y neutraliza el virus, por lo que su eficacia se limita a la prevención de la infección por este patógeno.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Palivizumab es (traducción no oficial): «Inhibidor de la glucoproteína de fusión F0». Texto original en inglés: "Fusion glycoprotein F0 inhibitor" ([ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, palivizumab es un anticuerpo monoclonal humanizado que se une a la proteína F de fusión del VRS y neutraliza el virus, por lo que su eficacia se limita a la prevención de la infección por este patógeno.
 
 **Esta predicción no tiene un respaldo mecanístico plausible.** Palivizumab es específico de un antígeno viral y no tiene una diana conocida ni una vía relevante en la biología de los tumores benignos de la lengua. El puntaje elevado (0,9994, posición 1567 del modelo) es solo una salida computacional, sin ensayos clínicos ni literatura que lo sustenten. La similitud entre la indicación original y la nueva indicación está pendiente de evaluar.
 
@@ -125,7 +125,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Las cuatro autorizaciones están vigentes, son de fármaco único y pertenecen a AstraZeneca AB" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586) |
 
 <!-- review:end log -->
 

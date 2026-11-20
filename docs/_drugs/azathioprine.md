@@ -56,7 +56,7 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Azathioprine es (traducción no oficial): «Inhibidor de la amidofosforribosiltransferasa; inhibidor del ADN» Texto original en inglés: "Amidophosphoribosyltransferase inhibitor; DNA inhibitor" ([ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la azatioprina es un inmunosupresor que interfiere en la síntesis de purinas y reduce la proliferación de linfocitos. Su efecto se basa en modular la respuesta inmunitaria.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Azathioprine es (traducción no oficial): «Inhibidor de la amidofosforribosiltransferasa; inhibidor del ADN». Texto original en inglés: "Amidophosphoribosyltransferase inhibitor; DNA inhibitor" ([ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la azatioprina es un inmunosupresor que interfiere en la síntesis de purinas y reduce la proliferación de linfocitos. Su efecto se basa en modular la respuesta inmunitaria.
 
 La enfermedad predicha es un síndrome del desarrollo, con malformaciones oculares y esqueléticas. No se ha identificado un componente inflamatorio o inmunomediado que la inmunosupresión por antimetabolito de purinas pudiera modificar. Por ello no existe un vínculo mecanístico plausible. El puntaje elevado del modelo refleja solo una asociación computacional, sin respaldo clínico ni bibliográfico.
 
@@ -99,7 +99,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542) |
 
 <!-- review:end log -->
 

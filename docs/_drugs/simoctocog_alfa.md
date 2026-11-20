@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para la **pseudo-enfermedad de 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Simoctocog alfa es un factor VIII recombinante humano, con el dominio B eliminado y producido en una línea celular humana. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Simoctocog Alfa es (traducción no oficial): «Proteína exógena del factor VIII de la coagulación» Texto original en inglés: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319), CC BY-SA 3.0; consultado el 2026-11-19).
+Simoctocog alfa es un factor VIII recombinante humano, con el dominio B eliminado y producido en una línea celular humana. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Simoctocog Alfa es (traducción no oficial): «Proteína exógena del factor VIII de la coagulación». Texto original en inglés: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319), CC BY-SA 3.0; consultado el 2026-11-19).
 
 La pseudo-enfermedad de von Willebrand (de tipo plaquetario) se debe a una ganancia de función del receptor plaquetario GPIbα, que aumenta su unión al factor von Willebrand (VWF) y provoca la pérdida de multímeros de alto peso molecular de VWF. La reposición de FVIII no corrige este defecto plaquetario. El único vínculo es indirecto, a través del eje VWF–FVIII (el VWF estabiliza el FVIII circulante).
 
@@ -125,7 +125,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319) |
 
 <!-- review:end log -->
 

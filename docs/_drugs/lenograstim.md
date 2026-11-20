@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno de liberaci
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Lenograstim es (traducción no oficial): «Agonista del receptor del factor estimulante de colonias de granulocitos» Texto original en inglés: "Granulocyte colony stimulating factor receptor agonist" ([ChEMBL CHEMBL2109128 (lenograstim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109128), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, lenograstim es un G-CSF recombinante que actúa sobre el receptor de G-CSF, estimulando la proliferación y diferenciación de los progenitores de neutrófilos (linaje granulocítico).
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Lenograstim es (traducción no oficial): «Agonista del receptor del factor estimulante de colonias de granulocitos». Texto original en inglés: "Granulocyte colony stimulating factor receptor agonist" ([ChEMBL CHEMBL2109128 (lenograstim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109128), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, lenograstim es un G-CSF recombinante que actúa sobre el receptor de G-CSF, estimulando la proliferación y diferenciación de los progenitores de neutrófilos (linaje granulocítico).
 
 Los trastornos de liberación plaquetaria son defectos cualitativos de la función plaquetaria, relacionados con la secreción del contenido de los gránulos. Este no es un objetivo conocido del G-CSF. No se ha identificado ninguna vía biológica que conecte el fármaco con esta enfermedad, por lo que la razonabilidad mecanística es **baja**. La puntuación elevada del modelo TxGNN (deep learning) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas con las plaquetas, y no evidencia biológica ni una relación causal demostrada.
 
@@ -109,7 +109,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL2109128 (lenograstim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109128) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL2109128 (lenograstim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109128) |
 
 <!-- review:end log -->
 

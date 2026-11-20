@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Turoctocog alfa es un factor VIII recombinante con el dominio B truncado. Su función es reponer el factor VIII deficiente en la hemofilia. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Turoctocog Alfa es (traducción no oficial): «Proteína exógena del factor VIII de la coagulación» Texto original en inglés: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286), CC BY-SA 3.0; consultado el 2026-11-19).
+Turoctocog alfa es un factor VIII recombinante con el dominio B truncado. Su función es reponer el factor VIII deficiente en la hemofilia. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Turoctocog Alfa es (traducción no oficial): «Proteína exógena del factor VIII de la coagulación». Texto original en inglés: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286), CC BY-SA 3.0; consultado el 2026-11-19).
 
 Los trastornos de liberación plaquetaria son defectos de la secreción de gránulos de las plaquetas, no una deficiencia de factor VIII. Un papel de apoyo del factor VIII solo es concebible en la amplificación secundaria de la coagulación, algo meramente especulativo. La relación entre la indicación original y la nueva se limita probablemente al fenotipo hemorrágico compartido.
 
@@ -125,7 +125,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286) |
 
 <!-- review:end log -->
 

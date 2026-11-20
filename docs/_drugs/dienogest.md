@@ -56,7 +56,7 @@ La evidencia es indirecta: **0 ensayos clínicos** y **7 publicaciones** (revisi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dienogest es (traducción no oficial): «Desconocido» Texto original en inglés: "Unknown" ([ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, dienogest es un progestágeno de cuarta generación con fuerte efecto sobre el endometrio y actividad antiovulatoria y antigonadotrópica. Provoca atrofia endometrial y decidualización, y por ello a menudo induce amenorrea.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dienogest es (traducción no oficial): «Desconocido». Texto original en inglés: "Unknown" ([ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, dienogest es un progestágeno de cuarta generación con fuerte efecto sobre el endometrio y actividad antiovulatoria y antigonadotrópica. Provoca atrofia endometrial y decidualización, y por ello a menudo induce amenorrea.
 
 Esta relación explica el alto puntaje del modelo, pero invierte el sentido clínico: la amenorrea es un efecto esperado del tratamiento (y figura entre sus efectos adversos), no una enfermedad que el fármaco cure. No hay respaldo para usar dienogest en la amenorrea patológica, por ejemplo como terapia de privación de progestágeno o de protección endometrial en estados hipoestrogénicos. Además, un progestágeno no restablecería la menstruación en la mayoría de las causas de amenorrea.
 
@@ -122,7 +122,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864) |
 
 <!-- review:end log -->
 

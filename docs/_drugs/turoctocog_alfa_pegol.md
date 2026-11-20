@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Turoctocog Alfa Pegol es (traducción no oficial): «Proteína exógena del factor VIII de la coagulación» Texto original en inglés: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL5315071 (turoctocog alfa pegol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315071), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, turoctocog alfa pegol es un factor VIII recombinante, truncado en el dominio B y glicoPEGilado, que repone el factor VIII deficiente en la hemofilia, y su uso en esa indicación está respaldado por su autorización de comercialización en España.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Turoctocog Alfa Pegol es (traducción no oficial): «Proteína exógena del factor VIII de la coagulación». Texto original en inglés: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL5315071 (turoctocog alfa pegol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315071), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, turoctocog alfa pegol es un factor VIII recombinante, truncado en el dominio B y glicoPEGilado, que repone el factor VIII deficiente en la hemofilia, y su uso en esa indicación está respaldado por su autorización de comercialización en España.
 
 Sin embargo, la nueva indicación predicha es un defecto primario de la función plaquetaria, con niveles normales de factor VIII. La reposición de este factor no tiene una justificación mecanística clara en ese contexto. El puntaje elevado del modelo parece reflejar la proximidad dentro de la red de conocimiento entre trastornos hemorrágicos, y no un vínculo farmacológico validado.
 
@@ -108,7 +108,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL5315071 (turoctocog alfa pegol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315071) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL5315071 (turoctocog alfa pegol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315071) |
 
 <!-- review:end log -->
 

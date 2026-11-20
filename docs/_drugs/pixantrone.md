@@ -60,7 +60,7 @@ El modelo TxGNN predice que podría ser efectivo para **catarata diabética**, p
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Pixantrone es (traducción no oficial): «Agente de entrecruzamiento del ADN» Texto original en inglés: "DNA cross-linking agent" ([ChEMBL CHEMBL167731 (pixantrone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL167731), CC BY-SA 3.0; consultado el 2026-11-19). Según la información farmacológica conocida, pixantrona es una aza-antracenodiona que actúa como veneno de la topoisomerasa II e intercalante del ADN, con eficacia demostrada en el linfoma no Hodgkin de células B agresivo en recaída o refractario.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Pixantrone es (traducción no oficial): «Agente de entrecruzamiento del ADN». Texto original en inglés: "DNA cross-linking agent" ([ChEMBL CHEMBL167731 (pixantrone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL167731), CC BY-SA 3.0; consultado el 2026-11-19). Según la información farmacológica conocida, pixantrona es una aza-antracenodiona que actúa como veneno de la topoisomerasa II e intercalante del ADN, con eficacia demostrada en el linfoma no Hodgkin de células B agresivo en recaída o refractario.
 
 Con la información disponible, **no se identifica un vínculo mecanístico plausible** con la catarata diabética. La formación de catarata en la diabetes se debe principalmente a la activación de la vía de los polioles (aldosa reductasa, acumulación de sorbitol), al estrés oxidativo y a la glicación de proteínas del cristalino. Ninguno de estos procesos es una diana conocida de pixantrona.
 
@@ -128,7 +128,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL167731 (pixantrone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL167731) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL167731 (pixantrone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL167731) |
 
 <!-- review:end log -->
 

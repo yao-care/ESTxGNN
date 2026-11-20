@@ -56,7 +56,7 @@ Los datos compilados incluyen **7 ensayos clínicos** y **20 publicaciones** rel
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Glecaprevir es (traducción no oficial): «Inhibidor de la serina proteasa NS3/NS4A del virus de la hepatitis C» Texto original en inglés: "Hepatitis C virus serine protease, NS3/NS4A inhibitor" ([ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363), CC BY-SA 3.0; consultado el 2026-11-19). Por conocimiento general, glecaprevir inhibe la proteasa NS3/4A, una enzima propia de ciertos virus hepatotropos. Esa proteasa no existe en el VIH, por lo que no hay un mecanismo antiviral directo plausible contra este virus.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Glecaprevir es (traducción no oficial): «Inhibidor de la serina proteasa NS3/NS4A del virus de la hepatitis C». Texto original en inglés: "Hepatitis C virus serine protease, NS3/NS4A inhibitor" ([ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363), CC BY-SA 3.0; consultado el 2026-11-19). Por conocimiento general, glecaprevir inhibe la proteasa NS3/4A, una enzima propia de ciertos virus hepatotropos. Esa proteasa no existe en el VIH, por lo que no hay un mecanismo antiviral directo plausible contra este virus.
 
 El puntaje alto probablemente refleja la cercanía entre enfermedades virales y la población de pacientes que comparten ambas infecciones, más que un efecto antiviral real sobre el VIH. Los estudios disponibles se centran en pacientes con coinfección por VIH. En ellos se evalúa la eficacia y seguridad de glecaprevir (en combinación con pibrentasvir) frente a la infección por el virus de la hepatitis C, no frente al VIH.
 
@@ -125,7 +125,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363) |
 
 <!-- review:end log -->
 

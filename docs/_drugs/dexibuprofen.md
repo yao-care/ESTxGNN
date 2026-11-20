@@ -60,7 +60,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dexibuprofen es (traducción no oficial): «Inhibidor de la ciclooxigenasa» Texto original en inglés: "Cyclooxygenase inhibitor" ([ChEMBL CHEMBL175 (dexibuprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL175), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, dexibuprofeno es la forma activa S(+) del ibuprofeno, un AINE que actúa inhibiendo la ciclooxigenasa (COX). Su eficacia en enfermedades inflamatorias y degenerativas de las articulaciones (artritis reumatoide, artrosis, espondiloartropatía) está bien establecida.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dexibuprofen es (traducción no oficial): «Inhibidor de la ciclooxigenasa». Texto original en inglés: "Cyclooxygenase inhibitor" ([ChEMBL CHEMBL175 (dexibuprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL175), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, dexibuprofeno es la forma activa S(+) del ibuprofeno, un AINE que actúa inhibiendo la ciclooxigenasa (COX). Su eficacia en enfermedades inflamatorias y degenerativas de las articulaciones (artritis reumatoide, artrosis, espondiloartropatía) está bien establecida.
 
 Sin embargo, el síndrome de braquidactilia-sindactilia es una malformación esquelética congénita rara, de origen genético. La inhibición de la COX no tiene relevancia conocida para su fisiopatología, por lo que **no se ha establecido un vínculo mecanístico** entre la indicación original y la nueva.
 
@@ -125,7 +125,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 6 autorizaciones vigentes (todas de medicamentos con un único principio activo)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL175 (dexibuprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL175) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL175 (dexibuprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL175) |
 
 <!-- review:end log -->
 

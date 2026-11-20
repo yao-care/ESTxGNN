@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **Amenorrea**, pero actual
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Tocofersolan actúa como antioxidante y como solubilizante que mejora la absorción de vitaminas liposolubles. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Tocofersolan es (traducción no oficial): «Soporte nutricional» Texto original en inglés: "Nutritional support" ([ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106), CC BY-SA 3.0; consultado el 2026-11-19).
+Tocofersolan actúa como antioxidante y como solubilizante que mejora la absorción de vitaminas liposolubles. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Tocofersolan es (traducción no oficial): «Soporte nutricional». Texto original en inglés: "Nutritional support" ([ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106), CC BY-SA 3.0; consultado el 2026-11-19).
 
 Una posible relación indirecta es que la deficiencia de vitamina E o el estrés oxidativo podrían afectar el equilibrio de las hormonas reproductivas, y que la deficiencia nutricional asociada a malabsorción podría contribuir a alteraciones menstruales. Es una hipótesis sin respaldo directo: no se han recuperado estudios mecanísticos ni clínicos.
 
@@ -107,7 +107,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106) |
 
 <!-- review:end log -->
 

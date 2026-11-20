@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Moxonidine es (traducción no oficial): «Agonista de la nischarina» Texto original en inglés: "Nischarin agonist" ([ChEMBL CHEMBL19236 (moxonidine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL19236), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, moxonidina es un agonista de los receptores de imidazolina I1 y de los adrenoceptores alfa-2 de acción central, que reduce el tono simpático y, con ello, la presión arterial. Los datos farmacológicos confirman su unión a los adrenoceptores α2A, α2B y α2C.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Moxonidine es (traducción no oficial): «Agonista de la nischarina». Texto original en inglés: "Nischarin agonist" ([ChEMBL CHEMBL19236 (moxonidine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL19236), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, moxonidina es un agonista de los receptores de imidazolina I1 y de los adrenoceptores alfa-2 de acción central, que reduce el tono simpático y, con ello, la presión arterial. Los datos farmacológicos confirman su unión a los adrenoceptores α2A, α2B y α2C.
 
 La hipotricosis simple es un trastorno genético del folículo piloso (por ejemplo, variantes en CDSN, APCDD1 o RPL21). No se conoce ninguna vía que conecte el flujo simpático o los receptores de imidazolina con estos genes. **Por tanto, no se ha establecido un vínculo mecanístico plausible.**
 
@@ -124,7 +124,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL19236 (moxonidine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL19236) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL19236 (moxonidine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL19236) |
 
 <!-- review:end log -->
 

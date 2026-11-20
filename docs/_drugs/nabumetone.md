@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para la **displasia acromesomé
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Nabumetone es (traducción no oficial): «Inhibidor de la ciclooxigenasa-2» Texto original en inglés: "Cyclooxygenase-2 inhibitor" ([ChEMBL CHEMBL1070 (nabumetone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1070), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, nabumetona es un profármaco cuyo metabolito activo, el 6-MNA, inhibe preferentemente la COX-2, con eficacia comprobada en enfermedades articulares inflamatorias y degenerativas.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Nabumetone es (traducción no oficial): «Inhibidor de la ciclooxigenasa-2». Texto original en inglés: "Cyclooxygenase-2 inhibitor" ([ChEMBL CHEMBL1070 (nabumetone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1070), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, nabumetona es un profármaco cuyo metabolito activo, el 6-MNA, inhibe preferentemente la COX-2, con eficacia comprobada en enfermedades articulares inflamatorias y degenerativas.
 
 La displasia acromesomélica tipo Hunter-Thompson es una enfermedad esquelética genética rara, asociada a defectos en la vía de señalización CDMP1/GDF5. **No se identifica un vínculo mecanístico plausible**: la inhibición de la COX-2 no guarda relación conocida con esa vía. El puntaje elevado proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como las de fenotipo articular/esquelético (artropatía, artrosis), no evidencia biológica ni una justificación farmacológica.
 
@@ -127,7 +127,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1070 (nabumetone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1070) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1070 (nabumetone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1070) |
 
 <!-- review:end log -->
 

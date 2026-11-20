@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Guaifenesin es (traducción no oficial): «Desconocido» Texto original en inglés: "Unknown" ([ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, guaifenesina es un expectorante que fluidifica y moviliza la mucosidad de las vías respiratorias, y su uso en rinitis y resfriado común está establecido.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Guaifenesin es (traducción no oficial): «Desconocido». Texto original en inglés: "Unknown" ([ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, guaifenesina es un expectorante que fluidifica y moviliza la mucosidad de las vías respiratorias, y su uso en rinitis y resfriado común está establecido.
 
 La enfermedad de la cavidad nasal comparte con las indicaciones originales (rinitis, nasofaringitis, resfriado común) el mismo territorio anatómico de las vías respiratorias superiores. Por ello, es plausible que el efecto sobre la reología de la mucosidad también sea relevante en esta nueva indicación.
 
@@ -122,7 +122,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden directam
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Methoxsalen es (traducción no oficial): «Inhibidor del ADN» Texto original en inglés: "DNA inhibitor" ([ChEMBL CHEMBL416 (methoxsalen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, el metoxaleno es un psoraleno que, activado por luz UVA (PUVA) o mediante fotoféresis extracorpórea, produce entrecruzamiento del ADN y apoptosis de linfocitos T malignos. Su eficacia en el linfoma cutáneo de células T está establecida, y mecanísticamente podría ser aplicable a la reticulosis pagetoide localizada.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Methoxsalen es (traducción no oficial): «Inhibidor del ADN». Texto original en inglés: "DNA inhibitor" ([ChEMBL CHEMBL416 (methoxsalen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, el metoxaleno es un psoraleno que, activado por luz UVA (PUVA) o mediante fotoféresis extracorpórea, produce entrecruzamiento del ADN y apoptosis de linfocitos T malignos. Su eficacia en el linfoma cutáneo de células T está establecida, y mecanísticamente podría ser aplicable a la reticulosis pagetoide localizada.
 
 La reticulosis pagetoide localizada es una variante indolente dentro del espectro de la micosis fungoide. Por ello comparte biología con la indicación original, y la PUVA se emplea en la práctica clínica en casos individuales. El vínculo es indirecto: se basa en la biología compartida de la enfermedad y no en ensayos o literatura aportados.
 
@@ -127,7 +127,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL416 (methoxsalen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL416 (methoxsalen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416) |
 
 <!-- review:end log -->
 

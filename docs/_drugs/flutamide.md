@@ -56,7 +56,7 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden específicament
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Flutamide es (traducción no oficial): «Antagonista del receptor de andrógenos» Texto original en inglés: "Androgen Receptor antagonist" ([ChEMBL CHEMBL806 (flutamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL806), CC BY-SA 3.0; consultado el 2026-11-19). Según la información farmacológica compilada, la flutamida actúa como antagonista del receptor de andrógenos (AR). Su metabolito activo, la hidroxiflutamida, bloquea la señalización androgénica en los tejidos dependientes de andrógenos. Su eficacia en el cáncer de próstata, solo o combinada con un agonista de LHRH, está bien establecida.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Flutamide es (traducción no oficial): «Antagonista del receptor de andrógenos». Texto original en inglés: "Androgen Receptor antagonist" ([ChEMBL CHEMBL806 (flutamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL806), CC BY-SA 3.0; consultado el 2026-11-19). Según la información farmacológica compilada, la flutamida actúa como antagonista del receptor de andrógenos (AR). Su metabolito activo, la hidroxiflutamida, bloquea la señalización androgénica en los tejidos dependientes de andrógenos. Su eficacia en el cáncer de próstata, solo o combinada con un agonista de LHRH, está bien establecida.
 
 La nueva indicación predicha combina dos componentes. El primero es un fenotipo de susceptibilidad al cáncer de próstata, estrechamente relacionado con la indicación original, y por tanto el bloqueo del AR resulta mecanísticamente plausible. El segundo es la susceptibilidad al cáncer cerebral, para la cual **no se ha identificado ningún vínculo mecanístico** con el bloqueo del AR.
 
@@ -119,7 +119,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL806 (flutamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL806) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL806 (flutamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL806) |
 
 <!-- review:end log -->
 

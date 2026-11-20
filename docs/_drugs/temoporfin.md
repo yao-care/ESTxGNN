@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **teratoma nasofaríngeo**
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Temoporfin es (traducción no oficial): «Fotosensibilizador» Texto original en inglés: "Photosensitizer" ([ChEMBL CHEMBL500576 (temoporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL500576), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, temoporfina es un fotosensibilizante para terapia fotodinámica: tras su administración y activación con luz de una longitud de onda específica, genera especies reactivas de oxígeno que provocan muerte de las células tumorales. Su eficacia en el cáncer de células escamosas de cabeza y cuello está establecida.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Temoporfin es (traducción no oficial): «Fotosensibilizador». Texto original en inglés: "Photosensitizer" ([ChEMBL CHEMBL500576 (temoporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL500576), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, temoporfina es un fotosensibilizante para terapia fotodinámica: tras su administración y activación con luz de una longitud de onda específica, genera especies reactivas de oxígeno que provocan muerte de las células tumorales. Su eficacia en el cáncer de células escamosas de cabeza y cuello está establecida.
 
 La nasofaringe está anatómicamente próxima a las localizaciones de cabeza y cuello donde se usa temoporfina. Sin embargo, el teratoma es un tumor de células germinales con una biología distinta a la del carcinoma escamoso, y ningún ensayo ni publicación respalda su uso en esta entidad.
 
@@ -138,7 +138,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL500576 (temoporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL500576) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL500576 (temoporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL500576) |
 
 <!-- review:end log -->
 

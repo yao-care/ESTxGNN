@@ -60,7 +60,7 @@ El modelo TxGNN predice que podría ser efectivo para **hemorragia subaracnoidea
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Vincamine es (traducción no oficial): «Desconocido» Texto original en inglés: "Unknown" ([ChEMBL CHEMBL1165342 (vincamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1165342), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la vincamina es un derivado de los alcaloides de la vinca que se ha utilizado como vasodilatador cerebral y potenciador metabólico. Se le atribuye mejorar el flujo sanguíneo cerebral y el aprovechamiento de oxígeno y glucosa por parte de las neuronas, además de cierta actividad de bloqueo de canales de sodio y antioxidante.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Vincamine es (traducción no oficial): «Desconocido». Texto original en inglés: "Unknown" ([ChEMBL CHEMBL1165342 (vincamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1165342), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la vincamina es un derivado de los alcaloides de la vinca que se ha utilizado como vasodilatador cerebral y potenciador metabólico. Se le atribuye mejorar el flujo sanguíneo cerebral y el aprovechamiento de oxígeno y glucosa por parte de las neuronas, además de cierta actividad de bloqueo de canales de sodio y antioxidante.
 
 Estas propiedades podrían relacionarse, en teoría, con el vasoespasmo cerebral y la isquemia cerebral tardía que aparecen tras una hemorragia subaracnoidea. Sin embargo, este vínculo es **hipotético** y no se ha verificado con los datos aportados. Que el nimodipino, un fármaco relacionado con la circulación cerebral, tenga un papel establecido en este contexto no constituye por sí mismo un respaldo para la vincamina.
 
@@ -120,7 +120,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1165342 (vincamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1165342) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1165342 (vincamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1165342) |
 
 <!-- review:end log -->
 

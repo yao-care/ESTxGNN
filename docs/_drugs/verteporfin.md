@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Verteporfin es (traducción no oficial): «Inhibidor del ADN» Texto original en inglés: "DNA inhibitor" ([ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la verteporfina es un fotosensibilizador que, al activarse con luz (terapia fotodinámica), genera especies reactivas de oxígeno (ROS) y provoca oclusión vascular localizada, lo que explica su eficacia en la degeneración macular neovascular. Además, estudios preclínicos han descrito una inhibición de la interacción YAP-TEAD independiente de la luz.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Verteporfin es (traducción no oficial): «Inhibidor del ADN». Texto original en inglés: "DNA inhibitor" ([ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la verteporfina es un fotosensibilizador que, al activarse con luz (terapia fotodinámica), genera especies reactivas de oxígeno (ROS) y provoca oclusión vascular localizada, lo que explica su eficacia en la degeneración macular neovascular. Además, estudios preclínicos han descrito una inhibición de la interacción YAP-TEAD independiente de la luz.
 
 No se ha establecido un vínculo directo entre estos mecanismos y los defectos de la fosforilación oxidativa codificados por ADN nuclear. Una conexión especulativa podría pasar por vías de estrés oxidativo o función mitocondrial, pero la generación de ROS podría incluso agravar una función mitocondrial ya comprometida en esta enfermedad.
 
@@ -108,7 +108,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346) |
 
 <!-- review:end log -->
 

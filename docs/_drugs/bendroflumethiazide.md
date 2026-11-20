@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Bendroflumethiazide es (traducción no oficial): «Inhibidor del cotransportador de sodio-cloruro sensible a tiazidas» Texto original en inglés: "Thiazide-sensitive sodium-chloride cotransporter inhibitor" ([ChEMBL CHEMBL1684 (bendroflumethiazide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1684), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la bendroflumetiazida es un diurético tiazídico, clase que reduce la presión arterial al disminuir el volumen circulante y favorecer la eliminación de sodio y agua por el riñón.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Bendroflumethiazide es (traducción no oficial): «Inhibidor del cotransportador de sodio-cloruro sensible a tiazidas». Texto original en inglés: "Thiazide-sensitive sodium-chloride cotransporter inhibitor" ([ChEMBL CHEMBL1684 (bendroflumethiazide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1684), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la bendroflumetiazida es un diurético tiazídico, clase que reduce la presión arterial al disminuir el volumen circulante y favorecer la eliminación de sodio y agua por el riñón.
 
 Un vínculo con la enfermedad renal hipertensiva es plausible por la reducción de la presión arterial. Sin embargo, la hipertensión maligna con afectación renal es una emergencia hipertensiva que se trata con fármacos de acción rápida por vía parenteral. Las tiazidas no son un tratamiento estándar y su eficacia disminuye cuando la filtración glomerular está reducida.
 
@@ -106,7 +106,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1684 (bendroflumethiazide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1684) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1684 (bendroflumethiazide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1684) |
 
 <!-- review:end log -->
 

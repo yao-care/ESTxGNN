@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Carbenoxolone es (traducción no oficial): «Inhibidor de la 11-beta-hidroxiesteroide deshidrogenasa» Texto original en inglés: "11-beta-hydroxysteroid dehydrogenase inhibitor" ([ChEMBL CHEMBL499915 (carbenoxolone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL499915), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la carbenoxolona es un derivado del ácido glicirretínico con acción mucoprotectora antiulcerosa, y se le describe también como inhibidor de uniones comunicantes (gap junctions) y de la 11-beta-hidroxiesteroide deshidrogenasa.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Carbenoxolone es (traducción no oficial): «Inhibidor de la 11-beta-hidroxiesteroide deshidrogenasa». Texto original en inglés: "11-beta-hydroxysteroid dehydrogenase inhibitor" ([ChEMBL CHEMBL499915 (carbenoxolone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL499915), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la carbenoxolona es un derivado del ácido glicirretínico con acción mucoprotectora antiulcerosa, y se le describe también como inhibidor de uniones comunicantes (gap junctions) y de la 11-beta-hidroxiesteroide deshidrogenasa.
 
 El puntaje muy alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como las indicaciones esofágicas ya aprobadas (úlcera esofágica y enfermedad esofágica), no evidencia biológica. Sin embargo, una malformación esofágica no sindrómica es un defecto estructural congénito, y ninguna de las acciones conocidas de la carbenoxolona permite plausiblemente corregirlo.
 
@@ -117,7 +117,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Titular: Laboratorios Ern S.A. Autorización vigente, de tipo monofármaco" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL499915 (carbenoxolone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL499915) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL499915 (carbenoxolone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL499915) |
 
 <!-- review:end log -->
 

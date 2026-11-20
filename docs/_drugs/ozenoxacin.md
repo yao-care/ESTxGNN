@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **malaria**, pero actualme
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Ozenoxacin es (traducción no oficial): «Inhibidor de la ADN girasa; inhibidor de la topoisomerasa IV; inhibidor de la ADN topoisomerasa IV» Texto original en inglés: "DNA gyrase inhibitor; Topoisomerase IV inhibitor; DNA topoisomerase IV inhibitor" ([ChEMBL CHEMBL3990047 (ozenoxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3990047), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, ozenoxacino es una quinolona no fluorada de uso tópico que inhibe la ADN girasa y la topoisomerasa IV bacterianas, y se emplea en infecciones cutáneas superficiales como el impétigo.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Ozenoxacin es (traducción no oficial): «Inhibidor de la ADN girasa; inhibidor de la topoisomerasa IV; inhibidor de la ADN topoisomerasa IV». Texto original en inglés: "DNA gyrase inhibitor; Topoisomerase IV inhibitor; DNA topoisomerase IV inhibitor" ([ChEMBL CHEMBL3990047 (ozenoxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3990047), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, ozenoxacino es una quinolona no fluorada de uso tópico que inhibe la ADN girasa y la topoisomerasa IV bacterianas, y se emplea en infecciones cutáneas superficiales como el impétigo.
 
 Una relación plausible, aunque no demostrada, es que *Plasmodium* posee en su apicoplasto una ADN girasa de origen procariota, y se ha descrito que quinolonas como el ciprofloxacino la inhiben *in vitro*. Desde ese punto de vista, un antibacteriano que actúe sobre girasas podría tener alguna actividad teórica frente al parásito.
 
@@ -116,7 +116,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL3990047 (ozenoxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3990047) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL3990047 (ozenoxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3990047) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Catridecacog es el factor XIII A-subunidad recombinante, una transglutaminasa que entrecruza la fibrina y estabiliza el coágulo. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Catridecacog es (traducción no oficial): «Proteína exógena del factor XIII de coagulación» Texto original en inglés: "Coagulation factor XIII exogenous protein" ([ChEMBL CHEMBL2108282 (catridecacog): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108282), CC BY-SA 3.0; consultado el 2026-11-19).
+Catridecacog es el factor XIII A-subunidad recombinante, una transglutaminasa que entrecruza la fibrina y estabiliza el coágulo. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Catridecacog es (traducción no oficial): «Proteína exógena del factor XIII de coagulación». Texto original en inglés: "Coagulation factor XIII exogenous protein" ([ChEMBL CHEMBL2108282 (catridecacog): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108282), CC BY-SA 3.0; consultado el 2026-11-19).
 
 Los trastornos de liberación plaquetaria (defectos de secreción de gránulos) alteran la hemostasia primaria. La suplementación con factor XIII actúa más adelante en la cascada, sobre la estabilidad del coágulo, por lo que no corregiría el defecto de secreción plaquetaria en sí. El vínculo es plausible solo como un efecto adyuvante indirecto sobre la firmeza del coágulo.
 
@@ -109,7 +109,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL2108282 (catridecacog): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108282) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL2108282 (catridecacog): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108282) |
 
 <!-- review:end log -->
 

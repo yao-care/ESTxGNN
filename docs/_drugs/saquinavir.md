@@ -60,7 +60,7 @@ Entre las otras predicciones, solo "complejo relacionado con el SIDA" cuenta con
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Saquinavir es un inhibidor de la proteasa del VIH-1: impide la escisión de las poliproteínas virales y, con ello, la producción de viriones maduros. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Saquinavir es (traducción no oficial): «Inhibidor de la proteasa del virus de la inmunodeficiencia humana de tipo 1» Texto original en inglés: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL114 (saquinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL114), CC BY-SA 3.0; consultado el 2026-11-19).
+Saquinavir es un inhibidor de la proteasa del VIH-1: impide la escisión de las poliproteínas virales y, con ello, la producción de viriones maduros. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Saquinavir es (traducción no oficial): «Inhibidor de la proteasa del virus de la inmunodeficiencia humana de tipo 1». Texto original en inglés: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL114 (saquinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL114), CC BY-SA 3.0; consultado el 2026-11-19).
 
 El virus de la inmunodeficiencia felina (FIV) es un lentivirus con una proteasa relacionada, por lo que existe una justificación mecanística de partida. Sin embargo, la proteasa del FIV difiere estructuralmente de la del VIH-1, y se sabe que los inhibidores de la proteasa del VIH-1 tienen menor actividad frente a ella. El puntaje alto del modelo es solo una predicción, sin ensayos ni literatura de apoyo, y además se trata de una enfermedad veterinaria, no humana.
 
@@ -153,7 +153,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL114 (saquinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL114) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL114 (saquinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL114) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **carcinoma urotelial de l
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Tasonermin es TNF-alfa humano recombinante. Se utiliza junto con melfalán en perfusión aislada de extremidades para el sarcoma de tejidos blandos. Su actividad propuesta consiste en la destrucción selectiva de la vasculatura tumoral y en un aumento de la penetración del quimioterápico en el tumor. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Tasonermin es (traducción no oficial): «Desconocido» Texto original en inglés: "Unknown" ([ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891), CC BY-SA 3.0; consultado el 2026-11-19).
+Tasonermin es TNF-alfa humano recombinante. Se utiliza junto con melfalán en perfusión aislada de extremidades para el sarcoma de tejidos blandos. Su actividad propuesta consiste en la destrucción selectiva de la vasculatura tumoral y en un aumento de la penetración del quimioterápico en el tumor. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Tasonermin es (traducción no oficial): «Desconocido». Texto original en inglés: "Unknown" ([ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891), CC BY-SA 3.0; consultado el 2026-11-19).
 
 La relación entre la indicación original y la nueva es débil. Ambas son neoplasias, pero el sarcoma es de origen mesenquimal y el carcinoma urotelial es epitelial. El puntaje alto del modelo TxGNN (aprendizaje profundo) (0,9981) proviene del modelo y puede reflejar similitudes que este aprendió entre enfermedades relacionadas, como una asociación genérica con la categoría "cáncer", no evidencia biológica ni un vínculo mecanístico específico.
 
@@ -115,7 +115,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **esotropía**, pero actua
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dibotermin Alfa es (traducción no oficial): «Agonista del receptor de proteína morfogenética ósea tipo 1A; agonista del receptor de activina tipo 2B; agonista del receptor de proteína morfogenética ósea tipo 2; agonista del receptor de proteína morfogenética ósea tipo 1B» Texto original en inglés: "Bone morphogenetic protein receptor type-1A agonist; Activin receptor type-2B agonist; Bone morphogenetic protein receptor type-2 agonist; Bone morphogenetic protein receptor type-1B agonist" ([ChEMBL CHEMBL2109171 (dibotermin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109171), CC BY-SA 3.0; consultado el 2026-11-19). Según el conocimiento general, dibotermina alfa es BMP-2 recombinante humana, un factor de crecimiento que induce la formación de hueso y cartílago cuando se aplica localmente sobre una matriz de implantación.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dibotermin Alfa es (traducción no oficial): «Agonista del receptor de proteína morfogenética ósea tipo 1A; agonista del receptor de activina tipo 2B; agonista del receptor de proteína morfogenética ósea tipo 2; agonista del receptor de proteína morfogenética ósea tipo 1B». Texto original en inglés: "Bone morphogenetic protein receptor type-1A agonist; Activin receptor type-2B agonist; Bone morphogenetic protein receptor type-2 agonist; Bone morphogenetic protein receptor type-1B agonist" ([ChEMBL CHEMBL2109171 (dibotermin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109171), CC BY-SA 3.0; consultado el 2026-11-19). Según el conocimiento general, dibotermina alfa es BMP-2 recombinante humana, un factor de crecimiento que induce la formación de hueso y cartílago cuando se aplica localmente sobre una matriz de implantación.
 
 Para la esotropía **no se ha establecido un vínculo mecanístico**. La esotropía es una desviación ocular convergente relacionada con los músculos extraoculares y el control neural, mientras que dibotermina alfa actúa sobre el tejido óseo. El puntaje elevado del modelo (0.9997) es solo una predicción computacional, sin ensayos ni literatura de apoyo.
 
@@ -119,7 +119,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL2109171 (dibotermin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109171) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL2109171 (dibotermin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109171) |
 
 <!-- review:end log -->
 

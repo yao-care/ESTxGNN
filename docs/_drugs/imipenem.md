@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **esclerodermia difusa**, 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Imipenem es (traducción no oficial): «Inhibidor de las proteínas bacterianas de unión a penicilina» Texto original en inglés: "Bacterial penicillin-binding protein inhibitor" ([ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, imipenem es un carbapenémico bactericida que inhibe la síntesis de la pared celular bacteriana mediante la unión a proteínas de unión a penicilina (PBP), y es estable frente a muchas beta-lactamasas.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Imipenem es (traducción no oficial): «Inhibidor de las proteínas bacterianas de unión a penicilina». Texto original en inglés: "Bacterial penicillin-binding protein inhibitor" ([ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, imipenem es un carbapenémico bactericida que inhibe la síntesis de la pared celular bacteriana mediante la unión a proteínas de unión a penicilina (PBP), y es estable frente a muchas beta-lactamasas.
 
 **Para esclerodermia difusa, la predicción no resulta mecanísticamente razonable.** La esclerodermia difusa es una enfermedad autoinmune y fibrótica, y no existe un vínculo mecanístico aparente con un antibacteriano. El puntaje elevado proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no cuenta con ensayos ni literatura de apoyo. Las complicaciones infecciosas (por ejemplo, pulmonares o intestinales) se tratarían bajo las indicaciones antibacterianas ya existentes, no como reposicionamiento para la enfermedad en sí.
 
@@ -165,7 +165,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 9 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **la enfermedad pseudo-von
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Efmoroctocog Alfa es (traducción no oficial): «Proteína exógena del factor VIII de la coagulación» Texto original en inglés: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, efmoroctocog alfa es un factor VIII recombinante fusionado a Fc (rFVIIIFc) que repone la actividad deficiente de FVIII, y su utilidad en hemofilia está establecida.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Efmoroctocog Alfa es (traducción no oficial): «Proteína exógena del factor VIII de la coagulación». Texto original en inglés: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, efmoroctocog alfa es un factor VIII recombinante fusionado a Fc (rFVIIIFc) que repone la actividad deficiente de FVIII, y su utilidad en hemofilia está establecida.
 
 La enfermedad pseudo-von Willebrand (von Willebrand de tipo plaquetario) está causada por una ganancia de función de la GPIbα plaquetaria, que aumenta la unión del factor von Willebrand (VWF) y favorece la eliminación de sus multímeros de alto peso molecular. El defecto es propio de la plaqueta y no una deficiencia de FVIII, por lo que el vínculo mecanístico directo es débil. Solo de forma especulativa podría haber una reducción secundaria de FVIII por bajos niveles de VWF.
 
@@ -113,7 +113,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945) |
 
 <!-- review:end log -->
 

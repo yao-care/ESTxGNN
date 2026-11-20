@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **Deficiencia de C1 inhibi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Conestat Alfa es (traducción no oficial): «Proteína exógena del inhibidor de la proteasa C1 plasmática» Texto original en inglés: "Plasma protease C1 inhibitor exogenous protein" ([ChEMBL CHEMBL2108350 (conestat alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108350), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, conestat alfa es una forma recombinante del inhibidor de C1 esterasa humano (C1-INH), producida en conejos transgénicos. Su mecanismo está bien establecido en la literatura: repone el inhibidor deficiente o disfuncional y restablece el control de las vías del complemento, de contacto y de calicreína-cinina.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Conestat Alfa es (traducción no oficial): «Proteína exógena del inhibidor de la proteasa C1 plasmática». Texto original en inglés: "Plasma protease C1 inhibitor exogenous protein" ([ChEMBL CHEMBL2108350 (conestat alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108350), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, conestat alfa es una forma recombinante del inhibidor de C1 esterasa humano (C1-INH), producida en conejos transgénicos. Su mecanismo está bien establecido en la literatura: repone el inhibidor deficiente o disfuncional y restablece el control de las vías del complemento, de contacto y de calicreína-cinina.
 
 La deficiencia de C1 inhibidor es la causa del angioedema hereditario de tipo I/II. Al restablecer la actividad de C1-INH se reduce la generación de bradicinina, mediador principal de la inflamación y el edema característicos de los ataques. Por ello, la indicación predicha y la original describen en esencia la misma enfermedad.
 
@@ -135,7 +135,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y el fármaco ya está comercializado en España" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL2108350 (conestat alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108350) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL2108350 (conestat alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108350) |
 
 <!-- review:end log -->
 

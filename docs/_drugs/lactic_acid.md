@@ -56,7 +56,7 @@ La predicción se basa únicamente en el modelo computacional.
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Lactic Acid es (traducción no oficial): «Agente reductor del pH» Texto original en inglés: "pH lowering agent" ([ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, el ácido láctico es un metabolito endógeno que en España se utiliza en productos dermatológicos tópicos (colodión y pomada, por ejemplo para verrugas y callosidades). Mecanísticamente no se identifica un vínculo que lo haga aplicable a una malformación vascular estructural.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Lactic Acid es (traducción no oficial): «Agente reductor del pH». Texto original en inglés: "pH lowering agent" ([ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, el ácido láctico es un metabolito endógeno que en España se utiliza en productos dermatológicos tópicos (colodión y pomada, por ejemplo para verrugas y callosidades). Mecanísticamente no se identifica un vínculo que lo haga aplicable a una malformación vascular estructural.
 
 La puntuación del modelo TxGNN (aprendizaje profundo) (0.9959) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni farmacológica. La coartación de aorta se trata de forma quirúrgica o mediante stent, no con un fármaco sistémico de molécula pequeña. Por ello, esta predicción debe considerarse especulativa.
 
@@ -110,7 +110,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559) |
 
 <!-- review:end log -->
 

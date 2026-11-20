@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia**, pero 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Relebactam es (traducción no oficial): «Inhibidor de la betalactamasa SHV-1; inhibidor de la betalactamasa bacteriana TEM; inhibidor de betalactamasas; inhibidor de la betalactamasa hidrolizante de carbapenémicos KPC» Texto original en inglés: "Beta-lactamase SHV-1 inhibitor; Bacterial beta-lactamase TEM inhibitor; Beta-lactamase inhibitor; Carbapenem-hydrolyzing beta-lactamase KPC inhibitor" ([ChEMBL CHEMBL3301605 (relebactam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301605), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, relebactam es un inhibidor de beta-lactamasas de serina de clase A y C que se combina con imipenem/cilastatina para proteger al antibiótico de la degradación enzimática. Su utilidad en infecciones urinarias complicadas y pielonefritis procede de ese efecto adyuvante antibacteriano.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Relebactam es (traducción no oficial): «Inhibidor de la betalactamasa SHV-1; inhibidor de la betalactamasa bacteriana TEM; inhibidor de betalactamasas; inhibidor de la betalactamasa hidrolizante de carbapenémicos KPC». Texto original en inglés: "Beta-lactamase SHV-1 inhibitor; Bacterial beta-lactamase TEM inhibitor; Beta-lactamase inhibitor; Carbapenem-hydrolyzing beta-lactamase KPC inhibitor" ([ChEMBL CHEMBL3301605 (relebactam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301605), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, relebactam es un inhibidor de beta-lactamasas de serina de clase A y C que se combina con imipenem/cilastatina para proteger al antibiótico de la degradación enzimática. Su utilidad en infecciones urinarias complicadas y pielonefritis procede de ese efecto adyuvante antibacteriano.
 
 Sin embargo, **no se identifica un vínculo mecanístico creíble** con la hiperamilasemia. Relebactam no tiene acción conocida sobre el metabolismo ni el aclaramiento de la amilasa pancreática o salival. Además, la hiperamilasemia suele ser un hallazgo de laboratorio (pancreatitis, insuficiencia renal, enfermedad de glándulas salivales) más que una enfermedad tratable en sí misma, por lo que el fundamento de reposicionamiento es débil.
 
@@ -115,7 +115,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL3301605 (relebactam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301605) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL3301605 (relebactam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301605) |
 
 <!-- review:end log -->
 

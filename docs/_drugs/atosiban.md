@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **glaucoma hereditario pri
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Atosiban es (traducción no oficial): «Antagonista del receptor de oxitocina» Texto original en inglés: "Oxytocin receptor antagonist" ([ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301), CC BY-SA 3.0; consultado el 2026-11-19). Según la información farmacológica compilada, atosiban actúa como antagonista de los receptores de oxitocina (OXTR) y de los receptores de vasopresina V1A, V1B y V2. Su uso establecido es la inhibición de las contracciones uterinas en el parto prematuro.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Atosiban es (traducción no oficial): «Antagonista del receptor de oxitocina». Texto original en inglés: "Oxytocin receptor antagonist" ([ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301), CC BY-SA 3.0; consultado el 2026-11-19). Según la información farmacológica compilada, atosiban actúa como antagonista de los receptores de oxitocina (OXTR) y de los receptores de vasopresina V1A, V1B y V2. Su uso establecido es la inhibición de las contracciones uterinas en el parto prematuro.
 
 La relación entre la indicación original (obstétrica) y el glaucoma hereditario primario es muy débil. Los datos no muestran ningún vínculo establecido con la fisiopatología del glaucoma hereditario (defectos de la malla trabecular o del drenaje del humor acuoso). La puntuación elevada de TxGNN refleja similitud en la red de conocimiento, no biología demostrada.
 
@@ -131,7 +131,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se registran 15 autorizaciones vigentes, todas de fármaco único" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301) |
 
 <!-- review:end log -->
 

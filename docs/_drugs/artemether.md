@@ -54,7 +54,7 @@ Artemeter es un derivado de la artemisinina de tipo endoperóxido, perteneciente
 
 ## Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Artemether es (traducción no oficial): «Inhibidor de la ferriprotoporfirina IX» Texto original en inglés: "Ferriprotoporphyrin IX inhibitor" ([ChEMBL CHEMBL566534 (artemether): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL566534), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, artemeter es un antipalúdico del grupo de las artemisininas (endoperóxidos) y, en la presentación registrada en España, se utiliza combinado con otro principio activo.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Artemether es (traducción no oficial): «Inhibidor de la ferriprotoporfirina IX». Texto original en inglés: "Ferriprotoporphyrin IX inhibitor" ([ChEMBL CHEMBL566534 (artemether): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL566534), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, artemeter es un antipalúdico del grupo de las artemisininas (endoperóxidos) y, en la presentación registrada en España, se utiliza combinado con otro principio activo.
 
 No se identifica un vínculo mecanístico entre artemeter y el angioedema adquirido. Esta forma de angioedema está mediada por bradicinina o por el complemento, y no se conoce ninguna vía que conecte a artemeter con ella. El puntaje elevado de TxGNN es una predicción basada solo en el modelo, sin respaldo clínico ni bibliográfico.
 
@@ -86,7 +86,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL566534 (artemether): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL566534) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL566534 (artemether): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL566534) |
 
 <!-- review:end log -->
 

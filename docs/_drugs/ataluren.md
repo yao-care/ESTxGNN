@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Ataluren es (traducción no oficial): «Modulador del ribosoma 80S» Texto original en inglés: "80S Ribosome modulator" ([ChEMBL CHEMBL256997 (ataluren): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL256997), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, ataluren promueve la lectura continua ribosómica de codones de parada prematuros, es decir, de mutaciones sin sentido, de modo que la célula pueda producir una proteína de longitud completa.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Ataluren es (traducción no oficial): «Modulador del ribosoma 80S». Texto original en inglés: "80S Ribosome modulator" ([ChEMBL CHEMBL256997 (ataluren): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL256997), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, ataluren promueve la lectura continua ribosómica de codones de parada prematuros, es decir, de mutaciones sin sentido, de modo que la célula pueda producir una proteína de longitud completa.
 
 La colestasis intrahepática recurrente benigna se debe a variantes del gen ATP8B1 (y en ocasiones ABCB11). Un subconjunto de estas variantes son mutaciones sin sentido, por lo que, en teoría, la lectura continua podría ser aplicable a esos pacientes.
 
@@ -104,7 +104,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL256997 (ataluren): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL256997) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL256997 (ataluren): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL256997) |
 
 <!-- review:end log -->
 

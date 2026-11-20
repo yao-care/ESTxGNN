@@ -58,7 +58,7 @@ pero la evidencia actual se limita a **4 publicaciones preclínicas** (estudios 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Cilazapril es (traducción no oficial): «Inhibidor de la enzima convertidora de angiotensina» Texto original en inglés: "Angiotensin-converting enzyme inhibitor" ([ChEMBL CHEMBL515606 (cilazapril): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL515606), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, cilazapril es un inhibidor de la ECA que reduce la formación de angiotensina II, y su eficacia en hipertensión arterial está establecida. Mecanísticamente, podría ser aplicable a la hipertensión pulmonar asociada a hipoxia.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Cilazapril es (traducción no oficial): «Inhibidor de la enzima convertidora de angiotensina». Texto original en inglés: "Angiotensin-converting enzyme inhibitor" ([ChEMBL CHEMBL515606 (cilazapril): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL515606), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, cilazapril es un inhibidor de la ECA que reduce la formación de angiotensina II, y su eficacia en hipertensión arterial está establecida. Mecanísticamente, podría ser aplicable a la hipertensión pulmonar asociada a hipoxia.
 
 La actividad de la ECA en la arteria pulmonar contribuye a la vasoconstricción hipóxica y al remodelado vascular. Al reducir la angiotensina II, cilazapril podría atenuar ambos procesos. Tanto la hipertensión arterial sistémica como la pulmonar comparten la participación de la vasoconstricción y del remodelado de la pared vascular, lo que da coherencia biológica a la predicción.
 
@@ -115,7 +115,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL515606 (cilazapril): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL515606) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL515606 (cilazapril): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL515606) |
 
 <!-- review:end log -->
 

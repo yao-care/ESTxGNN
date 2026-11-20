@@ -56,7 +56,7 @@ con **0 ensayos clínicos** y **3 publicaciones** preclínicas en macacos que ac
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Lopinavir es (traducción no oficial): «Inhibidor de la proteasa del virus de la inmunodeficiencia humana de tipo 1» Texto original en inglés: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, lopinavir es un inhibidor de la proteasa del VIH que se comercializa en combinación con ritonavir, su eficacia en la infección por VIH está comprobada, y mecanísticamente podría ser aplicable a infecciones por lentivirus emparentados.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Lopinavir es (traducción no oficial): «Inhibidor de la proteasa del virus de la inmunodeficiencia humana de tipo 1». Texto original en inglés: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, lopinavir es un inhibidor de la proteasa del VIH que se comercializa en combinación con ritonavir, su eficacia en la infección por VIH está comprobada, y mecanísticamente podría ser aplicable a infecciones por lentivirus emparentados.
 
 El VIS es un lentivirus muy cercano al VIH, y su proteasa es similar estructural y funcionalmente a la proteasa del VIH-1, la diana conocida de lopinavir. Por ello, el puntaje elevado es biológicamente plausible.
 
@@ -119,7 +119,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay 7 autorizaciones vigentes en total; se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
 
 <!-- review:end log -->
 

@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de la cola 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Sulthiame es (traducción no oficial): «Inhibidor de la anhidrasa carbónica» Texto original en inglés: "Carbonic anhydrase inhibitor" ([ChEMBL CHEMBL328560 (sulthiame): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL328560), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, el sultiamo es un inhibidor de la anhidrasa carbónica. Sin embargo, los datos compilados no documentan su eficacia en una indicación original concreta, y no se ha establecido una vía plausible hacia la nueva indicación.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Sulthiame es (traducción no oficial): «Inhibidor de la anhidrasa carbónica». Texto original en inglés: "Carbonic anhydrase inhibitor" ([ChEMBL CHEMBL328560 (sulthiame): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL328560), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, el sultiamo es un inhibidor de la anhidrasa carbónica. Sin embargo, los datos compilados no documentan su eficacia en una indicación original concreta, y no se ha establecido una vía plausible hacia la nueva indicación.
 
 El síndrome de la cola de caballo es una afección neurológica compresiva, de manejo habitualmente quirúrgico. No hay evidencia en los datos de que un inhibidor de la anhidrasa carbónica tenga un papel en ella. La similitud con la indicación original queda pendiente de evaluar.
 
@@ -129,7 +129,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "comercializado en España como suspensión oral (OSPOLOT 20 mg/ml)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL328560 (sulthiame): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL328560) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL328560 (sulthiame): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL328560) |
 
 <!-- review:end log -->
 

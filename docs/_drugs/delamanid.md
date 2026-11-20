@@ -57,7 +57,7 @@ El modelo TxGNN predice que podría ser efectivo para **tuberculosis bovina**, a
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Delamanid es (traducción no oficial): «Inhibidor de Mycobacterium tuberculosis H37Rv» Texto original en inglés: "Mycobacterium tuberculosis H37Rv inhibitor" ([ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650), CC BY-SA 3.0; consultado el 2026-11-19). Según el conocimiento general, delamanid es un profármaco nitroimidazólico activado por la enzima Ddn (Rv3547) de *Mycobacterium tuberculosis*, que inhibe la síntesis de ácidos micólicos de la pared celular. Su eficacia en la tuberculosis multirresistente está establecida.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Delamanid es (traducción no oficial): «Inhibidor de Mycobacterium tuberculosis H37Rv». Texto original en inglés: "Mycobacterium tuberculosis H37Rv inhibitor" ([ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650), CC BY-SA 3.0; consultado el 2026-11-19). Según el conocimiento general, delamanid es un profármaco nitroimidazólico activado por la enzima Ddn (Rv3547) de *Mycobacterium tuberculosis*, que inhibe la síntesis de ácidos micólicos de la pared celular. Su eficacia en la tuberculosis multirresistente está establecida.
 
 *Mycobacterium bovis*, causante de la tuberculosis bovina y de la tuberculosis zoonótica humana, pertenece al complejo *M. tuberculosis*. Por ello, una actividad similar es biológicamente plausible. Sin embargo, la única publicación disponible es un estudio de secuenciación genómica sobre diversidad genética y resistencia de aislados de *M. bovis*; no evalúa el tratamiento con delamanid. La evidencia es, por tanto, solo indirecta.
 
@@ -102,7 +102,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650) |
 
 <!-- review:end log -->
 
