@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 575
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-23
 monitor_inn: "Norfloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "punctate epithelial keratoconjunctivitis", "premalignant hematological system disease", "diffuse scleroderma", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-description: "Norfloxacin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 5)"
+description: "Norfloxacin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 4)"
 ---
 
 # Norfloxacin
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de hipervis
 | Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) |
 | Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 9; revocadas o suspendidas: 4) |
-| Número de Autorizaciones | 9 (comercializadas: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 9; revocadas o suspendidas: 5) |
+| Número de Autorizaciones | 9 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

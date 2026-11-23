@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 365
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-23
 description: "Fulvestrant: nueva indicación predicha, Infección por VIH (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pe
 | Nueva Indicación Predicha | Infección por VIH |
 | Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 11 de 17; autorizadas no comercializadas: 4; revocadas o suspendidas: 2) |
-| Número de Autorizaciones | 17 (comercializadas: 11) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 10 de 17; autorizadas no comercializadas: 4; revocadas o suspendidas: 3) |
+| Número de Autorizaciones | 17 (comercializadas: 10) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

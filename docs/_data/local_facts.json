@@ -13,12 +13,12 @@
  "licence_snapshot": "es_licenses.json.gz",
  "licence": {
   "drugs_with_data": 682,
-  "drugs_with_current": 606,
-  "drugs_none_current": 76,
+  "drugs_with_current": 605,
+  "drugs_none_current": 77,
   "drugs_without_data": 177,
   "drugs_partial": 0,
   "items_total": 3678,
-  "items_current": 2447
+  "items_current": 2442
  },
  "reviews": {
   "records": 860,
@@ -217,7 +217,7 @@
    "i": "Retinopatía diabética no proliferativa grave"
   }
  ],
- "no_current_more": 64,
+ "no_current_more": 65,
  "most_reviewed": [
   {
    "t": "Catumaxomab",
@@ -502,7 +502,7 @@
   },
   "L5": {
    "n": 708,
-   "current": 638
+   "current": 637
   }
  },
  "cross": {

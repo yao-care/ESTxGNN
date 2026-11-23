@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 544
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-23
 description: "Moxifloxacin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (nivel de evidencia L5). Indicación original: Infecciones bacterianas (neumonía bacteriana, peritonitis…"
 monitor_inn: "Moxifloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
@@ -52,7 +52,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 10; autorizadas no comercializadas: 1; revocadas o suspendidas: 9) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 9; autorizadas no comercializadas: 1; revocadas o suspendidas: 10) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 

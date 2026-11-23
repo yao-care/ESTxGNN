@@ -160,7 +160,7 @@
     "l": "L2",
     "i": "Infección por VIH",
     "lt": 0,
-    "lv": 13,
+    "lv": 11,
     "r": 1,
     "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
@@ -1090,7 +1090,7 @@
     "l": "L4",
     "i": "HIV infectious disease",
     "lt": 17,
-    "lv": 11,
+    "lv": 10,
     "r": 2,
     "rs": "Eliminado: \"Se muestran 5 de las 17 autorizaciones vigentes (todas de medicamento monofármaco)\"",
     "x": 0
@@ -1178,7 +1178,7 @@
     "l": "L4",
     "i": "rheumatoid arthritis",
     "lt": 0,
-    "lv": 14,
+    "lv": 13,
     "r": 1,
     "rs": "Eliminado: \"Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos con un solo principio…",
     "x": 0
@@ -1417,8 +1417,8 @@
   "by_level": {
    "L5": 708
   },
-  "with_current": 638,
-  "none_current": 69,
+  "with_current": 637,
+  "none_current": 70,
   "without_data": 140,
   "with_reviews": 561,
   "rows": [
@@ -1687,17 +1687,6 @@
     "x": 0
    },
    {
-    "t": "Fluvastatin",
-    "u": "/drugs/fluvastatin/",
-    "l": "L5",
-    "i": "HIV infectious disease",
-    "lt": 0,
-    "lv": 16,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
-    "x": 0
-   },
-   {
     "t": "Galantamine",
     "u": "/drugs/galantamine/",
     "l": "L5",
@@ -1874,14 +1863,14 @@
     "x": 0
    },
    {
-    "t": "Donepezil",
-    "u": "/drugs/donepezil/",
+    "t": "Fluvastatin",
+    "u": "/drugs/fluvastatin/",
     "l": "L5",
-    "i": "psychogenic movement disorders",
+    "i": "HIV infectious disease",
     "lt": 0,
     "lv": 15,
-    "r": 2,
-    "rs": "Eliminado: \"Las 20 autorizaciones son de medicamentos de un solo principio activo, vigentes, sin canceladas\"",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -2039,14 +2028,14 @@
     "x": 0
    },
    {
-    "t": "Eltrombopag",
-    "u": "/drugs/eltrombopag/",
+    "t": "Donepezil",
+    "u": "/drugs/donepezil/",
     "l": "L5",
-    "i": "Infección por VIH",
+    "i": "psychogenic movement disorders",
     "lt": 0,
     "lv": 14,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"Las 20 autorizaciones son de medicamentos de un solo principio activo, vigentes, sin canceladas\"",
     "x": 0
    },
    {
@@ -2215,6 +2204,17 @@
     "x": 0
    },
    {
+    "t": "Eltrombopag",
+    "u": "/drugs/eltrombopag/",
+    "l": "L5",
+    "i": "Infección por VIH",
+    "lt": 0,
+    "lv": 13,
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "x": 0
+   },
+   {
     "t": "Esomeprazole",
     "u": "/drugs/esomeprazole/",
     "l": "L5",
@@ -2256,17 +2256,6 @@
     "lv": 13,
     "r": 2,
     "rs": "Eliminado: \"Se muestran 5 de las 20 autorizaciones vigentes (todas de fármaco único):\"",
-    "x": 0
-   },
-   {
-    "t": "Lamivudine",
-    "u": "/drugs/lamivudine/",
-    "l": "L5",
-    "i": "Síndrome de inmunodeficiencia adquirida felina",
-    "lt": 0,
-    "lv": 13,
-    "r": 2,
-    "rs": "Eliminado: \"Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos con un único principio…",
     "x": 0
    },
    {
@@ -2509,6 +2498,17 @@
     "lv": 12,
     "r": 2,
     "rs": "Eliminado: \"Flurbiprofeno tiene 20 autorizaciones vigentes (todas de medicamentos con un único principio…",
+    "x": 0
+   },
+   {
+    "t": "Lamivudine",
+    "u": "/drugs/lamivudine/",
+    "l": "L5",
+    "i": "Síndrome de inmunodeficiencia adquirida felina",
+    "lt": 0,
+    "lv": 12,
+    "r": 2,
+    "rs": "Eliminado: \"Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos con un único principio…",
     "x": 0
    },
    {
@@ -2886,6 +2886,17 @@
     "x": 0
    },
    {
+    "t": "Apixaban",
+    "u": "/drugs/apixaban/",
+    "l": "L5",
+    "i": "trastorno de migraña",
+    "lt": 0,
+    "lv": 10,
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "x": 0
+   },
+   {
     "t": "Citric Acid",
     "u": "/drugs/citric-acid/",
     "l": "L5",
@@ -2905,17 +2916,6 @@
     "lv": 10,
     "r": 2,
     "rs": "Eliminado: \"Se muestran 5 de las 18 autorizaciones vigentes (todas de medicamentos con un único principio…",
-    "x": 0
-   },
-   {
-    "t": "Dutasteride",
-    "u": "/drugs/dutasteride/",
-    "l": "L5",
-    "i": "Ambras type hypertrichosis universalis congenita",
-    "lt": 0,
-    "lv": 10,
-    "r": 1,
-    "rs": "Eliminado: \"Se muestran 5 de las 20 autorizaciones vigentes (todas de un único principio activo, en cápsula…",
     "x": 0
    },
    {
@@ -2982,17 +2982,6 @@
     "lv": 10,
     "r": 2,
     "rs": "Eliminado: \"Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único)\"",
-    "x": 0
-   },
-   {
-    "t": "Moxifloxacin",
-    "u": "/drugs/moxifloxacin/",
-    "l": "L5",
-    "i": "polyclonal hyperviscosity syndrome",
-    "lt": 0,
-    "lv": 10,
-    "r": 2,
-    "rs": "Eliminado: \"Hay 20 autorizaciones vigentes, todas de producto único (sin combinaciones) y ninguna cancelada\"",
     "x": 0
    },
    {
@@ -3128,6 +3117,17 @@
     "x": 0
    },
    {
+    "t": "Dutasteride",
+    "u": "/drugs/dutasteride/",
+    "l": "L5",
+    "i": "Ambras type hypertrichosis universalis congenita",
+    "lt": 0,
+    "lv": 9,
+    "r": 1,
+    "rs": "Eliminado: \"Se muestran 5 de las 20 autorizaciones vigentes (todas de un único principio activo, en cápsula…",
+    "x": 0
+   },
+   {
     "t": "Famciclovir",
     "u": "/drugs/famciclovir/",
     "l": "L5",
@@ -3191,6 +3191,17 @@
     "lv": 9,
     "r": 2,
     "rs": "Eliminado: \"Se listan 5 de las 20 autorizaciones vigentes (todas monofármaco)\"",
+    "x": 0
+   },
+   {
+    "t": "Moxifloxacin",
+    "u": "/drugs/moxifloxacin/",
+    "l": "L5",
+    "i": "polyclonal hyperviscosity syndrome",
+    "lt": 0,
+    "lv": 9,
+    "r": 2,
+    "rs": "Eliminado: \"Hay 20 autorizaciones vigentes, todas de producto único (sin combinaciones) y ninguna cancelada\"",
     "x": 0
    },
    {
@@ -3524,17 +3535,6 @@
     "x": 0
    },
    {
-    "t": "Anagrelide",
-    "u": "/drugs/anagrelide/",
-    "l": "L5",
-    "i": "trombocitosis reactiva",
-    "lt": 13,
-    "lv": 7,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
-    "x": 0
-   },
-   {
     "t": "Cabazitaxel",
     "u": "/drugs/cabazitaxel/",
     "l": "L5",
@@ -3719,6 +3719,17 @@
     "lv": 6,
     "r": 2,
     "rs": "Eliminado: \"Se listan 5 de las 14 autorizaciones vigentes (todas de principio activo único)\"",
+    "x": 0
+   },
+   {
+    "t": "Anagrelide",
+    "u": "/drugs/anagrelide/",
+    "l": "L5",
+    "i": "trombocitosis reactiva",
+    "lt": 13,
+    "lv": 6,
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4305,17 +4316,6 @@
     "x": 0
    },
    {
-    "t": "Norfloxacin",
-    "u": "/drugs/norfloxacin/",
-    "l": "L5",
-    "i": "Síndrome de hiperviscosidad policlonal",
-    "lt": 9,
-    "lv": 5,
-    "r": 2,
-    "rs": "Eliminado: \"Nota: se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único)\"",
-    "x": 0
-   },
-   {
     "t": "Palonosetron",
     "u": "/drugs/palonosetron/",
     "l": "L5",
@@ -4874,6 +4874,17 @@
     "lv": 4,
     "r": 2,
     "rs": "Eliminado: \"Hay 7 autorizaciones vigentes en total; también existen dos presentaciones en solución para…",
+    "x": 0
+   },
+   {
+    "t": "Norfloxacin",
+    "u": "/drugs/norfloxacin/",
+    "l": "L5",
+    "i": "Síndrome de hiperviscosidad policlonal",
+    "lt": 9,
+    "lv": 4,
+    "r": 2,
+    "rs": "Eliminado: \"Nota: se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único)\"",
     "x": 0
    },
    {
@@ -6802,17 +6813,6 @@
     "x": 0
    },
    {
-    "t": "Apixaban",
-    "u": "/drugs/apixaban/",
-    "l": "L5",
-    "i": "trastorno de migraña",
-    "lt": 0,
-    "lv": 1,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
-    "x": 0
-   },
-   {
     "t": "Ascorbic Acid",
     "u": "/drugs/ascorbic-acid/",
     "l": "L5",
@@ -7569,17 +7569,6 @@
     "lv": 1,
     "r": 1,
     "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
-    "x": 0
-   },
-   {
-    "t": "Lasmiditan",
-    "u": "/drugs/lasmiditan/",
-    "l": "L5",
-    "i": "atrophoderma vermiculata",
-    "lt": 2,
-    "lv": 1,
-    "r": 0,
-    "rs": "",
     "x": 0
    },
    {
@@ -8787,6 +8776,17 @@
     "l": "L5",
     "i": "Enfermedad de Crohn del intestino delgado",
     "lt": 1,
+    "lv": 0,
+    "r": 0,
+    "rs": "",
+    "x": 0
+   },
+   {
+    "t": "Lasmiditan",
+    "u": "/drugs/lasmiditan/",
+    "l": "L5",
+    "i": "atrophoderma vermiculata",
+    "lt": 2,
     "lv": 0,
     "r": 0,
     "rs": "",
