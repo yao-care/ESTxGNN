@@ -130,3 +130,8 @@ CIMA REST 清單（/medicamentos）本身就是完整登錄，含已撤銷（rev
 例：abatacept「Indicación original: No consta en los datos locales」→「En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)」；2026-11-19 改了 537 頁。
 由母目錄 `.claude/drug_meta_description.py --apply --site ESTxGNN` 產生（站上複本 `tools/txgnn/.claude/drug_meta_description.py --apply --root .`），改動記在 `docs/_data/description_local_log.json`（pages＝目前句尾與原字樣、entries＝每次改動前後整行，可還原）。快照數字變了重跑會換新數字；`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾會自動 --apply，`check_seo_docs.py` 跑 --check 擋「還是未記載句尾」或「數字跟快照不符」。只改 front matter，lastmod_fix 不算正文改動、last_modified_at 不動。
 同日修：`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾重算 local_facts 的 atexit 掛鉤在結束時取不到 `__file__`（NameError，之前其實沒跑成），改成先算好路徑。
+
+## 事實層單方／複方依本站成分欄切分（2026-11-24）
+
+用戶 2026-11-24 決定：事實層依各站成分欄正確切分。reviewer/drug_evidence_pack.py 原本用「;;」切成分，本站 CIMA practiv 的複方以「 + 」（少數「, 」）連接，都算成單方；改用 `src/estxgnn/regulatory/ingredients.py`，scripts/sync_license_tables.py 快照的 single_real 也改用同一規則（tezacaftor「deutivacaftor, tezacaftor, vanzacaftor」原本漏判）。
+事實層 1534 藥中 102 藥 single_total 改變；證據包 100 個重算（data-overlay）。寬偵測掃事實有變的頁，跟成分欄矛盾 1 句（alanine 待辦「autorización monocomponente según el registro」，TEBETANE COMPUESTO 實為複方），以 `es-lic-20261124d-alanine-1` 更正。B 改寫 0 句；checker 0→0。
