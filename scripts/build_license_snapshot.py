@@ -7,7 +7,8 @@ gate（scripts/check_seo_docs.py）要在沒有 data/ 的環境也能驗證頁�
 meta：產生日、Release tag、規則所在檔案。
 什麼時候跑：證據包或事實層變了之後（每週許可證排程、依成分重建都會自動跑，並把 snapshots/ 跟 docs/ 一起 commit）。
 用法（repo 根目錄，先還原 data/ 並在工作目錄跑 dump_license_facts）：
-  python3 scripts/build_license_snapshot.py --ws <工作目錄> [--release-tag data-YYYYMMDD-HHMMSS]
+  python3 scripts/build_license_snapshot.py --ws <工作目錄> [--release-tag data-YYYYMMDD-HHMMSS] [--no-rewrite]
+寫完快照會依新快照重排程式許可證表（scripts/sync_license_tables.py）並改寫正文張數（scripts/rewrite_license_counts.py）；--no-rewrite 不跑。
 """
 import datetime as dt
 import gzip
@@ -62,6 +63,8 @@ def build(ws, tag=""):
         if S is not None:
             r, total = S.rows_of(tf, fc)
             e["rows"], e["total"] = r[:20], total
+            if hasattr(S, "snap_extra"):  # 本站程式表的 SHOW 句要知道是否部分紀錄與收錄筆數（2026-11-24）
+                e.update(S.snap_extra(tf))
         drugs[page.stem] = e
     meta = {"built": dt.date.today().isoformat(), "release_tag": tag, "pages": len(drugs),
             "rule": "事實層：tools/txgnn/.claude/dump_license_facts_20261021.py；號碼：src/estxgnn/regulatory/site.py own_ids"}
@@ -94,3 +97,8 @@ if __name__ == "__main__":
     if not re.fullmatch(r"(data-[\w-]+)?", tag):
         sys.exit("--release-tag 要是 data-… 的 tag")
     build(ws, tag)
+    # 2026-11-24（用戶決定）：快照換了事實，程式許可證表全站依新快照重排、正文許可證張數跟著改寫（比照 DE／Kr／My；--no-rewrite 不跑）
+    if "--no-rewrite" not in a:
+        import subprocess
+        subprocess.run([sys.executable, str(ROOT / "scripts" / "sync_license_tables.py")], check=True)
+        subprocess.run([sys.executable, str(ROOT / "scripts" / "rewrite_license_counts.py")], check=True)
