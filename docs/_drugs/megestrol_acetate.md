@@ -89,11 +89,11 @@ Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA 
 
 <!-- licenses:end -->
 
-Hay una sexta autorización vigente (62011, BOREA 160 mg granulado para suspensión oral en sobres).
+Entre las autorizaciones vigentes figura BOREA 160 mg granulado para suspensión oral en sobres (62011).
 
 <!-- review:begin es-lic-20261105-megestrol_acetate-1 -->
 
-> **Corrección de revisión (2026-11-24)**: Texto original: "Hay una sexta autorización vigente (62011, BOREA 160 mg granulado para suspensión oral en sobres). Todas son monofármaco y están vigentes." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay una sexta autorización vigente (62011, BOREA 160 mg granulado para suspensión oral en sobres). Todas son monofármaco y están vigentes." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-megestrol_acetate-1 -->
 
@@ -136,7 +136,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-24 | Eliminado: "Todas son monofármaco y están vigentes" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | «Hay una sexta autorización vigente» → «Entre las autorizaciones vigentes figura» | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: megestrol acetate prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc921d5-e423-4379-a345-151e87d13651) |
 
 <!-- review:end log -->

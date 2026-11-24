@@ -85,7 +85,13 @@ Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA 
 
 <!-- licenses:end -->
 
-La azatioprina está comercializada en España en polvo para solución inyectable y en comprimidos (incluidos comprimidos recubiertos con película), con los nombres comerciales Imurel e Immufalk. Los datos locales no recogen el texto de indicación aprobada de estas autorizaciones. El detalle de las autorizaciones lo añade el programa a partir de los registros locales.
+La azatioprina está comercializada en España en comprimidos (incluidos comprimidos recubiertos con película), con los nombres comerciales Imurel e Immufalk; la presentación en polvo para solución inyectable (IMUREL 50 mg, 51003) está revocada. Los datos locales no recogen el texto de indicación aprobada de estas autorizaciones. El detalle de las autorizaciones lo añade el programa a partir de los registros locales.
+
+<!-- review:begin es-lic-20261124b-azathioprine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "La azatioprina está comercializada en España en polvo para solución inyectable y en comprimidos (incluidos comprimidos recubiertos con película), con los nombres comerciales Imurel e Immufalk." Corregido: según CIMA (AEMPS), IMUREL 50 mg polvo para solución inyectable (51003) está revocada; las presentaciones comercializadas son comprimidos. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-azathioprine-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -108,11 +114,12 @@ No hay ensayos clínicos ni literatura sobre esta enfermedad, ni un mecanismo pl
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542) |
+| 2026-11-24 | «comercializada … en polvo para solución inyectable» → la presentación inyectable está revocada | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

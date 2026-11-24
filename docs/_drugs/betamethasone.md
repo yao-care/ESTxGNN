@@ -66,6 +66,12 @@ Esta plausibilidad es teórica. La única evidencia disponible es una serie de c
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+<!-- review:begin es-lic-20261124b-betamethasone-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 10 autorizaciones registradas." Eliminado: la frase describía cuántas filas mostraba la tabla anterior y repetía el número de autorizaciones. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-betamethasone-1 -->
+
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
@@ -74,7 +80,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 10 autorizaciones registradas. Hay 9 vigentes y 1 cancelada.
+Hay 9 vigentes y 1 cancelada.
 
 <!-- licenses:begin -->
 
@@ -85,8 +91,13 @@ Se muestran 5 de las 10 autorizaciones registradas. Hay 9 vigentes y 1 cancelada
 | 40576 | BETNOVATE 1 mg/g CREMA | CREMA | Industrial Farmaceutica Cantabria S.A. | Comercializada |
 | 40628 | CELESTONE CRONODOSE SUSPENSION INYECTABLE | SUSPENSIÓN INYECTABLE | Organon Salud S.L. | Comercializada |
 | 41645 | CELECREM 0,5 mg/g CREMA | CREMA | Galenicum Derma S.L.U. | Comercializada |
+| 40206 | CELECREM 1 mg/g CREMA | CREMA | Galenicum Derma S.L.U. | Comercializada |
+| 53193 | DIPRODERM 0,5 mg/g CREMA | CREMA | Organon Salud S.L. | Comercializada |
+| 55118 | DIPRODERM 0,5 mg/g SOLUCION CUTANEA | SOLUCIÓN CUTÁNEA | Organon Salud S.L. | Comercializada |
+| 45275 | BETNOVATE 1 mg/g SOLUCION CUTANEA | SOLUCIÓN CUTÁNEA | Industrial Farmaceutica Cantabria S.A. | Comercializada |
+| 82407 | CORTITAPE 2,250 MG APOSITO ADHESIVO MEDICAMENTOSO | APÓSITO ADHESIVO MEDICAMENTOSO | Ibsa Farmaceutici Italia S.R.L. | Revocada |
 
-Se muestran 5 de 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
@@ -106,6 +117,18 @@ El puntaje del modelo es alto (0,9997), pero la evidencia se limita a una serie 
 - Información detallada del mecanismo de acción y de la relación con las indicaciones ya autorizadas.
 - Revisión de las advertencias y contraindicaciones del prospecto, que no están en los datos compilados.
 - Confirmación de la vía y forma farmacéutica adecuadas (tópica, intralesional u otra) para esta enfermedad.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | Eliminado: descripción de la tabla anterior y número de autorizaciones | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

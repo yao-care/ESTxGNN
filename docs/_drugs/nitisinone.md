@@ -82,7 +82,13 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 ## Información de Mercado en España
 
-Se listan 5 de las 12 autorizaciones vigentes (todas son monofármaco y están en estado válido):
+Todas las autorizaciones son de monofármaco y están vigentes.
+
+<!-- review:begin es-lic-20261124b-nitisinone-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se listan 5 de las 12 autorizaciones vigentes (todas son monofármaco y están en estado válido):" Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-nitisinone-1 -->
 
 <!-- licenses:begin -->
 
@@ -93,8 +99,13 @@ Se listan 5 de las 12 autorizaciones vigentes (todas son monofármaco y están e
 | 1171217002 | NITISINONE MDK 5 MG CAPSULAS DURAS | CÁPSULA DURA | Mendelikabs Europe Limited | Comercializada |
 | 85156 | NITISINONA DIPHARMA 2 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Dipharma Arzneimittel Gmbh | Comercializada |
 | 04303002 | ORFADIN 5 mg CAPSULAS DURAS | CÁPSULA DURA | Swedish Orphan Biovitrum International Ab | Comercializada |
+| 83467 | NITISINONA DIPHARMA 10 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Dipharma Arzneimittel Gmbh | Comercializada |
+| 04303001 | ORFADIN 2 mg CAPSULAS DURAS | CÁPSULA DURA | Swedish Orphan Biovitrum International Ab | Comercializada |
+| 104303005 | ORFADIN 4 mg/ml SUSPENSION ORAL | SUSPENSIÓN ORAL | Swedish Orphan Biovitrum International Ab | Comercializada |
+| 83468 | NITISINONA DIPHARMA 5 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Dipharma Arzneimittel Gmbh | Comercializada |
+| 85155 | NITISINONA DIPHARMA 20 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Dipharma Arzneimittel Gmbh | Comercializada |
 
-Se muestran 5 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
@@ -128,6 +139,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Revisión sistemática de la literatura sobre nitisinona y tubulopatías renales
 - Estudios preclínicos o series de casos que evalúen el efecto de nitisinona en la acidosis tubular renal primaria
 - Revisión de la compatibilidad de vías de administración y similitud con la indicación original
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -74,7 +74,13 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único). Los datos de autorización no incluyen texto de indicación aprobada.
+Todas las autorizaciones recogidas para este informe son de principio activo único. Los datos de autorización no incluyen texto de indicación aprobada.
+
+<!-- review:begin es-lic-20261124b-lamotrigine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único)." Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-lamotrigine-1 -->
 
 <!-- licenses:begin -->
 
@@ -85,8 +91,13 @@ Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único)
 | 64391 | LAMICTAL 2 mg COMPRIMIDOS MASTICABLES/DISPERSABLES | COMPRIMIDO MASTICABLE Y DISPERSABLE | Glaxosmithkline S.A. | Comercializada |
 | 67320 | LAMOTRIGINA NORMON 100 mg COMPRIMIDOS DISPERSABLES/MASTICABLES EFG | COMPRIMIDO MASTICABLE Y DISPERSABLE | Laboratorios Normon S.A. | Comercializada |
 | 68645 | LAMOTRIGINA COMBIX 200 mg COMPRIMIDOS DISPERSABLES/MASTICABLES EFG | COMPRIMIDO MASTICABLE Y DISPERSABLE | Laboratorios Combix S.L.U. | Comercializada |
+| 61569 | LAMICTAL 25 mg COMPRIMIDOS MASTICABLES/DISPERSABLES | COMPRIMIDO MASTICABLE Y DISPERSABLE | Glaxosmithkline S.A. | Comercializada |
+| 66698 | LAMOTRIGINA STADA 200 mg COMPRIMIDOS DISPERSABLES EFG | COMPRIMIDO DISPERSABLE | Laboratorio Stada S.L. | Comercializada |
+| 89455 | LAMOTRIGINA PHARMA COMBIX 200 MG COMPRIMIDOS MASTICABLES Y DISPERSABLES EFG | COMPRIMIDO MASTICABLE Y DISPERSABLE | Laboratorios Combix S.L.U. | Comercializada |
+| 67150 | LAMOTRIGINA SANDOZ 50 mg COMPRIMIDOS DISPERSABLES/MASTICABLES EFG | COMPRIMIDO MASTICABLE Y DISPERSABLE | Sandoz Farmaceutica S.A. | Comercializada |
+| 61563 | LAMICTAL 200 mg COMPRIMIDOS MASTICABLES/DISPERSABLES | COMPRIMIDO MASTICABLE Y DISPERSABLE | Glaxosmithkline S.A. | Comercializada |
 
-Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
 
 <!-- licenses:end -->
 
@@ -114,11 +125,12 @@ La predicción es solo computacional (L5): no hay ensayos clínicos y la literat
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4) |
+| 2026-11-24 | «5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto) | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

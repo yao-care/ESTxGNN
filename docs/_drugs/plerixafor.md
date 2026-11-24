@@ -81,7 +81,13 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 8 autorizaciones vigentes, todas de solución inyectable y de principio activo único. Los textos de indicación aprobada no están disponibles en los datos compilados.
+Todas las autorizaciones son de solución inyectable y de principio activo único. Los textos de indicación aprobada no están disponibles en los datos compilados.
+
+<!-- review:begin es-lic-20261124b-plerixafor-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 8 autorizaciones vigentes, todas de solución inyectable y de principio activo único." Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-plerixafor-1 -->
 
 <!-- licenses:begin -->
 
@@ -92,8 +98,11 @@ Se muestran 5 de las 8 autorizaciones vigentes, todas de solución inyectable y 
 | 89340 | PLERIXAFOR TARBIS 20 MG/ML SOLUCIÓN INYECTABLE EFG | SOLUCIÓN INYECTABLE | Tarbis Farma S.L. | Comercializada |
 | 1221701001 | PLERIXAFOR ACCORD 20 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Accord Healthcare S.L.U. | Comercializada |
 | 88723 | PLERIXAFOR EUGIA 20 MG/ML SOLUCIÓN INYECTABLE EFG | SOLUCIÓN INYECTABLE | Eugia Pharma (Malta) Limited | Comercializada |
+| 88904 | PLERIXAFOR GLENMARK 20 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Glenmark Arzneimittel Gmbh | Comercializada |
+| 89794 | PLERIXAFOR STADA 20 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Laboratorio Stada S.L. | Autorizada, no comercializada |
+| 89377 | PLERIXAFOR VIVANTA 20 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Vivanta Generics S.R.O. | Autorizada, no comercializada |
 
-Se muestran 5 de 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
@@ -121,6 +130,19 @@ La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos ni l
 - Datos detallados del mecanismo de acción.
 - Las advertencias y contraindicaciones oficiales del prospecto de la AEMPS, para evaluar la seguridad.
 - Un análisis de la relación entre el uso actual (movilización) y el objetivo terapéutico propuesto, incluido el significado de las contraindicaciones del grafo (trombocitopenia, insuficiencia renal, leucemia).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

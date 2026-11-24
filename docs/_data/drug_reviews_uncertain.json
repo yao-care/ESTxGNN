@@ -1331,41 +1331,61 @@
    "source": "部分紀錄頁的正文許可證張數（scripts/rewrite_license_counts.py 不改 partial 頁；2026-11-24 寬偵測）",
    "drug": "adalimumab",
    "file": "adalimumab.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Según los datos compilados, hay 8 autorizaciones vigentes y 4 canceladas, y el listado puede ser parcial.",
    "reason": "partial",
    "added": "2026-11-24",
-   "note": "證據包只收了部分許可證（事實層 partial），正文寫死的張數跟已收錄的紀錄不符（8 vigentes∉[7, 16]；有效欄＝上市數或上市＋授權未上市數）；程式不改部分紀錄頁，要改請依 CIMA 全量資料寫查核紀錄"
+   "note": "證據包只收了部分許可證（事實層 partial），正文寫死的張數跟已收錄的紀錄不符（8 vigentes∉[7, 16]；有效欄＝上市數或上市＋授權未上市數）；程式不改部分紀錄頁，要改請依 CIMA 全量資料寫查核紀錄",
+   "record_ids": [
+    "es-lic-20261124b-adalimumab-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "依 CIMA 全量清單（Release data-20261123 的 data/raw/cima_medicamentos_raw.json，依 vtm）確認實際張數比證據包多，正文張數不成立；以查核紀錄改成不寫數字的寫法（實際張數記在紀錄 finding）"
   },
   {
    "source": "部分紀錄頁的正文許可證張數（scripts/rewrite_license_counts.py 不改 partial 頁；2026-11-24 寬偵測）",
    "drug": "amlodipine",
    "file": "amlodipine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Los datos compilados registran 20 autorizaciones de amlodipino en monofármaco, de las cuales 11 están vigentes y 6 canceladas; el listado puede ser parcial.",
    "reason": "partial",
    "added": "2026-11-24",
-   "note": "證據包只收了部分許可證（事實層 partial），正文寫死的張數跟已收錄的紀錄不符（11 vigentes∉[12, 13]; 6 canceladas∉[7]；有效欄＝上市數或上市＋授權未上市數）；程式不改部分紀錄頁，要改請依 CIMA 全量資料寫查核紀錄"
+   "note": "證據包只收了部分許可證（事實層 partial），正文寫死的張數跟已收錄的紀錄不符（11 vigentes∉[12, 13]; 6 canceladas∉[7]；有效欄＝上市數或上市＋授權未上市數）；程式不改部分紀錄頁，要改請依 CIMA 全量資料寫查核紀錄",
+   "record_ids": [
+    "es-lic-20261124b-amlodipine-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "依 CIMA 全量清單（Release data-20261123 的 data/raw/cima_medicamentos_raw.json，依 vtm）確認實際張數比證據包多，正文張數不成立；以查核紀錄改成不寫數字的寫法（實際張數記在紀錄 finding）"
   },
   {
    "source": "部分紀錄頁的正文許可證張數（scripts/rewrite_license_counts.py 不改 partial 頁；2026-11-24 寬偵測）",
    "drug": "azithromycin",
    "file": "azithromycin.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Hay autorizaciones vigentes en España (13 vigentes según los datos locales; el listado puede ser parcial).",
    "reason": "partial",
    "added": "2026-11-24",
-   "note": "證據包只收了部分許可證（事實層 partial），正文寫死的張數跟已收錄的紀錄不符（13 vigentes∉[12, 14]；有效欄＝上市數或上市＋授權未上市數）；程式不改部分紀錄頁，要改請依 CIMA 全量資料寫查核紀錄"
+   "note": "證據包只收了部分許可證（事實層 partial），正文寫死的張數跟已收錄的紀錄不符（13 vigentes∉[12, 14]；有效欄＝上市數或上市＋授權未上市數）；程式不改部分紀錄頁，要改請依 CIMA 全量資料寫查核紀錄",
+   "record_ids": [
+    "es-lic-20261124b-azithromycin-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "依 CIMA 全量清單（Release data-20261123 的 data/raw/cima_medicamentos_raw.json，依 vtm）確認實際張數比證據包多，正文張數不成立；以查核紀錄改成不寫數字的寫法（實際張數記在紀錄 finding）"
   },
   {
    "source": "部分紀錄頁的正文許可證張數（scripts/rewrite_license_counts.py 不改 partial 頁；2026-11-24 寬偵測）",
    "drug": "pseudoephedrine",
    "file": "pseudoephedrine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Hay 12 autorizaciones vigentes en total; el medicamento está comercializado.",
    "reason": "partial",
    "added": "2026-11-24",
-   "note": "證據包只收了部分許可證（事實層 partial），正文寫死的張數跟已收錄的紀錄不符（12 vigentes∉[11, 15]；有效欄＝上市數或上市＋授權未上市數）；程式不改部分紀錄頁，要改請依 CIMA 全量資料寫查核紀錄"
+   "note": "證據包只收了部分許可證（事實層 partial），正文寫死的張數跟已收錄的紀錄不符（12 vigentes∉[11, 15]；有效欄＝上市數或上市＋授權未上市數）；程式不改部分紀錄頁，要改請依 CIMA 全量資料寫查核紀錄",
+   "record_ids": [
+    "es-lic-20261124b-pseudoephedrine-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "依 CIMA 全量清單（Release data-20261123 的 data/raw/cima_medicamentos_raw.json，依 vtm）確認實際張數比證據包多，正文張數不成立；以查核紀錄改成不寫數字的寫法（實際張數記在紀錄 finding）"
   }
  ]
 }

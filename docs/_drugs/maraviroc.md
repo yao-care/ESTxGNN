@@ -116,7 +116,7 @@ Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA 
 
 <!-- licenses:end -->
 
-Existe una sexta autorización vigente (89504, Maraviroc Tarbis 150 mg EFG). Las 6 autorizaciones son de monofármaco y están vigentes.
+Entre las autorizaciones figura Maraviroc Tarbis 150 mg EFG (89504), vigente. Las 6 autorizaciones son de monofármaco y están vigentes.
 
 <!-- review:begin es-lic-20261124-maraviroc-1 -->
 
@@ -157,7 +157,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-24 | Eliminado: «no listada arriba por el límite de cinco» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: «no listada arriba por el límite de cinco»; «Existe una sexta autorización» → «Entre las autorizaciones figura» | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

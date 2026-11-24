@@ -102,11 +102,11 @@ Se muestran 10 de al menos 20 autorizaciones con este principio activo en los da
 
 <!-- licenses:end -->
 
-Las presentaciones son bucales (Buccolam, Oroxelam) e inyectables; no hay forma oral para insomnio.
+Entre las presentaciones hay formas bucales (Buccolam, Oroxelam) e inyectables; según CIMA también hay una presentación en comprimidos (DORMICUM 7,5 mg comprimidos recubiertos con película).
 
 <!-- review:begin es-lic-20261105-midazolam-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único). Las presentaciones son bucales (Buccolam, Oroxelam) e inyectables; no hay forma oral para insomnio." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único). Las presentaciones son bucales (Buccolam, Oroxelam) e inyectables; no hay forma oral para insomnio." Eliminado: la descripción de la tabla anterior y el número de autorizaciones. Corregido: según el listado completo de CIMA (AEMPS), datos del 2026-11-23, DORMICUM 7,5 mg comprimidos recubiertos con película (59023) está comercializado, y OZALIN 2 mg/ml solución oral (85069) está autorizado pero no comercializado. Los datos de este informe solo recogen parte de las autorizaciones. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-midazolam-1 -->
 
@@ -137,7 +137,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | «no hay forma oral» → hay comprimidos (DORMICUM 7,5 mg) | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e) |
 
 <!-- review:end log -->

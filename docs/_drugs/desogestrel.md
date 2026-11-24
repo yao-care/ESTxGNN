@@ -109,7 +109,13 @@ Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA
 
 <!-- licenses:end -->
 
-Existen otras 5 autorizaciones vigentes (AIACET, NACREZ, DESOGESTREL STADA, DESOGESTREL STADAFARMA y DESOPOP), todas de monofármaco.
+Entre las autorizaciones figuran AIACET, DESOGESTREL STADAFARMA y DESOPOP (vigentes) y NACREZ y DESOGESTREL STADA (revocadas), todas de monofármaco.
+
+<!-- review:begin es-lic-20261124b-desogestrel-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Existen otras 5 autorizaciones vigentes (AIACET, NACREZ, DESOGESTREL STADA, DESOGESTREL STADAFARMA y DESOPOP), todas de monofármaco." Corregido: según CIMA (AEMPS), NACREZ (76228) y DESOGESTREL STADA (76575) están revocadas. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y muestra todas las autorizaciones con su estado. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-desogestrel-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -141,6 +147,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-24 | Eliminado: "Desogestrel es un progestágeno utilizado en España como anticonceptivo oral de solo gestágeno (75 microgramos), con 10 autorizaciones vigent" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533) |
+| 2026-11-24 | «otras 5 autorizaciones vigentes» → NACREZ y DESOGESTREL STADA están revocadas | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

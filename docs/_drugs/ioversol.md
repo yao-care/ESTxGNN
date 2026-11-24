@@ -83,12 +83,21 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 62067 | OPTIRAY ULTRAJECT 350 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Guerbet | Comercializada |
 | 60714 | OPTIRAY ULTRAJECT 320 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Guerbet | Comercializada |
 | 62070 | OPTIRAY ULTRAJECT 300 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Guerbet | Comercializada |
+| 58469 | OPTIRAY 320 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Guerbet | Comercializada |
+| 60713 | OPTIRAY ULTRAJECT 240 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Guerbet | Revocada |
+| 58468 | OPTIRAY 240 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Guerbet | Revocada |
 
-Se muestran 5 de 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-Se muestran 5 de las 8 autorizaciones; las otras 3 son: 58469 (OPTIRAY 320 mg/ml, vigente) y dos canceladas (60713 y 58468). Todas son del titular Guerbet.
+Entre las autorizaciones figuran 58469 (OPTIRAY 320 mg/ml, vigente) y dos revocadas (60713 y 58468). Todas son del titular Guerbet.
+
+<!-- review:begin es-lic-20261124b-ioversol-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 8 autorizaciones; las otras 3 son: 58469 (OPTIRAY 320 mg/ml, vigente) y dos canceladas (60713 y 58468)." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-ioversol-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -111,11 +120,12 @@ La predicción se apoya solo en el puntaje del modelo (nivel L5): no hay ensayos
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Optiray 320 (ioversol) prescribing information, Liebel-Flarsheim Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6cb6ca5f-b249-49b0-a9eb-8aa583da7c74) |
+| 2026-11-24 | Eliminado: descripción de la tabla anterior; «las otras 3 son» → «Entre las autorizaciones figuran» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

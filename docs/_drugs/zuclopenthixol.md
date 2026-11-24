@@ -94,12 +94,21 @@ Actualmente no hay literatura relacionada disponible.
 | 60875 | CLOPIXOL ACUFASE 50 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Lundbeck Espana S.A. | Comercializada |
 | 60872 | CLOPIXOL 10 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Lundbeck Espana S.A. | Comercializada |
 | 6816281C | CLOPIXOL DEPOT 200 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | H. Lundbeck A/S | Comercializada |
+| 60871 | CLOPIXOL 20 mg/ml GOTAS ORALES EN SOLUCION | GOTAS ORALES EN SOLUCIÓN | Lundbeck Espana S.A. | Comercializada |
+| 60874 | CLOPIXOL DEPOT 200 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Lundbeck Espana S.A. | Comercializada |
+| BE104736 | CLOPIXOL DEPOT 200 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Lundbeck | Autorizada, no comercializada |
 
-Se muestran 5 de 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-Se muestran 5 de las 8 autorizaciones vigentes (todas de medicamento único, ninguna cancelada). Las otras tres corresponden a gotas orales 20 mg/ml (60871) y a otras presentaciones de Clopixol Depot (60874 y BE104736).
+Todas las autorizaciones son de medicamento único y ninguna está cancelada. Entre ellas figuran gotas orales 20 mg/ml (60871) y presentaciones de Clopixol Depot (60874 y BE104736).
+
+<!-- review:begin es-lic-20261124b-zuclopenthixol-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 8 autorizaciones vigentes (todas de medicamento único, ninguna cancelada). Las otras tres corresponden a gotas orales 20 mg/ml (60871) y a otras presentaciones de Clopixol Depot (60874 y BE104736)." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-zuclopenthixol-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -120,6 +129,19 @@ La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensa
 - Realizar una revisión sistemática de la literatura sobre dopamina y distrofias retinianas
 - Evaluar la similitud con la indicación original y la compatibilidad de vías de administración
 - Reconsiderar la priorización frente a otras candidatas con respaldo clínico o mecanístico
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | Eliminado: descripción de la tabla anterior y número; «Las otras tres» → «Entre ellas» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

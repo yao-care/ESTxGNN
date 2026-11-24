@@ -153,11 +153,11 @@ def reason_kind(reason):
 
 
 def _fig(fc):
+    """紀錄說明句尾。2026-11-24（用戶決定）：原本寫死「El medicamento tiene N autorizaciones (comercializadas: M)」，
+    會跟每週 CIMA 資料過期；改成不寫數字、指向概覽表與程式許可證表（既有紀錄 2026-11-24 已同 id 重發）。"""
     if not fc or fc.get("total") is None:
         return ""
-    return (f" El medicamento tiene {fc['total']} autorizaci{'ones' if fc['total'] != 1 else 'ón'} "
-            f"(comercializadas: {fc.get('valid') or 0}); las cifras actuales están en el Resumen rápido "
-            "y en la tabla de Información de Mercado en España.")
+    return " Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España."
 
 
 def note_for(kind, date, fc):

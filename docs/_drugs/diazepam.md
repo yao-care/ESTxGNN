@@ -81,7 +81,13 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-Estado: comercializado. De las 20 autorizaciones registradas, 18 están vigentes y 2 canceladas. Se muestran las principales.
+Estado: comercializado. Hay autorizaciones vigentes y otras revocadas; los datos de este informe solo recogen parte de ellas. Se muestran las principales.
+
+<!-- review:begin es-lic-20261124b-diazepam-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "De las 20 autorizaciones registradas, 18 están vigentes y 2 canceladas." Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-diazepam-1 -->
 
 <!-- licenses:begin -->
 
@@ -121,6 +127,18 @@ El único estudio que evalúa directamente el diazepam en insomnio es un ensayo 
 - Ensayos controlados con placebo y comparadores modernos (hipnóticos Z, antagonistas de orexina) con diazepam en insomnio.
 - Datos detallados de advertencias y contraindicaciones del prospecto de la AEMPS.
 - Análisis del balance beneficio-riesgo en adultos mayores y de los riesgos de dependencia y uso prolongado.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «De las 20…, 18 vigentes y 2 canceladas» → sin cifras | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

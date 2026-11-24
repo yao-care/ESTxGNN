@@ -68,9 +68,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+<!-- review:begin es-lic-20261124b-atezolizumab-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 11 autorizaciones." Eliminado: la frase describía cuántas filas mostraba la tabla anterior y repetía el número de autorizaciones. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-atezolizumab-1 -->
+
 ## Información de Mercado en España
 
-Se muestran 5 de las 11 autorizaciones. Los registros no incluyen texto de indicación aprobada, por lo que no se puede indicar para qué usos están autorizados los productos.
+Los registros no incluyen texto de indicación aprobada, por lo que no se puede indicar para qué usos están autorizados los productos.
 
 <!-- licenses:begin -->
 
@@ -81,8 +87,13 @@ Se muestran 5 de las 11 autorizaciones. Los registros no incluyen texto de indic
 | 1171220003 | TECENTRIQ 1875 MG SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Roche Registration Gmbh | Comercializada |
 | 1171220001IP1 | TECENTRIQ 1.200 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Comercializada |
 | 1171220001IP2 | TECENTRIQ 1200 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Comercializada |
+| 1171220001IP4 | TECENTRIQ 1200 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Comercializada |
+| 1171220002 | TECENTRIQ 840 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Comercializada |
+| 1171220001IP | TECENTRIQ 1200 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Comercializada |
+| 1171220001IP3 | TECENTRIQ 1200 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Autorizada, no comercializada |
+| 1171220003IP | TECENTRIQ 1875 MG SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Roche Registration Gmbh | Autorizada, no comercializada |
 
-Se muestran 5 de 11 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 11 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
@@ -123,11 +134,12 @@ La predicción alcanza un puntaje alto (0,9993), pero no existe ningún ensayo c
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tecentriq (atezolizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa682c9-a312-4932-9831-f286908660ee) |
+| 2026-11-24 | Eliminado: descripción de la tabla anterior y número de autorizaciones | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

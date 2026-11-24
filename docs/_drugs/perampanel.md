@@ -94,7 +94,13 @@ Ninguna de estas publicaciones es específica de epilepsia visual. Se muestran c
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo, ninguna cancelada). Los textos de indicación aprobada no figuran en los datos compilados.
+Todas las autorizaciones recogidas para este informe son de medicamentos de un solo principio activo y ninguna está cancelada. Los textos de indicación aprobada no figuran en los datos compilados.
+
+<!-- review:begin es-lic-20261124b-perampanel-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo, ninguna cancelada)." Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-perampanel-1 -->
 
 <!-- licenses:begin -->
 
@@ -105,8 +111,13 @@ Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos de un sol
 | 12776015 | FYCOMPA 12 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Eisai Gmbh | Comercializada |
 | 91019 | PERAMPANEL COMBIX 8 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
 | 90389 | PERAMPANEL CINFA 6 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+| 12776006IP | FYCOMPA 6 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Eisai Gmbh | Comercializada |
+| 12776003IP | FYCOMPA 4 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Eisai Gmbh | Comercializada |
+| 12776001 | FYCOMPA 2 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Eisai Gmbh | Comercializada |
+| 90813 | PERAMPANEL TEVA 4 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+| 112776024 | FYCOMPA 0,5 MG/ML SUSPENSION ORAL | SUSPENSIÓN ORAL | Eisai Gmbh | Comercializada |
 
-Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
 
 <!-- licenses:end -->
 
@@ -141,6 +152,19 @@ La predicción es mecanísticamente plausible y el fármaco está bien estableci
 - Revisar las indicaciones autorizadas en España para confirmar el alcance exacto de la indicación original.
 
 **Nota complementaria:** entre las demás indicaciones predichas, el **estatus epiléptico** es la que cuenta con más respaldo (nivel L2). Incluye un ensayo de Fase 2 en reclutamiento (NCT06401707, 52 participantes) y revisiones sistemáticas. Los ensayos de Fase 3 y Fase 4 se terminaron con un solo paciente cada uno y no aportan datos de eficacia. Podría ser una prioridad más sólida que la epilepsia visual.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto) | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

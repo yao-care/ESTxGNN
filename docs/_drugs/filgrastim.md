@@ -73,7 +73,13 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Se registran 20 autorizaciones vigentes (todas monofármaco). Las principales:
+Todas las autorizaciones recogidas para este informe son de monofármaco. Las principales:
+
+<!-- review:begin es-lic-20261124b-filgrastim-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se registran 20 autorizaciones vigentes (todas monofármaco)." Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-filgrastim-1 -->
 
 <!-- licenses:begin -->
 
@@ -94,7 +100,13 @@ Se muestran 10 de al menos 20 autorizaciones con este principio activo en los da
 
 <!-- licenses:end -->
 
-Las 20 autorizaciones corresponden a las marcas Zarzio, Nivestim, Accofil, Ratiograstim y Neupogen (biosimilares y originador).
+Entre las autorizaciones figuran las marcas Zarzio, Nivestim, Accofil, Ratiograstim, Tevagrastim y Neupogen (biosimilares y originador).
+
+<!-- review:begin es-lic-20261124b-filgrastim-2 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Las 20 autorizaciones corresponden a las marcas Zarzio, Nivestim, Accofil, Ratiograstim y Neupogen (biosimilares y originador)." Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones de filgrastim, incluidas las de TEVAGRASTIM. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-filgrastim-2 -->
 
 ## Citotoxicidad
 
@@ -125,11 +137,13 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, 
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7) |
+| 2026-11-24 | «20 autorizaciones vigentes» eliminado | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | «Las 20 autorizaciones corresponden a» → «Entre las autorizaciones figuran»; también Tevagrastim | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

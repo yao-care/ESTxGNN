@@ -65,6 +65,12 @@ No hay evidencia de actividad frente a conjuntivitis bacteriana, vírica o alér
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+<!-- review:begin es-lic-20261124b-isoniazid-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 7 autorizaciones vigentes en total; se muestran las 5 principales." Eliminado: la frase describía cuántas filas mostraba la tabla anterior y repetía el número de autorizaciones. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-isoniazid-1 -->
+
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
@@ -91,12 +97,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 54213 | RIFINAH 300 MG/150 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | COMPRIMIDO RECUBIERTO | Sanofi Aventis S.A. | Comercializada |
 | 40689 | CEMIDON B6 150 MG/25 MG COMPRIMIDOS | COMPRIMIDO | Chiesi España S.A.U. | Comercializada |
 | 38394 | CEMIDON B6 50 MG/15 MG COMPRIMIDOS | COMPRIMIDO | Chiesi España S.A.U. | Comercializada |
+| 58299 | RIFATER COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Sanofi Aventis S.A. | Comercializada |
+| 65904 | RIMSTAR COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Gmbh | Comercializada |
 
-Se muestran 5 de 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
-
-Hay 7 autorizaciones vigentes en total; se muestran las 5 principales.
 
 ## Consideraciones de Seguridad
 
@@ -123,11 +129,12 @@ La predicción se apoya solo en el modelo (L4, sin ensayos clínicos) y la liter
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: isoniazid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dab7b7b-a3a9-47ef-b423-134bc6970d8b) |
+| 2026-11-24 | Eliminado: descripción de la tabla anterior y número de autorizaciones | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

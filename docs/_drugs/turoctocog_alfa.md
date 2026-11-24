@@ -101,7 +101,13 @@ Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA 
 
 <!-- licenses:end -->
 
-Existe además una sexta autorización (113888006, NOVOEIGHT 3000 UI). Las seis son monofármaco, vigentes y de Novo Nordisk A/S.
+Entre las autorizaciones figura NOVOEIGHT 3000 UI (113888006). Las seis son monofármaco, vigentes y de Novo Nordisk A/S.
+
+<!-- review:begin es-lic-20261124b-turoctocog_alfa-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Existe además una sexta autorización (113888006, NOVOEIGHT 3000 UI)." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-turoctocog_alfa-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -128,11 +134,12 @@ Todas las indicaciones predichas se sustentan únicamente en la puntuación del 
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286) |
+| 2026-11-24 | «Existe además una sexta autorización» → «Entre las autorizaciones figura» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

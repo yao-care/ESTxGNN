@@ -94,7 +94,7 @@ Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA 
 
 <!-- licenses:end -->
 
-Hay una sexta autorización (1161147014, IBRANCE 125 MG comprimidos recubiertos con película).
+Entre las autorizaciones figura IBRANCE 125 MG comprimidos recubiertos con película (1161147014).
 
 <!-- review:begin es-lic-20261124-palbociclib-1 -->
 
@@ -142,7 +142,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792) |
-| 2026-11-24 | Eliminado: «no listada por el límite de cinco» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: «no listada por el límite de cinco»; «Hay una sexta autorización» → «Entre las autorizaciones figura» | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

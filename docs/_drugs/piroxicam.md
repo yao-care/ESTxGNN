@@ -99,13 +99,19 @@ Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA 
 
 <!-- licenses:end -->
 
-Las demás autorizaciones corresponden a formulaciones tópicas (geles y crema): SASULEN 5 mg/g gel, SALVACAM 5 mg/g gel, IMPRONTAL 5 mg/g crema y FELDEGEL 5 mg/g gel.
+Entre las autorizaciones hay formulaciones tópicas (geles y crema): SASULEN 5 mg/g gel, SALVACAM 5 mg/g gel, IMPRONTAL 5 mg/g crema y FELDEGEL 5 mg/g gel.
 
 <!-- review:begin es-lic-20261105-piroxicam-1 -->
 
 > **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-piroxicam-1 -->
+
+<!-- review:begin es-lic-20261124b-piroxicam-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Las demás autorizaciones corresponden a formulaciones tópicas (geles y crema):" Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-piroxicam-1 -->
 
 ---
 
@@ -150,6 +156,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-24 | Eliminado: "Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4) |
+| 2026-11-24 | «Las demás autorizaciones corresponden a» → «Entre las autorizaciones hay» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

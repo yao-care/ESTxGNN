@@ -109,7 +109,13 @@ Se muestran 10 de al menos 20 autorizaciones con este principio activo en los da
 
 <!-- licenses:end -->
 
-Hay 12 autorizaciones vigentes en total; el medicamento está comercializado.
+Hay autorizaciones vigentes; el medicamento está comercializado.
+
+<!-- review:begin es-lic-20261124b-pseudoephedrine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 12 autorizaciones vigentes en total; el medicamento está comercializado." Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-pseudoephedrine-1 -->
 
 ---
 
@@ -135,6 +141,19 @@ La predicción coincide en gran medida con usos ya autorizados de la pseudoefedr
 - Descargar y analizar el prospecto de la AEMPS para completar advertencias y contraindicaciones oficiales (bloqueante para el cribado de seguridad).
 - Evaluar el perfil de riesgo cardiovascular, dado el número de contraindicaciones cardiovasculares señaladas en el grafo de conocimiento.
 - Confirmar el diseño del estudio de 2001 y buscar ensayos clínicos controlados que respalden el efecto.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «12 autorizaciones vigentes en total» → sin cifra | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -100,11 +100,11 @@ Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA 
 
 <!-- licenses:end -->
 
-Hay una sexta autorización (65303, Fenitoína Accord 50 mg/ml solución inyectable), revocada. Todas son de principio activo único; 65340 y 65303 están revocadas.
+Todas son de principio activo único; 65340 y 65303 (Fenitoína Accord 50 mg/ml solución inyectable) están revocadas.
 
 <!-- review:begin es-lic-20261112-phenytoin-1 -->
 
-> **Corrección de revisión (2026-11-24)**: Texto original: "Hay una sexta autorización vigente (65303, Fenitoína Accord 50 mg/ml solución inyectable) que no se lista por el límite de cinco. Las seis son de principio activo único y están vigentes." Según CIMA (AEMPS), datos del 2026-11-09, están revocadas 65340 (Fenitoína Kern Pharma 50 mg/ml solución inyectable EFG) y 65303 (Fenitoína Accord 50 mg/ml solución inyectable). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye la autorización 65303. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay una sexta autorización vigente (65303, Fenitoína Accord 50 mg/ml solución inyectable) que no se lista por el límite de cinco. Las seis son de principio activo único y están vigentes." Según CIMA (AEMPS), están revocadas 65340 (Fenitoína Kern Pharma 50 mg/ml solución inyectable EFG) y 65303 (Fenitoína Accord 50 mg/ml solución inyectable). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye las seis autorizaciones. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261112-phenytoin-1 -->
 
@@ -147,7 +147,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-24 | Autorizaciones vigentes: 6 → 4 (65340 y 65303 revocadas) | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | «Hay una sexta autorización (65303…), revocada» → 65303 incluida en la frase sobre las revocadas | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353) |
 
 <!-- review:end log -->

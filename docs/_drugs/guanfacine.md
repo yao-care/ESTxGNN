@@ -111,7 +111,13 @@ Se muestran 10 de 11 autorizaciones con este principio activo en los datos de CI
 
 <!-- licenses:end -->
 
-Las otras 6 autorizaciones corresponden a Paxneury (2, 3, 4, 5, 6 y 7 mg), de Neuraxpharm; Intuniv es de Takeda.
+Entre las autorizaciones figuran las de Paxneury (1, 2, 3, 4, 5, 6 y 7 mg), de Neuraxpharm; Intuniv es de Takeda.
+
+<!-- review:begin es-lic-20261124b-guanfacine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Las otras 6 autorizaciones corresponden a Paxneury (2, 3, 4, 5, 6 y 7 mg), de Neuraxpharm;" Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior; según CIMA (AEMPS), Paxneury tiene presentaciones de 1 a 7 mg (siete autorizaciones). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS). Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-guanfacine-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -143,11 +149,12 @@ Existe evidencia directa de un ECA de Fase 3 y un estudio de Fase 4 completados,
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Guanfacine Extended-Release (guanfacine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3ec4fed6-cafc-49a0-9540-8d70ac435769) |
+| 2026-11-24 | «Las otras 6» → «Entre las autorizaciones figuran»; Paxneury también 1 mg | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

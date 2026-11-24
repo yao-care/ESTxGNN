@@ -101,11 +101,11 @@ Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA
 
 <!-- licenses:end -->
 
-Las restantes corresponden a Triflusal Abamed, Triflusal Cinfa, Disgren 300 mg, Triflusal Farmalider y Triflusal Aristo.
+Entre las autorizaciones figuran también Triflusal Abamed, Triflusal Cinfa, Disgren 300 mg, Triflusal Farmalider (autorizada, sin comercializar) y Triflusal Aristo (revocada).
 
 <!-- review:begin es-lic-20261105-triflusal-1 -->
 
-> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco). Las restantes corresponden a Triflusal Abamed, Triflusal Cinfa, Disgren 300 mg, Triflusal Farmalider y Triflusal Aristo." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco). Las restantes corresponden a Triflusal Abamed, Triflusal Cinfa, Disgren 300 mg, Triflusal Farmalider y Triflusal Aristo." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior; según CIMA (AEMPS), Triflusal Farmalider (65247) está autorizada pero no comercializada y Triflusal Aristo (66104) está revocada. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye las cinco. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-triflusal-1 -->
 
@@ -135,7 +135,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-24 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | «Las restantes corresponden a» → «figuran también»; estado de Triflusal Farmalider y Triflusal Aristo | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

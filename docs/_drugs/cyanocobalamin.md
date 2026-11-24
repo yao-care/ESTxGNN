@@ -88,11 +88,11 @@ Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA 
 
 <!-- licenses:end -->
 
-La sexta es Vitamina B12 Ankermann 1.000 microgramos comprimidos recubiertos (nº 90484).
+Entre las autorizaciones figura Vitamina B12 Ankermann 1.000 microgramos comprimidos recubiertos (nº 90484).
 
 <!-- review:begin es-lic-20261105-cyanocobalamin-1 -->
 
-> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 6 autorizaciones vigentes (todas de principio activo único). La sexta es Vitamina B12 Ankermann 1.000 microgramos comprimidos recubiertos (nº 90484)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 6 autorizaciones vigentes (todas de principio activo único). La sexta es Vitamina B12 Ankermann 1.000 microgramos comprimidos recubiertos (nº 90484)." Eliminado: la frase describía la tabla anterior (5 de 6 autorizaciones). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye la autorización 90484; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-cyanocobalamin-1 -->
 
@@ -123,7 +123,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-24 | Eliminado: "Se muestran 5 de las 6 autorizaciones vigentes (todas de principio activo único)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: «Se muestran 5 de las 6…»; «La sexta es» → «Entre las autorizaciones figura» | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: cyanocobalamin prescribing information, SOLA Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e559c6c8-2973-77fb-e053-2995a90af43d) |
 
 <!-- review:end log -->

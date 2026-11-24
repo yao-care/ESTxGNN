@@ -104,12 +104,19 @@ Las 6 autorizaciones son de producto de un solo principio activo; los datos comp
 | 56989 | BELOKEN 1 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Recordati Industria Chimica E Farmaceutica S.P.A. | Comercializada |
 | 61506 | BELOKEN RETARD 95 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Recordati Industria Chimica E Farmaceutica S.P.A. | Revocada |
 | 55748 | BELOKEN 100 mg COMPRIMIDOS | COMPRIMIDO | Recordati Industria Chimica E Farmaceutica S.P.A. | Revocada |
+| 81030 | METOPROLOL KRKA RETARD 95 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Krka D.D. Novo Mesto | Revocada |
 
-Se muestran 5 de 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-Hay una sexta autorización (81030, Metoprolol Krka Retard 95 mg, cancelada) no mostrada para respetar el límite de cinco filas.
+Entre las autorizaciones figura una revocada (81030, Metoprolol Krka Retard 95 mg).
+
+<!-- review:begin es-lic-20261124b-metoprolol-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay una sexta autorización (81030, Metoprolol Krka Retard 95 mg, cancelada) no mostrada para respetar el límite de cinco filas." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-metoprolol-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -136,11 +143,12 @@ Ningún ensayo ni publicación estudia directamente la enfermedad cardíaca pulm
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Toprol Xl (metoprolol succinate) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=496ddfaa-7c9c-4888-b747-a210249b367a) |
+| 2026-11-24 | Eliminado: «no mostrada para respetar el límite de cinco filas» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

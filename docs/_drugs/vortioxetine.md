@@ -84,7 +84,13 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada). El texto de indicación aprobada no figura en los datos disponibles.
+Todas las autorizaciones recogidas para este informe son de principio activo único y ninguna está cancelada. El texto de indicación aprobada no figura en los datos disponibles.
+
+<!-- review:begin es-lic-20261124b-vortioxetine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)." Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-vortioxetine-1 -->
 
 <!-- licenses:begin -->
 
@@ -95,8 +101,13 @@ Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo únic
 | 89290 | VORTIOXETINA STADA 15 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Autorizada, no comercializada |
 | 89288 | VORTIOXETINA STADA 5 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Autorizada, no comercializada |
 | 90983 | VORTIOXETINA KRKA 20 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Krka D.D. Novo Mesto | Autorizada, no comercializada |
+| 90972 | VORTIOXETINA CINFA 15 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Autorizada, no comercializada |
+| 90435 | VORTIOXETINA TARBIS 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Autorizada, no comercializada |
+| 90001 | VORTIOXETINA TECNIGEN 15 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tecnimede España Industria Farmaceutica S.A. | Autorizada, no comercializada |
+| 89999 | VORTIOXETINA TECNIGEN 5 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tecnimede España Industria Farmaceutica S.A. | Autorizada, no comercializada |
+| 89386 | VORTIOXETINA KERN PHARMA 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Autorizada, no comercializada |
 
-Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
 
 <!-- licenses:end -->
 
@@ -125,11 +136,12 @@ La indicación predicha es una categoría diagnóstica obsoleta que se solapa co
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Trintellix (vortioxetine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd0107e5-1cb9-4b40-a6af-fa65fcbe6b4e) |
+| 2026-11-24 | «5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto) | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

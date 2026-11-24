@@ -91,12 +91,22 @@ Actualmente no hay literatura relacionada disponible.
 | 99103009 | REFACTO AF 250 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE EN JERINGA PRECARGADA | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Pfizer Europe Ma Eeig | Comercializada |
 | 99103006 | REFACTO AF 500 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE EN JERINGA PRECARGADA | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Pfizer Europe Ma Eeig | Comercializada |
 | 99103005 | REFACTO AF 3000 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE EN JERINGA PRECARGADA | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Pfizer Europe Ma Eeig | Comercializada |
+| 99103003 | REFACTO AF 1000 UI, POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Pfizer Europe Ma Eeig | Autorizada, no comercializada |
+| 99103002 | REFACTO AF 500 UI, POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Pfizer Europe Ma Eeig | Autorizada, no comercializada |
+| 99103004 | REFACTO AF 2000 UI, POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Pfizer Europe Ma Eeig | Autorizada, no comercializada |
+| 99103001 | REFACTO AF 250 UI, POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Pfizer Europe Ma Eeig | Autorizada, no comercializada |
 
-Se muestran 5 de 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-Se muestran 5 de las 9 autorizaciones vigentes, todas de Pfizer Europe MA EEIG.
+Todas las autorizaciones son de Pfizer Europe MA EEIG.
+
+<!-- review:begin es-lic-20261124b-moroctocog_alfa-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 9 autorizaciones vigentes, todas de Pfizer Europe MA EEIG." Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-moroctocog_alfa-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -120,11 +130,12 @@ Todas las indicaciones predichas se apoyan únicamente en el puntaje del modelo 
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137) |
+| 2026-11-24 | Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

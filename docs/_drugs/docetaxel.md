@@ -90,7 +90,13 @@ El sarcoma de Ewing es un tumor de hueso y partes blandas de crecimiento rápido
 
 ## Información de Mercado en España
 
-El fármaco está comercializado en España. Los datos disponibles son parciales y la lista de autorizaciones puede estar incompleta. Se registran 20 autorizaciones, de las cuales 10 están vigentes y 3 canceladas.
+El fármaco está comercializado en España. Los datos disponibles son parciales y la lista de autorizaciones puede estar incompleta. Según CIMA (AEMPS), hay autorizaciones vigentes (comercializadas y otras autorizadas sin comercializar) y otras revocadas; los datos de este informe solo recogen parte de ellas.
+
+<!-- review:begin es-lic-20261124b-docetaxel-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se registran 20 autorizaciones, de las cuales 10 están vigentes y 3 canceladas." Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-docetaxel-1 -->
 
 <!-- licenses:begin -->
 
@@ -148,11 +154,12 @@ Varios estudios de fase 2 en sarcoma de Ewing recidivante incluyen docetaxel (co
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b) |
+| 2026-11-24 | «20 autorizaciones, 10 vigentes y 3 canceladas» → sin cifras | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

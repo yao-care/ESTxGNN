@@ -97,11 +97,11 @@ Se muestran 10 de 12 autorizaciones con este principio activo en los datos de CI
 
 <!-- licenses:end -->
 
-El resto corresponde a genéricos (EFG) de Neuraxpharm (Qualigen y Asibilan) y Dari Pharma, en dosis de 5, 10 y 20 mg.
+Entre las autorizaciones hay genéricos (EFG) de Neuraxpharm (Qualigen y Asibilan, esta última revocada) y Dari Pharma, en dosis de 5, 10 y 20 mg.
 
 <!-- review:begin es-lic-20261105-imidapril-1 -->
 
-> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 12 autorizaciones vigentes (todas de monofármaco). El resto corresponde a genéricos (EFG) de Neuraxpharm (Qualigen y Asibilan) y Dari Pharma, en dosis de 5, 10 y 20 mg." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 12 autorizaciones vigentes (todas de monofármaco). El resto corresponde a genéricos (EFG) de Neuraxpharm (Qualigen y Asibilan) y Dari Pharma, en dosis de 5, 10 y 20 mg." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior; según CIMA (AEMPS), las tres presentaciones de Imidapril Asibilan (83175, 83176, 83177) están revocadas. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS). Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-imidapril-1 -->
 
@@ -135,7 +135,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-24 | Eliminado: "Se muestran 5 de las 12 autorizaciones vigentes (todas de monofármaco)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | «El resto corresponde a» → «Entre las autorizaciones hay»; Asibilan revocada | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

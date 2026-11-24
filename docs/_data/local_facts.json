@@ -21,11 +21,11 @@
   "items_current": 2442
  },
  "reviews": {
-  "records": 877,
-  "pages": 659,
-  "public_pages_with_records": 659,
+  "records": 950,
+  "pages": 673,
+  "public_pages_with_records": 673,
   "by_action": {
-   "correct": 268,
+   "correct": 341,
    "mechanism": 609
   }
  },
@@ -76,7 +76,7 @@
    "l": "L5",
    "lt": 20,
    "lv": 16,
-   "r": 1,
+   "r": 2,
    "i": "pulmonary arteriovenous malformation (disease)"
   },
   {
@@ -247,6 +247,24 @@
    "i": "Enfermedad de la cavidad nasal"
   },
   {
+   "t": "Denosumab",
+   "u": "/drugs/denosumab/",
+   "l": "L5",
+   "lt": 0,
+   "lv": 18,
+   "r": 3,
+   "i": "Retinopatía diabética no proliferativa grave"
+  },
+  {
+   "t": "Desogestrel",
+   "u": "/drugs/desogestrel/",
+   "l": "L5",
+   "lt": 10,
+   "lv": 6,
+   "r": 3,
+   "i": "amenorrhea (disease)"
+  },
+  {
    "t": "Diosmin",
    "u": "/drugs/diosmin/",
    "l": "L5",
@@ -254,24 +272,6 @@
    "lv": 9,
    "r": 3,
    "i": "amenorrhea (disease)"
-  },
-  {
-   "t": "Methionine",
-   "u": "/drugs/methionine/",
-   "l": "L5",
-   "lt": 67,
-   "lv": 50,
-   "r": 3,
-   "i": "acne (disease)"
-  },
-  {
-   "t": "Olopatadine",
-   "u": "/drugs/olopatadine/",
-   "l": "L5",
-   "lt": 9,
-   "lv": 3,
-   "r": 3,
-   "i": "Conjuntivitis rosácea"
   }
  ],
  "example": {
@@ -285,197 +285,197 @@
  },
  "recent_reviews": [
   {
-   "t": "Urofollitropin",
-   "u": "/drugs/urofollitropin/",
-   "s": "Eliminado: «no incluida en la tabla por el límite de cinco»; «todas están vigentes» → no todas (hay…",
+   "t": "Zuclopenthixol",
+   "u": "/drugs/zuclopenthixol/",
+   "s": "Eliminado: descripción de la tabla anterior y número; «Las otras tres» → «Entre ellas»",
    "d": "2026-11-24"
   },
   {
-   "t": "Rifampicin",
-   "u": "/drugs/rifampicin/",
-   "s": "«se listan las autorizaciones … como único principio activo» → la tabla incluye también combinaciones",
+   "t": "Vortioxetine",
+   "u": "/drugs/vortioxetine/",
+   "s": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto)",
    "d": "2026-11-24"
   },
   {
-   "t": "Remdesivir",
-   "u": "/drugs/remdesivir/",
-   "s": "«ambas vigentes» → 1201459001 revocada",
+   "t": "Velpatasvir",
+   "u": "/drugs/velpatasvir/",
+   "s": "Eliminado: número y «la sexta»",
    "d": "2026-11-24"
   },
   {
-   "t": "Phenylbutazone",
-   "u": "/drugs/phenylbutazone/",
-   "s": "«un solo principio activo» → combinaciones",
+   "t": "Turoctocog Alfa",
+   "u": "/drugs/turoctocog-alfa/",
+   "s": "«Existe además una sexta autorización» → «Entre las autorizaciones figura»",
    "d": "2026-11-24"
   },
   {
-   "t": "Palbociclib",
-   "u": "/drugs/palbociclib/",
-   "s": "Eliminado: «no listada por el límite de cinco»",
+   "t": "Treprostinil",
+   "u": "/drugs/treprostinil/",
+   "s": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
    "d": "2026-11-24"
   },
   {
-   "t": "Oxytetracycline",
-   "u": "/drugs/oxytetracycline/",
-   "s": "«productos de un solo principio activo» → solo 1 es monofármaco; las demás son combinaciones",
+   "t": "Tolvaptan",
+   "u": "/drugs/tolvaptan/",
+   "s": "«20 autorizaciones vigentes en total» eliminado; «de los titulares» → «entre los titulares figuran»",
    "d": "2026-11-24"
   },
   {
-   "t": "Olopatadine",
-   "u": "/drugs/olopatadine/",
-   "s": "«Las otras autorizaciones» → «Entre las autorizaciones figuran también»",
+   "t": "Tocilizumab",
+   "u": "/drugs/tocilizumab/",
+   "s": "Eliminado: descripción de la tabla anterior y número; «Las demás corresponden a» → «Entre las autorizaciones…",
    "d": "2026-11-24"
   },
   {
-   "t": "Norepinephrine",
-   "u": "/drugs/norepinephrine/",
-   "s": "«de 12 vigentes» eliminado (no todas están vigentes)",
+   "t": "Tezacaftor",
+   "u": "/drugs/tezacaftor/",
+   "s": "Eliminado: descripción de la tabla anterior y número; «las restantes» → «entre ellas»",
    "d": "2026-11-24"
   },
   {
-   "t": "Methylphenidate",
-   "u": "/drugs/methylphenidate/",
-   "s": "«las 20 … están vigentes» → algunas revocadas o suspendidas",
+   "t": "Telmisartan",
+   "u": "/drugs/telmisartan/",
+   "s": "«El resto son» → «Entre las autorizaciones hay»",
    "d": "2026-11-24"
   },
   {
-   "t": "Methionine",
-   "u": "/drugs/methionine/",
-   "s": "«La lista puede considerarse completa (1 autorización)…» → la mayoría son soluciones y emulsiones para…",
+   "t": "Sulfamethoxazole",
+   "u": "/drugs/sulfamethoxazole/",
+   "s": "Eliminado: descripción de la tabla anterior y número de autorizaciones",
    "d": "2026-11-24"
   },
   {
-   "t": "Maraviroc",
-   "u": "/drugs/maraviroc/",
-   "s": "Eliminado: «no listada arriba por el límite de cinco»",
+   "t": "Spironolactone",
+   "u": "/drugs/spironolactone/",
+   "s": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
    "d": "2026-11-24"
   },
   {
-   "t": "Insulin Degludec",
-   "u": "/drugs/insulin-degludec/",
-   "s": "«todas monocomponente» → XULTOPHY y RYZODEG son combinaciones; «las dos restantes» (fuera de la tabla…",
+   "t": "Simoctocog Alfa",
+   "u": "/drugs/simoctocog-alfa/",
+   "s": "Eliminado: descripción de la tabla anterior («las 5 primeras de 8…; las restantes…»)",
    "d": "2026-11-24"
   },
   {
-   "t": "Hexetidine",
-   "u": "/drugs/hexetidine/",
-   "s": "«de un solo principio activo» → combinación con fluocinonida y ruscogenina",
+   "t": "Sertaconazole",
+   "u": "/drugs/sertaconazole/",
+   "s": "Eliminado: descripción de la tabla anterior y número de autorizaciones",
    "d": "2026-11-24"
   },
   {
-   "t": "Golimumab",
-   "u": "/drugs/golimumab/",
-   "s": "Eliminado: descripción de la tabla anterior («la tabla muestra las 5 principales; las otras dos…»)",
+   "t": "Safinamide",
+   "u": "/drugs/safinamide/",
+   "s": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto)",
    "d": "2026-11-24"
   },
   {
-   "t": "Gadobenic Acid",
-   "u": "/drugs/gadobenic-acid/",
-   "s": "«ambas vigentes» → 71048 suspendida",
+   "t": "Sacubitril",
+   "u": "/drugs/sacubitril/",
+   "s": "«20 autorizaciones vigentes en total» eliminado",
    "d": "2026-11-24"
   },
   {
-   "t": "Fosaprepitant",
-   "u": "/drugs/fosaprepitant/",
-   "s": "Eliminado: descripción de la tabla anterior («se muestran 5 de las 6…; la sexta es…»)",
+   "t": "Ruxolitinib",
+   "u": "/drugs/ruxolitinib/",
+   "s": "«Existe además una sexta autorización» → «Entre las autorizaciones figura»",
    "d": "2026-11-24"
   },
   {
-   "t": "Ephedrine",
-   "u": "/drugs/ephedrine/",
-   "s": "«todas de composición simple» → 3 son combinaciones",
+   "t": "Ranibizumab",
+   "u": "/drugs/ranibizumab/",
+   "s": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
    "d": "2026-11-24"
   },
   {
-   "t": "Salmeterol",
-   "u": "/drugs/salmeterol/",
-   "s": "Autorizaciones vigentes: 9 → 5 de 9 (4 revocadas)",
+   "t": "Pseudoephedrine",
+   "u": "/drugs/pseudoephedrine/",
+   "s": "«12 autorizaciones vigentes en total» → sin cifra",
    "d": "2026-11-24"
   },
   {
-   "t": "Phenytoin",
-   "u": "/drugs/phenytoin/",
-   "s": "Autorizaciones vigentes: 6 → 4 (65340 y 65303 revocadas)",
+   "t": "Propranolol",
+   "u": "/drugs/propranolol/",
+   "s": "Eliminado: descripción de la tabla anterior y número; «Las restantes» → «entre ellas»",
    "d": "2026-11-24"
   },
   {
-   "t": "Indacaterol",
-   "u": "/drugs/indacaterol/",
-   "s": "\"12 autorizaciones vigentes\" → 12 autorizaciones (2 comercializadas, 6 autorizadas no comercializadas, 4…",
+   "t": "Plerixafor",
+   "u": "/drugs/plerixafor/",
+   "s": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
    "d": "2026-11-24"
   },
   {
-   "t": "Codeine",
-   "u": "/drugs/codeine/",
-   "s": "La sexta autorización (20709, Fludan Codeína) está revocada, no vigente",
+   "t": "Piroxicam",
+   "u": "/drugs/piroxicam/",
+   "s": "«Las demás autorizaciones corresponden a» → «Entre las autorizaciones hay»",
    "d": "2026-11-24"
   },
   {
-   "t": "Xylometazoline",
-   "u": "/drugs/xylometazoline/",
-   "s": "Eliminado: \"Hay 9 autorizaciones vigentes en total (todas de fármaco único según el registro); aquí se listan…",
+   "t": "Pertuzumab",
+   "u": "/drugs/pertuzumab/",
+   "s": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
    "d": "2026-11-24"
   },
   {
-   "t": "Vinorelbine",
-   "u": "/drugs/vinorelbine/",
-   "s": "Eliminado: \"Hay 16 autorizaciones vigentes en total (todas de monofármaco, ninguna cancelada), con…",
+   "t": "Perampanel",
+   "u": "/drugs/perampanel/",
+   "s": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto)",
    "d": "2026-11-24"
   },
   {
-   "t": "Vilanterol",
-   "u": "/drugs/vilanterol/",
-   "s": "Eliminado: \"Se listan 5 de las 20 autorizaciones vigentes (todas de tipo monofármaco según el registro; los…",
+   "t": "Paliperidone",
+   "u": "/drugs/paliperidone/",
+   "s": "«20 autorizaciones vigentes» → sin cifra",
    "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Urofollitropin",
-   "u": "/drugs/urofollitropin/",
-   "s": "Eliminado: «no incluida en la tabla por el límite de cinco»; «todas están vigentes» → no todas (hay…",
+   "t": "Zuclopenthixol",
+   "u": "/drugs/zuclopenthixol/",
+   "s": "Eliminado: descripción de la tabla anterior y número; «Las otras tres» → «Entre ellas»",
    "d": "2026-11-24"
   },
   {
-   "t": "Rifampicin",
-   "u": "/drugs/rifampicin/",
-   "s": "«se listan las autorizaciones … como único principio activo» → la tabla incluye también combinaciones",
+   "t": "Vortioxetine",
+   "u": "/drugs/vortioxetine/",
+   "s": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto)",
    "d": "2026-11-24"
   },
   {
-   "t": "Remdesivir",
-   "u": "/drugs/remdesivir/",
-   "s": "«ambas vigentes» → 1201459001 revocada",
+   "t": "Velpatasvir",
+   "u": "/drugs/velpatasvir/",
+   "s": "Eliminado: número y «la sexta»",
    "d": "2026-11-24"
   },
   {
-   "t": "Phenylbutazone",
-   "u": "/drugs/phenylbutazone/",
-   "s": "«un solo principio activo» → combinaciones",
+   "t": "Turoctocog Alfa",
+   "u": "/drugs/turoctocog-alfa/",
+   "s": "«Existe además una sexta autorización» → «Entre las autorizaciones figura»",
    "d": "2026-11-24"
   },
   {
-   "t": "Palbociclib",
-   "u": "/drugs/palbociclib/",
-   "s": "Eliminado: «no listada por el límite de cinco»",
+   "t": "Treprostinil",
+   "u": "/drugs/treprostinil/",
+   "s": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
    "d": "2026-11-24"
   },
   {
-   "t": "Oxytetracycline",
-   "u": "/drugs/oxytetracycline/",
-   "s": "«productos de un solo principio activo» → solo 1 es monofármaco; las demás son combinaciones",
+   "t": "Tolvaptan",
+   "u": "/drugs/tolvaptan/",
+   "s": "«20 autorizaciones vigentes en total» eliminado; «de los titulares» → «entre los titulares figuran»",
    "d": "2026-11-24"
   },
   {
-   "t": "Olopatadine",
-   "u": "/drugs/olopatadine/",
-   "s": "«Las otras autorizaciones» → «Entre las autorizaciones figuran también»",
+   "t": "Tocilizumab",
+   "u": "/drugs/tocilizumab/",
+   "s": "Eliminado: descripción de la tabla anterior y número; «Las demás corresponden a» → «Entre las autorizaciones…",
    "d": "2026-11-24"
   },
   {
-   "t": "Norepinephrine",
-   "u": "/drugs/norepinephrine/",
-   "s": "«de 12 vigentes» eliminado (no todas están vigentes)",
+   "t": "Tezacaftor",
+   "u": "/drugs/tezacaftor/",
+   "s": "Eliminado: descripción de la tabla anterior y número; «las restantes» → «entre ellas»",
    "d": "2026-11-24"
   }
  ],

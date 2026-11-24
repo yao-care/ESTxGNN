@@ -71,7 +71,13 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 13 autorizaciones vigentes (todas del parche transdérmico EVRA, sin cancelaciones).
+Todas las autorizaciones corresponden al parche transdérmico EVRA y ninguna está cancelada.
+
+<!-- review:begin es-lic-20261124b-norelgestromin-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 13 autorizaciones vigentes (todas del parche transdérmico EVRA, sin cancelaciones)." Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-norelgestromin-1 -->
 
 <!-- licenses:begin -->
 
@@ -82,8 +88,13 @@ Se muestran 5 de las 13 autorizaciones vigentes (todas del parche transdérmico 
 | 02223002IP2 | EVRA 203 MICROGRAMOS/24 HORAS + 33,9 MICROGRAMOS/24 HORAS PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Janssen-Cilag International N.V | Comercializada |
 | 02223001IP1 | EVRA 203 MICROGRAMOS/24 hORAS + 33,9 MICROGRAMOS/24 HORAS PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Janssen-Cilag International N.V | Comercializada |
 | 02223001IP2 | EVRA 203 MICROGRAMOS/24 HORAS + 33,9 MICROGRAMOS/24 HORAS PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Janssen-Cilag International N.V | Comercializada |
+| 02223002IP4 | EVRA 203 MICROGRAMOS/24 HORAS + 33,9 MICROGRAMOS/24 HORAS PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Gedeon Richter Plc. | Comercializada |
+| 02223002IP1 | EVRA 203 MICROGRAMOS/24 HORAS + 33,9 MICROGRAMOS/24 HORAS PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Janssen-Cilag International N.V | Comercializada |
+| 02223002 | EVRA 203 MICROGRAMOS/24 HORAS + 33,9 MICROGRAMOS/24 HORAS PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Gedeon Richter Plc. | Comercializada |
+| 02223001IP3 | EVRA 203 MICROGRAMOS/24 HORAS + 33,9 MICROGRAMOS/24 HORAS PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Janssen-Cilag International N.V | Comercializada |
+| 02223001IP | EVRA 203 MICROGRAMOS/24 HORAS + 33,9 MICROGRAMOS/24 HORAS PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Janssen-Cilag International N.V | Autorizada, no comercializada |
 
-Se muestran 5 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
@@ -113,11 +124,12 @@ La predicción se sustenta únicamente en el modelo (nivel L5), sin ensayos ni l
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: norelgestromin and ethinyl estradiol prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10fa1458-c8ed-4197-922a-1ba7271d2b02) |
+| 2026-11-24 | Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

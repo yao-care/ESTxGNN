@@ -90,7 +90,13 @@ Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA 
 
 <!-- licenses:end -->
 
-Existe una autorización adicional (61126, LOMEXIN 200 mg cápsulas vaginales blandas). Las 6 autorizaciones están vigentes.
+Entre las autorizaciones figura LOMEXIN 200 mg cápsulas vaginales blandas (61126). Las 6 autorizaciones están vigentes.
+
+<!-- review:begin es-lic-20261124b-fenticonazole-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Existe una autorización adicional (61126, LOMEXIN 200 mg cápsulas vaginales blandas)." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-fenticonazole-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -107,6 +113,18 @@ No hay ensayos clínicos ni estudios que evalúen directamente fenticonazol en l
 - Estudios in vitro frente a *Trichomonas vaginalis* y, si resultan favorables, ensayos clínicos comparativos frente a metronidazol o tinidazol
 - Datos del mecanismo de acción frente a tricomonas
 - Información de seguridad y contraindicaciones del prospecto de la AEMPS
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «Existe una autorización adicional» → «Entre las autorizaciones figura» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

@@ -89,7 +89,7 @@ Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA 
 
 <!-- licenses:end -->
 
-Hay una sexta autorización, revocada (20709, Fludan Codeína 10 mg/5 ml solución oral, Faes Farma).
+Entre las autorizaciones figura una revocada (20709, Fludan Codeína 10 mg/5 ml solución oral, Faes Farma).
 
 <!-- review:begin es-lic-20261105-codeine-1 -->
 
@@ -99,7 +99,7 @@ Hay una sexta autorización, revocada (20709, Fludan Codeína 10 mg/5 ml soluci�
 
 <!-- review:begin es-lic-20261112-codeine-1 -->
 
-> **Corrección de revisión (2026-11-24)**: Texto original: "Hay una sexta autorización vigente (20709" Según CIMA (AEMPS), datos del 2026-11-09, la autorización 20709 (Fludan Codeína 10 mg/5 ml solución oral) figura como revocada; también lo está 65343. El estado de cada autorización figura en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay una sexta autorización vigente (20709" Según CIMA (AEMPS), la autorización 20709 (Fludan Codeína 10 mg/5 ml solución oral) figura como revocada; también lo está 65343. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye ambas. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261112-codeine-1 -->
 
@@ -136,7 +136,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-24 | Eliminado: "Las 6 autorizaciones son de monofármaco y están vigentes" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
-| 2026-11-24 | La sexta autorización (20709, Fludan Codeína) está revocada, no vigente | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | «Hay una sexta autorización vigente» → figura una revocada (20709) | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293) |
 
 <!-- review:end log -->

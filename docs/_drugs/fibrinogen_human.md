@@ -109,7 +109,13 @@ Se muestran 10 de 12 autorizaciones con este principio activo en los datos de CI
 
 <!-- licenses:end -->
 
-Las restantes autorizaciones corresponden a adhesivos tisulares (VERASEAL, RAPLIXA, ARTISS, TISSEEL y otras presentaciones de TACHOSIL).
+Entre las autorizaciones figuran adhesivos tisulares, combinaciones con trombina humana (VERASEAL, RAPLIXA, ARTISS, TISSEEL y presentaciones de TACHOSIL).
+
+<!-- review:begin es-lic-20261124b-fibrinogen_human-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Las restantes autorizaciones corresponden a adhesivos tisulares (VERASEAL, RAPLIXA, ARTISS, TISSEEL y otras presentaciones de TACHOSIL)." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-fibrinogen_human-1 -->
 
 ---
 
@@ -145,6 +151,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-24 | Eliminado: "Se listan 5 de las 12 autorizaciones vigentes (todas de tipo monofármaco)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | «Las restantes autorizaciones» → «Entre las autorizaciones» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

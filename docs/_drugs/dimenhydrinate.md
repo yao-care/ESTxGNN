@@ -104,11 +104,11 @@ Se muestran 10 de 19 autorizaciones con este principio activo en los datos de CI
 
 <!-- licenses:end -->
 
-Entre las demás hay comprimidos, supositorios y cápsulas duras, así como asociaciones con cafeína.
+Entre las autorizaciones hay comprimidos, supositorios y cápsulas duras, así como asociaciones con cafeína.
 
 <!-- review:begin es-lic-20261105-dimenhydrinate-1 -->
 
-> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamento con un solo principio activo; ninguna cancelada). Entre las demás hay comprimidos, supositorios y cápsulas duras, así como asociaciones con cafeína." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamento con un solo principio activo; ninguna cancelada). Entre las demás hay comprimidos, supositorios y cápsulas duras, así como asociaciones con cafeína." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-dimenhydrinate-1 -->
 
@@ -146,7 +146,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-24 | Eliminado: "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamento con un solo principio activo; ninguna cancelada)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | «Entre las demás» → «Entre las autorizaciones» | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: dimenhydrinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc71539e-1a33-4709-8a24-c2894e8dbc1c) |
 
 <!-- review:end log -->

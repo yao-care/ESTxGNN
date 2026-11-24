@@ -9,7 +9,7 @@
   "with_current": 41,
   "none_current": 4,
   "without_data": 16,
-  "with_reviews": 37,
+  "with_reviews": 39,
   "rows": [
    {
     "t": "Bendamustine",
@@ -29,8 +29,8 @@
     "i": "eye disease",
     "lt": 8,
     "lv": 7,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
     "x": 0
    },
    {
@@ -216,8 +216,8 @@
     "i": "Insomnio",
     "lt": 0,
     "lv": 18,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "«De las 20…, 18 vigentes y 2 canceladas» → sin cifras",
     "x": 0
    },
    {
@@ -227,8 +227,8 @@
     "i": "Sarcoma de Ewing",
     "lt": 0,
     "lv": 10,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«20 autorizaciones, 10 vigentes y 3 canceladas» → sin cifras",
     "x": 0
    },
    {
@@ -543,7 +543,7 @@
   "with_current": 75,
   "none_current": 2,
   "without_data": 16,
-  "with_reviews": 58,
+  "with_reviews": 59,
   "rows": [
    {
     "t": "Abatacept",
@@ -618,8 +618,8 @@
     "i": "primary cutaneous T-cell lymphoma",
     "lt": 7,
     "lv": 7,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones; «Las otras dos son» → «Entre las…",
     "x": 0
    },
    {
@@ -629,8 +629,8 @@
     "i": "Síndrome de piernas inquietas",
     "lt": 10,
     "lv": 8,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número; «Entre las restantes» → «Entre ellas»",
     "x": 0
    },
    {
@@ -663,7 +663,7 @@
     "lt": 6,
     "lv": 5,
     "r": 2,
-    "rs": "Eliminado: \"Las 6 autorizaciones están vigentes, son de principio activo único y no hay ninguna cancelada\"",
+    "rs": "«Existe además una sexta autorización» → «figura también»",
     "x": 0
    },
    {
@@ -740,7 +740,7 @@
     "lt": 0,
     "lv": 9,
     "r": 2,
-    "rs": "Eliminado: \"Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único)\"",
+    "rs": "«no hay forma oral» → hay comprimidos (DORMICUM 7,5 mg)",
     "x": 0
    },
    {
@@ -816,8 +816,8 @@
     "i": "Espondilitis anquilosante",
     "lt": 11,
     "lv": 10,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número; «Las demás corresponden a» → «Entre las autorizaciones…",
     "x": 0
    },
    {
@@ -849,8 +849,8 @@
     "i": "Infección por el virus de la hepatitis B",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: número y «la sexta»",
     "x": 0
    },
    {
@@ -882,8 +882,8 @@
     "i": "Mucinosis folicular",
     "lt": 10,
     "lv": 9,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones",
     "x": 0
    },
    {
@@ -1102,8 +1102,8 @@
     "i": "Artritis reumatoide",
     "lt": 8,
     "lv": 8,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones",
     "x": 0
    },
    {
@@ -1235,7 +1235,7 @@
     "lt": 15,
     "lv": 13,
     "r": 2,
-    "rs": "Eliminado: \"Se muestran 5 de las 15 autorizaciones vigentes (todas de medicamentos de un solo principio…",
+    "rs": "«El resto corresponde a» → «Entre las autorizaciones hay»; los de Teva revocados",
     "x": 0
    },
    {
@@ -1388,8 +1388,8 @@
     "i": "Trastorno neurótico",
     "lt": 0,
     "lv": 2,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto)",
     "x": 0
    }
   ],
@@ -1420,7 +1420,7 @@
   "with_current": 637,
   "none_current": 70,
   "without_data": 140,
-  "with_reviews": 564,
+  "with_reviews": 575,
   "rows": [
    {
     "t": "Ethinylestradiol",
@@ -1473,8 +1473,8 @@
     "i": "Neoplasia del nervio trigémino",
     "lt": 0,
     "lv": 19,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto)",
     "x": 0
    },
    {
@@ -1495,8 +1495,8 @@
     "i": "Acné",
     "lt": 0,
     "lv": 18,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto)",
     "x": 0
    },
    {
@@ -1506,8 +1506,8 @@
     "i": "Retinopatía diabética no proliferativa grave",
     "lt": 0,
     "lv": 18,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 3,
+    "rs": "«Las 15 autorizaciones restantes» → «Entre las autorizaciones»",
     "x": 0
    },
    {
@@ -1539,8 +1539,8 @@
     "i": "hiperamilasemia",
     "lt": 0,
     "lv": 17,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«17 autorizaciones vigentes y 3 canceladas» → sin cifras",
     "x": 0
    },
    {
@@ -1572,8 +1572,8 @@
     "i": "Enfermedad de las arterias coronarias",
     "lt": 0,
     "lv": 17,
-    "r": 2,
-    "rs": "Eliminado: \"Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, ninguna…",
+    "r": 3,
+    "rs": "«son comprimidos recubiertos … y bucodispersables» → también liofilizados orales y solución oral",
     "x": 0
    },
    {
@@ -1594,8 +1594,8 @@
     "i": "Conjuntivitis contagiosa aguda",
     "lt": 0,
     "lv": 17,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 3,
+    "rs": "«Otras presentaciones incluyen» → «Entre las presentaciones hay también»",
     "x": 0
    },
    {
@@ -1627,8 +1627,8 @@
     "i": "dermatofibrosarcoma protuberans",
     "lt": 0,
     "lv": 17,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto)",
     "x": 0
    },
    {
@@ -1671,8 +1671,8 @@
     "i": "Enfermedad pulmonar obstructiva",
     "lt": 0,
     "lv": 16,
-    "r": 1,
-    "rs": "Eliminado: \"Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos con un solo principio…",
+    "r": 2,
+    "rs": "«Las 15 autorizaciones restantes» → «Entre las autorizaciones»; Emerade revocada",
     "x": 0
    },
    {
@@ -1682,8 +1682,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 0,
     "lv": 16,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«16 autorizaciones vigentes» → sin cifra",
     "x": 0
    },
    {
@@ -1770,8 +1770,8 @@
     "i": "renal-hepatic-pancreatic dysplasia",
     "lt": 0,
     "lv": 16,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "«20 autorizaciones vigentes en total» eliminado; «de los titulares» → «entre los titulares figuran»",
     "x": 0
    },
    {
@@ -1792,8 +1792,8 @@
     "i": "pulmonary arteriovenous malformation (disease)",
     "lt": 20,
     "lv": 16,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
     "x": 0
    },
    {
@@ -1924,8 +1924,8 @@
     "i": "Hipervitaminosis",
     "lt": 0,
     "lv": 15,
-    "r": 1,
-    "rs": "Eliminado: \"Se identificaron 20 autorizaciones vigentes, todas de monofármaco y ninguna cancelada\"",
+    "r": 2,
+    "rs": "«Entre las demás» → «Entre las autorizaciones»; Orlistat Aristo revocada",
     "x": 0
    },
    {
@@ -2133,8 +2133,8 @@
     "i": "Angina de Prinzmetal",
     "lt": 0,
     "lv": 14,
-    "r": 2,
-    "rs": "Eliminado: \"Telmisartán está comercializado en España con 20 autorizaciones vigentes, todas de medicamento…",
+    "r": 3,
+    "rs": "«El resto son» → «Entre las autorizaciones hay»",
     "x": 0
    },
    {
@@ -2232,8 +2232,8 @@
     "i": "hypermobility of coccyx",
     "lt": 13,
     "lv": 13,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
     "x": 0
    },
    {
@@ -2320,8 +2320,8 @@
     "i": "beta-ketothiolase deficiency",
     "lt": 0,
     "lv": 13,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto)",
     "x": 0
    },
    {
@@ -2375,8 +2375,8 @@
     "i": "infarto del tronco encefálico",
     "lt": 0,
     "lv": 12,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«20 autorizaciones…, 11 vigentes y 6 canceladas» → sin cifras",
     "x": 0
    },
    {
@@ -2397,8 +2397,8 @@
     "i": "gout",
     "lt": 12,
     "lv": 12,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones",
     "x": 0
    },
    {
@@ -2408,8 +2408,8 @@
     "i": "síndrome de hiperviscosidad policlonal",
     "lt": 0,
     "lv": 12,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«13 vigentes según los datos locales» eliminado",
     "x": 0
    },
    {
@@ -2475,7 +2475,7 @@
     "lt": 19,
     "lv": 12,
     "r": 2,
-    "rs": "Eliminado: \"Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamento con un solo principio…",
+    "rs": "«Entre las demás» → «Entre las autorizaciones»",
     "x": 0
    },
    {
@@ -2485,8 +2485,8 @@
     "i": "Trastorno de liberación primaria de las plaquetas",
     "lt": 0,
     "lv": 12,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 3,
+    "rs": "«Las 20 autorizaciones corresponden a» → «Entre las autorizaciones figuran»; también Tevagrastim",
     "x": 0
    },
    {
@@ -2573,8 +2573,8 @@
     "i": "renal tubular acidosis",
     "lt": 12,
     "lv": 12,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
     "x": 0
    },
    {
@@ -2585,7 +2585,7 @@
     "lt": 0,
     "lv": 12,
     "r": 2,
-    "rs": "Eliminado: \"Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos monocomponente)\"",
+    "rs": "«Entre las restantes» → «Entre las autorizaciones»",
     "x": 0
    },
    {
@@ -2595,8 +2595,8 @@
     "i": "Distrofia retiniana con o sin anomalías extraoculares",
     "lt": 0,
     "lv": 12,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«20 autorizaciones vigentes» → sin cifra",
     "x": 0
    },
    {
@@ -2694,8 +2694,8 @@
     "i": "faciodigitogenital syndrome",
     "lt": 11,
     "lv": 11,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«Las otras 6» → «Entre las autorizaciones figuran»; Paxneury también 1 mg",
     "x": 0
    },
    {
@@ -2749,8 +2749,8 @@
     "i": "dermatofibrosarcoma protuberans",
     "lt": 12,
     "lv": 11,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
     "x": 0
    },
    {
@@ -2782,8 +2782,8 @@
     "i": "Miopatía distal tipo Tateyama",
     "lt": 11,
     "lv": 11,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número; «Las restantes» → «entre ellas»",
     "x": 0
    },
    {
@@ -2793,8 +2793,8 @@
     "i": "nasal cavity disease",
     "lt": 0,
     "lv": 11,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "«12 autorizaciones vigentes en total» → sin cifra",
     "x": 0
    },
    {
@@ -2804,8 +2804,8 @@
     "i": "Encefalitis subaguda de Rasmussen",
     "lt": 0,
     "lv": 11,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto)",
     "x": 0
    },
    {
@@ -3179,7 +3179,7 @@
     "lt": 12,
     "lv": 9,
     "r": 1,
-    "rs": "Eliminado: \"Se muestran 5 de las 12 autorizaciones vigentes (todas de monofármaco)\"",
+    "rs": "«El resto corresponde a» → «Entre las autorizaciones hay»; Asibilan revocada",
     "x": 0
    },
    {
@@ -3211,8 +3211,8 @@
     "i": "amenorrhea (disease)",
     "lt": 13,
     "lv": 9,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
     "x": 0
    },
    {
@@ -3310,8 +3310,8 @@
     "i": "uterine ligament adenocarcinoma",
     "lt": 11,
     "lv": 8,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones",
     "x": 0
    },
    {
@@ -3388,7 +3388,7 @@
     "lt": 10,
     "lv": 8,
     "r": 2,
-    "rs": "Eliminado: \"Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco)\"",
+    "rs": "«Las demás corresponden a» → «Entre las autorizaciones figuran»",
     "x": 0
    },
    {
@@ -3398,8 +3398,8 @@
     "i": "autoimmune oophoritis",
     "lt": 9,
     "lv": 8,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
     "x": 0
    },
    {
@@ -3431,8 +3431,8 @@
     "i": "gastroduodenitis",
     "lt": 8,
     "lv": 8,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«Las tres restantes son» → «Entre las autorizaciones figuran»",
     "x": 0
    },
    {
@@ -3475,8 +3475,8 @@
     "i": "diabetes mellitus type 2 associated cataract",
     "lt": 11,
     "lv": 8,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
     "x": 0
    },
    {
@@ -3486,8 +3486,8 @@
     "i": "Hipotricosis simple del cuero cabelludo",
     "lt": 9,
     "lv": 8,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
     "x": 0
    },
    {
@@ -3508,8 +3508,8 @@
     "i": "HIV infectious disease",
     "lt": 8,
     "lv": 8,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número; «las restantes» → «entre ellas»",
     "x": 0
    },
    {
@@ -3519,8 +3519,8 @@
     "i": "hipermovilidad del cóccix",
     "lt": 0,
     "lv": 7,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«8 autorizaciones vigentes y 4 canceladas» → sin cifras (solo correspondían a parte de los datos)",
     "x": 0
    },
    {
@@ -3585,8 +3585,8 @@
     "i": "hemoglobinopathy",
     "lt": 12,
     "lv": 7,
-    "r": 1,
-    "rs": "Eliminado: \"Se listan 5 de las 12 autorizaciones vigentes (todas de tipo monofármaco)\"",
+    "r": 2,
+    "rs": "«Las restantes autorizaciones» → «Entre las autorizaciones»",
     "x": 0
    },
    {
@@ -3608,7 +3608,7 @@
     "lt": 11,
     "lv": 7,
     "r": 2,
-    "rs": "Eliminado: \"Se muestran 5 de las 11 autorizaciones vigentes (todas de monofármaco)\"",
+    "rs": "«El resto incluye» → «Entre las autorizaciones hay también»",
     "x": 0
    },
    {
@@ -3629,8 +3629,8 @@
     "i": "Conjuntivitis",
     "lt": 7,
     "lv": 7,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones",
     "x": 0
    },
    {
@@ -3640,8 +3640,8 @@
     "i": "autosomal ichthyosis syndrome with fatal disease course",
     "lt": 7,
     "lv": 7,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
     "x": 0
    },
    {
@@ -3673,8 +3673,8 @@
     "i": "Conjuntivitis contagiosa aguda",
     "lt": 7,
     "lv": 7,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones",
     "x": 0
    },
    {
@@ -3706,8 +3706,8 @@
     "i": "Distrofia retiniana con o sin anomalías extraoculares",
     "lt": 8,
     "lv": 7,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: descripción de la tabla anterior y número; «Las otras tres» → «Entre ellas»",
     "x": 0
    },
    {
@@ -3805,8 +3805,8 @@
     "i": "amenorrhea (disease)",
     "lt": 10,
     "lv": 6,
-    "r": 2,
-    "rs": "Eliminado: \"Desogestrel es un progestágeno utilizado en España como anticonceptivo oral de solo gestágeno (75…",
+    "r": 3,
+    "rs": "«otras 5 autorizaciones vigentes» → NACREZ y DESOGESTREL STADA están revocadas",
     "x": 0
    },
    {
@@ -3816,8 +3816,8 @@
     "i": "amenorrhea (disease)",
     "lt": 7,
     "lv": 6,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
     "x": 0
    },
    {
@@ -3849,8 +3849,8 @@
     "i": "vulvovaginitis por tricomonas",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "«Existe una autorización adicional» → «Entre las autorizaciones figura»",
     "x": 0
    },
    {
@@ -3860,8 +3860,8 @@
     "i": "osteoarthritis",
     "lt": 8,
     "lv": 6,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior; «las otras 3 son» → «Entre las autorizaciones figuran»",
     "x": 0
    },
    {
@@ -3894,7 +3894,7 @@
     "lt": 6,
     "lv": 6,
     "r": 1,
-    "rs": "Eliminado: «no listada arriba por el límite de cinco»",
+    "rs": "Eliminado: «no listada arriba por el límite de cinco»; «Existe una sexta autorización» → «Entre las…",
     "x": 0
    },
    {
@@ -3937,8 +3937,8 @@
     "i": "CMM7",
     "lt": 8,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
     "x": 0
    },
    {
@@ -3970,8 +3970,8 @@
     "i": "uterine corpus perivascular epithelioid cell tumor",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«Existe además una sexta autorización» → «Entre las autorizaciones figura»",
     "x": 0
    },
    {
@@ -4091,8 +4091,8 @@
     "i": "postinfectious vasculitis",
     "lt": 7,
     "lv": 5,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número",
     "x": 0
    },
    {
@@ -4235,7 +4235,7 @@
     "lt": 9,
     "lv": 5,
     "r": 2,
-    "rs": "Eliminado: \"Hay 9 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se…",
+    "rs": "«Entre las restantes» → «Entre las autorizaciones»",
     "x": 0
    },
    {
@@ -4245,8 +4245,8 @@
     "i": "Candidiasis vulvovaginal",
     "lt": 6,
     "lv": 5,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«Hay una sexta autorización…, para un total de 6» → «Entre las autorizaciones figura»",
     "x": 0
    },
    {
@@ -4278,8 +4278,8 @@
     "i": "Trastorno de liberación primaria de las plaquetas",
     "lt": 9,
     "lv": 5,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
     "x": 0
    },
    {
@@ -4301,7 +4301,7 @@
     "lt": 8,
     "lv": 5,
     "r": 2,
-    "rs": "Eliminado: \"Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco)\"",
+    "rs": "«Las otras tres corresponden a» → «figuran también»",
     "x": 0
    },
    {
@@ -4323,7 +4323,7 @@
     "lt": 11,
     "lv": 5,
     "r": 2,
-    "rs": "Eliminado: \"Se muestran 5 de las 11 autorizaciones vigentes (todas monofármaco)\"",
+    "rs": "«Entre las restantes» → «Entre las autorizaciones»; Akynzeo en polvo es fosnetupitant + palonosetrón",
     "x": 0
    },
    {
@@ -4344,8 +4344,8 @@
     "i": "ectomesenchymoma",
     "lt": 6,
     "lv": 5,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
     "x": 0
    },
    {
@@ -4377,8 +4377,8 @@
     "i": "Enfermedad infecciosa ectotrix",
     "lt": 7,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones",
     "x": 0
    },
    {
@@ -4388,8 +4388,8 @@
     "i": "Pseudo-enfermedad de von Willebrand",
     "lt": 8,
     "lv": 5,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior («las 5 primeras de 8…; las restantes…»)",
     "x": 0
    },
    {
@@ -4598,7 +4598,7 @@
     "lt": 6,
     "lv": 4,
     "r": 3,
-    "rs": "La sexta autorización (20709, Fludan Codeína) está revocada, no vigente",
+    "rs": "«Hay una sexta autorización vigente» → figura una revocada (20709)",
     "x": 0
    },
    {
@@ -4609,7 +4609,7 @@
     "lt": 6,
     "lv": 4,
     "r": 2,
-    "rs": "Eliminado: \"Se muestran 5 de las 6 autorizaciones vigentes (todas de principio activo único)\"",
+    "rs": "Eliminado: «Se muestran 5 de las 6…»; «La sexta es» → «Entre las autorizaciones figura»",
     "x": 0
    },
    {
@@ -4620,7 +4620,7 @@
     "lt": 6,
     "lv": 4,
     "r": 2,
-    "rs": "Eliminado: \"Todas son autorizaciones vigentes de producto único (ninguna cancelada)\"",
+    "rs": "«Hay una sexta autorización vigente» → figura; «todas de producto único (ninguna cancelada)» eliminado",
     "x": 0
    },
    {
@@ -4785,7 +4785,7 @@
     "lt": 10,
     "lv": 4,
     "r": 1,
-    "rs": "Eliminado: \"Se muestran 5 de las 10 autorizaciones vigentes; todas son de preparados con un único principio…",
+    "rs": "«Entre las restantes figuran otras presentaciones» → «Entre las autorizaciones figuran varias presentaciones»",
     "x": 0
    },
    {
@@ -4850,8 +4850,8 @@
     "i": "Enfermedad de pseudo-von Willebrand",
     "lt": 7,
     "lv": 4,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior, número y «las otras dos»",
     "x": 0
    },
    {
@@ -4862,7 +4862,7 @@
     "lt": 8,
     "lv": 4,
     "r": 2,
-    "rs": "Eliminado: \"Se muestran 5 de las 8 autorizaciones vigentes (todas de medicamento monocomponente)\"",
+    "rs": "«Las restantes corresponden a» → «figuran también»; Melfalan Medac revocada",
     "x": 0
    },
    {
@@ -4928,7 +4928,7 @@
     "lt": 6,
     "lv": 4,
     "r": 2,
-    "rs": "Autorizaciones vigentes: 6 → 4 (65340 y 65303 revocadas)",
+    "rs": "«Hay una sexta autorización (65303…), revocada» → 65303 incluida en la frase sobre las revocadas",
     "x": 0
    },
    {
@@ -4982,8 +4982,8 @@
     "i": "brain small vessel disease 1 with or without ocular anomalies",
     "lt": 0,
     "lv": 4,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«20 autorizaciones vigentes en total» eliminado",
     "x": 0
    },
    {
@@ -5049,7 +5049,7 @@
     "lt": 10,
     "lv": 4,
     "r": 1,
-    "rs": "Eliminado: \"Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco)\"",
+    "rs": "«Las restantes corresponden a» → «figuran también»; estado de Triflusal Farmalider y Triflusal Aristo",
     "x": 0
    },
    {
@@ -5158,8 +5158,8 @@
     "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
     "lt": 4,
     "lv": 3,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«comercializada … en polvo para solución inyectable» → la presentación inyectable está revocada",
     "x": 0
    },
    {
@@ -5191,8 +5191,8 @@
     "i": "liposarcoma",
     "lt": 6,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "«se comercializa … en cápsulas duras (Cometriq)» → Cometriq autorizado pero no comercializado",
     "x": 0
    },
    {
@@ -5401,7 +5401,7 @@
     "lt": 6,
     "lv": 3,
     "r": 2,
-    "rs": "Eliminado: \"Todas son monofármaco y están vigentes\"",
+    "rs": "«Hay una sexta autorización vigente» → «Entre las autorizaciones vigentes figura»",
     "x": 0
    },
    {
@@ -5444,8 +5444,8 @@
     "i": "malignant hypertensive renal disease",
     "lt": 6,
     "lv": 3,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: «no mostrada para respetar el límite de cinco filas»",
     "x": 0
    },
    {
@@ -5511,7 +5511,7 @@
     "lt": 6,
     "lv": 3,
     "r": 2,
-    "rs": "Eliminado: «no listada por el límite de cinco»",
+    "rs": "Eliminado: «no listada por el límite de cinco»; «Hay una sexta autorización» → «Entre las autorizaciones…",
     "x": 0
    },
    {
@@ -6027,8 +6027,8 @@
     "i": "focal stiff limb syndrome",
     "lt": 8,
     "lv": 2,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
     "x": 0
    },
    {
@@ -6270,7 +6270,7 @@
     "lt": 8,
     "lv": 2,
     "r": 2,
-    "rs": "Eliminado: \"Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco)\"",
+    "rs": "«Las restantes son» → «figuran también»; estado de ORUDIS RETARD y KETOPROFENO DOMPE",
     "x": 0
    },
    {
@@ -7314,8 +7314,8 @@
     "i": "prostate leiomyoma",
     "lt": 17,
     "lv": 1,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
     "x": 0
    },
    {
@@ -7919,8 +7919,8 @@
     "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
     "lt": 9,
     "lv": 1,
-    "r": 2,
-    "rs": "Eliminado: \"Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único)\"",
+    "r": 3,
+    "rs": "«Las demás autorizaciones corresponden a» → «Entre las autorizaciones hay»",
     "x": 0
    },
    {
@@ -9184,8 +9184,8 @@
     "i": "Trastorno de liberación primaria de las plaquetas",
     "lt": 6,
     "lv": 0,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«Existe además una sexta autorización» → «Entre las autorizaciones figura»",
     "x": 0
    },
    {

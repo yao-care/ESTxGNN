@@ -91,12 +91,23 @@ Actualmente no hay literatura relacionada disponible.
 | 84656 | PROPRANOLOL AUROVITAS 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
 | 84649 | PROPRANOLOL AUROVITAS 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
 | 77175 | PROPRANOLOL ACCORD 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Comercializada |
+| 83608 | PROPRANOLOL KERN PHARMA 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+| 83607 | PROPRANOLOL KERN PHARMA 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+| 114919001 | HEMANGIOL 3,75 MG/ML SOLUCION ORAL | SOLUCIÓN ORAL | Pierre Fabre Medicament | Comercializada |
+| 77174 | PROPRANOLOL ACCORD 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Comercializada |
+| 42504 | SUMIAL 10 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Atnahs Pharma Netherlands Bv. | Comercializada |
 
-Se muestran 5 de 11 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 11 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-Se muestran 5 de las 11 autorizaciones vigentes (todas de principio activo único). Las restantes corresponden a Propranolol Accord (10 y 40 mg), Propranolol Kern Pharma (10 y 40 mg) y Sumial (10 y 40 mg).
+Todas las autorizaciones son de principio activo único; entre ellas figuran Propranolol Accord (10 y 40 mg), Propranolol Kern Pharma (10 y 40 mg) y Sumial (10 y 40 mg).
+
+<!-- review:begin es-lic-20261124b-propranolol-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 11 autorizaciones vigentes (todas de principio activo único). Las restantes corresponden a Propranolol Accord (10 y 40 mg), Propranolol Kern Pharma (10 y 40 mg) y Sumial (10 y 40 mg)." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-propranolol-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -127,11 +138,12 @@ La predicción para la miopatía distal tipo Tateyama se basa solo en el modelo 
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade) |
+| 2026-11-24 | Eliminado: descripción de la tabla anterior y número; «Las restantes» → «entre ellas» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

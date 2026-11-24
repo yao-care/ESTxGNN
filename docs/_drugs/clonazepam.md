@@ -102,12 +102,23 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 52334 | RIVOTRIL 0,5 mg COMPRIMIDOS | COMPRIMIDO | Cheplapharm Arzneimittel Gmbh | Comercializada |
 | 85994 | CLONAZEPAM NEURAXPHARM 0,5 MG COMPRIMIDOS EFG | COMPRIMIDO | Neuraxpharm Spain S.L. | Comercializada |
 | 85995 | CLONAZEPAM NEURAXPHARM 1 MG COMPRIMIDOS | COMPRIMIDO | Neuraxpharm Spain S.L. | Comercializada |
+| 79769 | CLONAZEPAM BIOMED 2 MG COMPRIMIDOS EFG | COMPRIMIDO | Biowise Pharmaceuticals, S.L. | Comercializada |
+| 52332 | RIVOTRIL 1 mg/ ml CONCENTRADO Y DISOLVENTE PARA SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 85996 | CLONAZEPAM NEURAXPHARM 2 MG COMPRIMIDOS EFG | COMPRIMIDO | Neuraxpharm Spain S.L. | Comercializada |
+| 88731 | CLONAZEPAM TZF 0,5 MG COMPRIMIDOS EFG | COMPRIMIDO | Tarchominskie Zaklady Farmaceutyczne Polfa S.A. | Autorizada, no comercializada |
+| 88732 | CLONAZEPAM TZF 2 MG COMPRIMIDOS EFG | COMPRIMIDO | Tarchominskie Zaklady Farmaceutyczne Polfa S.A. | Autorizada, no comercializada |
 
-Se muestran 5 de 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único, ninguna cancelada). Entre las restantes hay una presentación inyectable (RIVOTRIL 1 mg/ml, n.º 52332) y otras presentaciones en comprimidos.
+Todas las autorizaciones son de principio activo único y ninguna está cancelada. Entre ellas hay una presentación inyectable (RIVOTRIL 1 mg/ml, n.º 52332) y presentaciones en comprimidos.
+
+<!-- review:begin es-lic-20261124b-clonazepam-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único, ninguna cancelada). Entre las restantes hay una presentación inyectable (RIVOTRIL 1 mg/ml, n.º 52332) y otras presentaciones en comprimidos." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-clonazepam-1 -->
 
 ---
 
@@ -143,11 +154,12 @@ Existe respaldo bibliográfico consistente (guía de la AASM, revisión Cochrane
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1) |
+| 2026-11-24 | Eliminado: descripción de la tabla anterior y número; «Entre las restantes» → «Entre ellas» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

@@ -93,12 +93,23 @@ Sin embargo, la literatura también muestra una señal contraria: se han descrit
 | 99126013 | ENBREL 25 mg SOLUCION INYECTABLE EN JERINGAS PRECARGADAS | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Pfizer Europe Ma Eeig | Comercializada |
 | 1171195003 | ERELZI 25 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Sandoz Gmbh | Comercializada |
 | 99126020 | ENBREL 50 mg SOLUCION INYECTABLE EN PLUMAS PRECARGADAS | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Pfizer Europe Ma Eeig | Comercializada |
+| 99126003 | ENBREL 25 mg POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Pfizer Europe Ma Eeig | Comercializada |
+| 1171195007 | ERELZI 50 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Sandoz Gmbh | Comercializada |
+| 1151074002 | Benepali 50mg solucion inyectable en pluma precargada | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Samsung Bioepis Nl B.V. | Comercializada |
+| 1201436005 | NEPEXTO 50 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Biosimilar Collaborations Ireland Limited | Comercializada |
+| 1151074005 | BENEPALI 25 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Samsung Bioepis Nl B.V. | Comercializada |
 
-Se muestran 5 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-Se muestran 5 de las 13 autorizaciones vigentes (todas monofármaco), que incluyen Enbrel, Benepali, Erelzi y Nepexto.
+Todas las autorizaciones son de monofármaco e incluyen Enbrel, Benepali, Erelzi y Nepexto.
+
+<!-- review:begin es-lic-20261124b-etanercept-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 13 autorizaciones vigentes (todas monofármaco), que incluyen Enbrel, Benepali, Erelzi y Nepexto." Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-etanercept-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -130,11 +141,12 @@ El mecanismo es plausible, pero no hay ensayos que evalúen etanercept en vascul
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f) |
+| 2026-11-24 | Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

@@ -104,7 +104,13 @@ Se muestran 5 de al menos 20 autorizaciones con este principio activo en los dat
 
 <!-- licenses:end -->
 
-El resto son genéricos (EFG) de 20, 40 y 80 mg, en comprimido o comprimido recubierto con película.
+Entre las autorizaciones hay genéricos (EFG) de 20, 40 y 80 mg, en comprimido o comprimido recubierto con película.
+
+<!-- review:begin es-lic-20261124b-telmisartan-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "El resto son genéricos (EFG) de 20, 40 y 80 mg, en comprimido o comprimido recubierto con película." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-telmisartan-1 -->
 
 ---
 
@@ -148,6 +154,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Telmisartán está comercializado en España con 20 autorizaciones vigentes, todas de medicamento único (sin combinaciones) y ninguna cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10) |
+| 2026-11-24 | «El resto son» → «Entre las autorizaciones hay» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

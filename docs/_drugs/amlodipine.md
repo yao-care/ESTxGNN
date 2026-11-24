@@ -72,7 +72,13 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Espana
 
-Los datos compilados registran 20 autorizaciones de amlodipino en monofármaco, de las cuales 11 están vigentes y 6 canceladas; el listado puede ser parcial. El fármaco se comercializa en España en forma de comprimidos.
+Según CIMA (AEMPS), hay más autorizaciones de amlodipino en monofármaco que las recogidas para este informe, con autorizaciones vigentes y otras revocadas; el listado del informe es parcial. El fármaco se comercializa en España en forma de comprimidos.
+
+<!-- review:begin es-lic-20261124b-amlodipine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Los datos compilados registran 20 autorizaciones de amlodipino en monofármaco, de las cuales 11 están vigentes y 6 canceladas; el listado puede ser parcial." Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-amlodipine-1 -->
 
 <!-- licenses:begin -->
 
@@ -117,11 +123,12 @@ La predicción se apoya únicamente en el puntaje del modelo (0,9994), sin ensay
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487) |
+| 2026-11-24 | «20 autorizaciones…, 11 vigentes y 6 canceladas» → sin cifras | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

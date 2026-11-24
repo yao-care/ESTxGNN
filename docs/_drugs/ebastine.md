@@ -99,7 +99,13 @@ Se muestran 10 de al menos 20 autorizaciones con este principio activo en los da
 
 <!-- licenses:end -->
 
-Los textos de indicación aprobada no figuran en los datos compilados. Las formas farmacéuticas disponibles son comprimidos recubiertos con película y comprimidos bucodispersables, ambos de administración oral.
+Los textos de indicación aprobada no figuran en los datos compilados. Las formas farmacéuticas disponibles incluyen comprimidos recubiertos con película, comprimidos bucodispersables, liofilizados orales y solución oral, todas de administración oral.
+
+<!-- review:begin es-lic-20261124b-ebastine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Las formas farmacéuticas disponibles son comprimidos recubiertos con película y comprimidos bucodispersables, ambos de administración oral." Corregido: según el listado completo de CIMA (AEMPS), datos del 2026-11-23, también hay autorizaciones de ebastina en liofilizado oral y solución oral. Los datos de este informe solo recogen parte de las autorizaciones. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-ebastine-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -129,6 +135,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL305660 (ebastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL305660) |
+| 2026-11-24 | «son comprimidos recubiertos … y bucodispersables» → también liofilizados orales y solución oral | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

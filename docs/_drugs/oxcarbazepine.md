@@ -113,11 +113,11 @@ Se muestran 10 de 15 autorizaciones con este principio activo en los datos de CI
 
 <!-- licenses:end -->
 
-El resto corresponde a genéricos de Cinfa, Viatris, Towa (Pensa), Tecnimede (Tecnigen), Normon y Teva.
+Entre las autorizaciones hay genéricos de Cinfa, Viatris, Towa (Pensa), Tecnimede (Tecnigen), Normon y Teva (los de Teva, revocados).
 
 <!-- review:begin es-lic-20261105-oxcarbazepine-1 -->
 
-> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 15 autorizaciones vigentes (todas de medicamentos de un solo principio activo; ninguna cancelada). El resto corresponde a genéricos de Cinfa, Viatris, Towa (Pensa), Tecnimede (Tecnigen), Normon y Teva." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 15 autorizaciones vigentes (todas de medicamentos de un solo principio activo; ninguna cancelada). El resto corresponde a genéricos de Cinfa, Viatris, Towa (Pensa), Tecnimede (Tecnigen), Normon y Teva." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior; según CIMA (AEMPS), Oxcarbazepina Teva 300 mg (74158) y 600 mg (74157) están revocadas. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS). Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-oxcarbazepine-1 -->
 
@@ -155,7 +155,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-24 | Eliminado: "Se muestran 5 de las 15 autorizaciones vigentes (todas de medicamentos de un solo principio activo; ninguna cancelada)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | «El resto corresponde a» → «Entre las autorizaciones hay»; los de Teva revocados | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b) |
 
 <!-- review:end log -->

@@ -77,7 +77,13 @@ Para la indicación principal (retinopatía diabética no proliferativa grave) n
 
 ## Información de Mercado en España
 
-Se listan 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo). El texto de la indicación aprobada no figura en los datos compilados.
+Todas las autorizaciones recogidas para este informe son de medicamentos de un solo principio activo. El texto de la indicación aprobada no figura en los datos compilados.
+
+<!-- review:begin es-lic-20261124b-denosumab-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se listan 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo)." Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-denosumab-1 -->
 
 <!-- licenses:begin -->
 
@@ -88,12 +94,23 @@ Se listan 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo 
 | 1251997001 | OSQAY 60 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Theramex Ireland Limited | Comercializada |
 | 1251953004 | BOMYNTRA 120 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Fresenius Kabi Deutschland Gmbh | Comercializada |
 | 1251954001 | CONEXXENCE 60 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Fresenius Kabi Deutschland Gmbh | Comercializada |
+| 1251922002 | OSVYRTI 60 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Accord Healthcare S.L.U. | Comercializada |
+| 1241889001 | XBRYK 120 MG SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Samsung Bioepis Nl B.V. | Comercializada |
+| 1251946001 | EVFRAXY 60 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Biosimilar Collaborations Ireland Limited | Comercializada |
+| 1251958001 | ROLCYA 60 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Sandoz Gmbh | Comercializada |
+| 1241813001 | JUBBONTI 60 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Sandoz Gmbh | Comercializada |
 
-Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
 
 <!-- licenses:end -->
 
-Las 15 autorizaciones restantes corresponden a otros biosimilares y presentaciones de 60 mg y 120 mg.
+Entre las autorizaciones figuran otros biosimilares y presentaciones de 60 mg y 120 mg.
+
+<!-- review:begin es-lic-20261124b-denosumab-2 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Las 15 autorizaciones restantes corresponden a otros biosimilares y presentaciones de 60 mg y 120 mg." Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-denosumab-2 -->
 
 ## Consideraciones de Seguridad
 
@@ -124,11 +141,13 @@ La predicción tiene un puntaje alto, pero carece de ensayos clínicos y de lite
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd) |
+| 2026-11-24 | «5 de las 20 autorizaciones vigentes» eliminado (lista parcial) | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | «Las 15 autorizaciones restantes» → «Entre las autorizaciones» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

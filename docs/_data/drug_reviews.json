@@ -1038,10 +1038,10 @@
    "file": "codeine.md",
    "action": "correct",
    "claim": "Hay una sexta autorización vigente (20709",
-   "replacement": "Hay una sexta autorización, revocada (20709",
-   "summary": "La sexta autorización (20709, Fludan Codeína) está revocada, no vigente",
-   "note": "Según CIMA (AEMPS), datos del 2026-11-09, la autorización 20709 (Fludan Codeína 10 mg/5 ml solución oral) figura como revocada; también lo está 65343. El estado de cada autorización figura en la tabla de Información de Mercado en España.",
-   "finding": "AI 產生的正文說第六張 20709 有效；證據包 CIMA 狀態 Revocada、未上市；事實層（data-20261109-125422）有效 4、撤銷 2",
+   "replacement": "Entre las autorizaciones figura una revocada (20709",
+   "summary": "«Hay una sexta autorización vigente» → figura una revocada (20709)",
+   "note": "Según CIMA (AEMPS), la autorización 20709 (Fludan Codeína 10 mg/5 ml solución oral) figura como revocada; también lo está 65343. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye ambas.",
+   "finding": "20709、65343 撤銷；程式表 6 列含 20709，「第六張」說法不再成立",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -1073,6 +1073,28 @@
      "method": "2026-11-12 人工查核（正文張數對事實層與證據包）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定"
+    },
+    {
+     "id": "es-lic-20261112-codeine-1",
+     "drug": "codeine",
+     "file": "codeine.md",
+     "action": "correct",
+     "claim": "Hay una sexta autorización vigente (20709",
+     "replacement": "Hay una sexta autorización, revocada (20709",
+     "summary": "La sexta autorización (20709, Fludan Codeína) está revocada, no vigente",
+     "note": "Según CIMA (AEMPS), datos del 2026-11-09, la autorización 20709 (Fludan Codeína 10 mg/5 ml solución oral) figura como revocada; también lo está 65343. El estado de cada autorización figura en la tabla de Información de Mercado en España.",
+     "finding": "AI 產生的正文說第六張 20709 有效；證據包 CIMA 狀態 Revocada、未上市；事實層（data-20261109-125422）有效 4、撤銷 2",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-09"
+      }
+     ],
+     "checked": "2026-11-24",
+     "method": "2026-11-12 人工查核（正文張數對事實層與證據包）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
     }
    ]
   },
@@ -1172,9 +1194,9 @@
    "file": "cyanocobalamin.md",
    "action": "correct",
    "claim": "Se muestran 5 de las 6 autorizaciones vigentes (todas de principio activo único). La sexta es Vitamina B12 Ankermann 1.000 microgramos comprimidos recubiertos (nº 90484).",
-   "replacement": "La sexta es Vitamina B12 Ankermann 1.000 microgramos comprimidos recubiertos (nº 90484).",
-   "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "replacement": "Entre las autorizaciones figura Vitamina B12 Ankermann 1.000 microgramos comprimidos recubiertos (nº 90484).",
+   "note": "Eliminado: la frase describía la tabla anterior (5 de 6 autorizaciones). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye la autorización 90484; las cifras actuales están en el Resumen rápido.",
+   "finding": "程式表 6 列含 90484（Autorizada, no comercializada）",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -1183,7 +1205,7 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Eliminado: \"Se muestran 5 de las 6 autorizaciones vigentes (todas de principio activo único)\"",
+   "summary": "Eliminado: «Se muestran 5 de las 6…»; «La sexta es» → «Entre las autorizaciones figura»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
    "history": [
     {
@@ -1207,6 +1229,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定"
+    },
+    {
+     "id": "es-lic-20261105-cyanocobalamin-1",
+     "drug": "cyanocobalamin",
+     "file": "cyanocobalamin.md",
+     "action": "correct",
+     "claim": "Se muestran 5 de las 6 autorizaciones vigentes (todas de principio activo único). La sexta es Vitamina B12 Ankermann 1.000 microgramos comprimidos recubiertos (nº 90484).",
+     "replacement": "La sexta es Vitamina B12 Ankermann 1.000 microgramos comprimidos recubiertos (nº 90484).",
+     "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Eliminado: \"Se muestran 5 de las 6 autorizaciones vigentes (todas de principio activo único)\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
     }
    ]
   },
@@ -1216,9 +1260,9 @@
    "file": "cyproheptadine.md",
    "action": "correct",
    "claim": "Hay una sexta autorización vigente: DESARROL 50 MG/ML + 25 MG/ML + 0,2 MG/ML SOLUCIÓN ORAL (n.º 50242, solución oral, Faes Farma). Todas son autorizaciones vigentes de producto único (ninguna cancelada).",
-   "replacement": "Hay una sexta autorización vigente: DESARROL 50 MG/ML + 25 MG/ML + 0,2 MG/ML SOLUCIÓN ORAL (n.º 50242, solución oral, Faes Farma).",
-   "note": "Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Entre las autorizaciones vigentes figura DESARROL 50 MG/ML + 25 MG/ML + 0,2 MG/ML SOLUCIÓN ORAL (n.º 50242, solución oral, Faes Farma), una combinación con carnitina y arginina.",
+   "note": "Corregido: no todas las autorizaciones son de producto único ni están vigentes; según CIMA (AEMPS), DESARROL 50242 contiene carnitina + arginina + ciproheptadina. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye esta autorización; las cifras actuales están en el Resumen rápido.",
+   "finding": "50242 成分 carnitina + arginina + ciproheptadina；6 張中 5 張複方、2 張撤銷",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -1227,7 +1271,7 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Eliminado: \"Todas son autorizaciones vigentes de producto único (ninguna cancelada)\"",
+   "summary": "«Hay una sexta autorización vigente» → figura; «todas de producto único (ninguna cancelada)» eliminado",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
    "history": [
     {
@@ -1251,6 +1295,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定"
+    },
+    {
+     "id": "es-lic-20261105-cyproheptadine-1",
+     "drug": "cyproheptadine",
+     "file": "cyproheptadine.md",
+     "action": "correct",
+     "claim": "Hay una sexta autorización vigente: DESARROL 50 MG/ML + 25 MG/ML + 0,2 MG/ML SOLUCIÓN ORAL (n.º 50242, solución oral, Faes Farma). Todas son autorizaciones vigentes de producto único (ninguna cancelada).",
+     "replacement": "Hay una sexta autorización vigente: DESARROL 50 MG/ML + 25 MG/ML + 0,2 MG/ML SOLUCIÓN ORAL (n.º 50242, solución oral, Faes Farma).",
+     "note": "Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Eliminado: \"Todas son autorizaciones vigentes de producto único (ninguna cancelada)\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
     }
    ]
   },
@@ -1649,9 +1715,9 @@
    "file": "dimenhydrinate.md",
    "action": "correct",
    "claim": "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamento con un solo principio activo; ninguna cancelada). Entre las demás hay comprimidos, supositorios y cápsulas duras, así como asociaciones con cafeína.",
-   "replacement": "Entre las demás hay comprimidos, supositorios y cápsulas duras, así como asociaciones con cafeína.",
-   "note": "Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Entre las autorizaciones hay comprimidos, supositorios y cápsulas duras, así como asociaciones con cafeína.",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -1660,7 +1726,7 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Eliminado: \"Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamento con un solo principio activo; ninguna cancelada)\"",
+   "summary": "«Entre las demás» → «Entre las autorizaciones»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
    "history": [
     {
@@ -1684,6 +1750,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定"
+    },
+    {
+     "id": "es-lic-20261105-dimenhydrinate-1",
+     "drug": "dimenhydrinate",
+     "file": "dimenhydrinate.md",
+     "action": "correct",
+     "claim": "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamento con un solo principio activo; ninguna cancelada). Entre las demás hay comprimidos, supositorios y cápsulas duras, así como asociaciones con cafeína.",
+     "replacement": "Entre las demás hay comprimidos, supositorios y cápsulas duras, así como asociaciones con cafeína.",
+     "note": "Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Eliminado: \"Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamento con un solo principio activo; ninguna cancelada)\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
     }
    ]
   },
@@ -2713,9 +2801,9 @@
    "file": "flecainide.md",
    "action": "correct",
    "claim": "Existe además una sexta autorización: APOCARD 10 mg/ml solución inyectable (n.º 57514). Las 6 autorizaciones están vigentes, son de principio activo único y no hay ninguna cancelada.",
-   "replacement": "Existe además una sexta autorización: APOCARD 10 mg/ml solución inyectable (n.º 57514).",
-   "note": "Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Entre las autorizaciones figura también APOCARD 10 mg/ml solución inyectable (n.º 57514).",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "程式表 6 列含 57514；79337 撤銷，原「6 張全部有效」已刪",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -2724,7 +2812,7 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Eliminado: \"Las 6 autorizaciones están vigentes, son de principio activo único y no hay ninguna cancelada\"",
+   "summary": "«Existe además una sexta autorización» → «figura también»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
    "history": [
     {
@@ -2748,6 +2836,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定"
+    },
+    {
+     "id": "es-lic-20261105-flecainide-1",
+     "drug": "flecainide",
+     "file": "flecainide.md",
+     "action": "correct",
+     "claim": "Existe además una sexta autorización: APOCARD 10 mg/ml solución inyectable (n.º 57514). Las 6 autorizaciones están vigentes, son de principio activo único y no hay ninguna cancelada.",
+     "replacement": "Existe además una sexta autorización: APOCARD 10 mg/ml solución inyectable (n.º 57514).",
+     "note": "Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Eliminado: \"Las 6 autorizaciones están vigentes, son de principio activo único y no hay ninguna cancelada\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
     }
    ]
   },
@@ -3066,9 +3176,9 @@
    "file": "granisetron.md",
    "action": "correct",
    "claim": "Se muestran 5 de las 11 autorizaciones vigentes (todas de monofármaco). El resto incluye presentaciones en solución para perfusión, concentrado para solución inyectable y el parche transdérmico SANCUSO 3,1 mg/24 h.",
-   "replacement": "El resto incluye presentaciones en solución para perfusión, concentrado para solución inyectable y el parche transdérmico SANCUSO 3,1 mg/24 h.",
-   "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "replacement": "Entre las autorizaciones hay también presentaciones en solución para perfusión, concentrado para solución inyectable y el parche transdérmico SANCUSO 3,1 mg/24 h.",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -3077,7 +3187,7 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Eliminado: \"Se muestran 5 de las 11 autorizaciones vigentes (todas de monofármaco)\"",
+   "summary": "«El resto incluye» → «Entre las autorizaciones hay también»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
    "history": [
     {
@@ -3101,6 +3211,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定"
+    },
+    {
+     "id": "es-lic-20261105-granisetron-1",
+     "drug": "granisetron",
+     "file": "granisetron.md",
+     "action": "correct",
+     "claim": "Se muestran 5 de las 11 autorizaciones vigentes (todas de monofármaco). El resto incluye presentaciones en solución para perfusión, concentrado para solución inyectable y el parche transdérmico SANCUSO 3,1 mg/24 h.",
+     "replacement": "El resto incluye presentaciones en solución para perfusión, concentrado para solución inyectable y el parche transdérmico SANCUSO 3,1 mg/24 h.",
+     "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Eliminado: \"Se muestran 5 de las 11 autorizaciones vigentes (todas de monofármaco)\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
     }
    ]
   },
@@ -3110,9 +3242,9 @@
    "file": "hesperidin.md",
    "action": "correct",
    "claim": "Se muestran 5 de las 10 autorizaciones vigentes; todas son de preparados con un único principio activo. Entre las restantes figuran otras presentaciones de Daflon y Fabroven (cápsulas duras).",
-   "replacement": "Entre las restantes figuran otras presentaciones de Daflon y Fabroven (cápsulas duras).",
-   "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "replacement": "Entre las autorizaciones figuran varias presentaciones de Daflon y Fabroven (cápsulas duras).",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "程式表 10 列含全部 Daflon 與 Fabroven 59471",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -3121,7 +3253,7 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Eliminado: \"Se muestran 5 de las 10 autorizaciones vigentes; todas son de preparados con un único principio activo\"",
+   "summary": "«Entre las restantes figuran otras presentaciones» → «Entre las autorizaciones figuran varias presentaciones»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
    "history": [
     {
@@ -3145,6 +3277,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定"
+    },
+    {
+     "id": "es-lic-20261105-hesperidin-1",
+     "drug": "hesperidin",
+     "file": "hesperidin.md",
+     "action": "correct",
+     "claim": "Se muestran 5 de las 10 autorizaciones vigentes; todas son de preparados con un único principio activo. Entre las restantes figuran otras presentaciones de Daflon y Fabroven (cápsulas duras).",
+     "replacement": "Entre las restantes figuran otras presentaciones de Daflon y Fabroven (cápsulas duras).",
+     "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Eliminado: \"Se muestran 5 de las 10 autorizaciones vigentes; todas son de preparados con un único principio activo\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
     }
    ]
   },
@@ -3379,9 +3533,9 @@
    "file": "imidapril.md",
    "action": "correct",
    "claim": "Se muestran 5 de las 12 autorizaciones vigentes (todas de monofármaco). El resto corresponde a genéricos (EFG) de Neuraxpharm (Qualigen y Asibilan) y Dari Pharma, en dosis de 5, 10 y 20 mg.",
-   "replacement": "El resto corresponde a genéricos (EFG) de Neuraxpharm (Qualigen y Asibilan) y Dari Pharma, en dosis de 5, 10 y 20 mg.",
-   "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "replacement": "Entre las autorizaciones hay genéricos (EFG) de Neuraxpharm (Qualigen y Asibilan, esta última revocada) y Dari Pharma, en dosis de 5, 10 y 20 mg.",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior; según CIMA (AEMPS), las tres presentaciones de Imidapril Asibilan (83175, 83176, 83177) están revocadas. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS).",
+   "finding": "83175～83177 Revocada",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -3390,7 +3544,7 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Eliminado: \"Se muestran 5 de las 12 autorizaciones vigentes (todas de monofármaco)\"",
+   "summary": "«El resto corresponde a» → «Entre las autorizaciones hay»; Asibilan revocada",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
    "history": [
     {
@@ -3414,6 +3568,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定"
+    },
+    {
+     "id": "es-lic-20261105-imidapril-1",
+     "drug": "imidapril",
+     "file": "imidapril.md",
+     "action": "correct",
+     "claim": "Se muestran 5 de las 12 autorizaciones vigentes (todas de monofármaco). El resto corresponde a genéricos (EFG) de Neuraxpharm (Qualigen y Asibilan) y Dari Pharma, en dosis de 5, 10 y 20 mg.",
+     "replacement": "El resto corresponde a genéricos (EFG) de Neuraxpharm (Qualigen y Asibilan) y Dari Pharma, en dosis de 5, 10 y 20 mg.",
+     "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Eliminado: \"Se muestran 5 de las 12 autorizaciones vigentes (todas de monofármaco)\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
     }
    ]
   },
@@ -3423,9 +3599,9 @@
    "file": "imipenem.md",
    "action": "correct",
    "claim": "Hay 9 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se muestran las 5 principales. Entre las restantes figura Recarbrio (imipenem/cilastatina/relebactam, Merck Sharp & Dohme B.V.).",
-   "replacement": "Entre las restantes figura Recarbrio (imipenem/cilastatina/relebactam, Merck Sharp & Dohme B.V.).",
-   "note": "Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Entre las autorizaciones figura Recarbrio (imipenem/cilastatina/relebactam, Merck Sharp & Dohme B.V.).",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "程式表 9 列含 1191420001 RECARBRIO",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -3434,7 +3610,7 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Eliminado: \"Hay 9 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se muestran las 5 principales\"",
+   "summary": "«Entre las restantes» → «Entre las autorizaciones»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
    "history": [
     {
@@ -3458,6 +3634,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定"
+    },
+    {
+     "id": "es-lic-20261105-imipenem-1",
+     "drug": "imipenem",
+     "file": "imipenem.md",
+     "action": "correct",
+     "claim": "Hay 9 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se muestran las 5 principales. Entre las restantes figura Recarbrio (imipenem/cilastatina/relebactam, Merck Sharp & Dohme B.V.).",
+     "replacement": "Entre las restantes figura Recarbrio (imipenem/cilastatina/relebactam, Merck Sharp & Dohme B.V.).",
+     "note": "Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Eliminado: \"Hay 9 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se muestran las 5 principales\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
     }
    ]
   },
@@ -3467,9 +3665,9 @@
    "file": "indomethacin.md",
    "action": "correct",
    "claim": "Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco). Las demás corresponden a Inacid 25 mg cápsulas, Inacid Retard 75 mg, Flogoter 25 mg cápsulas, Flogoter 100 mg supositorios y Artrinovo 50 mg supositorios.",
-   "replacement": "Las demás corresponden a Inacid 25 mg cápsulas, Inacid Retard 75 mg, Flogoter 25 mg cápsulas, Flogoter 100 mg supositorios y Artrinovo 50 mg supositorios.",
-   "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "replacement": "Entre las autorizaciones figuran Inacid 25 mg cápsulas, Inacid Retard 75 mg, Flogoter 25 mg cápsulas, Flogoter 100 mg supositorios y Artrinovo 50 mg supositorios.",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」；程式表 10 列全收",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -3478,7 +3676,7 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Eliminado: \"Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco)\"",
+   "summary": "«Las demás corresponden a» → «Entre las autorizaciones figuran»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
    "history": [
     {
@@ -3502,6 +3700,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定"
+    },
+    {
+     "id": "es-lic-20261105-indomethacin-1",
+     "drug": "indomethacin",
+     "file": "indomethacin.md",
+     "action": "correct",
+     "claim": "Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco). Las demás corresponden a Inacid 25 mg cápsulas, Inacid Retard 75 mg, Flogoter 25 mg cápsulas, Flogoter 100 mg supositorios y Artrinovo 50 mg supositorios.",
+     "replacement": "Las demás corresponden a Inacid 25 mg cápsulas, Inacid Retard 75 mg, Flogoter 25 mg cápsulas, Flogoter 100 mg supositorios y Artrinovo 50 mg supositorios.",
+     "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Eliminado: \"Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco)\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
     }
    ]
   },
@@ -3915,9 +4135,9 @@
    "file": "ketoprofen.md",
    "action": "correct",
    "claim": "Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco). Las restantes son FASTUM 50 mg cápsulas duras, ORUDIS RETARD 200 mg comprimidos de liberación prolongada y KETOPROFENO DOMPE 25 mg comprimidos efervescentes.",
-   "replacement": "Las restantes son FASTUM 50 mg cápsulas duras, ORUDIS RETARD 200 mg comprimidos de liberación prolongada y KETOPROFENO DOMPE 25 mg comprimidos efervescentes.",
-   "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "replacement": "Entre las autorizaciones figuran también FASTUM 50 mg cápsulas duras, ORUDIS RETARD 200 mg comprimidos de liberación prolongada (revocada) y KETOPROFENO DOMPE 25 mg comprimidos efervescentes (autorizada, sin comercializar).",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior; según CIMA (AEMPS), ORUDIS RETARD 200 mg (57128) está revocada y KETOPROFENO DOMPE 25 mg (84876) está autorizada pero no comercializada. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye las tres.",
+   "finding": "57128 Revocada、84876 Autorizada (no comercializada)、54445 Autorizada；程式表 8 列全收",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -3926,7 +4146,7 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Eliminado: \"Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco)\"",
+   "summary": "«Las restantes son» → «figuran también»; estado de ORUDIS RETARD y KETOPROFENO DOMPE",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
    "history": [
     {
@@ -3950,6 +4170,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定"
+    },
+    {
+     "id": "es-lic-20261105-ketoprofen-1",
+     "drug": "ketoprofen",
+     "file": "ketoprofen.md",
+     "action": "correct",
+     "claim": "Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco). Las restantes son FASTUM 50 mg cápsulas duras, ORUDIS RETARD 200 mg comprimidos de liberación prolongada y KETOPROFENO DOMPE 25 mg comprimidos efervescentes.",
+     "replacement": "Las restantes son FASTUM 50 mg cápsulas duras, ORUDIS RETARD 200 mg comprimidos de liberación prolongada y KETOPROFENO DOMPE 25 mg comprimidos efervescentes.",
+     "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Eliminado: \"Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco)\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
     }
    ]
   },
@@ -4459,9 +4701,9 @@
    "file": "megestrol_acetate.md",
    "action": "correct",
    "claim": "Hay una sexta autorización vigente (62011, BOREA 160 mg granulado para suspensión oral en sobres). Todas son monofármaco y están vigentes.",
-   "replacement": "Hay una sexta autorización vigente (62011, BOREA 160 mg granulado para suspensión oral en sobres).",
-   "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "replacement": "Entre las autorizaciones vigentes figura BOREA 160 mg granulado para suspensión oral en sobres (62011).",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "程式表 6 列含 62011；58773 撤銷、62012 暫停（原「全部有效」已刪）",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -4470,7 +4712,7 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Eliminado: \"Todas son monofármaco y están vigentes\"",
+   "summary": "«Hay una sexta autorización vigente» → «Entre las autorizaciones vigentes figura»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
    "history": [
     {
@@ -4494,6 +4736,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定"
+    },
+    {
+     "id": "es-lic-20261105-megestrol_acetate-1",
+     "drug": "megestrol_acetate",
+     "file": "megestrol_acetate.md",
+     "action": "correct",
+     "claim": "Hay una sexta autorización vigente (62011, BOREA 160 mg granulado para suspensión oral en sobres). Todas son monofármaco y están vigentes.",
+     "replacement": "Hay una sexta autorización vigente (62011, BOREA 160 mg granulado para suspensión oral en sobres).",
+     "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Eliminado: \"Todas son monofármaco y están vigentes\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
     }
    ]
   },
@@ -4547,9 +4811,9 @@
    "file": "melphalan.md",
    "action": "correct",
    "claim": "Se muestran 5 de las 8 autorizaciones vigentes (todas de medicamento monocomponente). Las restantes corresponden a Alkeran 2 mg comprimidos recubiertos, Melfalan Medac 50 mg EFG y Alkeran 50 mg polvo y disolvente para perfusión.",
-   "replacement": "Las restantes corresponden a Alkeran 2 mg comprimidos recubiertos, Melfalan Medac 50 mg EFG y Alkeran 50 mg polvo y disolvente para perfusión.",
-   "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "replacement": "Entre las autorizaciones figuran también Alkeran 2 mg comprimidos recubiertos, Melfalan Medac 50 mg EFG (revocada) y Alkeran 50 mg polvo y disolvente para perfusión.",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior; según CIMA (AEMPS), Melfalan Medac 50 mg (85961) está revocada. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye las tres.",
+   "finding": "85961 Revocada；程式表 8 列全收",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -4558,7 +4822,7 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Eliminado: \"Se muestran 5 de las 8 autorizaciones vigentes (todas de medicamento monocomponente)\"",
+   "summary": "«Las restantes corresponden a» → «figuran también»; Melfalan Medac revocada",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
    "history": [
     {
@@ -4582,6 +4846,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定"
+    },
+    {
+     "id": "es-lic-20261105-melphalan-1",
+     "drug": "melphalan",
+     "file": "melphalan.md",
+     "action": "correct",
+     "claim": "Se muestran 5 de las 8 autorizaciones vigentes (todas de medicamento monocomponente). Las restantes corresponden a Alkeran 2 mg comprimidos recubiertos, Melfalan Medac 50 mg EFG y Alkeran 50 mg polvo y disolvente para perfusión.",
+     "replacement": "Las restantes corresponden a Alkeran 2 mg comprimidos recubiertos, Melfalan Medac 50 mg EFG y Alkeran 50 mg polvo y disolvente para perfusión.",
+     "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Eliminado: \"Se muestran 5 de las 8 autorizaciones vigentes (todas de medicamento monocomponente)\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
     }
    ]
   },
@@ -4871,9 +5157,9 @@
    "file": "midazolam.md",
    "action": "correct",
    "claim": "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único). Las presentaciones son bucales (Buccolam, Oroxelam) e inyectables; no hay forma oral para insomnio.",
-   "replacement": "Las presentaciones son bucales (Buccolam, Oroxelam) e inyectables; no hay forma oral para insomnio.",
-   "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "replacement": "Entre las presentaciones hay formas bucales (Buccolam, Oroxelam) e inyectables; según CIMA también hay una presentación en comprimidos (DORMICUM 7,5 mg comprimidos recubiertos con película).",
+   "note": "Eliminado: la descripción de la tabla anterior y el número de autorizaciones. Corregido: según el listado completo de CIMA (AEMPS), datos del 2026-11-23, DORMICUM 7,5 mg comprimidos recubiertos con película (59023) está comercializado, y OZALIN 2 mg/ml solución oral (85069) está autorizado pero no comercializado. Los datos de este informe solo recogen parte de las autorizaciones.",
+   "finding": "部分紀錄頁；CIMA 全量 vtm midazolam 28 張，含 59023 DORMICUM 錠劑（上市）、85069 OZALIN 口服液（授權未上市）",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -4881,9 +5167,33 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único)\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）"
+   "checked": "2026-11-24",
+   "summary": "«no hay forma oral» → hay comprimidos (DORMICUM 7,5 mg)",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+   "history": [
+    {
+     "id": "es-lic-20261105-midazolam-1",
+     "drug": "midazolam",
+     "file": "midazolam.md",
+     "action": "correct",
+     "claim": "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único). Las presentaciones son bucales (Buccolam, Oroxelam) e inyectables; no hay forma oral para insomnio.",
+     "replacement": "Las presentaciones son bucales (Buccolam, Oroxelam) e inyectables; no hay forma oral para insomnio.",
+     "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único)\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
+    }
+   ]
   },
   {
    "id": "es-lic-20261105-midecamycin-1",
@@ -5160,9 +5470,9 @@
    "file": "naproxen.md",
    "action": "correct",
    "claim": "Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco). Las otras tres corresponden a Lundiran 250 mg cápsulas duras, Naproxeno Teva-Ratiopharm 500 mg comprimidos recubiertos con película y Naproxeno Infectopharm 50 mg/ml suspensión oral.",
-   "replacement": "Las otras tres corresponden a Lundiran 250 mg cápsulas duras, Naproxeno Teva-Ratiopharm 500 mg comprimidos recubiertos con película y Naproxeno Infectopharm 50 mg/ml suspensión oral.",
-   "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "replacement": "Entre las autorizaciones figuran también Lundiran 250 mg cápsulas duras, Naproxeno Teva-Ratiopharm 500 mg comprimidos recubiertos con película y Naproxeno Infectopharm 50 mg/ml suspensión oral.",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "程式表 8 列全收",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -5171,7 +5481,7 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Eliminado: \"Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco)\"",
+   "summary": "«Las otras tres corresponden a» → «figuran también»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
    "history": [
     {
@@ -5195,6 +5505,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定"
+    },
+    {
+     "id": "es-lic-20261105-naproxen-1",
+     "drug": "naproxen",
+     "file": "naproxen.md",
+     "action": "correct",
+     "claim": "Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco). Las otras tres corresponden a Lundiran 250 mg cápsulas duras, Naproxeno Teva-Ratiopharm 500 mg comprimidos recubiertos con película y Naproxeno Infectopharm 50 mg/ml suspensión oral.",
+     "replacement": "Las otras tres corresponden a Lundiran 250 mg cápsulas duras, Naproxeno Teva-Ratiopharm 500 mg comprimidos recubiertos con película y Naproxeno Infectopharm 50 mg/ml suspensión oral.",
+     "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Eliminado: \"Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco)\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
     }
    ]
   },
@@ -5690,9 +6022,9 @@
    "file": "oxcarbazepine.md",
    "action": "correct",
    "claim": "Se muestran 5 de las 15 autorizaciones vigentes (todas de medicamentos de un solo principio activo; ninguna cancelada). El resto corresponde a genéricos de Cinfa, Viatris, Towa (Pensa), Tecnimede (Tecnigen), Normon y Teva.",
-   "replacement": "El resto corresponde a genéricos de Cinfa, Viatris, Towa (Pensa), Tecnimede (Tecnigen), Normon y Teva.",
-   "note": "Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Entre las autorizaciones hay genéricos de Cinfa, Viatris, Towa (Pensa), Tecnimede (Tecnigen), Normon y Teva (los de Teva, revocados).",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior; según CIMA (AEMPS), Oxcarbazepina Teva 300 mg (74158) y 600 mg (74157) están revocadas. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS).",
+   "finding": "74157、74158 Revocada",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -5701,7 +6033,7 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Eliminado: \"Se muestran 5 de las 15 autorizaciones vigentes (todas de medicamentos de un solo principio activo; ninguna cancelada)\"",
+   "summary": "«El resto corresponde a» → «Entre las autorizaciones hay»; los de Teva revocados",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
    "history": [
     {
@@ -5725,6 +6057,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定"
+    },
+    {
+     "id": "es-lic-20261105-oxcarbazepine-1",
+     "drug": "oxcarbazepine",
+     "file": "oxcarbazepine.md",
+     "action": "correct",
+     "claim": "Se muestran 5 de las 15 autorizaciones vigentes (todas de medicamentos de un solo principio activo; ninguna cancelada). El resto corresponde a genéricos de Cinfa, Viatris, Towa (Pensa), Tecnimede (Tecnigen), Normon y Teva.",
+     "replacement": "El resto corresponde a genéricos de Cinfa, Viatris, Towa (Pensa), Tecnimede (Tecnigen), Normon y Teva.",
+     "note": "Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Eliminado: \"Se muestran 5 de las 15 autorizaciones vigentes (todas de medicamentos de un solo principio activo; ninguna cancelada)\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
     }
    ]
   },
@@ -5734,9 +6088,9 @@
    "file": "oxymetazoline.md",
    "action": "correct",
    "claim": "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos monocomponente). Entre las restantes hay también una presentación pediátrica en gotas nasales (UTABON NIÑOS 0,25 mg/ml).",
-   "replacement": "Entre las restantes hay también una presentación pediátrica en gotas nasales (UTABON NIÑOS 0,25 mg/ml).",
-   "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "replacement": "Entre las autorizaciones hay también una presentación pediátrica en gotas nasales (UTABON NIÑOS 0,25 mg/ml).",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "46065 UTABON NIÑOS 在證據包；部分紀錄頁",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -5744,9 +6098,33 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos monocomponente)\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）"
+   "checked": "2026-11-24",
+   "summary": "«Entre las restantes» → «Entre las autorizaciones»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+   "history": [
+    {
+     "id": "es-lic-20261105-oxymetazoline-1",
+     "drug": "oxymetazoline",
+     "file": "oxymetazoline.md",
+     "action": "correct",
+     "claim": "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos monocomponente). Entre las restantes hay también una presentación pediátrica en gotas nasales (UTABON NIÑOS 0,25 mg/ml).",
+     "replacement": "Entre las restantes hay también una presentación pediátrica en gotas nasales (UTABON NIÑOS 0,25 mg/ml).",
+     "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos monocomponente)\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
+    }
+   ]
   },
   {
    "id": "es-lic-20261105-palivizumab-1",
@@ -5800,9 +6178,9 @@
    "file": "palonosetron.md",
    "action": "correct",
    "claim": "Se muestran 5 de las 11 autorizaciones vigentes (todas monofármaco). Entre las restantes figuran Aloxi y Akynzeo (combinación con netupitant, en cápsulas y polvo para perfusión).",
-   "replacement": "Entre las restantes figuran Aloxi y Akynzeo (combinación con netupitant, en cápsulas y polvo para perfusión).",
-   "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "replacement": "Entre las autorizaciones figuran Aloxi y Akynzeo (combinación con netupitant en cápsulas y con fosnetupitant en polvo para perfusión).",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior; según CIMA (AEMPS), AKYNZEO 235 mg/0,25 mg polvo (1151001003) contiene fosnetupitant + palonosetrón y AKYNZEO 300 mg/0,5 mg cápsulas (1151001001) netupitant + palonosetrón. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye ambas.",
+   "finding": "證據包成分欄：1151001003 fosnetupitant + palonosetrón、1151001001 netupitant + palonosetrón；程式表 10 列含 Aloxi、Akynzeo",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -5811,7 +6189,7 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Eliminado: \"Se muestran 5 de las 11 autorizaciones vigentes (todas monofármaco)\"",
+   "summary": "«Entre las restantes» → «Entre las autorizaciones»; Akynzeo en polvo es fosnetupitant + palonosetrón",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
    "history": [
     {
@@ -5835,6 +6213,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定"
+    },
+    {
+     "id": "es-lic-20261105-palonosetron-1",
+     "drug": "palonosetron",
+     "file": "palonosetron.md",
+     "action": "correct",
+     "claim": "Se muestran 5 de las 11 autorizaciones vigentes (todas monofármaco). Entre las restantes figuran Aloxi y Akynzeo (combinación con netupitant, en cápsulas y polvo para perfusión).",
+     "replacement": "Entre las restantes figuran Aloxi y Akynzeo (combinación con netupitant, en cápsulas y polvo para perfusión).",
+     "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Eliminado: \"Se muestran 5 de las 11 autorizaciones vigentes (todas monofármaco)\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
     }
    ]
   },
@@ -6513,7 +6913,7 @@
    "checked": "2026-11-24",
    "summary": "Eliminado: \"Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único)\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
-   "anchor": "Las demás autorizaciones corresponden a formulaciones tópicas (geles y crema): SASULEN 5 mg/g gel, SALVACAM 5 mg/g gel, IMPRONTAL 5 mg/g crema y FELDEGEL 5 mg/g gel.",
+   "anchor": "SASULEN 5 mg/g gel, SALVACAM 5 mg/g gel, IMPRONTAL 5 mg/g crema y FELDEGEL 5 mg/g gel.",
    "history": [
     {
      "id": "es-lic-20261105-piroxicam-1",
@@ -6537,6 +6937,30 @@
      "anchor": "Las demás autorizaciones corresponden a formulaciones tópicas (geles y crema): SASULEN 5 mg/g gel, SALVACAM 5 mg/g gel, IMPRONTAL 5 mg/g crema y FELDEGEL 5 mg/g gel.",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定"
+    },
+    {
+     "id": "es-lic-20261105-piroxicam-1",
+     "drug": "piroxicam",
+     "file": "piroxicam.md",
+     "action": "correct",
+     "claim": "Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único).",
+     "replacement": "",
+     "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Eliminado: \"Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único)\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+     "anchor": "Las demás autorizaciones corresponden a formulaciones tópicas (geles y crema): SASULEN 5 mg/g gel, SALVACAM 5 mg/g gel, IMPRONTAL 5 mg/g crema y FELDEGEL 5 mg/g gel.",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護",
+     "reanchored": true
     }
    ]
   },
@@ -8337,9 +8761,9 @@
    "file": "triflusal.md",
    "action": "correct",
    "claim": "Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco). Las restantes corresponden a Triflusal Abamed, Triflusal Cinfa, Disgren 300 mg, Triflusal Farmalider y Triflusal Aristo.",
-   "replacement": "Las restantes corresponden a Triflusal Abamed, Triflusal Cinfa, Disgren 300 mg, Triflusal Farmalider y Triflusal Aristo.",
-   "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "replacement": "Entre las autorizaciones figuran también Triflusal Abamed, Triflusal Cinfa, Disgren 300 mg, Triflusal Farmalider (autorizada, sin comercializar) y Triflusal Aristo (revocada).",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior; según CIMA (AEMPS), Triflusal Farmalider (65247) está autorizada pero no comercializada y Triflusal Aristo (66104) está revocada. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye las cinco.",
+   "finding": "65247 Autorizada (no comercializada)、66104 Revocada；程式表 10 列全收",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -8348,7 +8772,7 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Eliminado: \"Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco)\"",
+   "summary": "«Las restantes corresponden a» → «figuran también»; estado de Triflusal Farmalider y Triflusal Aristo",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
    "history": [
     {
@@ -8372,6 +8796,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定"
+    },
+    {
+     "id": "es-lic-20261105-triflusal-1",
+     "drug": "triflusal",
+     "file": "triflusal.md",
+     "action": "correct",
+     "claim": "Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco). Las restantes corresponden a Triflusal Abamed, Triflusal Cinfa, Disgren 300 mg, Triflusal Farmalider y Triflusal Aristo.",
+     "replacement": "Las restantes corresponden a Triflusal Abamed, Triflusal Cinfa, Disgren 300 mg, Triflusal Farmalider y Triflusal Aristo.",
+     "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Eliminado: \"Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco)\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
     }
    ]
   },
@@ -8782,10 +9228,10 @@
    "file": "phenytoin.md",
    "action": "correct",
    "claim": "Hay una sexta autorización vigente (65303, Fenitoína Accord 50 mg/ml solución inyectable) que no se lista por el límite de cinco. Las seis son de principio activo único y están vigentes.",
-   "replacement": "Hay una sexta autorización (65303, Fenitoína Accord 50 mg/ml solución inyectable), revocada. Todas son de principio activo único; 65340 y 65303 están revocadas.",
-   "summary": "Autorizaciones vigentes: 6 → 4 (65340 y 65303 revocadas)",
-   "note": "Según CIMA (AEMPS), datos del 2026-11-09, están revocadas 65340 (Fenitoína Kern Pharma 50 mg/ml solución inyectable EFG) y 65303 (Fenitoína Accord 50 mg/ml solución inyectable). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye la autorización 65303.",
-   "finding": "AI 產生的正文說第六張 65303 有效、六張全有效；證據包 CIMA 狀態 65340 與 65303 皆 Revocada；事實層（data-20261109-125422）有效 4、撤銷 2。11-05 刪句工具沒抓到這句",
+   "replacement": "Todas son de principio activo único; 65340 y 65303 (Fenitoína Accord 50 mg/ml solución inyectable) están revocadas.",
+   "summary": "«Hay una sexta autorización (65303…), revocada» → 65303 incluida en la frase sobre las revocadas",
+   "note": "Según CIMA (AEMPS), están revocadas 65340 (Fenitoína Kern Pharma 50 mg/ml solución inyectable EFG) y 65303 (Fenitoína Accord 50 mg/ml solución inyectable). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye las seis autorizaciones.",
+   "finding": "程式表 6 列含 65303；65340、65303 撤銷",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -8817,6 +9263,28 @@
      "method": "2026-11-12 人工查核（正文張數對事實層與證據包）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定"
+    },
+    {
+     "id": "es-lic-20261112-phenytoin-1",
+     "drug": "phenytoin",
+     "file": "phenytoin.md",
+     "action": "correct",
+     "claim": "Hay una sexta autorización vigente (65303, Fenitoína Accord 50 mg/ml solución inyectable) que no se lista por el límite de cinco. Las seis son de principio activo único y están vigentes.",
+     "replacement": "Hay una sexta autorización (65303, Fenitoína Accord 50 mg/ml solución inyectable), revocada. Todas son de principio activo único; 65340 y 65303 están revocadas.",
+     "summary": "Autorizaciones vigentes: 6 → 4 (65340 y 65303 revocadas)",
+     "note": "Según CIMA (AEMPS), datos del 2026-11-09, están revocadas 65340 (Fenitoína Kern Pharma 50 mg/ml solución inyectable EFG) y 65303 (Fenitoína Accord 50 mg/ml solución inyectable). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye la autorización 65303.",
+     "finding": "AI 產生的正文說第六張 65303 有效、六張全有效；證據包 CIMA 狀態 65340 與 65303 皆 Revocada；事實層（data-20261109-125422）有效 4、撤銷 2。11-05 刪句工具沒抓到這句",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-09"
+      }
+     ],
+     "checked": "2026-11-24",
+     "method": "2026-11-12 人工查核（正文張數對事實層與證據包）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
     }
    ]
   },
@@ -25767,10 +26235,10 @@
    "file": "maraviroc.md",
    "action": "correct",
    "claim": "Existe una sexta autorización vigente (89504, Maraviroc Tarbis 150 mg EFG), no listada arriba por el límite de cinco.",
-   "replacement": "Existe una sexta autorización vigente (89504, Maraviroc Tarbis 150 mg EFG).",
-   "summary": "Eliminado: «no listada arriba por el límite de cinco»",
+   "replacement": "Entre las autorizaciones figura Maraviroc Tarbis 150 mg EFG (89504), vigente.",
+   "summary": "Eliminado: «no listada arriba por el límite de cinco»; «Existe una sexta autorización» → «Entre las autorizaciones figura»",
    "note": "Eliminado: el texto decía que esta autorización no figura en la tabla por un límite de cinco filas. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y la incluye.",
-   "finding": "舊 AI 表只列 5 列；程式表列出全部 6 張（含 89504），「表上沒列」的子句不再成立",
+   "finding": "程式表 6 列含 89504",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -25779,7 +26247,31 @@
     }
    ],
    "checked": "2026-11-24",
-   "method": "2026-11-24 人工查核（市場段落換成程式許可證表後，逐句對照證據包 CIMA 紀錄與事實層）"
+   "method": "2026-11-24 人工查核（市場段落換成程式許可證表後，逐句對照證據包 CIMA 紀錄與事實層）",
+   "history": [
+    {
+     "id": "es-lic-20261124-maraviroc-1",
+     "drug": "maraviroc",
+     "file": "maraviroc.md",
+     "action": "correct",
+     "claim": "Existe una sexta autorización vigente (89504, Maraviroc Tarbis 150 mg EFG), no listada arriba por el límite de cinco.",
+     "replacement": "Existe una sexta autorización vigente (89504, Maraviroc Tarbis 150 mg EFG).",
+     "summary": "Eliminado: «no listada arriba por el límite de cinco»",
+     "note": "Eliminado: el texto decía que esta autorización no figura en la tabla por un límite de cinco filas. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y la incluye.",
+     "finding": "舊 AI 表只列 5 列；程式表列出全部 6 張（含 89504），「表上沒列」的子句不再成立",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-24"
+      }
+     ],
+     "checked": "2026-11-24",
+     "method": "2026-11-24 人工查核（市場段落換成程式許可證表後，逐句對照證據包 CIMA 紀錄與事實層）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
+    }
+   ]
   },
   {
    "id": "es-lic-20261124-palbociclib-1",
@@ -25787,10 +26279,10 @@
    "file": "palbociclib.md",
    "action": "correct",
    "claim": "Hay una sexta autorización (1161147014, IBRANCE 125 MG comprimidos recubiertos con película), no listada por el límite de cinco.",
-   "replacement": "Hay una sexta autorización (1161147014, IBRANCE 125 MG comprimidos recubiertos con película).",
-   "summary": "Eliminado: «no listada por el límite de cinco»",
+   "replacement": "Entre las autorizaciones figura IBRANCE 125 MG comprimidos recubiertos con película (1161147014).",
+   "summary": "Eliminado: «no listada por el límite de cinco»; «Hay una sexta autorización» → «Entre las autorizaciones figura»",
    "note": "Eliminado: el texto decía que esta autorización no figura en la tabla por un límite de cinco filas. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y la incluye.",
-   "finding": "舊 AI 表只列 5 列；程式表列出全部 6 張（含 1161147014）",
+   "finding": "程式表 6 列含 1161147014",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
@@ -25799,7 +26291,31 @@
     }
    ],
    "checked": "2026-11-24",
-   "method": "2026-11-24 人工查核（市場段落換成程式許可證表後，逐句對照證據包 CIMA 紀錄與事實層）"
+   "method": "2026-11-24 人工查核（市場段落換成程式許可證表後，逐句對照證據包 CIMA 紀錄與事實層）",
+   "history": [
+    {
+     "id": "es-lic-20261124-palbociclib-1",
+     "drug": "palbociclib",
+     "file": "palbociclib.md",
+     "action": "correct",
+     "claim": "Hay una sexta autorización (1161147014, IBRANCE 125 MG comprimidos recubiertos con película), no listada por el límite de cinco.",
+     "replacement": "Hay una sexta autorización (1161147014, IBRANCE 125 MG comprimidos recubiertos con película).",
+     "summary": "Eliminado: «no listada por el límite de cinco»",
+     "note": "Eliminado: el texto decía que esta autorización no figura en la tabla por un límite de cinco filas. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y la incluye.",
+     "finding": "舊 AI 表只列 5 列；程式表列出全部 6 張（含 1161147014）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-24"
+      }
+     ],
+     "checked": "2026-11-24",
+     "method": "2026-11-24 人工查核（市場段落換成程式許可證表後，逐句對照證據包 CIMA 紀錄與事實層）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪（用戶決定）：程式許可證表與舊表外的「第六張／其餘」說法、寫死張數改由程式維護"
+    }
+   ]
   },
   {
    "id": "es-lic-20261124-urofollitropin-1",
@@ -26100,6 +26616,1474 @@
    ],
    "checked": "2026-11-24",
    "method": "2026-11-24 人工查核（市場段落換成程式許可證表後，逐句對照證據包 CIMA 紀錄與事實層）"
+  },
+  {
+   "id": "es-lic-20261124b-adalimumab-1",
+   "drug": "adalimumab",
+   "file": "adalimumab.md",
+   "action": "correct",
+   "claim": "Según los datos compilados, hay 8 autorizaciones vigentes y 4 canceladas, y el listado puede ser parcial.",
+   "replacement": "Según CIMA (AEMPS), adalimumab tiene autorizaciones vigentes (comercializadas y otras autorizadas sin comercializar) y otras revocadas; los datos de este informe solo recogen parte de ellas.",
+   "summary": "«8 autorizaciones vigentes y 4 canceladas» → sin cifras (solo correspondían a parte de los datos)",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "CIMA 全量（data/raw/cima_medicamentos_raw.json，vtm adalimumab）41 張：上市 17、授權未上市 17、撤銷 7；證據包只收 20 張（上市 7、授權未上市 9、撤銷 4），正文 8／4 對不上任一讀法",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-amlodipine-1",
+   "drug": "amlodipine",
+   "file": "amlodipine.md",
+   "action": "correct",
+   "claim": "Los datos compilados registran 20 autorizaciones de amlodipino en monofármaco, de las cuales 11 están vigentes y 6 canceladas; el listado puede ser parcial.",
+   "replacement": "Según CIMA (AEMPS), hay más autorizaciones de amlodipino en monofármaco que las recogidas para este informe, con autorizaciones vigentes y otras revocadas; el listado del informe es parcial.",
+   "summary": "«20 autorizaciones…, 11 vigentes y 6 canceladas» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "CIMA 全量 vtm amlodipino（單方）68 張：上市 48、授權未上市 2、撤銷 18（全部是 comprimido／comprimido bucodispersable，後句「en forma de comprimidos」成立）；證據包 20 張",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-azithromycin-1",
+   "drug": "azithromycin",
+   "file": "azithromycin.md",
+   "action": "correct",
+   "claim": "(13 vigentes según los datos locales; el listado puede ser parcial)",
+   "replacement": "(el listado de este informe es parcial)",
+   "summary": "«13 vigentes según los datos locales» eliminado",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "CIMA 全量 vtm azitromicina 71 張：上市 47、授權未上市 7、撤銷 17；證據包 20 張（上市 12、授權未上市 2、撤銷 6）",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-pseudoephedrine-1",
+   "drug": "pseudoephedrine",
+   "file": "pseudoephedrine.md",
+   "action": "correct",
+   "claim": "Hay 12 autorizaciones vigentes en total; el medicamento está comercializado.",
+   "replacement": "Hay autorizaciones vigentes; el medicamento está comercializado.",
+   "summary": "«12 autorizaciones vigentes en total» → sin cifra",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "CIMA 全量 vtm 含 pseudoefedrina 34 張（多為複方）：上市 21、授權未上市 4、暫停 4、撤銷 5；「總共 12 張有效」不成立",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-clobetasol-1",
+   "drug": "clobetasol",
+   "file": "clobetasol.md",
+   "action": "correct",
+   "claim": "Hay 7 autorizaciones vigentes en total; la tabla muestra las 5 principales. Las otras dos son CLARELUX 500 microgramos/g espuma cutánea (66071) y CLOBEX 500 microgramos/g champú (68316).",
+   "replacement": "Entre las autorizaciones figuran CLARELUX 500 microgramos/g espuma cutánea (66071) y CLOBEX 500 microgramos/g champú (68316).",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones; «Las otras dos son» → «Entre las autorizaciones figuran»",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」；66071、68316 在證據包",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-clonazepam-1",
+   "drug": "clonazepam",
+   "file": "clonazepam.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único, ninguna cancelada). Entre las restantes hay una presentación inyectable (RIVOTRIL 1 mg/ml, n.º 52332) y otras presentaciones en comprimidos.",
+   "replacement": "Todas las autorizaciones son de principio activo único y ninguna está cancelada. Entre ellas hay una presentación inyectable (RIVOTRIL 1 mg/ml, n.º 52332) y presentaciones en comprimidos.",
+   "summary": "Eliminado: descripción de la tabla anterior y número; «Entre las restantes» → «Entre ellas»",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」；單方 10/10、撤銷 0",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-dalbavancin-1",
+   "drug": "dalbavancin",
+   "file": "dalbavancin.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 7 autorizaciones vigentes (también están autorizadas Dalbavancina Sala y Dalbavancina Teva).",
+   "replacement": "Entre las autorizaciones figuran también Dalbavancina Sala y Dalbavancina Teva.",
+   "summary": "Eliminado: descripción de la tabla anterior y número",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-denosumab-1",
+   "drug": "denosumab",
+   "file": "denosumab.md",
+   "action": "correct",
+   "claim": "Se listan 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo).",
+   "replacement": "Todas las autorizaciones recogidas para este informe son de medicamentos de un solo principio activo.",
+   "summary": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial)",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁：證據包 total_matches 30、只收 20 張；「20 張」當總數不成立；收錄的 20 張皆單方",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-denosumab-2",
+   "drug": "denosumab",
+   "file": "denosumab.md",
+   "action": "correct",
+   "claim": "Las 15 autorizaciones restantes corresponden a otros biosimilares y presentaciones de 60 mg y 120 mg.",
+   "replacement": "Entre las autorizaciones figuran otros biosimilares y presentaciones de 60 mg y 120 mg.",
+   "summary": "«Las 15 autorizaciones restantes» → «Entre las autorizaciones»",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁：總數至少 30（證據包 total_matches），「其餘 15 張」不成立",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-desogestrel-1",
+   "drug": "desogestrel",
+   "file": "desogestrel.md",
+   "action": "correct",
+   "claim": "Existen otras 5 autorizaciones vigentes (AIACET, NACREZ, DESOGESTREL STADA, DESOGESTREL STADAFARMA y DESOPOP), todas de monofármaco.",
+   "replacement": "Entre las autorizaciones figuran AIACET, DESOGESTREL STADAFARMA y DESOPOP (vigentes) y NACREZ y DESOGESTREL STADA (revocadas), todas de monofármaco.",
+   "summary": "«otras 5 autorizaciones vigentes» → NACREZ y DESOGESTREL STADA están revocadas",
+   "note": "Corregido: según CIMA (AEMPS), NACREZ (76228) y DESOGESTREL STADA (76575) están revocadas. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y muestra todas las autorizaciones con su estado.",
+   "finding": "76228、76575 Revocada；程式表 10 列全收，「其餘 5 張有效」不成立",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-epinephrine-1",
+   "drug": "epinephrine",
+   "file": "epinephrine.md",
+   "action": "correct",
+   "claim": "Las 15 autorizaciones restantes incluyen otras plumas autoinyectables (Emerade, Anapen, Altellus, Jext), otras presentaciones de adrenalina inyectable y combinaciones de anestésicos locales con epinefrina.",
+   "replacement": "Entre las autorizaciones figuran plumas autoinyectables (Anapen, Altellus, Jext y Emerade, esta última revocada), otras presentaciones de adrenalina inyectable y combinaciones de anestésicos locales con epinefrina.",
+   "summary": "«Las 15 autorizaciones restantes» → «Entre las autorizaciones»; Emerade revocada",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior; según CIMA (AEMPS), las tres presentaciones de EMERADE (80146, 80147, 80149) están revocadas. Los datos de este informe solo recogen parte de las autorizaciones; las cifras recogidas están en el Resumen rápido y en la tabla.",
+   "finding": "部分紀錄頁（total_matches 42）；EMERADE 3 張 Revocada",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-fenticonazole-1",
+   "drug": "fenticonazole",
+   "file": "fenticonazole.md",
+   "action": "correct",
+   "claim": "Existe una autorización adicional (61126, LOMEXIN 200 mg cápsulas vaginales blandas).",
+   "replacement": "Entre las autorizaciones figura LOMEXIN 200 mg cápsulas vaginales blandas (61126).",
+   "summary": "«Existe una autorización adicional» → «Entre las autorizaciones figura»",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」；程式表 6 列含 61126",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-fibrinogen_human-1",
+   "drug": "fibrinogen_human",
+   "file": "fibrinogen_human.md",
+   "action": "correct",
+   "claim": "Las restantes autorizaciones corresponden a adhesivos tisulares (VERASEAL, RAPLIXA, ARTISS, TISSEEL y otras presentaciones de TACHOSIL).",
+   "replacement": "Entre las autorizaciones figuran adhesivos tisulares, combinaciones con trombina humana (VERASEAL, RAPLIXA, ARTISS, TISSEEL y presentaciones de TACHOSIL).",
+   "summary": "«Las restantes autorizaciones» → «Entre las autorizaciones»",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」；8 張 fibrinógeno + trombina 複方",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-guanfacine-1",
+   "drug": "guanfacine",
+   "file": "guanfacine.md",
+   "action": "correct",
+   "claim": "Las otras 6 autorizaciones corresponden a Paxneury (2, 3, 4, 5, 6 y 7 mg), de Neuraxpharm;",
+   "replacement": "Entre las autorizaciones figuran las de Paxneury (1, 2, 3, 4, 5, 6 y 7 mg), de Neuraxpharm;",
+   "summary": "«Las otras 6» → «Entre las autorizaciones figuran»; Paxneury también 1 mg",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior; según CIMA (AEMPS), Paxneury tiene presentaciones de 1 a 7 mg (siete autorizaciones). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS).",
+   "finding": "PAXNEURY 1241908001～007（1～7 mg）共 7 張",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-ioversol-1",
+   "drug": "ioversol",
+   "file": "ioversol.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 8 autorizaciones; las otras 3 son: 58469 (OPTIRAY 320 mg/ml, vigente) y dos canceladas (60713 y 58468).",
+   "replacement": "Entre las autorizaciones figuran 58469 (OPTIRAY 320 mg/ml, vigente) y dos revocadas (60713 y 58468).",
+   "summary": "Eliminado: descripción de la tabla anterior; «las otras 3 son» → «Entre las autorizaciones figuran»",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-ivermectin-1",
+   "drug": "ivermectin",
+   "file": "ivermectin.md",
+   "action": "correct",
+   "claim": "Hay una sexta autorización vigente (90070, IVERTILENE 3 MG COMPRIMIDOS EFG, Glenmark), para un total de 6 autorizaciones, todas de monofármaco y vigentes.",
+   "replacement": "Entre las autorizaciones figura IVERTILENE 3 MG COMPRIMIDOS EFG (90070, Glenmark); todas son de monofármaco y están vigentes.",
+   "summary": "«Hay una sexta autorización…, para un total de 6» → «Entre las autorizaciones figura»",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」；6 張：上市 5、授權未上市 1（皆 vigente）",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-metoclopramide-1",
+   "drug": "metoclopramide",
+   "file": "metoclopramide.md",
+   "action": "correct",
+   "claim": "Las tres restantes son Primperan 1 mg/ml solución oral (40257), Metoclopramida Accord 10 mg comprimidos EFG (75665) y Primperan 10 mg/2 ml solución inyectable (40256).",
+   "replacement": "Entre las autorizaciones figuran Primperan 1 mg/ml solución oral (40257), Metoclopramida Accord 10 mg comprimidos EFG (75665) y Primperan 10 mg/2 ml solución inyectable (40256).",
+   "summary": "«Las tres restantes son» → «Entre las autorizaciones figuran»",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」；程式表 8 列全收",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-metoprolol-1",
+   "drug": "metoprolol",
+   "file": "metoprolol.md",
+   "action": "correct",
+   "claim": "Hay una sexta autorización (81030, Metoprolol Krka Retard 95 mg, cancelada) no mostrada para respetar el límite de cinco filas.",
+   "replacement": "Entre las autorizaciones figura una revocada (81030, Metoprolol Krka Retard 95 mg).",
+   "summary": "Eliminado: «no mostrada para respetar el límite de cinco filas»",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」；81030 Revocada",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-orlistat-1",
+   "drug": "orlistat",
+   "file": "orlistat.md",
+   "action": "correct",
+   "claim": "Entre las demás autorizaciones figuran Beacita, Orlidunn, Normostat, Linestat, Orliloss, Orlistat Stada, Orlistat Aurovitas y Orlistat Aristo.",
+   "replacement": "Entre las autorizaciones figuran Beacita, Orlidunn, Normostat, Linestat, Orliloss, Orlistat Stada, Orlistat Aurovitas y Orlistat Aristo (esta última revocada).",
+   "summary": "«Entre las demás» → «Entre las autorizaciones»; Orlistat Aristo revocada",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior; según CIMA (AEMPS), Orlistat Aristo 120 mg (81194) está revocada. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS).",
+   "finding": "81194 Revocada；部分紀錄頁",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-piroxicam-1",
+   "drug": "piroxicam",
+   "file": "piroxicam.md",
+   "action": "correct",
+   "claim": "Las demás autorizaciones corresponden a formulaciones tópicas (geles y crema):",
+   "replacement": "Entre las autorizaciones hay formulaciones tópicas (geles y crema):",
+   "summary": "«Las demás autorizaciones corresponden a» → «Entre las autorizaciones hay»",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」；程式表 9 列全收",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-telmisartan-1",
+   "drug": "telmisartan",
+   "file": "telmisartan.md",
+   "action": "correct",
+   "claim": "El resto son genéricos (EFG) de 20, 40 y 80 mg, en comprimido o comprimido recubierto con película.",
+   "replacement": "Entre las autorizaciones hay genéricos (EFG) de 20, 40 y 80 mg, en comprimido o comprimido recubierto con película.",
+   "summary": "«El resto son» → «Entre las autorizaciones hay»",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-tocilizumab-1",
+   "drug": "tocilizumab",
+   "file": "tocilizumab.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 11 autorizaciones vigentes. Las demás corresponden a los biosimilares Tyenne (Fresenius Kabi) y Avtozma (Celltrion) en formatos de perfusión, jeringa y pluma precargadas.",
+   "replacement": "Entre las autorizaciones figuran los biosimilares Tyenne (Fresenius Kabi) y Avtozma (Celltrion) en formatos de perfusión, jeringa y pluma precargadas.",
+   "summary": "Eliminado: descripción de la tabla anterior y número; «Las demás corresponden a» → «Entre las autorizaciones figuran»",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-propranolol-1",
+   "drug": "propranolol",
+   "file": "propranolol.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 11 autorizaciones vigentes (todas de principio activo único). Las restantes corresponden a Propranolol Accord (10 y 40 mg), Propranolol Kern Pharma (10 y 40 mg) y Sumial (10 y 40 mg).",
+   "replacement": "Todas las autorizaciones son de principio activo único; entre ellas figuran Propranolol Accord (10 y 40 mg), Propranolol Kern Pharma (10 y 40 mg) y Sumial (10 y 40 mg).",
+   "summary": "Eliminado: descripción de la tabla anterior y número; «Las restantes» → «entre ellas»",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-ruxolitinib-1",
+   "drug": "ruxolitinib",
+   "file": "ruxolitinib.md",
+   "action": "correct",
+   "claim": "Existe además una sexta autorización, OPZELURA 15 MG/G CREMA (Incyte Biosciences Distribution B.V.; n.º 1231726001), en forma de crema (formulación tópica).",
+   "replacement": "Entre las autorizaciones figura OPZELURA 15 MG/G CREMA (Incyte Biosciences Distribution B.V.; n.º 1231726001), en forma de crema (formulación tópica).",
+   "summary": "«Existe además una sexta autorización» → «Entre las autorizaciones figura»",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-tezacaftor-1",
+   "drug": "tezacaftor",
+   "file": "tezacaftor.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 8 autorizaciones vigentes (todas del titular Vertex Pharmaceuticals (Ireland) Limited); las restantes corresponden a Kaftrio 75 mg/50 mg/100 mg granulado y a Alyftrek (50/20/4 mg y 125/50/10 mg).",
+   "replacement": "Todas las autorizaciones son del titular Vertex Pharmaceuticals (Ireland) Limited; entre ellas figuran Kaftrio 75 mg/50 mg/100 mg granulado y Alyftrek (50/20/4 mg y 125/50/10 mg).",
+   "summary": "Eliminado: descripción de la tabla anterior y número; «las restantes» → «entre ellas»",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-turoctocog_alfa-1",
+   "drug": "turoctocog_alfa",
+   "file": "turoctocog_alfa.md",
+   "action": "correct",
+   "claim": "Existe además una sexta autorización (113888006, NOVOEIGHT 3000 UI).",
+   "replacement": "Entre las autorizaciones figura NOVOEIGHT 3000 UI (113888006).",
+   "summary": "«Existe además una sexta autorización» → «Entre las autorizaciones figura»",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-velpatasvir-1",
+   "drug": "velpatasvir",
+   "file": "velpatasvir.md",
+   "action": "correct",
+   "claim": "Hay 6 autorizaciones vigentes en total (la sexta, 1161116001IP1, corresponde también a Epclusa 400 mg/100 mg).",
+   "replacement": "Entre las autorizaciones figura también 1161116001IP1, de Epclusa 400 mg/100 mg.",
+   "summary": "Eliminado: número y «la sexta»",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-zuclopenthixol-1",
+   "drug": "zuclopenthixol",
+   "file": "zuclopenthixol.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 8 autorizaciones vigentes (todas de medicamento único, ninguna cancelada). Las otras tres corresponden a gotas orales 20 mg/ml (60871) y a otras presentaciones de Clopixol Depot (60874 y BE104736).",
+   "replacement": "Todas las autorizaciones son de medicamento único y ninguna está cancelada. Entre ellas figuran gotas orales 20 mg/ml (60871) y presentaciones de Clopixol Depot (60874 y BE104736).",
+   "summary": "Eliminado: descripción de la tabla anterior y número; «Las otras tres» → «Entre ellas»",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-lonoctocog_alfa-1",
+   "drug": "lonoctocog_alfa",
+   "file": "lonoctocog_alfa.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 7 autorizaciones vigentes (todas de CSL Behring GmbH; las otras dos corresponden a las presentaciones de 250 UI y 2.000 UI).",
+   "replacement": "Todas las autorizaciones son de CSL Behring GmbH.",
+   "summary": "Eliminado: descripción de la tabla anterior, número y «las otras dos»",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-simoctocog_alfa-1",
+   "drug": "simoctocog_alfa",
+   "file": "simoctocog_alfa.md",
+   "action": "correct",
+   "claim": "*Se muestran las 5 primeras de 8 autorizaciones; las restantes corresponden a las presentaciones de 1500, 3000 y 4000 UI.*",
+   "replacement": "",
+   "summary": "Eliminado: descripción de la tabla anterior («las 5 primeras de 8…; las restantes…»)",
+   "note": "Eliminado: la frase describía cuántas filas mostraba la tabla anterior y repetía el número de autorizaciones. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）",
+   "anchor": "Los textos de indicación aprobada no figuran en los datos compilados."
+  },
+  {
+   "id": "es-lic-20261124b-articaine-1",
+   "drug": "articaine",
+   "file": "articaine.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 12 autorizaciones vigentes.",
+   "replacement": "",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones",
+   "note": "Eliminado: la frase describía cuántas filas mostraba la tabla anterior y repetía el número de autorizaciones. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）",
+   "anchor": "Actualmente no hay literatura relacionada disponible para gota."
+  },
+  {
+   "id": "es-lic-20261124b-atezolizumab-1",
+   "drug": "atezolizumab",
+   "file": "atezolizumab.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 11 autorizaciones. ",
+   "replacement": "",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones",
+   "note": "Eliminado: la frase describía cuántas filas mostraba la tabla anterior y repetía el número de autorizaciones. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）",
+   "anchor": "Actualmente no hay literatura relacionada disponible."
+  },
+  {
+   "id": "es-lic-20261124b-betamethasone-1",
+   "drug": "betamethasone",
+   "file": "betamethasone.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 10 autorizaciones registradas. ",
+   "replacement": "",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones",
+   "note": "Eliminado: la frase describía cuántas filas mostraba la tabla anterior y repetía el número de autorizaciones. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）",
+   "anchor": "Actualmente no hay ensayos clínicos relacionados registrados."
+  },
+  {
+   "id": "es-lic-20261124b-bromfenac-1",
+   "drug": "bromfenac",
+   "file": "bromfenac.md",
+   "action": "correct",
+   "claim": "Hay 8 autorizaciones vigentes en total (todas de monofármaco); se listan las 5 principales.",
+   "replacement": "Todas las autorizaciones son de monofármaco.",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-dienogest-1",
+   "drug": "dienogest",
+   "file": "dienogest.md",
+   "action": "correct",
+   "claim": "Hay 7 autorizaciones vigentes en total, todas de monofármaco; se muestran las 5 principales.",
+   "replacement": "Todas las autorizaciones son de monofármaco.",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-empagliflozin-1",
+   "drug": "empagliflozin",
+   "file": "empagliflozin.md",
+   "action": "correct",
+   "claim": "Hay 8 autorizaciones vigentes en total, todas de monofármaco; aquí se muestran 5.",
+   "replacement": "Todas las autorizaciones son de monofármaco.",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-enzalutamide-1",
+   "drug": "enzalutamide",
+   "file": "enzalutamide.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 17 autorizaciones vigentes (todas de principio activo único).",
+   "replacement": "Todas las autorizaciones son de principio activo único.",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-etanercept-1",
+   "drug": "etanercept",
+   "file": "etanercept.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 13 autorizaciones vigentes (todas monofármaco), que incluyen Enbrel, Benepali, Erelzi y Nepexto.",
+   "replacement": "Todas las autorizaciones son de monofármaco e incluyen Enbrel, Benepali, Erelzi y Nepexto.",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-gemfibrozil-1",
+   "drug": "gemfibrozil",
+   "file": "gemfibrozil.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 8 autorizaciones vigentes.",
+   "replacement": "",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones",
+   "note": "Eliminado: la frase describía cuántas filas mostraba la tabla anterior y repetía el número de autorizaciones. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）",
+   "anchor": "Actualmente no hay ensayos clínicos relacionados registrados."
+  },
+  {
+   "id": "es-lic-20261124b-insulin_aspart-1",
+   "drug": "insulin_aspart",
+   "file": "insulin_aspart.md",
+   "action": "correct",
+   "claim": "Hay 9 autorizaciones vigentes en total, todas de Novo Nordisk A/S; la tabla muestra las 5 principales.",
+   "replacement": "Todas las autorizaciones son de Novo Nordisk A/S.",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-isoniazid-1",
+   "drug": "isoniazid",
+   "file": "isoniazid.md",
+   "action": "correct",
+   "claim": "Hay 7 autorizaciones vigentes en total; se muestran las 5 principales.",
+   "replacement": "",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones",
+   "note": "Eliminado: la frase describía cuántas filas mostraba la tabla anterior y repetía el número de autorizaciones. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）",
+   "anchor": "Actualmente no hay ensayos clínicos relacionados registrados."
+  },
+  {
+   "id": "es-lic-20261124b-miglustat-1",
+   "drug": "miglustat",
+   "file": "miglustat.md",
+   "action": "correct",
+   "claim": "Hay 7 autorizaciones vigentes en total (todas de principio activo único); se muestran las 5 principales.",
+   "replacement": "Todas las autorizaciones son de principio activo único.",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-moroctocog_alfa-1",
+   "drug": "moroctocog_alfa",
+   "file": "moroctocog_alfa.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 9 autorizaciones vigentes, todas de Pfizer Europe MA EEIG.",
+   "replacement": "Todas las autorizaciones son de Pfizer Europe MA EEIG.",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-nilotinib-1",
+   "drug": "nilotinib",
+   "file": "nilotinib.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 12 autorizaciones vigentes (todas de principio activo único).",
+   "replacement": "Todas las autorizaciones son de principio activo único.",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-nitisinone-1",
+   "drug": "nitisinone",
+   "file": "nitisinone.md",
+   "action": "correct",
+   "claim": "Se listan 5 de las 12 autorizaciones vigentes (todas son monofármaco y están en estado válido):",
+   "replacement": "Todas las autorizaciones son de monofármaco y están vigentes.",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-norelgestromin-1",
+   "drug": "norelgestromin",
+   "file": "norelgestromin.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 13 autorizaciones vigentes (todas del parche transdérmico EVRA, sin cancelaciones).",
+   "replacement": "Todas las autorizaciones corresponden al parche transdérmico EVRA y ninguna está cancelada.",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-pertuzumab-1",
+   "drug": "pertuzumab",
+   "file": "pertuzumab.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 6 autorizaciones vigentes, todas de PERJETA 420 MG concentrado para solución para perfusión (titular: Roche Registration GmbH).",
+   "replacement": "Todas las autorizaciones corresponden a PERJETA 420 MG concentrado para solución para perfusión (titular: Roche Registration GmbH).",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-plerixafor-1",
+   "drug": "plerixafor",
+   "file": "plerixafor.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 8 autorizaciones vigentes, todas de solución inyectable y de principio activo único.",
+   "replacement": "Todas las autorizaciones son de solución inyectable y de principio activo único.",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-ranibizumab-1",
+   "drug": "ranibizumab",
+   "file": "ranibizumab.md",
+   "action": "correct",
+   "claim": "Se listan 5 de las 11 autorizaciones vigentes (todas de principio activo único).",
+   "replacement": "Todas las autorizaciones son de principio activo único.",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-sertaconazole-1",
+   "drug": "sertaconazole",
+   "file": "sertaconazole.md",
+   "action": "correct",
+   "claim": "Hay 7 autorizaciones en total (5 vigentes y 2 canceladas); la tabla muestra las 5 primeras.",
+   "replacement": "",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones",
+   "note": "Eliminado: la frase describía cuántas filas mostraba la tabla anterior y repetía el número de autorizaciones. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）",
+   "anchor": "Actualmente no hay literatura relacionada disponible."
+  },
+  {
+   "id": "es-lic-20261124b-spironolactone-1",
+   "drug": "spironolactone",
+   "file": "spironolactone.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único, ninguna cancelada).",
+   "replacement": "Todas las autorizaciones son de principio activo único y ninguna está cancelada.",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-sulfamethoxazole-1",
+   "drug": "sulfamethoxazole",
+   "file": "sulfamethoxazole.md",
+   "action": "correct",
+   "claim": "Hay 7 autorizaciones vigentes en total; se muestran las 5 principales.",
+   "replacement": "",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones",
+   "note": "Eliminado: la frase describía cuántas filas mostraba la tabla anterior y repetía el número de autorizaciones. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）",
+   "anchor": "Actualmente no hay ensayos clínicos relacionados registrados."
+  },
+  {
+   "id": "es-lic-20261124b-treprostinil-1",
+   "drug": "treprostinil",
+   "file": "treprostinil.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada).",
+   "replacement": "Todas las autorizaciones son de principio activo único y ninguna está cancelada.",
+   "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-clotrimazole-1",
+   "drug": "clotrimazole",
+   "file": "clotrimazole.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 20 autorizaciones vigentes, todas de fármaco único.",
+   "replacement": "Todas las autorizaciones recogidas para este informe son de fármaco único.",
+   "summary": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto)",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁：證據包只收 20 張（total_matches 較多），「20 張」寫成總數不成立；收錄的 20 張皆單方、無撤銷（逐張確認）",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-lamotrigine-1",
+   "drug": "lamotrigine",
+   "file": "lamotrigine.md",
+   "action": "correct",
+   "claim": "Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único).",
+   "replacement": "Todas las autorizaciones recogidas para este informe son de principio activo único.",
+   "summary": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto)",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁：證據包只收 20 張（total_matches 較多），「20 張」寫成總數不成立；收錄的 20 張皆單方、無撤銷（逐張確認）",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-loperamide-1",
+   "drug": "loperamide",
+   "file": "loperamide.md",
+   "action": "correct",
+   "claim": "Se listan 5 de las 20 autorizaciones vigentes (todas monofármaco, ninguna cancelada).",
+   "replacement": "Todas las autorizaciones recogidas para este informe son de monofármaco y ninguna está cancelada.",
+   "summary": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto)",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁：證據包只收 20 張（total_matches 較多），「20 張」寫成總數不成立；收錄的 20 張皆單方、無撤銷（逐張確認）",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-nintedanib-1",
+   "drug": "nintedanib",
+   "file": "nintedanib.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos con un único principio activo, ninguna cancelada); el resto corresponde a genéricos de otros titulares.",
+   "replacement": "Todas las autorizaciones recogidas para este informe son de medicamentos con un único principio activo y ninguna está cancelada; entre ellas hay genéricos de varios titulares.",
+   "summary": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto)",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁：證據包只收 20 張（total_matches 較多），「20 張」寫成總數不成立；收錄的 20 張皆單方、無撤銷（逐張確認）",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-perampanel-1",
+   "drug": "perampanel",
+   "file": "perampanel.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo, ninguna cancelada).",
+   "replacement": "Todas las autorizaciones recogidas para este informe son de medicamentos de un solo principio activo y ninguna está cancelada.",
+   "summary": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto)",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁：證據包只收 20 張（total_matches 較多），「20 張」寫成總數不成立；收錄的 20 張皆單方、無撤銷（逐張確認）",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-safinamide-1",
+   "drug": "safinamide",
+   "file": "safinamide.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada).",
+   "replacement": "Todas las autorizaciones recogidas para este informe son de principio activo único y ninguna está cancelada.",
+   "summary": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto)",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁：證據包只收 20 張（total_matches 較多），「20 張」寫成總數不成立；收錄的 20 張皆單方、無撤銷（逐張確認）",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-vortioxetine-1",
+   "drug": "vortioxetine",
+   "file": "vortioxetine.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada).",
+   "replacement": "Todas las autorizaciones recogidas para este informe son de principio activo único y ninguna está cancelada.",
+   "summary": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto)",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁：證據包只收 20 張（total_matches 較多），「20 張」寫成總數不成立；收錄的 20 張皆單方、無撤銷（逐張確認）",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-azathioprine-1",
+   "drug": "azathioprine",
+   "file": "azathioprine.md",
+   "action": "correct",
+   "claim": "La azatioprina está comercializada en España en polvo para solución inyectable y en comprimidos (incluidos comprimidos recubiertos con película), con los nombres comerciales Imurel e Immufalk.",
+   "replacement": "La azatioprina está comercializada en España en comprimidos (incluidos comprimidos recubiertos con película), con los nombres comerciales Imurel e Immufalk; la presentación en polvo para solución inyectable (IMUREL 50 mg, 51003) está revocada.",
+   "summary": "«comercializada … en polvo para solución inyectable» → la presentación inyectable está revocada",
+   "note": "Corregido: según CIMA (AEMPS), IMUREL 50 mg polvo para solución inyectable (51003) está revocada; las presentaciones comercializadas son comprimidos.",
+   "finding": "51003 Revocada；其餘 3 張為錠劑且上市",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-cabozantinib-1",
+   "drug": "cabozantinib",
+   "file": "cabozantinib.md",
+   "action": "correct",
+   "claim": "Cabozantinib se comercializa en España en cápsulas duras (Cometriq) y comprimidos recubiertos con película (Cabometyx), todos de Ipsen Pharma.",
+   "replacement": "Cabozantinib está autorizado en España en cápsulas duras (Cometriq, autorizadas pero sin comercializar) y comprimidos recubiertos con película (Cabometyx, comercializados), todos de Ipsen Pharma.",
+   "summary": "«se comercializa … en cápsulas duras (Cometriq)» → Cometriq autorizado pero no comercializado",
+   "note": "Corregido: según CIMA (AEMPS), las tres autorizaciones de COMETRIQ cápsulas duras (113890004, 113890005, 113890006) están autorizadas pero no comercializadas; CABOMETYX está comercializado.",
+   "finding": "Cometriq 3 張 Autorizada (no comercializada)",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-ebastine-1",
+   "drug": "ebastine",
+   "file": "ebastine.md",
+   "action": "correct",
+   "claim": "Las formas farmacéuticas disponibles son comprimidos recubiertos con película y comprimidos bucodispersables, ambos de administración oral.",
+   "replacement": "Las formas farmacéuticas disponibles incluyen comprimidos recubiertos con película, comprimidos bucodispersables, liofilizados orales y solución oral, todas de administración oral.",
+   "summary": "«son comprimidos recubiertos … y bucodispersables» → también liofilizados orales y solución oral",
+   "note": "Corregido: según el listado completo de CIMA (AEMPS), datos del 2026-11-23, también hay autorizaciones de ebastina en liofilizado oral y solución oral. Los datos de este informe solo recogen parte de las autorizaciones.",
+   "finding": "部分紀錄頁；CIMA 全量 vtm ebastina 69 張：另有 LIOFILIZADO ORAL 5 張、SOLUCIÓN ORAL 1 張",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-loperamide-2",
+   "drug": "loperamide",
+   "file": "loperamide.md",
+   "action": "correct",
+   "claim": "Otras presentaciones incluyen comprimidos, comprimidos bucodispersables y liofilizados orales.",
+   "replacement": "Entre las presentaciones hay también comprimidos, comprimidos bucodispersables y liofilizados orales.",
+   "summary": "«Otras presentaciones incluyen» → «Entre las presentaciones hay también»",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」；劑型照 CIMA 全量成立（全為口服）",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-ceftriaxone-1",
+   "drug": "ceftriaxone",
+   "file": "ceftriaxone.md",
+   "action": "correct",
+   "claim": "Hay 17 autorizaciones vigentes y 3 canceladas.",
+   "replacement": "Hay autorizaciones vigentes y otras revocadas; los datos de este informe solo recogen parte de ellas.",
+   "summary": "«17 autorizaciones vigentes y 3 canceladas» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁的正文把證據包收錄的 20 張寫成總數（沒有「al menos／parcial」保留）；依 CIMA 全量（data-20261123，vtm）實際張數較多：ceftriaxona 26 張（上市 23、授權未上市 1、撤銷 2）",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-diazepam-1",
+   "drug": "diazepam",
+   "file": "diazepam.md",
+   "action": "correct",
+   "claim": "De las 20 autorizaciones registradas, 18 están vigentes y 2 canceladas.",
+   "replacement": "Hay autorizaciones vigentes y otras revocadas; los datos de este informe solo recogen parte de ellas.",
+   "summary": "«De las 20…, 18 vigentes y 2 canceladas» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁的正文把證據包收錄的 20 張寫成總數（沒有「al menos／parcial」保留）；依 CIMA 全量（data-20261123，vtm）實際張數較多：diazepam 單方 41 張（上市 37、授權未上市 1、撤銷 3）",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-docetaxel-1",
+   "drug": "docetaxel",
+   "file": "docetaxel.md",
+   "action": "correct",
+   "claim": "Se registran 20 autorizaciones, de las cuales 10 están vigentes y 3 canceladas.",
+   "replacement": "Según CIMA (AEMPS), hay autorizaciones vigentes (comercializadas y otras autorizadas sin comercializar) y otras revocadas; los datos de este informe solo recogen parte de ellas.",
+   "summary": "«20 autorizaciones, 10 vigentes y 3 canceladas» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁的正文把證據包收錄的 20 張寫成總數（沒有「al menos／parcial」保留）；依 CIMA 全量（data-20261123，vtm）實際張數較多：docetaxel 26 張（上市 11、授權未上市 9、撤銷 6）；證據包 20 張中也不是 10 有效（上市 10、授權未上市 7、撤銷 3）",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-filgrastim-1",
+   "drug": "filgrastim",
+   "file": "filgrastim.md",
+   "action": "correct",
+   "claim": "Se registran 20 autorizaciones vigentes (todas monofármaco).",
+   "replacement": "Todas las autorizaciones recogidas para este informe son de monofármaco.",
+   "summary": "«20 autorizaciones vigentes» eliminado",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁的正文把證據包收錄的 20 張寫成總數（沒有「al menos／parcial」保留）；依 CIMA 全量（data-20261123，vtm）實際張數較多：vtm filgrastim 本身 36 張以上（Accofil、Nivestim、Zarzio、Ratiograstim、Tevagrastim、Neupogen）",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-filgrastim-2",
+   "drug": "filgrastim",
+   "file": "filgrastim.md",
+   "action": "correct",
+   "claim": "Las 20 autorizaciones corresponden a las marcas Zarzio, Nivestim, Accofil, Ratiograstim y Neupogen (biosimilares y originador).",
+   "replacement": "Entre las autorizaciones figuran las marcas Zarzio, Nivestim, Accofil, Ratiograstim, Tevagrastim y Neupogen (biosimilares y originador).",
+   "summary": "«Las 20 autorizaciones corresponden a» → «Entre las autorizaciones figuran»; también Tevagrastim",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones de filgrastim, incluidas las de TEVAGRASTIM. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁的正文把證據包收錄的 20 張寫成總數（沒有「al menos／parcial」保留）；依 CIMA 全量（data-20261123，vtm）實際張數較多：CIMA 另有 TEVAGRASTIM 4 張",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-fluconazole-1",
+   "drug": "fluconazole",
+   "file": "fluconazole.md",
+   "action": "correct",
+   "claim": "El medicamento está comercializado en este país, con 16 autorizaciones vigentes.",
+   "replacement": "El medicamento está comercializado en este país, con autorizaciones vigentes.",
+   "summary": "«16 autorizaciones vigentes» → sin cifra",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁的正文把證據包收錄的 20 張寫成總數（沒有「al menos／parcial」保留）；依 CIMA 全量（data-20261123，vtm）實際張數較多：fluconazol 77 張（上市 64、授權未上市 4、撤銷 9）",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-paliperidone-1",
+   "drug": "paliperidone",
+   "file": "paliperidone.md",
+   "action": "correct",
+   "claim": "Paliperidona está comercializada en España con 20 autorizaciones vigentes (todas de principio activo único).",
+   "replacement": "Paliperidona está comercializada en España con autorizaciones vigentes, todas de principio activo único.",
+   "summary": "«20 autorizaciones vigentes» → sin cifra",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁的正文把證據包收錄的 20 張寫成總數（沒有「al menos／parcial」保留）；依 CIMA 全量（data-20261123，vtm）實際張數較多：paliperidona 97 張（上市 56、授權未上市 34、撤銷 7），皆單方",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-sacubitril-1",
+   "drug": "sacubitril",
+   "file": "sacubitril.md",
+   "action": "correct",
+   "claim": "Hay 20 autorizaciones vigentes en total, todas de producto único (sacubitrilo/valsartán), incluidos genéricos (EFG).",
+   "replacement": "Todas las autorizaciones corresponden al producto combinado sacubitrilo/valsartán, incluidos genéricos (EFG).",
+   "summary": "«20 autorizaciones vigentes en total» eliminado",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁的正文把證據包收錄的 20 張寫成總數（沒有「al menos／parcial」保留）；依 CIMA 全量（data-20261123，vtm）實際張數較多：vtm sacubitrilo 62 張（上市 15、授權未上市 47），全部 sacubitrilo + valsartán",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124b-tolvaptan-1",
+   "drug": "tolvaptan",
+   "file": "tolvaptan.md",
+   "action": "correct",
+   "claim": "Se registran 20 autorizaciones vigentes en total (todas de monofármaco), de los titulares Otsuka, Accord y Teva.",
+   "replacement": "Todas las autorizaciones recogidas para este informe son de monofármaco; entre los titulares figuran Otsuka, Accord y Teva.",
+   "summary": "«20 autorizaciones vigentes en total» eliminado; «de los titulares» → «entre los titulares figuran»",
+   "note": "Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones de tolvaptán, también de otros titulares (Stada, Sandoz). Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁的正文把證據包收錄的 20 張寫成總數（沒有「al menos／parcial」保留）；依 CIMA 全量（data-20261123，vtm）實際張數較多：tolvaptán 36 張（上市 18、授權未上市 18），titular 另有 Stada 8、Sandoz 5",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
   }
  ]
 }

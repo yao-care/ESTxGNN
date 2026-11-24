@@ -109,12 +109,21 @@ Se muestran las publicaciones más relevantes (de 20 identificadas):
 | 16692001IP3 | YELLOX 0,9 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Pharmaswiss Ceska Republika S.R.O. | Comercializada |
 | 11692001IP5 | YELLOX 0,9 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Bausch + Lomb Ireland Limited | Comercializada |
 | 11692001IP | YELLOX 0,9mg/ml colirio en solucion | COLIRIO EN SOLUCIÓN | Croma-Pharma Gmbh | Comercializada |
+| 11692001IP6 | YELLOX 0,9 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Bausch + Lomb Ireland Limited | Comercializada |
+| 11692001IP2 | YELLOX 0,9 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Pharmaswiss Ceska Republika S.R.O. | Comercializada |
+| 90917 | REDENAC 0,9 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Bruschettini S.R.L. | Autorizada, no comercializada |
 
-Se muestran 5 de 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-Hay 8 autorizaciones vigentes en total (todas de monofármaco); se listan las 5 principales.
+Todas las autorizaciones son de monofármaco.
+
+<!-- review:begin es-lic-20261124b-bromfenac-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 8 autorizaciones vigentes en total (todas de monofármaco); se listan las 5 principales." Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-bromfenac-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -138,6 +147,19 @@ Las demás predicciones (papilitis óptica, anomalía de von Hippel, síndrome d
 - Delimitar la indicación objetivo (ojo seco o maculopatías por VEGF) y revisar los resultados de NCT01212471 y de los ensayos en maculopatías.
 - Definir criterios de exclusión y monitorización de la superficie corneal (ojo seco grave, Stevens-Johnson, Sjögren), por el riesgo de fusión corneal.
 - Evaluar la relevancia de las contraindicaciones del grafo de conocimiento (diabetes, artritis reumatoide) frente a la exposición sistémica baja.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -91,7 +91,13 @@ Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA 
 
 <!-- licenses:end -->
 
-Cabozantinib se comercializa en España en cápsulas duras (Cometriq) y comprimidos recubiertos con película (Cabometyx), todos de Ipsen Pharma. Las autorizaciones registradas son monofármaco y la lista procede de los registros locales.
+Cabozantinib está autorizado en España en cápsulas duras (Cometriq, autorizadas pero sin comercializar) y comprimidos recubiertos con película (Cabometyx, comercializados), todos de Ipsen Pharma. Las autorizaciones registradas son monofármaco y la lista procede de los registros locales.
+
+<!-- review:begin es-lic-20261124b-cabozantinib-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Cabozantinib se comercializa en España en cápsulas duras (Cometriq) y comprimidos recubiertos con película (Cabometyx), todos de Ipsen Pharma." Corregido: según CIMA (AEMPS), las tres autorizaciones de COMETRIQ cápsulas duras (113890004, 113890005, 113890006) están autorizadas pero no comercializadas; CABOMETYX está comercializado. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-cabozantinib-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -113,6 +119,19 @@ Ningún estudio aborda directamente el liposarcoma: el ensayo de Fase 2 y el est
 - Datos del mecanismo de acción y análisis de la relación mecanística con el liposarcoma
 - Advertencias y contraindicaciones del prospecto de la AEMPS para el perfil de seguridad
 - Estudios preclínicos o clínicos específicos en liposarcoma
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «se comercializa … en cápsulas duras (Cometriq)» → Cometriq autorizado pero no comercializado | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

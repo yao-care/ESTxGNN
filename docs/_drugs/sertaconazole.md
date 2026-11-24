@@ -70,6 +70,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+<!-- review:begin es-lic-20261124b-sertaconazole-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 7 autorizaciones en total (5 vigentes y 2 canceladas); la tabla muestra las 5 primeras." Eliminado: la frase describía cuántas filas mostraba la tabla anterior y repetía el número de autorizaciones. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-sertaconazole-1 -->
+
 ## Información de Mercado en España
 
 <!-- licenses:begin -->
@@ -81,12 +87,12 @@ Actualmente no hay literatura relacionada disponible.
 | 62087 | GINEDERMOFIX 2% CREMA VAGINAL | CREMA VAGINAL | Ferrer Internacional S.A. | Comercializada |
 | 59804 | DERMOFIX 20 MG/ML SOLUCIÓN CUTÁNEA | SOLUCIÓN CUTÁNEA | Ferrer Internacional S.A. | Comercializada |
 | 59077 | ZALAIN 20 MG/G CREMA | CREMA | Ferrer Internacional S.A. | Comercializada |
+| 59799 | DERMOFIX 20 MG/G POLVO CUTÁNEO | POLVO CUTÁNEO | Ferrer Internacional S.A. | Revocada |
+| 59803 | DERMOFIX 20 MG/G GEL | GEL | Ferrer Internacional S.A. | Revocada |
 
-Se muestran 5 de 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
-
-Hay 7 autorizaciones en total (5 vigentes y 2 canceladas); la tabla muestra las 5 primeras.
 
 ## Consideraciones de Seguridad
 
@@ -104,6 +110,18 @@ La predicción tiene un puntaje TxGNN alto (0,9959), pero no cuenta con ningún 
 - Revisión de la literatura y de registros de ensayos sobre la eficacia de azoles tópicos en infecciones ectotrix
 - Evaluación de la compatibilidad de la vía de administración (tópica frente a sistémica)
 - Estudios preclínicos o ensayos exploratorios que demuestren penetración y eficacia en el folículo piloso
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | Eliminado: descripción de la tabla anterior y número de autorizaciones | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

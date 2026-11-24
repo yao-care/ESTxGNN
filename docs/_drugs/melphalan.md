@@ -99,11 +99,11 @@ Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA 
 
 <!-- licenses:end -->
 
-Las restantes corresponden a Alkeran 2 mg comprimidos recubiertos, Melfalan Medac 50 mg EFG y Alkeran 50 mg polvo y disolvente para perfusión.
+Entre las autorizaciones figuran también Alkeran 2 mg comprimidos recubiertos, Melfalan Medac 50 mg EFG (revocada) y Alkeran 50 mg polvo y disolvente para perfusión.
 
 <!-- review:begin es-lic-20261105-melphalan-1 -->
 
-> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 8 autorizaciones vigentes (todas de medicamento monocomponente). Las restantes corresponden a Alkeran 2 mg comprimidos recubiertos, Melfalan Medac 50 mg EFG y Alkeran 50 mg polvo y disolvente para perfusión." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 8 autorizaciones vigentes (todas de medicamento monocomponente). Las restantes corresponden a Alkeran 2 mg comprimidos recubiertos, Melfalan Medac 50 mg EFG y Alkeran 50 mg polvo y disolvente para perfusión." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior; según CIMA (AEMPS), Melfalan Medac 50 mg (85961) está revocada. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye las tres. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-melphalan-1 -->
 
@@ -147,7 +147,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-24 | Eliminado: "Se muestran 5 de las 8 autorizaciones vigentes (todas de medicamento monocomponente)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | «Las restantes corresponden a» → «figuran también»; Melfalan Medac revocada | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c) |
 
 <!-- review:end log -->

@@ -91,7 +91,13 @@ Se muestran 10 de al menos 20 autorizaciones con este principio activo en los da
 
 <!-- licenses:end -->
 
-Entre las demás autorizaciones figuran Beacita, Orlidunn, Normostat, Linestat, Orliloss, Orlistat Stada, Orlistat Aurovitas y Orlistat Aristo.
+Entre las autorizaciones figuran Beacita, Orlidunn, Normostat, Linestat, Orliloss, Orlistat Stada, Orlistat Aurovitas y Orlistat Aristo (esta última revocada).
+
+<!-- review:begin es-lic-20261124b-orlistat-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Entre las demás autorizaciones figuran Beacita, Orlidunn, Normostat, Linestat, Orliloss, Orlistat Stada, Orlistat Aurovitas y Orlistat Aristo." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior; según CIMA (AEMPS), Orlistat Aristo 120 mg (81194) está revocada. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS). Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-orlistat-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -124,6 +130,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se identificaron 20 autorizaciones vigentes, todas de monofármaco y ninguna cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | «Entre las demás» → «Entre las autorizaciones»; Orlistat Aristo revocada | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

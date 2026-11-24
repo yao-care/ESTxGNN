@@ -72,7 +72,13 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Según los datos compilados, hay 8 autorizaciones vigentes y 4 canceladas, y el listado puede ser parcial. Los textos de indicación aprobada no figuran en los registros locales.
+Según CIMA (AEMPS), adalimumab tiene autorizaciones vigentes (comercializadas y otras autorizadas sin comercializar) y otras revocadas; los datos de este informe solo recogen parte de ellas. Los textos de indicación aprobada no figuran en los registros locales.
+
+<!-- review:begin es-lic-20261124b-adalimumab-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Según los datos compilados, hay 8 autorizaciones vigentes y 4 canceladas, y el listado puede ser parcial." Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-adalimumab-1 -->
 
 <!-- licenses:begin -->
 
@@ -118,11 +124,12 @@ La predicción se basa solo en el modelo computacional (puntaje 0,9977), sin ens
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc) |
+| 2026-11-24 | «8 autorizaciones vigentes y 4 canceladas» → sin cifras (solo correspondían a parte de los datos) | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

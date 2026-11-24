@@ -89,7 +89,13 @@ Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA 
 
 <!-- licenses:end -->
 
-Existe además una sexta autorización, OPZELURA 15 MG/G CREMA (Incyte Biosciences Distribution B.V.; n.º 1231726001), en forma de crema (formulación tópica). Jakavi pertenece a Novartis Europharm Limited.
+Entre las autorizaciones figura OPZELURA 15 MG/G CREMA (Incyte Biosciences Distribution B.V.; n.º 1231726001), en forma de crema (formulación tópica). Jakavi pertenece a Novartis Europharm Limited.
+
+<!-- review:begin es-lic-20261124b-ruxolitinib-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Existe además una sexta autorización, OPZELURA 15 MG/G CREMA (Incyte Biosciences Distribution B.V.; n.º 1231726001), en forma de crema (formulación tópica)." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-ruxolitinib-1 -->
 
 ## Citotoxicidad
 
@@ -128,11 +134,12 @@ La predicción para el PEComa uterino se basa únicamente en el modelo (L5), sin
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Jakafi (ruxolitinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b) |
+| 2026-11-24 | «Existe además una sexta autorización» → «Entre las autorizaciones figura» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

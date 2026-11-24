@@ -69,6 +69,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible para gota.
 
+<!-- review:begin es-lic-20261124b-articaine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 12 autorizaciones vigentes." Eliminado: la frase describía cuántas filas mostraba la tabla anterior y repetía el número de autorizaciones. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-articaine-1 -->
+
 ## Información de Mercado en España
 
 <!-- licenses:begin -->
@@ -80,12 +86,15 @@ Actualmente no hay literatura relacionada disponible para gota.
 | 59942 | SEPTANEST CON ADRENALINA 40 MG/ML + 10 MICROGRAMOS/ML SOLUCION INYECTABLE. | SOLUCIÓN INYECTABLE EN CARTUCHO | Septodont | Comercializada |
 | 68103 | ARTICAINA / EPINEFRINA DERMOGEN 40 MG/ML + 10 MICROGRAMOS/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Farmalider S.A. | Comercializada |
 | 89153 | ARTICAINA/EPINEFRINA NORMON 40 MG/ML + 5 MICROGRAMOS/ML SOLUCIÓN INYECTABLE EFG | SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 61480 | ARTINIBSA 40 MG/ML + 5 MICROGRAMOS/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE EN CARTUCHO | Laboratorios Inibsa S.A. | Comercializada |
+| 61195 | MEGANEST 40 MG/ML + 5 MICROGRAMOS/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Laboratorios Clarben S.A. | Comercializada |
+| 55034 | ULTRACAIN CON ADRENALINA 40 MG/ML + 5 MICROGRAMOS/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE EN CARTUCHO | Laboratorios Normon S.A. | Comercializada |
+| 89154 | ARTICAINA/EPINEFRINA NORMON 40 MG/ML + 10 MICROGRAMOS/ML SOLUCIÓN INYECTABLE EFG | SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 61479 | ARTINIBSA 40 MG/ML + 10 MICROGRAMOS/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE EN CARTUCHO | Laboratorios Inibsa S.A. | Comercializada |
 
-Se muestran 5 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
-
-Se muestran 5 de las 12 autorizaciones vigentes.
 
 ## Consideraciones de Seguridad
 
@@ -109,6 +118,19 @@ La predicción para gota se basa solo en el modelo (nivel L5), sin ensayos clín
 - Definir una hipótesis mecanística concreta que conecte el bloqueo de canales de sodio con la fisiopatología de la gota, y respaldarla con estudios preclínicos.
 - Evaluar la compatibilidad de vías de administración (las formulaciones actuales son inyectables de uso local/dental).
 - Reevaluar la utilidad de otras predicciones solo si aparece evidencia independiente.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | Eliminado: descripción de la tabla anterior y número de autorizaciones | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

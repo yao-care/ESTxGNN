@@ -96,12 +96,23 @@ Sin embargo, existe un matiz importante: dos ensayos de Fase 3 controlados con p
 | 1231754007 | TYENNE 162 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Fresenius Kabi Deutschland Gmbh | Comercializada |
 | 08492003 | ROACTEMRA 20 mg/ml, CONCENTRADO PARA SOLUCION PARA PERFUSION | SOLUCIÓN INYECTABLE | Roche Registration Gmbh | Comercializada |
 | 1231754001 | TYENNE 20 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi Deutschland Gmbh | Comercializada |
+| 1241896007 | AVTOZMA 162 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Celltrion Healthcare Hungary Kft. | Comercializada |
+| 1231754010 | TYENNE 162 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Fresenius Kabi Deutschland Gmbh | Comercializada |
+| 1241896001 | AVTOZMA 20 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Celltrion Healthcare Hungary Kft. | Comercializada |
+| 108492007 | ROACTEMRA 162 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Roche Registration Gmbh | Comercializada |
+| 108492009 | ROACTEMRA 162 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Roche Registration Gmbh | Comercializada |
 
-Se muestran 5 de 11 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 11 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-Se muestran 5 de las 11 autorizaciones vigentes. Las demás corresponden a los biosimilares Tyenne (Fresenius Kabi) y Avtozma (Celltrion) en formatos de perfusión, jeringa y pluma precargadas.
+Entre las autorizaciones figuran los biosimilares Tyenne (Fresenius Kabi) y Avtozma (Celltrion) en formatos de perfusión, jeringa y pluma precargadas.
+
+<!-- review:begin es-lic-20261124b-tocilizumab-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 11 autorizaciones vigentes. Las demás corresponden a los biosimilares Tyenne (Fresenius Kabi) y Avtozma (Celltrion) en formatos de perfusión, jeringa y pluma precargadas." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-tocilizumab-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -137,11 +148,12 @@ Aunque el bloqueo de IL-6 es biológicamente plausible en la espondilitis anquil
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d) |
+| 2026-11-24 | Eliminado: descripción de la tabla anterior y número; «Las demás corresponden a» → «Entre las autorizaciones figuran» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

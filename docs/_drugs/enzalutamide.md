@@ -70,7 +70,13 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 17 autorizaciones vigentes (todas de principio activo único). Los textos de indicación aprobada no estaban disponibles en los datos compilados.
+Todas las autorizaciones son de principio activo único. Los textos de indicación aprobada no estaban disponibles en los datos compilados.
+
+<!-- review:begin es-lic-20261124b-enzalutamide-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 17 autorizaciones vigentes (todas de principio activo único)." Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-enzalutamide-1 -->
 
 <!-- licenses:begin -->
 
@@ -81,8 +87,13 @@ Se muestran 5 de las 17 autorizaciones vigentes (todas de principio activo únic
 | 89615 | ENZALUTAMIDA ACCORD 40 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Accord Healthcare S.L.U. | Autorizada, no comercializada |
 | 1241842002 | ENZALUTAMIDA VIATRIS 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Limited | Autorizada, no comercializada |
 | 113846001 | XTANDI 40 MG CAPSULAS BLANDAS | CÁPSULA BLANDA | Astellas Pharma Europe B.V. | Autorizada, no comercializada |
+| 1241842005 | ENZALUTAMIDA VIATRIS 80 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Limited | Autorizada, no comercializada |
+| 91052 | ENZALUTAMIDA TEVA 80 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Gmbh | Autorizada, no comercializada |
+| 90961 | ENZALUTAMIDA ZENTIVA 80 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Zentiva K.S. | Autorizada, no comercializada |
+| 91053 | ENZALUTAMIDA TEVA 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Gmbh | Autorizada, no comercializada |
+| 89820 | ENZALUTAMIDA SANDOZ FARMACEUTICA 80 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Autorizada, no comercializada |
 
-Se muestran 5 de 17 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 17 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
@@ -117,11 +128,12 @@ La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni l
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Xtandi (enzalutamide) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf) |
+| 2026-11-24 | Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

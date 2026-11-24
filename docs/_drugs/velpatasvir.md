@@ -115,7 +115,13 @@ Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA 
 
 <!-- licenses:end -->
 
-Hay 6 autorizaciones vigentes en total (la sexta, 1161116001IP1, corresponde también a Epclusa 400 mg/100 mg). Todas pertenecen a Gilead Sciences Ireland Unlimited Company.
+Entre las autorizaciones figura también 1161116001IP1, de Epclusa 400 mg/100 mg. Todas pertenecen a Gilead Sciences Ireland Unlimited Company.
+
+<!-- review:begin es-lic-20261124b-velpatasvir-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 6 autorizaciones vigentes en total (la sexta, 1161116001IP1, corresponde también a Epclusa 400 mg/100 mg)." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-velpatasvir-1 -->
 
 ---
 
@@ -149,11 +155,12 @@ Velpatasvir carece de mecanismo plausible frente al VHB (virus de ADN sin diana 
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062) |
+| 2026-11-24 | Eliminado: número y «la sexta» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

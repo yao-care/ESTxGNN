@@ -131,11 +131,11 @@ Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA 
 
 <!-- licenses:end -->
 
-Entre las restantes figura Recarbrio (imipenem/cilastatina/relebactam, Merck Sharp & Dohme B.V.).
+Entre las autorizaciones figura Recarbrio (imipenem/cilastatina/relebactam, Merck Sharp & Dohme B.V.).
 
 <!-- review:begin es-lic-20261105-imipenem-1 -->
 
-> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 9 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se muestran las 5 principales. Entre las restantes figura Recarbrio (imipenem/cilastatina/relebactam, Merck Sharp & Dohme B.V.)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 9 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se muestran las 5 principales. Entre las restantes figura Recarbrio (imipenem/cilastatina/relebactam, Merck Sharp & Dohme B.V.)." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-imipenem-1 -->
 
@@ -174,7 +174,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-24 | Eliminado: "Hay 9 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se muestran las 5 principales" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | «Entre las restantes» → «Entre las autorizaciones» | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708) |
 
 <!-- review:end log -->

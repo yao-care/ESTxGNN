@@ -99,12 +99,20 @@ Sin embargo, la evidencia clínica es mixta. Un reporte de dos pacientes con Tay
 | 02238001 | ZAVESCA 100 MG CAPSULAS DURAS | CÁPSULA DURA | Janssen-Cilag International N.V | Comercializada |
 | 1231737001 | OPFOLDA 65 MG CAPSULAS DURAS | CÁPSULA DURA | Amicus Therapeutics Europe Limited | Comercializada |
 | 78987 | MIGLUSTAT ACCORD 100 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Accord Healthcare S.L.U. | Comercializada |
+| 1181346002 | MIGLUSTAT DIPHARMA 100 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Dipharma Arzneimittel Gmbh | Comercializada |
+| 1171232001 | MIGLUSTAT GEN.ORPH 100 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Gen.Orph S.A.S. | Comercializada |
 
-Se muestran 5 de 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-Hay 7 autorizaciones vigentes en total (todas de principio activo único); se muestran las 5 principales.
+Todas las autorizaciones son de principio activo único.
+
+<!-- review:begin es-lic-20261124b-miglustat-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 7 autorizaciones vigentes en total (todas de principio activo único); se muestran las 5 principales." Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-miglustat-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -137,11 +145,12 @@ Existe plausibilidad mecanística (reducción de la síntesis de GM2), ensayos d
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Yargesa (miglustat) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b371dfe-e2b0-47fe-b677-a7bde7149f87) |
+| 2026-11-24 | Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

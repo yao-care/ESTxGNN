@@ -82,7 +82,13 @@ Como contexto, en otras indicaciones predichas del mismo fármaco se identificar
 
 ## Información de Mercado en España
 
-Se listan 5 de las 20 autorizaciones vigentes (todas monofármaco, ninguna cancelada). Los textos de indicación aprobada no están disponibles en los datos compilados.
+Todas las autorizaciones recogidas para este informe son de monofármaco y ninguna está cancelada. Los textos de indicación aprobada no están disponibles en los datos compilados.
+
+<!-- review:begin es-lic-20261124b-loperamide-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se listan 5 de las 20 autorizaciones vigentes (todas monofármaco, ninguna cancelada)." Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-loperamide-1 -->
 
 <!-- licenses:begin -->
 
@@ -93,12 +99,23 @@ Se listan 5 de las 20 autorizaciones vigentes (todas monofármaco, ninguna cance
 | 86274 | ABECLIN 2 MG COMPRIMIDOS EFG | COMPRIMIDO | Uxa Farma S.A. | Comercializada |
 | 57210 | LOPESTOP 2 MG CAPSULAS DURAS | CÁPSULA DURA | Apotheke Laboratorios S.L. | Comercializada |
 | 55157 | ELISSAN 2 mg COMPRIMIDOS | COMPRIMIDO | Laboratorios Serra Pamies S.A. | Comercializada |
+| 82401 | SALVACOLINA FLAS 2 MG COMPRIMIDOS BUCODISPERSABLES | COMPRIMIDO BUCODISPERSABLE | Laboratorios Salvat S.A. | Comercializada |
+| 90663 | LOPERAMIDA COMBIX 2 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Combix S.L.U. | Comercializada |
+| BE001215IP2 | FORTASEC 2 MG CAPSULAS DURAS | CÁPSULA DURA | Johnson & Johnson Consumer | Comercializada |
+| 55317 | LOPERAN 2 mg CAPSULAS DURAS | CÁPSULA DURA | Chiesi España S.A.U. | Comercializada |
+| BE001215 | FORTASEC 2 mg CAPSULAS DURAS | CÁPSULA DURA | Johnson & Johnson Consumer | Comercializada |
 
-Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
 
 <!-- licenses:end -->
 
-Otras presentaciones incluyen comprimidos, comprimidos bucodispersables y liofilizados orales. Todas las formas disponibles son de **administración oral**; no hay formulación oftálmica, lo que supondría un obstáculo adicional para la indicación predicha.
+Entre las presentaciones hay también comprimidos, comprimidos bucodispersables y liofilizados orales. Todas las formas disponibles son de **administración oral**; no hay formulación oftálmica, lo que supondría un obstáculo adicional para la indicación predicha.
+
+<!-- review:begin es-lic-20261124b-loperamide-2 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Otras presentaciones incluyen comprimidos, comprimidos bucodispersables y liofilizados orales." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-loperamide-2 -->
 
 ## Consideraciones de Seguridad
 
@@ -126,11 +143,13 @@ La predicción para conjuntivitis contagiosa aguda es exclusivamente computacion
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b) |
+| 2026-11-24 | «5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto) | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | «Otras presentaciones incluyen» → «Entre las presentaciones hay también» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

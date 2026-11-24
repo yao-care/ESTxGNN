@@ -101,7 +101,13 @@ Se muestran 10 de al menos 20 autorizaciones con este principio activo en los da
 
 <!-- licenses:end -->
 
-Se registran 20 autorizaciones vigentes en total (todas de monofármaco), de los titulares Otsuka, Accord y Teva.
+Todas las autorizaciones recogidas para este informe son de monofármaco; entre los titulares figuran Otsuka, Accord y Teva.
+
+<!-- review:begin es-lic-20261124b-tolvaptan-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se registran 20 autorizaciones vigentes en total (todas de monofármaco), de los titulares Otsuka, Accord y Teva." Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones de tolvaptán, también de otros titulares (Stada, Sandoz). Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-tolvaptan-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -129,6 +135,19 @@ Dos ECA de Fase 3 (TEMPO 3:4 y REPRISE) y una revisión Cochrane respaldan la ef
 - Valorar las contraindicaciones hepáticas del grafo de conocimiento, dada la enfermedad hepática poliquística asociada.
 
 **Nota sobre otras predicciones:** las demás indicaciones predichas (displasia renal-hepática-pancreática, nefritis intersticial carioméga­lica, malformación torácica, síndrome de Joubert con defecto renal, entre otras) carecen de ensayos y de evidencia sólida (niveles L4-L5), por lo que se recomienda mantenerlas en espera (Hold) o como pregunta de investigación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «20 autorizaciones vigentes en total» eliminado; «de los titulares» → «entre los titulares figuran» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -71,7 +71,13 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 6 autorizaciones vigentes, todas de PERJETA 420 MG concentrado para solución para perfusión (titular: Roche Registration GmbH). Los datos compilados no incluyen el texto de la indicación aprobada.
+Todas las autorizaciones corresponden a PERJETA 420 MG concentrado para solución para perfusión (titular: Roche Registration GmbH). Los datos compilados no incluyen el texto de la indicación aprobada.
+
+<!-- review:begin es-lic-20261124b-pertuzumab-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 6 autorizaciones vigentes, todas de PERJETA 420 MG concentrado para solución para perfusión (titular: Roche Registration GmbH)." Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-pertuzumab-1 -->
 
 <!-- licenses:begin -->
 
@@ -82,8 +88,9 @@ Se muestran 5 de las 6 autorizaciones vigentes, todas de PERJETA 420 MG concentr
 | 113813001 | PERJETA 420 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Comercializada |
 | 113813001IP | PERJETA 420 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Comercializada |
 | 113813001IP1 | PERJETA 420 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Comercializada |
+| 113813001IP3 | PERJETA 420 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Autorizada, no comercializada |
 
-Se muestran 5 de 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
@@ -124,11 +131,12 @@ Otras predicciones del mismo análisis tienen más respaldo, pero corresponden a
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff) |
+| 2026-11-24 | Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

@@ -65,6 +65,15 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   查核紀錄更正文字裡寫死的張數（用戶同日追加決定）：147 筆刪句紀錄 note 的「El medicamento tiene N autorizaciones (comercializadas: M)」拿掉、只留「las cifras actuales están en el Resumen rápido…」，
   codeine、indacaterol、phenytoin、salmeterol、norfloxacin 5 筆的張數／舊表筆數改成號碼或「見表」寫法，共 152 筆同 id 重發（前版存 history）。
   部分紀錄頁寫死的張數跟已收錄紀錄不符的 4 句（adalimumab、amlodipine、azithromycin、pseudoephedrine）列進待查清單（程式不改 partial 頁）。
+- 2026-11-24 第二輪（用戶決定：舊錯句逐句寫紀錄、劑型說法、張數樣板）：待查清單 4 句部分紀錄頁張數（adalimumab、amlodipine、azithromycin、pseudoephedrine）依 CIMA 全量清單（Release data-20261123 的
+  data/raw/cima_medicamentos_raw.json，依 vtm）確認實際張數比證據包多，以 `es-lic-20261124b-*` 改成不寫數字的寫法（實際張數記在紀錄 finding），待查標 resolved；同類（部分紀錄頁把收錄的 20 張寫成總數、沒有保留語）
+  另 18 句（ceftriaxone、diazepam、docetaxel、filgrastim×2、fluconazole、paliperidone、sacubitril、tolvaptan、clotrimazole、denosumab×2、lamotrigine、loperamide、nintedanib、perampanel、safinamide、vortioxetine）一併更正。
+  舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N／no listada）與「Se muestran 5 de las N…」這類舊表說明句（含總張數，跟程式表下方說明句重複、張數不會跟著更新）：
+  全站逐句處理；第二輪合計新紀錄 73 筆（含上面的部分紀錄頁 22 句與下面劑型 3 句）、既有紀錄更正文字同 id 重發 22 筆（前版存 history；piroxicam 1 筆改錨），92 頁，改成「Entre las autorizaciones figuran…」或刪掉；順帶更正的事實：desogestrel 的 NACREZ、DESOGESTREL STADA 已撤銷，
+  epinephrine 的 EMERADE、ketoprofen 的 ORUDIS RETARD、melphalan 的 Melfalan Medac、triflusal 的 Triflusal Aristo、orlistat 的 Orlistat Aristo、oxcarbazepine 的 Teva、imidapril 的 Asibilan 已撤銷，guanfacine Paxneury 有 1～7 mg。
+  說明句拿掉後 42 頁程式表依規則改列 min(10, 總數) 列。沒有張數、跟程式表一致的引導句（「Principales autorizaciones:」「Se muestran las 5 principales:」、部分紀錄頁「5 de al menos 20」約 80 句）不動。
+  劑型說法全站 51 句逐句對照證據包與 CIMA 全量：azathioprine（注射劑已撤銷）、cabozantinib（Cometriq 未上市）、midazolam（另有 DORMICUM 錠劑；併在既有紀錄重發）、ebastine（另有口溶凍晶、口服液）更正，其餘成立。
+  `site._fig`（reviews_from_edits 寫紀錄說明的張數樣板）改成不寫數字。checker 0→0、gate exit 0。
 - 母目錄 `.claude/license_labels/ESTxGNN.json` 還沒有程式表的狀態字（Comercializada、Autorizada, no comercializada、Revocada、Suspendida）；lts.apply 認不得就跳過、不會列 unsynced，
   程式表由 sync_tables 重排，但要讓 checker 的表格列狀態檢查也驗程式表，需在母目錄加這 4 個字。
 

@@ -89,7 +89,13 @@ Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA 
 
 <!-- licenses:end -->
 
-Hay una sexta autorización vigente (90070, IVERTILENE 3 MG COMPRIMIDOS EFG, Glenmark), para un total de 6 autorizaciones, todas de monofármaco y vigentes.
+Entre las autorizaciones figura IVERTILENE 3 MG COMPRIMIDOS EFG (90070, Glenmark); todas son de monofármaco y están vigentes.
+
+<!-- review:begin es-lic-20261124b-ivermectin-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay una sexta autorización vigente (90070, IVERTILENE 3 MG COMPRIMIDOS EFG, Glenmark), para un total de 6 autorizaciones, todas de monofármaco y vigentes." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-ivermectin-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -117,11 +123,12 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd) |
+| 2026-11-24 | «Hay una sexta autorización…, para un total de 6» → «Entre las autorizaciones figura» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

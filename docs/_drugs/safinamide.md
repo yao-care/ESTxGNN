@@ -72,7 +72,13 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada). El texto de indicación aprobada no figura en los datos compilados.
+Todas las autorizaciones recogidas para este informe son de principio activo único y ninguna está cancelada. El texto de indicación aprobada no figura en los datos compilados.
+
+<!-- review:begin es-lic-20261124b-safinamide-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)." Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-safinamide-1 -->
 
 <!-- licenses:begin -->
 
@@ -83,8 +89,13 @@ Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo únic
 | 114984003IP3 | XADAGO 50 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Zambon S.P.A. | Comercializada |
 | 114984003IP | XADAGO 50 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Zambon S.P.A. | Comercializada |
 | 90442 | SAFINAMIDA VIVANTA 100 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vivanta Generics S.R.O. | Comercializada |
+| 90441 | SAFINAMIDA VIVANTA 50 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vivanta Generics S.R.O. | Comercializada |
+| 114984003IP2 | XADAGO 50 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Zambon S.P.A. | Comercializada |
+| 114984008 | XADAGO 100 mg comprimidos recubiertos con pelicula | COMPRIMIDO RECUBIERTO CON PELÍCULA | Zambon S.P.A. | Comercializada |
+| 114984008IP2 | XADAGO 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Zambon S.P.A. | Comercializada |
+| 114984008IP | XADAGO 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Zambon S.P.A. | Comercializada |
 
-Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
 
 <!-- licenses:end -->
 
@@ -107,6 +118,19 @@ La predicción tiene un puntaje TxGNN alto, pero no cuenta con ningún ensayo cl
 - Revisión sistemática de literatura y de registros de ensayos sobre safinamida en encefalitis de Rasmussen.
 - Estudios preclínicos que respalden una hipótesis mecanística concreta.
 - Valorar, como alternativas, las otras dos predicciones del modelo: la **mielitis** (puntaje 0.9946, L5, hipótesis muy especulativa por la heterogeneidad de la enfermedad) y la **neurodegeneración asociada a PLA2G6** (puntaje 0.9922, L5), que es la biológicamente más plausible por su solapamiento con el parkinsonismo, aunque sigue sin respaldo clínico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto) | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

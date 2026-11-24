@@ -87,12 +87,21 @@ Actualmente no hay literatura relacionada disponible.
 | 1201468003 | KAFTRIO 60 MG/40 MG/80 MG GRANULADO EN SOBRE | GRANULADO EN SOBRE | Vertex Pharmaceuticals (Ireland) Limited | Comercializada |
 | 1201468001 | KAFTRIO 75 MG/50 MG/100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vertex Pharmaceuticals (Ireland) Limited | Comercializada |
 | 1251943001 | ALYFTREK 50 MG/20 MG/4 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vertex Pharmaceuticals (Ireland) Limited | Comercializada |
+| 1201468004 | KAFTRIO 75 MG/50 MG/100 MG GRANULADO EN SOBRE | GRANULADO EN SOBRE | Vertex Pharmaceuticals (Ireland) Limited | Comercializada |
+| 1251943002 | ALYFTREK 125 MG/50 MG/10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vertex Pharmaceuticals (Ireland) Limited | Comercializada |
+| 1201468002 | KAFTRIO 37,5 MG/25 MG/50 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vertex Pharmaceuticals (Ireland) Limited | Comercializada |
 
-Se muestran 5 de 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-Se muestran 5 de las 8 autorizaciones vigentes (todas del titular Vertex Pharmaceuticals (Ireland) Limited); las restantes corresponden a Kaftrio 75 mg/50 mg/100 mg granulado y a Alyftrek (50/20/4 mg y 125/50/10 mg). El texto de indicación aprobada no figura en los datos compilados para este informe.
+Todas las autorizaciones son del titular Vertex Pharmaceuticals (Ireland) Limited; entre ellas figuran Kaftrio 75 mg/50 mg/100 mg granulado y Alyftrek (50/20/4 mg y 125/50/10 mg). El texto de indicación aprobada no figura en los datos compilados para este informe.
+
+<!-- review:begin es-lic-20261124b-tezacaftor-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 8 autorizaciones vigentes (todas del titular Vertex Pharmaceuticals (Ireland) Limited); las restantes corresponden a Kaftrio 75 mg/50 mg/100 mg granulado y a Alyftrek (50/20/4 mg y 125/50/10 mg)." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-tezacaftor-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -117,11 +126,12 @@ La predicción para VIH se basa únicamente en el modelo (nivel L5), sin ensayos
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Alyftrek (vanzacaftor, tezacaftor, and deutivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e635909-c6fd-4f0d-ae77-cdff03653a20) |
+| 2026-11-24 | Eliminado: descripción de la tabla anterior y número; «las restantes» → «entre ellas» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

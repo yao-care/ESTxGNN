@@ -102,11 +102,11 @@ Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA 
 
 <!-- licenses:end -->
 
-Hay una sexta autorización vigente: DESARROL 50 MG/ML + 25 MG/ML + 0,2 MG/ML SOLUCIÓN ORAL (n.º 50242, solución oral, Faes Farma).
+Entre las autorizaciones vigentes figura DESARROL 50 MG/ML + 25 MG/ML + 0,2 MG/ML SOLUCIÓN ORAL (n.º 50242, solución oral, Faes Farma), una combinación con carnitina y arginina.
 
 <!-- review:begin es-lic-20261105-cyproheptadine-1 -->
 
-> **Corrección de revisión (2026-11-24)**: Texto original: "Hay una sexta autorización vigente: DESARROL 50 MG/ML + 25 MG/ML + 0,2 MG/ML SOLUCIÓN ORAL (n.º 50242, solución oral, Faes Farma). Todas son autorizaciones vigentes de producto único (ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay una sexta autorización vigente: DESARROL 50 MG/ML + 25 MG/ML + 0,2 MG/ML SOLUCIÓN ORAL (n.º 50242, solución oral, Faes Farma). Todas son autorizaciones vigentes de producto único (ninguna cancelada)." Corregido: no todas las autorizaciones son de producto único ni están vigentes; según CIMA (AEMPS), DESARROL 50242 contiene carnitina + arginina + ciproheptadina. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye esta autorización; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-cyproheptadine-1 -->
 
@@ -139,7 +139,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-24 | Eliminado: "Todas son autorizaciones vigentes de producto único (ninguna cancelada)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | «Hay una sexta autorización vigente» → figura; «todas de producto único (ninguna cancelada)» eliminado | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cyproheptadine Hydrochloride Solution (cyproheptadine hydrochloride) prescribing information, Method Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1acfd050-6c07-a269-e063-6394a90a77e8) |
 
 <!-- review:end log -->

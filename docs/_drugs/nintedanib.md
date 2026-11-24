@@ -83,12 +83,23 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 114954004 | VARGATEF 150 MG CAPSULAS BLANDAS | CÁPSULA BLANDA | Boehringer Ingelheim International Gmbh | Comercializada |
 | 89431 | NINTEDANIB TEVA 150 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Teva Pharma S.L.U. | Comercializada |
 | 114979004 | OFEV 150 MG CAPSULAS BLANDAS | CÁPSULA BLANDA | Boehringer Ingelheim International Gmbh | Comercializada |
+| 1251959001 | NINTEDANIB VIATRIS 100 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Viatris Limited | Comercializada |
+| 90026 | NINTEDANIB EUGIA 100 MG CÁPSULAS BLANDAS EFG | CÁPSULA BLANDA | Eugia Pharma (Malta) Limited | Comercializada |
+| 114979002 | OFEV 100 MG CAPSULAS BLANDAS | CÁPSULA BLANDA | Boehringer Ingelheim International Gmbh | Comercializada |
+| 1251959003 | NINTEDANIB VIATRIS 150 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Viatris Limited | Comercializada |
+| 114954003 | VARGATEF 100 MG CAPSULAS BLANDAS | CÁPSULA BLANDA | Boehringer Ingelheim International Gmbh | Comercializada |
 
-Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
 
 <!-- licenses:end -->
 
-Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos con un único principio activo, ninguna cancelada); el resto corresponde a genéricos de otros titulares.
+Todas las autorizaciones recogidas para este informe son de medicamentos con un único principio activo y ninguna está cancelada; entre ellas hay genéricos de varios titulares.
+
+<!-- review:begin es-lic-20261124b-nintedanib-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos con un único principio activo, ninguna cancelada); el resto corresponde a genéricos de otros titulares." Corregido: la cifra solo correspondía a parte de las autorizaciones recogidas para este informe; según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-nintedanib-1 -->
 
 ## Citotoxicidad
 
@@ -127,11 +138,12 @@ La predicción tiene un puntaje alto (0,9915) y una base mecanística plausible 
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Nintedanib Capsules, 100 Mg And 150 Mg (nintedanib) prescribing information, EXELAN PHARMACEUTICALS INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60d8104e-cb6c-4f4f-8159-95ed57346ffa) |
+| 2026-11-24 | «5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto) | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

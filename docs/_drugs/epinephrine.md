@@ -127,7 +127,13 @@ Se muestran 10 de al menos 20 autorizaciones con este principio activo en los da
 
 <!-- licenses:end -->
 
-Las 15 autorizaciones restantes incluyen otras plumas autoinyectables (Emerade, Anapen, Altellus, Jext), otras presentaciones de adrenalina inyectable y combinaciones de anestésicos locales con epinefrina.
+Entre las autorizaciones figuran plumas autoinyectables (Anapen, Altellus, Jext y Emerade, esta última revocada), otras presentaciones de adrenalina inyectable y combinaciones de anestésicos locales con epinefrina.
+
+<!-- review:begin es-lic-20261124b-epinephrine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Las 15 autorizaciones restantes incluyen otras plumas autoinyectables (Emerade, Anapen, Altellus, Jext), otras presentaciones de adrenalina inyectable y combinaciones de anestésicos locales con epinefrina." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior; según CIMA (AEMPS), las tres presentaciones de EMERADE (80146, 80147, 80149) están revocadas. Los datos de este informe solo recogen parte de las autorizaciones; las cifras recogidas están en el Resumen rápido y en la tabla. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124b-epinephrine-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -158,6 +164,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos con un solo principio activo)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | «Las 15 autorizaciones restantes» → «Entre las autorizaciones»; Emerade revocada | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 
