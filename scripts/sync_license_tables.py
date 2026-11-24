@@ -28,6 +28,9 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+import importlib.util as _ilu  # noqa: E402
+_spec = _ilu.spec_from_file_location("es_ingredients", ROOT / "src/estxgnn/regulatory/ingredients.py")
+_ing = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_ing)  # 單方／複方切分（與事實層同一規則）
 SEC_RE = re.compile(r"^## (Informaci[oó]n|Informe) de Mercado en Espa[nñ]a\s*$")  # 「Informe de Mercado」：carbenoxolone 的報告用這個標題（2026-11-24 第三輪）
 SEC_TITLE = "## Información de Mercado en España"
 HEAD = ["| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |",
@@ -132,7 +135,7 @@ def snap_extra(tf):
         if k and k not in seen:
             seen.add(k)
             susp += kind(r) == "susp"
-    # 單方／複方另依證據包成分欄（CIMA practiv，複方以「 + 」分隔）重算：事實層 single_total 把複方也算成單方（2026-11-24 實測 104 頁不符），
+    # 單方／複方另依證據包成分欄（CIMA practiv，複方以「 + 」或「, 」分隔；src/estxgnn/regulatory/ingredients.py，事實層 2026-11-24 起同一規則）重算：事實層 single_total 把複方也算成單方（2026-11-24 實測 104 頁不符），
     # 正文張數改寫的單方／複方讀法用這兩個數字
     seen2, single, vsingle = set(), 0, 0
     for r in tf.get("records") or []:
@@ -140,7 +143,7 @@ def snap_extra(tf):
         if not k or k in seen2:
             continue
         seen2.add(k)
-        if "+" not in str(r.get("ingredients") or ""):
+        if _ing.kind(r.get("ingredients")) == "single":
             single += 1
             vsingle += kind(r) == "comerc"
     return {"partial": partial, "listed": len(rows), "susp": susp, "single_real": single, "valid_single_real": vsingle}

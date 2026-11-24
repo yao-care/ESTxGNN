@@ -110,9 +110,28 @@ La predicción se basa únicamente en el modelo (nivel L5). No hay ensayos clín
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto y la ficha técnica de AEMPS (advertencias, contraindicaciones e indicación aprobada), que es un requisito bloqueante para el cribado de seguridad.
 - Completar los datos del mecanismo de acción (por ejemplo, mediante consulta a DrugBank).
-- Aclarar la composición del producto TEBETANE COMPUESTO, ya que es una autorización monocomponente según el registro pero con nombre de compuesto.
+- Aclarar la composición del producto TEBETANE COMPUESTO (según el registro de la AEMPS es una asociación de ácido glutámico, alanina, glicina y complejo fitoesterol de Prunus arbórea).
 - Realizar una búsqueda dirigida de estudios preclínicos o clínicos sobre alanina o aminoácidos en gastroparesia.
 - Evaluar la compatibilidad de la vía de administración y la similitud con la indicación original.
+
+<!-- review:begin es-lic-20261124d-alanine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Aclarar la composición del producto TEBETANE COMPUESTO, ya que es una autorización monocomponente según el registro pero con nombre de compuesto." Corregido: según el campo de principios activos del registro de la AEMPS (CIMA), la frase original no coincide con la composición registrada (los datos agregados contaban antes todas las autorizaciones como monofármaco; desde el 2026-11-24 las asociaciones con «+» se separan). Comprobado el 2026-11-24. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos (n.º 52469)](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124d-alanine-1 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | 「Aclarar la composici」→「Aclarar la composici」 | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos (n.º 52469)](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

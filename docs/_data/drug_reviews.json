@@ -28584,6 +28584,26 @@
    ],
    "checked": "2026-11-24",
    "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124d-alanine-1",
+   "drug": "alanine",
+   "file": "alanine.md",
+   "action": "correct",
+   "claim": "Aclarar la composición del producto TEBETANE COMPUESTO, ya que es una autorización monocomponente según el registro pero con nombre de compuesto.",
+   "replacement": "Aclarar la composición del producto TEBETANE COMPUESTO (según el registro de la AEMPS es una asociación de ácido glutámico, alanina, glicina y complejo fitoesterol de Prunus arbórea).",
+   "summary": "「Aclarar la composici」→「Aclarar la composici」",
+   "note": "Corregido: según el campo de principios activos del registro de la AEMPS (CIMA), la frase original no coincide con la composición registrada (los datos agregados contaban antes todas las autorizaciones como monofármaco; desde el 2026-11-24 las asociaciones con «+» se separan). Comprobado el 2026-11-24.",
+   "finding": "CIMA 52469 TEBETANE COMPUESTO CAPSULAS：practiv「ácido glutámico + alanina + glicina + complejo fitoesterol Prunus arbórea」（Autorizada），是複方；2026-11-24 事實層單方張數改依本站成分欄（CIMA practiv，「 + 」或「, 」分隔；src/estxgnn/regulatory/ingredients.py）切分後，以獨立的寬偵測掃事實有變的 102 個藥的正文單方／複方說法，逐句對照證據包 tfda.records 的 ingredients；原句與成分欄不符，照成分欄更正",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos (n.º 52469)",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
   }
  ]
 }

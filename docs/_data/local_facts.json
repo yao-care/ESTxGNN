@@ -21,11 +21,11 @@
   "items_current": 2442
  },
  "reviews": {
-  "records": 975,
-  "pages": 678,
-  "public_pages_with_records": 678,
+  "records": 976,
+  "pages": 679,
+  "public_pages_with_records": 679,
   "by_action": {
-   "correct": 366,
+   "correct": 367,
    "mechanism": 609
   }
  },
@@ -285,6 +285,12 @@
  },
  "recent_reviews": [
   {
+   "t": "Alanine",
+   "u": "/drugs/alanine/",
+   "s": "「Aclarar la composici」→「Aclarar la composici」",
+   "d": "2026-11-24"
+  },
+  {
    "t": "Sertraline",
    "u": "/drugs/sertraline/",
    "s": "«al menos 20 … 16 vigentes y 4 canceladas» → sin cifras",
@@ -421,15 +427,15 @@
    "u": "/drugs/allopurinol/",
    "s": "«20 autorizaciones» → sin cifras",
    "d": "2026-11-24"
-  },
-  {
-   "t": "Aflibercept",
-   "u": "/drugs/aflibercept/",
-   "s": "«al menos 20 autorizaciones» → sin cifras",
-   "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
+  {
+   "t": "Alanine",
+   "u": "/drugs/alanine/",
+   "s": "「Aclarar la composici」→「Aclarar la composici」",
+   "d": "2026-11-24"
+  },
   {
    "t": "Sertraline",
    "u": "/drugs/sertraline/",
@@ -470,12 +476,6 @@
    "t": "Lormetazepam",
    "u": "/drugs/lormetazepam/",
    "s": "«17 vigentes y 3 canceladas» → sin cifras",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Lidocaine",
-   "u": "/drugs/lidocaine/",
-   "s": "«(al menos 20)» eliminado",
    "d": "2026-11-24"
   }
  ],
