@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 867
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "zolmitriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Zolmitriptan: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -91,13 +91,24 @@ Se muestran las publicaciones más relevantes (priorizando revisiones y estudios
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 74381 | Zolmitriptán Flas Teva-Ratio 5 mg | Comprimido bucodispersable | No especificada en los datos |
-| 61826 | Zomig 2,5 mg | Comprimido recubierto con película | No especificada en los datos |
-| 65795 | Zomig Flas 5 mg | Comprimido bucodispersable | No especificada en los datos |
-| 65163 | Zomig 5 mg | Solución para pulverización nasal | No especificada en los datos |
-| 75298 | Zolmitriptán Normon 2,5 mg | Comprimido recubierto con película | No especificada en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 74381 | ZOLMITRIPTAN FLAS TEVA-RATIO 5 mg COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Teva Pharma S.L.U. | Comercializada |
+| 74379 | ZOLMITRIPTAN FLAS TEVA-RATIO 2,5 mg COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Teva Pharma S.L.U. | Comercializada |
+| 74364 | ZOLMITRIPTAN FLAS STADA 5 mg COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Laboratorio Stada S.L. | Comercializada |
+| 75298 | ZOLMITRIPTAN NORMON 2,5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 61826 | ZOMIG 2,5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Grünenthal Pharma S.A. | Comercializada |
+| 74376 | ZOLMITRIPTAN FLAS QUALIGEN 2,5 mg COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Neuraxpharm Spain S.L. | Comercializada |
+| 65795 | ZOMIG FLAS 5 mg COMPRIMIDOS BUCODISPERSABLES | COMPRIMIDO BUCODISPERSABLE | Grünenthal Pharma S.A. | Comercializada |
+| 76337 | ZOLMITRIPTAN VISO FARMACEUTICA 2,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Glenmark Arzneimittel Gmbh | Comercializada |
+| 65163 | ZOMIG 5 mg SOLUCION PARA PULVERIZACION NASAL | SOLUCION PARA PULVERIZACION NASAL | Grünenthal Pharma S.A. | Comercializada |
+| 3533665IP | ZOMIG FLAS 2,5 mg COMPRIMIDOS BUCODISPERSABLES | COMPRIMIDO BUCODISPERSABLE | Laboratoires Grunenthal | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

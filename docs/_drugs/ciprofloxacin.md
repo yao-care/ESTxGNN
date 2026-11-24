@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 183
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 description: "Ciprofloxacin: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -77,13 +77,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Hay 13 autorizaciones vigentes, y los registros locales disponibles pueden ser parciales. Se muestran cinco autorizaciones vigentes con distintas formas farmacéuticas.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 58407 | Ciprofloxacino Tarbis 250 mg | Comprimido recubierto con película | No disponible |
-| 62709 | Ciprofloxacino Pensa 500 mg | Comprimido recubierto con película | No disponible |
-| 62646 | Ciprofloxacino Normon 2 mg/ml | Solución para perfusión | No disponible |
-| 61521 | Septocipro Ótico 1 mg | Gotas óticas en solución | No disponible |
-| 60608 | Oftacilox 3 mg/ml | Colirio en solución | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 62709 | CIPROFLOXACINO PENSA 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Towa Pharmaceutical S.A. | Comercializada |
+| 61521 | SEPTOCIPRO ÓTICO 1 MG GOTAS ÓTICAS EN SOLUCIÓN EN ENVASE UNIDOSIS | GOTAS ÓTICAS EN SOLUCIÓN | Neuraxpharm Spain S.L.U. | Comercializada |
+| 80160 | CIPROFLOXACINO AUROVITAS 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 80159 | CIPROFLOXACINO AUROVITAS 250 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 62646 | CIPROFLOXACINO NORMON 2 mg/ml SOLUCION PARA PERFUSION EFG | SOLUCIÓN PARA PERFUSIÓN | Laboratorios Normon S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 218
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Danaparoid: nueva indicación predicha, Trombastenia de Glanzmann (nivel de evidencia L5). Indicación original: No disponible en la autorización (el texto de indicación está vacío)"
 monitor_inn: "danaparoid"
 predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "Scott syndrome"]
@@ -81,9 +81,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 86436 | TRALEUSIN 750 U ANTI-XA/0,6 ML SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN (Viatris Limited) | Solución inyectable y para perfusión | No especificada en los datos disponibles |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 86436 | TRALEUSIN 750 U ANTI-XA/0,6 ML SOLUCION INYECTABLE Y PARA PERFUSION | SOLUCION INYECTABLE Y PARA PERFUSION | Viatris Limited | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ---
 

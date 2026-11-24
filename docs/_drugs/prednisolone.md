@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 658
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Prednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisolone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 4 (comercializadas: 4)"
@@ -83,12 +83,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 62038 | PRED FORTE 10 MG/ML COLIRIO EN SUSPENSIÓN | Colirio en suspensión | No disponible |
-| 84003 | PAIDOCORT 3 MG/ML SOLUCIÓN ORAL | Solución oral | No disponible |
-| 47546 | ESTILSONA 7 mg/ml GOTAS ORALES EN SUSPENSIÓN | Gotas orales en suspensión | No disponible |
-| 89283 | MINIMS PREDNISOLONA 5 MG/ML COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS | Colirio en solución en envase unidosis | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 62038 | PRED FORTE 10 MG/ML COLIRIO EN SUSPENSION | COLIRIO EN SUSPENSIÓN | Abbvie Spain, S.L.U. | Comercializada |
+| 84003 | PAIDOCORT 3 MG/ML SOLUCION ORAL | SOLUCIÓN ORAL | Laboratorio Aldo Union S.L. | Comercializada |
+| 47546 | ESTILSONA 7 mg/ml GOTAS ORALES EN SUSPENSIÓN | GOTAS ORALES EN SUSPENSIÓN | Laboratorios Sonphar S.L. | Comercializada |
+| 89283 | MINIMS PREDNISOLONA 5 MG/ML COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS | COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS | Bausch + Lomb Ireland Limited | Comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

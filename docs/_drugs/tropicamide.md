@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 831
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tropicamide"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
 description: "Tropicamide: nueva indicación predicha, Síndrome de la cola de caballo (cauda equina syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -79,10 +79,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 88867 | Minims Tropicamida 10 mg/ml colirio en solución en envase unidosis (Bausch + Lomb Ireland Limited) | Colirio en solución | No disponible en los datos compilados |
-| 57050 | Colirofta Tropicamida 10 mg/ml colirio en solución (Alcon Healthcare S.A.) | Colirio en solución | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 88867 | MINIMS TROPICAMIDA 10 MG/ML COLIRIO EN SOLUCION EN ENVASE UNIDOSIS | COLIRIO EN SOLUCIÓN | Bausch + Lomb Ireland Limited | Comercializada |
+| 57050 | COLIROFTA TROPICAMIDA 10 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Alcon Healthcare S.A. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

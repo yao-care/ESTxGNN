@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ALBUTREPENONACOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Albutrepenonacog Alfa: nueva indicación predicha, Pseudo-enfermedad de von Willebrand (pseudo-von Willebrand disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 5)"
 ---
 
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 1161095009 | IDELVION 3.500 UI polvo y disolvente para solución inyectable | Polvo y solución para solución inyectable |
-| 1161095004 | IDELVION 2000 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable |
-| 1161095002 | IDELVION 500 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable |
-| 1161095001 | IDELVION 250 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable |
-| 1161095003 | IDELVION 1000 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1161095009 | IDELVION 3.500 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y SOLUCIÓN PARA SOLUCIÓN INYECTABLE | Csl Behring Gmbh | Comercializada |
+| 1161095004 | IDELVION 2000 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Csl Behring Gmbh | Comercializada |
+| 1161095002 | IDELVION 500 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Csl Behring Gmbh | Comercializada |
+| 1161095001 | IDELVION 250 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Csl Behring Gmbh | Comercializada |
+| 1161095003 | IDELVION 1000 UI polvo y disolvente para solucion inyectable | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Csl Behring Gmbh | Comercializada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

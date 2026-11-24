@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 271
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
 description: "Dupilumab: nueva indicación predicha, bronquitis (bronchitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 4)"
@@ -84,12 +84,18 @@ Ninguna publicación estudia dupilumab directamente en bronquitis. Se listan las
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1171229018 | DUPIXENT 300 MG solución inyectable en pluma precargada | Solución inyectable | No disponible en los datos compilados |
-| 1171229014 | DUPIXENT 200 MG solución inyectable en pluma precargada | Solución inyectable | No disponible en los datos compilados |
-| 1171229006 | DUPIXENT 300 MG solución inyectable en jeringa precargada | Solución inyectable | No disponible en los datos compilados |
-| 1171229010 | DUPIXENT 200 MG solución inyectable en jeringa precargada | Solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1171229018 | DUPIXENT 300 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Sanofi Winthrop Industrie | Comercializada |
+| 1171229014 | DUPIXENT 200 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Sanofi Winthrop Industrie | Comercializada |
+| 1171229006 | DUPIXENT 300 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Sanofi Winthrop Industrie | Comercializada |
+| 1171229010 | DUPIXENT 200 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Sanofi Winthrop Industrie | Comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

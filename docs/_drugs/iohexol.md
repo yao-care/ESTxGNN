@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Iohexol: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: No disponible en los datos de autorización compilados (el texto de in…"
 monitor_inn: "IOHEXOL"
 predicted_indications: ["insomnia (disease)", "anxiety"]
@@ -84,11 +84,17 @@ Actualmente no hay literatura relacionada disponible para insomnio.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 62019 | OMNIPAQUE 350 mg Iodo/ml solución inyectable | Solución inyectable | No disponible en los datos compilados |
-| 62017 | OMNIPAQUE 240 mg Iodo/ml solución inyectable | Solución inyectable | No disponible en los datos compilados |
-| 62018 | OMNIPAQUE 300 mg Iodo/ml solución inyectable | Solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 62019 | OMNIPAQUE 350 mg Iodo /ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Ge Healthcare Bio-Sciences, S.A.U. | Comercializada |
+| 62017 | OMNIPAQUE 240 mg Iodo /ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Ge Healthcare Bio-Sciences, S.A.U. | Comercializada |
+| 62018 | OMNIPAQUE 300 mg Iodo /ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Ge Healthcare Bio-Sciences, S.A.U. | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Titular: GE Healthcare Bio-Sciences, S.A.U.
 

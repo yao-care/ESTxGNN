@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ketoprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
 description: "Ketoprofen: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (nivel de evidencia L5). Indicación original: No consta en los da…"
@@ -72,19 +72,28 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 55857 | ORUDIS 100 mg solución inyectable | Solución inyectable | No disponible en los datos compilados |
-| 52097 | ORUDIS 50 mg cápsulas | Cápsula dura | No disponible en los datos compilados |
-| 56387 | FASTUM 25 mg/g gel | Gel (tópico) | No disponible en los datos compilados |
-| 84336 | OKIDOL 25 mg granulado | Granulado | No disponible en los datos compilados |
-| 84337 | OKIDOL 25 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 56387 | FASTUM 25 mg/g GEL | GEL | Laboratorios Menarini S.A. | Comercializada |
+| 54445 | FASTUM 50 MG CÁPSULAS DURAS | CÁPSULA DURA | Laboratorios Menarini S.A. | Comercializada |
+| 84336 | OKIDOL 25 MG GRANULADO | GRANULADO | Dompe' Farmaceutici S.P.A. | Autorizada, no comercializada |
+| 84337 | OKIDOL 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Dompe' Farmaceutici S.P.A. | Autorizada, no comercializada |
+| 84876 | KETOPROFENO DOMPE 25 MG COMPRIMIDOS EFERVESCENTES | COMPRIMIDO EFERVESCENTE | Dompe' Farmaceutici S.P.A. | Autorizada, no comercializada |
+| 55857 | ORUDIS 100 mg SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Sanofi Aventis S.A. | Revocada |
+| 52097 | ORUDIS 50 mg CAPSULAS | CÁPSULA DURA | Sanofi Aventis S.A. | Revocada |
+| 57128 | ORUDIS RETARD 200 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Sanofi Aventis S.A. | Revocada |
+
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las restantes son FASTUM 50 mg cápsulas duras, ORUDIS RETARD 200 mg comprimidos de liberación prolongada y KETOPROFENO DOMPE 25 mg comprimidos efervescentes.
 
 <!-- review:begin es-lic-20261105-ketoprofen-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco). Las restantes son FASTUM 50 mg cápsulas duras, ORUDIS RETARD 200 mg comprimidos de liberación prolongada y KETOPROFENO DOMPE 25 mg comprimidos efervescentes." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 autorizaciones (comercializadas: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco). Las restantes son FASTUM 50 mg cápsulas duras, ORUDIS RETARD 200 mg comprimidos de liberación prolongada y KETOPROFENO DOMPE 25 mg comprimidos efervescentes." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-ketoprofen-1 -->
 
@@ -118,7 +127,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Orudis (ketoprofen) prescribing information, Allegis Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47d0b808-7142-c7a9-e063-6394a90a6e0d) |
 
 <!-- review:end log -->

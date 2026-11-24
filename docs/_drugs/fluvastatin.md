@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Fluvastatin"
 predicted_indications: ["HIV infectious disease", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "fibroma of prostate"]
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-24
 description: "Fluvastatin: nueva indicación predicha, Infección por VIH (nivel de evidencia L5). Indicación original: Arteriosclerosis, aterosclerosis e hiperlipidemia combinada familiar"
 ---
 
@@ -85,13 +85,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 La lista siguiente es parcial: hay al menos 20 autorizaciones y se muestran 5 de ellas. Los registros no incluyen texto de indicación aprobada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Estado |
-|---------|------|------|-----------|
-| 64648 | Lescol Prolib 80 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | Vigente |
-| 64782 | Vaditon Prolib 80 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | Vigente |
-| 69981 | Fluvastatina Teva 20 mg cápsulas duras EFG | Cápsula dura | Vigente |
-| 71631 | Fluvastatina Viatris 40 mg cápsulas duras EFG | Cápsula dura | Vigente |
-| 72243 | Fluvastatina Farmalider 40 mg cápsulas duras EFG | Cápsula dura | Cancelada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 64648 | LESCOL PROLIB 80 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Ethyx Pharmaceuticals | Comercializada |
+| 71207 | FLUVASTATINA KERN PHARMA 80 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Kern Pharma S.L. | Comercializada |
+| 69981 | FLUVASTATINA TEVA 20 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Teva Pharma S.L.U. | Comercializada |
+| 70780 | FLUVASTATINA VIATRIS 80 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Viatris Limited | Comercializada |
+| 70161 | FLUVASTATINA TEVA-RATIOPHARM 80 mg COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Teva Pharma S.L.U. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

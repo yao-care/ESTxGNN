@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 376
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "GIVOSIRAN"
 predicted_indications: ["hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "chronic hepatitis C virus infection", "glycogen storage disease due to hepatic glycogen synthase deficiency", "chronic hepatitis B virus infection", "disorder of phenylalanine metabolism"]
 description: "Givosiran: nueva indicación predicha, Hepatopulmonary syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
@@ -71,9 +71,15 @@ Actualmente no hay literatura relacionada disponible para el síndrome hepatopul
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1201428001 | GIVLAARI 189 MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | Texto de indicación no disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1201428001 | GIVLAARI 189 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Alnylam Netherlands B.V. | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

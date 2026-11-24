@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 816
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Trastuzumab Deruxtecan: nueva indicación predicha, Osteoporosis inducida por fármacos (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de …"
 monitor_inn: "trastuzumab deruxtecan"
 predicted_indications: ["drug-induced osteoporosis"]
@@ -81,11 +81,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1201508001IP1 | ENHERTU 100 MG polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión | No especificada |
-| 1201508001 | ENHERTU 100 MG polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión | No especificada |
-| 1201508001IP | ENHERTU 100 MG polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión | No especificada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1201508001IP1 | ENHERTU 100 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Daiichi Sankyo Europe Gmbh | Comercializada |
+| 1201508001 | ENHERTU 100 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Daiichi Sankyo Europe Gmbh | Comercializada |
+| 1201508001IP | ENHERTU 100 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Daiichi Sankyo Europe Gmbh | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las tres autorizaciones están vigentes, corresponden a monofármaco y su titular es Daiichi Sankyo Europe GmbH.
 

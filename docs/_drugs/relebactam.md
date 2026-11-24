@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 690
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "relebactam"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
 description: "Relebactam: nueva indicación predicha, Hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
@@ -81,9 +81,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1191420001 | RECARBRIO 500 mg/500 mg/250 mg polvo para solución para perfusión | Polvo para solución para perfusión | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1191420001 | RECARBRIO 500 mg/500 mg/250 mg POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Merck Sharp & Dohme B.V. | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 757
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
 description: "Sunitinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). En España, autorizaciones de la AEMPS: al menos 20"
@@ -91,13 +91,24 @@ Conviene ser prudente: dos ensayos de Fase 2 y un informe publicado de Fase 2 ap
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 06347001 | SUTENT 12,5 MG CÁPSULAS DURAS (Pfizer) | Cápsula dura | No disponible en los datos compilados |
-| 83278 | SUNITINIB TEVA 25 MG CÁPSULAS DURAS EFG | Cápsula dura | No disponible en los datos compilados |
-| 84506 | SUNITINIB VIATRIS 12,5 MG CÁPSULAS DURAS EFG | Cápsula dura | No disponible en los datos compilados |
-| 85667 | SUNITINIB CIPLA 25 MG CÁPSULAS DURAS EFG | Cápsula dura | No disponible en los datos compilados |
-| 1201511002 | SUNITINIB ACCORD 12,5 MG CÁPSULAS DURAS EFG | Cápsula dura | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 86344 | SUNITINIB TECNIGEN 25 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Tecnimede España Industria Farmaceutica S.A. | Comercializada |
+| 86868 | SUNITINIB VIVANTA 12,5 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Vivanta Generics S.R.O. | Comercializada |
+| 83278 | SUNITINIB TEVA 25 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Teva B.V. | Comercializada |
+| 84506 | SUNITINIB VIATRIS 12,5 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Viatris Limited | Comercializada |
+| 90312 | SUNITINIB EUGIA 12,5 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Eugia Pharma (Malta) Limited | Comercializada |
+| 86911 | SUNITINIB VIVANTA 37,5 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Vivanta Generics S.R.O. | Comercializada |
+| 90314 | SUNITINIB EUGIA 50 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Eugia Pharma (Malta) Limited | Comercializada |
+| 84504 | SUNITINIB VIATRIS 50 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Viatris Limited | Comercializada |
+| 06347001 | SUTENT 12,5 MG CAPSULAS DURAS | CÁPSULA DURA | Pfizer Europe Ma Eeig | Comercializada |
+| 83280 | SUNITINIB TEVA 50 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Teva B.V. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

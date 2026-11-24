@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 631
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Phenobarbital: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 3)"
@@ -83,12 +83,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 35052 | LUMINAL 100 MG COMPRIMIDOS | Comprimido | No disponible |
-| 3275 | LUMINALETAS 15 MG COMPRIMIDOS | Comprimido | No disponible |
-| 49002 | GARDENAL 50 mg COMPRIMIDOS | Comprimido | No disponible |
-| 3905 | LUMINAL 200 MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 35052 | LUMINAL 100 MG COMPRIMIDOS | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
+| 3275 | LUMINALETAS 15 MG COMPRIMIDOS | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
+| 3905 | LUMINAL 200 MG/ML SOLUCIÓN INYECTABLE | SOLUCIÓN INYECTABLE | Kern Pharma S.L. | Comercializada |
+| 49002 | GARDENAL 50 mg COMPRIMIDOS | COMPRIMIDO | Sanofi Aventis S.A. | Revocada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

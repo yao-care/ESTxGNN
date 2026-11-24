@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 211
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Cyclophosphamide"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
 description: "Cyclophosphamide: nueva indicación predicha, Anomalías vertebrales con disfunción endocrina y de células T variable (vertebral anomalies and variable endocrine and T-cell dysfunction) (nivel de evidencia L5)."
@@ -72,13 +72,23 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 89859 | Ciclofosfamida Vivanta 1.000 mg polvo para solución inyectable y para perfusión EFG | Polvo para solución inyectable y para perfusión | No disponible |
-| 33411 | Genoxal 200 mg polvo para solución inyectable y para perfusión | Polvo para solución inyectable y para perfusión | No disponible |
-| 86296 | Ciclofosfamida Accord 1.000 mg polvo para solución inyectable y para perfusión EFG | Polvo para solución inyectable | No disponible |
-| 33214 | Genoxal 50 mg comprimidos recubiertos | Comprimido recubierto | No disponible |
-| 90200 | Ciclofosfamida Seacross 500 mg polvo para solución inyectable y para perfusión EFG | Polvo para solución inyectable y para perfusión | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 33411 | GENOXAL 200 mg POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Baxter S.L. | Comercializada |
+| 33214 | GENOXAL 50 mg COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Baxter S.L. | Comercializada |
+| 90200 | CICLOFOSFAMIDA SEACROSS 500 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Seacross Pharma (Europe) Limited | Comercializada |
+| 86548 | CICLOFOSFAMIDA DR. REDDYS 500 MG/ML CONCENTRADO PARA SOLUCION INYECTABLE Y PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Reddy Pharma Iberia S.A. | Comercializada |
+| 48972 | GENOXAL 1000 mg POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Baxter S.L. | Comercializada |
+| 90201 | CICLOFOSFAMIDA SEACROSS 1.000 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Seacross Pharma (Europe) Limited | Comercializada |
+| 89739 | CICLOFOSFAMIDA ACCORD 200 MG/ML CONCENTRADO PARA SOLUCION INYECTABLE Y PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Accord Healthcare S.L.U. | Autorizada, no comercializada |
+| 89859 | CICLOFOSFAMIDA VIVANTA 1.000 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Vivanta Generics S.R.O. | Revocada |
+| 86296 | CICLOFOSFAMIDA ACCORD 1.000 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSIÓN EFG | POLVO PARA SOLUCIÓN INYECTABLE | Accord Healthcare S.L.U. | Revocada |
+
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

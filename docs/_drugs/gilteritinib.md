@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 374
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "GILTERITINIB"
 predicted_indications: ["bulbar polio"]
 description: "Gilteritinib: nueva indicación predicha, Poliomielitis bulbar (bulbar polio) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
@@ -81,9 +81,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1191399001 | XOSPATA 40 MG comprimidos recubiertos con película (Astellas Pharma Europe B.V.) | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1191399001 | XOSPATA 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Astellas Pharma Europe B.V. | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ---
 

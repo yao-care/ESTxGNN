@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 382
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "glutamic acid"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
 description: "Glutamic Acid: nueva indicación predicha, Osteoporosis posmenopáusica (postmenopausal osteoporosis) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
@@ -92,9 +92,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 52469 | TEBETANE COMPUESTO CAPSULAS (Laboratorios Gebro Pharma S.A.) | Cápsula dura | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 52469 | TEBETANE COMPUESTO CAPSULAS | CÁPSULA DURA | Laboratorios Gebro Pharma S.A. | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ---
 

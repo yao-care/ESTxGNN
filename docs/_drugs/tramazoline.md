@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 810
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Tramazoline"
 predicted_indications: ["allergic urticaria", "nasal cavity disease", "rosacea conjunctivitis", "cold urticaria", "headache disorder", "trigeminal autonomic cephalalgia"]
 description: "Tramazoline: nueva indicación predicha, Urticaria alérgica (allergic urticaria) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -99,10 +99,16 @@ Como referencia, para la indicación predicha de menor distancia a las existente
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 56731 | Rhinospray Eucaliptus 1,18 mg/ml solución para pulverización nasal | Solución para pulverización nasal | No disponible en los datos compilados |
-| 39574 | Rhinospray 1,18 mg/ml solución para pulverización nasal | Solución para pulverización nasal | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 56731 | RHINOSPRAY EUCALIPTUS 1,18 mg/ ml SOLUCION PARA PULVERIZACION NASAL | SOLUCION PARA PULVERIZACION NASAL | Opella Healthcare Spain S.L. | Comercializada |
+| 39574 | RHINOSPRAY 1,18 mg/ ml SOLUCION PARA PULVERIZACION NASAL | SOLUCION PARA PULVERIZACION NASAL | Opella Healthcare Spain S.L. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones son monofármaco, están vigentes y pertenecen a Opella Healthcare Spain S.L.
 

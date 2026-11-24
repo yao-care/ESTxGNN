@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 415
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Indomethacin"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "juvenile idiopathic arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis"]
 description: "Indomethacin: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 10 (comercializadas: 8)"
@@ -72,19 +72,30 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 42582 | Artrinovo 25 mg cápsulas duras | Cápsula dura | No disponible en los datos |
-| 45894 | Aliviosin 100 mg supositorios | Supositorio | No disponible en los datos |
-| 42846 | Artrinovo 100 mg supositorios | Supositorio | No disponible en los datos |
-| 56980 | Reusin 8 mg/ml solución para pulverización cutánea | Solución cutánea | No disponible en los datos |
-| 41723 | Inacid 100 mg supositorios | Supositorio | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 42582 | ARTRINOVO 25 MG CÁPSULAS DURAS | CÁPSULA DURA | Laboratorios Llorens S.L. | Comercializada |
+| 45894 | ALIVIOSIN 100 mg SUPOSITORIOS | SUPOSITORIO | Especialidades Farmaceuticas Centrum S.A. | Comercializada |
+| 42846 | ARTRINOVO 100 MG SUPOSITORIOS | SUPOSITORIO | Laboratorios Llorens S.L. | Comercializada |
+| 56980 | REUSIN 8 MG/ML SOLUCIÓN PARA PULVERIZACIÓN CUTÁNEA | SOLUCIÓN CUTÁNEA | Laboratorio Stada S.L. | Comercializada |
+| 41723 | INACID 100 mg SUPOSITORIOS | SUPOSITORIO | H.A.C. Pharma | Comercializada |
+| 40537 | INACID 25 mg CAPSULAS DURAS | CÁPSULA DURA | H.A.C. Pharma | Comercializada |
+| 58356 | INACID RETARD 75 mg CAPSULAS DURAS DE LIBERACIÓN PROLONGADA | CÁPSULA DURA DE LIBERACIÓN MODIFICADA | H.A.C. Pharma | Comercializada |
+| 43857 | ARTRINOVO 50 MG SUPOSITORIOS | SUPOSITORIO | Laboratorios Llorens S.L. | Comercializada |
+| 45271 | FLOGOTER 25 MG CAPSULAS DURAS | CÁPSULA DURA | Laboratorio Estedi S.L. | Revocada |
+| 45272 | FLOGOTER 100 MG SUPOSITORIOS | SUPOSITORIO | Laboratorio Estedi S.L. | Revocada |
+
+Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las demás corresponden a Inacid 25 mg cápsulas, Inacid Retard 75 mg, Flogoter 25 mg cápsulas, Flogoter 100 mg supositorios y Artrinovo 50 mg supositorios.
 
 <!-- review:begin es-lic-20261105-indomethacin-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco). Las demás corresponden a Inacid 25 mg cápsulas, Inacid Retard 75 mg, Flogoter 25 mg cápsulas, Flogoter 100 mg supositorios y Artrinovo 50 mg supositorios." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 autorizaciones (comercializadas: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco). Las demás corresponden a Inacid 25 mg cápsulas, Inacid Retard 75 mg, Flogoter 25 mg cápsulas, Flogoter 100 mg supositorios y Artrinovo 50 mg supositorios." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-indomethacin-1 -->
 
@@ -116,7 +127,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Indocin (indomethacin) prescribing information, Zyla Life Sciences US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73878376-1d24-423b-9f37-3666e83c95da) |
 
 <!-- review:end log -->

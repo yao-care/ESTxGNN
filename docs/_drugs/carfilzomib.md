@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CARFILZOMIB"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carfilzomib: nueva indicación predicha, CMM7 (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 9)"
 ---
 
@@ -72,13 +72,23 @@ Actualmente no hay literatura relacionada disponible para CMM7.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1151060002IP | KYPROLIS 10 MG POLVO PARA SOLUCION PARA PERFUSION | Polvo para solución inyectable | No registrada |
-| 1151060003IP | KYPROLIS 30 MG POLVO PARA SOLUCION PARA PERFUSION | Polvo para solución inyectable | No registrada |
-| 1151060003 | KYPROLIS 30 MG POLVO PARA SOLUCION PARA PERFUSION | Polvo para solución inyectable | No registrada |
-| 1151060002IP1 | KYPROLIS 10 MG POLVO PARA SOLUCION PARA PERFUSION | Polvo para solución inyectable | No registrada |
-| 1151060002 | KYPROLIS 10 MG POLVO PARA SOLUCION PARA PERFUSION | Polvo para solución inyectable | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1151060002IP | KYPROLIS 10 MG POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN INYECTABLE | Amgen Europe B.V. | Comercializada |
+| 1151060003IP | KYPROLIS 30 MG POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN INYECTABLE | Amgen Europe B.V. | Comercializada |
+| 1151060003 | KYPROLIS 30 MG POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN INYECTABLE | Amgen Europe B.V. | Comercializada |
+| 1151060002IP1 | KYPROLIS 10 MG POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN INYECTABLE | Amgen Europe B.V. | Comercializada |
+| 1151060002 | KYPROLIS 10 MG POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN INYECTABLE | Amgen Europe B.V. | Comercializada |
+| 115106001IP | KYPROLIS 60 MG POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Amgen Europe B.V. | Comercializada |
+| 1151060003IP1 | KYPROLIS 30 MG POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN INYECTABLE | Amgen Europe B.V. | Comercializada |
+| 1151060001IP1 | KYPROLIS 60 MG POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Amgen Europe B.V. | Comercializada |
+| 1151060001 | KYPROLIS 60 MG POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Amgen Europe B.V. | Comercializada |
+
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

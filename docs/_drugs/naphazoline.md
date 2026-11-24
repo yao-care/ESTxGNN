@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 551
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Naphazoline: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "naphazoline"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "open-angle glaucoma", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -70,19 +70,27 @@ Actualmente no hay literatura relacionada disponible.
 
 <!-- review:begin es-lic-20261105-naphazoline-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 7 autorizaciones vigentes (las otras dos son CENTILUX 0,25 mg/ml colirio y Epistaxol solución cutánea)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 autorizaciones (comercializadas: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 7 autorizaciones vigentes (las otras dos son CENTILUX 0,25 mg/ml colirio y Epistaxol solución cutánea)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-naphazoline-1 -->
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 21032 | VASOCONSTRICTOR PENSA | Solución para pulverización nasal | No especificada |
-| 81752 | OPTIALERG 5 MG/ML + 0,25 MG/ML colirio en solución | Colirio en solución | No especificada |
-| 19763 | ALERGOFTAL 0,25 mg/ml + 5 mg/ml colirio en solución | Colirio en solución | No especificada |
-| 56489 | OJOSBEL gotas oculares, 0,30 mg/0,08 ml | Colirio en solución | No especificada |
-| 22414 | COLIROFTA ANESTESICO 5 MG/ML + 0,5 MG/ML | Colirio en solución | No especificada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 81752 | OPTIALERG 5 MG/ML + 0,25 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Laboratorios Cinfa S.A. | Comercializada |
+| 19763 | ALERGOFTAL 0,25 mg/ml+ 5 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Reva Health Europe S.L. | Comercializada |
+| 56489 | OJOSBEL GOTAS OCULARES, 0,30 mg/0,08 ml Colirio en solución | COLIRIO EN SOLUCIÓN | Dermofarm S.A.U. | Comercializada |
+| 22414 | COLIROFTA ANESTESICO 5 MG/ML + 0,5 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Alcon Healthcare S.A. | Comercializada |
+| 46527 | CENTILUX 0,25 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Reva Health Europe S.L. | Comercializada |
+| 42972 | Epistaxol solución cutánea | SOLUCIÓN CUTÁNEA | Medical S.A. | Suspendida |
+| 21032 | VASOCONSTRICTOR PENSA | SOLUCION PARA PULVERIZACION NASAL | Dose Innova S.L. | Revocada |
+
+Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -114,7 +122,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 7 autorizaciones vigentes (las otras dos son CENTILUX 0,25 mg/ml colirio y Epistaxol solución cutánea)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 7 autorizaciones vigentes (las otras dos son CENTILUX 0,25 mg/ml colirio y Epistaxol solución cutánea)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

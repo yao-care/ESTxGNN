@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 613
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Paroxetine"
 predicted_indications: ["Ohdo syndrome and variants"]
 description: "Paroxetine: nueva indicación predicha, Síndrome de Ohdo y variantes (Ohdo syndrome and variants) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -79,13 +79,24 @@ Los textos de indicación aprobada no están disponibles en los datos compilados
 
 <!-- review:end es-lic-20261105-paroxetine-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 89018 | Paroxetina Normon 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 69921 | Paroxetina Qualigen 20 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 89502 | Paroxetina Teva-Ratio 20 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 76029 | Paroxetina Stada 10 mg comprimidos EFG | Comprimido | No disponible |
-| 70656 | Arapaxel 20 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 89018 | PAROXETINA NORMON 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 89502 | PAROXETINA TEVA-RATIO 20 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva B.V. | Comercializada |
+| 76029 | PAROXETINA STADA 10 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Comercializada |
+| 65626 | PAROXETINA VIR 20 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 69165 | PAROXETINA ALTER 20 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Alter S.A. | Comercializada |
+| 81512 | PAROXETINA AUROVITAS 30 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 89503 | PAROXETINA TEVA-RATIO 30 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva B.V. | Comercializada |
+| 81511 | PAROXETINA AUROVITAS 20 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 66949 | PAROXETINA NORMON 20 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 89019 | PAROXETINA NORMON 30 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

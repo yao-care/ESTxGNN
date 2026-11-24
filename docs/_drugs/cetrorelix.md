@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 167
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Cetrorelix: nueva indicación predicha, Hipertricosis (nivel de evidencia L5). Indicación original: Inhibición de picos prematuros de LH en estimulación ovárica controla…"
 monitor_inn: "CETRORELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "persistent fetal circulation syndrome", "familial isolated trichomegaly", "familial male-limited precocious puberty", "aromatase excess syndrome", "centra precocious puberty 1"]
@@ -71,12 +71,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 85838 | CEZIBOE 0,25 MG solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible en los datos compilados |
-| 85740 | CETRORELIX EDEST 0,25 MG polvo para solución inyectable | Polvo para solución inyectable | No disponible en los datos compilados |
-| 99100002 | CETROTIDE 0,25 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
-| 99100001 | CETROTIDE 0,25 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 85838 | CEZIBOE 0,25 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+| 99100002 | CETROTIDE 0,25 mg POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Merck Europe B.V. | Autorizada, no comercializada |
+| 99100001 | CETROTIDE 0,25 mg POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Merck Europe B.V. | Autorizada, no comercializada |
+| 85740 | CETRORELIX EDEST 0,25 MG POLVO PARA SOLUCION INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Intas Third Party Sales 2005 S.L. | Revocada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "acenocoumarol"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Acenocoumarol: nueva indicación predicha, Deficiencia de cofactor II de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 4)"
 ---
 
@@ -72,12 +72,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 58994 | SINTROM 1 mg COMPRIMIDOS | Comprimido | No registrada en los datos locales |
-| 88278 | ACENOCUMAROL AUROVITAS 1 MG COMPRIMIDOS EFG | Comprimido | No registrada en los datos locales |
-| 88315 | ACENOCUMAROL AUROVITAS 4 MG COMPRIMIDOS EFG | Comprimido | No registrada en los datos locales |
-| 25670 | SINTROM 4 mg COMPRIMIDOS | Comprimido | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 58994 | SINTROM 1 mg COMPRIMIDOS | COMPRIMIDO | Merus Labs Luxco Ii S.À.R.L. | Comercializada |
+| 88278 | ACENOCUMAROL AUROVITAS 1 MG COMPRIMIDOS EFG | COMPRIMIDO | Aurovitas Spain, S.A.U. | Comercializada |
+| 88315 | ACENOCUMAROL AUROVITAS 4 MG COMPRIMIDOS EFG | COMPRIMIDO | Aurovitas Spain, S.A.U. | Comercializada |
+| 25670 | SINTROM 4 mg COMPRIMIDOS | COMPRIMIDO | Merus Labs Luxco Ii S.À.R.L. | Comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

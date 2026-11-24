@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 573
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 description: "Norepinephrine: nueva indicación predicha, Enfermedad pulmonar obstructiva (obstructive lung disease) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 12 (comercializadas: 7; autorizadas no comercializadas: 3)"
@@ -84,15 +84,32 @@ No se identificaron ensayos controlados aleatorizados con norepinefrina en enfer
 
 ## Información de Mercado en España
 
-Autorizaciones principales (de 12 vigentes, todas de principio activo único):
+Autorizaciones principales (todas de principio activo único):
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 85228 | Noradrenalina Kalceks 1 mg/ml | Concentrado para solución para perfusión | No disponible en los datos compilados |
-| 90793 | Noradrenalina Basi 1 mg/ml | Concentrado para solución para perfusión | No disponible en los datos compilados |
-| 90272 | Noradrenalina Zentiva 1 mg/ml | Concentrado para solución para perfusión | No disponible en los datos compilados |
-| 86179 | Noradrenalina Sun 0,5 mg/ml | Solución para perfusión en jeringa precargada | No disponible en los datos compilados |
-| 90792 | Noradrenalina Basi 0,5 mg/ml | Concentrado para solución para perfusión | No disponible en los datos compilados |
+<!-- review:begin es-lic-20261124-norepinephrine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Autorizaciones principales (de 12 vigentes, todas de principio activo único):" Corregido: no todas las autorizaciones están vigentes; según CIMA (AEMPS) algunas están revocadas. El estado de cada una figura en la tabla y las cifras actuales en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124-norepinephrine-1 -->
+
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 85228 | NORADRENALINA KALCEKS 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Kalceks As | Comercializada |
+| 67043 | NORAGES 1 MG/ML SOLUCION INYECTABLE | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Altan Pharmaceuticals Sa | Comercializada |
+| 62002 | NORADRENALINA B. BRAUN 0,5 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | B Braun Medical S.A. | Comercializada |
+| 89669 | NORADRENALINA AGUETTANT 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Laboratoire Aguettant | Comercializada |
+| 86439 | VIPRANOP 5 MICROGRAMOS/ML SOLUCION INYECTABLE Y PARA PERFUSION | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Laboratoire Aguettant | Comercializada |
+| 89183 | NORADRENALINA ALTAN 0,04 MG/ML SOLUCIÓN PARA PERFUSIÓN | SOLUCIÓN PARA PERFUSIÓN | Altan Pharmaceuticals Sa | Comercializada |
+| 70000 | NORADRENALINA NORMON 0,5 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Laboratorios Normon S.A. | Comercializada |
+| 90793 | NORADRENALINA BASI 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Laboratorios Basi Industria Farmaceutica S.A. | Autorizada, no comercializada |
+| 90792 | NORADRENALINA BASI 0,5 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Laboratorios Basi Industria Farmaceutica S.A. | Autorizada, no comercializada |
+| 85937 | NORADRENALINA KABI 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Autorizada, no comercializada |
+
+Se muestran 10 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -121,11 +138,12 @@ La predicción se apoya solo en un puntaje computacional y en literatura mecaní
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Norepinephrine Bitartrate In Dextrose (norepinephrine bitartrate) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be3c6f4f-54fc-4cb3-a299-8a022515d396) |
+| 2026-11-24 | «de 12 vigentes» eliminado (no todas están vigentes) | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

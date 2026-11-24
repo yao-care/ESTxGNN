@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 634
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Phenytoin"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Phenytoin: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 4)"
@@ -85,19 +85,26 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 56245 | Fenitoína Rubio 50 mg/ml solución inyectable | Solución inyectable | No disponible |
-| 65372 | Fenitoína Altan 50 mg/ml solución inyectable | Solución inyectable | No disponible |
-| 65340 | Fenitoína Kern Pharma 50 mg/ml solución inyectable EFG | Solución inyectable | No disponible |
-| 45695 | Epanutin 100 mg cápsulas duras | Cápsula dura | No disponible |
-| 5970 | Sinergina 100 mg comprimidos | Comprimido | No disponible |
+<!-- licenses:begin -->
 
-Hay una sexta autorización (65303, Fenitoína Accord 50 mg/ml solución inyectable), revocada, que no se lista por el límite de cinco. Las seis son de principio activo único; 4 están autorizadas y 2 revocadas (65340 y 65303).
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 56245 | FENITOINA RUBIO 50 MG/ML SOLUCIÓN INYECTABLE | SOLUCIÓN INYECTABLE | Laboratorios Rubio S.A. | Comercializada |
+| 65372 | FENITOINA ALTAN 50 MG/ ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Altan Pharmaceuticals Sa | Comercializada |
+| 45695 | EPANUTIN 100 mg CAPSULAS DURAS | CÁPSULA DURA | Viatris Healthcare Limited | Comercializada |
+| 5970 | SINERGINA 100 mg COMPRIMIDOS | COMPRIMIDO | Faes Farma S.A. | Comercializada |
+| 65340 | FENITOINA KERN PHARMA 50 mg/ml SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Kern Pharma S.L. | Revocada |
+| 65303 | FENITOINA ACCORD 50 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Accord Healthcare S.L.U. | Revocada |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
+
+Hay una sexta autorización (65303, Fenitoína Accord 50 mg/ml solución inyectable), revocada. Todas son de principio activo único; 65340 y 65303 están revocadas.
 
 <!-- review:begin es-lic-20261112-phenytoin-1 -->
 
-> **Corrección de revisión (2026-11-12)**: Texto original: "Hay una sexta autorización vigente (65303, Fenitoína Accord 50 mg/ml solución inyectable) que no se lista por el límite de cinco. Las seis son de principio activo único y están vigentes." Según CIMA (AEMPS), datos del 2026-11-09, de las 6 autorizaciones de fenitoína 4 están autorizadas y 2 revocadas: 65340 (Fenitoína Kern Pharma 50 mg/ml solución inyectable EFG) y 65303 (Fenitoína Accord 50 mg/ml solución inyectable). Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay una sexta autorización vigente (65303, Fenitoína Accord 50 mg/ml solución inyectable) que no se lista por el límite de cinco. Las seis son de principio activo único y están vigentes." Según CIMA (AEMPS), datos del 2026-11-09, están revocadas 65340 (Fenitoína Kern Pharma 50 mg/ml solución inyectable EFG) y 65303 (Fenitoína Accord 50 mg/ml solución inyectable). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye la autorización 65303. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261112-phenytoin-1 -->
 
@@ -140,7 +147,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-12 | Autorizaciones vigentes: 6 → 4 (65340 y 65303 revocadas) | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Autorizaciones vigentes: 6 → 4 (65340 y 65303 revocadas) | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353) |
 
 <!-- review:end log -->

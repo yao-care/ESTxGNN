@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 143
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carbamazepine: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L4). Indicación original: Epilepsia (según los datos compilados"
 monitor_inn: "Carbamazepine"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
@@ -84,13 +84,21 @@ Se muestran las publicaciones más relevantes (de 20 recuperadas):
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 39955 | TEGRETOL 200 mg COMPRIMIDOS | Comprimido | No disponible |
-| 56232 | TEGRETOL 400 mg COMPRIMIDOS | Comprimido | No disponible |
-| 86377 | CARBAMAZEPINA VEGAL 200 MG COMPRIMIDOS EFG | Comprimido | No disponible |
-| 62620 | CARBAMAZEPINA NORMON 200 mg COMPRIMIDOS EFG | Comprimido | No disponible |
-| 86378 | CARBAMAZEPINA VEGAL 400 MG COMPRIMIDOS EFG | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 39955 | TEGRETOL 200 mg COMPRIMIDOS | COMPRIMIDO | Novartis Farmaceutica S.A. | Comercializada |
+| 56232 | TEGRETOL 400 mg COMPRIMIDOS | COMPRIMIDO | Novartis Farmaceutica S.A. | Comercializada |
+| 62620 | CARBAMAZEPINA NORMON 200 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 62621 | CARBAMAZEPINA NORMON 400 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 86377 | CARBAMAZEPINA VEGAL 200 MG COMPRIMIDOS EFG | COMPRIMIDO | Vegal Farmaceutica S.L. | Suspendida |
+| 86378 | CARBAMAZEPINA VEGAL 400 MG COMPRIMIDOS EFG | COMPRIMIDO | Vegal Farmaceutica S.L. | Suspendida |
+| 86376 | CARBAMAZEPINA VEGAL 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Vegal Farmaceutica S.L. | Suspendida |
+
+Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 808
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Trabectedin: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L5). Indicación original: Cáncer de ovario"
 monitor_inn: "trabectedin"
 predicted_indications: ["female breast carcinoma"]
@@ -95,13 +95,24 @@ El puntaje TxGNN (0.9973) es una predicción computacional que sirve para priori
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 07417002 | Yondelis 1 mg | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
-| 07417001 | Yondelis 0,25 mg | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
-| 88408 | Trabectedina Sun 1 mg EFG | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
-| 86917 | Trabectedina Teva 1 mg EFG | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
-| 1241902002 | Trabectedina Accord 1 mg EFG | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 88408 | TRABECTEDINA SUN 1 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+| 86917 | TRABECTEDINA TEVA 1 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Teva B.V. | Comercializada |
+| 1241902001 | TRABECTEDINA ACCORD 0,25 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 07417002 | YONDELIS 1 mg POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Pharma Mar S.A. | Comercializada |
+| 07417001 | YONDELIS 0,25 mg POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Pharma Mar S.A. | Comercializada |
+| 1241902002 | TRABECTEDINA ACCORD 1 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 88899 | TRABECTEDINA EVER PHARMA 1 MG POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Ever Valinject Gmbh | Comercializada |
+| 88898 | TRABECTEDINA EVER PHARMA 0,25 MG POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Ever Valinject Gmbh | Comercializada |
+| 86916 | TRABECTEDINA TEVA 0,25 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Teva B.V. | Comercializada |
+| 88407 | TRABECTEDINA SUN 0,25 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSIÓN EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+
+Se muestran 10 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 
@@ -125,7 +136,7 @@ El puntaje TxGNN (0.9973) es una predicción computacional que sirve para priori
 
 <!-- review:begin es-lic-20261105-trabectedin-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 12 autorizaciones vigentes en total (Pharma Mar, Sun, Teva, Accord, Ever Pharma y Stada, en presentaciones de 0,25 mg y 1 mg)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 12 autorizaciones (comercializadas: 10); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 12 autorizaciones vigentes en total (Pharma Mar, Sun, Teva, Accord, Ever Pharma y Stada, en presentaciones de 0,25 mg y 1 mg)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-trabectedin-1 -->
 
@@ -157,7 +168,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Hay 12 autorizaciones vigentes en total (Pharma Mar, Sun, Teva, Accord, Ever Pharma y Stada, en presentaciones de 0,25 mg y 1 mg)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Hay 12 autorizaciones vigentes en total (Pharma Mar, Sun, Teva, Accord, Ever Pharma y Stada, en presentaciones de 0,25 mg y 1 mg)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea) |
 
 <!-- review:end log -->

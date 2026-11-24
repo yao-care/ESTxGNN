@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 60
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-24
 monitor_inn: "apixaban"
 predicted_indications: ["migraine disorder"]
 description: "Apixaban: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -76,13 +76,24 @@ Sin embargo, esta hipótesis no está respaldada para apixabán. El puntaje de T
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 85788 | Apixaban Teva 5 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 89409 | Apixabán Farmalider 2,5 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 90861 | Apixaban Grindeks 2,5 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 89868 | Apixaban Olpha 2,5 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 111691010 | Eliquis 5 mg comprimido recubierto con película | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 85788 | APIXABAN TEVA 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+| 89318 | APIXABÁN TECNIMEDE 5 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tecnimede España Industria Farmaceutica S.A. | Comercializada |
+| 90909 | APIXABAN NORMON 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 90741 | APIXABAN ALMUS 2,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Almus Farmaceutica S.A.U. | Comercializada |
+| 111691010 | ELIQUIS 5 MG COMPRIMIDO RECUBIERTO CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Bristol-Myers Squibb/Pfizer Eeig | Comercializada |
+| 86418 | APIXABAN TAD 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tad Pharma Gmbh | Comercializada |
+| 90740 | APIXABAN ALMUS 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Almus Farmaceutica S.A.U. | Comercializada |
+| 90238 | APIXABAN ROVI 2,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Farmaceuticos Rovi S.A. | Comercializada |
+| 86636 | APIXABAN STADA 5 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 90371 | APIXABAN VIVANTA 2,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vivanta Generics S.R.O. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Los datos locales incluyen al menos 20 autorizaciones, por lo que esta lista puede ser parcial; solo una figura como vigente y comercializada (Eliquis) y una está cancelada.
 

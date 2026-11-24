@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 632
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "phenylbutazone"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis"]
 description: "Phenylbutazone: nueva indicación predicha, Síndrome de microftalmia colobomatosa-displasia rizomélica (colobomatous microphthalmia-rhizomelic dysplasia syndrome) (nivel de evidencia L5)."
@@ -72,12 +72,24 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Hay 2 autorizaciones registradas (1 vigente y 1 cancelada), ambas de producto con un solo principio activo y en forma de crema.
+Hay 2 autorizaciones registradas (1 vigente y 1 cancelada), ambas de productos en combinación con otros principios activos y en forma de crema.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 49472 | DERSINDOL EXTRA | Crema | No especificada |
-| 47135 | DOCTOFRIL CREMA | Crema | No especificada |
+<!-- review:begin es-lic-20261124-phenylbutazone-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "ambas de producto con un solo principio activo y en forma de crema" Corregido: según CIMA (AEMPS), DERSINDOL EXTRA (salicilato de metilo + fluocinolona + fenilbutazona + dimetilsulfóxido) y DOCTOFRIL CREMA (fenilbutazona + ácidos grasos esenciales + lidocaína + nicotinato de metilo) son combinaciones. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124-phenylbutazone-1 -->
+
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 49472 | DERSINDOL EXTRA | CREMA | Dermogen-Farma S.A. | Comercializada |
+| 47135 | DOCTOFRIL CREMA | CREMA | Laboratorios Asociados Nupel S.L. | Revocada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -107,11 +119,12 @@ La predicción es solo computacional (nivel L5), sin ensayos ni publicaciones qu
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL101 (phenylbutazone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL101) |
+| 2026-11-24 | «un solo principio activo» → combinaciones | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

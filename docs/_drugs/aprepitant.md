@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 63
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aprepitant: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (nivel de evidencia L5). Indicación original: No disponible (los textos de indicación de las autorizaciones est…"
 monitor_inn: "APREPITANT"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "hypertrichosis (disease)", "pulmonary hypertension", "leprosy", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "kyphoscoliotic heart disease", "syndrome with a Dandy-Walker malformation as major feature", "subarachnoid hemorrhage (disease)", "isolated genetic hair shaft abnormality"]
@@ -71,19 +71,30 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 <!-- review:begin es-lic-20261105-aprepitant-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 13 autorizaciones vigentes (todas de principio activo único)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 13 autorizaciones (comercializadas: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se listan 5 de las 13 autorizaciones vigentes (todas de principio activo único)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-aprepitant-1 -->
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 03262002 | EMEND 80 mg cápsulas duras | Cápsula dura | No disponible |
-| 84275 | Aprepitant Accord 125 mg cápsulas duras EFG | Cápsula dura | No disponible |
-| 84706 | Atanto 125 mg cápsulas duras EFG | Cápsula dura | No disponible |
-| 85689 | Aprepitant Qilu 80 mg cápsulas duras EFG | Cápsula dura | No disponible |
-| 103262011 | EMEND 125 mg polvo para suspensión oral | Polvo para suspensión oral | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 84781 | APREPITANT SANDOZ 125 MG CAPSULAS DURAS EFG/APREPITANT SANDOZ 80 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Sandoz Farmaceutica S.A. | Comercializada |
+| 84276 | APREPITANT ACCORD 125 MG CAPSULAS DURAS EFG/APREPITANT ACCORD 80 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Accord Healthcare S.L.U. | Comercializada |
+| 03262002 | EMEND 80 MG CAPSULAS DURAS | CÁPSULA DURA | Merck Sharp & Dohme B.V. | Autorizada, no comercializada |
+| 85689 | APREPITANT QILU 80 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Qilu Pharma Spain S.L. | Autorizada, no comercializada |
+| 103262011 | EMEND 125 MG POLVO PARA SUSPENSION ORAL | POLVO PARA SUSPENSIÓN ORAL | Merck Sharp & Dohme B.V. | Autorizada, no comercializada |
+| 03262006 | EMEND 125 MG CAPSULAS DURAS/EMEND 80 MG CAPSULAS DURAS | CÁPSULA DURA | Merck Sharp & Dohme B.V. | Autorizada, no comercializada |
+| 85687 | APREPITANT QILU 125 MG CAPSULAS DURAS/ APREPITANT QILU 80 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Qilu Pharma Spain S.L. | Autorizada, no comercializada |
+| 85688 | APREPITANT QILU 125 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Qilu Pharma Spain S.L. | Autorizada, no comercializada |
+| 84275 | APREPITANT ACCORD 125 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Accord Healthcare S.L.U. | Revocada |
+| 84706 | ATANTO 125 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Pharmathen S.A. | Revocada |
+
+Se muestran 10 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -118,7 +129,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se listan 5 de las 13 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se listan 5 de las 13 autorizaciones vigentes (todas de principio activo único)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cinvanti (aprepitant) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4) |
 
 <!-- review:end log -->

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cholecalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cholecalciferol: nueva indicación predicha, Acromesomelic dysplasia, Campailla Martinelli type (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -92,13 +92,24 @@ Se muestran las publicaciones más relevantes (de 20 recuperadas), priorizando e
 
 Los datos disponibles muestran al menos 20 autorizaciones de medicamentos de colecalciferol como principio activo único; la lista puede ser parcial. Los registros no incluyen texto de indicación aprobada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 82411 | THORENS 25.000 UI/2,5 ML solución oral | Solución oral | No disponible |
-| 81820 | VIDESIL 25.000 UI solución oral | Solución oral | No disponible |
-| 89326 | COLECALCIFEROL ALTER 25.000 UI cápsulas duras | Cápsula dura | No disponible |
-| 84727 | DELCRIN 10.000 UI/ML gotas orales en solución | Gotas orales en solución | No disponible |
-| 81223 | BENFEROL MENSUAL 25.000 UI cápsulas blandas | Cápsula blanda | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 89921 | DITRALIA 25.000 UI PELICULAS BUCODISPERSABLES | PELICULA BUCODISPERSABLE | Ibsa Farmaceutici Italia S.R.L. | Comercializada |
+| 82411 | THORENS 25.000 UI/2,5 ML SOLUCION ORAL | SOLUCIÓN ORAL | Abiogen Pharma S.P.A. | Comercializada |
+| 81820 | VIDESIL 25.000 UI SOLUCION ORAL | SOLUCIÓN ORAL | Laboratorios Gebro Pharma S.A. | Comercializada |
+| 89326 | COLECALCIFEROL ALTER 25.000 UI CÁPSULAS DURAS | CÁPSULA DURA | Laboratorios Alter S.A. | Comercializada |
+| 84727 | DELCRIN 10.000 UI/ML GOTAS ORALES EN SOLUCION | GOTAS ORALES EN SOLUCIÓN | O.P. Pharma S.R.L. | Comercializada |
+| 22903 | VITAMINA D3 KERN PHARMA 2.000 UI/ml SOLUCION ORAL | SOLUCIÓN ORAL | Kern Pharma S.L. | Comercializada |
+| 89328 | ALDEXINA 50.000 UI CÁPSULAS DURAS | CÁPSULA DURA | Laboratorios Alter S.A. | Comercializada |
+| 81223 | BENFEROL MENSUAL 25.000 UI CAPSULAS BLANDAS | CÁPSULA BLANDA | Consilient Health Limited | Comercializada |
+| 81224 | BENFEROL CHOQUE 50.000 UI CAPSULAS BLANDAS | CÁPSULA BLANDA | Consilient Health Limited | Comercializada |
+| 78379 | DELTIUS 25.000 UI/2,5 ML SOLUCION ORAL | SOLUCIÓN ORAL | Italfarmaco S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

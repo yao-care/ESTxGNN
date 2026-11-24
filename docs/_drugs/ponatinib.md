@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 650
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ponatinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: Leucemia mieloide crónica, BCR-ABL1 positiva"
 monitor_inn: "PONATINIB"
 predicted_indications: ["fibromatosis, gingival", "liposarcoma"]
@@ -77,11 +77,17 @@ Para la indicación alternativa (liposarcoma), se identificó una publicación p
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 113839006 | ICLUSIG 30 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-| 113839005 | ICLUSIG 15 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-| 113839003 | ICLUSIG 45 mg comprimidos recubiertos con película | Comprimido | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 113839006 | ICLUSIG 30 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Incyte Biosciences Distribution B.V. | Comercializada |
+| 113839005 | ICLUSIG 15 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Incyte Biosciences Distribution B.V. | Comercializada |
+| 113839003 | ICLUSIG 45 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO | Incyte Biosciences Distribution B.V. | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

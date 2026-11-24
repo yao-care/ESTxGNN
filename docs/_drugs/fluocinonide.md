@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 342
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Fluocinonide"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "alopecia areata", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"]
 description: "Fluocinonide: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
@@ -81,9 +81,15 @@ Actualmente no hay literatura relacionada disponible para alopecia mucinosa.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 54036 | NOVOTER 0,5 MG/G CREMA (Teofarma S.R.L.) | Crema | No se dispone del texto de indicación |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 54036 | NOVOTER 0,5 MG/G CREMA | CREMA | Teofarma S.R.L. | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ---
 

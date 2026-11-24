@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 572
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Norelgestromin: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en los datos de la autorización (el parche se comercial…"
 monitor_inn: "norelgestromin"
 predicted_indications: ["amenorrhea (disease)"]
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Se muestran 5 de las 13 autorizaciones vigentes (todas del parche transdérmico EVRA, sin cancelaciones).
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 02223001 | EVRA 203 microgramos/24 horas + 33,9 microgramos/24 horas parche transdérmico | Parche transdérmico | No disponible en los datos compilados |
-| 02223001IP | EVRA 203 microgramos/24 horas + 33,9 microgramos/24 horas parche transdérmico | Parche transdérmico | No disponible en los datos compilados |
-| 02223002 | EVRA 203 microgramos/24 horas + 33,9 microgramos/24 horas parche transdérmico | Parche transdérmico | No disponible en los datos compilados |
-| 02223003 | EVRA 203 microgramos/24 horas + 33,9 microgramos/24 horas parche transdérmico | Parche transdérmico | No disponible en los datos compilados |
-| 02223002IP | EVRA 203 microgramos/24 horas + 33,9 microgramos/24 horas parche transdérmico | Parche transdérmico | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 02223001 | EVRA 203 MICROGRAMOS/24 HORAS + 33,9 MICROGRAMOS/24 HORAS PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Gedeon Richter Plc. | Comercializada |
+| 02223001IP4 | EVRA 203 MICROGRAMOS/24 HORAS + 33,9 MICROGRAMOS/24 HORAS PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Janssen-Cilag International N.V | Comercializada |
+| 02223002IP2 | EVRA 203 MICROGRAMOS/24 HORAS + 33,9 MICROGRAMOS/24 HORAS PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Janssen-Cilag International N.V | Comercializada |
+| 02223001IP1 | EVRA 203 MICROGRAMOS/24 hORAS + 33,9 MICROGRAMOS/24 HORAS PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Janssen-Cilag International N.V | Comercializada |
+| 02223001IP2 | EVRA 203 MICROGRAMOS/24 HORAS + 33,9 MICROGRAMOS/24 HORAS PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Janssen-Cilag International N.V | Comercializada |
+
+Se muestran 5 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Titulares: Gedeon Richter Plc. y Janssen-Cilag International N.V.
 

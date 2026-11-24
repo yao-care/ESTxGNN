@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 343
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluorescein: nueva indicación predicha, Angina de Prinzmetal (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaciones (uso diagnóstico oft…"
 monitor_inn: "fluorescein"
 predicted_indications: ["Prinzmetal angina", "antithrombin deficiency type 2", "rheumatoid arthritis", "factor 5 excess with spontaneous thrombosis", "hemoglobinopathy", "heparin cofactor 2 deficiency", "thrombophilia", "hyperthyroidism", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations"]
@@ -82,12 +82,18 @@ Actualmente no hay literatura relacionada disponible para la angina de Prinzmeta
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 65458 | Fluoresceína Oculos 10% solución inyectable | Solución inyectable | No disponible |
-| 82030 | Minims Fluoresceína Sódica 20 mg/ml colirio en solución | Colirio en solución | No disponible |
-| 89809 | Minims Lidocaína/Fluoresceína 40 mg/ml + 2,5 mg/ml colirio en solución en envase unidosis | Colirio en solución en envase unidosis | No disponible |
-| 59104 | Colirofta Fluotest 2,5 mg/ml + 4 mg/ml colirio en solución | Colirio en solución | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 65458 | FLUORESCEINA OCULOS 10% SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Serb Sa | Comercializada |
+| 82030 | MINIMS FLUORESCEINA SODICA 20 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Bausch + Lomb Ireland Limited | Comercializada |
+| 89809 | MINIMS LIDOCAINA/FLUORESCEINA 40 MG/ML + 2,5 MG/ML COLIRIO EN SOLUCION EN ENVASE UNIDOSIS | COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS | Bausch + Lomb Ireland Limited | Autorizada, no comercializada |
+| 59104 | COLIROFTA FLUOTEST 2,5 MG/ML + 4 MG/ML COLIRIO EN SOLUCIÓN | COLIRIO EN SOLUCIÓN | Alcon Healthcare S.A. | Revocada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

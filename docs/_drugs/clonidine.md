@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 199
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Clonidine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
 description: "Clonidine: nueva indicación predicha, Faciodigitogenital syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
@@ -81,9 +81,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 50669 | CATAPRESAN 0,150 mg COMPRIMIDOS | Comprimido | Texto de indicación no especificado en los datos disponibles |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 50669 | CATAPRESAN 0,150 mg COMPRIMIDOS | COMPRIMIDO | Glenwood Gmbh Pharmazeutische Erzeugnisse | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 Titular: Glenwood GmbH Pharmazeutische Erzeugnisse. Autorización vigente, de tipo monofármaco.
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 718
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RUXOLITINIB"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"]
 description: "Ruxolitinib: nueva indicación predicha, Uterine corpus perivascular epithelioid cell tumor (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 6)"
@@ -74,13 +74,20 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 112773015 | JAKAVI 10 MG COMPRIMIDOS | Comprimido | No disponible en los datos |
-| 112773017 | JAKAVI 5 MG/ML SOLUCIÓN ORAL | Solución oral | No disponible en los datos |
-| 112773011 | JAKAVI 20 MG COMPRIMIDOS | Comprimido | No disponible en los datos |
-| 112773008 | JAKAVI 15 MG COMPRIMIDOS | Comprimido | No disponible en los datos |
-| 112773005 | JAKAVI 5 MG COMPRIMIDOS | Comprimido | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 112773015 | JAKAVI 10 MG COMPRIMIDOS | COMPRIMIDO | Novartis Europharm Limited | Comercializada |
+| 112773017 | JAKAVI 5 MG/ML SOLUCION ORAL | SOLUCIÓN ORAL | Novartis Europharm Limited | Comercializada |
+| 112773011 | JAKAVI 20 MG COMPRIMIDOS | COMPRIMIDO | Novartis Europharm Limited | Comercializada |
+| 112773008 | JAKAVI 15 MG COMPRIMIDOS | COMPRIMIDO | Novartis Europharm Limited | Comercializada |
+| 112773005 | JAKAVI 5 MG COMPRIMIDOS | COMPRIMIDO | Novartis Europharm Limited | Comercializada |
+| 1231726001 | OPZELURA 15 MG/G CREMA | CREMA | Incyte Biosciences Distribution B.V. | Comercializada |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Existe además una sexta autorización, OPZELURA 15 MG/G CREMA (Incyte Biosciences Distribution B.V.; n.º 1231726001), en forma de crema (formulación tópica). Jakavi pertenece a Novartis Europharm Limited.
 

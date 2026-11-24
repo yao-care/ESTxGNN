@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 192
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clobetasol: nueva indicación predicha, Linfoma cutáneo primario de células T (nivel de evidencia L3). Indicación original: No disponible en los datos de autorización compilados (los textos de…"
 monitor_inn: "CLOBETASOL"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -83,13 +83,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 79415 | CLOBISDIN 500 microgramos/ml solución cutánea | Solución cutánea | No disponible |
-| 85249 | CLOVATE 500 microgramos/g champú | Champú | No disponible |
-| 56530 | DECLOBAN 500 microgramos/g pomada | Pomada | No disponible |
-| 55746 | CLOVATE 0,5 mg/g crema | Crema | No disponible |
-| 90724 | ELEUS 0,5 mg/ml colirio en emulsión en envase unidosis | Colirio en emulsión | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 79415 | CLOBISDIN 500 MICROGRAMOS/ML SOLUCION CUTANEA | SOLUCIÓN CUTÁNEA | Isdin S.A. | Comercializada |
+| 85249 | CLOVATE 500 MICROGRAMOS/G CHAMPU | CHAMPÚ | Industrial Farmaceutica Cantabria S.A. | Comercializada |
+| 56530 | DECLOBAN 500 microgramos/g POMADA | POMADA | Teofarma S.R.L. | Comercializada |
+| 55746 | CLOVATE 0,5 mg/g CREMA | CREMA | Industrial Farmaceutica Cantabria S.A. | Comercializada |
+| 90724 | ELEUS 0,5 MG/ML COLIRIO EN EMULSION EN ENVASE UNIDOSIS | Colirio en emulsion en envase unidosis | Laboratorios Salvat S.A. | Comercializada |
+
+Se muestran 5 de 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Hay 7 autorizaciones vigentes en total; la tabla muestra las 5 principales. Las otras dos son CLARELUX 500 microgramos/g espuma cutánea (66071) y CLOBEX 500 microgramos/g champú (68316).
 

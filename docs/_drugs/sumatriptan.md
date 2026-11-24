@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 756
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Sumatriptan: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,25 +72,31 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) propone para Sumatript
 
 ## Información de Mercado en España
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 68727 | sumatriptán | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 90084 | sumatriptán | Película bucal (buccal film) | Autorizado, no comercializado |
-| 72020 | sumatriptán | SOLUCIÓN INYECTABLE EN JERINGA PRECARGAD | Vigente |
-| 69893 | sumatriptán | COMPRIMIDO | Vigente |
-| 85221 | sumatriptán | SOLUCIÓN INYECTABLE | Autorizado, no comercializado |
-| 61629 | sumatriptán | SOLUCION PARA PULVERIZACION NASAL | Vigente |
-| 71178 | sumatriptán | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 59973 | sumatriptán | SOLUCIÓN INYECTABLE EN JERINGA PRECARGAD | Vigente |
-| 61630 | sumatriptán | SOLUCION PARA PULVERIZACION NASAL | Vigente |
-| 11591201901 | sumatriptán | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 66406 | sumatriptán | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 3314999C | sumatriptán | SOLUCION PARA PULVERIZACION NASAL | Autorizado, no comercializado |
-| 66453 | sumatriptán | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 71487 | sumatriptán | COMPRIMIDO | Cancelado |
-| 68658 | sumatriptán | COMPRIMIDO | Cancelado |
-| 89461 | sumatriptán | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Autorizado, no comercializado |
-| 89272 | sumatriptán + naproxeno | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 68727 | SUMATRIPTAN TEVA 50 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+| 72020 | SUMATRIPTAN SUN 6 mg/0,5 ml SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+| 69893 | SUMATRIPTAN AUROVITAS 50 mg COMPRIMIDOS EFG | COMPRIMIDO | Aurovitas Spain, S.A.U. | Comercializada |
+| 61629 | IMIGRAN 10 mg SOLUCION PARA PULVERIZACION NASAL. | SOLUCION PARA PULVERIZACION NASAL | Glaxosmithkline S.A. | Comercializada |
+| 71178 | SUMATRIPTAN VIATRIS 50 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Limited | Comercializada |
+| 59973 | IMIGRAN 6 mg solución inyectable | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Glaxosmithkline S.A. | Comercializada |
+| 61630 | IMIGRAN 20 mg SOLUCION PARA PULVERIZACION NASAL. | SOLUCION PARA PULVERIZACION NASAL | Glaxosmithkline S.A. | Comercializada |
+| 11591201901 | IMIGRAN NEO 50 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Glaxosmithkline (Ireland) Limited | Comercializada |
+| 66406 | IMIGRAN NEO 50 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Glaxosmithkline S.A. | Comercializada |
+| 66453 | SUMATRIPTAN SANDOZ 50 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Comercializada |
+| 89272 | SUVEXX 85 MG/500 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Orion Corporation | Comercializada |
+| 90084 | SUMATRIPTAN KLARIA 27 MG PELICULA BUCAL | Película bucal (buccal film) | Klaria Ab | Autorizada, no comercializada |
+| 85221 | SUMATRIPTAN SUN 3 MG/0,5 ML SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Sun Pharmaceutical Industries (Europe) B.V. | Autorizada, no comercializada |
+| 3314999C | IMIGRAN 20 MG SOLUCION PARA PULVERIZACION NASAL. | SOLUCION PARA PULVERIZACION NASAL | Glaxosmithkline (Ireland) Limited | Autorizada, no comercializada |
+| 89461 | SUMATRIPTAN CFOURHEALTH 6 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | C4 Health Gmbh | Autorizada, no comercializada |
+| 71487 | SUMATRIPTAN BLUEFISH 50 mg COMPRIMIDOS EFG | COMPRIMIDO | Bluefish Pharmaceuticals Ab (Publ) | Revocada |
+| 68658 | SUMATRIPTAN UR 50 mg COMPRIMIDOS EFG | COMPRIMIDO | Aristo Pharma Iberia S.L. | Revocada |
+
+Se muestran las 17 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

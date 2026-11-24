@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "AZTREONAM"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "premalignant hematological system disease", "epiglottitis", "monoclonal gammopathy", "xanthogranulomatous pyelonephritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aztreonam: nueva indicación predicha, hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
 ---
 
@@ -71,10 +71,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 09543002 | CAYSTON 75 mg polvo y disolvente para solución para inhalación por nebulizador | Polvo para solución para inhalación por nebulizador | No registrada en los datos locales |
-| 57781 | AZACTAM 1 g polvo para solución inyectable | Polvo para solución inyectable | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 09543002 | CAYSTON 75 mg POLVO Y DISOLVENTE PARA SOLUCION PARA INHALACION POR NEBULIZADOR | POLVO PARA SOLUCIÓN PARA INHALACIÓN POR NEBULIZADOR | Gilead Sciences Ireland Unlimited Company | Comercializada |
+| 57781 | AZACTAM 1g POLVO PARA SOLUCION INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Galenicum Derma S.L.U. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

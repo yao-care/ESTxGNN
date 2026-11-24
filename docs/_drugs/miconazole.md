@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 524
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 3 (comercializadas: 2)"
@@ -77,11 +77,17 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 50271 | DAKTARIN 20 MG/G CREMA | Crema | No disponible en los datos compilados |
-| 52875 | FUNGISDIN 8,7 MG/ML SOLUCIÓN PARA PULVERIZACIÓN CUTÁNEA | Solución para pulverización cutánea | No disponible en los datos compilados |
-| 55962 | DAKTARIN 20 MG/G GEL ORAL | Gel oral | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 50271 | DAKTARIN 20 MG/G CREMA | CREMA | Esteve Pharmaceuticals S.A. | Comercializada |
+| 55962 | DAKTARIN 20 MG/G GEL ORAL | GEL ORAL | Esteve Pharmaceuticals S.A. | Comercializada |
+| 52875 | FUNGISDIN 8,7 MG/ML SOLUCIÓN PARA PULVERIZACIÓN CUTÁNEA | SOLUCIÓN PARA PULVERIZACIÓN CUTÁNEA | Isdin S.A. | Suspendida |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 De las 3 autorizaciones, 2 están vigentes y 1 está cancelada.
 

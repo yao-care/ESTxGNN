@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 102
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "bexarotene"
 predicted_indications: ["primary cutaneous B-cell lymphoma", "lymphosarcoma"]
 description: "Bexarotene: nueva indicación predicha, Linfoma cutáneo primario de células B (primary cutaneous B-cell lymphoma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -83,10 +83,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 86479 | BEXAROTENO CIPLA 75 MG CÁPSULAS BLANDAS EFG | Cápsula blanda |
-| 01178001 | TARGRETIN 75 MG, CÁPSULAS BLANDAS | Cápsula blanda |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 86479 | BEXAROTENO CIPLA 75 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Cipla Europe N.V. | Comercializada |
+| 01178001 | TARGRETIN 75 MG, CAPSULAS BLANDAS | CÁPSULA BLANDA | H.A.C. Pharma | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las dos autorizaciones están vigentes y corresponden a medicamentos de un único principio activo.
 

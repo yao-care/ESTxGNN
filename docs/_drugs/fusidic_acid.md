@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 366
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "fusidic acid"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
 description: "Fusidic Acid: nueva indicación predicha, Queratitis por exposición (exposure keratitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 13 (comercializadas: 9; autorizadas no comercializadas: 2)"
@@ -83,13 +83,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 84020 | Ácido Fusídico Redoxfarma 20 mg/g crema | Crema | No especificada |
-| 57812 | Fucithalmic 10 mg/g gel oftálmico | Gel oftálmico | No especificada |
-| 58016 | Fucidine 20 mg/g crema | Crema | No especificada |
-| 74064 | Ácido Fusídico Isdin 20 mg/g crema | Crema | No especificada |
-| 90887 | Cortifusin 20 mg/g + 1 mg/g crema | Crema | No especificada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 84020 | ACIDO FUSIDICO REDOXFARMA 20 MG/G CREMA | CREMA | Redox Farma S.L.U. | Comercializada |
+| 57812 | FUCITHALMIC 10 mg/g GEL OFTALMICO | GEL OFTÁLMICO | Amdipharm Limited | Comercializada |
+| 58016 | FUCIDINE 20 mg/g CREMA | CREMA | Laboratorios Leo Pharma S.A. | Comercializada |
+| 74064 | ACIDO FUSIDICO ISDIN 20 mg/g CREMA | CREMA | Isdin S.A. | Comercializada |
+| 88820 | FUCIBET LIPID 20 MG/G + 1 MG/G CREMA | CREMA | Leo Pharma A/S | Comercializada |
+| 20000217IP | FUCIBET 20 MG/G + 1 MG/G CREMA | CREMA | Leo Pharma A/S | Comercializada |
+| 60797 | FUCIBET 20 mg/g + 1 mg/g CREMA | CREMA | Laboratorios Leo Pharma S.A. | Comercializada |
+| 62403 | FUCIDINE H, 20 mg/g + 10 mg/g CREMA | CREMA | Leo Pharma A/S | Comercializada |
+| 83985 | FUSICUTANBETA 20 MG/G + 1 MG/G CREMA | CREMA | Mibe Pharma España S.L.U. | Comercializada |
+| 90887 | CORTIFUSIN 20 MG/G + 1 MG/G CREMA | CREMA | Laboratoires Bailleul S.A. | Autorizada, no comercializada |
+
+Se muestran 10 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 
@@ -100,7 +111,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 <!-- review:begin es-lic-20261105-fusidic_acid-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 13 autorizaciones vigentes (todas de medicamentos de un solo principio activo en el registro; varias son asociaciones con corticoide según su denominación)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 13 autorizaciones (comercializadas: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 13 autorizaciones vigentes (todas de medicamentos de un solo principio activo en el registro; varias son asociaciones con corticoide según su denominación)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-fusidic_acid-1 -->
 
@@ -131,7 +142,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 13 autorizaciones vigentes (todas de medicamentos de un solo principio activo en el registro; varias son asociaciones c" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 13 autorizaciones vigentes (todas de medicamentos de un solo principio activo en el registro; varias son asociaciones c" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 254
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Diosmin: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en los datos de AEMPS (uso general conocido: insuficien…"
 monitor_inn: "diosmin"
 predicted_indications: ["amenorrhea (disease)"]
@@ -43,7 +43,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 <!-- review:begin es-lic-20261105-diosmin-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Diosmina es un flavonoide utilizado habitualmente como agente venoactivo, con 15 autorizaciones vigentes en España; sin embargo, los datos compilados para este informe no incluyen el texto de la indicación aprobada. / El modelo TxGNN predice que podría ser efectivo para **amenorrea**," Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 15 autorizaciones (comercializadas: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Diosmina es un flavonoide utilizado habitualmente como agente venoactivo, con 15 autorizaciones vigentes en España; sin embargo, los datos compilados para este informe no incluyen el texto de la indicación aprobada. / El modelo TxGNN predice que podría ser efectivo para **amenorrea**," Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-diosmin-1 -->
 
@@ -91,17 +91,28 @@ Los datos compilados no incluyen el texto de indicación aprobada.
 
 <!-- review:begin es-lic-20261105-diosmin-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 15 autorizaciones vigentes (todas de diosmina como monofármaco). Los datos compilados no incluyen el texto de indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 15 autorizaciones (comercializadas: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se listan 5 de las 15 autorizaciones vigentes (todas de diosmina como monofármaco). Los datos compilados no incluyen el texto de indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-diosmin-2 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 76945 | Variliv Diosmina 500 mg | Comprimido recubierto con película | No disponible |
-| 77434 | Venoruton Diosmina 500 mg | Comprimido recubierto con película | No disponible |
-| 76986 | Dioflav 500 mg | Comprimido recubierto con película | No disponible |
-| 86537 | Variliv Diosmina Forte 1.000 mg | Comprimido recubierto con película | No disponible |
-| 59080 | Daflon 500 mg | Comprimido recubierto | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 76945 | VARILIV DIOSMINA 500 MG COMPRIMIDOS RECUBERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+| 77434 | VENORUTON DIOSMINA 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 76986 | DIOFLAV 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Towa Pharmaceutical S.A. | Comercializada |
+| 86537 | VARILIV DIOSMINA FORTE 1.000 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+| 86038 | DIOSMINA CINFALAB 1.000 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+| 75652 | DIOSMINA KERN PHARMA 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+| 59080 | DAFLON 500 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | COMPRIMIDO RECUBIERTO | Laboratorios Servier S.L. | Comercializada |
+| 1-20685 | DAFLON 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Servier Austria Gmbh | Comercializada |
+| 1-20685IP | DAFLON 500 mg COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Servier Austria Gmbh | Comercializada |
+| 4691-2004IP | DAFLON 500mg comprimidos recubiertos. | COMPRIMIDO RECUBIERTO | Les Laboratoires Servier | Autorizada, no comercializada |
+
+Se muestran 10 de 15 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 
@@ -127,8 +138,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Diosmina es un flavonoide utilizado habitualmente como agente venoactivo, con 15 autorizaciones vigentes en España; sin embargo, los datos c" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
-| 2026-11-05 | Eliminado: "Se listan 5 de las 15 autorizaciones vigentes (todas de diosmina como monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Diosmina es un flavonoide utilizado habitualmente como agente venoactivo, con 15 autorizaciones vigentes en España; sin embargo, los datos c" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se listan 5 de las 15 autorizaciones vigentes (todas de diosmina como monofármaco)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 159
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ceftriaxone"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
 description: "Ceftriaxone: nueva indicación predicha, hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -77,13 +77,24 @@ Ninguna de estas publicaciones estudia directamente ceftriaxona como tratamiento
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 83903 | Ceftriaxona Qilu 1 g | Polvo para solución inyectable y para perfusión | No disponible |
-| 63251 | Ceftriaxona LDP Torlan 500 mg | Polvo y disolvente para solución inyectable | No disponible |
-| 88920 | Ceftriaxona Kalceks 1 g | Polvo para solución inyectable y para perfusión | No disponible |
-| 64950 | Ceftriaxona Sala 2 g | Polvo para solución para perfusión | No disponible |
-| 62635 | Ceftriaxona Normon 1000 mg | Polvo y disolvente para solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 83903 | CEFTRIAXONA QILU 1 G POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Qilu Pharma Spain S.L. | Comercializada |
+| 63251 | CEFTRIAXONA LDP TORLAN 500 MG POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE INTRAVENOSA EFG | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Ldp Laboratorios Torlan S.A. | Comercializada |
+| 64950 | CEFTRIAXONA SALA 2 G POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 62635 | CEFTRIAXONA NORMON 1000 MG POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE Y PARA PERFUSION EFG | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 62636 | CEFTRIAXONA NORMON 500 MG POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE Y PARA PERFUSION EFG | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 64540 | CEFTRIAXONA FRESENIUS KABI 1 g POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE INTRAMUSCULAR EFG | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Fresenius Kabi España, S.A.U. | Comercializada |
+| 62641 | CEFTRIAXONA NORMON 1000 MG POLVO Y SOLUCION PARA SOLUCION INYECTABLE INTRAMUSCULAR EFG | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 71057 | CEFTRIAXONA LDP TORLAN 250 MG POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE INTRAVENOSA EFG | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Ldp Laboratorios Torlan S.A. | Comercializada |
+| 83554 | MEDAXONE 2 G POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Medochemie Limited | Comercializada |
+| 63252 | CEFTRIAXONA LDP TORLAN 1 G POLVO Y SOLUCION PARA SOLUCION INYECTABLE INTRAMUSCULAR EFG | POLVO Y SOLUCIÓN PARA SOLUCIÓN INYECTABLE | Ldp Laboratorios Torlan S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 La lista puede ser parcial. Hay 17 autorizaciones vigentes y 3 canceladas.
 

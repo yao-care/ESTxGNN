@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 557
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "NEFOPAM"
 predicted_indications: ["craniostenosis cataract", "immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "lumbar spinal stenosis"]
 description: "Nefopam: nueva indicación predicha, Craniostenosis cataract (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0; autorizadas no comercializadas: 1)"
@@ -80,9 +80,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 90988 | NEPHODOL 20 MG/2 ML SOLUCIÓN INYECTABLE EFG (Altan Pharmaceuticals S.A.) | Solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 90988 | NEPHODOL 20 MG/2 ML SOLUCIÓN INYECTABLE EFG | SOLUCIÓN INYECTABLE | Altan Pharmaceuticals S.A. | Autorizada, no comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

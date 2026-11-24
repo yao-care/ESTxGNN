@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 836
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
 description: "Ustekinumab: nueva indicación predicha, Dermatitis (nivel de evidencia L2). En España, autorizaciones de la AEMPS: al menos 20"
@@ -100,13 +100,24 @@ Conviene ser prudente: los estudios de fase 2 y la pequeña serie piloto muestra
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1080494007 | STELARA 90 MG solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos compilados |
-| 1241823006 | WEZENLA 90 MG solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos compilados |
-| 1241844002 | STEQEYMA 90 MG solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible en los datos compilados |
-| 1241801005 | PYZCHIVA 90 MG solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos compilados |
-| 1231784004 | UZPRUVO 90 MG solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1241823006 | WEZENLA 90 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Amgen Technology (Ireland) Unlimited Company | Comercializada |
+| 1241823003 | WEZENLA 90 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Amgen Technology (Ireland) Unlimited Company | Comercializada |
+| 1241844002 | STEQEYMA 90 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Celltrion Healthcare Hungary Kft. | Comercializada |
+| 1080494007 | STELARA 90 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Janssen-Cilag International N.V | Comercializada |
+| 1241801005 | PYZCHIVA 90 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Samsung Bioepis Nl B.V. | Comercializada |
+| 1241801007 | PYZCHIVA 45 MG SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Samsung Bioepis Nl B.V. | Comercializada |
+| 1241801004 | PYZCHIVA 45 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Samsung Bioepis Nl B.V. | Comercializada |
+| 1241892002 | YESINTEK 45 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Biosimilar Collaborations Ireland Limited | Comercializada |
+| 1241801001 | PYZCHIVA 45 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Samsung Bioepis Nl B.V. | Comercializada |
+| 1241823002 | WEZENLA 45 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Amgen Technology (Ireland) Unlimited Company | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Corresponden al producto de referencia (Stelara) y a varios biosimilares.
 

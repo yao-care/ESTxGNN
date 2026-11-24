@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 446
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-24
 monitor_inn: "Lamivudine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
 description: "Lamivudine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos …"
@@ -82,13 +82,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 99114003 | Zeffix 5 mg/ml solución oral | Solución oral | No disponible |
-| 09596009 | Lamivudina Teva Pharma B.V. 300 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 96015004 | Epivir 150 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 75887 | Lamivudina Normon 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 78775 | Lamivudina Accord 150 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 99114003 | ZEFFIX 5 mg/ml SOLUCION ORAL | SOLUCIÓN ORAL | Glaxosmithkline Trading Services Limited | Comercializada |
+| 75887 | LAMIVUDINA NORMON 100 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 70913 | LAMIVUDINA NORMON 300 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 96015002 | EPIVIR 10 MG/ML SOLUCION ORAL | SOLUCIÓN ORAL | Viiv Healthcare B.V. | Comercializada |
+| 78774 | LAMIVUDINA ACCORD 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Comercializada |
+| 96015003 | EPIVIR 300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viiv Healthcare B.V. | Comercializada |
+| 99114001 | ZEFFIX 100 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Glaxosmithkline Trading Services Limited | Comercializada |
+| 77628 | LAMIVUDINA AUROVITAS 300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 96015001 | EPIVIR 150 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viiv Healthcare B.V. | Comercializada |
+| 70912 | LAMIVUDINA NORMON 150 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

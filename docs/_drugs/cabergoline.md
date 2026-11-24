@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cabergoline"
 predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cabergoline: nueva indicación predicha, Síndrome de progeria, talla baja y nevus pigmentados (progeria-short stature-pigmented nevi syndrome) (nivel de evidencia L5). Indicación original: No consta e…"
 ---
 
@@ -72,13 +72,20 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 64408 | SOGILEN 1 mg COMPRIMIDOS | Comprimido | No registrada en los datos locales |
-| 69687 | CABERGOLINA TEVA 1 mg COMPRIMIDOS EFG | Comprimido | No registrada en los datos locales |
-| 69669 | CABERGOLINA TEVA 0,5 mg COMPRIMIDOS EFG | Comprimido | No registrada en los datos locales |
-| 69686 | CABERGOLINA TEVA 2 mg COMPRIMIDOS EFG | Comprimido | No registrada en los datos locales |
-| 64409 | SOGILEN 2 mg COMPRIMIDOS | Comprimido | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 64408 | SOGILEN 1 mg COMPRIMIDOS | COMPRIMIDO | Pfizer S.L. | Comercializada |
+| 69687 | CABERGOLINA TEVA 1 mg COMPRIMIDOS EFG | COMPRIMIDO | Teva Pharma S.L.U. | Comercializada |
+| 69669 | CABERGOLINA TEVA 0,5 mg COMPRIMIDOS EFG | COMPRIMIDO | Teva Pharma S.L.U. | Comercializada |
+| 69686 | CABERGOLINA TEVA 2 mg COMPRIMIDOS EFG | COMPRIMIDO | Teva Pharma S.L.U. | Comercializada |
+| 64409 | SOGILEN 2 mg COMPRIMIDOS | COMPRIMIDO | Pfizer S.L. | Comercializada |
+| 60867 | DOSTINEX 0,5 mg COMPRIMIDOS | COMPRIMIDO | Pfizer S.L. | Comercializada |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

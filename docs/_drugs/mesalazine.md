@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 508
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Mesalazine"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
 description: "Mesalazine: nueva indicación predicha, Hipotricosis congénita con distrofia macular juvenil (congenital hypotrichosis with juvenile macular dystrophy) (nivel de evidencia L5). Indicación original: No…"
@@ -90,13 +90,24 @@ No se dispone del texto de indicación aprobada en los datos compilados.
 
 <!-- review:end es-lic-20261105-mesalazine-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 62670 | Pentasa 1 g granulado de liberación prolongada | Granulado de liberación modificada | No disponible |
-| 74791 | Salofalk 3 g granulado de liberación prolongada | Granulado de liberación modificada | No disponible |
-| 61335 | Claversal espuma rectal | Espuma rectal | No disponible |
-| 85724 | Azzavix 1000 mg comprimidos gastrorresistentes | Comprimido gastrorresistente | No disponible |
-| 88174 | Mecolvix 500 mg supositorios | Supositorio | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 62670 | PENTASA 1g GRANULADO DE LIBERACION PROLONGADA | GRANULADO DE LIBERACIÓN MODIFICADA | Ferring S.A.U. | Comercializada |
+| 74791 | SALOFALK 3 G GRANULADO DE LIBERACION PROLONGADA | GRANULADO DE LIBERACIÓN MODIFICADA | Dr. Falk Pharma Gmbh | Comercializada |
+| 61335 | CLAVERSAL ESPUMA RECTAL | ESPUMA RECTAL | Faes Farma S.A. | Comercializada |
+| 65771 | SALOFALK 500 MG GRANULADO DE LIBERACION PROLONGADA | GRANULADO DE LIBERACIÓN MODIFICADA | Dr. Falk Pharma Gmbh | Comercializada |
+| 86315 | ASACOL 1.600 MG COMPRIMIDOS GASTRORRESISTENTES | COMPRIMIDO GASTRORRESISTENTE | Tillotts Pharma Spain S.L.U. | Comercializada |
+| 79555 | PENTASA 4 G GRANULADO DE LIBERACION PROLONGADA | GRANULADO DE LIBERACIÓN PROLONGADA | Ferring S.A.U. | Comercializada |
+| 71881 | SALOFALK 4 g/60 ml SUSPENSION RECTAL | SUSPENSIÓN RECTAL | Dr. Falk Pharma Gmbh | Comercializada |
+| 65772 | SALOFALK 1000 MG GRANULADO DE LIBERACION PROLONGADA | GRANULADO DE LIBERACIÓN MODIFICADA | Dr. Falk Pharma Gmbh | Comercializada |
+| 78448 | ASACOL 800 MG COMPRIMIDOS GASTRORRESISTENTES | COMPRIMIDO GASTRORRESISTENTE | Tillotts Pharma Spain S.L.U. | Comercializada |
+| 58101 | CLAVERSAL 500 mg COMPRIMIDOS GASTRORRESISTENTES | COMPRIMIDO GASTRORRESISTENTE | Faes Farma S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

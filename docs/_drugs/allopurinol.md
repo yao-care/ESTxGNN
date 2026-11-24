@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Allopurinol"
 predicted_indications: ["hepatic porphyria", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "primitive portal vein thrombosis", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "idiopathic eosinophilic myositis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Allopurinol: nueva indicación predicha, porfiria hepática (hepatic porphyria) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -76,6 +76,25 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 Ninguna de estas publicaciones evalúa el alopurinol en porfiria hepática.
 
 ## Información de Mercado en España
+
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 69156 | ALOPURINOL TEVA 100 mg COMPRIMIDOS EFG | COMPRIMIDO | Teva Pharma S.L.U. | Comercializada |
+| 84086 | ALOPURINOL CINFAMED 300 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 69155 | ALOPURINOL TEVA 300 mg COMPRIMIDOS EFG | COMPRIMIDO | Teva Pharma S.L.U. | Comercializada |
+| 88128 | ALOPURINOL TARBIS 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Tarbis Farma S.L. | Comercializada |
+| 61424 | ALOPURINOL SUN 100 mg COMPRIMIDOS EFG | COMPRIMIDO | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+| 64461 | ALOPURINOL KERN PHARMA 300 mg COMPRIMIDOS EFG | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
+| 56360 | ZYLORIC 300 mg COMPRIMIDOS | COMPRIMIDO | Faes Farma S.A. | Comercializada |
+| 43775 | ZYLORIC 100 mg COMPRIMIDOS | COMPRIMIDO | Faes Farma S.A. | Comercializada |
+| 83686 | ALOPURINOL AUROVITAS 300 MG COMPRIMIDOS EFG | COMPRIMIDO | Aurovitas Spain, S.A.U. | Comercializada |
+| 63222 | ALOPURINOL NORMON 300 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Los datos compilados muestran 20 autorizaciones de medicamentos con alopurinol como único principio activo, todos en forma de comprimido (la lista puede ser parcial). Entre los productos figuran, por ejemplo, Zyloric 100 mg y 300 mg (Faes Farma) y diversas presentaciones genéricas (EFG) de Cinfa, Teva, Accord, Stada, Bluefish, Normon, Kern Pharma y otros laboratorios. Los registros no incluyen el texto de la indicación aprobada.
 

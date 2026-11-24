@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 422
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Insulin lispro"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Lispro: nueva indicación predicha, Ooforitis autoinmune (autoimmune oophoritis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 3; autorizadas no comercializadas: 5)"
@@ -72,19 +72,29 @@ Actualmente no hay literatura relacionada disponible para ooforitis autoinmune.
 
 <!-- review:begin es-lic-20261105-insulin_lispro-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 9 autorizaciones vigentes, todas del titular Eli Lilly Nederland B.V." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 autorizaciones (comercializadas: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 9 autorizaciones vigentes, todas del titular Eli Lilly Nederland B.V." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-insulin_lispro-1 -->
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 96007004 | HUMALOG 100 U/ml, solución inyectable en cartucho | Solución inyectable en cartucho | No disponible |
-| 96007031 | HUMALOG KWIKPEN 100 U/ml, solución inyectable | Solución inyectable en pluma precargada | No disponible |
-| 1201422014 | LYUMJEV 200 unidades/ml KWIKPEN | Solución inyectable | No disponible |
-| 1201422011 | LYUMJEV 100 unidades/ml JUNIOR KWIKPEN | Solución inyectable | No disponible |
-| 196007044 | HUMALOG JUNIOR KWIKPEN 100 unidades/ml | Solución inyectable en pluma precargada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 96007031 | HUMALOG KWIKPEN 100 U/ml, SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Eli Lilly Nederland B.V. | Comercializada |
+| 196007044 | HUMALOG JUNIOR KWIKPEN 100 UNIDADES/ML SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Eli Lilly Nederland B.V. | Comercializada |
+| 196007041 | HUMALOG KWIKPEN 200 UNIDADES/ML, SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Eli Lilly Nederland B.V. | Comercializada |
+| 1201422014 | LYUMJEV 200 unidades/ml KWIKPEN SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Eli Lilly Nederland B.V. | Autorizada, no comercializada |
+| 1201422011 | LYUMJEV 100 unidades/ml JUNIOR KWIKPEN SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Eli Lilly Nederland B.V. | Autorizada, no comercializada |
+| 96007002 | HUMALOG 100 U/ml, SOLUCION INYECTABLE EN VIALES | SOLUCIÓN INYECTABLE | Eli Lilly Nederland B.V. | Autorizada, no comercializada |
+| 1201422001 | LYUMJEV 100 unidades/ml SOLUCION INYECTABLE EN VIAL | SOLUCIÓN INYECTABLE | Eli Lilly Nederland B.V. | Autorizada, no comercializada |
+| 1201422016 | LYUMJEV 100 unidades/ml TEMPO PEN SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Eli Lilly Nederland B.V. | Autorizada, no comercializada |
+| 96007004 | HUMALOG 100 U/ml, SOLUCION INYECTABLE EN CARTUCHO | SOLUCIÓN INYECTABLE EN CARTUCHO | Eli Lilly Nederland B.V. | Suspendida |
+
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -132,7 +142,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 9 autorizaciones vigentes, todas del titular Eli Lilly Nederland B.V" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 9 autorizaciones vigentes, todas del titular Eli Lilly Nederland B.V" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0) |
 
 <!-- review:end log -->

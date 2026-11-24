@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 648
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
 description: "Plerixafor: nueva indicación predicha, CMM7 (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 6; autorizadas no comercializadas: 2)"
@@ -83,13 +83,19 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 Se muestran 5 de las 8 autorizaciones vigentes, todas de solución inyectable y de principio activo único. Los textos de indicación aprobada no están disponibles en los datos compilados.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 09537001 | MOZOBIL 20 mg/ml solución inyectable | Solución inyectable | Sanofi B.V. |
-| 88951 | Plerixafor Seacross 20 mg/ml solución inyectable EFG | Solución inyectable | Seacross Pharma (Europe) Limited |
-| 89340 | Plerixafor Tarbis 20 mg/ml solución inyectable EFG | Solución inyectable | Tarbis Farma S.L. |
-| 1221701001 | Plerixafor Accord 20 mg/ml solución inyectable EFG | Solución inyectable | Accord Healthcare S.L.U. |
-| 88723 | Plerixafor Eugia 20 mg/ml solución inyectable EFG | Solución inyectable | Eugia Pharma (Malta) Limited |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 09537001 | MOZOBIL 20 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Sanofi B.V. | Comercializada |
+| 88951 | PLERIXAFOR SEACROSS 20 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Seacross Pharma (Europe) Limited | Comercializada |
+| 89340 | PLERIXAFOR TARBIS 20 MG/ML SOLUCIÓN INYECTABLE EFG | SOLUCIÓN INYECTABLE | Tarbis Farma S.L. | Comercializada |
+| 1221701001 | PLERIXAFOR ACCORD 20 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Accord Healthcare S.L.U. | Comercializada |
+| 88723 | PLERIXAFOR EUGIA 20 MG/ML SOLUCIÓN INYECTABLE EFG | SOLUCIÓN INYECTABLE | Eugia Pharma (Malta) Limited | Comercializada |
+
+Se muestran 5 de 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

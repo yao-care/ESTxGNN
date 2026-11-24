@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 310
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Estriol: nueva indicación predicha, Amenorrea (nivel de evidencia L3). Indicación original: No disponible en los datos de las autorizaciones de AEMPS (el texto d…"
 monitor_inn: "ESTRIOL"
 predicted_indications: ["amenorrhea (disease)"]
@@ -88,13 +88,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 72727 | GELISTROL 50 microgramos/g | Gel vaginal | No disponible |
-| 61533 | OVESTINON 1 mg/g | Crema vaginal | No disponible |
-| 82222 | FEMMYN 0,03 mg | Óvulo | No disponible |
-| 72726 | BLISSEL 50 microgramos/g | Gel vaginal | No disponible |
-| 57467 | OVESTINON 0,5 mg | Óvulo | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 72727 | GELISTROL 50 microgramos/g GEL VAGINAL | GEL VAGINAL | Italfarmaco S.A. | Comercializada |
+| 61533 | OVESTINON 1 mg/g CREMA VAGINAL | CREMA VAGINAL | Aspen Pharma Trading Limited | Comercializada |
+| 82222 | FEMMYN 0,03 MG ÓVULOS | ÓVULO | Kern Pharma S.L. | Comercializada |
+| 72726 | BLISSEL 50 microgramos/g GEL VAGINAL | GEL VAGINAL | Italfarmaco S.A. | Comercializada |
+| 57467 | OVESTINON 0,5 mg OVULOS | ÓVULO | Aspen Pharma Trading Limited | Comercializada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

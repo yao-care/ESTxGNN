@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "pitavastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pitavastatin: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (cholesterol-ester transfer protein deficiency) (nivel de evidencia L5). Indicación origi…"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 La lista de autorizaciones puede ser parcial. Los registros no incluyen texto de indicación aprobada. A continuación se muestran 5 autorizaciones vigentes:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 73040 | ALIPZA 4 mg comprimidos recubiertos con película (Kowa Pharmaceutical Europe) | Comprimido recubierto con película |
-| 84894 | Pitavastatina Alter 1 mg EFG (Laboratorios Alter) | Comprimido recubierto con película |
-| 84955 | Pitavastatina Kern Pharma 4 mg EFG (Kern Pharma) | Comprimido recubierto con película |
-| 85211 | Pitavastatina Normon 1 mg EFG (Laboratorios Normon) | Comprimido recubierto con película |
-| 84951 | Pitavastatina Pensa 2 mg EFG (Towa Pharmaceutical) | Comprimido recubierto con película |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 84894 | PITAVASTATINA ALTER 1 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Alter S.A. | Comercializada |
+| 84955 | PITAVASTATINA KERN PHARMA 4 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+| 85211 | PITAVASTATINA NORMON 1 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 84951 | PITAVASTATINA PENSA 2 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Towa Pharmaceutical S.A. | Comercializada |
+| 85142 | PITAVASTATINA TEVA-RATIOPHARM 2 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

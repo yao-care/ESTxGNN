@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 418
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
 description: "Insulin Degludec: nueva indicación predicha, Autoimmune oophoritis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 3; autorizadas no comercializadas: 4)"
@@ -107,15 +107,29 @@ Nota: varios ensayos de fase 3 (por ejemplo, los de LY900014 o los de insulina i
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 112807004IP | TRESIBA 100 unidades/ml solución inyectable en pluma precargada | Solución inyectable | No disponible en los datos compilados |
-| 1120807007 | TRESIBA 100 unidades/ml Penfill solución inyectable en cartucho | Solución inyectable en cartucho | No disponible en los datos compilados |
-| 112807004 | TRESIBA 100 unidades/ml FlexTouch solución inyectable en pluma precargada | Solución inyectable | No disponible en los datos compilados |
-| 112807004IP1 | TRESIBA 100 unidades/ml solución inyectable en pluma precargada | Solución inyectable | No disponible en los datos compilados |
-| 112807013 | TRESIBA 200 unidades/ml FlexTouch solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos compilados |
+<!-- licenses:begin -->
 
-Hay 7 autorizaciones vigentes en total (todas monocomponente, ninguna cancelada), todas del titular Novo Nordisk A/S. Las dos restantes corresponden a XULTOPHY 100 U/ml + 3,6 mg/ml (112807004 no; nº 114947003) y RYZODEG 100 unidades/ml (nº 12806001), ambas en pluma precargada.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1120807007 | TRESIBA 100 UNIDADES/ML PENFILL SOLUCION INYECTABLE EN CARTUCHO | SOLUCIÓN INYECTABLE EN CARTUCHO | Novo Nordisk A/S | Comercializada |
+| 112807004 | TRESIBA 100 UNIDADES/ML FLEXTOUCH SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Novo Nordisk A/S | Comercializada |
+| 112807013 | TRESIBA 200 UNIDADES/ML FLEXTOUCH SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Novo Nordisk A/S | Comercializada |
+| 112807004IP | TRESIBA 100 UNIDADES/ML SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Novo Nordisk A/S | Autorizada, no comercializada |
+| 112807004IP1 | TRESIBA 100 UNIDADES/ML SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Novo Nordisk A/S | Autorizada, no comercializada |
+| 114947003 | XULTOPHY 100 U/ML + 3,6 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Novo Nordisk A/S | Autorizada, no comercializada |
+| 12806001 | RYZODEG 100 UNIDADES/ML SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Novo Nordisk A/S | Autorizada, no comercializada |
+
+Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
+
+Todas las autorizaciones son del titular Novo Nordisk A/S y ninguna está cancelada; XULTOPHY 100 U/ml + 3,6 mg/ml (nº 114947003, insulina degludec + liraglutida) y RYZODEG 100 unidades/ml (nº 12806001, insulina asparta + insulina degludec) son combinaciones, ambas en pluma precargada.
+
+<!-- review:begin es-lic-20261124-insulin_degludec-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 7 autorizaciones vigentes en total (todas monocomponente, ninguna cancelada), todas del titular Novo Nordisk A/S. Las dos restantes corresponden a XULTOPHY 100 U/ml + 3,6 mg/ml (112807004 no; nº 114947003) y RYZODEG 100 unidades/ml (nº 12806001), ambas en pluma precargada." Corregido: según CIMA (AEMPS), XULTOPHY (insulina degludec + liraglutida) y RYZODEG (insulina asparta + insulina degludec) son combinaciones. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye ambas. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124-insulin_degludec-1 -->
 
 ---
 
@@ -151,11 +165,12 @@ Existen múltiples ECA de fase 3 completados (por ejemplo, SWITCH 1 y BOOST T1),
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17) |
+| 2026-11-24 | «todas monocomponente» → XULTOPHY y RYZODEG son combinaciones; «las dos restantes» (fuera de la tabla anterior) eliminado | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

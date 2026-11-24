@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 769
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "telavancin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "septicemic plague", "premalignant hematological system disease", "hematological disease associated with an acquired peripheral neuropathy", "monoclonal gammopathy", "congenital hematological disorder"]
 description: "Telavancin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 0)"
@@ -72,16 +72,22 @@ Actualmente no hay literatura relacionada disponible.
 
 <!-- review:begin es-lic-20261105-telavancin-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Ambas autorizaciones están vigentes, corresponden a medicamentos de principio activo único y su titular es Theravance Biopharma Ireland Limited." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 autorizaciones (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Ambas autorizaciones están vigentes, corresponden a medicamentos de principio activo único y su titular es Theravance Biopharma Ireland Limited." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-telavancin-1 -->
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 111705001 | Vibativ 250 mg polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
-| 111705002 | Vibativ 750 mg polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 111705001 | Vibativ 250 mg polvo para concentrado para solucion para perfusion | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Theravance Biopharma Ireland Limited | Revocada |
+| 111705002 | Vibativ 750 mg polvo para concentrado para solucion para perfusion | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Theravance Biopharma Ireland Limited | Revocada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -116,7 +122,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Ambas autorizaciones están vigentes, corresponden a medicamentos de principio activo único y su titular es Theravance Biopharma Ireland Limi" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Ambas autorizaciones están vigentes, corresponden a medicamentos de principio activo único y su titular es Theravance Biopharma Ireland Limi" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Vibativ (telavancin hydrochloride) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5359b759-db7c-4672-9e8a-59c93869bd91) |
 
 <!-- review:end log -->

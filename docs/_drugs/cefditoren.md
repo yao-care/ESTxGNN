@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "cefditoren"
 predicted_indications: ["rheumatoid arthritis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Cefditoren: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (el texto de indicación de las…"
 ---
 
@@ -71,12 +71,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 65975 | MEIACT 400 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 65943 | MEIACT 200 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 65942 | SPECTRACEF 200 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 65973 | SPECTRACEF 400 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 65975 | MEIACT 400 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Meiji Pharma Spain S.A. | Comercializada |
+| 65943 | MEIACT 200 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Meiji Pharma Spain S.A. | Comercializada |
+| 65942 | SPECTRACEF 200 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Meiji Pharma Spain S.A. | Comercializada |
+| 65973 | SPECTRACEF 400 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Meiji Pharma Spain S.A. | Comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

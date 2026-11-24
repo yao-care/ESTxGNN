@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 465
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Levocetirizine"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 description: "Levocetirizine: nueva indicación predicha, Artritis Reumatoide (rheumatoid arthritis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -93,13 +93,24 @@ Los textos de indicación aprobada no están disponibles en los datos compilados
 
 <!-- review:end es-lic-20261105-levocetirizine-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 64286 | MUNTEL 5 mg comprimidos con cubierta pelicular | Comprimido recubierto con película |
-| 64287 | XAZAL 5 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 67426 | XAZAL 5 mg/ml gotas orales en solución | Gotas orales en solución |
-| 68153 | XAZAL 0,5 mg/ml solución oral | Solución oral |
-| 83351 | Levocetirizina Substipharm 5 mg comprimidos bucodispersables EFG | Comprimido bucodispersable |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 64286 | MUNTEL 5 mg COMPRIMIDOS CON CUBIERTA PELICULAR | COMPRIMIDO RECUBIERTO CON PELÍCULA | Lacer S.A. | Comercializada |
+| 64287 | XAZAL 5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Ucb Pharma S.A. | Comercializada |
+| 73566 | LEVOCETIRIZINA KRKA 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Krka D.D. Novo Mesto | Comercializada |
+| 70754 | LEVOCETIRIZINA SANDOZ 5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Comercializada |
+| 72513 | ARALEVO 5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Arafarma Group S.A. | Comercializada |
+| 78156 | LEVOCETIRIZINA PHARMA COMBIX 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 73181 | LEVOCETIRIZINA NORMON 5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 73155 | LEVOCETIRIZINA CINFA 5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+| 68153 | XAZAL 0,5 mg/ml SOLUCION ORAL | SOLUCIÓN ORAL | Ucb Pharma S.A. | Comercializada |
+| 70601 | LEVOCETIRIZINA TEVA-RATIOPHARM 5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

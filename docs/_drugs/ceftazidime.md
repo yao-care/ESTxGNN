@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ceftazidime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "epiglottitis", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Ceftazidime: nueva indicación predicha, Hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -71,6 +71,25 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
+
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 90753 | ALFAGEM 1 G POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Medochemie Limited | Comercializada |
+| 71574 | CEFTAZIDIMA KABI 1 g POLVO PARA SOLUCION INYECTABLE EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Comercializada |
+| 72674 | CEFTAZIDIMA KABI 2 g POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Comercializada |
+| 90754 | ALFAGEM 2 G POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Medochemie Limited | Comercializada |
+| 83901 | CEFTAZIDIMA QILU 1 G POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Qilu Pharma Spain S.L. | Comercializada |
+| 89855 | CEFTAZIDIMA LDP TORLAN 1 G POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Ldp Laboratorios Torlan S.A. | Comercializada |
+| 67873 | CEFTAZIDIMA SALA 1.000 mg POLVO PARA SOLUCION INYECTABLE EFG | POLVO PARA SOLUCIÓN INYECTABLE | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 67009 | CEFTAZIDIMA NORMON 500 mg POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE EFG | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 67871 | CEFTAZIDIMA SALA 1.000 mg POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 68124 | CEFTAZIDIMA LDP TORLAN 1.000 mg polvo y disolvente para solución inyectable EFG | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Ldp Laboratorios Torlan S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Ceftazidima se encuentra comercializada en España, con presentaciones genéricas (EFG) en polvo para solución inyectable y/o para perfusión, así como en polvo con disolvente. Los registros disponibles pueden ser parciales; el detalle de autorizaciones se incorpora por separado a partir de los registros oficiales.
 

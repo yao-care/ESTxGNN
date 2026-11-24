@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 830
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "triprolidine"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 description: "Triprolidine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 1)"
@@ -81,11 +81,17 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 52677 | INISTON EXPECTORANTE Y DESCONGESTIVO JARABE | Jarabe | No disponible |
-| 38249 | INISTON TOS Y CONGESTION JARABE | Jarabe | No disponible |
-| 72689 | CINFATOS DESCONGESTIVO SOLUCION ORAL | Solución oral | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 72689 | CINFATOS DESCONGESTIVO SOLUCION ORAL | SOLUCIÓN ORAL | Laboratorios Cinfa S.A. | Comercializada |
+| 38249 | INISTON TOS Y CONGESTION JARABE | JARABE | Jntl Consumer Health (Spain) S.L. | Suspendida |
+| 52677 | INISTON EXPECTORANTE Y DESCONGESTIVO JARABE | JARABE | Johnson & Johnson S.A. | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

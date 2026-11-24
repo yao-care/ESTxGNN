@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ergocalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "renal osteodystrophy", "calcium-alkali syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ergocalciferol: nueva indicación predicha, Displasia acromesomélica tipo Campailla-Martinelli (acromesomelic dysplasia, Campailla Martinelli type) (nivel de evidencia L5)."
 ---
 
@@ -72,10 +72,16 @@ Actualmente no hay literatura relacionada disponible.
 
 El fármaco se encuentra comercializado, con 2 autorizaciones vigentes y ninguna cancelada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61021 | VITALIPID INFANTIL | Concentrado para solución para perfusión | Texto de indicación no disponible |
-| 61020 | VITALIPID ADULTOS | Concentrado para solución para perfusión | Texto de indicación no disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61021 | VITALIPID INFANTIL | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Comercializada |
+| 61020 | VITALIPID ADULTOS | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 697
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RIBOCICLIB"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
 description: "Ribociclib: nueva indicación predicha, Leucemia mieloide (myeloid leukemia) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"
@@ -75,11 +75,17 @@ Nota: una segunda referencia recuperada (PMID 41641105, caso de adenocarcinoma v
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1171221005IP | KISQALI 200 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 1171221001IP1 | KISQALI 200 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 1171221001 | KISQALI 200 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1171221005IP | KISQALI 200 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Novartis Europharm Limited | Comercializada |
+| 1171221001IP1 | KISQALI 200 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Novartis Europharm Limited | Comercializada |
+| 1171221001 | KISQALI 200 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Novartis Europharm Limited | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las tres autorizaciones están vigentes y pertenecen a Novartis Europharm Limited.
 

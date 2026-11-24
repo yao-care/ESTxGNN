@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 600
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Ozanimod: known uses and market status in Spain; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,10 +72,16 @@ Los candidatos generados por el modelo TxGNN para Ozanimod son, en su totalidad,
 
 ## Información de Mercado en España
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 1201442002 | ozanimod | CÁPSULA DURA | Vigente |
-| 1201442001 | ozanimod | CÁPSULA DURA | Vigente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1201442002 | ZEPOSIA 0,92 MG CAPSULAS DURAS | CÁPSULA DURA | Bristol-Myers Squibb Pharma Eeig | Comercializada |
+| 1201442001 | ZEPOSIA 0,23 MG/0,46 MG CAPSULAS DURAS | CÁPSULA DURA | Bristol-Myers Squibb Pharma Eeig | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

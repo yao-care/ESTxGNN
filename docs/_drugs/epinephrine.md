@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 296
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 description: "Epinephrine: nueva indicación predicha, Enfermedad pulmonar obstructiva (obstructive lung disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -108,13 +108,24 @@ El texto de la indicación aprobada no está disponible en los datos compilados.
 
 <!-- review:end es-lic-20261105-epinephrine-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 68552 | Adrenalina B. Braun 1 mg/ml | Solución inyectable | No disponible |
-| 89175 | Adrenalina Basi 1 mg/ml | Solución inyectable | No disponible |
-| 73186 | Jext 150 microgramos | Solución inyectable en pluma precargada | No disponible |
-| 80831 | Adrenalina Aguettant 0,1 mg/ml | Solución inyectable en jeringa precargada | No disponible |
-| 67263 | Altellus 150 microgramos niños | Solución inyectable en pluma precargada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 68552 | ADRENALINA B. BRAUN 1 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | B Braun Medical S.A. | Comercializada |
+| 89175 | ADRENALINA BASI 1 MG/ML SOLUCIÓN INYECTABLE | SOLUCIÓN INYECTABLE | Laboratorios Basi Industria Farmaceutica S.A. | Comercializada |
+| 73186 | JEXT 150 microgramos SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Alk-Abello A/S | Comercializada |
+| 80831 | ADRENALINA AGUETTANT 0,1 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Laboratoire Aguettant | Comercializada |
+| 67263 | ALTELLUS 150 MICROGRAMOS NIÑOS, SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Viatris Healthcare Limited | Comercializada |
+| 35403 | ADRENALINA LEVEL 1mg/ml SOLUCION INYECTABLE JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Laboratorios Ern S.A. | Comercializada |
+| 83253 | ANAPEN 0,50 MG/0,3 ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Bioprojet Pharma | Comercializada |
+| 75408 | ANAPEN 0,15 mg/0,3 ml SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Bioprojet Pharma | Comercializada |
+| 85059 | ADRENALINA ETHYPHARM 1 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Ethypharm | Comercializada |
+| 81446 | ADRENALINA BRADEX 1 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Bradex S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Las 15 autorizaciones restantes incluyen otras plumas autoinyectables (Emerade, Anapen, Altellus, Jext), otras presentaciones de adrenalina inyectable y combinaciones de anestésicos locales con epinefrina.
 

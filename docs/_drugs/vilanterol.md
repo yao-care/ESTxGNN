@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 846
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "vilanterol"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 description: "Vilanterol: nueva indicación predicha, Hyperlucent lung (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 20 (comercializadas: 16; autorizadas no comercializadas: 3)"
@@ -92,7 +92,7 @@ Se muestran las 10 publicaciones más relevantes, priorizando ECA y revisiones s
 
 <!-- review:begin es-lic-20261105-vilanterol-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 20 autorizaciones vigentes (todas de tipo monofármaco según el registro; los textos de indicación aprobada no figuran en los datos compilados)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 20 autorizaciones (comercializadas: 16); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se listan 5 de las 20 autorizaciones vigentes (todas de tipo monofármaco según el registro; los textos de indicación aprobada no figuran en los datos compilados)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-vilanterol-1 -->
 
@@ -113,13 +113,24 @@ Se muestran las 10 publicaciones más relevantes, priorizando ECA y revisiones s
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 114898002IP4 | Anoro Ellipta 55 mcg/22 mcg | Polvo para inhalación (unidosis) | No disponible en los datos |
-| 13886002IP | Relvar Ellipta 92/22 mcg | Polvo para inhalación (unidosis) | No disponible en los datos |
-| 114929002IP | Revinty Ellipta 92/22 mcg | Polvo para inhalación (unidosis) | No disponible en los datos |
-| 114899002 | Laventair Ellipta 55/22 mcg | Polvo para inhalación (unidosis) | No disponible en los datos |
-| 117123602 | Trelegy Ellipta 92/55/22 mcg | Polvo para inhalación (unidosis) | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 114898002IP4 | ANORO ELLIPTA 55 MCG/22 MCG POLVO PARA INHALACION (UNIDOSIS) | POLVO PARA INHALACIÓN (UNIDOSIS) | Glaxosmithkline Trading Services Limited | Comercializada |
+| 114898002IP2 | ANORO ELLIPTA 55 MCG/22 MCG POLVO PARA INHALACION (UNIDOSIS) | POLVO PARA INHALACIÓN (UNIDOSIS) | Glaxosmithkline (Ireland) Limited | Comercializada |
+| 114929002IP | REVINTY ELLIPTA 92 MICROGRAMOS/22 MICROGRAMOS POLVO PARA INHALACION (UNIDOSIS) | POLVO PARA INHALACIÓN (UNIDOSIS) | Glaxosmithkline Trading Services Limited | Comercializada |
+| 114929005 | REVINTY ELLIPTA 184 MICROGRAMOS/22 MICROGRAMOS POLVO PARA INHALACION (UNIDOSIS) | POLVO PARA INHALACIÓN (UNIDOSIS) | Glaxosmithkline Trading Services Limited | Comercializada |
+| 113886005 | RELVAR ELLIPTA 184 MCG/22 MCG POLVO PARA INHALACION (UNIDODIS) | POLVO PARA INHALACIÓN (UNIDOSIS) | Glaxosmithkline Trading Services Limited | Comercializada |
+| 114898002IP3 | ANORO ELLIPTA 55 MCG/22 MCG POLVO PARA INHALACION (UNIDOSIS) | POLVO PARA INHALACIÓN (UNIDOSIS) | Glaxosmithkline (Ireland) Limited | Comercializada |
+| 114898002IP1 | ANORO ELLIPTA 55 MCG/22 MCG POLVO PARA INHALACION (UNIDOSIS) | POLVO PARA INHALACIÓN (UNIDOSIS) | Glaxosmithkline (Ireland) Limited | Comercializada |
+| 113886002 | RELVAR ELLIPTA 92 MCG/22 MCG POLVO PARA INHALACION (UNIDODIS) | POLVO PARA INHALACIÓN (UNIDOSIS) | Glaxosmithkline Trading Services Limited | Comercializada |
+| 114929002IP1 | REVINTY ELLIPTA 92 MICROGRAMOS/22 MICROGRAMOS POLVO PARA INHALACION (UNIDOSIS) | POLVO PARA INHALACIÓN (UNIDOSIS) | Glaxosmithkline Trading Services Limited | Comercializada |
+| 114899002 | LAVENTAIR ELLIPTA 55 MICROGRAMOS/22 MICROGRAMOS POLVO PARA INHALACION (UNIDOSIS) | POLVO PARA INHALACIÓN (UNIDOSIS) | Glaxosmithkline Trading Services Limited | Comercializada |
+
+Se muestran 10 de 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 
@@ -156,7 +167,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas de tipo monofármaco según el registro; los textos de indicación aprobada no figuran en " | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas de tipo monofármaco según el registro; los textos de indicación aprobada no figuran en " | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5) |
 
 <!-- review:end log -->

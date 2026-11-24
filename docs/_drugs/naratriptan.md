@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 553
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "NARATRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Naratriptan: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 1)"
@@ -83,10 +83,16 @@ La literatura disponible es evidencia general sobre migraña y triptanes; ningun
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 74984 | Naratriptan Kern Pharma 2,5 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Texto de indicación no disponible en los datos compilados |
-| 61828 | Naramig 2,5 mg comprimidos recubiertos con película | Comprimido recubierto con película | Texto de indicación no disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61828 | NARAMIG 2,5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Glaxo S.A. | Comercializada |
+| 74984 | NARATRIPTAN KERN PHARMA 2.5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Revocada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

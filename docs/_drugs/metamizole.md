@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 509
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-24
 description: "Metamizole: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "metamizole"
 predicted_indications: ["rheumatoid arthritis", "migraine disorder", "exostosis", "migraine with brainstem aura", "gout", "antithrombin deficiency type 2", "brachydactyly-syndactyly syndrome", "tendinitis", "factor 5 excess with spontaneous thrombosis"]
@@ -85,13 +85,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 85970 | Metamizol Combix 575 mg cápsulas duras EFG | Cápsula dura | No especificada en los datos |
-| 89205 | Turbet 1000 mg comprimidos recubiertos con película | Comprimido recubierto con película | No especificada en los datos |
-| 88872 | Metamizol Basi 500 mg/ml solución inyectable EFG | Solución inyectable | No especificada en los datos |
-| 72769 | Metamizol Ratiopharm 575 mg cápsulas duras EFG | Cápsula dura | No especificada en los datos |
-| 51599 | Algi-Mabo Adultos 1 g supositorios | Supositorio | No especificada en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 85970 | METAMIZOL COMBIX 575 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Combix S.L.U. | Comercializada |
+| 89205 | TURBET 1000 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aristo Pharma Gmbh | Comercializada |
+| 88872 | METAMIZOL BASI 500 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Laboratorios Basi Industria Farmaceutica S.A. | Comercializada |
+| 85080 | METAMIZOL VIR 575 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 51345 | ALGI-MABO 0,4 G/ML SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | SOLUCIÓN INYECTABLE | Mabo Farma S.A. | Comercializada |
+| 86828 | METAMIZOL VIATRIS 575 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Viatris Pharmaceuticals S.L. | Comercializada |
+| 63430 | METAMIZOL NORMON 0,4 G/ ML SOLUCION INYECTABLE Y PARA PERFUSION EFG | SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 42304 | NOLOTIL 0,4 g/ml SOLUCION INYECTABLE Y PARA PERFUSION | SOLUCIÓN INYECTABLE | Boehringer Ingelheim Espana S.A. | Comercializada |
+| 68152 | METAMIZOL ARISTO 575 mg CAPSULAS EFG | CÁPSULA DURA | Aristo Pharma Iberia S.L. | Comercializada |
+| 68224 | METAMIZOL KERN PHARMA 575 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Kern Pharma S.L. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

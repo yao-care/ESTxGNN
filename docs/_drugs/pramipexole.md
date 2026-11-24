@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 653
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Pramipexole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
 description: "Pramipexole: nueva indicación predicha, Attention deficit-hyperactivity disorder (nivel de evidencia L4). En España, autorizaciones de la AEMPS: al menos 20"
@@ -97,13 +97,19 @@ Los textos de indicación aprobada no están disponibles en los datos compilados
 
 <!-- review:end es-lic-20261105-pramipexole-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 97051003 | MIRAPEXIN 0,18 mg comprimidos | Comprimido | Boehringer Ingelheim International GmbH |
-| 97051006 | MIRAPEXIN 0,7 mg comprimidos | Comprimido | Boehringer Ingelheim International GmbH |
-| 97051023IP | MIRAPEXIN 2,1 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | Boehringer Ingelheim International GmbH |
-| 108469002 | Oprymea 0,088 mg comprimidos EFG | Comprimido | Krka D.D. Novo Mesto |
-| 71039 | PRAMIPEXOL SANDOZ 0,7 mg comprimidos EFG | Comprimido | Sandoz Farmacéutica S.A. |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 108469043 | Oprymea 2,1 mg comprimidos de liberacion prolongada EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Krka D.D. Novo Mesto | Comercializada |
+| 70733 | PRAMIPEXOL STADA 0.18 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Comercializada |
+| 97051006 | MIRAPEXIN 0,7 mg COMPRIMIDOS | COMPRIMIDO | Boehringer Ingelheim International Gmbh | Comercializada |
+| 97051023IP | MIRAPEXIN 2,1 MG COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Boehringer Ingelheim International Gmbh | Comercializada |
+| 78028 | PRAMIPEXOL NORMON 0,26 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Laboratorios Normon S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

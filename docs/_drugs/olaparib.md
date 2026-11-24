@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 585
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Olaparib: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,11 +72,17 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) propone para Olaparib 
 
 ## Información de Mercado en España
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 114959002 | olaparib | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 114959004 | olaparib | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 114959001 | olaparib | CÁPSULA DURA | Cancelado |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 114959002 | LYNPARZA 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Astrazeneca Ab | Comercializada |
+| 114959004 | LYNPARZA 150 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Astrazeneca Ab | Comercializada |
+| 114959001 | LYNPARZA 50 MG CAPSULAS DURAS | CÁPSULA DURA | Astrazeneca Ab | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

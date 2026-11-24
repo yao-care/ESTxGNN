@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 367
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Gadobenic Acid: nueva indicación predicha, Osteoartritis (nivel de evidencia L5). Indicación original: Agente de contraste para diagnóstico por RM (las autorizaciones no in…"
 monitor_inn: "gadobenic acid"
 predicted_indications: ["osteoarthritis"]
@@ -71,12 +71,24 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 66373 | MULTIHANCE 529 mg/ml SOLUCIÓN INYECTABLE | Solución inyectable | No disponible en los datos compilados |
-| 71048 | MULTIHANCE 529 mg/ml SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
 
-Ambas autorizaciones corresponden a Bracco Imaging S.P.A. y están vigentes.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 66373 | MULTIHANCE 529 mg/ml SOLUCIÓN INYECTABLE | SOLUCIÓN INYECTABLE | Bracco Imaging S.P.A. | Comercializada |
+| 71048 | MULTIHANCE 529 mg/ml SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Bracco Imaging S.P.A. | Suspendida |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
+
+Ambas autorizaciones corresponden a Bracco Imaging S.P.A.; 71048 (MULTIHANCE en jeringa precargada) está suspendida.
+
+<!-- review:begin es-lic-20261124-gadobenic_acid-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Ambas autorizaciones corresponden a Bracco Imaging S.P.A. y están vigentes." Corregido: según CIMA (AEMPS), la autorización 71048 (MULTIHANCE 529 mg/ml solución inyectable en jeringa precargada) figura como suspendida. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124-gadobenic_acid-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -100,6 +112,19 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Texto de indicaciones aprobadas de las dos autorizaciones
 - Estudios preclínicos o de mecanismo que justifiquen un efecto terapéutico en osteoartritis
 - Revisión de la plausibilidad de la predicción, descartando artefactos del modelo TxGNN (aprendizaje profundo)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «ambas vigentes» → 71048 suspendida | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

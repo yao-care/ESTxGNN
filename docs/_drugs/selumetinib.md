@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 731
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SELUMETINIB"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "trigeminal schwannoma"]
 description: "Selumetinib: nueva indicación predicha, Lentiginosis generalizada familiar (familial generalized lentiginosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 2; autorizadas no comercializadas: 2)"
@@ -93,12 +93,18 @@ Actualmente no hay literatura relacionada disponible para lentiginosis generaliz
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1211552001 | KOSELUGO 10 mg cápsulas duras | Cápsula dura | No disponible en los datos compilados |
-| 1211552002 | KOSELUGO 25 mg cápsulas duras | Cápsula dura | No disponible en los datos compilados |
-| 1211552003 | KOSELUGO 5 mg granulado en cápsula para abrir | Granulado en envase unidosis | No disponible en los datos compilados |
-| 1211552004 | KOSELUGO 7,5 mg granulado en cápsula para abrir | Granulado en envase unidosis | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1211552001 | KOSELUGO 10 mg CAPSULAS DURAS | CÁPSULA DURA | Astrazeneca Ab | Comercializada |
+| 1211552002 | KOSELUGO 25 mg CAPSULAS DURAS | CÁPSULA DURA | Astrazeneca Ab | Comercializada |
+| 1211552004 | KOSELUGO 7,5 MG GRANULADO EN CAPSULA PARA ABRIR | GRANULADO EN ENVASE UNIDOSIS | Astrazeneca Ab | Autorizada, no comercializada |
+| 1211552003 | KOSELUGO 5 MG GRANULADO EN CAPSULA PARA ABRIR | GRANULADO EN ENVASE UNIDOSIS | Astrazeneca Ab | Autorizada, no comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Titular: AstraZeneca AB. Las cuatro autorizaciones son de monofármaco y están vigentes.
 

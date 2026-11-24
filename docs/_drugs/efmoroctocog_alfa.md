@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 278
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "EFMOROCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "thrombotic thrombocytopenic purpura"]
 description: "Efmoroctocog Alfa: nueva indicación predicha, Enfermedad pseudo-von Willebrand (pseudo-von Willebrand disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 8)"
@@ -71,13 +71,22 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1151046001 | Elocta 250 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No especificada en los datos |
-| 1151046002 | Elocta 500 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No especificada en los datos |
-| 1151046003 | Elocta 750 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No especificada en los datos |
-| 1151046004 | Elocta 1000 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No especificada en los datos |
-| 1151046005 | Elocta 1500 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No especificada en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1151046005 | Elocta 1500 UI polvo y disolvente para solucion inyectable | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Swedish Orphan Biovitrum Ab (Publ) | Comercializada |
+| 1151046004 | Elocta 1000 UI polvo y disolvente para solucion inyectable | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Swedish Orphan Biovitrum Ab (Publ) | Comercializada |
+| 1151046002 | Elocta 500 UI polvo y disolvente para solucion inyectable | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Swedish Orphan Biovitrum Ab (Publ) | Comercializada |
+| 1151046001 | Elocta 250 UI polvo y disolvente para solucion inyectable | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Swedish Orphan Biovitrum Ab (Publ) | Comercializada |
+| 1151046007 | Elocta 3000 UI polvo y disolvente para solucion inyectable | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Swedish Orphan Biovitrum Ab (Publ) | Comercializada |
+| 1151046003 | ELOCTA 750 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Swedish Orphan Biovitrum Ab (Publ) | Comercializada |
+| 1151046008 | ELOCTA 4000 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Swedish Orphan Biovitrum Ab (Publ) | Comercializada |
+| 1151046006 | Elocta 2000 UI polvo y disolvente para solucion inyectable | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Swedish Orphan Biovitrum Ab (Publ) | Comercializada |
+
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Hay 8 autorizaciones vigentes en total (también 2000, 3000 y 4000 UI), todas del titular Swedish Orphan Biovitrum AB (publ).
 

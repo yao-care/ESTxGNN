@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 217
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "dalteparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets", "pseudo-von Willebrand disease", "atypical hemolytic-uremic syndrome with thrombomodulin anomaly", "neuropathy, painful"]
 description: "Dalteparin: nueva indicación predicha, Trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency… (nivel de evidencia L5). Indicación original: No cons…"
@@ -71,19 +71,29 @@ Actualmente no hay literatura relacionada disponible.
 
 <!-- review:begin es-lic-20261105-dalteparin-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 9 autorizaciones vigentes (todas de Pfizer S.L.; los textos de indicación aprobada no están disponibles en los datos compilados):" Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 autorizaciones (comercializadas: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se listan 5 de las 9 autorizaciones vigentes (todas de Pfizer S.L.; los textos de indicación aprobada no están disponibles en los datos compilados):" Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-dalteparin-1 -->
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 58537 | FRAGMIN 5.000 UI/0,2 ml solución inyectable en jeringas precargadas | Solución inyectable en jeringa precargada | No disponible |
-| 62155 | FRAGMIN 10.000 UI/0,4 ml solución inyectable en jeringas precargadas | Solución inyectable en jeringa precargada | No disponible |
-| 61523 | FRAGMIN 10.000 UI/ml solución inyectable en ampollas | Solución inyectable | No disponible |
-| 89772 | FRAGMIN 2.500 UI/ml solución inyectable en viales | Solución inyectable | No disponible |
-| 62567 | FRAGMIN 7.500 UI/0,3 ml solución inyectable en jeringas precargadas | Solución inyectable en jeringa precargada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 58537 | FRAGMIN 5.000 UI/0,2 ml SOLUCION INYECTABLE EN JERINGAS PRECARGADAS | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Pfizer S.L. | Comercializada |
+| 62155 | FRAGMIN 10.000 UI/0,4 ml SOLUCION INYECTABLE EN JERINGAS PRECARGADAS | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Pfizer S.L. | Comercializada |
+| 89772 | FRAGMIN 2.500 UI/ML SOLUCION INYECTABLE EN VIALES | SOLUCIÓN INYECTABLE | Pfizer S.L. | Comercializada |
+| 62567 | FRAGMIN 7.500 UI/0,3 ml SOLUCION INYECTABLE EN JERINGAS PRECARGADAS | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Pfizer S.L. | Comercializada |
+| 62158 | FRAGMIN 18.000 UI/0,72 ml, SOLUCION INYECTABLE EN JERINGAS PRECARGADAS | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Pfizer S.L. | Comercializada |
+| 62157 | FRAGMIN 15.000 UI/0,6 ml SOLUCION INYECTABLE EN JERINGAS PRECARGADAS | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Pfizer S.L. | Comercializada |
+| 62156 | FRAGMIN 12.500 UI/0,5 ml SOLUCION INYECTABLE EN JERINGAS PRECARGADAS | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Pfizer S.L. | Comercializada |
+| 58536 | FRAGMIN 2.500 UI/0,2 ml SOLUCION INYECTABLE EN JERINGAS PRECARGADAS | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Pfizer S.L. | Comercializada |
+| 61523 | FRAGMIN 10.000 UI/ml SOLUCION INYECTABLE EN AMPOLLAS | SOLUCIÓN INYECTABLE | Pfizer S.L. | Revocada |
+
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -116,7 +126,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se listan 5 de las 9 autorizaciones vigentes (todas de Pfizer S.L.; los textos de indicación aprobada no están disponibles en los datos comp" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se listan 5 de las 9 autorizaciones vigentes (todas de Pfizer S.L.; los textos de indicación aprobada no están disponibles en los datos comp" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Fragmin (dalteparin sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=23527b8b-9b28-4e6d-9751-33b143975ac7) |
 
 <!-- review:end log -->

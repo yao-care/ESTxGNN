@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 750
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Sulfadiazine"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis"]
 description: "Sulfadiazine: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
@@ -85,9 +85,15 @@ Se muestran las publicaciones más relevantes (en su mayoría revisiones y repor
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 06960 | SULFADIAZINA REIG JOFRE 500 MG COMPRIMIDOS | Comprimido | Texto de indicación no disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 06960 | SULFADIAZINA REIG JOFRE 500 MG COMPRIMIDOS | COMPRIMIDO | Laboratorio Reig Jofre, S.A. | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

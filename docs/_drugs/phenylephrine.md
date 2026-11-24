@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 633
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Phenylephrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Phenylephrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 9 (comercializadas: 8)"
@@ -68,7 +68,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 <!-- review:begin es-lic-20261105-phenylephrine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 9 autorizaciones vigentes (todas de monofármaco)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 autorizaciones (comercializadas: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 9 autorizaciones vigentes (todas de monofármaco)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-phenylephrine-1 -->
 
@@ -84,13 +84,23 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 84673 | MINIMS FENILEFRINA HIDROCLORURO 100 MG/ML COLIRIO EN SOLUCION | Colirio en solución | No disponible |
-| 85084 | FENILEFRINA AGUETTANT 100 MICROGRAMOS/ML SOLUCION INYECTABLE Y PARA PERFUSION | Solución inyectable y para perfusión | No disponible |
-| 70638 | HIDROCLORURO DE FENILEFRINA ALTAN 10 mg/ml SOLUCION INYECTABLE | Solución inyectable | No disponible |
-| 60227 | MIRAZUL 1,25 MG/ML COLIRIO EN SOLUCIÓN | Colirio en solución | No disponible |
-| 46297 | DISNEUMON PERNASAL 5 MG/ML SOLUCION PARA PULVERIZACION | Solución para pulverización nasal | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 84673 | MINIMS FENILEFRINA HIDROCLORURO 100 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Bausch + Lomb Ireland Limited | Comercializada |
+| 85084 | FENILEFRINA AGUETTANT 100 MICROGRAMOS/ML SOLUCION INYECTABLE Y PARA PERFUSION | SOLUCION INYECTABLE Y PARA PERFUSION | Laboratoire Aguettant | Comercializada |
+| 70638 | HIDROCLORURO DE FENILEFRINA ALTAN 10 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Altan Pharmaceuticals Sa | Comercializada |
+| 60227 | MIRAZUL 1,25 MG/ML COLIRIO EN SOLUCIÓN. | COLIRIO EN SOLUCIÓN | Laboratorio De Aplicaciones Farmacodinamicas S.A. | Comercializada |
+| 34185 | COLIRCUSI FENILEFRINA 100 mg/ml colirio en solución | COLIRIO EN SOLUCIÓN | M4 Pharma S.L. | Comercializada |
+| 80352 | FENILEFRINA AGUETTANT 50 MICROGRAMOS/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Laboratoire Aguettant | Comercializada |
+| 84988 | FENILEFRINA ALTAN 0,1 MG/ML SOLUCION INYECTABLE Y PARA PERFUSION | SOLUCION INYECTABLE Y PARA PERFUSION | Altan Pharmaceuticals Sa | Comercializada |
+| 46297 | DISNEUMON PERNASAL 5 MG/ML SOLUCION PARA PULVERIZACION | SOLUCION PARA PULVERIZACION NASAL | Cooper Consumer Health B.V. | Comercializada |
+| 18402 | VISADRON 1,25 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Sanofi Aventis S.A. | Revocada |
+
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -126,7 +136,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 9 autorizaciones vigentes (todas de monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 9 autorizaciones vigentes (todas de monofármaco)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be) |
 
 <!-- review:end log -->

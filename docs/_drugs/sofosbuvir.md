@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 741
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
 description: "Sofosbuvir: nueva indicación predicha, Infección por el virus de la hepatitis B (hepatitis B virus infection) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
@@ -90,9 +90,15 @@ El puntaje alto del modelo parece reflejar sobre todo la cercanía en la red de 
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 113894001 | SOVALDI 400mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 113894001 | SOVALDI 400mg comprimidos recubiertos con pelicula | COMPRIMIDO RECUBIERTO CON PELÍCULA | Gilead Sciences Ireland Unlimited Company | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

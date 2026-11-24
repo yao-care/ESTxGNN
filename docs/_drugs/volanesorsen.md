@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 857
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Volanesorsen: nueva indicación predicha, Anemia megaloblástica (nivel de evidencia L5). Indicación original: No disponible en los datos de la licencia AEMPS (el texto de indicaci…"
 monitor_inn: "VOLANESORSEN"
 predicted_indications: ["megaloblastic anemia (disease)", "sclerosing cholangitis", "sickle cell disease and related diseases", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin c disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin E disease syndrome", "meningococcal infection", "paroxysmal nocturnal hemoglobinuria"]
@@ -74,9 +74,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1191360 | WAYLIVRA 285 MG solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1191360 | WAYLIVRA 285 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Akcea Therapeutics Ireland Limited | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

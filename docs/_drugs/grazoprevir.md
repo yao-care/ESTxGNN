@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 386
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Grazoprevir: nueva indicación predicha, Infección por VIH (nivel de evidencia L1). Indicación original: Infección crónica por el virus de la hepatitis C (el texto de indicac…"
 monitor_inn: "grazoprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -110,9 +110,15 @@ La literatura se centra en el VHC y en las interacciones con antirretrovirales; 
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1161119001 | ZEPATIER 50MG/100MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | No disponible en los datos compilados (titular: Merck Sharp & Dohme B.V.) |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1161119001 | ZEPATIER 50MG/100MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Merck Sharp & Dohme B.V. | Autorizada, no comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 793
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "venous thromboembolism"]
 description: "Ticagrelor: nueva indicación predicha, Arteriosclerosis intracraneal (intracranial arteriosclerosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -86,13 +86,24 @@ Un apoyo adicional es el ensayo CHANCE-2 (PMID 34708996), que respalda ticagrelo
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 110655009 | BRILIQUE 60 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 89560 | TIKATA 60 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-| 90621 | Ticagrelor Aurovitas 60 mg EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-| 89354 | Ticagrelor Normon 90 mg EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-| 86152 | Ticagrelor Stada 90 mg EFG | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 90621 | TICAGRELOR AUROVITAS 60 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 89354 | TICAGRELOR NORMON 90 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 86152 | TICAGRELOR STADA 90 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 110655009 | BRILIQUE 60 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Astrazeneca Ab | Comercializada |
+| 89741 | TICAGRELOR COMBIX 60 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 85749 | TICAGRELOR KRKA 60 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Krka D.D. Novo Mesto | Comercializada |
+| 89826 | TICAGRELOR TARBIS 60 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Comercializada |
+| 89536 | TICAGRELOR SANDOZ 60 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Comercializada |
+| 89825 | TICAGRELOR TARBIS 90 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Comercializada |
+| 89120 | TICAGRELOR KERN PHARMA 90 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

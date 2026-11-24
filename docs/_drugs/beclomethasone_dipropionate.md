@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Beclomethasone dipropionate"
 predicted_indications: ["atopic eczema"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Beclomethasone Dipropionate: nueva indicación predicha, eccema atópico (atopic eczema) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 16 (comercializadas: 12)"
 ---
 
@@ -84,13 +84,24 @@ El estudio de 1992 con beclometasona oral en dermatitis atópica pediátrica es 
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 53508 | RECTO MENADERM 0,125 MG/G POMADA RECTAL | Pomada rectal | — |
-| 81684 | BECLO-ASMA 100 MICROGRAMOS/PULSACION | Solución para inhalación en envase a presión | — |
-| 49969 | MENADERM SIMPLE 0,25 mg/g UNGÜENTO | Pomada | — |
-| 46410 | MENADERM SIMPLE 0,25 mg/g CREMA | Crema | — |
-| 49968 | MENADERM SIMPLE 0,25 mg/ml EMULSIÓN CUTÁNEA | Emulsión cutánea | — |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 53508 | RECTO MENADERM 0,125 MG/G POMADA RECTAL | POMADA RECTAL | Laboratorios Fermon S.L. | Comercializada |
+| 81684 | BECLO-ASMA 100 MICROGRAMOS/PULSACION SOLUCION PARA INHALACION EN ENVASE A PRESION | SOLUCIÓN PARA INHALACIÓN EN ENVASE A PRESIÓN | Laboratorio Aldo Union S.L. | Comercializada |
+| 81667 | BECLO-ASMA 50 MICROGRAMOS/PULSACION SOLUCION PARA INHALACION EN ENVASE A PRESION | SOLUCIÓN PARA INHALACIÓN EN ENVASE A PRESIÓN | Laboratorio Aldo Union S.L. | Comercializada |
+| 61131 | BECLOENEMA | SOLUCIÓN RECTAL | Farmalider S.A. | Comercializada |
+| 49969 | MENADERM SIMPLE 0,25 mg/g UNGÜENTO | POMADA | Laboratorios Menarini S.A. | Comercializada |
+| 54529 | BECLO-RINO 50 MICROGRAMOS APLICACIÓN SUSPENSIÓN PARA PULVERIZACIÓN NASAL | SUSPENSIÓN PARA PULVERIZACIÓN NASAL | Laboratorio Aldo Union S.L. | Comercializada |
+| 52810 | BECOTIDE 50 microgramos/inhalación SOLUCION PARA INHALACION EN ENVASE A PRESION | SOLUCIÓN PARA INHALACIÓN EN ENVASE A PRESIÓN | Glaxosmithkline S.A. | Comercializada |
+| 46410 | MENADERM SIMPLE 0,25 mg/g CREMA | CREMA | Laboratorios Menarini S.A. | Comercializada |
+| 66706 | CLIPPER 5 mg COMPRIMIDOS GASTRORRESISTENTES DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Chiesi España S.A.U. | Comercializada |
+| 59377 | BECLOFORTE 250 microgramos/inhalación SOLUCION PARA INHALACION EN ENVASE A PRESION | SOLUCIÓN PARA INHALACIÓN EN ENVASE A PRESIÓN | Glaxosmithkline S.A. | Comercializada |
+
+Se muestran 10 de 16 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Los datos locales no incluyen texto de indicación aprobada para estas autorizaciones. Hay 12 autorizaciones vigentes y 4 canceladas.
 

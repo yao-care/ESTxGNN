@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 768
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TEGAFUR"
 predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "colonic lymphangioma", "cavernous hemangioma of colon"]
 description: "Tegafur: nueva indicación predicha, Cecum villous adenoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
@@ -96,9 +96,15 @@ Se muestran las 10 publicaciones más relevantes de las 20 compiladas.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 54192 | UTEFOS 400 mg cápsulas duras (Mylan Pharmaceuticals S.L.) | Cápsula dura | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 54192 | UTEFOS 400 mg CAPSULAS DURAS | CÁPSULA DURA | Mylan Pharmaceuticals S.L. | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 419
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Insulin detemir"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Detemir: nueva indicación predicha, Autoimmune oophoritis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 0; autorizadas no comercializadas: 2)"
@@ -107,10 +107,16 @@ Se listan 10 de las 20 publicaciones, priorizando ECA y revisiones sistemáticas
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 04278005 | LEVEMIR FLEXPEN 100 U/ML solución inyectable en una pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos compilados |
-| 04278008 | LEVEMIR INNOLET 100 U/ML solución inyectable en una pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 04278005 | LEVEMIR FLEXPEN 100 U/ML SOLUCION INYECTABLE EN UNA PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Novo Nordisk A/S | Autorizada, no comercializada |
+| 04278008 | LEVEMIR INNOLET 100 U/ML SOLUCION INYECTABLE EN UNA PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Novo Nordisk A/S | Autorizada, no comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones son de monofármaco, están vigentes y pertenecen a Novo Nordisk A/S.
 

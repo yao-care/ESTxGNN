@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "alteplase"
 predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary artery anomaly", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "coronary stenosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alteplase: nueva indicación predicha, Deficiencia de cofactor II de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 1)"
 ---
 
@@ -74,10 +74,16 @@ Actualmente no hay literatura relacionada disponible.
 
 Los datos locales no incluyen el texto de indicación aprobada de estas autorizaciones.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 76900 | ACTILYSE CATHFLO 2 MG polvo para solución inyectable y para perfusión | Polvo para solución inyectable y para perfusión |
-| 59494 | ACTILYSE polvo y disolvente para solución inyectable y para perfusión | Polvo y disolvente para solución inyectable y para perfusión |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 59494 | ACTILYSE POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE Y PARA PERFUSION | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Boehringer Ingelheim International Gmbh | Comercializada |
+| 76900 | ACTILYSE CATHFLO 2 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Boehringer Ingelheim International Gmbh | Revocada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

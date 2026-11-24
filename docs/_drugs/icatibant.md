@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 401
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "icatibant"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
 description: "Icatibant: nueva indicación predicha, Serpinopathy with toxic serpin polymerization (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 13 (comercializadas: 4; autorizadas no comercializadas: 5)"
@@ -84,7 +84,7 @@ Conviene subrayar que esta indicación coincide con el uso ya aprobado del fárm
 
 <!-- review:begin es-lic-20261105-icatibant-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "En total hay 13 autorizaciones vigentes, todas de monofármaco y ninguna cancelada." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 13 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "En total hay 13 autorizaciones vigentes, todas de monofármaco y ninguna cancelada." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-icatibant-1 -->
 
@@ -105,13 +105,24 @@ Conviene subrayar que esta indicación coincide con el uso ya aprobado del fárm
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 08461001 | FIRAZYR 30 mg solución inyectable en jeringa precargada (Takeda) | Solución inyectable en jeringa precargada | No disponible en los datos |
-| 87158 | Icatibanto Aguettant 30 mg EFG | Solución inyectable en jeringa precargada | No disponible en los datos |
-| 86573 | Icatibanto Piramal 30 mg EFG | Solución inyectable en jeringa precargada | No disponible en los datos |
-| 86352 | Icatibanto Stada 30 mg EFG | Solución inyectable en jeringa precargada | No disponible en los datos |
-| 86865 | Icatibanto Fresenius 30 mg EFG | Solución inyectable en jeringa precargada | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 86352 | ICATIBANTO STADA 30 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Laboratorio Stada S.L. | Comercializada |
+| 08461001 | FIRAZYR 30 mg SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Takeda Pharmaceuticals International Ag Ireland Branch | Comercializada |
+| 86564 | ICATIBANTO CIPLA 30 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Cipla Europe N.V. | Comercializada |
+| 86480 | ICATIBANTO GLENMARK 30 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Glenmark Arzneimittel Gmbh | Comercializada |
+| 87158 | ICATIBANTO AGUETTANT 30 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Laboratoire Aguettant | Autorizada, no comercializada |
+| 90237 | ICATIBANTO HIKMA 30 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Hikma Farmaceutica (Portugal) S.A. | Autorizada, no comercializada |
+| 86668 | ICATIBANTO EXELTIS 30 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Exeltis Healthcare S.L. | Autorizada, no comercializada |
+| 1211567001 | ICATIBANT ACCORD 30 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Accord Healthcare S.L.U. | Autorizada, no comercializada |
+| 87321 | TIVACOMA 30 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Day Zero Ehf. | Autorizada, no comercializada |
+| 86600 | ICATIBANTO GP-PHARM 30 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Gp Pharm S.A. | Suspendida |
+
+Se muestran 10 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -143,7 +154,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "En total hay 13 autorizaciones vigentes, todas de monofármaco y ninguna cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "En total hay 13 autorizaciones vigentes, todas de monofármaco y ninguna cancelada" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Firazyr (icatibant acetate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ed6657ca-ab68-477a-9968-e12dc928b540) |
 
 <!-- review:end log -->

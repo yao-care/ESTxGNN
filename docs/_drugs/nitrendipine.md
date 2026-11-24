@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 571
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Nitrendipine: nueva indicación predicha, Migraña (trastorno migrañoso) (nivel de evidencia L5). Indicación original: Hipertensión arterial de leve a moderada (según la información farmac…"
 monitor_inn: "nitrendipine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
@@ -86,11 +86,17 @@ Actualmente no hay ensayos clínicos relacionados registrados para migraña.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 58172 | Nitrendipino Stada 20 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
-| 64506 | Enit 10 mg/20 mg comprimidos | Comprimido | No disponible en los datos compilados |
-| 64505 | Eneas 10 mg/20 mg comprimidos | Comprimido | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 64506 | ENIT 10 mg/20 mg COMPRIMIDOS | COMPRIMIDO | Ferrer Internacional S.A. | Comercializada |
+| 64505 | ENEAS 10 mg/20 mg COMPRIMIDOS | COMPRIMIDO | Ferrer Internacional S.A. | Comercializada |
+| 58172 | NITRENDIPINO STADA 20 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

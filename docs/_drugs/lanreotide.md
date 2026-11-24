@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 450
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Lanreotide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
 description: "Lanreotide: nueva indicación predicha, Hipertricosis (hypertrichosis (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 10 (comercializadas: 6; autorizadas no comercializadas: 3)"
@@ -74,19 +74,30 @@ Actualmente no hay literatura relacionada disponible.
 
 <!-- review:begin es-lic-20261105-lanreotide-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 autorizaciones (comercializadas: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-lanreotide-1 -->
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 64838 | Somatulina Autogel 90 mg | Solución inyectable en jeringa precargada | No disponible |
-| 86176 | Myrelez 60 mg EFG | Solución inyectable en jeringa precargada | No disponible |
-| 90113 | Lanreotida Sun 90 mg EFG | Solución inyectable en jeringa precargada | No disponible |
-| 90111 | Lanreotida Sun 120 mg EFG | Solución inyectable en jeringa precargada | No disponible |
-| 60914 | Somatulina 30 mg | Polvo y disolvente para suspensión inyectable de liberación prolongada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 64838 | SOMATULINA AUTOGEL 90 mg, SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Ipsen Pharma S.A.U. | Comercializada |
+| 86176 | MYRELEZ 60 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Amdipharm Limited | Comercializada |
+| 64837 | SOMATULINA AUTOGEL 60 mg SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Ipsen Pharma S.A.U. | Comercializada |
+| 86175 | MYRELEZ 90 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Amdipharm Limited | Comercializada |
+| 86174 | MYRELEZ 120 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Amdipharm Limited | Comercializada |
+| 64839 | SOMATULINA AUTOGEL 120 mg SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Ipsen Pharma S.A.U. | Comercializada |
+| 90113 | LANREOTIDA SUN 90 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Sun Pharmaceutical Industries (Europe) B.V. | Autorizada, no comercializada |
+| 90111 | LANREOTIDA SUN 120 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Sun Pharmaceutical Industries (Europe) B.V. | Autorizada, no comercializada |
+| 90112 | LANREOTIDA SUN 60 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Sun Pharmaceutical Industries (Europe) B.V. | Autorizada, no comercializada |
+| 60914 | SOMATULINA 30 mg POLVO Y DISOLVENTE PARA SUSPENSION INYECTABLE DE LIBERACION PROLONGADA | POLVO Y DISOLVENTE PARA SUSPENSIÓN INYECTABLE DE LIBERACIÓN PROLONGADA | Ipsen Pharma S.A. | Revocada |
+
+Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -116,7 +127,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Somatuline Depot (lanreotide acetate) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e4a41fd-a753-4362-87ee-8cc56ed3660d) |
 
 <!-- review:end log -->

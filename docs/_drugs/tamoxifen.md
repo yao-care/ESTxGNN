@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 762
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Tamoxifen: nueva indicación predicha, Mammary Paget disease (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 4; autorizadas no comercializadas: 2)"
@@ -94,13 +94,23 @@ Sin embargo, la evidencia disponible se limita a casos clínicos y series quirú
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61556 | Tamoxifeno Teva 20 mg comprimidos EFG | Comprimido | No disponible |
-| 63416 | Tamoxifeno Vir 20 mg comprimidos EFG | Comprimido | No disponible |
-| 63774 | Tamoxifeno Cinfa 20 mg comprimidos EFG | Comprimido | No disponible |
-| 84787 | Tamoxifeno Tillomed 10 mg comprimidos EFG | Comprimido | No disponible |
-| 63754 | Tamoxifeno Cinfa 10 mg comprimidos EFG | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61556 | TAMOXIFENO TEVA 20 mg, COMPRIMIDOS EFG | COMPRIMIDO | Teva Pharma S.L.U. | Comercializada |
+| 63774 | TAMOXIFENO CINFA 20 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 63754 | TAMOXIFENO CINFA 10 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 58110 | TAMOXIFENO VIATRIS 20 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Pharmaceuticals S.L. | Comercializada |
+| 84787 | TAMOXIFENO TILLOMED 10 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Tillomed Spain S.L. | Autorizada, no comercializada |
+| 84788 | TAMOXIFENO TILLOMED 20 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Tillomed Spain S.L. | Autorizada, no comercializada |
+| 63416 | TAMOXIFENO VIR 20 mg COMPRIMIDOS EFG | COMPRIMIDO | Industria Quimica Y Farmaceutica Vir S.A. | Revocada |
+| 63030 | TAMOXIFENO SANDOZ 10 MG COMPRIMIDOS EFG | COMPRIMIDO | Sandoz Farmaceutica S.A. | Revocada |
+| 63040 | TAMOXIFENO SANDOZ 20 MG COMPRIMIDOS EFG | COMPRIMIDO | Sandoz Farmaceutica S.A. | Revocada |
+
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 
@@ -123,7 +133,7 @@ Sin embargo, la evidencia disponible se limita a casos clínicos y series quirú
 
 <!-- review:begin es-lic-20261105-tamoxifen-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 9 autorizaciones vigentes en total (todas de principio activo único); se muestran las 5 principales." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 9 autorizaciones vigentes en total (todas de principio activo único); se muestran las 5 principales." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-tamoxifen-1 -->
 
@@ -153,7 +163,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Hay 9 autorizaciones vigentes en total (todas de principio activo único); se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Hay 9 autorizaciones vigentes en total (todas de principio activo único); se muestran las 5 principales" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Soltamox (tamoxifen citrate) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6ff055-590c-41e6-9530-1fdf04cdbd02) |
 
 <!-- review:end log -->

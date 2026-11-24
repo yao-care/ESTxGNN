@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 250
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Digoxin"
 predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
 description: "Digoxin: nueva indicación predicha, Angina de Prinzmetal (Prinzmetal angina) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 4)"
@@ -73,12 +73,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 23850 | DIGOXINA TEOFARMA 0,25 mg COMPRIMIDOS | Comprimido | No disponible |
-| 34566 | DIGOXINA KERN PHARMA 0,25 mg COMPRIMIDOS | Comprimido | No disponible |
-| 34753 | DIGOXINA KERN PHARMA 0,25 mg/ml SOLUCIÓN INYECTABLE | Solución inyectable | No disponible |
-| 34755 | LANACORDIN PEDIÁTRICO | Solución oral | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 23850 | DIGOXINA TEOFARMA 0,25 mg COMPRIMIDOS | COMPRIMIDO | Teofarma S.R.L. | Comercializada |
+| 34566 | DIGOXINA KERN PHARMA 0,25 mg COMPRIMIDOS | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
+| 34753 | DIGOXINA KERN PHARMA 0,25 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Kern Pharma S.L. | Comercializada |
+| 34755 | LANACORDIN PEDIATRICO | SOLUCIÓN ORAL | Kern Pharma S.L. | Comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 843
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
 description: "Verapamil: nueva indicación predicha, Bloqueo de rama (obsolete bundle branch block) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 6)"
@@ -72,19 +72,27 @@ Actualmente no hay literatura relacionada disponible.
 
 <!-- review:begin es-lic-20261105-verapamil-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Existen 7 autorizaciones vigentes en total (todas de principio activo único); además de las anteriores figuran Manidon HTA 240 mg (58369) y Tarka 180 mg/2 mg (61369, cápsula de liberación modificada)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 autorizaciones (comercializadas: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Existen 7 autorizaciones vigentes en total (todas de principio activo único); además de las anteriores figuran Manidon HTA 240 mg (58369) y Tarka 180 mg/2 mg (61369, cápsula de liberación modificada)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-verapamil-1 -->
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 60724 | Manidon Retard 180 mg | Comprimido de liberación prolongada | No disponible en los datos compilados |
-| 58-157-87-C | Manidon HTA | Comprimido de liberación prolongada | No disponible en los datos compilados |
-| 39784 | Manidon 2,5 mg/ml | Solución inyectable | No disponible en los datos compilados |
-| 53434 | Manidon Retard 120 mg | Comprimido de liberación prolongada | No disponible en los datos compilados |
-| 50891 | Manidon 80 mg | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 60724 | MANIDON RETARD 180 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Viatris Healthcare Limited | Comercializada |
+| 39784 | MANIDON 2,5 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Viatris Healthcare Limited | Comercializada |
+| 53434 | MANIDON RETARD 120 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Viatris Healthcare Limited | Comercializada |
+| 50891 | MANIDON 80 mg COMPRIMIDOS CON CUBIERTA PELICULAR | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Healthcare Limited | Comercializada |
+| 58369 | MANIDON HTA 240 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Viatris Healthcare Limited | Comercializada |
+| 61369 | TARKA 180 mg/ 2 mg CAPSULAS DE LIBERACION MODIFICADA | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Viatris Healthcare Limited | Comercializada |
+| 58-157-87-C | MANIDON HTA COMPRIMIDOS DE LIBERACION GRADUAL | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Abbott Gmbh | Revocada |
+
+Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -115,7 +123,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Existen 7 autorizaciones vigentes en total (todas de principio activo único); además de las anteriores figuran Manidon HTA 240 mg (58369) y " | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Existen 7 autorizaciones vigentes en total (todas de principio activo único); además de las anteriores figuran Manidon HTA 240 mg (58369) y " | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7a54ee0-80c0-4c7e-a6a3-cb60142f860c) |
 
 <!-- review:end log -->

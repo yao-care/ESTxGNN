@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Ezetimibe"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ezetimibe: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (cholesterol-ester transfer protein deficiency) (nivel de evidencia L5). Indicación original…"
 ---
 
@@ -78,13 +78,19 @@ Ninguna de las publicaciones estudia directamente la deficiencia de CETP como en
 
 Se muestran 5 de las al menos 20 autorizaciones (la lista puede ser parcial). Los textos de indicación aprobada no figuran en los datos compilados.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 79108 | Ezetimiba Viatris 10 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
-| 31-267-03-C | Ezetrol 10 mg comprimidos | Comprimido | No disponible en los datos compilados |
-| 82226 | Ezetimiba Teva-Ratiopharm 10 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
-| 82832 | Ezetimiba Almus 10 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
-| 81631 | Ezetimiba Alter 10 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 79108 | EZETIMIBA VIATRIS 10 MG COMPRIMIDOS EFG | COMPRIMIDO | Viatris Limited | Comercializada |
+| 31-267-03-C | EZETROL 10 mg COMPRIMIDOS | COMPRIMIDO | Organon N.V. | Comercializada |
+| 82832 | EZETIMIBA ALMUS 10 MG COMPRIMIDOS EFG | COMPRIMIDO | Almus Farmaceutica S.A.U. | Comercializada |
+| 81631 | EZETIMIBA ALTER 10 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Alter S.A. | Comercializada |
+| 78507 | EZETIMIBA COMBIX 10 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Combix S.L.U. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "laronidase"
 predicted_indications: ["Sanfilippo syndrome"]
 description: "Laronidase: nueva indicación predicha, Síndrome de Sanfilippo (Sanfilippo syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
@@ -83,9 +83,15 @@ Ninguna de las publicaciones estudia directamente el síndrome de Sanfilippo; to
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 03253001 | ALDURAZYME, 100 U/ML CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Concentrado para solución para perfusión | No disponible en el texto de autorización |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 03253001 | ALDURAZYME, 100 U/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Sanofi B.V. | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

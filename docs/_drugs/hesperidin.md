@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Hesperidin: nueva indicación predicha, Neoplasia mieloproliferativa (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaciones"
 monitor_inn: "hesperidin"
 predicted_indications: ["myeloproliferative neoplasm", "monocytic leukemia", "spermatocytic seminoma", "tubular variant testicular seminoma", "gestational trophoblastic neoplasm"]
@@ -74,19 +74,30 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 4691-2004IP3 | Daflon 500mg comprimidos recubiertos | Comprimido recubierto | No especificada |
-| 4691-2004IP | DAFLON 500mg comprimidos recubiertos | Comprimido recubierto | No especificada |
-| 59080 | DAFLON 500 mg comprimidos recubiertos con película | Comprimido recubierto | No especificada |
-| 8539291C | DAFLON 500 mg comprimidos recubiertos con película | Comprimido recubierto | No especificada |
-| 4691-2004IP2 | Daflon 500mg comprimidos recubiertos | Comprimido recubierto | No especificada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 59080 | DAFLON 500 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | COMPRIMIDO RECUBIERTO | Laboratorios Servier S.L. | Comercializada |
+| 1-20685 | DAFLON 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Servier Austria Gmbh | Comercializada |
+| 1-20685IP | DAFLON 500 mg COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Servier Austria Gmbh | Comercializada |
+| 59471 | FABROVEN 150 mg/150 mg/100 mg CAPSULAS DURAS | CÁPSULA DURA | Pierre Fabre Iberica S.A. | Comercializada |
+| 4691-2004IP | DAFLON 500mg comprimidos recubiertos. | COMPRIMIDO RECUBIERTO | Les Laboratoires Servier | Autorizada, no comercializada |
+| 8539291C | DAFLON 500 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | COMPRIMIDO RECUBIERTO | Les Laboratoires Servier | Autorizada, no comercializada |
+| 4691-2004 | DAFLON 500mg comprimidos recubiertos | COMPRIMIDO RECUBIERTO | Les Laboratoires Servier | Autorizada, no comercializada |
+| 4691-2004IP3 | Daflon 500mg comprimidos recubiertos | COMPRIMIDO RECUBIERTO | Les Laboratoires Servier | Revocada |
+| 4691-2004IP2 | DAFLON 500mg comprimidos recubiertos | COMPRIMIDO RECUBIERTO | Les Laboratoires Servier | Revocada |
+| 4691-2004IP1 | DAFLON 500mg comprimidos recubiertos | COMPRIMIDO RECUBIERTO | Les Laboratoires Servier | Revocada |
+
+Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Entre las restantes figuran otras presentaciones de Daflon y Fabroven (cápsulas duras).
 
 <!-- review:begin es-lic-20261105-hesperidin-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 10 autorizaciones vigentes; todas son de preparados con un único principio activo. Entre las restantes figuran otras presentaciones de Daflon y Fabroven (cápsulas duras)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 10 autorizaciones vigentes; todas son de preparados con un único principio activo. Entre las restantes figuran otras presentaciones de Daflon y Fabroven (cápsulas duras)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-hesperidin-1 -->
 
@@ -116,7 +127,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes; todas son de preparados con un único principio activo" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes; todas son de preparados con un único principio activo" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

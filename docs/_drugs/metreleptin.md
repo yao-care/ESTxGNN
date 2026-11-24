@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 519
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "metreleptin"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "Moynahan syndrome", "rhabdoid tumor", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "acromelanosis", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "benign neoplasm of adrenal gland", "peripheral nerve schwannoma"]
 description: "Metreleptin: nueva indicación predicha, Lentiginosis generalizada familiar (familial generalized lentiginosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"
@@ -71,11 +71,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1181276004 | MYALEPTA 3 MG polvo para solución inyectable | Polvo para solución inyectable | No disponible en los datos compilados |
-| 1181276006 | MYALEPTA 5,8 MG polvo para solución inyectable | Polvo para solución inyectable | No disponible en los datos compilados |
-| 1181276002 | MYALEPTA 11,3 MG polvo para solución inyectable | Polvo para solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1181276004 | MYALEPTA 3 MG POLVO PARA SOLUCION INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Chiesi Farmaceutici S.P.A. | Comercializada |
+| 1181276006 | MYALEPTA 5,8 MG POLVO PARA SOLUCION INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Chiesi Farmaceutici S.P.A. | Comercializada |
+| 1181276002 | MYALEPTA 11,3 MG POLVO PARA SOLUCION INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Chiesi Farmaceutici S.P.A. | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las tres autorizaciones están vigentes y pertenecen a Chiesi Farmaceutici S.P.A.
 

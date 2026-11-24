@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 782
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Teriparatide"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
 description: "Teriparatide: nueva indicación predicha, Úlcera duodenal (duodenal ulcer (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 15 (comercializadas: 8; autorizadas no comercializadas: 6)"
@@ -84,17 +84,28 @@ Principales autorizaciones:
 
 <!-- review:begin es-lic-20261105-teriparatide-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Teriparatida está comercializada en España, con 15 autorizaciones vigentes, todas de medicamentos de un solo principio activo y ninguna cancelada. Principales autorizaciones:" Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 15 autorizaciones (comercializadas: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Teriparatida está comercializada en España, con 15 autorizaciones vigentes, todas de medicamentos de un solo principio activo y ninguna cancelada. Principales autorizaciones:" Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-teriparatide-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 03247001 | FORSTEO 20 microgramos/80 microlitros, solución inyectable (Eli Lilly) | Solución inyectable en pluma precargada | No especificada en los datos compilados |
-| 82563 | TETRIDAR 20 microgramos/80 microlitros solución inyectable en pluma precargada (Teva) | Solución inyectable | No especificada en los datos compilados |
-| 82562 | TERIPARATIDA TEVA 20 microgramos/80 microlitros solución inyectable en pluma precargada (Teva) | Solución inyectable | No especificada en los datos compilados |
-| 85653 | DURATIL 20 microgramos/80 microlitros solución inyectable en pluma precargada EFG (Gp Pharm) | Solución inyectable en pluma precargada | No especificada en los datos compilados |
-| 89727 | OSDY 20 microgramos/80 microlitros solución inyectable en pluma precargada (Reddy Pharma Iberia) | Solución inyectable en pluma precargada | No especificada en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1161159004 | TERROSA 20 MICROGRAMOS/80 MICROLITROS SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Gedeon Richter Plc. | Comercializada |
+| 85653 | DURATIL 20 MICROGRAMOS/80 MICROLITROS SOLUCION INYECTABLE EN PLUMA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Gp Pharm S.A. | Comercializada |
+| 03247001 | FORSTEO 20 MICROGRAMOS/80 MICROLITROS, SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Eli Lilly Nederland B.V. | Comercializada |
+| 82563 | TETRIDAR 20 MICROGRAMOS/80 MICROLITROS SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Teva Pharma S.L.U. | Comercializada |
+| 1161161003 | MOVYMIA 20 MICROGRAMOS/80 MICROLITROS SOLUCIÓN INYECTABLE | SOLUCIÓN INYECTABLE | Stada Arzneimittel Ag | Comercializada |
+| 1201462001 | LIVOGIVA 20 MICROGRAMOS/80 MICROLITROS SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Theramex Ireland Limited | Comercializada |
+| 1221697001 | TERIPARATIDA SUN 20 MICROGRAMOS/80 MICROLITROS SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+| 1221628001 | SONDELBAY 20 MICROGRAMOS/80 MICROLITROS SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Accord Healthcare S.L.U. | Comercializada |
+| 1161159001 | TERROSA 20 MICROGRAMOS/80 MICROLITROS SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Gedeon Richter Plc. | Autorizada, no comercializada |
+| 1161161001 | MOVYMIA 20 MICROGRAMOS/80 MICROLITROS SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Stada Arzneimittel Ag | Autorizada, no comercializada |
+
+Se muestran 10 de 15 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Existen además autorizaciones de TERROSA, MOVYMIA, LIVOGIVA, TERIPARATIDA SUN y SONDELBAY. Todas son soluciones inyectables, en su mayoría en pluma precargada.
 
@@ -130,7 +141,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Teriparatida está comercializada en España, con 15 autorizaciones vigentes, todas de medicamentos de un solo principio activo y ninguna canc" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Teriparatida está comercializada en España, con 15 autorizaciones vigentes, todas de medicamentos de un solo principio activo y ninguna canc" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c) |
 
 <!-- review:end log -->

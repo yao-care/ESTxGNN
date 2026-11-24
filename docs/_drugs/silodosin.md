@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 735
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Silodosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
 description: "Silodosin: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita) (nivel de evidencia L5). Indicación original: No consta en los d…"
@@ -90,13 +90,24 @@ Los textos de indicación aprobada no están disponibles en los datos compilados
 
 <!-- review:end es-lic-20261105-silodosin-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 84053 | Silodosina Stada 8 mg cápsulas duras EFG | Cápsula dura | Laboratorio Stada S.L. |
-| 85271 | Xilapro 4 mg cápsulas duras EFG | Cápsula dura | Adventia Pharma S.L. |
-| 84377 | Sidarso 8 mg cápsulas duras EFG | Cápsula dura | Krka D.D. Novo Mesto |
-| 09607011IP | Silodyx 8 mg cápsulas duras | Cápsula dura | Recordati Ireland Limited |
-| 09608004 | Urorec 4 mg cápsulas duras | Cápsula dura | Recordati Ireland Limited |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 84053 | SILODOSINA STADA 8 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorio Stada S.L. | Comercializada |
+| 85271 | XILAPRO 4 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Adventia Pharma S.L. | Comercializada |
+| 85272 | XILAPRO 8 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Adventia Pharma S.L. | Comercializada |
+| 09608011IP1 | UROREC 8 MG CAPSULAS DURAS | CÁPSULA DURA | Recordati Ireland Limited | Comercializada |
+| 09608011IP2 | UROREC 8 MG CAPSULAS DURAS | CÁPSULA DURA | Recordati Ireland Limited | Comercializada |
+| 84227 | SILODOSINA PENSA 8 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Towa Pharmaceutical S.A. | Comercializada |
+| 84378 | SILODOSINA KRKA 4 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Krka D.D. Novo Mesto | Comercializada |
+| 84271 | SILODOSINA TEVA-RATIOPHARM 8 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Teva B.V. | Comercializada |
+| 09607011IP | SILODYX 8 MG CAPSULAS DURAS | CÁPSULA DURA | Recordati Ireland Limited | Comercializada |
+| 84633 | SILODOSINA NORMON 4 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Normon S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

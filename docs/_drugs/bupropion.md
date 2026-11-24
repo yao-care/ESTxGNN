@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bupropion: nueva indicación predicha, Trastorno por déficit de atención con hiperactividad (attention deficit-hyperactivity disorder) (nivel de evidencia L1). Indicación original: No consta en los da…"
 ---
 
@@ -92,13 +92,24 @@ Por ello se considera una opción de segunda línea o fuera de indicación, con 
 
 Bupropion se comercializa en España con autorizaciones vigentes en comprimidos de liberación modificada y prolongada (los registros locales no incluyen texto de indicación).
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 88040 | BUPROPION ACCORD 150 MG | Comprimido de liberación modificada |
-| 81596 | BUPROPION CINFA 300 MG | Comprimido de liberación modificada |
-| 83663 | BUPROPION TEVA 300 MG | Comprimido de liberación modificada |
-| 63265 | ZYNTABAC 150 mg | Comprimido de liberación prolongada |
-| 68616 | ELONTRIL 300 mg | Comprimido de liberación modificada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 83663 | BUPROPION TEVA 300 MG COMPRIMIDOS DE LIBERACION MODIFICADA EFG | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Teva B.V. | Comercializada |
+| 81595 | BUPROPION CINFA 150 MG COMPRIMIDOS DE LIBERACION MODIFICADA EFG | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Laboratorios Cinfa S.A. | Comercializada |
+| 84766 | BUPROPION TEVA 150 MG COMPRIMIDOS DE LIBERACION MODIFICADA EFG | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Teva B.V. | Comercializada |
+| 88175 | BUPROPION SANDOZ 300 MG COMPRIMIDOS DE LIBERACION MODIFICADA EFG | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Sandoz Farmaceutica S.A. | Comercializada |
+| 63265 | ZYNTABAC 150 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Glaxosmithkline S.A. | Comercializada |
+| 79848 | BUPROPION SANDOZ 150 MG COMPRIMIDOS DE LIBERACION MODIFICADA EFG | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Sandoz Farmaceutica S.A. | Comercializada |
+| 68616 | ELONTRIL 300 mg COMPRIMIDOS DE LIBERACION MODIFICADA | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Glaxosmithkline S.A. | Comercializada |
+| 68615 | ELONTRIL 150 mg COMPRIMIDOS DE LIBERACION MODIFICADA | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Glaxosmithkline S.A. | Comercializada |
+| 88040 | BUPROPION ACCORD 150 MG COMPRIMIDOS DE LIBERACION MODIFICADA EFG | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Accord Healthcare S.L.U. | Autorizada, no comercializada |
+| 90083 | BUPROPION SUN 150 MG COMPRIMIDOS DE LIBERACION MODIFICADA EFG | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Sun Pharmaceutical Industries (Europe) B.V. | Autorizada, no comercializada |
+
+Se muestran 10 de 16 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

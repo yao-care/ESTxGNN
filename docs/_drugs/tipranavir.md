@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 798
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TIPRANAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
 description: "Tipranavir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 0; autorizadas no comercializadas: 1)"
@@ -71,16 +71,22 @@ Actualmente no hay literatura relacionada disponible.
 
 <!-- review:begin es-lic-20261105-tipranavir-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Ambas autorizaciones están vigentes y corresponden a Boehringer Ingelheim International GmbH." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 autorizaciones (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Ambas autorizaciones están vigentes y corresponden a Boehringer Ingelheim International GmbH." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-tipranavir-1 -->
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 05315002 | APTIVUS 100 MG/ML SOLUCIÓN ORAL | Solución oral | No disponible en los datos compilados |
-| 05315001 | APTIVUS 250 MG CÁPSULAS BLANDAS | Cápsula blanda | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 05315001 | APTIVUS 250 MG CAPSULAS BLANDAS | CÁPSULA BLANDA | Boehringer Ingelheim International Gmbh | Autorizada, no comercializada |
+| 05315002 | APTIVUS 100 MG/ML SOLUCION ORAL | SOLUCIÓN ORAL | Boehringer Ingelheim International Gmbh | Revocada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -112,7 +118,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Ambas autorizaciones están vigentes y corresponden a Boehringer Ingelheim International GmbH" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Ambas autorizaciones están vigentes y corresponden a Boehringer Ingelheim International GmbH" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559) |
 
 <!-- review:end log -->

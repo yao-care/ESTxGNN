@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 443
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LABETALOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 description: "Labetalol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 4)"
@@ -71,12 +71,18 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 55318 | TRANDATE 5 mg/ml solución inyectable | Solución inyectable | No especificada |
-| 54527 | TRANDATE 100 mg comprimidos recubiertos | Comprimido recubierto con película | No especificada |
-| 89082 | LABETALOL S.A.L.F. 5 mg/ml solución inyectable y para perfusión EFG | Solución inyectable y para perfusión | No especificada |
-| 54528 | TRANDATE 200 mg comprimidos recubiertos | Comprimido recubierto con película | No especificada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 55318 | TRANDATE 5 mg/ml SOLUCIÓN INYECTABLE | SOLUCIÓN INYECTABLE | Kern Pharma S.L. | Comercializada |
+| 54527 | TRANDATE 100 mg, COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+| 89082 | LABETALOL S.A.L.F. 5 MG/ML SOLUCION INYECTABLE Y PARA PERFUSION EFG | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | S.A.L.F. S.P.A. Laboratorio Farmacologico | Comercializada |
+| 54528 | TRANDATE 200 mg COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

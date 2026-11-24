@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 842
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
 description: "Venetoclax: nueva indicación predicha, Hodgkins lymphoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 5)"
@@ -74,13 +74,19 @@ Actualmente no hay ensayos clínicos relacionados registrados para este subtipo 
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 161138005 | VENCLYXTO 100 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 161138007IP1 | VENCLYXTO 100 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 161138004 | VENCLYXTO 50 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 161138002 | VENCLYXTO 10 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 161138007IP | VENCLYXTO 100 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 161138005 | VENCLYXTO 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 161138007IP1 | VENCLYXTO 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 161138004 | VENCLYXTO 50 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 161138002 | VENCLYXTO 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 161138007IP | VENCLYXTO 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las cinco autorizaciones están vigentes y corresponden a monofármaco, titular Abbvie Deutschland GmbH & Co.
 

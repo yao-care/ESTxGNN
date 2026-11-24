@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 234
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Desloratadine"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
 description: "Desloratadine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -87,13 +87,24 @@ Además, el aumento de dosis (hasta 4 veces la dosis estándar) de antihistamín
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 76043 | Deloratadina Combix 5 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 75387 | Desloratadina Stada 0,5 mg/ml solución oral EFG | Solución oral | No disponible |
-| 75335 | Desloratadina Cinfa 5 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 00160055 | Aerius 5 mg comprimidos bucodispersables | Comprimido bucodispersable | No disponible |
-| 77984 | Desloratadina Alter 5 mg comprimidos bucodispersables EFG | Comprimido bucodispersable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 76043 | DESLORATADINA COMBIX 5 mg COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 75387 | DESLORATADINA STADA 0,5 mg/ml SOLUCION ORAL EFG | SOLUCIÓN ORAL | Laboratorio Stada S.L. | Comercializada |
+| 75335 | DESLORATADINA CINFA 5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+| 76174 | DESLORATADINA TARBIS 5 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Comercializada |
+| 77984 | DESLORATADINA ALTER 5 MG COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Laboratorios Alter S.A. | Comercializada |
+| 77557 | DESLORATADINA ALTER 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Alter S.A. | Comercializada |
+| 84496 | DESLORATADINA PENSA 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Towa Pharmaceutical S.A. | Comercializada |
+| 00160009 | AERIUS 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO | Organon N.V. | Comercializada |
+| 76284 | DESLORATADINA SANDOZ 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Comercializada |
+| 76037 | DESLORATADINA FLAS COMBIX 5 mg COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Laboratorios Combix S.L.U. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

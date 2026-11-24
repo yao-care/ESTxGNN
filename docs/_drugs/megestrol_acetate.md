@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 501
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Megestrol acetate"
 predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline epithelial tumor of ovary", "uterine carcinosarcoma", "placenta cancer", "ovarian clear cell adenocarcinoma", "ovarian cancer", "malignant dysgerminomatous germ cell tumor of ovary"]
 description: "Megestrol Acetate: nueva indicación predicha, Hereditary breast ovarian cancer syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 3; autorizadas no comercializadas: 1)"
@@ -74,19 +74,26 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 4376IP | MAYGACE ALTAS DOSIS 40 MG/ML | Suspensión oral | No disponible |
-| 58775 | BOREA 160 mg | Comprimido | No disponible |
-| 62012 | MEGEFREN SOBRES | Granulado | No disponible |
-| 60783 | MAYGACE ALTAS DOSIS 40 mg/ml | Suspensión oral | No disponible |
-| 58773 | MEGEFREN 160 mg | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 58775 | BOREA 160 mg COMPRIMIDOS | COMPRIMIDO | Viatris Healthcare Limited | Comercializada |
+| 60783 | MAYGACE ALTAS DOSIS 40 mg/ml SUSPENSION ORAL | SUSPENSIÓN ORAL | Bausch Health Ireland Limited | Comercializada |
+| 62011 | BOREA 160 mg GRANULADO PARA SUSPENSION ORAL EN SOBRES | GRANULADO | Viatris Healthcare Limited | Comercializada |
+| 4376IP | MAYGACE ALTAS DOSIS 40 MG/ML SUSPENSION ORAL | SUSPENSIÓN ORAL | Bausch Health Ireland Limited | Autorizada, no comercializada |
+| 62012 | MEGEFREN SOBRES | GRANULADO | Teva B.V. | Suspendida |
+| 58773 | MEGEFREN 160 mg COMPRIMIDOS | COMPRIMIDO | Teva B.V. | Revocada |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Hay una sexta autorización vigente (62011, BOREA 160 mg granulado para suspensión oral en sobres).
 
 <!-- review:begin es-lic-20261105-megestrol_acetate-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Hay una sexta autorización vigente (62011, BOREA 160 mg granulado para suspensión oral en sobres). Todas son monofármaco y están vigentes." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 autorizaciones (comercializadas: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay una sexta autorización vigente (62011, BOREA 160 mg granulado para suspensión oral en sobres). Todas son monofármaco y están vigentes." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-megestrol_acetate-1 -->
 
@@ -129,7 +136,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Todas son monofármaco y están vigentes" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Todas son monofármaco y están vigentes" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: megestrol acetate prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc921d5-e423-4379-a345-151e87d13651) |
 
 <!-- review:end log -->

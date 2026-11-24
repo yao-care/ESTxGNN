@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "OFATUMUMAB"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Ofatumumab: nueva indicación predicha, Linfoma folicular (follicular lymphoma) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
@@ -93,9 +93,15 @@ También es plausible cierta actividad en enfermedad refractaria a rituximab, po
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 121532003 | KESIMPTA 20 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada | Texto de indicación no disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 121532003 | KESIMPTA 20 mg SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Novartis Europharm Limited | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 La autorización corresponde a un único principio activo (titular: Novartis Europharm Limited) y figura como vigente. Su presentación es una pluma precargada. Los ensayos citados en linfoma folicular utilizaron ofatumumab en infusión, por lo que esta presentación no equivale a la empleada en dichos estudios.
 

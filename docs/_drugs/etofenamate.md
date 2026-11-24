@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Etofenamate"
 predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "pseudoachondroplasia", "myosclerosis", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Etofenamate: nueva indicación predicha, Espondilitis anquilosante (nivel de evidencia L5). Indicación original: Relación registrada en el grafo de conocimiento: artrosis y artropatí…"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 55701 | FLOGOPROFEN 50 mg/ml solución para pulverización cutánea | Solución para pulverización cutánea | No disponible en los datos compilados |
-| 84578 | FLOGOPATCH 70 mg apósito adhesivo medicamentoso | Parche cutáneo | No disponible en los datos compilados |
-| 55380 | FLOGOPROFEN 50 mg/g gel | Gel | No disponible en los datos compilados |
-| 54646 | ZENAVAN 50 mg/g gel | Gel | No disponible en los datos compilados |
-| 56338 | ACTROMAGEL 50 mg/g gel (cancelada) | Gel | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 55701 | FLOGOPROFEN 50 mg/ml SOLUCION PARA PULVERIZACION CUTANEA | SOLUCIÓN PARA PULVERIZACIÓN CUTÁNEA | Chiesi España S.A.U. | Comercializada |
+| 84578 | FLOGOPATCH 70 MG APOSITO ADHESIVO MEDICAMENTOSO | PARCHE CUTÁNEO | Chiesi España S.A.U. | Comercializada |
+| 55380 | FLOGOPROFEN 50 mg/g Gel | GEL | Chiesi España S.A.U. | Comercializada |
+| 54646 | ZENAVAN 50 MG/G GEL | GEL | Laboratorios Bial S.A. | Comercializada |
+| 56338 | ACTROMAGEL 50 mg/g GEL | GEL | Bayer Hispania S.L. | Revocada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

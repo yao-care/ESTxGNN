@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "goserelin"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
 description: "Goserelin: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 2)"
@@ -87,11 +87,17 @@ La mayor parte de la evidencia procede de oncología. Allí la amenorrea aparece
 
 Hay 2 autorizaciones vigentes y 1 cancelada. El texto de indicación aprobada no figura en los datos locales.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| R-7832 | ZOLADEX JERINGA PRECARGADA | Implante | No disponible en los datos compilados |
-| 61367 | ZOLADEX TRIMESTRAL 10,8 mg IMPLANTE EN JERINGA PRECARGADA | Implante | No disponible en los datos compilados |
-| 58603 | ZOLADEX 3,6 mg IMPLANTE EN JERINGA PRECARGADA | Implante | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61367 | ZOLADEX TRIMESTRAL 10,8 mg IMPLANTE EN JERINGA PRECARGADA | IMPLANTE | Astrazeneca Farmaceutica Spain S.A. | Comercializada |
+| 58603 | ZOLADEX 3,6 mg IMPLANTE EN JERINGA PRECARGADA | IMPLANTE | Astrazeneca Farmaceutica Spain S.A. | Comercializada |
+| R-7832 | ZOLADEX JERINGA PRECARGADA | IMPLANTE | Astrazeneca Uk Limited | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

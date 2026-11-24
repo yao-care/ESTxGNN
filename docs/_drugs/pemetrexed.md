@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 619
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: nueva indicación predicha, Pleural adenomatoid tumor (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -96,13 +96,24 @@ Conviene ser prudente: la evidencia procede de ensayos de Fase 2 y de cohortes m
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 86508 | Pemetrexed Sun 6 mg/ml | Solución para perfusión | No disponible |
-| 80631 | Pemetrexed Tamarang 100 mg EFG | Polvo para concentrado para solución para perfusión | No disponible |
-| 87989 | Pemetrexed Aurovitas 500 mg EFG | Polvo para concentrado para solución para perfusión | No disponible |
-| 80985 | Pemetrexed Tillomed 500 mg EFG | Polvo para concentrado para solución para perfusión | No disponible |
-| 90206 | Pemetrexed Glenmark 500 mg EFG | Polvo para concentrado para solución para perfusión | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1151071004 | PEMETREXED ACCORD 25 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 85747 | PEMETREXED EBEWE 25 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Sandoz Farmaceutica S.A. | Comercializada |
+| 1151063004 | ARMISARTE 25 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Actavis Group Ptc Ehf. | Autorizada, no comercializada |
+| 1151063001 | Armisarte 25 mg/ml concentrado para solucion para perfusion | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Actavis Group Ptc Ehf. | Autorizada, no comercializada |
+| 80985 | PEMETREXED TILLOMED 500 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Laboratorios Tillomed Spain S.L. | Suspendida |
+| 80984 | PEMETREXED TILLOMED 100 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Laboratorios Tillomed Spain S.L. | Suspendida |
+| 86508 | PEMETREXED SUN 6 MG/ML SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | Sun Pharmaceutical Industries (Europe) B.V. | Revocada |
+| 80631 | PEMETREXED TAMARANG 100 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Tamarang S.A. | Revocada |
+| 87989 | PEMETREXED AUROVITAS 500 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Aurovitas Spain, S.A.U. | Revocada |
+| 90206 | PEMETREXED GLENMARK 500 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Glenmark Arzneimittel Gmbh | Revocada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

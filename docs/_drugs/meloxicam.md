@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 502
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MELOXICAM"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Meloxicam: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (nivel de evidencia L5). Indicación original: No consta en los dat…"
@@ -76,17 +76,28 @@ Los textos de indicación aprobada no figuran en los datos compilados.
 
 <!-- review:begin es-lic-20261105-meloxicam-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 16 autorizaciones vigentes (todas de principio activo único). Los textos de indicación aprobada no figuran en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 16 autorizaciones (comercializadas: 10); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 16 autorizaciones vigentes (todas de principio activo único). Los textos de indicación aprobada no figuran en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-meloxicam-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 64313 | MOVALIS 15 mg/1,5 ml solución inyectable | Solución inyectable | No disponible |
-| 61076 | MOVALIS 15 mg comprimidos | Comprimido | No disponible |
-| 61075 | MOVALIS 7,5 mg comprimidos | Comprimido | No disponible |
-| 69366 | Meloxicam Normon 15 mg comprimidos EFG | Comprimido | No disponible |
-| 69094 | Meloxicam Cinfa 15 mg comprimidos EFG | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 69366 | MELOXICAM NORMON 15 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 69094 | MELOXICAM CINFA 15 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 61076 | MOVALIS 15 mg COMPRIMIDOS | COMPRIMIDO | Boehringer Ingelheim International Gmbh | Comercializada |
+| 68844 | MELOXICAM PENSA 15 mg COMPRIMIDOS EFG | COMPRIMIDO | Towa Pharmaceutical S.A. | Comercializada |
+| 68843 | MELOXICAM PENSA 7,5 mg COMPRIMIDOS EFG | COMPRIMIDO | Towa Pharmaceutical S.A. | Comercializada |
+| 69365 | MELOXICAM NORMON 7,5 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 61075 | MOVALIS 7,5 mg COMPRIMIDOS | COMPRIMIDO | Boehringer Ingelheim International Gmbh | Comercializada |
+| 66399 | MELOXICAM STADA 7.5 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Comercializada |
+| 66400 | MELOXICAM STADA 15 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Comercializada |
+| 69093 | MELOXICAM CINFA 7,5 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+
+Se muestran 10 de 16 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -120,7 +131,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 16 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 16 autorizaciones vigentes (todas de principio activo único)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zybic (meloxicam) prescribing information, Redmont Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a1c2d65f-ebb1-48bf-8fa1-c216f7d570ec) |
 
 <!-- review:end log -->

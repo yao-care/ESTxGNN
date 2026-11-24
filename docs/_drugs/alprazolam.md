@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 2
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alprazolam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -83,13 +83,24 @@ Se listan las publicaciones más relevantes para la indicación predicha; ningun
 
 Estado: comercializado. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 63248 | ALPRAZOLAM NORMON 1 mg COMPRIMIDOS EFG | Comprimido |
-| 63279 | ALPRAZOLAM KERN PHARMA 0,25 mg COMPRIMIDOS EFG | Comprimido |
-| 86322 | ALPRAZOLAM NEURAXPHARM 1 MG COMPRIMIDOS EFG | Comprimido |
-| 56027 | TRANKIMAZIN 0,25 mg COMPRIMIDOS | Comprimido |
-| 61153 | TRANKIMAZIN RETARD 2 mg COMPRIMIDOS | Comprimido de liberación prolongada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 63248 | ALPRAZOLAM NORMON 1 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 63279 | ALPRAZOLAM KERN PHARMA 0,25 mg COMPRIMIDOS EFG | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
+| 56027 | TRANKIMAZIN 0,25 mg COMPRIMIDOS | COMPRIMIDO | Viatris Healthcare Limited | Comercializada |
+| 61153 | TRANKIMAZIN RETARD 2 mg COMPRIMIDOS | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Viatris Healthcare Limited | Comercializada |
+| 65326 | ALPRAZOLAM DERMOGEN 1 mg COMPRIMIDOS EFG | COMPRIMIDO | Dermogen-Farma S.A. | Comercializada |
+| 61154 | TRANKIMAZIN RETARD 3 mg COMPRIMIDOS | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Viatris Healthcare Limited | Comercializada |
+| 66938 | ALPRAZOLAM ALTER 1 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Alter S.A. | Comercializada |
+| 83572 | ALPRAZOLAM KRKA 0.5 MG COMPRIMIDOS EFG | COMPRIMIDO | Krka D.D. Novo Mesto | Comercializada |
+| 66939 | ALPRAZOLAM ALTER 2 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Alter S.A. | Comercializada |
+| 63876 | ALPRAZOLAM TEVA-RATIOPHARM 1 mg COMPRIMIDOS EFG | COMPRIMIDO | Teva Pharma S.L.U. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

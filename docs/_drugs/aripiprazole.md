@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Aripiprazole"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Aripiprazole: nueva indicación predicha, Gaze palsy, familial horizontal, with progressive scoliosis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -98,13 +98,24 @@ Nota: un metaanálisis sobre aripiprazol o bupropión (PMID 38669232) figura com
 
 Aripiprazol está comercializado en España, con numerosas autorizaciones de medicamentos con un único principio activo (la lista puede ser parcial). Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 04276007IP2 | ABILIFY 10 MG COMPRIMIDOS | Comprimido |
-| 04276031 | ABILIFY 30 mg COMPRIMIDOS BUCODISPERSABLES | Comprimido bucodispersable |
-| 79973 | ARIPIPRAZOL COMBIX 10 MG COMPRIMIDOS EFG | Comprimido |
-| 88582 | ABIPOL 15 MG CÁPSULAS DURAS EFG | Cápsula dura |
-| 79373 | ARIPIPRAZOL FLAS CINFA 10 MG COMPRIMIDOS BUCODISPERSABLES EFG | Comprimido bucodispersable |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 79973 | ARIPIPRAZOL COMBIX 10 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Combix S.L.U. | Comercializada |
+| 04276007IP2 | ABILIFY 10 MG COMPRIMIDOS | COMPRIMIDO | Otsuka Pharmaceutical Netherlands B.V. | Comercializada |
+| 79684 | APALOZ 10 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Alter S.A. | Comercializada |
+| 04276007IP3 | ABILIFY 10 MG COMPRIMIDOS | COMPRIMIDO | Otsuka Pharmaceutical Netherlands B.V. | Comercializada |
+| 79699 | APALOZ 15 MG COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Laboratorios Alter S.A. | Comercializada |
+| 88582 | ABIPOL 15 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Abartis Pharma S.L. | Comercializada |
+| 88907 | ABILIUM 15 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Pharma2pharma Sp. Z O.O. | Comercializada |
+| 81064 | TRACTIVA 10 mg COMPRIMIDOS EFG | COMPRIMIDO | Exeltis Healthcare S.L. | Comercializada |
+| 79448 | ARIZOL 5 MG COMPRIMIDOS EFG | COMPRIMIDO | Neuraxpharm Spain S.L.U. | Comercializada |
+| 79691 | ARIPIPRAZOL TEVA-RATIOPHARM 15 MG COMPRIMIDOS EFG | COMPRIMIDO | Teva Pharma S.L.U. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

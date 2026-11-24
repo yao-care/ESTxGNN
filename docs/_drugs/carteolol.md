@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 149
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Carteolol: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,14 +72,20 @@ Todos los candidatos que el modelo TxGNN propone para Carteolol (puntuación ≥
 
 ## Información de Mercado en España
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 71069 | carteolol | COLIRIO DE LIBERACION PROLONGADA | Cancelado |
-| 89580 | carteolol | COLIRIO EN SOLUCION DE LIBERACION PROLON | Autorizado, no comercializado |
-| 71070 | carteolol | COLIRIO DE LIBERACION PROLONGADA | Vigente |
-| 66383 | carteolol | COLIRIO DE LIBERACION PROLONGADA | Vigente |
-| 59039 | carteolol | COLIRIO EN SOLUCIÓN | Vigente |
-| 66366 | carteolol | COLIRIO DE LIBERACION PROLONGADA | Vigente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 71070 | ARTEOPTIC 20 mg/ml UNIDOSIS COLIRIO DE LIBERACION PROLONGADA EN ENVASE UNIDOSIS | COLIRIO DE LIBERACION PROLONGADA | Bausch + Lomb Ireland Limited | Comercializada |
+| 66383 | ARTEOPTIC 1% COLIRIO DE LIBERACION PROLONGADA | COLIRIO DE LIBERACION PROLONGADA | Bausch + Lomb Ireland Limited | Comercializada |
+| 59039 | ELEBLOC 20 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Immedica Pharma Ab | Comercializada |
+| 66366 | ARTEOPTIC 2% COLIRIO DE LIBERACION PROLONGADA | COLIRIO DE LIBERACION PROLONGADA | Bausch + Lomb Ireland Limited | Comercializada |
+| 89580 | ARTEOPTIC PF 2% COLIRIO EN SOLUCION DE LIBERACION PROLONGADA | COLIRIO EN SOLUCION DE LIBERACION PROLONGADA | Bausch + Lomb Ireland Limited | Autorizada, no comercializada |
+| 71069 | ARTEOPTIC 10 mg/ml UNIDOSIS COLIRIO DE LIBERACION PROLONGADA EN ENVASE UNIDOSIS | COLIRIO DE LIBERACION PROLONGADA | Bausch Health Ireland Limited | Revocada |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

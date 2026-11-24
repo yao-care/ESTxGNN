@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 780
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Terbutaline"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Terbutaline: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -83,10 +83,16 @@ Ninguna publicación estudia directamente la malformación respiratoria. Las sig
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 52616 | TERBASMIN 0,3 mg/ml SOLUCIÓN ORAL | Solución oral | No disponible en los datos compilados |
-| 58859 | TERBASMIN TURBUHALER 500 microgramos/inhalación POLVO PARA INHALACIÓN | Polvo para inhalación | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 52616 | TERBASMIN 0,3 mg/ml SOLUCION ORAL | SOLUCIÓN ORAL | Laboratorios Ern S.A. | Comercializada |
+| 58859 | TERBASMIN TURBUHALER 500 microgramos/inhalacion POLVO PARA INHALACION | POLVO PARA INHALACIÓN | Laboratorio Lailan S.A. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

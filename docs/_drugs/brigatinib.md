@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "BRIGATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brigatinib: nueva indicación predicha, Fibromatosis gingival (fibromatosis, gingival) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 4)"
 ---
 
@@ -72,12 +72,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 1181264008 | ALUNBRIG 90 MG comprimidos recubiertos con película | Comprimido recubierto con película |
-| 1181264011 | ALUNBRIG 30 MG comprimidos recubiertos con película | Comprimido recubierto con película |
-| 1181264012 | ALUNBRIG 90 MG + 180 MG comprimidos recubiertos con película | Comprimido recubierto con película |
-| 1181264010 | ALUNBRIG 180 MG comprimidos recubiertos con película | Comprimido recubierto con película |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1181264008 | ALUNBRIG 90 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Takeda Pharma A/S | Comercializada |
+| 1181264011 | ALUNBRIG 30 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Takeda Pharma A/S | Comercializada |
+| 1181264012 | ALUNBRIG 90MG + 180MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Takeda Pharma A/S | Comercializada |
+| 1181264010 | ALUNBRIG 180 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Takeda Pharma A/S | Comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

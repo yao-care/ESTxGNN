@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 504
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MEPOLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
 description: "Mepolizumab: nueva indicación predicha, Trombocitopenia por destrucción inmune (thrombocytopenia due to immune destruction) (nivel de evidencia L5). Indicación original: No consta en los datos locale"
@@ -76,12 +76,18 @@ Se trata de un único reporte de caso en un contexto distinto a la trombocitopen
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1151043003 | NUCALA 100 MG solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible |
-| 1151043009 | NUCALA 40 MG solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible |
-| 1151043005 | NUCALA 100 MG solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible |
-| 1151043001 | NUCALA 100 MG polvo para solución inyectable | Polvo para solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1151043003 | NUCALA 100 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Glaxosmithkline Trading Services Limited | Comercializada |
+| 1151043009 | NUCALA 40 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Glaxosmithkline Trading Services Limited | Comercializada |
+| 1151043005 | NUCALA 100 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Glaxosmithkline Trading Services Limited | Comercializada |
+| 1151043001 | NUCALA 100 MG POLVO PARA SOLUCION INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Glaxosmithkline Trading Services Limited | Autorizada, no comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

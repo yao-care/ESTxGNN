@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 381
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Glucarpidase: nueva indicación predicha, Catarata diabética (nivel de evidencia L5). Indicación original: No disponible en la autorización de AEMPS (el texto de indicación est…"
 monitor_inn: "glucarpidase"
 predicted_indications: ["diabetic cataract", "diabetic retinopathy", "tetanic cataract", "mature cataract", "craniostenosis cataract", "immature cataract", "diabetes mellitus type 2 associated cataract", "cortical cataract", "nuclear senile cataract", "senile cataract"]
@@ -70,9 +70,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1211586001 | VORAXAZE 1.000 UNIDADES POLVO PARA SOLUCION INYECTABLE (Serb) | Polvo para solución inyectable | No disponible en el registro |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1211586001 | VORAXAZE 1.000 UNIDADES POLVO PARA SOLUCION INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Serb | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

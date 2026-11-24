@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 822
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tretinoin"
 predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
 description: "Tretinoin: nueva indicación predicha, Nodulosis reumatoide (rheumatoid nodulosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 5)"
@@ -82,13 +82,19 @@ Actualmente no hay literatura relacionada disponible para la nodulosis reumatoid
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 65396 | VESANOID 10 mg CÁPSULAS BLANDAS | Cápsula blanda | No disponible en los datos compilados |
-| 52751 | NEOCARE 4 mg/g CREMA | Crema | No disponible en los datos compilados |
-| 60140 | RETIRIDES 0,25 MG/G CREMA | Crema | No disponible en los datos compilados |
-| 60142 | RETIRIDES 1 MG/G CREMA | Crema | No disponible en los datos compilados |
-| 60141 | RETIRIDES 0,5 MG/G CREMA | Crema | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 65396 | VESANOID 10 mg CAPSULAS BLANDAS | CÁPSULA BLANDA | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 52751 | NEOCARE 4 mg/g CREMA | CREMA | Industrial Farmaceutica Cantabria S.A. | Comercializada |
+| 60140 | RETIRIDES 0,25 MG/G CREMA | CREMA | Galenicum Derma S.L.U. | Comercializada |
+| 60142 | RETIRIDES 1 MG/G CREMA | CREMA | Galenicum Derma S.L.U. | Comercializada |
+| 60141 | RETIRIDES 0,5 MG/G CREMA | CREMA | Galenicum Derma S.L.U. | Comercializada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

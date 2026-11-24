@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "bleomycin"
 predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bleomycin: nueva indicación predicha, Neoplasia de la cauda equina (cauda equina neoplasm) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 1)"
 ---
 
@@ -73,10 +73,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 49313 | BLEOMICINA VIATRIS 15.000 UI (PH EUR) = 15 U (USP) POLVO PARA SOLUCION INYECTABLE | Polvo para solución inyectable | No registrada en los datos locales |
-| 81969 | BLEOMICINA ACCORD 15.000 UI POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | Polvo para solución inyectable | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 49313 | BLEOMICINA VIATRIS 15.000 UI (PH EUR) = 15 U (USP) POLVO PARA SOLUCION INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Viatris Pharmaceuticals S.L. | Comercializada |
+| 81969 | BLEOMICINA ACCORD 15.000 UI POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE | Accord Healthcare S.L.U. | Suspendida |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 De las dos autorizaciones, una está vigente y otra cancelada.
 

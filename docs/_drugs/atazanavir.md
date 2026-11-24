@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "ATAZANAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atazanavir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos …"
 ---
 
@@ -74,13 +74,24 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 Atazanavir cuenta con autorizaciones vigentes en España, en forma de cápsula dura. Entre los productos principales figuran:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 83678 | Atazanavir Dr. Reddys 200 mg cápsulas duras EFG | Cápsula dura | No registrada en los datos locales |
-| 1191353001 | Atazanavir Krka 150 mg cápsulas duras EFG | Cápsula dura | No registrada en los datos locales |
-| 80655 | Atazanavir Teva 300 mg cápsulas duras EFG | Cápsula dura | No registrada en los datos locales |
-| 03267004 | Reyataz 150 mg cápsulas duras | Cápsula dura | No registrada en los datos locales |
-| 84030 | Atazanavir Accord 200 mg cápsulas duras EFG | Cápsula dura | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 80655 | ATAZANAVIR TEVA 300 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Teva Pharma S.L.U. | Comercializada |
+| 84067 | ATAZANAVIR STADA 200 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorio Stada S.L. | Comercializada |
+| 84068 | ATAZANAVIR STADA 300 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorio Stada S.L. | Comercializada |
+| 80654 | ATAZANAVIR TEVA 200 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Teva Pharma S.L.U. | Comercializada |
+| 1191353001 | ATAZANAVIR KRKA 150 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Krka D.D. Novo Mesto | Autorizada, no comercializada |
+| 1191353003 | ATAZANAVIR KRKA 300 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Krka D.D. Novo Mesto | Autorizada, no comercializada |
+| 1161091017 | ATAZANAVIR MYLAN 300 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Mylan Pharmaceuticals Limited | Autorizada, no comercializada |
+| 1191353002 | ATAZANAVIR KRKA 200 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Krka D.D. Novo Mesto | Autorizada, no comercializada |
+| 03267008 | REYATAZ 300 MG CAPSULAS DURAS | CÁPSULA DURA | Bristol-Myers Squibb Pharma Eeig | Autorizada, no comercializada |
+| 03267006 | REYATAZ 200 MG CAPSULAS DURAS | CÁPSULA DURA | Bristol-Myers Squibb Pharma Eeig | Autorizada, no comercializada |
+
+Se muestran 10 de 19 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 460
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lenograstim: nueva indicación predicha, Trastorno de liberación primaria de plaquetas (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaciones de AEMPS (texto de…"
 monitor_inn: "LENOGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "severe nonproliferative diabetic retinopathy"]
@@ -78,10 +78,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 60672 | Granocyte 13 millones de UI polvo y disolvente para solución inyectable o perfusión | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
-| 60211 | Granocyte 34 millones de UI polvo y disolvente para solución inyectable o perfusión | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 60672 | GRANOCYTE 13 MILLONES DE UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE O PERFUSION | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Italfarmaco S.A. | Revocada |
+| 60211 | GRANOCYTE 34 MILLONES DE UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE O PERFUSION | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Italfarmaco S.A. | Revocada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

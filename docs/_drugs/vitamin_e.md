@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 856
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Vitamin E"
 predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin metabolism disease", "hereditary North American Indian childhood cirrhosis", "drug-induced liver injury", "microvillus inclusion disease", "hyperbiliverdinemia", "Navajo neurohepatopathy", "nevus of Ito", "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency", "mitochondrial DNA depletion syndrome, hepatocerebral form"]
 description: "Vitamin E: nueva indicación predicha, Inborn disorder of bilirubin metabolism (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 3)"
@@ -83,12 +83,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 62277 | AUXINA E-400 UI cápsulas blandas | Cápsula blanda | No disponible |
-| 14261 | AUXINA E-50 UI cápsulas blandas | Cápsula blanda | No disponible |
-| 34892 | AUXINA E-200 UI cápsulas blandas | Cápsula blanda | No disponible |
-| 32807 | EPHYNAL ampollas | Solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 62277 | AUXINA E-400 UI CAPSULAS BLANDAS | CÁPSULA BLANDA | Chiesi España S.A.U. | Comercializada |
+| 14261 | AUXINA E-50 UI CAPSULAS BLANDAS | CÁPSULA BLANDA | Chiesi España S.A.U. | Comercializada |
+| 34892 | AUXINA E-200 UI CAPSULAS BLANDAS | CÁPSULA BLANDA | Chiesi España S.A.U. | Comercializada |
+| 32807 | EPHYNAL AMPOLLAS | SOLUCIÓN INYECTABLE | Bayer Hispania S.L. | Revocada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

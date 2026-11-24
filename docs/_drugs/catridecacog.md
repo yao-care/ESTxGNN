@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 152
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Catridecacog: nueva indicación predicha, Trastorno de liberación primaria de las plaquetas (nivel de evidencia L5). Indicación original: Deficiencia de factor XIII, subunidad A"
 monitor_inn: "CATRIDECACOG"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia"]
@@ -79,9 +79,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 12775001 | NOVOTHIRTEEN 2500 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | Deficiencia congénita de factor XIII, subunidad A (según la indicación original del fármaco; el texto de la autorización no está disponible) |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 12775001 | NOVOTHIRTEEN 2500 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Novo Nordisk A/S | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

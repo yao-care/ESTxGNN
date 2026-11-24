@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 799
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tivozanib: nueva indicación predicha, Carcinoma endocervical (nivel de evidencia L5). Indicación original: Carcinoma de células renales (carcinoma renal de células claras…"
 monitor_inn: "TIVOZANIB"
 predicted_indications: ["endocervical carcinoma", "uterine ligament adenocarcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "cervical adenosquamous carcinoma, glassy cell variant", "uterine ligament endometrioid adenocarcinoma", "uterine ligament mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma", "cervical mucinous adenocarcinoma, minimal deviation variant"]
@@ -83,10 +83,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1171215001 | FOTIVDA 890 microgramos cápsulas duras | Cápsula dura | No especificada en los datos compilados |
-| 1171215002 | FOTIVDA 1340 microgramos cápsulas duras | Cápsula dura | No especificada en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1171215001 | FOTIVDA 890 MICROGRAMOS CAPSULAS DURAS | CÁPSULA DURA | Recordati Netherlands B.V. | Comercializada |
+| 1171215002 | FOTIVDA 1340 MICROGRAMOS CAPSULAS DURAS | CÁPSULA DURA | Recordati Netherlands B.V. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones están vigentes y pertenecen a Recordati Netherlands B.V.
 

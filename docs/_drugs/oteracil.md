@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 593
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "oteracil"
 predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
 description: "Oteracil: nueva indicación predicha, Adenoma velloso del ciego (cecum villous adenoma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 0; autorizadas no comercializadas: 4)"
@@ -72,12 +72,18 @@ Actualmente no hay literatura relacionada disponible.
 
 El estado de mercado es **autorizado, no comercializado**. Las cuatro autorizaciones registradas son de Nordic Group B.V. y ninguna figura como comercializada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 111669001 | TEYSUNO 15 mg/4,35 mg/11,8 mg cápsulas duras | Cápsula dura | No disponible en los datos compilados |
-| 111669002 | TEYSUNO 15 mg/4,35 mg/11,8 mg cápsulas duras | Cápsula dura | No disponible en los datos compilados |
-| 111669003 | TEYSUNO 20 mg/5,8 mg/15,8 mg cápsulas duras | Cápsula dura | No disponible en los datos compilados |
-| 111669004 | TEYSUNO 20 mg/5,8 mg/15,8 mg cápsulas duras | Cápsula dura | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 111669003 | TEYSUNO 20 mg/5,8 mg/15,8 mg CAPSULAS DURAS | CÁPSULA DURA | Nordic Group B.V. | Autorizada, no comercializada |
+| 111669002 | TEYSUNO 15 mg/4,35 mg/11,8 mg CAPSULAS DURAS | CÁPSULA DURA | Nordic Group B.V. | Autorizada, no comercializada |
+| 111669001 | TEYSUNO 15 mg/4,35 mg/11,8 mg CAPSULAS DURAS | CÁPSULA DURA | Nordic Group B.V. | Autorizada, no comercializada |
+| 111669004 | TEYSUNO 20 mg/5,8 mg/15,8 mg CAPSULAS DURAS | CÁPSULA DURA | Nordic Group B.V. | Autorizada, no comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

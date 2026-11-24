@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 809
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRAMADOL"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 description: "Tramadol: nueva indicación predicha, Acromesomelic dysplasia, Hunter-Thompson type (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -79,13 +79,19 @@ Se muestran las 5 principales:
 
 <!-- review:end es-lic-20261105-tramadol-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 63920 | Tramadol Kern Pharma 50 mg cápsulas duras EFG | Cápsula dura | No disponible |
-| 69404 | Tramadol Farmalider 100 mg/ml solución oral EFG | Gotas orales en solución | No disponible |
-| 72399 | Tramadol Vir 100 mg/ml gotas orales en solución EFG | Gotas orales en solución | No disponible |
-| 77198 | Tramadol Retard Stada 150 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | No disponible |
-| 65408 | Tramadol Tarbis 200 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 63920 | TRAMADOL KERN PHARMA 50 mg, CAPSULAS DURAS EFG | CÁPSULA DURA | Kern Pharma S.L. | Comercializada |
+| 72399 | TRAMADOL VIR 100 mg/ml GOTAS ORALES EN SOLUCION EFG | GOTAS ORALES EN SOLUCIÓN | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 77198 | TRAMADOL RETARD STADA 150 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Laboratorio Stada S.L. | Comercializada |
+| 63133 | ZYTRAM 400 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Mundipharma Pharmaceuticals S.L. | Comercializada |
+| 81624 | TRAMADOL AUROVITAS 50 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Aurovitas Spain, S.A.U. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 268
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "dronedarone"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
 description: "Dronedarone: nueva indicación predicha, Ictus (stroke disorder) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 9 (comercializadas: 7)"
@@ -68,7 +68,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 <!-- review:begin es-lic-20261105-dronedarone-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 9 autorizaciones vigentes (todas de principio activo único)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 autorizaciones (comercializadas: 7); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se listan 5 de las 9 autorizaciones vigentes (todas de principio activo único)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-dronedarone-1 -->
 
@@ -89,13 +89,23 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 84024 | Dronedarona Ratiopharm 400 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-| 09591003 | Multaq 400 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 84320 | Dronedarona Aristo 400 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-| 84026 | Dronedarona Teva 400 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-| 84819 | Dronedarona Aurobindo 400 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 09591003 | MULTAQ 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sanofi Winthrop Industrie | Comercializada |
+| 09591003IP1 | MULTAQ 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sanofi Winthrop Industrie | Comercializada |
+| 84320 | DRONEDARONA ARISTO 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aristo Pharma Gmbh | Comercializada |
+| 84026 | DRONEDARONA TEVA 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva B.V. | Comercializada |
+| 09591003IP | MULTAQ 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sanofi Winthrop Industrie | Comercializada |
+| 85109 | DRONEDARONA AUROVITAS 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 84479 | DRONEDARONA AUROVITAS SPAIN 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 84024 | DRONEDARONA RATIOPHARM 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Ratiopharm Espana S.A. | Revocada |
+| 84819 | DRONEDARONA AUROBINDO 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EPG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Aurobindo S.L.U. | Revocada |
+
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -125,7 +135,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se listan 5 de las 9 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se listan 5 de las 9 autorizaciones vigentes (todas de principio activo único)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c) |
 
 <!-- review:end log -->

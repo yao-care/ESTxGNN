@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Theophylline"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Theophylline: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L5). Indicación original: Asma, bronquitis, enfisema pulmonar y otras enfermedades pulmonares"
 ---
 
@@ -84,13 +84,20 @@ Ninguna publicación estudia directamente la teofilina en enfermedad trombótica
 
 Los textos de indicación aprobada de estas autorizaciones están vacíos en los datos compilados.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 56165 | THEO-DUR 200 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible |
-| 56166 | THEO-DUR 300 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible |
-| 45303 | ELIXIFILIN 5,33 mg/ml solución oral | Solución oral | No disponible |
-| 31900 | TEROMOL RETARD 300 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible |
-| 56199 | THEO-DUR 100 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 56165 | THEO-DUR 200 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Vegal Farmaceutica S.L. | Comercializada |
+| 56166 | THEO-DUR 300 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Vegal Farmaceutica S.L. | Comercializada |
+| 45303 | ELIXIFILIN 5,33 MG/ML SOLUCION ORAL | SOLUCIÓN ORAL | Tora Laboratories S.L.U. | Comercializada |
+| 31900 | TEROMOL RETARD 300 MG COMPRIMIDOS DE LIBERACIÓN PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Laboratorio Aldo Union S.L. | Comercializada |
+| 56199 | THEO-DUR 100 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Vegal Farmaceutica S.L. | Comercializada |
+| 1891 | EUFILINA VENOSA 200 mg SOLUCIÓN INYECTABLE | SOLUCIÓN INYECTABLE | Zr Pharma & Gmbh | Revocada |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Además existe una autorización cancelada (1891, EUFILINA VENOSA 200 mg solución inyectable).
 

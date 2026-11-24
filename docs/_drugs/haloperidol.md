@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 390
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "HALOPERIDOL"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
 description: "Haloperidol: nueva indicación predicha, Congenital disorder of glycosylation with defective fucosylation (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 5)"
@@ -81,13 +81,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 58355 | Haloperidol Esteve 2 mg/ml solución oral | Solución oral | — |
-| 58343 | Haloperidol Esteve 10 mg comprimidos | Comprimido | — |
-| 55576 | Haloperidol Prodes 10 mg comprimidos | Comprimido | — |
-| 33488 | Haloperidol Prodes 2 mg/ml gotas orales en solución | Gotas orales en solución | — |
-| 58345 | Haloperidol Esteve 5 mg/ml solución inyectable | Solución inyectable | — |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 58355 | HALOPERIDOL ESTEVE 2 mg/ml SOLUCION ORAL | SOLUCIÓN ORAL | Esteve Pharmaceuticals S.A. | Comercializada |
+| 58343 | HALOPERIDOL ESTEVE 10 mg COMPRIMIDOS | COMPRIMIDO | Esteve Pharmaceuticals S.A. | Comercializada |
+| 55576 | HALOPERIDOL PRODES 10 mg COMPRIMIDOS | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
+| 33488 | HALOPERIDOL PRODES 2mg/ml GOTAS ORALES EN SOLUCION | GOTAS ORALES EN SOLUCIÓN | Kern Pharma S.L. | Comercializada |
+| 58345 | HALOPERIDOL ESTEVE 5 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Esteve Pharmaceuticals S.A. | Comercializada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las cinco autorizaciones son de medicamentos de un solo principio activo y están vigentes. El texto de la indicación aprobada no figura en los datos compilados.
 

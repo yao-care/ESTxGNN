@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "IMIDAPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
 description: "Imidapril: nueva indicación predicha, Pulmonary hypertension owing to lung disease and/or hypoxia (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 12 (comercializadas: 9)"
@@ -78,19 +78,30 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 63425 | HIPERTENE 5 mg comprimidos | Comprimido | No disponible |
-| 63426 | HIPERTENE 10 mg comprimidos | Comprimido | No disponible |
-| 63427 | HIPERTENE 20 mg comprimidos | Comprimido | No disponible |
-| 83139 | IMIDAPRIL QUALIGEN 5 mg comprimidos EFG | Comprimido | No disponible |
-| 83140 | IMIDAPRIL QUALIGEN 10 mg comprimidos EFG | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 83139 | IMIDAPRIL QUALIGEN 5 MG COMPRIMIDOS EFG | COMPRIMIDO | Neuraxpharm Spain S.L. | Comercializada |
+| 63425 | HIPERTENE 5 mg COMPRIMIDOS | COMPRIMIDO | Laboratorios Bial S.A. | Comercializada |
+| 83141 | IMIDAPRIL QUALIGEN 20 MG COMPRIMIDOS EFG | COMPRIMIDO | Neuraxpharm Spain S.L. | Comercializada |
+| 83179 | IMIDAPRIL DARI PHARMA 20 MG COMPRIMIDOS EFG | COMPRIMIDO | Dari Pharma S.L. | Comercializada |
+| 83180 | IMIDAPRIL DARI PHARMA 10 MG COMPRIMIDOS EFG | COMPRIMIDO | Dari Pharma S.L. | Comercializada |
+| 83178 | IMIDAPRIL DARI PHARMA 5 MG COMPRIMIDOS EFG | COMPRIMIDO | Dari Pharma S.L. | Comercializada |
+| 63426 | HIPERTENE 10 mg COMPRIMIDOS | COMPRIMIDO | Laboratorios Bial S.A. | Comercializada |
+| 83140 | IMIDAPRIL QUALIGEN 10 MG COMPRIMIDOS EFG | COMPRIMIDO | Neuraxpharm Spain S.L. | Comercializada |
+| 63427 | HIPERTENE 20 mg COMPRIMIDOS | COMPRIMIDO | Laboratorios Bial S.A. | Comercializada |
+| 83177 | IMIDAPRIL ASIBILAN 20 MG COMPRIMIDOS EFG | COMPRIMIDO | Neuraxpharm Pharmaceuticals S.L. | Revocada |
+
+Se muestran 10 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 El resto corresponde a genéricos (EFG) de Neuraxpharm (Qualigen y Asibilan) y Dari Pharma, en dosis de 5, 10 y 20 mg.
 
 <!-- review:begin es-lic-20261105-imidapril-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 12 autorizaciones vigentes (todas de monofármaco). El resto corresponde a genéricos (EFG) de Neuraxpharm (Qualigen y Asibilan) y Dari Pharma, en dosis de 5, 10 y 20 mg." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 12 autorizaciones (comercializadas: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 12 autorizaciones vigentes (todas de monofármaco). El resto corresponde a genéricos (EFG) de Neuraxpharm (Qualigen y Asibilan) y Dari Pharma, en dosis de 5, 10 y 20 mg." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-imidapril-1 -->
 
@@ -124,7 +135,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 12 autorizaciones vigentes (todas de monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 12 autorizaciones vigentes (todas de monofármaco)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

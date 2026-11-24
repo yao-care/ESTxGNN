@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "bacitracin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "infective urethral stricture", "post-infectious syndrome", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bacitracin: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 2)"
 ---
 
@@ -72,11 +72,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 45656 | POMADA ANTIBIOTICA LIADE | Pomada | No registrada en los datos locales |
-| 25490 | DERMO-HUBBER 10 MG/G + 3,5 MG/G + 600 UI/G POMADA | Pomada | No registrada en los datos locales |
-| 39071 | PHONAL COMPRIMIDOS PARA CHUPAR | Comprimido para chupar | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 45656 | POMADA ANTIBIOTICA LIADE | POMADA | Laboratorio Farmaceutico S.I.T. - Specialita' Igienico Tera… | Comercializada |
+| 25490 | DERMO-HUBBER 10 MG/G + 3,5 MG/G + 600 UI/G POMADA | POMADA | Teofarma S.R.L. | Comercializada |
+| 39071 | PHONAL COMPRIMIDOS PARA CHUPAR | COMPRIMIDO PARA CHUPAR | Laboratorio Reig Jofre, S.A. | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

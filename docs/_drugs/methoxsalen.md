@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 513
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "methoxsalen"
 predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
 description: "Methoxsalen: nueva indicación predicha, Reticulosis pagetoide localizada (localized pagetoid reticulosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 3; autorizadas no comercializadas: 1)"
@@ -78,13 +78,19 @@ Como referencia indirecta, para la segunda predicción (linfoma cutáneo de cél
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 82826 | Metoxaleno G.L. Pharma 20 microgramos/ml | Solución para modificación de las fracciones sanguíneas | No disponible en el texto de la autorización |
-| 86543 | Metoxaleno Macopharma 20 microgramos/ml | Solución para modificación de las fracciones sanguíneas | No disponible en el texto de la autorización |
-| 29008 | Oxsoralen | Cápsula dura | No disponible en el texto de la autorización |
-| 89031 | Metoxaleno S.A.L.F. 20 microgramos/ml | Solución para modificación de las fracciones sanguíneas | No disponible en el texto de la autorización |
-| 70858 | Uvadex 20 microgramos/ml | Solución para modificación de las fracciones sanguíneas | No disponible en el texto de la autorización |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 82826 | METOXALENO G.L. PHARMA 20 MICROGRAMOS/ML SOLUCION PARA MODIFICACION DE LAS FRACCIONES SANGUINEAS | SOLUCIÓN PARA MODIFICACIÓN DE LAS FRACCIONES SANGUÍNEAS | G.L. Pharma Gmbh | Comercializada |
+| 86543 | METOXALENO MACOPHARMA 20 MICROGRAMOS/ML SOLUCION PARA MODIFICACION DE LAS FRACCIONES SANGUINEAS | SOLUCIÓN PARA MODIFICACIÓN DE LAS FRACCIONES SANGUÍNEAS | Maco Pharma | Comercializada |
+| 70858 | UVADEX 20 microgramos/ml SOLUCION PARA MODIFICACION DE LAS FRACCIONES SANGUINEAS | SOLUCIÓN PARA MODIFICACIÓN DE LAS FRACCIONES SANGUÍNEAS | Therakos Europe Limited | Comercializada |
+| 89031 | METOXALENO S.A.L.F. 20 MICROGRAMOS/ML SOLUCION PARA MODIFICACION DE LAS FRACCIONES SANGUINEAS | SOLUCIÓN PARA MODIFICACIÓN DE LAS FRACCIONES SANGUÍNEAS | S.A.L.F. S.P.A. Laboratorio Farmacologico | Autorizada, no comercializada |
+| 29008 | OXSORALEN | CÁPSULA DURA | Laboratorios Galderma S.A. | Suspendida |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

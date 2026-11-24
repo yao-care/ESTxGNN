@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "almotriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Almotriptan: nueva indicación predicha, Atrofodermia vermiculada (atrophoderma vermiculata) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 20 (comercializadas: 16; autorizadas no comercializadas: 2)"
 ---
 
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 355614-6 | ALMOGRAN COMPRIMIDOS RECUBIERTOS | Comprimido recubierto con película |
-| 63564808 | ALMOGRAN 12,5 mg COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película |
-| 78933 | ALMOTRIPTAN COMBIX 12,5 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película |
-| 62877 | ALMOGRAN 12,5 mg COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película |
-| 90774 | ALMOTRIPTAN QUALIX 12,5 MG COMPRIMIDOS BUCODISPERSABLES EFG | Comprimido bucodispersable |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 63564808 | ALMOGRAN 12,5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Almirall S.A.S. | Comercializada |
+| 78933 | ALMOTRIPTAN COMBIX 12,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 62877 | ALMOGRAN 12,5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Almirall S.A. | Comercializada |
+| 034996037 | ALMOGRAN 12,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Almirall S.A. | Comercializada |
+| 3400935860705 | ALMOGRAN 12,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Almirall S.A.S. | Comercializada |
+
+Se muestran 5 de 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 La lista muestra solo las cinco primeras autorizaciones; existen más productos con licencia vigente.
 

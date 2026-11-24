@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 292
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
 description: "Entecavir: nueva indicación predicha, Infección crónica por el virus de la hepatitis C (chronic hepatitis C virus infection) (nivel de evidencia L4). Indicación original: No consta en los datos local…"
@@ -104,13 +104,19 @@ Se listan las 5 principales.
 
 <!-- review:end es-lic-20261105-entecavir-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 06343003 | BARACLUDE 0,5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No consignada en los datos disponibles |
-| 06343004 | BARACLUDE 1 mg comprimidos recubiertos con película | Comprimido recubierto con película | No consignada en los datos disponibles |
-| 06343005 | BARACLUDE 0,05 mg/ml solución oral | Solución oral | No consignada en los datos disponibles |
-| 82136 | ENTECAVIR STADA 0,5 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No consignada en los datos disponibles |
-| 84926 | ENTECAVIR SUN 0,5 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No consignada en los datos disponibles |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 84926 | ENTECAVIR SUN 0,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+| 06343003 | BARACLUDE 0,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Bristol-Myers Squibb Pharma Eeig | Comercializada |
+| 82135 | ENTECAVIR NORMON 1 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 83505 | ENTECAVIR TARBIS 1 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Comercializada |
+| 82173 | ENTECAVIR SANDOZ 1 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

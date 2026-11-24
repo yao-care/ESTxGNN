@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 202
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Clotrimazole"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
 description: "Clotrimazole: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -87,13 +87,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Se muestran 5 de las 20 autorizaciones vigentes, todas de fármaco único. Los datos disponibles no incluyen el texto de indicación aprobada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 52626 | Canesten 10 mg/g crema | Crema |
-| 52625 | Canesten 10 mg/ml solución para pulverización cutánea | Solución para pulverización cutánea |
-| 56826 | Canesten 10 mg/g polvo cutáneo | Polvo cutáneo |
-| 82837 | Clotrimazol Nutra Essential 10 mg/g espuma cutánea | Espuma cutánea |
-| 90227 | Clotic 10 mg/ml gotas óticas en solución en envase unidosis | Gotas óticas en solución |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 11003-29-03-1999 | GINE-CANESTEN 20 MG/G CREMA VAGINAL | CREMA VAGINAL | Bayer Hellas Α.Β.Ε.Ε. | Comercializada |
+| 90227 | CLOTIC 10 MG/ML GOTAS OTICAS EN SOLUCION EN ENVASE UNIDOSIS | GOTAS ÓTICAS EN SOLUCIÓN EN ENVASE UNIDOSIS | Laboratorios Salvat S.A. | Comercializada |
+| 56755 | GINE-CANESTEN 500 mg COMPRIMIDO VAGINAL | COMPRIMIDO VAGINAL | Bayer Hispania S.L. | Comercializada |
+| 52626 | CANESTEN 10 mg/g CREMA | CREMA | Bayer Hispania S.L. | Comercializada |
+| 56825 | GINE-CANESTEN 20 mg/g CREMA VAGINAL | CREMA VAGINAL | Bayer Hispania S.L. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

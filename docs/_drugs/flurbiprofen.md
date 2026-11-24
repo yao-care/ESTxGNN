@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "flurbiprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
 description: "Flurbiprofen: nueva indicación predicha, Displasia acromesomélica tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (nivel de evidencia L5)."
@@ -88,13 +88,19 @@ Se muestran las 5 principales:
 
 <!-- review:end es-lic-20261105-flurbiprofen-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 81995 | Flurbiprofeno Sandoz Care 8,75 mg pastillas para chupar sabor naranja | Pastilla para chupar | No disponible en los datos compilados |
-| 72938 | Strefen 8,75 mg pastillas para chupar sabor miel y limón | Pastilla para chupar | No disponible en los datos compilados |
-| 79428 | Strefen Spray 8,75 mg/dosis solución para pulverización bucal sabor menta | Solución para pulverización bucal | No disponible en los datos compilados |
-| 86682 | Tantufen 8,75 mg pastillas para chupar sabor limón | Pastilla para chupar | No disponible en los datos compilados |
-| 90713 | Gutturbes 2,5 mg/ml solución para enjuague bucal | Solución para enjuague bucal | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 72938 | STREFEN 8,75 mg PASTILLAS PARA CHUPAR SABOR MIEL Y LIMON | PASTILLA PARA CHUPAR | Reckitt Benckiser Healthcare S.A. | Comercializada |
+| 59630372017 | STREFEN 8,75 mg PASTILLAS PARA CHUPAR SABOR MIEL Y LIMON | PASTILLA PARA CHUPAR | Reckitt Benckiser Hellas Healthcare S.A. | Comercializada |
+| 686451612022019 | STREFEN 8,75 MG PASTILLAS PARA CHUPAR SABOR NARANJA | PASTILLA PARA CHUPAR | Reckitt Benckiser Hellas Healthcare S.A. | Comercializada |
+| 79428 | STREFEN SPRAY 8,75 MG/DOSIS SOLUCION PARA PULVERIZACION BUCAL SABOR MENTA | SOLUCIÓN PARA PULVERIZACIÓN BUCAL | Reckitt Benckiser Healthcare S.A. | Comercializada |
+| 76902 | STREFEN 8,75 MG PASTILLAS PARA CHUPAR SABOR NARANJA | PASTILLA PARA CHUPAR | Reckitt Benckiser Healthcare S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Las presentaciones comercializadas son pastillas para chupar, soluciones para pulverización bucal y soluciones para enjuague bucal, todas de dosis baja (8,75 mg o 2,5 mg/ml) y de uso local en la cavidad oral.
 

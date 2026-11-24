@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 606
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Palonosetron: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (las autorizaciones no incluyen…"
 monitor_inn: "palonosetron"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -87,19 +87,30 @@ Nota: para la entidad "susceptibilidad a migraña con o sin aura" se asoció ade
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 81572 | Palonosetron Qilu 250 microgramos solución inyectable EFG | Solución inyectable | No disponible |
-| 83304 | Palonosetron Altan 250 microgramos solución inyectable EFG | Solución inyectable | No disponible |
-| 1161104001 | Palonosetron Accord 250 microgramos solución inyectable EFG | Solución inyectable | No disponible |
-| 83005 | Ferant 250 microgramos solución inyectable EFG | Solución inyectable | No disponible |
-| 81900 | Palonosetron Fresenius Kabi 250 microgramos solución inyectable EFG | Solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 81572 | PALONOSETRON QILU 250 MICROGRAMOS SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Qilu Pharma Spain S.L. | Comercializada |
+| 1161104001 | PALONOSETRON ACCORD 250 MICROGRAMOS SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Accord Healthcare S.L.U. | Comercializada |
+| 83005 | FERANT 250 MICROGRAMOS SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Medochemie Limited | Comercializada |
+| 80893 | PALONOSETRON SALA 250 MICROGRAMOS SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 1151001001 | AKYNZEO 300 MG/0,5 MG CAPSULAS DURAS | CÁPSULA DURA | Helsinn Birex Pharmaceuticals Limited | Comercializada |
+| 04306001 | ALOXI 250 microgramos SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Helsinn Birex Pharmaceuticals Limited | Autorizada, no comercializada |
+| 1151001003 | AKYNZEO 235 MG/0,25 MG POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Helsinn Birex Pharmaceuticals Limited | Autorizada, no comercializada |
+| 83304 | PALONOSETRON ALTAN 250 MICROGRAMOS SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Altan Pharmaceuticals Sa | Revocada |
+| 81900 | PALONOSETRON FRESENIUS KABI 250 MCROGRAMOS SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Fresenius Kabi España, S.A.U. | Revocada |
+| 86421 | PALONOSETRON KALCEKS 250 MICROGRAMOS SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Kalceks As | Revocada |
+
+Se muestran 10 de 11 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Entre las restantes figuran Aloxi y Akynzeo (combinación con netupitant, en cápsulas y polvo para perfusión).
 
 <!-- review:begin es-lic-20261105-palonosetron-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 11 autorizaciones vigentes (todas monofármaco). Entre las restantes figuran Aloxi y Akynzeo (combinación con netupitant, en cápsulas y polvo para perfusión)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 11 autorizaciones (comercializadas: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 11 autorizaciones vigentes (todas monofármaco). Entre las restantes figuran Aloxi y Akynzeo (combinación con netupitant, en cápsulas y polvo para perfusión)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-palonosetron-1 -->
 
@@ -136,7 +147,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 11 autorizaciones vigentes (todas monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 11 autorizaciones vigentes (todas monofármaco)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7) |
 
 <!-- review:end log -->

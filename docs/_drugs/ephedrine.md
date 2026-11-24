@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 294
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ephedrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Ephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 13 (comercializadas: 12; autorizadas no comercializadas: 1)"
@@ -75,15 +75,32 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 90455 | Efedrina Aguettant 3 mg/ml solución inyectable | Solución inyectable | Sin texto de indicación disponible |
-| 79516 | Efedrina Aguettant 3 mg/ml solución inyectable en jeringas precargadas | Solución inyectable en jeringa precargada | Sin texto de indicación disponible |
-| 90454 | Efedrina Aguettant 30 mg/ml solución inyectable | Solución inyectable | Sin texto de indicación disponible |
-| 70338 | Hidrocloruro de Efedrina Altan 10 mg/ml solución inyectable | Solución inyectable | Sin texto de indicación disponible |
-| 73280 | Hidrocloruro de Efedrina Kabi 30 mg/ml solución inyectable | Solución inyectable | Sin texto de indicación disponible |
+<!-- licenses:begin -->
 
-Hay 13 autorizaciones vigentes en total, todas de composición simple. Incluyen también comprimidos (Efedrina Level 50 mg), pomadas rectales (Hemoal, Hemoal Forte) y un jarabe (Codinex).
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 90455 | EFEDRINA AGUETTANT 3 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Laboratoire Aguettant | Comercializada |
+| 79516 | EFEDRINA AGUETTANT 3 mg/ml SOLUCION INYECTABLE EN JERINGAS PRECARGADAS | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Laboratoire Aguettant | Comercializada |
+| 90454 | EFEDRINA AGUETTANT 30 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Laboratoire Aguettant | Comercializada |
+| 70338 | HIDROCLORURO DE EFEDRINA ALTAN 10 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Altan Pharmaceuticals Sa | Comercializada |
+| 73280 | HIDROCLORURO DE EFEDRINA KABI 30 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Fresenius Kabi España, S.A.U. | Comercializada |
+| 89572 | EFEDRINA FRESENIUS KABI 10 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Fresenius Kabi España, S.A.U. | Comercializada |
+| 15544 | EFEDRINA LEVEL 50 MG COMPRIMIDOS | COMPRIMIDO | Laboratorios Ern S.A. | Comercializada |
+| 89573 | EFEDRINA FRESENIUS KABI 30 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Fresenius Kabi España, S.A.U. | Comercializada |
+| 77108 | HIDROCLORURO DE EFEDRINA ALTAN 3MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Altan Pharmaceuticals Sa | Comercializada |
+| 69577 | HEMOAL FORTE POMADA RECTAL | POMADA RECTAL | Reckitt Benckiser Healthcare S.A. | Comercializada |
+
+Se muestran 10 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
+
+Las autorizaciones son en su mayoría de composición simple; HEMOAL y HEMOAL FORTE (benzocaína + efedrina) y CODINEX (codeína + efedrina + sulfoguayacolato potasio) son combinaciones. Incluyen también comprimidos (Efedrina Level 50 mg), pomadas rectales (Hemoal, Hemoal Forte) y un jarabe (Codinex).
+
+<!-- review:begin es-lic-20261124-ephedrine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 13 autorizaciones vigentes en total, todas de composición simple." Corregido: según CIMA (AEMPS), HEMOAL POMADA RECTAL, HEMOAL FORTE POMADA RECTAL y CODINEX JARABE son combinaciones; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124-ephedrine-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -110,11 +127,12 @@ La evidencia se limita a la predicción del modelo y a dos publicaciones antigua
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Emerphed Pfs (ephedrine sulfate) prescribing information, Nexus Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14601778-93ac-43ec-b66b-5a942317133f) |
+| 2026-11-24 | «todas de composición simple» → 3 son combinaciones | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

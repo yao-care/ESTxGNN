@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Vincristine"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Vincristine: nueva indicación predicha, Anomalías vertebrales con disfunción endocrina y de linfocitos T variable (nivel de evidencia L5). Indicación original: Leucemia linfoblástica aguda"
 ---
 
@@ -72,10 +72,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 62378 (vigente) | VINCRISTINA PFIZER 1 mg/ml SOLUCIÓN INYECTABLE EFG | Solución inyectable | No consta en los datos compilados |
-| 71117 (cancelada) | VINCRISTINA TEVA 1 mg/ml SOLUCIÓN INYECTABLE EFG | Solución inyectable | No consta en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 62378 | VINCRISTINA PFIZER 1 mg/ml SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Pfizer S.L. | Comercializada |
+| 71117 | VINCRISTINA TEVA 1 mg/ml SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Teva Pharma S.L.U. | Revocada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones corresponden a medicamentos con vincristina como único principio activo.
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 710
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "rizatriptan"
 predicted_indications: ["atrophoderma vermiculata"]
 description: "Rizatriptan: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -92,13 +92,24 @@ Los datos compilados no incluyen el texto de la indicación aprobada para estas 
 
 <!-- review:end es-lic-20261105-rizatriptan-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 76309 | Rizatriptan Viso Farmacéutica 10 mg comprimidos bucodispersables EFG | Comprimido bucodispersable | No disponible en los datos compilados |
-| 77083 | Rizatriptan Flas Pensa 10 mg comprimidos bucodispersables EFG | Comprimido bucodispersable | No disponible en los datos compilados |
-| 74677 | Rizatriptan Teva 10 mg comprimidos bucodispersables EFG | Comprimido bucodispersable | No disponible en los datos compilados |
-| 62289 | Maxalt 10 mg comprimidos | Comprimido | No disponible en los datos compilados |
-| 84577 | Migratrip 10 mg gel oral EFG | Gel oral | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 76309 | RIZATRIPTAN VISO FARMACEUTICA 10 MG COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Glenmark Arzneimittel Gmbh | Comercializada |
+| 77083 | RIZATRIPTAN FLAS PENSA 10 MG COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Towa Pharmaceutical S.A. | Comercializada |
+| 433650100IP | MAXALT MAX 10 MG LIOFILIZADO ORAL | LIOFILIZADO ORAL | Organon Healthcare Gmbh | Comercializada |
+| 62289 | MAXALT 10 mg COMPRIMIDOS | COMPRIMIDO | Organon Salud S.L. | Comercializada |
+| 034115117IP | MAXALT MAX 10 mg LIOFILIZADO ORAL | LIOFILIZADO ORAL | Organon Italia S.R.L. | Comercializada |
+| 034115117 | MAXALT MAX 10 mg LIOFILIZADO ORAL | LIOFILIZADO ORAL | Organon Italia S.R.L. | Comercializada |
+| 76107 | RIZATRIPTAN TEVA-RATIOPHARM 10 mg COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Teva Pharma S.L.U. | Comercializada |
+| 74722 | RIZATRIPTAN SANDOZ 10 mg COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Sandoz Farmaceutica S.A. | Comercializada |
+| 3400934794346 | MAXALT MAX 10 mg LIOFILIZADO ORAL | LIOFILIZADO ORAL | Organon France | Comercializada |
+| 433630100IP1 | MAXALT 10 MG COMPRIMIDOS | COMPRIMIDO | Organon Healthcare Gmbh | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

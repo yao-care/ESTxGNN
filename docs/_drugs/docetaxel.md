@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 258
 evidence_level: L2
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DOCETAXEL"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
 description: "Docetaxel: nueva indicación predicha, Sarcoma de Ewing (Ewing sarcoma) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: al menos 20"
@@ -92,13 +92,24 @@ El sarcoma de Ewing es un tumor de hueso y partes blandas de crecimiento rápido
 
 El fármaco está comercializado en España. Los datos disponibles son parciales y la lista de autorizaciones puede estar incompleta. Se registran 20 autorizaciones, de las cuales 10 están vigentes y 3 canceladas.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 95002004 | TAXOTERE 80 mg/4 ml | Concentrado para solución para perfusión | No disponible |
-| 95002005 | TAXOTERE 160 mg/8 ml | Concentrado para solución para perfusión | No disponible |
-| 95002003 | TAXOTERE 20 mg/1 ml | Concentrado para solución para perfusión | No disponible |
-| 89109 | Docetaxel Tillomed 20 mg/ml EFG | Concentrado para solución para perfusión | No disponible |
-| 12770001 | Docetaxel Kabi 80 mg/4 ml EFG | Concentrado para solución para perfusión | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 89958 | DOCETAXEL HIKMA 80 MG/4 ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Hikma Farmaceutica (Portugal) S.A. | Comercializada |
+| 12769001 | DOCETAXEL ACCORD 20 mg/1 ml CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 80278 | DOCETAXEL AUROVIT 20 MG/ML CONCENTRADO PARA SOLUCION Y PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Aurovitas Spain, S.A.U. | Comercializada |
+| 95002004 | TAXOTERE 80 mg/4 ml CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Sanofi Winthrop Industrie | Comercializada |
+| 71799 | DOCETAXEL HOSPIRA 10 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Pfizer S.L. | Comercializada |
+| 85174 | DOCETAXEL GLENMARK 20 MG/1 ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Glenmark Arzneimittel Gmbh | Comercializada |
+| 12769002 | DOCETAXEL ACCORD 80 mg/4 ml CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 89959 | DOCETAXEL HIKMA 160 MG/8 ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Hikma Farmaceutica (Portugal) S.A. | Comercializada |
+| 12769003 | DOCETAXEL ACCORD 160 mg/8 ml CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 86406 | DOCETAXEL SEACROSS 20 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Seacross Pharma (Europe) Limited | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

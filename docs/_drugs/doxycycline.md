@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 265
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "doxycycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
 description: "Doxycycline: nueva indicación predicha, Queratoconjuntivitis epitelial punctata (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 14 (comercializadas: 9)"
@@ -77,17 +77,23 @@ A continuación se listan 5 de ellas. Los textos de indicación aprobada no est�
 
 <!-- review:begin es-lic-20261105-doxycycline-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "El estado de mercado es "Comercializado", con 14 autorizaciones vigentes (14 de producto único, 0 combinaciones, 0 canceladas). A continuación se listan 5 de ellas." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 14 autorizaciones (comercializadas: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "El estado de mercado es "Comercializado", con 14 autorizaciones vigentes (14 de producto único, 0 combinaciones, 0 canceladas). A continuación se listan 5 de ellas." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-doxycycline-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 61227 | PRODERMA 200 mg cápsulas duras | Cápsula dura | Industrial Farmacéutica Cantabria S.A. |
-| 50521 | VIBRAVENOSA 100 mg solución inyectable y para perfusión | Solución inyectable | Hospira Invicta S.A. |
-| 47831 | DOXITÉN BIO 100 mg cápsulas | Cápsula dura | Teofarma S.R.L. |
-| 46554 | VIBRACINA 10 mg/ml suspensión oral | Suspensión oral | Hospira Invicta S.A. |
-| 73622 | ORACEA 40 mg cápsulas duras de liberación modificada | Cápsula dura de liberación modificada | Laboratorios Galderma S.A. |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61227 | PRODERMA 200 mg CAPSULAS DURAS | CÁPSULA DURA | Industrial Farmaceutica Cantabria S.A. | Comercializada |
+| 61226 | PRODERMA 100 mg CAPSULAS DURAS | CÁPSULA DURA | Industrial Farmaceutica Cantabria S.A. | Comercializada |
+| 46554 | VIBRACINA 10 mg/ml SUSPENSIÓN ORAL | SUSPENSIÓN ORAL | Hospira Invicta S.A. | Comercializada |
+| 46406 | VIBRACINA 100 mg CÁPSULAS DURAS | CÁPSULA DURA | Hospira Invicta S.A. | Comercializada |
+| 61230 | PRODERMA 50 mg CAPSULAS DURAS | CÁPSULA DURA | Industrial Farmaceutica Cantabria S.A. | Comercializada |
+
+Se muestran 5 de 14 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -122,7 +128,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "El estado de mercado es "Comercializado", con 14 autorizaciones vigentes (14 de producto único, 0 combinaciones, 0 canceladas)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "El estado de mercado es "Comercializado", con 14 autorizaciones vigentes (14 de producto único, 0 combinaciones, 0 canceladas)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8) |
 
 <!-- review:end log -->

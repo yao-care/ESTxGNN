@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 229
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
 description: "Deferasirox: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: al menos 20"
@@ -92,13 +92,24 @@ Los textos de indicación aprobada no figuran en los datos compilados.
 
 <!-- review:end es-lic-20261105-deferasirox-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 06356001 | Exjade 125 mg comprimidos dispersables | Comprimido dispersable | No disponible |
-| 106356011 | Exjade 90 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 84909 | Deferasirox Stada 180 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 86261 | Deferasirox Aurovitas 90 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 89130 | Deferasirox Sun 360 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 86261 | DEFERASIROX AUROVITAS 90 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 86446 | DEFERASIROX VISO FARMACEUTICA 90 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Glenmark Arzneimittel Gmbh | Comercializada |
+| 106356011 | EXJADE 90 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Novartis Europharm Limited | Comercializada |
+| 84883 | DEFERASIROX ZENTIVA 90 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Zentiva K.S. | Comercializada |
+| 86445 | DEFERASIROX VISO FARMACEUTICA 360 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Glenmark Arzneimittel Gmbh | Comercializada |
+| 84529 | DEFERASIROX VIVANTA 360 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vivanta Generics S.R.O. | Comercializada |
+| 85517 | DEFERASIROX TEVA-RATIOPHARM 90 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+| 89130 | DEFERASIROX SUN 360 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sun Pharmaceutical Industries (Europe) B.V. | Autorizada, no comercializada |
+| 1191412002 | DEFERASIROX ACCORD 90 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Autorizada, no comercializada |
+| 1191412010 | DEFERASIROX ACCORD 360 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

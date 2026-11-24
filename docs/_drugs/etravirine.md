@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 320
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Etravirine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "obsolete familial combined hyperlipidemia"]
 description: "Etravirine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos …"
@@ -77,10 +77,16 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 08468001 | INTELENCE 100 MG COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
-| 08468002 | INTELENCE 200 MG COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 08468002 | INTELENCE 200 MG COMPRIMIDOS | COMPRIMIDO | Janssen-Cilag International N.V | Comercializada |
+| 08468001 | INTELENCE 100 MG COMPRIMIDOS | COMPRIMIDO | Janssen-Cilag International N.V | Autorizada, no comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Titular: Janssen-Cilag International N.V. Ambas autorizaciones son de medicamento único y están vigentes.
 

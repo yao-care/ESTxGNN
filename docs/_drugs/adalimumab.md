@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ADALIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adalimumab: nueva indicación predicha, hipermovilidad del cóccix (hypermobility of coccyx) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -74,13 +74,24 @@ Actualmente no hay literatura relacionada disponible.
 
 Según los datos compilados, hay 8 autorizaciones vigentes y 4 canceladas, y el listado puede ser parcial. Los textos de indicación aprobada no figuran en los registros locales.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 1171216014 | IMRALDI 40 MG solución inyectable en pluma precargada | Solución inyectable en pluma precargada |
-| 03256003 | HUMIRA 40 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada |
-| 1171216001 | IMRALDI 40 MG solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada |
-| 1211589001 | HUKYNDRA 40 MG solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada |
-| 1181286010 | HYRIMOZ 80 MG solución inyectable en pluma precargada | Solución inyectable en jeringa precargada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1171216014 | IMRALDI 40 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Samsung Bioepis Nl B.V. | Comercializada |
+| 1181286010 | HYRIMOZ 80 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Sandoz Gmbh | Comercializada |
+| 1181286012 | HYRIMOZ 40 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN EN JERINGA PRECARGADA | Sandoz Gmbh | Comercializada |
+| 1191356002 | IDACIO 40 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Fresenius Kabi Deutschland Gmbh | Comercializada |
+| 103256013 | Humira 40mg solucion inyectable en jeringa precargada | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 1171216010 | IMRALDI 40 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Samsung Bioepis Nl B.V. | Comercializada |
+| 103256017 | HUMIRA 40 MG SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 1171216001 | IMRALDI 40 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Samsung Bioepis Nl B.V. | Autorizada, no comercializada |
+| 1211589001 | HUKYNDRA 40 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Stada Arzneimittel Ag | Autorizada, no comercializada |
+| 1211589004 | HUKYNDRA 40 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Stada Arzneimittel Ag | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

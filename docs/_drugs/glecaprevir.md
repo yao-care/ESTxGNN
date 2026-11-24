@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "glecaprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Glecaprevir: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -88,10 +88,16 @@ Por ello, cualquier afirmación debe limitarse a esa población coinfectada y no
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1171213002 | MAVIRET 50 MG/20 MG gránulos recubiertos en sobre | Gránulos recubiertos en sobres | Texto de indicación no disponible |
-| 1171213001 | MAVIRET 100 MG/40 MG comprimidos recubiertos con película | Comprimido recubierto con película | Texto de indicación no disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1171213002 | MAVIRET 50 MG/20 MG GRANULOS RECUBIERTOS EN SOBRE | GRANULOS RECUBIERTOS EN SOBRES | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 1171213001 | MAVIRET 100 MG/40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones están vigentes y el titular es Abbvie Deutschland GmbH & Co. KG.
 

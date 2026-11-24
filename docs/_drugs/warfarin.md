@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 861
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Warfarin: nueva indicación predicha, Deficiencia de cofactor 2 de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 4)"
@@ -84,12 +84,18 @@ Estas publicaciones describen casos clínicos y no permiten concluir eficacia. P
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 63063 | ALDOCUMAR 3 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
-| 63064 | ALDOCUMAR 5 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
-| 32864 | ALDOCUMAR 10 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
-| 63062 | ALDOCUMAR 1 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 63063 | ALDOCUMAR 3 mg COMPRIMIDOS | COMPRIMIDO | Laboratorio Aldo Union S.L. | Comercializada |
+| 63064 | ALDOCUMAR 5 mg COMPRIMIDOS | COMPRIMIDO | Laboratorio Aldo Union S.L. | Comercializada |
+| 32864 | ALDOCUMAR 10 mg COMPRIMIDOS | COMPRIMIDO | Laboratorio Aldo Union S.L. | Comercializada |
+| 63062 | ALDOCUMAR 1 mg COMPRIMIDOS | COMPRIMIDO | Laboratorio Aldo Union S.L. | Comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las cuatro autorizaciones son de Laboratorio Aldo Unión S.L., monofármaco y vigentes.
 

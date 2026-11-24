@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 410
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
 description: "Imipramine: nueva indicación predicha, Attention deficit-hyperactivity disorder (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"
@@ -83,11 +83,17 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 40366 | TOFRANIL 10 mg comprimidos recubiertos | Comprimido recubierto | No disponible |
-| 48384 | TOFRANIL 50 mg comprimidos recubiertos | Comprimido recubierto | No disponible |
-| 31004 | TOFRANIL 25 mg comprimidos recubiertos | Comprimido recubierto | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 40366 | TOFRANIL 10 mg COMPRIMIDOS RECIBIERTOS | COMPRIMIDO RECUBIERTO | Amdipharm Limited | Comercializada |
+| 48384 | TOFRANIL 50 mg COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Amdipharm Limited | Comercializada |
+| 31004 | TOFRANIL 25 mg COMPRIMIDOS RECIBIERTOS | COMPRIMIDO RECUBIERTO | Amdipharm Limited | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

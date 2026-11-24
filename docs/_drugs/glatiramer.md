@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 377
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Glatiramer: nueva indicación predicha, Hemoglobinopatía (nivel de evidencia L5). Indicación original: No disponible en las autorizaciones de AEMPS (el texto de indicación…"
 monitor_inn: "glatiramer"
 predicted_indications: ["hemoglobinopathy"]
@@ -73,12 +73,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 80933 | Glatiramero Viatris 20 mg/ml solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible |
-| 79515 | Copaxone 40 mg/ml solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible |
-| 82703 | Glatiramero Viatris 40 mg/ml solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible |
-| 65983 | Copaxone 20 mg/ml solución inyectable | Solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 80933 | GLATIRAMERO VIATRIS 20 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Viatris Limited | Comercializada |
+| 79515 | COPAXONE 40 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Teva Gmbh | Comercializada |
+| 82703 | GLATIRAMERO VIATRIS 40 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Viatris Limited | Comercializada |
+| 65983 | COPAXONE 20 mg/ml SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Teva Gmbh | Comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "EMICIZUMAB"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "thrombotic thrombocytopenic purpura", "fetal and neonatal alloimmune thrombocytopenia", "flood factor deficiency"]
 description: "Emicizumab: nueva indicación predicha, Pseudo-von Willebrand disease (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 5)"
@@ -84,13 +84,19 @@ Actualmente no hay ensayos clínicos relacionados registrados en los datos compi
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1181271001 | HEMLIBRA 30 MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | No disponible en los datos compilados |
-| 1181271002IP | HEMLIBRA 150 MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | No disponible en los datos compilados |
-| 1181271002IP1 | HEMLIBRA 150 MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | No disponible en los datos compilados |
-| 1181271002 | HEMLIBRA 150 MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | No disponible en los datos compilados |
-| 1181271002IP2 | HEMLIBRA 150 MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1181271001 | HEMLIBRA 30 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Roche Registration Gmbh | Comercializada |
+| 1181271002IP | HEMLIBRA 150 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Roche Registration Gmbh | Comercializada |
+| 1181271002IP1 | HEMLIBRA 150 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Roche Registration Gmbh | Comercializada |
+| 1181271002 | HEMLIBRA 150 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Roche Registration Gmbh | Comercializada |
+| 1181271002IP2 | HEMLIBRA 150 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Roche Registration Gmbh | Comercializada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las cinco autorizaciones están vigentes (titular: Roche Registration GmbH).
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 783
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "terlipressin"
 predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "esotropia", "glaucoma 1, open angle", "headache disorder"]
 description: "Terlipressin: nueva indicación predicha, Open-angle glaucoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 5)"
@@ -87,19 +87,28 @@ Se muestran las publicaciones más relevantes para hipertensión pulmonar (prior
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 71539 | VARIQUEL 1 mg polvo y disolvente para solución inyectable EFG | Polvo y disolvente para solución inyectable | No disponible |
-| 82806 | Terlipresina Acetato Ever Pharma 1 mg solución inyectable | Solución inyectable | No disponible |
-| 78203 | Terlipresina Sun 1 mg solución inyectable EFG | Solución inyectable | No disponible |
-| 82807 | Terlipresina Acetato Ever Pharma 2 mg solución inyectable | Solución inyectable | No disponible |
-| 79485 | Terlipresina Altan 1 mg solución inyectable EFG | Solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 82806 | TERLIPRESINA ACETATO EVER PHARMA 1 MG SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Ever Valinject Gmbh | Comercializada |
+| 78203 | TERLIPRESINA SUN 1 MG SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+| 79485 | TERLIPRESINA ALTAN 1 MG SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Altan Pharmaceuticals Sa | Comercializada |
+| 72359 | GLYPRESSIN 1 mg SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Ferring S.A.U. | Comercializada |
+| 61412 | GLYPRESSIN 1mg POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Ferring S.A.U. | Comercializada |
+| 71539 | VARIQUEL 1 mg POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE EFG | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Alliance Pharma (Ireland) Limited | Revocada |
+| 82807 | TERLIPRESINA ACETATO EVER PHARMA 2 MG SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Ever Valinject Gmbh | Revocada |
+| 85432 | TERLIPRESINA ALTAN PHARMA 1 MG SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Altan Pharma Limited | Revocada |
+
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Otras: Glypressin 1 mg solución inyectable (72359), Glypressin 1 mg polvo y disolvente (61412) y Terlipresina Altan Pharma 1 mg (85432).
 
 <!-- review:begin es-lic-20261105-terlipressin-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 8 autorizaciones vigentes en total (todas de principio activo único); aquí se listan las 5 principales. Otras: Glypressin 1 mg solución inyectable (72359), Glypressin 1 mg polvo y disolvente (61412) y Terlipresina Altan Pharma 1 mg (85432)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 autorizaciones (comercializadas: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 8 autorizaciones vigentes en total (todas de principio activo único); aquí se listan las 5 principales. Otras: Glypressin 1 mg solución inyectable (72359), Glypressin 1 mg polvo y disolvente (61412) y Terlipresina Altan Pharma 1 mg (85432)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-terlipressin-1 -->
 
@@ -131,7 +140,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Hay 8 autorizaciones vigentes en total (todas de principio activo único); aquí se listan las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Hay 8 autorizaciones vigentes en total (todas de principio activo único); aquí se listan las 5 principales" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Terlivaz (terlipressin) prescribing information, Keenova Hospital Products Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a35b86c-f451-4fac-8499-43019e4da354) |
 
 <!-- review:end log -->

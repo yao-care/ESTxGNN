@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 594
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "oxaliplatin"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 description: "Oxaliplatin: nueva indicación predicha, Mesotelioma pleural maligno (malignant pleural mesothelioma) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 13 (comercializadas: 6; autorizadas no comercializadas: 2)"
@@ -63,7 +63,7 @@ Los datos publicados de Fase 2 muestran una actividad modesta, y no existe una c
 
 <!-- review:begin es-lic-20261105-oxaliplatin-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 13 autorizaciones vigentes en total (todas de monofármaco); aquí se muestran las 5 principales." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 13 autorizaciones (comercializadas: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 13 autorizaciones vigentes en total (todas de monofármaco); aquí se muestran las 5 principales." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-oxaliplatin-1 -->
 
@@ -92,13 +92,24 @@ Los datos publicados de Fase 2 muestran una actividad modesta, y no existe una c
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 67390 | ELOXATIN 5 mg/ml | Concentrado para solución para perfusión | No especificada en los datos disponibles |
-| 69288 | OXALIPLATINO TEVA 5 mg/ml EFG | Concentrado para solución para perfusión | No especificada en los datos disponibles |
-| 69518 | OXALIPLATINO HOSPIRA 5 mg/ml EFG | Concentrado para solución para perfusión | No especificada en los datos disponibles |
-| 72386 | OXALIPLATINO ACCORD 5 mg/ml EFG | Concentrado para solución para perfusión | No especificada en los datos disponibles |
-| 77233 | OXALIPLATINO CADIASUN 5 mg/ml EFG | Polvo para solución para perfusión | No especificada en los datos disponibles |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 72386 | OXALIPLATINO ACCORD 5 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 69288 | OXALIPLATINO TEVA 5 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Teva Pharma S.L.U. | Comercializada |
+| 81823 | OXALIPLATINO QILU 5 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Qilu Pharma Spain S.L. | Comercializada |
+| 71346 | OXALIPLATINO KABI 5 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Comercializada |
+| 88574 | OXALIPLATINO AUROVIT 5 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Eugia Pharma (Malta) Limited | Comercializada |
+| 86380 | OXALIPLATINO HIKMA 5 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Hikma Farmaceutica (Portugal) S.A. | Comercializada |
+| 89397 | OXALIPLATINO KALCEKS 5 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Kalceks As | Autorizada, no comercializada |
+| 75278 | OXALIPLATINO SUN 5 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Sun Pharmaceutical Industries (Europe) B.V. | Autorizada, no comercializada |
+| 77233 | OXALIPLATINO CADIASUN 5 MG/ML POLVO PARA SOLUCIÓN PARA PERFUSIÓN EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Cadiasun Pharma Gmbh | Revocada |
+| 74655 | OXALIPLATINO AUROVITAS 5 mg/ml CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Aurovitas Spain, S.A.U. | Revocada |
+
+Se muestran 10 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 
@@ -141,7 +152,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Hay 13 autorizaciones vigentes en total (todas de monofármaco); aquí se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Hay 13 autorizaciones vigentes en total (todas de monofármaco); aquí se muestran las 5 principales" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: oxaliplatin prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 849
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vincamine: nueva indicación predicha, Hemorragia subaracnoidea (nivel de evidencia L5). Indicación original: No disponible en los datos de la licencia"
 monitor_inn: "vincamine"
 predicted_indications: ["subarachnoid hemorrhage (disease)"]
@@ -82,9 +82,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 54852 | ANACERVIX 20 mg/400 mg CAPSULAS DURAS | Cápsula dura | No especificada en la licencia |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 54852 | ANACERVIX 20 mg/400 mg CAPSULAS DURAS | CÁPSULA DURA | Angelini Pharma Espana S.L. | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ---
 

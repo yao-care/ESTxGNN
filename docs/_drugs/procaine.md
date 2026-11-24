@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 664
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Procaine: nueva indicación predicha, Metahemoglobinemia (nivel de evidencia L4). Indicación original: No disponible en las autorizaciones de la AEMPS (el texto de indicaci…"
 monitor_inn: "procaine"
 predicted_indications: ["methemoglobinemia", "methemoglobinemia, alpha type", "Tourette syndrome", "anaphylaxis", "methemoglobin reductase deficiency", "hyperthyroidism", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis"]
@@ -79,11 +79,17 @@ Ninguna de estas publicaciones respalda un efecto terapéutico de la procaína e
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 37923 | PROCAINA SERRA 10 MG/ML SOLUCION INYECTABLE | Solución inyectable | No disponible |
-| 37925 | PROCAINA SERRA 20 MG/ML SOLUCION INYECTABLE | Solución inyectable | No disponible |
-| 38676 | BENZETACIL 6.3.3. | Polvo y disolvente para suspensión inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 37923 | PROCAINA SERRA 10 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Laboratorios Serra Pamies S.A. | Comercializada |
+| 37925 | PROCAINA SERRA 20 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Laboratorios Serra Pamies S.A. | Comercializada |
+| 38676 | BENZETACIL 6.3.3. | POLVO Y DISOLVENTE PARA SUSPENSIÓN INYECTABLE | Laboratorio Reig Jofre, S.A. | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "capreomycin"
 predicted_indications: ["gout", "rheumatoid arthritis", "osteoarthritis", "sclerosing cholangitis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "meningococcal infection", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Capreomycin: nueva indicación predicha, Gota (gout) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0)"
 ---
 
@@ -72,9 +72,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 45261 | CAPASTAT 1 G POLVO PARA SOLUCION INYECTABLE. | Polvo para solución inyectable | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 45261 | CAPASTAT 1 G POLVO PARA SOLUCION INYECTABLE. | POLVO PARA SOLUCIÓN INYECTABLE | Vianex S.A. | Revocada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

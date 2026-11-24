@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Empagliflozin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
 description: "Empagliflozin: nueva indicación predicha, Focal stiff limb syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 2; autorizadas no comercializadas: 6)"
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 114930014 | JARDIANCE 10 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 114930005 | JARDIANCE 25 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 89672 | GLUSOD 10 MG comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-| 89671 | GLUSOD 25 MG comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-| 91044 | EMPAGLIFLOZINA KERN PHARMA 10 MG comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 114930014 | JARDIANCE 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Boehringer Ingelheim International Gmbh | Comercializada |
+| 114930005 | JARDIANCE 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Boehringer Ingelheim International Gmbh | Comercializada |
+| 89672 | GLUSOD 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Medochemie Limited | Autorizada, no comercializada |
+| 89671 | GLUSOD 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Medochemie Limited | Autorizada, no comercializada |
+| 91043 | EMPAGLIFLOZINA KERN PHARMA 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Autorizada, no comercializada |
+
+Se muestran 5 de 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Hay 8 autorizaciones vigentes en total, todas de monofármaco; aquí se muestran 5.
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 751
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "sulfamethoxazole"
 predicted_indications: ["acute contagious conjunctivitis"]
 description: "Sulfamethoxazole: nueva indicación predicha, Conjuntivitis contagiosa aguda (acute contagious conjunctivitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 7)"
@@ -84,13 +84,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 48670 | SEPTRIN 80 mg/400 mg COMPRIMIDOS | Comprimido | No disponible |
-| 54920 | SOLTRIM 160MG/ 800MG POLVO Y SOLUCIÓN PARA SOLUCIÓN INYECTABLE | Polvo y solución para solución inyectable | No disponible |
-| 58501 | SEPTRIN FORTE 160 mg/800 mg COMPRIMIDOS | Comprimido | No disponible |
-| 48669 | SEPTRIN PEDIATRICO 20 mg/100 mg COMPRIMIDOS | Comprimido | No disponible |
-| 48671 | SEPTRIN PEDIATRICO 8 mg/40 mg/ml SUSPENSIÓN ORAL | Suspensión oral | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 48670 | SEPTRIN 80 mg/400 mg COMPRIMIDOS | COMPRIMIDO | Teofarma S.R.L. | Comercializada |
+| 54920 | SOLTRIM 160MG/ 800MG POLVO Y SOLUCION PARA SOLUCION INYECTABLE | POLVO Y SOLUCIÓN PARA SOLUCIÓN INYECTABLE | Almirall S.A. | Comercializada |
+| 58501 | SEPTRIN FORTE 160 mg/800 mg COMPRIMIDOS | COMPRIMIDO | Teofarma S.R.L. | Comercializada |
+| 48669 | SEPTRIN PEDIATRICO 20 mg/100 mg COMPRIMIDOS | COMPRIMIDO | Teofarma S.R.L. | Comercializada |
+| 48671 | SEPTRIN PEDIATRICO 8 mg/40 mg/ml SUSPENSION ORAL | SUSPENSIÓN ORAL | Teofarma S.R.L. | Comercializada |
+
+Se muestran 5 de 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Hay 7 autorizaciones vigentes en total; se muestran las 5 principales.
 

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 338
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Flecainide"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Flecainide: nueva indicación predicha, Ictus (stroke disorder) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 6 (comercializadas: 5)"
@@ -87,19 +87,26 @@ Nota: la mayoría de las publicaciones abordan la fibrilación auricular y no ev
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 79337 | FLECAINIDA APOTEX 100 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
-| 79329 | FLECAINIDA NORMON 100 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
-| 77173 | FLECAINIDA AUROVITAS 100 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
-| 78070 | FLECARD 100 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
-| 57532 | APOCARD 100 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 79329 | FLECAINIDA NORMON 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 77173 | FLECAINIDA AUROVITAS 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Aurovitas Spain, S.A.U. | Comercializada |
+| 78070 | FLECARD 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Neuraxpharm Spain S.L. | Comercializada |
+| 57532 | APOCARD 100 mg COMPRIMIDOS | COMPRIMIDO | Viatris Healthcare Limited | Comercializada |
+| 57514 | APOCARD 10 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Viatris Healthcare Limited | Comercializada |
+| 79337 | FLECAINIDA APOTEX 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Apotex Europe B.V. | Revocada |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Existe además una sexta autorización: APOCARD 10 mg/ml solución inyectable (n.º 57514).
 
 <!-- review:begin es-lic-20261105-flecainide-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Existe además una sexta autorización: APOCARD 10 mg/ml solución inyectable (n.º 57514). Las 6 autorizaciones están vigentes, son de principio activo único y no hay ninguna cancelada." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 autorizaciones (comercializadas: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Existe además una sexta autorización: APOCARD 10 mg/ml solución inyectable (n.º 57514). Las 6 autorizaciones están vigentes, son de principio activo único y no hay ninguna cancelada." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-flecainide-1 -->
 
@@ -134,7 +141,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Las 6 autorizaciones están vigentes, son de principio activo único y no hay ninguna cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Las 6 autorizaciones están vigentes, son de principio activo único y no hay ninguna cancelada" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: flecainide acetate prescribing information, Amneal Pharmaceuticals of New York LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee9595d5-08a1-4529-9215-ddc3c7f929c4) |
 
 <!-- review:end log -->

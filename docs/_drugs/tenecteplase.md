@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 774
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "tenecteplase"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
 description: "Tenecteplase: nueva indicación predicha, Congenital coronary artery anomaly (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"
@@ -72,11 +72,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 00169006 | METALYSE 10.000 UNIDADES (50 MG) | Polvo y disolvente para solución inyectable | No disponible en los datos |
-| 1000169007 | METALYSE 5.000 UNIDADES (25 MG) | Polvo para solución inyectable | No disponible en los datos |
-| 00169005 | METALYSE 8.000 UNIDADES (40 MG) | Polvo y disolvente para solución inyectable | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 00169006 | METALYSE 10.000 UNIDADES (50 MG) POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Boehringer Ingelheim International Gmbh | Comercializada |
+| 1000169007 | METALYSE 5.000 UNIDADES (25 MG) POLVO PARA SOLUCION INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Boehringer Ingelheim International Gmbh | Comercializada |
+| 00169005 | METALYSE 8.000 UNIDADES (40 MG) POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Boehringer Ingelheim International Gmbh | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las tres autorizaciones están vigentes, son de monofármaco y pertenecen a Boehringer Ingelheim International GmbH.
 

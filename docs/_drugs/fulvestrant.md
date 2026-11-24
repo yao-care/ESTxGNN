@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 365
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-24
 description: "Fulvestrant: nueva indicación predicha, Infección por VIH (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -67,7 +67,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 <!-- review:begin es-lic-20261105-fulvestrant-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 17 autorizaciones vigentes (todas de medicamento monofármaco)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 17 autorizaciones (comercializadas: 11); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 17 autorizaciones vigentes (todas de medicamento monofármaco)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-fulvestrant-1 -->
 
@@ -80,13 +80,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 03269001 | FASLODEX 250 mg/5 ml solución inyectable | Solución inyectable en jeringa precargada | No disponible |
-| 03269001IP | FASLODEX 250 mg solución inyectable | Solución inyectable en jeringa precargada | No disponible |
-| 84420 | Fulvestrant Stada 250 mg solución inyectable en jeringa precargada EFG | Solución inyectable | No disponible |
-| 87273 | Fulvestrant Hikma 250 mg solución inyectable en jeringa precargada EFG | Solución inyectable en jeringa precargada | No disponible |
-| 80910 | Fulvestrant Teva 250 mg solución inyectable en jeringa precargada EFG | Solución inyectable en jeringa precargada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 80910 | FULVESTRANT TEVA 250 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Teva Pharma S.L.U. | Comercializada |
+| 83884 | STRANTAS 250 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE | Accord Healthcare S.L.U. | Comercializada |
+| 88722 | FULVESTRANT STADAFARMA 250 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Laboratorio Stada S.L. | Comercializada |
+| 03269001 | FASLODEX 250 mg/5 ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Astrazeneca Ab | Comercializada |
+| 85491 | FULVESTRANT VISO FARMACEUTICA 250 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE | Glenmark Arzneimittel Gmbh | Comercializada |
+| 84866 | ONNIMIA 250 MG SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Adamed Laboratorios S.L.U. | Comercializada |
+| 80254 | AFULTRANT 250 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE | Bexal Farmaceutica S.A. | Comercializada |
+| 82518 | FULVESTRANT DR. REDDYS 250 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Reddy Pharma Iberia S.A. | Comercializada |
+| 83793 | AMBIFUL 250 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Ever Valinject Gmbh | Comercializada |
+| 88271 | FULVESTRANT EUGIA 250 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE | Eugia Pharma (Malta) Limited | Comercializada |
+
+Se muestran 10 de 17 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 
@@ -127,7 +138,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 17 autorizaciones vigentes (todas de medicamento monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 17 autorizaciones vigentes (todas de medicamento monofármaco)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a) |
 
 <!-- review:end log -->

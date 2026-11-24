@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 264
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
 description: "Doxorubicin: nueva indicación predicha, Sarcoma de Ewing (Ewing sarcoma) (nivel de evidencia L1). En España, autorizaciones de la AEMPS: 10 (comercializadas: 7; autorizadas no comercializadas: 1)"
@@ -114,17 +114,28 @@ La indicación aprobada no figura en los datos compilados para ninguna de las au
 
 <!-- review:begin es-lic-20261105-doxorubicin-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "La indicación aprobada no figura en los datos compilados para ninguna de las autorizaciones. Se muestran 5 de las 10 autorizaciones vigentes (todas monofármaco):" Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 autorizaciones (comercializadas: 7); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "La indicación aprobada no figura en los datos compilados para ninguna de las autorizaciones. Se muestran 5 de las 10 autorizaciones vigentes (todas monofármaco):" Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-doxorubicin-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 90025 | Doxorubicina Liposomal Pegilado Dr. Reddys 2 mg/ml | Concentrado para dispersión para perfusión | No disponible |
-| 61085 | Doxorubicina Tedec 2 mg/ml | Solución inyectable | No disponible |
-| 96011001 | Caelyx Pegylated Liposomal 2 mg/ml | Concentrado para solución para perfusión | No disponible |
-| 56172 | Farmiblastina 50 mg | Polvo para solución inyectable | No disponible |
-| 75345 | Doxorubicina Aurovitas 2 mg/ml EFG | Concentrado para solución para perfusión | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 96011001 | CAELYX PEGYLATED LIPOSOMAL 2 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Baxter Holding B.V. | Comercializada |
+| 56172 | FARMIBLASTINA 50 mg POLVO PARA SOLUCION INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Pfizer S.L. | Comercializada |
+| 75345 | DOXORUBICINA AUROVITAS 2 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Eugia Pharma (Malta) Limited | Comercializada |
+| 73266 | DOXORUBICINA ACCORD 2 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 1221629001 | ZOLSKETIL PEGYLATED LIPOSOMAL 2 MG/ML CONCENTRADO PARA DISPERSION PARA PERFUSION | CONCENTRADO PARA DISPERSIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 59739 | FARMIBLASTINA 2 MG/ML CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Pfizer S.L. | Comercializada |
+| 00141001 | MYOCET LIPOSOMAL 50 MG POLVO, DISPERSION Y DISOLVENTE PARA CONCENTRADO PARA DISPERSION PARA PERFUSION | POLVO PARA CONCENTRADO PARA DISPERSION PARA PERFUSION | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 90025 | DOXORUBICINA LIPOSOMAL PEGILADO DR. REDDYS 2 MG/ML CONCENTRADO PARA DISPERSION PARA PERFUSION | CONCENTRADO PARA DISPERSIÓN PARA PERFUSIÓN | Reddy Pharma Iberia S.A. | Autorizada, no comercializada |
+| 61085 | DOXORUBICINA TEDEC 2 MG/ML CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | SOLUCIÓN INYECTABLE | Meiji Pharma Spain S.A. | Revocada |
+| 96011003 | CAELYX PEGYLATED LIPOSOMAL 2 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | SOLUCIÓN INYECTABLE | Baxter Holding B.V. | Revocada |
+
+Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Nota: varios productos son formulaciones liposomales (Caelyx, Myocet, Zolsketil), con perfiles de uso y seguridad distintos a la doxorrubicina convencional. Además, los productos Farmiblastina corresponden comercialmente a epirrubicina; conviene verificar esta correspondencia en la ficha técnica.
 
@@ -177,7 +188,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes (todas monofármaco):" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes (todas monofármaco):" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd) |
 
 <!-- review:end log -->

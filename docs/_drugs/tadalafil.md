@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 759
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "tadalafil"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 description: "Tadalafil: nueva indicación predicha, Ambras type hypertrichosis universalis congenita (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -97,13 +97,24 @@ El texto de indicación aprobada no está disponible en los datos compilados.
 
 <!-- review:end es-lic-20261105-tadalafil-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 89934 | Tadalafilo Farmalter 20 mg comprimidos bucodispersables EFG | Comprimido bucodispersable | No disponible |
-| 02237003IP3 | Cialis 20 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 82192 | Virvirilo 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 85659 | Tadalafilo Normogen 20 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 80040 | Tadalafilo Teva 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 02237003IP3 | CIALIS 20 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Eli Lilly Nederland B.V. | Comercializada |
+| 82192 | VIRVIRILO 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 85659 | TADALAFILO NORMOGEN 20 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 84404 | ACORE 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Gp Pharm S.A. | Comercializada |
+| 82289 | TADALAFILO PENSA 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Towa Pharmaceutical S.A. | Comercializada |
+| 02237003IP6 | CIALIS 20 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Eli Lilly Nederland B.V. | Comercializada |
+| 114961001 | TADALAFILO MYLAN 10 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Mylan Pharmaceuticals Limited | Comercializada |
+| 02237001IP2 | CIALIS 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO | Eli Lilly Nederland B.V. | Comercializada |
+| 83536 | TADALAFILO NORMON 20 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 89732 | TADALAFILO TARBIS FARMA 10 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

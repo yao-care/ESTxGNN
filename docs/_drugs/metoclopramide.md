@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 517
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 8)"
@@ -95,13 +95,22 @@ El puntaje alto del modelo probablemente refleja la proximidad en la red de cono
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 78556 | Metoclopramida Kern Pharma 10 mg/2 ml solución inyectable EFG | Solución inyectable | No disponible |
-| 69265 | Metoclopramida Pensa 1 mg/ml solución oral EFG | Solución oral | No disponible |
-| 69266 | Metoclopramida Kern Pharma 1 mg/ml solución oral EFG | Solución oral | No disponible |
-| 89715 | Metoclopramida Basi 5 mg/ml solución inyectable y para perfusión EFG | Solución inyectable y para perfusión | No disponible |
-| 41446 | Primperan 10 mg comprimidos | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 78556 | METOCLOPRAMIDA KERN PHARMA 10MG/2ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Kern Pharma S.L. | Comercializada |
+| 69265 | METOCLOPRAMIDA PENSA 1 mg/ml SOLUCION ORAL EFG | SOLUCIÓN ORAL | Towa Pharmaceutical S.A. | Comercializada |
+| 69266 | METOCLOPRAMIDA KERN PHARMA 1 mg/ml SOLUCION ORAL EFG | SOLUCIÓN ORAL | Kern Pharma S.L. | Comercializada |
+| 89715 | METOCLOPRAMIDA BASI 5 MG/ML SOLUCION INYECTABLE Y PARA PERFUSION EFG | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Laboratorios Basi Industria Farmaceutica S.A. | Comercializada |
+| 41446 | PRIMPERAN 10 mg COMPRIMIDOS | COMPRIMIDO | Sanofi Aventis S.A. | Comercializada |
+| 40257 | PRIMPERAN 1mg /ml SOLUCION ORAL | SOLUCIÓN ORAL | Sanofi Aventis S.A. | Comercializada |
+| 75665 | METOCLOPRAMIDA ACCORD 10 MG COMPRIMIDOS EFG | COMPRIMIDO | Accord Healthcare S.L.U. | Comercializada |
+| 40256 | PRIMPERAN 10 mg /2 ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Sanofi Aventis S.A. | Comercializada |
+
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Hay 8 autorizaciones vigentes en total, todas de principio activo único. Las tres restantes son Primperan 1 mg/ml solución oral (40257), Metoclopramida Accord 10 mg comprimidos EFG (75665) y Primperan 10 mg/2 ml solución inyectable (40256).
 

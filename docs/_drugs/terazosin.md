@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 779
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "terazosin"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
 description: "Terazosin: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 17 (comercializadas: 11)"
@@ -75,17 +75,28 @@ El texto de indicación aprobada no está disponible en los datos compilados.
 
 <!-- review:begin es-lic-20261105-terazosin-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 17 autorizaciones vigentes (todas de principio activo único). El texto de indicación aprobada no está disponible en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 17 autorizaciones (comercializadas: 11); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 17 autorizaciones vigentes (todas de principio activo único). El texto de indicación aprobada no está disponible en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-terazosin-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 69087 | Terazosina Cinfa 5 mg comprimidos EFG | Comprimido | No disponible |
-| 69086 | Terazosina Cinfa 2 mg comprimidos EFG | Comprimido | No disponible |
-| 63476 | Sutif 5 mg comprimidos | Comprimido | No disponible |
-| 63980 | Terazosina Alter 5 mg comprimidos EFG | Comprimido | No disponible |
-| 63458 | Zayasel 1 mg/ml solución oral EFG | Solución oral | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 69087 | TERAZOSINA CINFA 5 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 69086 | TERAZOSINA CINFA 2 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 63476 | SUTIF 5 MG COMPRIMIDOS | COMPRIMIDO | Biowise Pharmaceuticals, S.L. | Comercializada |
+| 63980 | TERAZOSINA ALTER, 5 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Alter S.A. | Comercializada |
+| 63458 | ZAYASEL 1 mg/ml SOLUCION ORAL EFG | SOLUCIÓN ORAL | Laboratorios Salvat S.A. | Comercializada |
+| 63728 | TERAZOSINA KERN PHARMA 5 mg COMPRIMIDOS EFG | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
+| 63460 | ZAYASEL 5 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Salvat S.A. | Comercializada |
+| 65141 | ALFAPROST 5 mg COMPRIMIDOS | COMPRIMIDO | Biowise Pharmaceuticals, S.L. | Comercializada |
+| 63474 | SUTIF 1 MG/ML SOLUCION ORAL | SOLUCIÓN ORAL | Biowise Pharmaceuticals, S.L. | Comercializada |
+| 66414 | MAYUL 5 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Q Pharma S.L. | Comercializada |
+
+Se muestran 10 de 17 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -114,7 +125,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 17 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 17 autorizaciones vigentes (todas de principio activo único)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tezruly (terazosin) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69582e0c-6569-490c-8c14-999f3750336f) |
 
 <!-- review:end log -->

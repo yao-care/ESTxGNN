@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "irinotecan"
 predicted_indications: ["female breast carcinoma"]
 description: "Irinotecan: nueva indicación predicha, Carcinoma de mama femenino (female breast carcinoma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 11 (comercializadas: 10)"
@@ -102,13 +102,24 @@ El puntaje de 0.9908 es una predicción computacional y no sustituye a la eviden
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 85081 | Irinotecan Sun 1,5 mg/ml | Solución para perfusión | No disponible en los datos compilados |
-| 65899 | Irinotecan Hospira 20 mg/ml EFG | Concentrado para solución para perfusión | No disponible en los datos compilados |
-| 69474 | Irinotecan Aurovitas 20 mg/ml | Concentrado para solución para perfusión | No disponible en los datos compilados |
-| 83108 | Irinotecan Hikma 20 mg/ml EFG | Concentrado para solución para perfusión | No disponible en los datos compilados |
-| 1161130001 | Onivyde pegylated liposomal 4,3 mg/ml | Concentrado para dispersión para perfusión | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 85081 | IRINOTECAN SUN 1,5 MG/ML SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+| 65899 | IRINOTECAN HOSPIRA 20 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Pfizer S.L. | Comercializada |
+| 69474 | IRINOTECAN AUROVITAS 20 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Eugia Pharma (Malta) Limited | Comercializada |
+| 83108 | IRINOTECAN HIKMA 20 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Hikma Farmaceutica (Portugal) S.A. | Comercializada |
+| 70886 | IRINOTECAN KABI 20 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Comercializada |
+| 81771 | IRINOTECAN QILU 20 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Qilu Pharma Spain S.L. | Comercializada |
+| 81357 | IRINOTECAN ACCORD 20 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 88697 | IRINOTECAN TARBIS 20 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Tarbis Farma S.L. | Comercializada |
+| 88929 | IRINOTECAN GLENMARK 20 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Glenmark Arzneimittel Gmbh | Comercializada |
+| 1161130001 | ONIVYDE PEGYLATED LIPOSOMAL 4,3 MG/ML CONCENTRADO PARA DISPERSION PARA PERFUSION | CONCENTRADO PARA DISPERSIÓN PARA PERFUSIÓN | Les Laboratoires Servier | Comercializada |
+
+Se muestran 10 de 11 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 
@@ -134,7 +145,7 @@ El puntaje de 0.9908 es una predicción computacional y no sustituye a la eviden
 
 <!-- review:begin es-lic-20261105-irinotecan-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 11 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 11 autorizaciones (comercializadas: 10); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 11 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-irinotecan-1 -->
 
@@ -164,7 +175,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 11 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 11 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Camptosar (irinotecan hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e518dfc6-7e93-4fee-a66c-51e1ab71c056) |
 
 <!-- review:end log -->

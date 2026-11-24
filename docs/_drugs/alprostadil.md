@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ALPROSTADIL"
 predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alprostadil: nueva indicación predicha, malformación aórtica (aortic malformation) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 10 (comercializadas: 7)"
 ---
 
@@ -85,13 +85,24 @@ Ninguna de las publicaciones recuperadas estudia de forma directa la «malformac
 
 Siete de las diez autorizaciones están vigentes y tres están canceladas.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 62698 | MUSE 1000 microgramos BASTONCILLO URETRAL | Barra uretral | No registrada |
-| 77909 | ALPROSTADIL ALTAN 20 MICROGRAMOS POLVO PARA SOLUCION PARA PERFUSION EFG | Polvo para solución para perfusión | No registrada |
-| 78357 | VIRIREC 3MG/G CREMA | Crema | No registrada |
-| 60535 | CAVERJECT 20 microgramos POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | Polvo y disolvente para solución inyectable | No registrada |
-| 56120 | ALPROSTADIL PFIZER 0,5 mg/ml SOLUCION INYECTABLE | Solución para perfusión | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 77909 | ALPROSTADIL ALTAN 20 MICROGRAMOS POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Altan Pharmaceuticals Sa | Comercializada |
+| 78357 | VIRIREC 3MG/G CREMA | CREMA | Recordati Ireland Limited | Comercializada |
+| 60535 | CAVERJECT 20 microgramos POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Pfizer S.L. | Comercializada |
+| 60911 | CAVERJECT 10 microgramos POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Pfizer S.L. | Comercializada |
+| 56120 | ALPROSTADIL PFIZER 0,5 mg/ml SOLUCION INYECTABLE | SOLUCIÓN PARA PERFUSIÓN | Pfizer S.L. | Comercializada |
+| 80156 | ALPROSTADIL RECORDATI 3 MG/G CREMA | CREMA | Recordati Ireland Limited | Comercializada |
+| 85924 | VAZOSTENON 20 MICROGRAMOS/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Kevelt As | Comercializada |
+| 62698 | MUSE 1000 microgramos BASTONCILLO URETRAL | BARRA URETRAL | Viatris Healthcare Limited | Suspendida |
+| 62697 | MUSE 500 microgramos BASTONCILLO URETRAL | BARRA URETRAL | Viatris Healthcare Limited | Suspendida |
+| 62696 | MUSE 250 microgramos BASTONCILLO URETRAL | BARRA URETRAL | Mylan Ire Healthcare Limited | Revocada |
+
+Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

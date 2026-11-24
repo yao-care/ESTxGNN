@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "busulfan"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "simian immunodeficiency virus infection"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Busulfan: nueva indicación predicha, Síndrome mielodisplásico (myelodysplastic syndrome) (nivel de evidencia L1). En España, autorizaciones de la AEMPS: 7 (comercializadas: 5)"
 ---
 
@@ -95,13 +95,21 @@ Existe además un ensayo de Fase 3 completado que compara directamente un régim
 
 Busulfano figura comercializado en España (5 autorizaciones vigentes y 2 canceladas, según los registros locales). Las autorizaciones principales son:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 114951001 | Busulfano Fresenius Kabi 6 mg/ml | Concentrado para solución para perfusión | No registrada en los datos locales |
-| 03254002 | Busilvex 6 mg/ml | Concentrado para solución para perfusión | No registrada en los datos locales |
-| 81189 | Busulfano Accord 6 mg/ml | Concentrado para emulsión para perfusión | No registrada en los datos locales |
-| 82457 | Isolfan 6 mg/ml | Concentrado para solución para perfusión | No registrada en los datos locales |
-| 33323 | Busulfano Aspen 2 mg | Comprimido recubierto con película | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 114951001 | BUSULFANO FRESENIUS KABI 6 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi Deutschland Gmbh | Comercializada |
+| 81189 | BUSULFANO ACCORD 6 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA EMULSIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 83135 | BUSULFANO ZENTIVA 6 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Zentiva K.S. | Comercializada |
+| 33323 | BUSULFANO ASPEN 2 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aspen Pharma Trading Limited | Comercializada |
+| 85690 | BUSULFANO GLENMARK 6 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Glenmark Arzneimittel Gmbh | Comercializada |
+| 03254002 | BUSILVEX 6 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Pierre Fabre Medicament | Revocada |
+| 82457 | ISOLFAN 6 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Aspen Pharma Trading Limited | Revocada |
+
+Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

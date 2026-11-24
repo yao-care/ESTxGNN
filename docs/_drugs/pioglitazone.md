@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 640
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pioglitazone: nueva indicación predicha, Opsismodisplasia (nivel de evidencia L5). Indicación original: Diabetes mellitus tipo 2"
 monitor_inn: "Pioglitazone"
 predicted_indications: ["opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -90,13 +90,19 @@ Se muestran las 5 principales:
 
 <!-- review:end es-lic-20261105-pioglitazone-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 00150005 | ACTOS 30 mg COMPRIMIDOS (Cheplapharm) | Comprimido | No disponible en los datos |
-| 76481 | PIOGLITAZONA CINFA 15 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos |
-| 00150010IP | ACTOS 30 MG COMPRIMIDOS (Takeda) | Comprimido | No disponible en los datos |
-| 00151001 | GLUSTIN 15 mg COMPRIMIDOS | Comprimido | No disponible en los datos |
-| 76275 | PIOGLITAZONA AUROBINDO 15 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 76481 | PIOGLITAZONA CINFA 15 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 00150010IP | ACTOS 30 MG COMPRIMIDOS | COMPRIMIDO | Takeda Pharma A/S | Comercializada |
+| 83047 | PIOGLITAZONA AUROVITAS 30 MG COMPRIMIDOS EFG | COMPRIMIDO | Aurovitas Spain, S.A.U. | Comercializada |
+| 00150010IP1 | ACTOS 30 MG COMPRIMIDOS | COMPRIMIDO | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 00150004 | ACTOS 30 mg COMPRIMIDOS | COMPRIMIDO | Cheplapharm Arzneimittel Gmbh | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

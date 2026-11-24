@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 516
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Methylprednisolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Methylprednisolone: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Se listan las 5 principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 34022 | URBASON 20 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible |
-| 53202 | SOLU-MODERIN 500 mg polvo y disolvente para solución inyectable | Liofilizado y disolvente para solución inyectable | No disponible |
-| 59124 | URBASON 40 mg comprimidos | Comprimido | No disponible |
-| 89233 | METILPREDNISOLONA ORION 4 mg comprimidos EFG | Comprimido | No disponible |
-| 60138 | ADVENTAN 1 mg/g pomada | Pomada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 34022 | URBASON 20 mg POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Fidia Farmaceutici S.P.A. | Comercializada |
+| 53202 | SOLU-MODERIN 500 MG POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | LIOFILIZADO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Pfizer S.L. | Comercializada |
+| 63188 | LEXXEMA 1 mg/g UNGÜENTO | POMADA | Italfarmaco S.A. | Comercializada |
+| 82969 | ISZEMA 1 MG/G EMULSION CUTANEA | EMULSIÓN CUTÁNEA | Isdin S.A. | Comercializada |
+| 59124 | URBASON 40 mg COMPRIMIDOS | COMPRIMIDO | Fidia Farmaceutici S.P.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

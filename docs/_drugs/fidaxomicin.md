@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 335
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fidaxomicin: nueva indicación predicha, Síndrome de la piel escaldada estafilocócica (nivel de evidencia L5). Indicación original: Colitis por Clostridium difficile"
 monitor_inn: "fidaxomicin"
 predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetigo", "inhalational botulism", "impetigo", "toxin-mediated infectious botulism", "vulvovaginal candidiasis", "hordeolum", "staphylococcus aureus pneumonia", "punctate epithelial keratoconjunctivitis"]
@@ -90,10 +90,16 @@ Para la quinta predicción en términos de interés clínico (neumonía por *S. 
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 11733004 | DIFICLIR 200 MG comprimidos recubiertos con película | Comprimido recubierto con película | Titular: Tillotts Pharma GmbH |
-| 1110733005 | DIFICLIR 40 MG/ML granulado para suspensión oral | Granulado para suspensión oral | Titular: Tillotts Pharma GmbH |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 11733004 | DIFICLIR 200 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tillotts Pharma Gmbh | Comercializada |
+| 1110733005 | DIFICLIR 40 MG/ML GRANULADO PARA SUSPENSION ORAL | GRANULADO PARA SUSPENSIÓN ORAL | Tillotts Pharma Gmbh | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

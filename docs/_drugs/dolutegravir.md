@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 259
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DOLUTEGRAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Dolutegravir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 4 (comercializadas: 3; autorizadas no comercializadas: 1)"
@@ -83,12 +83,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 113892005 | TIVICAY 25 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 1130892007 | TIVICAY 5 mg comprimidos dispersables | Comprimido dispersable | No disponible en los datos compilados |
-| 113892001 | TIVICAY 50 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 113892003 | TIVICAY 10 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1130892007 | TIVICAY 5 MG COMPRIMIDOS DISPERSABLES | COMPRIMIDO DISPERSABLE | Viiv Healthcare B.V. | Comercializada |
+| 113892001 | TIVICAY 50 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viiv Healthcare B.V. | Comercializada |
+| 113892003 | TIVICAY 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viiv Healthcare B.V. | Comercializada |
+| 113892005 | TIVICAY 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viiv Healthcare B.V. | Autorizada, no comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Todas las autorizaciones corresponden a Viiv Healthcare B.V. y están vigentes.
 

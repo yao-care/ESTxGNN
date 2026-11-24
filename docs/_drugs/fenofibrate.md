@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Fenofibrate"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fenofibrate: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (cholesterol-ester transfer protein deficiency) (nivel de evidencia L5). Indicación origin…"
 ---
 
@@ -78,13 +78,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 La lista incluye 5 de las 15 autorizaciones; los textos de indicación aprobada no están disponibles en los registros locales.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 69367 | Fenofibrato Sun 160 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en el registro |
-| 63533 | Secalip Supra 160 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en el registro |
-| 72705 | Fenofibrato Teva 200 mg cápsulas duras EFG | Cápsula dura | No disponible en el registro |
-| 79122 | Fenofibrato Kern Pharma 145 mg comprimidos EFG | Comprimido | No disponible en el registro |
-| 60176 | Secalip 200 mg cápsulas | Cápsula dura | No disponible en el registro |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 69367 | FENOFIBRATO SUN 160 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+| 63533 | SECALIP SUPRA 160 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Lacer S.A. | Comercializada |
+| 72705 | FENOFIBRATO TEVA 200 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Teva Pharma S.L.U. | Comercializada |
+| 79122 | FENOFIBRATO KERN PHARMA 145 MG COMPRIMIDOS EFG | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
+| 69368 | FENOFIBRATO PENSA 200 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Towa Pharmaceutical S.A. | Comercializada |
+
+Se muestran 5 de 15 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

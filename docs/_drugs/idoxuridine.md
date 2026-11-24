@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 404
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Idoxuridine"
 predicted_indications: ["vulvovaginal candidiasis", "vaginitis (disease)", "trichomonal vulvovaginitis", "vulvitis", "herpetic vulvovaginitis", "vaginal discharge", "bacterial vaginosis", "leukoplakia of vagina", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
 description: "Idoxuridine: nueva indicación predicha, Candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 0)"
@@ -73,7 +73,7 @@ Actualmente no hay literatura relacionada disponible para candidiasis vulvovagin
 
 <!-- review:begin es-lic-20261105-idoxuridine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Las tres autorizaciones están vigentes, son de un solo principio activo y pertenecen a Laboratorios Viñas S.A. Todas son de uso cutáneo/tópico." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 autorizaciones (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Las tres autorizaciones están vigentes, son de un solo principio activo y pertenecen a Laboratorios Viñas S.A. Todas son de uso cutáneo/tópico." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-idoxuridine-1 -->
 
@@ -84,11 +84,17 @@ Actualmente no hay literatura relacionada disponible para candidiasis vulvovagin
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 51201 | VIREXEN SOLUCION 10% | Solución cutánea | No disponible en el registro |
-| 58135 | VIREXEN SOLUCION 40% | Solución cutánea | No disponible en el registro |
-| 51202 | VIREXEN SOLUCION 2% | Solución cutánea | No disponible en el registro |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 51201 | VIREXEN SOLUCION 10% | SOLUCIÓN CUTÁNEA | Laboratorios Vinas S.A. | Revocada |
+| 58135 | VIREXEN SOLUCION 40% | SOLUCIÓN CUTÁNEA | Laboratorios Vinas S.A. | Revocada |
+| 51202 | VIREXEN SOLUCION 2% | SOLUCIÓN CUTÁNEA | Laboratorios Vinas S.A. | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -116,7 +122,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Las tres autorizaciones están vigentes, son de un solo principio activo y pertenecen a Laboratorios Viñas S.A. Todas son de uso cutáneo/tópi" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Las tres autorizaciones están vigentes, son de un solo principio activo y pertenecen a Laboratorios Viñas S.A. Todas son de uso cutáneo/tópi" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL788 (idoxuridine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL788) |
 
 <!-- review:end log -->

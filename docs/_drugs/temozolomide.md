@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Temozolomide"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Temozolomide: nueva indicación predicha, Neoplasia de la cauda equina (cauda equina neoplasm) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -79,13 +79,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Se muestran 5 de las al menos 20 autorizaciones registradas (la lista puede ser parcial). Los datos disponibles no incluyen texto de indicación aprobada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 110615031 | Temozolomida Accord 140 mg cápsulas duras EFG | Cápsula dura | Sin texto de indicación disponible |
-| 111697021 | Temozolomida SUN 180 mg cápsulas duras EFG | Cápsula dura | Sin texto de indicación disponible |
-| 98096023 | Temodal 2,5 mg/ml polvo para solución para perfusión | Polvo para solución para perfusión | Sin texto de indicación disponible |
-| 11697001 | Temozolomida SUN 5 mg cápsulas duras EFG | Cápsula dura | Sin texto de indicación disponible |
-| 09606005 | Temozolomida Teva 100 mg cápsulas duras EFG | Cápsula dura | Sin texto de indicación disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 110615031 | TEMOZOLOMIDA ACCORD 140 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Accord Healthcare S.L.U. | Comercializada |
+| 111697021 | Temozolomida SUN 180 mg capsulas duras EFG | CÁPSULA DURA | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+| 11697001 | TEMOZOLOMIDA SUN 5 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Sun Pharmaceutical Industries (Europe) B.V. | Autorizada, no comercializada |
+| 98096023 | TEMODAL 2,5 MG/ML POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Merck Sharp & Dohme B.V. | Autorizada, no comercializada |
+| 09606005 | TEMOZOLOMIDA TEVA 100 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Teva B.V. | Autorizada, no comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

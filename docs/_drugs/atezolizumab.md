@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ATEZOLIZUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atezolizumab: nueva indicación predicha, Adenocarcinoma del ligamento uterino (nivel de evidencia L5). Indicación original: Carcinoma de células transicionales"
 ---
 
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Se muestran 5 de las 11 autorizaciones. Los registros no incluyen texto de indicación aprobada, por lo que no se puede indicar para qué usos están autorizados los productos.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 1171220001 | Tecentriq 1200 mg | Concentrado para solución para perfusión |
-| 1171220001IP3 | Tecentriq 1200 mg | Concentrado para solución para perfusión |
-| 1171220002 | Tecentriq 840 mg | Concentrado para solución para perfusión |
-| 1171220002IP1 | Tecentriq 840 mg | Concentrado para solución para perfusión |
-| 1171220003 | Tecentriq 1875 mg | Solución inyectable |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1171220001 | TECENTRIQ 1200 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Comercializada |
+| 1171220002IP1 | TECENTRIQ 840 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Comercializada |
+| 1171220003 | TECENTRIQ 1875 MG SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Roche Registration Gmbh | Comercializada |
+| 1171220001IP1 | TECENTRIQ 1.200 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Comercializada |
+| 1171220001IP2 | TECENTRIQ 1200 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Comercializada |
+
+Se muestran 5 de 11 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Titular: Roche Registration GmbH.
 

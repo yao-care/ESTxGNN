@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
 description: "Filgrastim: nueva indicación predicha, Trastorno de liberación primaria de las plaquetas (primary release disorder of platelets) (nivel de evidencia L5). Indicación original: No consta en los datos l…"
@@ -75,13 +75,24 @@ Actualmente no hay literatura relacionada disponible.
 
 Se registran 20 autorizaciones vigentes (todas monofármaco). Las principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 08495003 | ZARZIO 30 MU/0,5 ml | Solución inyectable y para perfusión en jeringa precargada | No disponible |
-| 110631007 | NIVESTIM 48 MU/0,5 ml | Solución inyectable y para perfusión | No disponible |
-| 114946004 | Accofil 48 MU/0,5 ml | Solución inyectable y para perfusión en jeringa precargada | No disponible |
-| 08444006 | RATIOGRASTIM 48 MU/0,8 ml | Solución inyectable y para perfusión en jeringa precargada | No disponible |
-| 64314 | NEUPOGEN 30 MU (0,6 mg/ml) | Solución inyectable en jeringa precargada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 08495003 | ZARZIO 30 MU/0,5 ml SOL. INY. O PARA PERFUSION EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN EN JERINGA PRECARGADA | Sandoz Gmbh | Comercializada |
+| 110631007 | NIVESTIM 48 MU/0,5 ml SOLUCION INYECTABLE O PARA PERFUSION | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Pfizer Europe Ma Eeig | Comercializada |
+| 110631001 | NIVESTIM 12 MU/0,2 ml SOLUCION INYECTABLE O PARA PERFUSION | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Pfizer Europe Ma Eeig | Comercializada |
+| 08495005 | ZARZIO 48 MU/0,5 ml SOL. INY. O PARA PERFUSION EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN EN JERINGA PRECARGADA | Sandoz Gmbh | Comercializada |
+| 64314 | NEUPOGEN 30 MU (0,6 mg/ml) SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Amgen Europe B.V. | Comercializada |
+| 114946014 | Accofil 48 MU/0,5 ml solucion inyectable y para perfusion en jeringa precargada | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN EN JERINGA PRECARGADA | Accord Healthcare S.L.U. | Comercializada |
+| 110631008 | NIVESTIM 48 MU/0,5 ml SOLUCION INYECTABLE O PARA PERFUSION | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN EN JERINGA PRECARGADA | Pfizer Europe Ma Eeig | Comercializada |
+| 110631005 | NIVESTIM 30 MU/0,5 ml SOLUCION INYECTABLE Y PARA PERFUSION | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN EN JERINGA PRECARGADA | Pfizer Europe Ma Eeig | Comercializada |
+| 114946005 | Accofil 30 MU/0,5 ml solucion inyectable y para perfusion en jeringa precargada | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN EN JERINGA PRECARGADA | Accord Healthcare S.L.U. | Comercializada |
+| 08495007 | ZARZIO 48 MU/0,5 ml SOL. INY. O PARA PERFUSION EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN EN JERINGA PRECARGADA | Sandoz Gmbh | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Las 20 autorizaciones corresponden a las marcas Zarzio, Nivestim, Accofil, Ratiograstim y Neupogen (biosimilares y originador).
 

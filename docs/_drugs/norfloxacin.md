@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 575
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-24
 monitor_inn: "Norfloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "punctate epithelial keratoconjunctivitis", "premalignant hematological system disease", "diffuse scleroderma", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
 description: "Norfloxacin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 4)"
@@ -71,19 +71,29 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 56901 | Norfloxacino Qualigen 400 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 62622 | Norfloxacino Sandoz 400 mg comprimidos EFG | Comprimido recubierto | No disponible |
-| 68627 | Norfloxacino Cinfa 400 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 63159 | Norfloxacino Normon 400 mg comprimidos recubiertos con película EFG | Comprimido recubierto | No disponible |
-| 63202 | Norfloxacino Stada 400 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
 
-Entre las no listadas figura Chibroxin 3 mg/ml colirio en solución (Laboratorios Thea), de uso oftálmico.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 62622 | NORFLOXACINO SANDOZ 400 mg COMPRIMIDOS EFG | COMPRIMIDO RECUBIERTO | Sandoz Farmaceutica S.A. | Comercializada |
+| 68627 | NORFLOXACINO CINFA 400 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+| 63159 | NORFLOXACINO NORMON 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO | Laboratorios Normon S.A. | Comercializada |
+| 63202 | NORFLOXACINO STADA 400 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 59248 | CHIBROXIN 3 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Laboratorios Thea S.A. | Suspendida |
+| 68626 | NORFLOXACINO PENSA 400 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Towa Pharmaceutical S.A. | Suspendida |
+| 56901 | NORFLOXACINO QUALIGEN 400 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Neuraxpharm Spain S.L. | Revocada |
+| 62309 | NORFLOXACINO LESVI 400 MG COMPRIMIDOS EFG | COMPRIMIDO RECUBIERTO | Laboratorios Lesvi Sl | Revocada |
+| 64083 | NORFLOXACINO DARI PHARMA 400 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO | Dari Pharma S.L. | Revocada |
+
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
+
+Entre las autorizaciones figura también Chibroxin 3 mg/ml colirio en solución (Laboratorios Thea), de uso oftálmico.
 
 <!-- review:begin es-lic-20261105-norfloxacin-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Nota: se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único). Entre las no listadas figura Chibroxin 3 mg/ml colirio en solución (Laboratorios Thea), de uso oftálmico." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 autorizaciones (comercializadas: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Nota: se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único). Entre las no listadas figura Chibroxin 3 mg/ml colirio en solución (Laboratorios Thea), de uso oftálmico." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-norfloxacin-1 -->
 
@@ -113,7 +123,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Nota: se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Nota: se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 678
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RALTEGRAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Raltegravir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 5 (comercializadas: 5)"
@@ -83,13 +83,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 89626 | Raltegravir Dr. Reddys 600 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Información no disponible |
-| 107436006 | Isentress 600 mg comprimidos recubiertos con película | Comprimido recubierto con película | Información no disponible |
-| 107436004 | Isentress 100 mg comprimidos masticables | Comprimido masticable | Información no disponible |
-| 07436001 | Isentress 400 mg comprimidos recubiertos con película | Comprimido recubierto con película | Información no disponible |
-| 107436003 | Isentress 25 mg comprimidos masticables | Comprimido masticable | Información no disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 89626 | RALTEGRAVIR DR. REDDYS 600 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Reddy Pharma Iberia S.A. | Comercializada |
+| 107436006 | ISENTRESS 600 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Merck Sharp & Dohme B.V. | Comercializada |
+| 107436004 | ISENTRESS 100 MG COMPRIMIDOS MASTICABLES | COMPRIMIDO MASTICABLE | Merck Sharp & Dohme B.V. | Comercializada |
+| 07436001 | ISENTRESS 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Merck Sharp & Dohme B.V. | Comercializada |
+| 107436003 | ISENTRESS 25 MG COMPRIMIDOS MASTICABLES | COMPRIMIDO MASTICABLE | Merck Sharp & Dohme B.V. | Comercializada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

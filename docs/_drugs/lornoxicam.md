@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "LORNOXICAM"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "trigeminal autonomic cephalalgia", "tendinitis", "idiopathic granulomatous myositis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Lornoxicam: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 1)"
 ---
 
@@ -79,13 +79,21 @@ Esta plausibilidad mecanística no equivale a evidencia de eficacia: ningún est
 
 Según los datos locales, hay 7 autorizaciones, de las cuales 1 está vigente y 6 canceladas.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 78274 | LORNOXICAM RAPID MEIJI 8 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG (vigente) | Comprimido recubierto con película | No disponible |
-| 61836 | ACABEL 4 mg (cancelada) | Comprimido recubierto con película | No disponible |
-| 61837 | ACABEL 8 mg (cancelada) | Comprimido recubierto con película | No disponible |
-| 65059 | ACABEL RAPID 8 mg (cancelada) | Comprimido recubierto con película | No disponible |
-| 62691 | BOSPORON 8 mg (cancelada) | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 78274 | LORNOXICAM RAPID MEIJI 8 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Meiji Pharma Spain S.A. | Comercializada |
+| 61836 | ACABEL 4 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Grünenthal Pharma S.A. | Revocada |
+| 62691 | BOSPORON 8 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Takeda Farmaceutica Espana S.A. | Revocada |
+| 29-696-08-C | ACABEL RAPID 8 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Takeda Austria Gmbh | Revocada |
+| 65059 | ACABEL RAPID 8 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Grünenthal Pharma S.A. | Revocada |
+| 66440 | BOSPORON RAPID 8 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Takeda Farmaceutica Espana S.A. | Revocada |
+| 61837 | ACABEL 8 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Grünenthal Pharma S.A. | Revocada |
+
+Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 840
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "VANDETANIB"
 predicted_indications: ["renal cell carcinoma (disease)", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
 description: "Vandetanib: nueva indicación predicha, carcinoma de células renales (renal cell carcinoma (disease)) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -83,10 +83,16 @@ Aun así, la evidencia clínica es débil: son estudios pequeños, varios termin
 
 Vandetanib se comercializa en España. Autorizaciones registradas en los datos locales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 11749002 | CAPRELSA 300 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 11749001 | CAPRELSA 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 11749002 | CAPRELSA 300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sanofi B.V. | Comercializada |
+| 11749001 | CAPRELSA 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sanofi B.V. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

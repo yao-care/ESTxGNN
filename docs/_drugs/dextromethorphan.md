@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 244
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Dextromethorphan"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
 description: "Dextromethorphan: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -80,13 +80,24 @@ Los textos de indicación aprobada no están disponibles en los datos compilados
 
 <!-- review:end es-lic-20261105-dextromethorphan-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 57623 | Cinfatos Antitusivo 2 mg/ml solución oral | Solución oral | No disponible |
-| 83679 | Intertos 15 mg comprimidos | Comprimido | No disponible |
-| 67400 | Bicasan 2 mg/ml jarabe | Jarabe | No disponible |
-| 24381 | Propalcof 15 mg comprimidos | Comprimido | No disponible |
-| 57174 | Bisolvon Antitusivo 2 mg/ml jarabe | Jarabe | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 57623 | CINFATOS ANTITUSIVO 2 mg/ ml SOLUCION ORAL | SOLUCIÓN ORAL | Laboratorios Cinfa S.A. | Comercializada |
+| 83679 | INTERTOS 15 MG COMPRIMIDOS | COMPRIMIDO | Interpharma S.A. | Comercializada |
+| 67400 | BICASAN 2 MG/ML JARABE | JARABE | Pharminicio S.L. | Comercializada |
+| 80342 | TOSYSTOP 20 MG SOLUCION ORAL | SOLUCIÓN ORAL | Apotheke Laboratorios S.L. | Comercializada |
+| 67155 | NORMOTUS ANTITUSIVO 2 MG/ML SOLUCIÓN ORAL | SOLUCIÓN ORAL | Laboratorios Normon S.A. | Comercializada |
+| 58910 | INISTON TOS 1,5 MG/ML JARABE | JARABE | Jntl Consumer Health (Spain) S.L. | Comercializada |
+| 80341 | DEXTROMETORFANO FARMALIDER 10 MG SOLUCION ORAL | SOLUCIÓN ORAL | Farmalider S.A. | Comercializada |
+| 85817 | CINFATOS ANTITUSIVO FLAS 15 MG COMPRIMIDOS BUCODISPERSABLES | COMPRIMIDO BUCODISPERSABLE | Laboratorios Cinfa S.A. | Comercializada |
+| 78764 | CINFATOS ANTITUSIVO 15 MG SOLUCION ORAL EN SOBRES | SOLUCIÓN ORAL | Laboratorios Cinfa S.A. | Comercializada |
+| 57174 | BISOLVON ANTITUSIVO 2 mg/ ml JARABE | JARABE | Opella Healthcare Spain S.L. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

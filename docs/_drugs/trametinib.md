@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 811
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRAMETINIB"
 predicted_indications: ["choroideremia"]
 description: "Trametinib: nueva indicación predicha, Choroideremia (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 4)"
@@ -84,12 +84,18 @@ Actualmente no hay literatura relacionada disponible para coriorremia.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 114931002 | MEKINIST 0,5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-| 114931006 | MEKINIST 2 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-| 1231781001 | SPEXOTRAS 0,05 mg/ml polvo para solución oral | Polvo para solución oral | No disponible en los datos |
-| 114931006IP | MEKINIST 2 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 114931002 | MEKINIST 0,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Novartis Europharm Limited | Comercializada |
+| 114931006 | MEKINIST 2 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Novartis Europharm Limited | Comercializada |
+| 1231781001 | SPEXOTRAS 0,05 MG/ML POLVO PARA SOLUCION ORAL | POLVO PARA SOLUCIÓN ORAL | Novartis Europharm Limited | Comercializada |
+| 114931006IP | MEKINIST 2 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Novartis Europharm Limited | Comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Titular de todas las autorizaciones: Novartis Europharm Limited.
 

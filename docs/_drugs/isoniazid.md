@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 432
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "isoniazid"
 predicted_indications: ["conjunctivitis"]
 description: "Isoniazid: nueva indicación predicha, Conjuntivitis (conjunctivitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 7)"
@@ -82,13 +82,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 18697 | CEMIDON 60 MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | No disponible |
-| 63335 | CEMIDON B6 300 MG/50 MG COMPRIMIDOS | Comprimido | No disponible |
-| 54213 | RIFINAH 300 MG/150 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto | No disponible |
-| 40689 | CEMIDON B6 150 MG/25 MG COMPRIMIDOS | Comprimido | No disponible |
-| 38394 | CEMIDON B6 50 MG/15 MG COMPRIMIDOS | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 18697 | CEMIDON 60 MG/ML SOLUCIÓN INYECTABLE | SOLUCIÓN INYECTABLE | Chiesi España S.A.U. | Comercializada |
+| 63335 | CEMIDON B6 300 MG/50 MG COMPRIMIDOS | COMPRIMIDO | Chiesi España S.A.U. | Comercializada |
+| 54213 | RIFINAH 300 MG/150 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | COMPRIMIDO RECUBIERTO | Sanofi Aventis S.A. | Comercializada |
+| 40689 | CEMIDON B6 150 MG/25 MG COMPRIMIDOS | COMPRIMIDO | Chiesi España S.A.U. | Comercializada |
+| 38394 | CEMIDON B6 50 MG/15 MG COMPRIMIDOS | COMPRIMIDO | Chiesi España S.A.U. | Comercializada |
+
+Se muestran 5 de 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Hay 7 autorizaciones vigentes en total; se muestran las 5 principales.
 

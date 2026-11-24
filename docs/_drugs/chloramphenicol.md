@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 170
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "chloramphenicol"
 predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
 description: "Chloramphenicol: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 4)"
@@ -74,12 +74,18 @@ Actualmente no hay literatura relacionada disponible.
 
 El producto está comercializado en España, con autorizaciones válidas.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19495 | OFTALMOLOSA CUSI CLORAMFENICOL 10 MG/G POMADA OFTÁLMICA | Pomada oftálmica | No disponible en los datos compilados |
-| 26231 | CORTISON CHEMICETINA 25mg/g + 20mg/g POMADA | Pomada | No disponible en los datos compilados |
-| 40356 | OFTALMOLOSA CUSI DE ICOL POMADA OFTALMICA | Pomada oftálmica | No disponible en los datos compilados |
-| 26230 | CORTISON CHEMICETINA POMADA 5mg/g + 10mg/g POMADA | Pomada | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 19495 | OFTALMOLOSA CUSI CLORAMFENICOL 10 MG/G POMADA OFTÁLMICA | POMADA OFTÁLMICA | Omnivision Gmbh | Comercializada |
+| 26231 | CORTISON CHEMICETINA 25mg/g + 20mg/g POMADA | POMADA | Teofarma S.R.L. | Comercializada |
+| 40356 | OFTALMOLOSA CUSI DE ICOL POMADA OFTALMICA | POMADA OFTÁLMICA | Fidia Farmaceutici S.P.A. | Comercializada |
+| 26230 | CORTISON CHEMICETINA POMADA 5mg/g + 10mg/g POMADA | POMADA | Teofarma S.R.L. | Comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 96
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "BENTAZEPAM"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "sleep disorder, initiating and maintaining sleep"]
 description: "Bentazepam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0)"
@@ -71,9 +71,15 @@ Actualmente no hay literatura relacionada disponible.
 
 El estado de mercado según los datos locales es: solo autorizaciones canceladas. Se registra una única autorización, actualmente cancelada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 55464 | TIADIPONA (Mylan Ire Healthcare Limited) | Comprimido | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 55464 | TIADIPONA | COMPRIMIDO | Mylan Ire Healthcare Limited | Revocada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

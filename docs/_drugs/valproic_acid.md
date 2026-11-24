@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 837
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Valproic acid"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Valproic Acid: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 14 (comercializadas: 11)"
@@ -67,7 +67,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 <!-- review:begin es-lic-20261105-valproic_acid-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 14 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 14 autorizaciones (comercializadas: 11); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 14 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-valproic_acid-1 -->
 
@@ -79,13 +79,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 84514 | Ácido valproico Aurobindo 300 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | No disponible |
-| 60350 | Depakine Crono 500 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible |
-| 60352 | Depakine 100 mg/ml polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible |
-| 48828 | Depakine 200 mg/ml solución oral | Solución oral | No disponible |
-| 68033 | Ácido valproico Altan 400 mg polvo para solución inyectable EFG | Polvo para solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 60350 | DEPAKINE CRONO 500 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Sanofi Aventis S.A. | Comercializada |
+| 60352 | DEPAKINE 100 mg/ml POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Sanofi Aventis S.A. | Comercializada |
+| 48828 | DEPAKINE 200 mg/ml SOLUCION ORAL | SOLUCIÓN ORAL | Sanofi Aventis S.A. | Comercializada |
+| 68033 | ACIDO VALPROICO ALTAN 400 mg POLVO PARA SOLUCION INYECTABLE EFG | POLVO PARA SOLUCIÓN INYECTABLE | Altan Pharmaceuticals Sa | Comercializada |
+| 84517 | ACIDO VALPROICO AUROVITAS 300 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Aurovitas Spain, S.A.U. | Comercializada |
+| 54470 | DEPAKINE 500 mg COMPRIMIDOS GASTRORRESISTENTES | COMPRIMIDO GASTRORRESISTENTE | Sanofi Aventis S.A. | Comercializada |
+| 419721021-06-2011 | DEPAKINE CRONO 500 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Sanofi Aventis | Comercializada |
+| 90007 | ACIDO VALPROICO SEACROSS 100 MG/ML SOLUCION INYECTABLE Y PARA PERFUSION | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Seacross Pharma (Europe) Limited | Comercializada |
+| 60351 | DEPAKINE CRONO 300 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Sanofi Aventis S.A. | Comercializada |
+| 84516 | ACIDO VALPROICO AUROVITAS 500 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Aurovitas Spain, S.A.U. | Comercializada |
+
+Se muestran 10 de 14 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -117,7 +128,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 14 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 14 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Valproic (valproic acid) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34a0d45a-4388-7d8b-e063-6394a90a6c3f) |
 
 <!-- review:end log -->

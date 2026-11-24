@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 712
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Ropinirole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
 description: "Ropinirole: nueva indicación predicha, Attention deficit-hyperactivity disorder (nivel de evidencia L3). En España, autorizaciones de la AEMPS: al menos 20"
@@ -87,13 +87,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61469 | REQUIP 5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-| 61465 | REQUIP 0,5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-| 61466 | REQUIP 1 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-| 67921 | ADARTREL 0,5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-| 74665 | ROLPRYNA SR 8 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 75989 | ROPINIROL STADA 8 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Laboratorio Stada S.L. | Comercializada |
+| 74552 | ROPINIROL KRKA 4 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Krka D.D. Novo Mesto | Comercializada |
+| 75986 | ROPINIROL STADA 4 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Laboratorio Stada S.L. | Comercializada |
+| 61469 | REQUIP 5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Glaxosmithkline S.A. | Comercializada |
+| 61465 | REQUIP 0,5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Glaxosmithkline S.A. | Comercializada |
+| 74665 | ROLPRYNA SR 8 mg COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Krka D.D. Novo Mesto | Comercializada |
+| 61466 | REQUIP 1 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Glaxosmithkline S.A. | Comercializada |
+| 74553 | ROPINIROL KRKA 2 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Krka D.D. Novo Mesto | Comercializada |
+| 77577 | ROPINIROL KERN PHARMA 8 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Kern Pharma S.L. | Comercializada |
+| 67921 | ADARTREL 0.5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Glaxosmithkline S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

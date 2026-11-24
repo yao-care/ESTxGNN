@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 187
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clarithromycin: nueva indicación predicha, hiperamilasemia (nivel de evidencia L5). Indicación original: Infecciones bacterianas (otitis media infecciosa…"
 monitor_inn: "Clarithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
@@ -86,13 +86,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 90077 | Claritromicina Brown & Burk 250 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
-| 78064 | Claritromicina Teva 500 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
-| 60518 | Klacid 500 mg granulado para suspensión oral | Granulado para solución oral | No disponible en los datos |
-| 64663 | Claritromicina Aristo 500 mg comprimidos recubiertos EFG | Comprimido recubierto | No disponible en los datos |
-| 64670 | Claritromicina Farmalider 250 mg comprimidos recubiertos con película EFG | Comprimido recubierto | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 64591 | CLARITROMICINA KERN PHARMA 250 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+| 64825 | CLARITROMICINA NORMON 500 mg COMPRIMIDOS RECUBIERTOS EFG | COMPRIMIDO RECUBIERTO | Laboratorios Normon S.A. | Comercializada |
+| 81714 | CLARITROMICINA KRKA 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Krka D.D. Novo Mesto | Comercializada |
+| 64606 | CLARITROMICINA ALTER 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO | Laboratorios Alter S.A. | Comercializada |
+| 79006 | CLARITROMICINA AUROVITAS 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 64638 | CLARITROMICINA VIR 500 mg comprimidos recubiertos EFG | COMPRIMIDO RECUBIERTO | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 67639 | CLARITROMICINA CINFA 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+| 90077 | CLARITROMICINA BROWN & BURK 250 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Brown & Burk Ir Limited | Autorizada, no comercializada |
+| 64670 | CLARITROMICINA FARMALIDER 250 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO | Farmalider S.A. | Autorizada, no comercializada |
+| 64671 | CLARITROMICINA FARMALIDER 500 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO | Farmalider S.A. | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

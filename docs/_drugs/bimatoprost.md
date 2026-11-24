@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BIMATOPROST"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bimatoprost: nueva indicación predicha, Síndrome malformativo con componente odontal y/o periodontal (malformation syndrome with odontal and/or periodontal com… (nivel de evidencia L5). Indicación or…"
 ---
 
@@ -74,13 +74,24 @@ Actualmente no hay literatura relacionada disponible.
 
 Los datos compilados indican que el fármaco está comercializado en España, con autorizaciones de medicamentos de un solo principio activo (la lista puede ser parcial). Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 81694 | Bimatoprost Aristo 0,3 mg/ml | Colirio en solución |
-| 86578 | Visuplain 0,1 mg/ml | Colirio en solución |
-| 102205006 | Lumigan 0,3 mg/ml (unidosis) | Colirio en solución en envase unidosis |
-| 02205003 | Lumigan 0,1 mg/ml | Colirio en solución |
-| 88992 | Elymbus 0,1 mg/g | Gel oftálmico en envase unidosis |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 102205006 | LUMIGAN 0,3 mg/ml COLIRIO EN SOLUCION EN ENVASE UNIDOSIS | COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 02205003 | LUMIGAN 0,1 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 86389 | AMIRIOX 0,3 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Sifi S.P.A. | Comercializada |
+| 02205006IP | LUMIGAN 0,3 MG/ML COLIRIO EN SOLUCION EN ENVASE UNIDOSIS | COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS | Allergan Pharmaceuticals Ireland | Comercializada |
+| 84523 | ZIMED 0,3 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Medicom Healthcare Ireland Limited | Comercializada |
+| 02205006IP1 | LUMIGAN 0,3 MG/ML COLIRIO EN SOLUCION EN ENVASE UNIDOSIS | COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 86729 | BIMEOX 0,3 MG/ML COLIRIO EN SOLUCION EN ENVASE UNIDOSIS | COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS | Laboratorios Salvat S.A. | Comercializada |
+| 85717 | BIMI 0,3 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Brill Pharma S.L. | Comercializada |
+| 88992 | ELYMBUS 0,1 MG/G GEL OFTALMICO EN ENVASE UNIDOSIS | GEL OFTÁLMICO EN ENVASE UNIDOSIS | Laboratoires Thea | Comercializada |
+| 86578 | VISUPLAIN 0,1MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Visufarma S.P.A. | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

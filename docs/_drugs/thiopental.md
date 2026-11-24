@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 791
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "thiopental"
 predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disorder", "Tourette syndrome", "migraine with brainstem aura", "obsolete bundle branch block", "substance abuse/dependence", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Thiopental: nueva indicación predicha, Tricotilomanía (trichotillomania) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -69,10 +69,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 49591 | TIOBARBITAL B. BRAUN 0,5 G POLVO PARA SOLUCION INYECTABLE | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
-| 18329 | TIOBARBITAL B. BRAUN 1 G POLVO PARA SOLUCION INYECTABLE | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 49591 | TIOBARBITAL B. BRAUN 0,5 G POLVO PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | B Braun Medical S.A. | Comercializada |
+| 18329 | TIOBARBITAL B. BRAUN 1 G POLVO PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | B Braun Medical S.A. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 668
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
 description: "Propafenone: nueva indicación predicha, Trastorno bipolar maníaco (manic bipolar affective disorder) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 3)"
@@ -77,19 +77,25 @@ Ninguna de estas publicaciones demuestra un beneficio de la propafenona en la ma
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 55538 | Rytmonorm 150 mg comprimidos recubiertos | Comprimido recubierto |
-| 55541 | Rytmonorm 300 mg comprimidos recubiertos | Comprimido recubierto |
-| 58275 | Rytmonorm 3,5 mg/ml solución inyectable | Solución inyectable |
-| 82298 | Propafenona hidrocloruro Accord 150 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 82299 | Propafenona hidrocloruro Accord 300 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 55538 | RYTMONORM 150 mg COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Teva B.V. | Comercializada |
+| 55541 | RYTMONORM 300 mg COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Teva B.V. | Comercializada |
+| 58275 | RYTMONORM 3,5 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Teva B.V. | Comercializada |
+| 82299 | PROPAFENONA HIDROCLORURO ACCORD 300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Revocada |
+| 82298 | PROPAFENONA HIDROCLORURO ACCORD 150 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Revocada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Los textos de indicación aprobada no figuran en los datos compilados.
 
 <!-- review:begin es-lic-20261105-propafenone-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Las 5 autorizaciones están vigentes y son de monofármaco. Los textos de indicación aprobada no figuran en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 autorizaciones (comercializadas: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Las 5 autorizaciones están vigentes y son de monofármaco. Los textos de indicación aprobada no figuran en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-propafenone-1 -->
 
@@ -126,7 +132,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Las 5 autorizaciones están vigentes y son de monofármaco" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Las 5 autorizaciones están vigentes y son de monofármaco" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: propafenone hydrochloride prescribing information, Northstar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ecd6452-ccc3-493f-9a4a-69f0fbf67a42) |
 
 <!-- review:end log -->

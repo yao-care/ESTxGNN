@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 559
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Neostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly", "bronchitis", "fetal akinesia deformation sequence", "myasthenia, congenital, refractory to acetylcholinesterase inhibitors"]
 description: "Neostigmine: nueva indicación predicha, Autoimmune disease of peripheral nervous system (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 1)"
@@ -81,10 +81,16 @@ Actualmente no hay literatura relacionada disponible para esta indicación espec
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 4237 | PROSTIGMINE AMPOLLAS (Meda Pharma S.L.) | Solución inyectable | No disponible en los datos compilados |
-| 36384 | NEOSTIGMINA BRAUN 0,5 MG/ML (B Braun Medical S.A.) | Solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 36384 | NEOSTIGMINA BRAUN 0,5 MG/ML SOLUCIÓN INYECTABLE | SOLUCIÓN INYECTABLE | B Braun Medical S.A. | Comercializada |
+| 4237 | PROSTIGMINE AMPOLLAS | SOLUCIÓN INYECTABLE | Meda Pharma S.L. | Revocada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

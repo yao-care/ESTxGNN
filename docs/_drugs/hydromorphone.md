@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 396
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "hydromorphone"
 predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia"]
 description: "Hydromorphone: nueva indicación predicha, Faringitis (pharyngitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 13 (comercializadas: 7)"
@@ -76,19 +76,30 @@ Actualmente no hay literatura relacionada disponible para faringitis.
 
 <!-- review:begin es-lic-20261105-hydromorphone-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 13 autorizaciones vigentes (todas de monofármaco, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 13 autorizaciones (comercializadas: 7); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 13 autorizaciones vigentes (todas de monofármaco, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-hydromorphone-1 -->
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 79784 | EDUNIX 8 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible |
-| 68019 | JURNISTA 16 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible |
-| 79783 | EDUNIX 4 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible |
-| 86201 | EDUNIX 2,6 mg cápsulas duras EFG | Cápsula dura | No disponible |
-| 90236 | EDUNIX 2,6 mg/ml solución oral | Solución oral | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 79784 | EDUNIX 8 MG COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Aristo Pharma Gmbh | Comercializada |
+| 79783 | EDUNIX 4 MG COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Aristo Pharma Gmbh | Comercializada |
+| 86201 | EDUNIX 2,6 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Aristo Pharma Gmbh | Comercializada |
+| 90236 | EDUNIX 2,6 MG/ML SOLUCION ORAL | SOLUCIÓN ORAL | Aristo Pharma Gmbh | Comercializada |
+| 86200 | EDUNIX 1,3 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Aristo Pharma Gmbh | Comercializada |
+| 79781 | EDUNIX 16 MG COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Aristo Pharma Gmbh | Comercializada |
+| 79782 | EDUNIX 32 MG COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Aristo Pharma Gmbh | Comercializada |
+| 68019 | JURNISTA 16 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Janssen Cilag S.A. | Revocada |
+| 69710 | JURNISTA 4 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Janssen Cilag S.A. | Revocada |
+| 68018 | JURNISTA 8 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Janssen Cilag S.A. | Revocada |
+
+Se muestran 10 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -116,7 +127,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 13 autorizaciones vigentes (todas de monofármaco, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 13 autorizaciones vigentes (todas de monofármaco, ninguna cancelada)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Dilaudid (hydromorphone hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9eebd88a-5632-460f-b7b6-26c8a180540d) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 825
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Triazolam: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,9 +72,15 @@ Todos los candidatos que el modelo TxGNN (puntuación ≥ 0.99) propone para Tri
 
 ## Información de Mercado en España
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 58118 | triazolam | COMPRIMIDO | Vigente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 58118 | HALCION 0,125 mg COMPRIMIDOS | COMPRIMIDO | Pfizer S.L. | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

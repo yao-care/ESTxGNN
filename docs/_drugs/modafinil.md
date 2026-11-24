@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 539
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "modafinil"
 predicted_indications: ["insomnia (disease)"]
 description: "Modafinil: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 6)"
@@ -82,13 +82,21 @@ Ninguna de estas publicaciones estudia directamente el insomnio como enfermedad 
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 80929 | MODAFINILO TARBIS 100 mg COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
-| 75919 | MODAFINILO AUROVITAS 100 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
-| 72187 | MODAFINILO MYLAN 100 mg COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
-| 61540 | MODIODAL 100 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
-| 84141 | MODAFINILO ARISTO 100 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 80929 | MODAFINILO TARBIS 100 mg COMPRIMIDOS EFG | COMPRIMIDO | Tarbis Farma S.L. | Comercializada |
+| 75919 | MODAFINILO AUROVITAS 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Aurovitas Spain, S.A.U. | Comercializada |
+| 61540 | MODIODAL 100 mg COMPRIMIDOS | COMPRIMIDO | Neuraxpharm Pharmaceuticals S.L. | Comercializada |
+| 84141 | MODAFINILO ARISTO 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Aristo Pharma Gmbh | Comercializada |
+| 83641 | MODAFINILO VIATRIS 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Viatris Limited | Comercializada |
+| 80643 | MODAFINILO BLUEFISH 100 mg COMPRIMIDOS EFG | COMPRIMIDO | Bluefish Pharmaceuticals Ab (Publ) | Comercializada |
+| 72187 | MODAFINILO MYLAN 100 mg COMPRIMIDOS EFG | COMPRIMIDO | Mylan Pharmaceuticals S.L. | Revocada |
+
+Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Hay 7 autorizaciones registradas, de las cuales 6 están vigentes y 1 cancelada.
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 834
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "UPADACITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 description: "Upadacitinib: nueva indicación predicha, Síndrome de microftalmia colobomatosa con displasia rizomélica (colobomatous microphthalmia-rhizomelic dysplasia syndro… (nivel de evidencia L5). Indicación o…"
@@ -72,11 +72,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1191404001 | RINVOQ 15 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible en los datos compilados |
-| 1191404010 | RINVOQ 45 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible en los datos compilados |
-| 1191404006 | RINVOQ 30 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1191404001 | RINVOQ 15 MG COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 1191404010 | RINVOQ 45 MG COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 1191404006 | RINVOQ 30 MG COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Titular: Abbvie Deutschland GmbH & Co.
 

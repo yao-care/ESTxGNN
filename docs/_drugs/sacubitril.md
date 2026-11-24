@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 720
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sacubitril: nueva indicación predicha, Enfermedad de pequeño vaso cerebral tipo 1 con o sin anomalías oculares (nivel de evidencia L5). Indicación original: No disponible en los datos de autorización …"
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
@@ -74,13 +74,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 151058003IP | ENTRESTO 49 mg/51 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 161103006IP | NEPARVIS 97 mg/103 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 151058006IP1 | ENTRESTO 97 mg/103 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 1151058001 | ENTRESTO 24 mg/26 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 90633 | BIDCOR 24 mg/26 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 161103006IP | NEPARVIS 97 MG/103 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Novartis Europharm Limited | Comercializada |
+| 151058003IP3 | ENTRESTO 49 MG/51 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Novartis Europharm Limited | Comercializada |
+| 1151058001 | ENTRESTO 24 MG/26 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Novartis Europharm Limited | Comercializada |
+| 161103001IP | NEPARVIS 24 MG/26 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Novartis Europharm Limited | Comercializada |
+| 151058003IP | ENTRESTO 49 MG/51 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Novartis Europharm Limited | Autorizada, no comercializada |
+| 90818 | SACUBITRILO/VALSARTAN AXUNIO 97 MG/103 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Axunio Pharma Gmbh | Autorizada, no comercializada |
+| 90633 | BIDCOR 24 MG/26 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Alter S.A. | Autorizada, no comercializada |
+| 151058006IP1 | ENTRESTO 97 MG/103 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Novartis Europharm Limited | Autorizada, no comercializada |
+| 91062 | SACUBITRILO/VALSARTAN NORMON 24 MG/26 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Autorizada, no comercializada |
+| 90635 | BIDCOR 97 MG/103 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Alter S.A. | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Hay 20 autorizaciones vigentes en total, todas de producto único (sacubitrilo/valsartán), incluidos genéricos (EFG).
 

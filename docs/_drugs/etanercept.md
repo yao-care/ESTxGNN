@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 311
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ETANERCEPT"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
 description: "Etanercept: nueva indicación predicha, Hypermobility of coccyx (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 13 (comercializadas: 13)"
@@ -84,13 +84,19 @@ Sin embargo, la literatura también muestra una señal contraria: se han descrit
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 99126013 | ENBREL 25 mg solución inyectable en jeringas precargadas | Solución inyectable en jeringa precargada | No disponible |
-| 99126017 | ENBREL 50 mg solución inyectable en jeringas precargadas | Solución inyectable en jeringa precargada | No disponible |
-| 1151074001 | Benepali 50 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible |
-| 1171195007 | ERELZI 50 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible |
-| 1201436005 | NEPEXTO 50 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1171195010 | ERELZI 50 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Sandoz Gmbh | Comercializada |
+| 199126023 | ENBREL 25 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Pfizer Europe Ma Eeig | Comercializada |
+| 99126013 | ENBREL 25 mg SOLUCION INYECTABLE EN JERINGAS PRECARGADAS | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Pfizer Europe Ma Eeig | Comercializada |
+| 1171195003 | ERELZI 25 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Sandoz Gmbh | Comercializada |
+| 99126020 | ENBREL 50 mg SOLUCION INYECTABLE EN PLUMAS PRECARGADAS | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Pfizer Europe Ma Eeig | Comercializada |
+
+Se muestran 5 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 13 autorizaciones vigentes (todas monofármaco), que incluyen Enbrel, Benepali, Erelzi y Nepexto.
 

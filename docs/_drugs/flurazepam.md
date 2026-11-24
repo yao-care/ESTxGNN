@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 349
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Flurazepam: known uses and market status in Spain; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,9 +72,15 @@ Los candidatos que el modelo TxGNN propone para Flurazepam son, en todos los cas
 
 ## Información de Mercado en España
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 50234 | flurazepam | CÁPSULA DURA | Vigente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 50234 | DORMODOR 30 mg CAPSULAS DURAS | CÁPSULA DURA | Viatris Healthcare Limited | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "arsenic trioxide"
 predicted_indications: ["unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "partial deletion of the long arm of chromosome 5", "myelodysplastic syndrome", "Ewing sarcoma", "dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Arsenic Trioxide: nueva indicación predicha, Síndrome mielodisplásico no clasificado (unclassified myelodysplastic syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos local…"
 ---
 
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible para esta entrada.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 85727 | Trióxido de Arsénico Stada 1 mg/ml | Concentrado para solución para perfusión | No registrada en los datos locales |
-| 02204001 | Trisenox 1 mg/ml | Concentrado para solución para perfusión | No registrada en los datos locales |
-| 85303 | Trióxido de Arsénico Sandoz 1 mg/ml | Concentrado para solución para perfusión | No registrada en los datos locales |
-| 1191398003 | Trióxido de Arsénico Accord 1 mg/ml | Concentrado para solución para perfusión | No registrada en los datos locales |
-| 102204002 | Trisenox 2 mg/ml | Concentrado para solución para perfusión | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 85727 | TRIOXIDO DE ARSENICO STADA 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Laboratorio Stada S.L. | Comercializada |
+| 1191398003 | TRIOXIDO DE ARSENICO ACCORD 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 102204002 | TRISENOX 2 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Teva B.V. | Comercializada |
+| 02204001 | TRISENOX 1 mg/ml, CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Teva B.V. | Autorizada, no comercializada |
+| 85303 | TRIOXIDO DE ARSENICO SANDOZ 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Sandoz Farmaceutica S.A. | Revocada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

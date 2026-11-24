@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 468
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Levonorgestrel: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: al menos 20"
@@ -84,13 +84,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Los registros locales incluyen 20 autorizaciones de levonorgestrel como principio activo único: 16 vigentes, 2 canceladas y 2 sin comercialización. La lista puede ser parcial. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 81418 | Kyleena 19,5 mg | Sistema de liberación intrauterino | No disponible en los datos compilados |
-| 80021 | Levosert 0,02 mg cada 24 horas | Sistema de liberación intrauterino | No disponible en los datos compilados |
-| 79530 | Moonbell 1,5 mg | Comprimido recubierto con película | No disponible en los datos compilados |
-| 39664-9-6-2015 | Postinor 1,5 mg | Comprimido | No disponible en los datos compilados |
-| 63158 | Mirena 0,02 mg cada 24 horas | Sistema de liberación intrauterino | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 81418 | KYLEENA 19,5 MG SISTEMA DE LIBERACION INTRAUTERINO | SISTEMA DE LIBERACIÓN INTRAUTERINO | Bayer Hispania S.L. | Comercializada |
+| 80021 | LEVOSERT 0,02 MG CADA 24 HORAS SISTEMA DE LIBERACION INTRAUTERINO | SISTEMA DE LIBERACIÓN INTRAUTERINO | Gedeon Richter Plc. | Comercializada |
+| 39664-9-6-2015 | POSTINOR 1,5 mg COMPRIMIDO | COMPRIMIDO | Gedeon Richter Plc. | Comercializada |
+| 3400936413726IP | NORLEVO 1500 MICROGRAMOS COMPRIMIDO | COMPRIMIDO | Laboratoire Hra Pharma | Comercializada |
+| 78911 | LEVONORGESTREL STADA 1.5 MG COMPRIMIDO EFG | COMPRIMIDO | Laboratorio Stada S.L. | Comercializada |
+| 67515 | POSTINOR 1,5 mg COMPRIMIDO | COMPRIMIDO | Gedeon Richter Plc. | Comercializada |
+| 79331 | NAVELA 1,5 MG COMPRIMIDO EFG | COMPRIMIDO | Exeltis Healthcare S.L. | Comercializada |
+| 3400936413726IP2 | NORLEVO 1,5 MG COMPRIMIDO | COMPRIMIDO | Laboratoire Hra Pharma | Comercializada |
+| 78802 | LEVONORGESTREL TEVA 1,5 MG COMPRIMIDO EFG | COMPRIMIDO | Teva Pharma S.L.U. | Comercializada |
+| 78586 | LEVONORGESTREL AUROVITAS 1,5 MG COMPRIMIDO EFG | COMPRIMIDO | Eugia Pharma (Malta) Limited | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

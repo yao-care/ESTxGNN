@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Aspart: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L5). Indicación original: Diabetes mellitus (según la base de conocimiento"
 monitor_inn: "insulin aspart"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
@@ -98,13 +98,19 @@ Se muestran las 10 publicaciones más relevantes (de 20 identificadas), prioriza
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1161160001 | FIASP 100 UNIDADES/ML FLEXTOUCH | Solución inyectable en pluma precargada | No disponible en los datos |
-| 99119001 | NOVORAPID 100 U/ML (vial) | Solución inyectable | No disponible en los datos |
-| 99119009 | NOVORAPID FLEXPEN 100 U/ML | Solución inyectable en pluma precargada | No disponible en los datos |
-| 1161160007 | FIASP 100 UNIDADES/ML (vial) | Solución inyectable | No disponible en los datos |
-| 1161160012 | FIASP 100 UNIDADES/ML PUMPCART | Solución inyectable en cartucho | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1161160001 | FIASP 100 UNIDADES/ML FLEXTOUCH SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Novo Nordisk A/S | Comercializada |
+| 99119001 | NOVORAPID 100 U/ML SOLUCION INYECTABLE EN VIAL | SOLUCIÓN INYECTABLE | Novo Nordisk A/S | Comercializada |
+| 99119009 | NOVORAPID FLEXPEN 100 U/ML SOLUCION INYECTABLE EN UNA PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Novo Nordisk A/S | Comercializada |
+| 1161160007 | FIASP 100 UNIDADES/ML SOLUCION INYECTABLE EN VIAL | SOLUCIÓN INYECTABLE | Novo Nordisk A/S | Comercializada |
+| 1161160012 | FIASP 100 UNIDADES/ML PUMPCART SOLUCION INYECTABLE EN CARTUCHO | SOLUCIÓN INYECTABLE EN CARTUCHO | Novo Nordisk A/S | Comercializada |
+
+Se muestran 5 de 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Hay 9 autorizaciones vigentes en total, todas de Novo Nordisk A/S; la tabla muestra las 5 principales.
 

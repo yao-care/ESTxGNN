@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 864
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ZANUBRUTINIB"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
 description: "Zanubrutinib: nueva indicación predicha, Leucemia mieloide (myeloid leukemia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 2; autorizadas no comercializadas: 2)"
@@ -86,12 +86,18 @@ Las publicaciones disponibles se refieren principalmente a neoplasias de célula
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1211576001IP1 | BRUKINSA 80 mg cápsulas duras | Cápsula dura | — |
-| 1211576001 | BRUKINSA 80 mg cápsulas duras | Cápsula dura | — |
-| 1211576001IP | BRUKINSA 80 mg cápsulas duras | Cápsula dura | — |
-| 1211576002 | BRUKINSA 160 mg comprimidos recubiertos con película | Comprimido recubierto con película | — |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1211576001IP | BRUKINSA 80 MG CAPSULAS DURAS | CÁPSULA DURA | Beone Medicines Ireland Limited | Comercializada |
+| 1211576002 | BRUKINSA 160 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Beone Medicines Ireland Limited | Comercializada |
+| 1211576001IP1 | BRUKINSA 80 MG CAPSULAS DURAS | CÁPSULA DURA | Beone Medicines Ireland Limited | Autorizada, no comercializada |
+| 1211576001 | BRUKINSA 80 MG CAPSULAS DURAS | CÁPSULA DURA | Beone Medicines Ireland Limited | Autorizada, no comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Titular: Beone Medicines Ireland Limited. Las cuatro autorizaciones están vigentes.
 

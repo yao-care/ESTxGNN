@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 603
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Palbociclib: nueva indicación predicha, Hipertiroidismo (nivel de evidencia L5). Indicación original: No disponible en los datos de autorización (el texto de indicación es…"
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
@@ -79,15 +79,28 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1161147005 | IBRANCE 125 MG CÁPSULAS DURAS | Cápsula dura | No disponible |
-| 1161147003 | IBRANCE 100 MG CÁPSULAS DURAS | Cápsula dura | No disponible |
-| 1161147001 | IBRANCE 75 MG CÁPSULAS DURAS | Cápsula dura | No disponible |
-| 1161147012 | IBRANCE 100 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | No disponible |
-| 1161147010 | IBRANCE 75 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
 
-Hay una sexta autorización (1161147014, IBRANCE 125 MG comprimidos recubiertos con película), no listada por el límite de cinco.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1161147005 | IBRANCE 125 MG CAPSULAS DURAS | CÁPSULA DURA | Pfizer Europe Ma Eeig | Comercializada |
+| 1161147003 | IBRANCE 100 MG CAPSULAS DURAS | CÁPSULA DURA | Pfizer Europe Ma Eeig | Comercializada |
+| 1161147001 | IBRANCE 75 MG CAPSULAS DURAS | CÁPSULA DURA | Pfizer Europe Ma Eeig | Comercializada |
+| 1161147012 | IBRANCE 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Pfizer Europe Ma Eeig | Autorizada, no comercializada |
+| 1161147010 | IBRANCE 75 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Pfizer Europe Ma Eeig | Autorizada, no comercializada |
+| 1161147014 | IBRANCE 125 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Pfizer Europe Ma Eeig | Autorizada, no comercializada |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
+
+Hay una sexta autorización (1161147014, IBRANCE 125 MG comprimidos recubiertos con película).
+
+<!-- review:begin es-lic-20261124-palbociclib-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay una sexta autorización (1161147014, IBRANCE 125 MG comprimidos recubiertos con película), no listada por el límite de cinco." Eliminado: el texto decía que esta autorización no figura en la tabla por un límite de cinco filas. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y la incluye. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124-palbociclib-1 -->
 
 ## Citotoxicidad
 
@@ -124,11 +137,12 @@ La evidencia para artritis reumatoide es solo preclínica y de un caso aislado (
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792) |
+| 2026-11-24 | Eliminado: «no listada por el límite de cinco» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

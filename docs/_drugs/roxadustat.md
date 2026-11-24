@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 715
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "ROXADUSTAT"
 predicted_indications: ["dry eye syndrome", "bone Paget disease", "dentinogenesis imperfecta", "squamous cell carcinoma"]
 description: "Roxadustat: nueva indicación predicha, Síndrome del ojo seco (dry eye syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 5)"
@@ -79,13 +79,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1211574001 | EVRENZO 20 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 1211574002 | EVRENZO 50 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 1211574003 | EVRENZO 70 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 1211574004 | EVRENZO 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 1211574005 | EVRENZO 150 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1211574002 | EVRENZO 50 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Astellas Pharma Europe B.V. | Comercializada |
+| 1211574003 | EVRENZO 70 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Astellas Pharma Europe B.V. | Comercializada |
+| 1211574001 | EVRENZO 20 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Astellas Pharma Europe B.V. | Comercializada |
+| 1211574005 | EVRENZO 150 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Astellas Pharma Europe B.V. | Comercializada |
+| 1211574004 | EVRENZO 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Astellas Pharma Europe B.V. | Comercializada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Todas las autorizaciones están vigentes, corresponden a monofármaco y su titular es Astellas Pharma Europe B.V.
 

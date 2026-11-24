@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ERTAPENEM"
 predicted_indications: ["bacterial arthritis"]
 description: "Ertapenem: nueva indicación predicha, Artritis bacteriana (bacterial arthritis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 6; autorizadas no comercializadas: 1)"
@@ -98,17 +98,26 @@ Los textos de indicación aprobada no están disponibles en los datos compilados
 
 <!-- review:begin es-lic-20261105-ertapenem-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 8 autorizaciones vigentes, todas de fármaco único. Los textos de indicación aprobada no están disponibles en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 autorizaciones (comercializadas: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 8 autorizaciones vigentes, todas de fármaco único. Los textos de indicación aprobada no están disponibles en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-ertapenem-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 02216001 | INVANZ 1 G | Polvo para concentrado para solución para perfusión | Merck Sharp & Dohme B.V. |
-| 83011 | ERTAPENEM AUROVITAS 1 G EFG | Polvo para concentrado para solución para perfusión | Aurovitas Spain, S.A.U. |
-| 82293 | ERTAPENEM FRESENIUS KABI 1 G EFG | Polvo para concentrado para solución para perfusión | Fresenius Kabi España, S.A.U. |
-| 89595 | ERTAPENEM QILU 1 G EFG | Polvo para concentrado para solución para perfusión | Qilu Pharma Spain S.L. |
-| 1221656001 | ERTAPENEM SUN 1 G EFG | Polvo para concentrado para solución para perfusión | Sun Pharmaceutical Industries (Europe) B.V. |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 02216001 | INVANZ 1 G POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Merck Sharp & Dohme B.V. | Comercializada |
+| 83011 | ERTAPENEM AUROVITAS 1 G POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Aurovitas Spain, S.A.U. | Comercializada |
+| 89595 | ERTAPENEM QILU 1 G POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Qilu Pharma Spain S.L. | Comercializada |
+| 83978 | ERTAPENEM CIPLA 1 G POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Cipla Europe N.V. | Comercializada |
+| 89668 | ERTAPENEM LORIEN 1 G POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Laboratorios Lorien S.L. | Comercializada |
+| 83230 | ERTAPENEM HIKMA 1 G POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Hikma Farmaceutica (Portugal) S.A. | Comercializada |
+| 1221656001 | ERTAPENEM SUN 1 G POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Sun Pharmaceutical Industries (Europe) B.V. | Autorizada, no comercializada |
+| 82293 | ERTAPENEM FRESENIUS KABI 1 G POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Suspendida |
+
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 
@@ -147,7 +156,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 8 autorizaciones vigentes, todas de fármaco único" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 8 autorizaciones vigentes, todas de fármaco único" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22) |
 
 <!-- review:end log -->

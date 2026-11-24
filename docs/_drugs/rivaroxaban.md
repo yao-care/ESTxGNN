@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 708
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "rivaroxaban"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
 description: "Rivaroxaban: nueva indicación predicha, Artritis reumatoide (rheumatoid arthritis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -87,13 +87,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 91024 | ELMARDYA 15 MG + 20 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película | No disponible |
-| 89712 | RIVAROXABAN CINFA 15 MG CÁPSULAS DURAS EFG | Cápsula dura | No disponible |
-| 90399 | RIVAROXABAN OLPHA 20 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película | No disponible |
-| 84258 | RIVAROXABAN AUROBINDO 10 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película | No disponible |
-| 08472008 | XARELTO 10 mg COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 89712 | RIVAROXABAN CINFA 15 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Cinfa S.A. | Comercializada |
+| 08472008 | XARELTO 10 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Bayer Ag | Comercializada |
+| 08472007 | XARELTO 10 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Bayer Ag | Comercializada |
+| 89322 | RIVAROXABÁN NORMON 20 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 88049 | RIVAROXABAN ALMUS 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Almus Farmaceutica S.A.U. | Comercializada |
+| 08472012IP | XARELTO 15 MG COMPRIMIDOS RECUBIERTOS CON PELICULA (28 COMPRIMIDOS) | COMPRIMIDO RECUBIERTO CON PELÍCULA | Bayer Ag | Comercializada |
+| 88788 | RIVAROXABAN TARBIS 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Comercializada |
+| 88571 | RIXAVARTE 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tecnimede España Industria Farmaceutica S.A. | Comercializada |
+| 85048 | RIVAROXABAN KRKA 15 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Krka D.D. Novo Mesto | Comercializada |
+| 91024 | ELMARDYA 15 MG + 20 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Pharmathen S.A. | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

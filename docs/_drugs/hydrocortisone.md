@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 395
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Hydrocortisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Hydrocortisone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). En España, autorizaciones de la AEMPS: al menos 20"
@@ -84,13 +84,24 @@ Conviene matizar la evidencia: el único ensayo de Fase 3 emplea hidrocortisona 
 
 El listado de autorizaciones puede ser parcial. Algunos ejemplos:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 58852 | SUNIDERMA 1,27 mg/g POMADA | Pomada | No disponible |
-| 88465 | HIDROCORTISONA PHARMIS 100 MG POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE Y PERFUSIÓN EFG | Polvo y disolvente para solución inyectable | No disponible |
-| 58972 | NUTRASONA 1 mg/g CREMA | Crema | No disponible |
-| 1211549002 | EFMODY 10 MG CÁPSULAS DURAS DE LIBERACIÓN MODIFICADA | Cápsula dura de liberación modificada | No disponible |
-| 111715001 | PLENADREN 5 MG COMPRIMIDOS DE LIBERACIÓN MODIFICADA | Comprimido de liberación modificada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 58852 | SUNIDERMA 1,27 mg/g POMADA | POMADA | Laboratoires Bailleul S.A. | Comercializada |
+| 88465 | HIDROCORTISONA PHARMIS 100 MG POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE Y PERFUSIÓN EFG | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Pharmis Biofarmaceutica Lda. | Comercializada |
+| 58851 | SUNIDERMA 1,27 mg/g CREMA | CREMA | Laboratoires Bailleul S.A. | Comercializada |
+| 32690 | ORALSONE ADULTOS 2,5 mg COMPRIMIDOS PARA CHUPAR | COMPRIMIDO PARA CHUPAR | Laboratorios Vinas S.A. | Comercializada |
+| 60889 | CALMIOX 5 mg/g CREMA | CREMA | Esteve Pharmaceuticals S.A. | Comercializada |
+| 82398 | SOFTACORT 3,35 MG/ML COLIRIO EN SOLUCION EN ENVASES UNIDOSIS | COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS | Laboratoires Thea | Comercializada |
+| 21989 | OFTALMOLOSA CUSI HIDROCORTISONA 15 MG/G POMADA OFTÁLMICA | POMADA OFTÁLMICA | Omnivision Gmbh | Comercializada |
+| 46022 | HEMODREN POMADA RECTAL | POMADA RECTAL | Laboratorios Llorens S.L. | Comercializada |
+| 27941 | HEMORRANE 10 mg/g POMADA RECTAL | POMADA RECTAL | Faes Farma S.A. | Comercializada |
+| 21428 | Dermosa Hidrocortisona 10 mg/g pomada | POMADA | Teofarma S.R.L. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

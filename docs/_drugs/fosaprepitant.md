@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 357
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fosaprepitant: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicació…"
 monitor_inn: "FOSAPREPITANT"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "pneumocystosis", "leprosy", "Cryptococcal meningitis", "multiple endocrine neoplasia", "intracranial abscess", "retinitis", "Plasmodium falciparum malaria", "echinococcus granulosus infectious disease", "hyperargininemia"]
@@ -83,15 +83,28 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 88344 | Fosaprepitant Tarbis 150 mg polvo para solución para perfusión EFG | Polvo para solución para perfusión | No disponible |
-| 07437003 | Ivemend 150 mg polvo para solución para perfusión | Polvo para solución para perfusión | No disponible |
-| 86382 | Fosaprepitant Hikma 150 mg polvo para solución para perfusión EFG | Polvo para solución para perfusión | No disponible |
-| 83380 | Fosaprepitant Accord 150 mg polvo para solución para perfusión EFG | Polvo para solución para perfusión | No disponible |
-| 88054 | Fosaprepitant Tecnigen 150 mg polvo para solución para perfusión EFG | Polvo para solución para perfusión | No disponible |
+<!-- licenses:begin -->
 
-Se muestran 5 de las 6 autorizaciones vigentes (la sexta es Fosaprepitant Zentiva, nº 84452).
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 88344 | FOSAPREPITANT TARBIS 150 MG POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Tarbis Farma S.L. | Comercializada |
+| 07437003 | IVEMEND 150 MG POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Merck Sharp & Dohme B.V. | Comercializada |
+| 86382 | FOSAPREPITANT HIKMA 150 MG POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Hikma Farmaceutica (Portugal) S.A. | Comercializada |
+| 83380 | FOSAPREPITANT ACCORD 150 MG POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 84452 | FOSAPREPITANT ZENTIVA 150 MG POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Zentiva K.S. | Comercializada |
+| 88054 | FOSAPREPITANT TECNIGEN 150 MG POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Tecnimede España Industria Farmaceutica S.A. | Autorizada, no comercializada |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
+
+Entre las autorizaciones figura Fosaprepitant Zentiva (nº 84452).
+
+<!-- review:begin es-lic-20261124-fosaprepitant-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 6 autorizaciones vigentes (la sexta es Fosaprepitant Zentiva, nº 84452)." Eliminado: la frase describía qué filas mostraba la tabla anterior. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS), ordenada por estado, y ya incluye Fosaprepitant Zentiva (nº 84452). Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124-fosaprepitant-1 -->
 
 ---
 
@@ -124,11 +137,12 @@ La predicción para NSIAD se basa solo en el modelo (nivel L5), sin ensayos ni l
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Navitrux (fosaprepitant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a41b7c3a-1376-43a7-b5b9-6ba2eba1e169) |
+| 2026-11-24 | Eliminado: descripción de la tabla anterior («se muestran 5 de las 6…; la sexta es…») | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

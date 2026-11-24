@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Azithromycin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Azithromycin: nueva indicación predicha, síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -72,13 +72,24 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay autorizaciones vigentes en España (13 vigentes según los datos locales; el listado puede ser parcial). Principales presentaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 66065 | Azitromicina Normon 500 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No registrada en los datos locales |
-| 82363 | Azitromicina Teva 250 mg comprimidos dispersables | Comprimido dispersable | No registrada en los datos locales |
-| 65636 | Azitromicina Sandoz 500 mg polvo para suspensión oral en sobre EFG | Polvo para suspensión oral | No registrada en los datos locales |
-| 85006 | Azitromicina Tecnigen 500 mg polvo para solución para perfusión EFG | Polvo para solución para perfusión | No registrada en los datos locales |
-| 59620 | Zitromax 250 mg polvo para suspensión oral en sobre | Polvo para suspensión oral | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 66065 | AZITROMICINA NORMON 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 65621 | AZITROMICINA VIR 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 65547 | AZITROMICINA STADA 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 65546 | AZITROMICINA KERN PHARMA 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+| 85006 | AZITROMICINA TECNIGEN 500 MG POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Tecnimede España Industria Farmaceutica S.A. | Comercializada |
+| 65562 | AZITROMICINA VIATRIS 200 MG/5 ML POLVO PARA SUSPENSION ORAL EFG | POLVO PARA SUSPENSIÓN ORAL | Viatris Pharmaceuticals S.L. | Comercializada |
+| 78906 | AZITROMICINA KRKA 250 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Krka D.D. Novo Mesto | Comercializada |
+| 65638 | AZITROMICINA SANDOZ 500 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Comercializada |
+| 59620 | ZITROMAX 250 mg POLVO PARA SUSPENSION ORAL EN SOBRE | POLVO PARA SUSPENSIÓN ORAL | Pfizer S.L. | Comercializada |
+| 67335 | AZITROMICINA TEVA 250 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 113
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Brinzolamide: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,14 +72,20 @@ Los candidatos que el modelo TxGNN propone para Brinzolamide (puntuación ≥ 0,
 
 ## Información de Mercado en España
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 80098 | brinzolamida | COLIRIO EN SUSPENSIÓN | Cancelado |
-| 79856 | brinzolamida | COLIRIO EN SUSPENSIÓN | Vigente |
-| 80014 | brinzolamida | COLIRIO EN SUSPENSIÓN | Cancelado |
-| 00129001 | brinzolamida | COLIRIO EN SUSPENSIÓN | Vigente |
-| 90850 | brinzolamida | COLIRIO EN SUSPENSIÓN | Vigente |
-| 90069 | brinzolamida | COLIRIO EN SUSPENSIÓN | Cancelado |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 79856 | BRINZOLAMIDA STADA 10 MG/ML COLIRIO EN SUSPENSION | COLIRIO EN SUSPENSIÓN | Laboratorio Stada S.L. | Comercializada |
+| 00129001 | AZOPT 10 mg/ml COLIRIO EN SUSPENSION | COLIRIO EN SUSPENSIÓN | Novartis Europharm Limited | Comercializada |
+| 90850 | AICISI 10 MG/ML COLIRIO EN SUSPENSION | COLIRIO EN SUSPENSIÓN | Omnivision Gmbh | Comercializada |
+| 80098 | BRINZOLAMIDA CINFA 10 MG/ML COLIRIO EN SUSPENSION | COLIRIO EN SUSPENSIÓN | Laboratorios Cinfa S.A. | Revocada |
+| 80014 | BRINZOLAMIDA VIR 10MG/ML COLIRIO EN SUSPENSION | COLIRIO EN SUSPENSIÓN | Industria Quimica Y Farmaceutica Vir S.A. | Revocada |
+| 90069 | BOLESIN 10 MG/ML COLIRIO EN SUSPENSIÓN | COLIRIO EN SUSPENSIÓN | Thalassa Pharma S.L. | Revocada |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

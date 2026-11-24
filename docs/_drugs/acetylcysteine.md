@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Acetylcysteine"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetylcysteine: nueva indicación predicha, Enfermedad trombótica (thrombotic disease) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -93,13 +93,19 @@ Conviene tener presente que "enfermedad trombótica" es un término general que 
 
 Hay al menos 20 autorizaciones registradas, de las cuales 17 constan como válidas; el listado puede ser parcial. Todas son de medicamentos con acetilcisteína como único principio activo. A continuación se muestran las cinco principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 62663 | FLUIMUCIL FORTE 600 mg COMPRIMIDOS EFERVESCENTES | Comprimido efervescente | No registrada en los datos locales |
-| 66340 | ACETILCISTEINA PENSA 200 mg POLVO PARA SOLUCION ORAL EFG | Polvo para solución oral | No registrada en los datos locales |
-| 63268 | ACETILCISTEINA TEVA-RATIOPHARM 600 mg COMPRIMIDOS EFERVESCENTES EFG | Comprimido efervescente | No registrada en los datos locales |
-| 41474 | FLUMIL 100 MG/ML SOLUCION INYECTABLE | Solución inyectable | No registrada en los datos locales |
-| 63512 | FLUIMUCIL PEDIATRICO 20 mg/ml SOLUCION ORAL | Solución oral | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 62663 | FLUIMUCIL FORTE 600 mg COMPRIMIDOS EFERVESCENTES | COMPRIMIDO EFERVESCENTE | Zambon S.A.U. | Comercializada |
+| 66340 | ACETILCISTEINA PENSA 200 mg POLVO PARA SOLUCION ORAL EFG | POLVO PARA SOLUCIÓN ORAL | Towa Pharmaceutical S.A. | Comercializada |
+| 63268 | ACETILCISTEINA TEVA-RATIOPHARM 600 mg COMPRIMIDOS EFERVESCENTES EFG | COMPRIMIDO EFERVESCENTE | Teva Pharma S.L.U. | Comercializada |
+| BE150202 | FLUIMUCIL FORTE 600 MG COMPRIMIDOS EFERVESCENTES | COMPRIMIDO EFERVESCENTE | Zambon | Comercializada |
+| 66458 | ACETILCISTEINA CINFA 600 mg POLVO PARA SOLUCION ORAL EFG | POLVO PARA SOLUCIÓN ORAL | Laboratorios Cinfa S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

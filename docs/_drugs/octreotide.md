@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 581
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
 description: "Octreotide: nueva indicación predicha, Queratosis folicular invertida vulvar (vulvar inverted follicular keratosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 16 (comercializadas: 9; autorizadas no comercializadas: 3)"
@@ -76,17 +76,28 @@ Los textos de indicación aprobada no están disponibles en los datos compilados
 
 <!-- review:begin es-lic-20261105-octreotide-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 16 autorizaciones vigentes (todas de principio activo único). Los textos de indicación aprobada no están disponibles en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 16 autorizaciones (comercializadas: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 16 autorizaciones vigentes (todas de principio activo único). Los textos de indicación aprobada no están disponibles en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-octreotide-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 59559 | Sandostatin 100 microgramos/ml solución inyectable y para perfusión | Solución inyectable y para perfusión | Novartis Farmacéutica S.A. |
-| 59561 | Sandostatin 50 microgramos/ml solución inyectable y para perfusión | Solución inyectable y para perfusión | Novartis Farmacéutica S.A. |
-| 62139 | Sandostatin LAR 10 mg | Polvo y disolvente para suspensión inyectable | Novartis Farmacéutica S.A. |
-| 62140 | Sandostatin LAR 20 mg | Polvo y disolvente para suspensión inyectable | Novartis Farmacéutica S.A. |
-| 74584 | Octreotida Sun 100 microgramos/ml EFG | Solución inyectable | Sun Pharmaceutical Industries (Europe) B.V. |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 62140 | SANDOSTATIN LAR 20 mg POLVO Y DISOLVENTE PARA SUSPENSION INYECTABLE | POLVO Y DISOLVENTE PARA SUSPENSIÓN INYECTABLE | Novartis Farmaceutica S.A. | Comercializada |
+| 62141 | SANDOSTATIN LAR 30 mg POLVO Y DISOLVENTE PARA SUSPENSION INYECTABLE | POLVO Y DISOLVENTE PARA SUSPENSIÓN INYECTABLE | Novartis Farmaceutica S.A. | Comercializada |
+| 69526 | OCTREOTIDA GP-PHARM 0,5 mg/ml SOLUCION INYECTABLE Y PARA PERFUSION EFG | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Gp Pharm S.A. | Comercializada |
+| 62139 | SANDOSTATIN LAR 10 mg POLVO Y DISOLVENTE PARA SUSPENSION INYECTABLE | POLVO Y DISOLVENTE PARA SUSPENSIÓN INYECTABLE | Novartis Farmaceutica S.A. | Comercializada |
+| 74584 | OCTREOTIDA SUN 100 MICROGRAMOS/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+| 69524 | OCTREOTIDA GP-PHARM 0,1 mg/ml SOLUCION INYECTABLE Y PARA PERFUSION EFG | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Gp Pharm S.A. | Comercializada |
+| 59561 | SANDOSTATIN 50 microgramos/ml SOLUCION INYECTABLE Y PARA PERFUSION | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Novartis Farmaceutica S.A. | Comercializada |
+| 69525 | OCTREOTIDA GP-PHARM 1 mg /5 ml (0,2 mg/ml) SOLUCION INYECTABLE Y PARA PERFUSION EFG | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Gp Pharm S.A. | Comercializada |
+| 59559 | SANDOSTATIN 100 microgramos/ml SOLUCION INYECTABLE Y PARA PERFUSION | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Novartis Farmaceutica S.A. | Comercializada |
+| 84222 | OCTREOTIDA TEVA 10 MG POLVO Y DISOLVENTE PARA SUSPENSION INYECTABLE DE LIBERACION PROLONGADA EFG | POLVO Y DISOLVENTE PARA SUSPENSIÓN INYECTABLE | Teva B.V. | Autorizada, no comercializada |
+
+Se muestran 10 de 16 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -117,7 +128,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 16 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 16 autorizaciones vigentes (todas de principio activo único)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39) |
 
 <!-- review:end log -->

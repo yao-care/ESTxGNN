@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 806
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "topotecan"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
 description: "Topotecan: nueva indicación predicha, Carcinoma de mama femenino (female breast carcinoma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 3; autorizadas no comercializadas: 2)"
@@ -87,19 +87,29 @@ Sin embargo, la evidencia clínica directa es débil. Un ensayo de fase II con t
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 09536001 | Topotecan Actavis 1 mg | Polvo para concentrado para solución para perfusión | No disponible |
-| 09536002 | Topotecan Actavis 4 mg | Polvo para concentrado para solución para perfusión | No disponible |
-| 96027001 | Hycamtin 4 mg | Polvo para concentrado para solución para perfusión | No disponible |
-| 96027006 | Hycamtin 0,25 mg | Cápsula dura | No disponible |
-| 96027007 | Hycamtin 1 mg | Cápsula dura | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 10633002 | TOPOTECAN HOSPIRA 4 MG/4 ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Pfizer Europe Ma Eeig | Comercializada |
+| 96027001 | HYCAMTIN 4 mg POLVO CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Sandoz Pharmaceuticals D.D. | Comercializada |
+| 76570 | TOPOTECAN ACCORD 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 96027006 | HYCAMTIN 0,25 mg CAPSULAS DURAS | CÁPSULA DURA | Sandoz Pharmaceuticals D.D. | Autorizada, no comercializada |
+| 96027007 | HYCAMTIN 1 mg CAPSULAS DURAS | CÁPSULA DURA | Sandoz Pharmaceuticals D.D. | Autorizada, no comercializada |
+| 09536001 | TOPOTECAN ACTAVIS 1mg POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Actavis Group Ptc Ehf. | Revocada |
+| 09536002 | TOPOTECAN ACTAVIS 4 mg POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Actavis Group Ptc Ehf. | Revocada |
+| 78445 | TOPOTECAN FARMALIDER 1 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Farmalider S.A. | Revocada |
+| 78428 | TOPOTECAN FARMALIDER 4 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Farmalider S.A. | Revocada |
+
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las otras corresponden a Topotecan Farmalider (1 mg y 4 mg), Topotecan Hospira 4 mg/4 ml y Topotecan Accord 1 mg/ml.
 
 <!-- review:begin es-lic-20261105-topotecan-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 9 autorizaciones vigentes en total (todas de monofármaco); la tabla muestra las 5 principales. Las otras corresponden a Topotecan Farmalider (1 mg y 4 mg), Topotecan Hospira 4 mg/4 ml y Topotecan Accord 1 mg/ml." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 autorizaciones (comercializadas: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 9 autorizaciones vigentes en total (todas de monofármaco); la tabla muestra las 5 principales. Las otras corresponden a Topotecan Farmalider (1 mg y 4 mg), Topotecan Hospira 4 mg/4 ml y Topotecan Accord 1 mg/ml." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-topotecan-1 -->
 
@@ -145,7 +155,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Hay 9 autorizaciones vigentes en total (todas de monofármaco); la tabla muestra las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Hay 9 autorizaciones vigentes en total (todas de monofármaco); la tabla muestra las 5 principales" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579) |
 
 <!-- review:end log -->

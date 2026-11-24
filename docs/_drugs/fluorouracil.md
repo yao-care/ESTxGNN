@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin E disease syndrome"]
 description: "Fluorouracil: nueva indicación predicha, Rabdomiosarcoma embrionario botrioide de vagina (botryoid-type embryonal rhabdomyosarcoma of the vagina) (nivel de evidencia L5). Indicación original: No cons…"
@@ -79,12 +79,18 @@ Actualmente no hay literatura relacionada disponible para el rabdomiosarcoma emb
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 71868 | Fluorouracilo Accord 50 mg/ml solución inyectable o para perfusión EFG | Solución inyectable y para perfusión | No disponible |
-| 84849 | Tolak 40 mg/g crema | Crema | No disponible |
-| 77675 | Actikerall 5 mg/g + 100 mg/g solución cutánea | Solución cutánea | No disponible |
-| 86061 | Verrucutan 5 mg/g + 100 mg/g solución cutánea | Solución cutánea | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 71868 | FLUOROURACILO ACCORD 50 mg/ml SOLUCION INYECTABLE O PARA PERFUSION EFG | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 84849 | TOLAK 40 MG/G CREMA | CREMA | Pierre Fabre Iberica S.A. | Comercializada |
+| 77675 | ACTIKERALL 5 MG/G + 100 MG/G SOLUCION CUTANEA | SOLUCIÓN CUTÁNEA | Almirall Hermal Gmbh | Comercializada |
+| 86061 | VERRUCUTAN 5 MG/G + 100 MG/G SOLUCION CUTANEA | SOLUCIÓN CUTÁNEA | Mibe Pharma España S.L.U. | Comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

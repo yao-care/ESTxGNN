@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 730
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Selpercatinib: nueva indicación predicha, Hipertensión pulmonar (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "SELPERCATINIB"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
@@ -77,12 +77,18 @@ Las siguientes publicaciones fueron recuperadas, pero ninguna evalúa la hiperte
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1201527016 | RETSEVMO 80 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 1201527001 | RETSEVMO 40 mg cápsulas duras | Cápsula dura | No disponible |
-| 1201527002 | RETSEVMO 80 mg cápsulas duras | Cápsula dura | No disponible |
-| 1201527013 | RETSEVMO 40 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1201527016 | RETSEVMO 80 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Eli Lilly Nederland B.V. | Comercializada |
+| 1201527013 | RETSEVMO 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Eli Lilly Nederland B.V. | Comercializada |
+| 1201527001 | RETSEVMO 40 mg CAPSULAS DURAS | CÁPSULA DURA | Eli Lilly Nederland B.V. | Autorizada, no comercializada |
+| 1201527002 | RETSEVMO 80 mg CAPSULAS DURAS | CÁPSULA DURA | Eli Lilly Nederland B.V. | Autorizada, no comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

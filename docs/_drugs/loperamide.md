@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 480
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "conjunctival folliculosis", "Angelucci syndrome"]
 description: "Loperamide: nueva indicación predicha, Conjuntivitis contagiosa aguda (acute contagious conjunctivitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -84,13 +84,19 @@ Como contexto, en otras indicaciones predichas del mismo fármaco se identificar
 
 Se listan 5 de las 20 autorizaciones vigentes (todas monofármaco, ninguna cancelada). Los textos de indicación aprobada no están disponibles en los datos compilados.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 88777 | Loperamida Opko 2 mg cápsulas duras EFG | Cápsula dura | No disponible |
-| 89192 | Loperamida Grindeks 2 mg cápsulas duras | Cápsula dura | No disponible |
-| 36747 | Salvacolina 0,2 mg/ml solución oral | Solución oral | No disponible |
-| 9091IP | Fortasec Flas 2 mg liofilizado oral | Liofilizado oral | No disponible |
-| 67219 | Diarfin 2 mg cápsulas duras | Cápsula dura | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 36747 | SALVACOLINA 0,2 mg/ml SOLUCION ORAL | SOLUCIÓN ORAL | Laboratorios Salvat S.A. | Comercializada |
+| 67219 | DIARFIN 2 mg CAPSULAS DURAS | CÁPSULA DURA | Laboratorios Cinfa S.A. | Comercializada |
+| 86274 | ABECLIN 2 MG COMPRIMIDOS EFG | COMPRIMIDO | Uxa Farma S.A. | Comercializada |
+| 57210 | LOPESTOP 2 MG CAPSULAS DURAS | CÁPSULA DURA | Apotheke Laboratorios S.L. | Comercializada |
+| 55157 | ELISSAN 2 mg COMPRIMIDOS | COMPRIMIDO | Laboratorios Serra Pamies S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Otras presentaciones incluyen comprimidos, comprimidos bucodispersables y liofilizados orales. Todas las formas disponibles son de **administración oral**; no hay formulación oftálmica, lo que supondría un obstáculo adicional para la indicación predicha.
 

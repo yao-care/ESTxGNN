@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 577
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Nortriptyline"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
 description: "Nortriptyline: nueva indicación predicha, Attention deficit-hyperactivity disorder (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 3 (comercializadas: 2)"
@@ -85,11 +85,17 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 48462 | NORFENAZIN 10 MG COMPRIMIDOS | Comprimido | No disponible |
-| 48463 | NORFENAZIN 25 MG COMPRIMIDOS | Comprimido | No disponible |
-| 41448 | PAXTIBI 25 MG COMPRIMIDOS RECUBIERTOS | Comprimido recubierto | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 48462 | NORFENAZIN 10 MG COMPRIMIDOS | COMPRIMIDO | Biowise Pharmaceuticals, S.L. | Comercializada |
+| 48463 | NORFENAZIN 25 MG COMPRIMIDOS | COMPRIMIDO | Biowise Pharmaceuticals, S.L. | Comercializada |
+| 41448 | PAXTIBI 25 MG COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Teva B.V. | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

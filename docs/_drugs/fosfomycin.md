@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "fosfomycin"
 predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Fosfomycin: nueva indicación predicha, Uterine inflammatory disease (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -77,13 +77,19 @@ Sin embargo, la evidencia disponible es indirecta. Los dos ensayos son estudios 
 
 Los textos de indicación aprobada no estaban disponibles en los datos compilados. Se muestran 5 autorizaciones vigentes:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 84618 | Fosfomicina Vir 3 g granulado para solución oral en sobres EFG | Granulado para solución oral en sobre |
-| 50880 | Fosfocina 250 mg/5 ml polvo para suspensión oral | Polvo para suspensión oral |
-| 75651 | Fosfomicina Kern Pharma 3 g granulado para solución oral EFG | Granulado para solución oral |
-| 82353 | Fosfomicina Cinfa 3 g granulado para solución oral en sobres EFG | Granulado para solución oral |
-| 77795 | Fosfomicina Farmalider 3 g granulado para solución oral EFG | Granulado para solución oral |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 84618 | FOSFOMICINA VIR 3 G GRANULADO PARA SOLUCION ORAL EN SOBRES EFG | GRANULADO PARA SOLUCIÓN ORAL EN SOBRE | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 50880 | FOSFOCINA 250 MG/5 ML POLVO PARA SUSPENSION ORAL | POLVO PARA SUSPENSIÓN ORAL | Laboratorios Ern S.A. | Comercializada |
+| 75651 | FOSFOMICINA KERN PHARMA 3 g GRANULADO PARA SOLUCION ORAL EFG | GRANULADO PARA SOLUCIÓN ORAL | Kern Pharma S.L. | Comercializada |
+| 82353 | FOSFOMICINA CINFA 3 G GRANULADO PARA SOLUCION ORAL EN SOBRES EFG | GRANULADO PARA SOLUCIÓN ORAL | Laboratorios Cinfa S.A. | Comercializada |
+| 77795 | FOSFOMICINA FARMALIDER 3 G GRANULADO PARA SOLUCION ORAL EFG | GRANULADO PARA SOLUCIÓN ORAL | Farmalider S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 339
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluconazole: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: Candidiasis oral (y otras candidiasis, meningitis criptocócica)"
 monitor_inn: "Fluconazole"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -84,13 +84,24 @@ Actualmente no hay literatura relacionada disponible.
 
 El medicamento está comercializado en este país, con 16 autorizaciones vigentes.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 58766 | DIFLUCAN 150 mg cápsulas duras | Cápsula dura | No disponible |
-| 59672 | DIFLUCAN 10 mg/ml polvo para suspensión oral | Polvo para suspensión oral | No disponible |
-| 68049 | FLUCONAZOL SALA 2 mg/ml solución para perfusión EFG | Solución para perfusión | No disponible |
-| 69848 | CANDIFIX 150 mg cápsulas duras EFG | Cápsula dura | No disponible |
-| 64619 | FLUCONAZOL NORMON 200 mg cápsulas duras EFG | Cápsula dura | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 64331 | FLUCONAZOL TARBIS 200 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Tarbis Farma S.L. | Comercializada |
+| 69082 | FLUCONAZOL TEVA 50 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Teva Pharma S.L.U. | Comercializada |
+| 69848 | CANDIFIX 150 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Arafarma Group S.A. | Comercializada |
+| 58766 | DIFLUCAN 150 mg CAPSULAS DURAS | CÁPSULA DURA | Vinci Farma, S.A. | Comercializada |
+| 64619 | FLUCONAZOL NORMON 200 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Normon S.A. | Comercializada |
+| 65089 | FLUCONAZOL MABO 200 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Mabo Farma S.A. | Comercializada |
+| 59054 | LOITIN CAPSULAS DURAS 150 mg | CÁPSULA DURA | Dari Pharma S.L. | Comercializada |
+| 68847 | FLUCONAZOL TECNIGEN 150 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Tecnimede España Industria Farmaceutica S.A. | Comercializada |
+| 59672 | DIFLUCAN 10 mg/ml POLVO PARA SUSPENSION ORAL | POLVO PARA SUSPENSIÓN ORAL | Vinci Farma, S.A. | Comercializada |
+| 59055 | LOITIN CAPSULAS DURAS 200 mg | CÁPSULA DURA | Dari Pharma S.L. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

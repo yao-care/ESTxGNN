@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Fluvoxamine"
 predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Fluvoxamine: nueva indicación predicha, Trastorno esquizoide de la personalidad (schizoid personality disorder) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 4)"
@@ -72,12 +72,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 57233 | DUMIROX 50 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 58212 | DUMIROX 100 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 63277 | FLUVOXAMINA SANDOZ 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 63276 | FLUVOXAMINA SANDOZ 50 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 57233 | DUMIROX 50 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Healthcare Limited | Comercializada |
+| 58212 | DUMIROX 100 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Healthcare Limited | Comercializada |
+| 63277 | FLUVOXAMINA SANDOZ 100 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Comercializada |
+| 63276 | FLUVOXAMINA SANDOZ 50 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

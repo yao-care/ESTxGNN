@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 61
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Apomorphine: nueva indicación predicha, Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis (nivel de evidencia L5). Indicación original: Enfermedad de Parkinson (y síndromes parki…"
 monitor_inn: "Apomorphine"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "syndromic myopia", "hydranencephaly (disease)"]
@@ -90,17 +90,23 @@ Los textos de indicación aprobada no figuran en los datos compilados. Se listan
 
 <!-- review:begin es-lic-20261105-apomorphine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 16 autorizaciones vigentes (todas de principio activo único). Los textos de indicación aprobada no figuran en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 16 autorizaciones (comercializadas: 12); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 16 autorizaciones vigentes (todas de principio activo único). Los textos de indicación aprobada no figuran en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-apomorphine-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 88979 | KYNMOBI 25 mg película sublingual | Película sublingual | No disponible |
-| 85464 | APO-GO POD 5 mg/ml solución para perfusión en cartucho | Solución para perfusión en cartucho | No disponible |
-| 79174 | DACEPTON 5 mg/ml solución para perfusión EFG | Solución inyectable y para perfusión | No disponible |
-| 74400 | APO-GO 10 mg/ml solución inyectable o para perfusión en ampollas | Solución inyectable y para perfusión | No disponible |
-| 63893 | APO-GO PEN 10 mg/ml solución inyectable | Solución inyectable en pluma precargada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 88979 | KYNMOBI 25 MG PELÍCULA SUBLINGUAL | PELICULA SUBLINGUAL | Bial Portela & Ca S.A. | Comercializada |
+| 88976 | KYNMOBI 10 MG PELÍCULA SUBLINGUAL | PELICULA SUBLINGUAL | Bial Portela & Ca S.A. | Comercializada |
+| 88978 | KYNMOBI 20 MG PELÍCULA SUBLINGUAL | PELICULA SUBLINGUAL | Bial Portela & Ca S.A. | Comercializada |
+| 85464 | APO-GO POD 5 MG/ML SOLUCION PARA PERFUSION EN CARTUCHO | SOLUCION PARA PERFUSION EN CARTUCHO | Stada Arzneimittel Ag | Comercializada |
+| 79174 | DACEPTON 5 MG/ML SOLUCION PARA PERFUSION EFG | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Ever Neuro Pharma Gmbh | Comercializada |
+
+Se muestran 5 de 16 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -145,7 +151,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Hay 16 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Hay 16 autorizaciones vigentes (todas de principio activo único)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Onapgo (apomorphine hydrochloride) prescribing information, MDD US Operations, LLC, a subsidiary of Supernus Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3552b6e-5ae7-4993-aa1a-e399c4a7080a) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 765
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "tasonermin"
 predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "HER2 positive breast carcinoma", "uterine ligament adenocarcinoma", "endocervical carcinoma", "uterine ligament serous adenocarcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament clear cell adenocarcinoma"]
 description: "Tasonermin: nueva indicación predicha, Carcinoma urotelial de la uretra prostática (prostatic urethra urothelial carcinoma) (nivel de evidencia L5). Indicación original: No consta en los datos locale"
@@ -73,9 +73,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 99097001 | BEROMUN 1 mg polvo para solución para perfusión (Belpharma S.A.) | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 99097001 | BEROMUN 1 mg POLVO PARA SOLUCION PARA PERFUSION | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Belpharma S.A. | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

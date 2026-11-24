@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 372
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Gemcitabine"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mixed adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
 description: "Gemcitabine: nueva indicación predicha, Rectum mucinous adenocarcinoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -102,13 +102,24 @@ Se muestran los ensayos más relevantes (de un total de 39 identificados):
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 73626 | Gemcitabina GP-Pharm 200 mg | Polvo para solución para perfusión | No disponible en los datos |
-| 74479 | Gemcitabina Accord 2000 mg | Polvo para solución para perfusión | No disponible en los datos |
-| 72981 | Gemcitabina Aurovitas 1000 mg | Concentrado para solución para perfusión | No disponible en los datos |
-| 74082 | Gemcitabina Hospira 1000 mg | Concentrado para solución para perfusión | No disponible en los datos |
-| 80814 | Gemcitabina Sun 10 mg/ml | Solución para perfusión | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 76156 | GEMCITABINA ACCORD 2000 mg CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 74082 | GEMCITABINA HOSPIRA 1000 mg CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Pfizer S.L. | Comercializada |
+| 76166 | GEMCITABINA ACCORD 1000 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 83263 | GEMCITABINA PRASFARMA 200 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Prasfarma S.L.U. | Comercializada |
+| 80814 | GEMCITABINA SUN 10 MG/ML SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+| 74081 | GEMCITABINA HOSPIRA 2000 mg CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Pfizer S.L. | Comercializada |
+| 85643 | GEMCITABINA HIKMA 2000 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Hikma Farmaceutica (Portugal) S.A. | Comercializada |
+| 80845 | GEMCITABINA AUROVITAS SPAIN 2000 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Eugia Pharma (Malta) Limited | Comercializada |
+| 83260 | GEMCITABINA PRASFARMA 2.000 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Prasfarma S.L.U. | Comercializada |
+| 70837 | GEMCITABINA SUN 1000 mg POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

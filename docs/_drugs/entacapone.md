@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 291
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Entacapone"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
 description: "Entacapone: nueva indicación predicha, Neurodegeneración asociada a PLA2G6 (PLA2G6-associated neurodegeneration) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 3)"
@@ -95,13 +95,19 @@ No hay literatura disponible para neurodegeneración asociada a PLA2G6. Para la 
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 77488 | Entacapona Aurovitas 200 mg EFG | Comprimido recubierto con película | No disponible |
-| 76383 | Entacapona Viatris 200 mg EFG | Comprimido recubierto con película | No disponible |
-| 82845 | Medapia 200 mg EFG | Comprimido recubierto con película | No disponible |
-| 10655003 | Entacapona Teva 200 mg EFG | Comprimido recubierto con película | No disponible |
-| 98081003 | Comtan 200 mg | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 76383 | ENTACAPONA VIATRIS 200 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Limited | Comercializada |
+| 10655003 | ENTACAPONA TEVA 200 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva B.V. | Comercializada |
+| 98081003 | COMTAN 200 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Orion Corporation | Comercializada |
+| 82845 | MEDAPIA 200 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Medochemie Iberia S.A. | Suspendida |
+| 77488 | ENTACAPONA AUROVITAS 200 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Revocada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

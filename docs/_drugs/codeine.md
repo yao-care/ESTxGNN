@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 205
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Codeine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
 description: "Codeine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 4)"
@@ -74,25 +74,32 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 65343 | Notusin solución oral | Solución oral | No disponible |
-| 24797 | Histaverin 2 mg/ml jarabe | Jarabe | No disponible |
-| 32357 | Toseína 2 mg/ml solución oral | Solución oral | No disponible |
-| 5255 | Codeisan 1,26 mg/ml jarabe | Jarabe | No disponible |
-| 1778 | Codeisan 28,7 mg comprimidos | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 24797 | HISTAVERIN 2 mg/ml JARABE | JARABE | Laboratorio Estedi S.L. | Comercializada |
+| 32357 | TOSEINA 2 mg/ml SOLUCION ORAL | SOLUCIÓN ORAL | Italfarmaco S.A. | Comercializada |
+| 5255 | CODEISAN 1,26 mg/ml JARABE | JARABE | Teva Pharma S.L.U. | Comercializada |
+| 1778 | CODEISAN 28,7 mg COMPRIMIDOS | COMPRIMIDO | Teva Pharma S.L.U. | Comercializada |
+| 65343 | NOTUSIN SOLUCION ORAL | SOLUCIÓN ORAL | Laboratorio Reig Jofre, S.A. | Revocada |
+| 20709 | FLUDAN CODEÍNA 10 mg/ 5 ml SOLUCIÓN ORAL | SOLUCIÓN ORAL | Faes Farma S.A. | Revocada |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Hay una sexta autorización, revocada (20709, Fludan Codeína 10 mg/5 ml solución oral, Faes Farma).
 
 <!-- review:begin es-lic-20261105-codeine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Hay una sexta autorización vigente (20709, Fludan Codeína 10 mg/5 ml solución oral, Faes Farma). Las 6 autorizaciones son de monofármaco y están vigentes." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay una sexta autorización vigente (20709, Fludan Codeína 10 mg/5 ml solución oral, Faes Farma). Las 6 autorizaciones son de monofármaco y están vigentes." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-codeine-1 -->
 
 <!-- review:begin es-lic-20261112-codeine-1 -->
 
-> **Corrección de revisión (2026-11-12)**: Texto original: "Hay una sexta autorización vigente (20709" Según CIMA (AEMPS), datos del 2026-11-09, la autorización 20709 (Fludan Codeína 10 mg/5 ml solución oral) figura como revocada. De las 6 autorizaciones, 4 están autorizadas y 2 revocadas (65343 y 20709). Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay una sexta autorización vigente (20709" Según CIMA (AEMPS), datos del 2026-11-09, la autorización 20709 (Fludan Codeína 10 mg/5 ml solución oral) figura como revocada; también lo está 65343. El estado de cada autorización figura en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261112-codeine-1 -->
 
@@ -128,8 +135,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Las 6 autorizaciones son de monofármaco y están vigentes" | Corregido (revisado el 2026-11-12; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
-| 2026-11-12 | La sexta autorización (20709, Fludan Codeína) está revocada, no vigente | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Las 6 autorizaciones son de monofármaco y están vigentes" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | La sexta autorización (20709, Fludan Codeína) está revocada, no vigente | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293) |
 
 <!-- review:end log -->

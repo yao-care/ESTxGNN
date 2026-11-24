@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "Fluoxetine"
 predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Fluoxetine: nueva indicación predicha, Schizotypal personality disorder (nivel de evidencia L3). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -78,13 +78,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Los datos compilados contienen al menos 20 autorizaciones de la fluoxetina como principio activo único, y la lista puede ser parcial. A continuación se muestran 5 autorizaciones vigentes.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 62426 | Fluoxetina Normon 20 mg cápsulas duras EFG | Cápsula dura | Sin texto de indicación en los datos compilados |
-| 62427 | Fluoxetina Normon 20 mg/5 ml solución oral EFG | Solución oral | Sin texto de indicación en los datos compilados |
-| 64443 | Fluoxetina Teva-Ratiopharm 20 mg comprimidos dispersables EFG | Comprimido dispersable | Sin texto de indicación en los datos compilados |
-| 63407 | Fluoxetina Kern Pharma 20 mg cápsulas duras EFG | Cápsula dura | Sin texto de indicación en los datos compilados |
-| 64231 | Fluoxetina Vir 20 mg cápsulas duras EFG | Cápsula dura | Sin texto de indicación en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 64230 | FLUOXETINA PHARMA COMBIX 20 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Combix S.L.U. | Comercializada |
+| 62426 | FLUOXETINA NORMON 20 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Normon S.A. | Comercializada |
+| 62427 | FLUOXETINA NORMON 20 mg/5 ml SOLUCION ORAL EFG | SOLUCIÓN ORAL | Laboratorios Normon S.A. | Comercializada |
+| 64443 | FLUOXETINA TEVA-RATIOPHARM 20 mg COMPRIMIDOS DISPERSABLES EFG | COMPRIMIDO DISPERSABLE | Teva Pharma S.L.U. | Comercializada |
+| 63407 | FLUOXETINA KERN PHARMA 20 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Kern Pharma S.L. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

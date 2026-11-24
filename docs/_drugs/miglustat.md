@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 529
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MIGLUSTAT"
 predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "Krabbe disease", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "encephalopathy due to prosaposin deficiency", "Tay-Sachs disease", "benign neoplasm of adrenal gland", "recessive X-linked ichthyosis", "fatty acid hydroxylase-associated neurodegeneration"]
 description: "Miglustat: nueva indicación predicha, Autosomal ichthyosis syndrome with fatal disease course (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 7)"
@@ -90,13 +90,19 @@ Sin embargo, la evidencia clínica es mixta. Un reporte de dos pacientes con Tay
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1171176001 | YARGESA 100 MG CÁPSULAS DURAS EFG | Cápsula dura | No disponible en los datos |
-| 90992 | MIGLUSTAT WAYMADE 100 MG CÁPSULAS EFG | Cápsula dura | No disponible en los datos |
-| 02238001 | ZAVESCA 100 MG CÁPSULAS DURAS | Cápsula dura | No disponible en los datos |
-| 1231737001 | OPFOLDA 65 MG CÁPSULAS DURAS | Cápsula dura | No disponible en los datos |
-| 78987 | MIGLUSTAT ACCORD 100 MG CÁPSULAS DURAS EFG | Cápsula dura | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1171176001 | YARGESA 100 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Piramal Critical Care B.V. | Comercializada |
+| 90992 | MIGLUSTAT WAYMADE 100 MG CAPSULAS EFG | CÁPSULA DURA | Waymade B.V. | Comercializada |
+| 02238001 | ZAVESCA 100 MG CAPSULAS DURAS | CÁPSULA DURA | Janssen-Cilag International N.V | Comercializada |
+| 1231737001 | OPFOLDA 65 MG CAPSULAS DURAS | CÁPSULA DURA | Amicus Therapeutics Europe Limited | Comercializada |
+| 78987 | MIGLUSTAT ACCORD 100 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Accord Healthcare S.L.U. | Comercializada |
+
+Se muestran 5 de 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Hay 7 autorizaciones vigentes en total (todas de principio activo único); se muestran las 5 principales.
 

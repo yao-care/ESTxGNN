@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 411
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "IMIQUIMOD"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
 description: "Imiquimod: nueva indicación predicha, Neoplasia premaligna (pre-malignant neoplasm) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 4; autorizadas no comercializadas: 1)"
@@ -94,13 +94,19 @@ La predicción es, por tanto, una extensión natural de la indicación ya conoci
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 88034 | IMIKERADERM 50 MG/G CREMA | Crema | No disponible en los datos compilados |
-| 12783002 | ZYCLARA 3,75% CREMA | Crema | No disponible en los datos compilados |
-| 98080001 | ALDARA 5% CREMA | Crema | No disponible en los datos compilados |
-| 98080002 | ALDARA 5% CREMA | Crema | No disponible en los datos compilados |
-| 78406 | IMUNOCARE 50 MG/G CREMA | Crema | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 88034 | IMIKERADERM 50 MG/G CREMA | CREMA | Mibe Pharma España S.L.U. | Comercializada |
+| 12783002 | ZYCLARA 3,75% CREMA | CREMA | Viatris Healthcare Limited | Comercializada |
+| 98080001 | ALDARA 5% CREMA | CREMA | Viatris Healthcare Limited | Comercializada |
+| 78406 | IMUNOCARE 50 MG/G CREMA | CREMA | Industrial Farmaceutica Cantabria S.A. | Comercializada |
+| 98080002 | ALDARA 5% CREMA | CREMA | Viatris Healthcare Limited | Autorizada, no comercializada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

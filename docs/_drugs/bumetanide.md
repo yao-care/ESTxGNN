@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Bumetanide"
 predicted_indications: ["acute pulmonary heart disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Bumetanide: nueva indicación predicha, Cardiopatía pulmonar aguda (acute pulmonary heart disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
@@ -80,9 +80,15 @@ Ninguna de las publicaciones estudia directamente la cardiopatía pulmonar aguda
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 52047 | FORDIURAN 1 mg COMPRIMIDOS | Comprimido | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 52047 | FORDIURAN 1 mg COMPRIMIDOS | COMPRIMIDO | Karo Pharma Ab | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 247
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
 description: "Diclofenac: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -80,13 +80,24 @@ Los textos de indicación aprobada no están disponibles en los datos compilados
 
 <!-- review:end es-lic-20261105-diclofenac-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 74119 | Diclofenaco Kern Pharma 11,6 mg/g gel | Gel |
-| 62000 | Diclofenaco Pensa 50 mg comprimidos gastrorresistentes EFG | Comprimido |
-| 62024 | Voltaren Retard 75 mg comprimidos de liberación modificada | Comprimido de liberación modificada |
-| 57589 | Diclofenaco Llorens 75 mg solución inyectable EFG | Solución inyectable |
-| 61866 | Diclofenaco Alter 50 mg comprimidos gastrorresistentes EFG | Comprimido gastrorresistente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 74119 | DICLOFENACO KERN PHARMA 11,6 mg/g GEL | GEL | Kern Pharma S.L. | Comercializada |
+| 62000 | DICLOFENACO PENSA 50 mg COMPRIMIDOS GASTRORRESISTENTES EFG | COMPRIMIDO | Towa Pharmaceutical S.A. | Comercializada |
+| 62024 | VOLTAREN RETARD 75 mg COMPRIMIDOS DE LIBERACION MODIFICADA | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Novartis Farmaceutica S.A. | Comercializada |
+| 61866 | DICLOFENACO ALTER 50 mg COMPRIMIDOS GASTRORRESISTENTES EFG | COMPRIMIDO GASTRORRESISTENTE | Laboratorios Alter S.A. | Comercializada |
+| 83900 | DICLOKERN FORTE 23,2 MG/G GEL | GEL | Kern Pharma S.L. | Comercializada |
+| 86651 | OLFEN 11,6 MG/G GEL | GEL | Teva B.V. | Comercializada |
+| 61812 | DICLOFENACO-LEPORI 1 MG/ML COLIRIO EN SOLUCIÓN | COLIRIO EN SOLUCIÓN | Angelini Pharma Espana S.L. | Comercializada |
+| 78407 | VOLTADOL FORTE 23,2 MG/G GEL | GEL | Haleon Spain S.A. | Comercializada |
+| 57203 | DOLOTREN 100 mg SUPOSITORIOS | SUPOSITORIO | Faes Farma S.A. | Comercializada |
+| 85218 | CINFADOL SPRAY 39,2 MG/ML SOLUCIÓN PARA PULVERIZACIÓN CUTÁNEA | SOLUCIÓN PARA PULVERIZACIÓN CUTÁNEA | Laboratorios Cinfa S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

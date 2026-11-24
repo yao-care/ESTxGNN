@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Agomelatine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Agomelatine: nueva indicación predicha, Tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy) (nivel de evidencia L5). Indicación original: No consta en los datos l…"
 ---
 
@@ -74,13 +74,24 @@ Actualmente no hay literatura relacionada disponible.
 
 Según los datos locales, hay 20 autorizaciones registradas (la lista puede ser parcial). Principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 83546 | Agomelatina Stada 25 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No registrada en los datos locales |
-| 83453 | Agomelatina Aristo 25 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No registrada en los datos locales |
-| 08499003IP1 | Valdoxan 25 mg comprimidos recubiertos con película | Comprimido recubierto con película | No registrada en los datos locales |
-| 08499008 | Valdoxan 25 mg comprimidos recubiertos con película | Comprimido recubierto con película | No registrada en los datos locales |
-| 83521 | Agomelatina Qualigen 25 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 83546 | AGOMELATINA STADA 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 08499003IP1 | VALDOXAN 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Les Laboratoires Servier | Comercializada |
+| 83521 | AGOMELATINA QUALIGEN 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Neuraxpharm Spain S.L. | Comercializada |
+| 08499003 | VALDOXAN 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Les Laboratoires Servier | Comercializada |
+| 08499003IP | VALDOXAN 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Les Laboratoires Servier | Comercializada |
+| 08499003IP2 | VALDOXAN 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Les Laboratoires Servier | Comercializada |
+| 08499003IP3 | VALDOXAN 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Les Laboratoires Servier | Comercializada |
+| 83458 | AGOMELATINA AUROVITAS SPAIN 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 08499003IP4 | VALDOXAN 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Les Laboratoires Servier | Comercializada |
+| 08499008 | VALDOXAN 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Les Laboratoires Servier | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

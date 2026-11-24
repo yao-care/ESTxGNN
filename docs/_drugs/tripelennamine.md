@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 829
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "tripelennamine"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis"]
 description: "Tripelennamine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 1)"
@@ -73,10 +73,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 58666 | AZARON STICK 20 MG/G BARRA CUTÁNEA | Barra cutánea | No disponible en los datos compilados |
-| 88786 | RELEPOST 20 MG/G BARRA CUTANEA | Barra cutánea | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 88786 | RELEPOST 20 MG/G BARRA CUTANEA | BARRA CUTÁNEA | Perrigo Espana S.A. | Comercializada |
+| 58666 | AZARON STICK 20 MG/G BARRA CUTÁNEA | BARRA CUTÁNEA | Perrigo Espana S.A. | Revocada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

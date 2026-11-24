@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 481
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "lopinavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Lopinavir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 7 (comercializadas: 3; autorizadas no comercializadas: 3)"
@@ -68,7 +68,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 <!-- review:begin es-lic-20261105-lopinavir-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 7 autorizaciones vigentes en total; se muestran las 5 principales." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 autorizaciones (comercializadas: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 7 autorizaciones vigentes en total; se muestran las 5 principales." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-lopinavir-1 -->
 
@@ -82,13 +82,21 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1151067001 | Lopinavir/Ritonavir Viatris 100 mg/25 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
-| 80104 | Lopinavir/Ritonavir Accord 200 mg/50 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
-| 01172008 | Kaletra 200 mg/50 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-| 01172006 | Kaletra 100 mg/25 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-| 01172005 | Kaletra 200 mg/50 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 01172008 | KALETRA 200 mg/50 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 01172006 | KALETRA 100 mg/25 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 01172003 | KALETRA (80 MG + 20 MG)/ML SOLUCION ORAL | SOLUCIÓN ORAL | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 1151067001 | LOPINAVIR/RITONAVIR VIATRIS 100 MG/25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Limited | Autorizada, no comercializada |
+| 01172005 | KALETRA 200 mg/50 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Abbvie Deutschland Gmbh & Co. Kg | Autorizada, no comercializada |
+| 1151067006 | LOPINAVIR/RITONAVIR VIATRIS 200 MG/50 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Limited | Autorizada, no comercializada |
+| 80104 | LOPINAVIR/RITONAVIR ACCORD 200 MG/ 50 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Suspendida |
+
+Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -118,7 +126,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Hay 7 autorizaciones vigentes en total; se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Hay 7 autorizaciones vigentes en total; se muestran las 5 principales" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
 
 <!-- review:end log -->

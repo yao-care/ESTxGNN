@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 651
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "posaconazole"
 predicted_indications: ["pneumocystosis"]
 description: "Posaconazole: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 18 (comercializadas: 13; autorizadas no comercializadas: 3)"
@@ -89,13 +89,24 @@ Cualquier beneficio sería especulativo, por ejemplo, por actividad frente a hon
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 105320004 | Noxafil 300 mg concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible |
-| 05320001 | Noxafil 40 mg/ml suspensión oral | Suspensión oral | No disponible |
-| 105320002 | Noxafil 100 mg comprimidos gastrorresistentes | Comprimido gastrorresistente | No disponible |
-| 84010 | Posaconazol Accord 300 mg concentrado para solución para perfusión EFG | Concentrado para solución para perfusión | No disponible |
-| 84646 | Posaconazol Stada 100 mg comprimidos gastrorresistentes EFG | Comprimido gastrorresistente | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 105320004 | NOXAFIL 300 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Merck Sharp & Dohme B.V. | Comercializada |
+| 1191379002 | POSACONAZOL ACCORD 100 MG COMPRIMIDOS GASTRORRESISTENTES EFG | COMPRIMIDO GASTRORRESISTENTE | Accord Healthcare S.L.U. | Comercializada |
+| 84701 | POSACONAZOL GLENMARK 40 MG/ML SUSPENSION ORAL EFG | SUSPENSIÓN ORAL | Glenmark Arzneimittel Gmbh | Comercializada |
+| 85039 | POSACONAZOL FRESENIUS KABI 100 MG COMPRIMIDOS GASTRORRESISTENTES | COMPRIMIDO GASTRORRESISTENTE | Fresenius Kabi España, S.A.U. | Comercializada |
+| 84646 | POSACONAZOL STADA 100 MG COMPRIMIDOS GASTRORRESISTENTES EFG | COMPRIMIDO GASTRORRESISTENTE | Laboratorio Stada S.L. | Comercializada |
+| 90350 | POSACONAZOL VIVANTA 100 MG COMPRIMIDOS GASTRORRESISTENTES EFG | COMPRIMIDO GASTRORRESISTENTE | Vivanta Generics S.R.O. | Comercializada |
+| 85374 | POSACONAZOL ABDI 100 MG COMPRIMIDOS GASTRORRESISTENTES | COMPRIMIDO GASTRORRESISTENTE | Abdi Farma Unipessoal Lda. | Comercializada |
+| 90284 | POSACONAZOL ALMOVAR 100 MG COMPRIMIDOS GASTRORRESISTENTES EFG | COMPRIMIDO GASTRORRESISTENTE | Laboratorios Basi Industria Farmaceutica S.A. | Comercializada |
+| 05320001 | NOXAFIL 40 MG/ML SUSPENSION ORAL | SUSPENSIÓN ORAL | Merck Sharp & Dohme B.V. | Comercializada |
+| 84010 | POSACONAZOL ACCORD 300 MG CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+
+Se muestran 10 de 18 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 
@@ -107,7 +118,7 @@ Cualquier beneficio sería especulativo, por ejemplo, por actividad frente a hon
 
 <!-- review:begin es-lic-20261105-posaconazole-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 18 autorizaciones vigentes en total (todas de medicamento con un solo principio activo, ninguna cancelada); la tabla muestra las 5 principales." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 18 autorizaciones (comercializadas: 13); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 18 autorizaciones vigentes en total (todas de medicamento con un solo principio activo, ninguna cancelada); la tabla muestra las 5 principales." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-posaconazole-1 -->
 
@@ -136,7 +147,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Hay 18 autorizaciones vigentes en total (todas de medicamento con un solo principio activo, ninguna cancelada); la tabla muestra las 5 princ" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Hay 18 autorizaciones vigentes en total (todas de medicamento con un solo principio activo, ninguna cancelada); la tabla muestra las 5 princ" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

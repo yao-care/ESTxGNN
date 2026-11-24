@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 479
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LONOCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome"]
 description: "Lonoctocog Alfa: nueva indicación predicha, Enfermedad de pseudo-von Willebrand (pseudo-von Willebrand disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 4; autorizadas no comercializadas: 3)"
@@ -80,13 +80,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1161158003 | AFSTYLA 1.000 UI | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
-| 1161158002 | AFSTYLA 500 UI | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
-| 1161158007 | AFSTYLA 3.000 UI | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
-| 1161158004 | AFSTYLA 1.500 UI | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
-| 1161158006 | AFSTYLA 2.500 UI | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1161158003 | AFSTYLA 1.000 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Csl Behring Gmbh | Comercializada |
+| 1161158002 | AFSTYLA 500 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Csl Behring Gmbh | Comercializada |
+| 1161158001 | AFSTYLA 250 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Csl Behring Gmbh | Comercializada |
+| 1161158005 | AFSTYLA 2.000 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Csl Behring Gmbh | Comercializada |
+| 1161158007 | AFSTYLA 3.000 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Csl Behring Gmbh | Autorizada, no comercializada |
+
+Se muestran 5 de 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 7 autorizaciones vigentes (todas de CSL Behring GmbH; las otras dos corresponden a las presentaciones de 250 UI y 2.000 UI).
 

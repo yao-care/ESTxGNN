@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 639
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "PINAZEPAM"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "antidepressant type abuse", "hallucinogen abuse", "barbiturate abuse", "sleep disorder, initiating and maintaining sleep"]
 description: "Pinazepam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 0)"
@@ -72,11 +72,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 53884 | DUNA 2,5 mg cápsulas duras | Cápsula dura | No disponible en los datos compilados |
-| 53885 | DUNA 5 mg cápsulas duras | Cápsula dura | No disponible en los datos compilados |
-| 53886 | DUNA 10 mg cápsulas duras | Cápsula dura | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 53885 | DUNA 5 mg CAPSULAS DURAS | CÁPSULA DURA | Meiji Pharma Spain S.A. | Revocada |
+| 53886 | DUNA 10 mg cápsulas duras | CÁPSULA DURA | Meiji Pharma Spain S.A. | Revocada |
+| 53884 | DUNA 2,5 mg cápsulas duras | CÁPSULA DURA | Meiji Pharma Spain S.A. | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las tres autorizaciones (titular: Meiji Pharma Spain S.A.) figuran como canceladas; no hay autorizaciones vigentes.
 

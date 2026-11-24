@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 706
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Risperidone: nueva indicación predicha, Parálisis de la mirada horizontal familiar con escoliosis progresiva (nivel de evidencia L5). Indicación original: Esquizofrenia…"
 monitor_inn: "Risperidone"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
@@ -90,13 +90,19 @@ Los textos de indicación aprobada no están disponibles. Se muestran las 5 prim
 
 <!-- review:end es-lic-20261105-risperidone-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 68798 | Risperidona Stada 1 mg/ml solución oral EFG | Solución oral |
-| 81426 | Risperidona Aurovitas 1 mg/ml solución oral EFG | Solución oral |
-| 71473 | Risperidona Viatris 1 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 71095 | Risperidona FLAS Krka 1 mg comprimidos bucodispersables EFG | Comprimido bucodispersable |
-| 60336 | Risperdal 1 mg comprimidos recubiertos con película (Janssen Cilag) | Comprimido recubierto con película |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 68798 | RISPERIDONA STADA 1 mg/ml SOLUCION ORAL EFG | SOLUCIÓN ORAL | Laboratorio Stada S.L. | Comercializada |
+| 81426 | RISPERIDONA AUROVITAS 1 MG/ML SOLUCION ORAL EFG | SOLUCIÓN ORAL | Aurovitas Spain, S.A.U. | Comercializada |
+| 71473 | RISPERIDONA VIATRIS 1 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Limited | Comercializada |
+| 71095 | RISPERIDONA FLAS KRKA 1 mg COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Krka D.D. Novo Mesto | Comercializada |
+| 70226 | RISPERIDONA CODRAMOL 1 mg/ml SOLUCION ORAL EFG | SOLUCIÓN ORAL | Farmalider S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

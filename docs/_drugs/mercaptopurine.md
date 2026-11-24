@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 506
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Mercaptopurine"
 predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Mercaptopurine: nueva indicación predicha, leucemia mieloide (myeloid leukemia) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 5 (comercializadas: 3; autorizadas no comercializadas: 1)"
@@ -94,14 +94,19 @@ Casi todos son regímenes con varios fármacos; la contribución de la mercaptop
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 80570 | Mercaptopurina Silver 50 mg comprimidos | Comprimido | No disponible |
-| 34565 | Mercaptopurina Aspen 50 mg comprimidos | Comprimido | No disponible |
-| 85931 | Mercaptopurina Zentiva 50 mg comprimidos EFG | Comprimido | No disponible |
-| 11727001 | Xaluprine 20 mg/ml suspensión oral | Solución oral | No disponible |
-| 84602 | Mercaptopurina Silver Pharma 50 mg comprimidos EFG | Comprimido | No disponible |
+<!-- licenses:begin -->
 
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 80570 | MERCAPTOPURINA SILVER 50 MG COMPRIMIDOS | COMPRIMIDO | Silver Pharma S.L. | Comercializada |
+| 34565 | MERCAPTOPURINA ASPEN 50 MG COMPRIMIDOS | COMPRIMIDO | Aspen Pharma Trading Limited | Comercializada |
+| 85931 | MERCAPTOPURINA ZENTIVA 50 MG COMPRIMIDOS EFG | COMPRIMIDO | Zentiva K.S. | Comercializada |
+| 11727001 | XALUPRINE 20 mg/ml SUSPENSION ORAL | SOLUCIÓN ORAL | Nova Laboratories Limited | Autorizada, no comercializada |
+| 84602 | MERCAPTOPURINA SILVER PHARMA 50 MG COMPRIMIDOS EFG | COMPRIMIDO | Silver Pharma S.L. | Revocada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

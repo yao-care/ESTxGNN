@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 561
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Netarsudil: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,11 +72,17 @@ Los candidatos que el modelo TxGNN propone para Netarsudil son, en todos los cas
 
 ## Información de Mercado en España
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 1201502001IP | latanoprost + netarsudil | COLIRIO EN SOLUCIÓN | Vigente |
-| 1201502001IP1 | latanoprost + netarsudil | COLIRIO EN SOLUCIÓN | Autorizado, no comercializado |
-| 1201502001 | latanoprost + netarsudil | COLIRIO EN SOLUCIÓN | Vigente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1201502001IP | ROCLANDA 50 MICROGRAMOS/ML + 200 MICROGRAMOS/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Santen Oy | Comercializada |
+| 1201502001 | ROCLANDA 50 MICROGRAMOS/ML + 200 MICROGRAMOS/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Santen Oy | Comercializada |
+| 1201502001IP1 | ROCLANDA 50 MICROGRAMOS/ML + 200 MICROGRAMOS/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Santen Oy | Autorizada, no comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

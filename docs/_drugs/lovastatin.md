@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Lovastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lovastatin: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (nivel de evidencia L5). Indicación original: Hiperlipidemia y trastornos relacionados"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Se listan las autorizaciones principales de las 20 registradas (la lista puede ser parcial; 11 vigentes y 9 canceladas entre las listadas). Los datos no incluyen el texto de indicación aprobada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Estado |
-|---------|------|------|-----------|
-| 63359 | Lovastatina Cinfa 40 mg comprimidos EFG | Comprimido | Vigente |
-| 63361 | Colesvir 20 mg comprimidos | Comprimido | Vigente |
-| 63330 | Lovastatina Vir 20 mg comprimidos EFG | Comprimido | Vigente |
-| 58757 | Taucor 20 mg | Comprimido | Vigente |
-| 64438 | Lovastatina Normon 40 mg comprimidos EFG | Comprimido | Vigente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 63359 | LOVASTATINA CINFA 40 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 63361 | COLESVIR 20 mg COMPRIMIDOS | COMPRIMIDO | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 63330 | LOVASTATINA VIR 20 mg COMPRIMIDOS EFG | COMPRIMIDO | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 64438 | LOVASTATINA NORMON 40 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 64034 | COLESVIR 40 mg COMPRIMIDOS | COMPRIMIDO | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

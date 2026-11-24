@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 371
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "GEFITINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa"]
 description: "Gefitinib: nueva indicación predicha, Fibromatosis gingival (fibromatosis, gingival) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 11 (comercializadas: 2; autorizadas no comercializadas: 3)"
@@ -85,17 +85,28 @@ Los textos de indicación aprobada no figuran en los datos compilados.
 
 <!-- review:begin es-lic-20261105-gefitinib-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 11 autorizaciones vigentes (todas de medicamentos con un único principio activo; no hay autorizaciones canceladas). Los textos de indicación aprobada no figuran en los datos compilados." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 11 autorizaciones (comercializadas: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 11 autorizaciones vigentes (todas de medicamentos con un único principio activo; no hay autorizaciones canceladas). Los textos de indicación aprobada no figuran en los datos compilados." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-gefitinib-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 09526001 | IRESSA 250 mg comprimidos recubiertos con película | Comprimido recubierto con película | AstraZeneca AB |
-| 83606 | Gefitinib Aristo 250 mg EFG | Comprimido recubierto con película | Aristo Pharma Iberia S.L. |
-| 83716 | Gefitinib Sandoz 250 mg EFG | Comprimido recubierto con película | Sandoz Farmacéutica S.A. |
-| 83851 | Gefitinib Teva 250 mg EFG | Comprimido recubierto con película | Teva B.V. |
-| 84785 | Gefitinib Cipla 250 mg EFG | Comprimido recubierto con película | Cipla Europe |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 83716 | GEFITINIB SANDOZ 250 MG COMPRIMIDOS RECUBIERTOS CON PELCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Comercializada |
+| 83851 | GEFITINIB TEVA 250 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva B.V. | Comercializada |
+| 83986 | GEFITINIB GENTHON 250 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Genthon B.V. | Autorizada, no comercializada |
+| 09526001 | IRESSA 250 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Astrazeneca Ab | Autorizada, no comercializada |
+| 90537 | GEFITINIB EUGIA 250 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Eugia Pharma (Malta) Limited | Autorizada, no comercializada |
+| 83606 | GEFITINIB ARISTO 250 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aristo Pharma Iberia S.L. | Revocada |
+| 84021 | GEFITINIB QILU 250 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Qilu Pharma Spain S.L. | Revocada |
+| 84785 | GEFITINIB CIPLA 250 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Cipla Europe | Revocada |
+| 1181321002 | GEFITINIB MYLAN 250 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Mylan Pharmaceuticals Limited | Revocada |
+| 83984 | GEFITINIB ACCORD 250 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Revocada |
+
+Se muestran 10 de 11 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 
@@ -144,7 +155,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 11 autorizaciones vigentes (todas de medicamentos con un único principio activo; no hay autorizaciones canceladas)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 11 autorizaciones vigentes (todas de medicamentos con un único principio activo; no hay autorizaciones canceladas)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Iressa (gefitinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=827d60e8-7e07-41b7-c28b-49ef1c4a5a41) |
 
 <!-- review:end log -->

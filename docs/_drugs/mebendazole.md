@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 495
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Mebendazole"
 predicted_indications: ["acne (disease)"]
 description: "Mebendazole: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -74,10 +74,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 53775 | LOMPER 20 mg/ml suspensión oral | Suspensión oral | No disponible en los datos compilados |
-| 51200 | LOMPER 100 mg comprimidos | Comprimido | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 53775 | LOMPER 20 mg/ml SUSPENSION ORAL | SUSPENSIÓN ORAL | Esteve Pharmaceuticals S.A. | Comercializada |
+| 51200 | LOMPER 100 mg COMPRIMIDOS | COMPRIMIDO | Esteve Pharmaceuticals S.A. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

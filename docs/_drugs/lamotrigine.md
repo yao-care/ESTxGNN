@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 447
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Lamotrigine"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Lamotrigine: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -76,13 +76,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único). Los datos de autorización no incluyen texto de indicación aprobada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 67151 | Lamotrigina Sandoz 100 mg EFG | Comprimido masticable y dispersable |
-| 67318 | Lamotrigina Normon 25 mg EFG | Comprimido masticable y dispersable |
-| 64391 | Lamictal 2 mg | Comprimido masticable y dispersable |
-| 67320 | Lamotrigina Normon 100 mg EFG | Comprimido masticable y dispersable |
-| 68645 | Lamotrigina Combix 200 mg EFG | Comprimido masticable y dispersable |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 67151 | LAMOTRIGINA SANDOZ 100 mg COMPRIMIDOS DISPERSABLES/MASTICABLES EFG | COMPRIMIDO MASTICABLE Y DISPERSABLE | Sandoz Farmaceutica S.A. | Comercializada |
+| 67318 | LAMOTRIGINA NORMON 25 mg COMPRIMIDOS DISPERSABLES/MASTICABLES EFG | COMPRIMIDO MASTICABLE Y DISPERSABLE | Laboratorios Normon S.A. | Comercializada |
+| 64391 | LAMICTAL 2 mg COMPRIMIDOS MASTICABLES/DISPERSABLES | COMPRIMIDO MASTICABLE Y DISPERSABLE | Glaxosmithkline S.A. | Comercializada |
+| 67320 | LAMOTRIGINA NORMON 100 mg COMPRIMIDOS DISPERSABLES/MASTICABLES EFG | COMPRIMIDO MASTICABLE Y DISPERSABLE | Laboratorios Normon S.A. | Comercializada |
+| 68645 | LAMOTRIGINA COMBIX 200 mg COMPRIMIDOS DISPERSABLES/MASTICABLES EFG | COMPRIMIDO MASTICABLE Y DISPERSABLE | Laboratorios Combix S.L.U. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

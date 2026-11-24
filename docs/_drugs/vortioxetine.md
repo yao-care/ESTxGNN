@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 858
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Vortioxetine"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 description: "Vortioxetine: nueva indicación predicha, Trastorno neurótico (neurotic disorder) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: al menos 20"
@@ -86,13 +86,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada). El texto de indicación aprobada no figura en los datos disponibles.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 113891010 | Brintellix 10 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 113891028IP1 | Brintellix 20 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 89290 | Vortioxetina Stada 15 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 90983 | Vortioxetina Krka 20 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 90972 | Vortioxetina Cinfa 15 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 113891028IP1 | BRINTELLIX 20 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | H. Lundbeck A/S | Comercializada |
+| 113891010 | Brintellix 10 mg comprimidos recubiertos con pelicula | COMPRIMIDO RECUBIERTO CON PELÍCULA | H. Lundbeck A/S | Comercializada |
+| 89290 | VORTIOXETINA STADA 15 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Autorizada, no comercializada |
+| 89288 | VORTIOXETINA STADA 5 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Autorizada, no comercializada |
+| 90983 | VORTIOXETINA KRKA 20 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Krka D.D. Novo Mesto | Autorizada, no comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

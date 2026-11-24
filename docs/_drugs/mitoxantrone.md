@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 536
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
 description: "Mitoxantrone: nueva indicación predicha, Neoplasia del tracto aerodigestivo superior (upper aerodigestive tract neoplasm) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 0)"
@@ -95,17 +95,23 @@ Se listan las publicaciones más relevantes de las 20 identificadas. Ninguna es 
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 79737 | Mitoxantrona Accord 2 mg/ml | Concentrado para solución para perfusión |
-| 57408 | Novantrone 2 mg/ml | Concentrado para solución para perfusión |
-| 66166 | Mitoxantrona Sandoz 2 mg/ml | Concentrado para solución para perfusión |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 79737 | MITOXANTRONA ACCORD 2 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Suspendida |
+| 57408 | NOVANTRONE 2 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Mylan Ire Healthcare Limited | Suspendida |
+| 66166 | MITOXANTRONA SANDOZ 2 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Sandoz Farmaceutica S.A. | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Los datos compilados no incluyen el texto de la indicación aprobada de cada producto.
 
 <!-- review:begin es-lic-20261105-mitoxantrone-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Las tres autorizaciones están vigentes y corresponden a medicamentos de principio activo único. Los datos compilados no incluyen el texto de la indicación aprobada de cada producto." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 autorizaciones (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Las tres autorizaciones están vigentes y corresponden a medicamentos de principio activo único. Los datos compilados no incluyen el texto de la indicación aprobada de cada producto." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-mitoxantrone-1 -->
 
@@ -153,7 +159,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Las tres autorizaciones están vigentes y corresponden a medicamentos de principio activo único" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Las tres autorizaciones están vigentes y corresponden a medicamentos de principio activo único" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

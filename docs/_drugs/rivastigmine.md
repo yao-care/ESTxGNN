@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 709
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Rivastigmine"
 predicted_indications: ["glaucoma"]
 description: "Rivastigmine: nueva indicación predicha, Glaucoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -83,13 +83,24 @@ Las principales:
 
 <!-- review:end es-lic-20261105-rivastigmine-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 98092005 | Prometax 3 mg cápsulas duras | Cápsula dura | No disponible |
-| 98066025 | Exelon 9,5 mg/24 h parche transdérmico | Parche transdérmico | No disponible |
-| 98066010 | Exelon 6 mg cápsulas duras | Cápsula dura | No disponible |
-| 71781 | Rivastigmina Ortodrol 2 mg/ml solución oral EFG | Solución oral | No disponible |
-| 109525010 | Nimvastid 3 mg cápsulas duras EFG | Cápsula dura | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 98066025 | EXELON 9,5 mg/24 H PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Novartis Europharm Limited | Comercializada |
+| 09599015 | RIVASTIGMINA SANDOZ 6 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Sandoz Gmbh | Comercializada |
+| 76596 | RIVASTIGMINA STADAFARMA 1,5 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorio Stada S.L. | Comercializada |
+| 71781 | RIVASTIGMINA ORTODROL 2 mg/ml SOLUCION ORAL EFG | SOLUCIÓN ORAL | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 79953 | RIVASTIGMINA SANDOZ 13,3 MG/24 H PARCHES TRANSDERMICOS EFG | PARCHE TRANSDÉRMICO | Sandoz Farmaceutica S.A. | Comercializada |
+| 09599018 | RIVASTIGMINA SANDOZ 2 mg/ml SOLUCION ORAL EFG | SOLUCIÓN ORAL | Sandoz Gmbh | Comercializada |
+| 83150 | RIVANEX 13,3 MG/24 H PARCHES TRANSDERMICOS EFG | PARCHE TRANSDÉRMICO | Neuraxpharm Spain S.L. | Comercializada |
+| 98092021 | PROMETAX 4,6 mg/24 H PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Almirall S.A. | Comercializada |
+| 09599002 | RIVASTIGMINA SANDOZ 1,5 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Sandoz Gmbh | Comercializada |
+| 98092005 | PROMETAX 3 mg CAPSULAS DURAS | CÁPSULA DURA | Almirall S.A. | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Las formas disponibles son cápsulas duras, parches transdérmicos y solución oral. No existe ninguna formulación oftálmica autorizada.
 

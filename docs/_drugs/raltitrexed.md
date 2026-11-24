@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 679
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Raltitrexed: nueva indicación predicha, Colangitis esclerosante (nivel de evidencia L5). Indicación original: No disponible en la ficha de autorización de la AEMPS (el uso clínico…"
 monitor_inn: "RALTITREXED"
 predicted_indications: ["sclerosing cholangitis", "myelodysplastic syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin c disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin d disease syndrome", "unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "partial deletion of the long arm of chromosome 5"]
@@ -80,9 +80,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61452 | TOMUDEX 2 MG POLVO PARA SOLUCIÓN PARA PERFUSIÓN (Hospira Invicta S.A.) | Polvo para solución para perfusión | No especificada en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61452 | TOMUDEX 2 MG POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Hospira Invicta S.A. | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

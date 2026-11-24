@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 660
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Pregabalin"
 predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 description: "Pregabalin: nueva indicación predicha, Tendinitis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -88,13 +88,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 90014 | Pregabalina Normon 300 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
-| 04279012IP | Lyrica 75 mg cápsulas duras | Cápsula dura | No disponible en los datos compilados |
-| 104279015 | Lyrica 100 mg cápsulas duras | Cápsula dura | No disponible en los datos compilados |
-| 80287 | Pregabalina Aurovitas 150 mg cápsulas duras EFG | Cápsula dura | No disponible en los datos compilados |
-| 104279021 | Lyrica 200 mg cápsulas duras | Cápsula dura | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 90014 | PREGABALINA NORMON 300 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 04279012IP | LYRICA 75 MG CAPSULAS DURAS | CÁPSULA DURA | Upjohn Eesv | Comercializada |
+| 104279015 | LYRICA 100 MG CAPSULAS DURAS | CÁPSULA DURA | Upjohn Eesv | Comercializada |
+| 80287 | PREGABALINA AUROVITAS 150 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Aurovitas Spain, S.A.U. | Comercializada |
+| 104279021 | LYRICA 200 MG CAPSULAS DURAS | CÁPSULA DURA | Upjohn Eesv | Comercializada |
+| 104279034 | LYRICA 225 MG CAPSULAS DURAS | CÁPSULA DURA | Upjohn Eesv | Comercializada |
+| 04279018IP5 | LYRICA 150 MG CAPSULAS DURAS | CÁPSULA DURA | Upjohn Eesv | Comercializada |
+| 84167 | PREGABALINA ALTER 50 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Alter S.A. | Comercializada |
+| 79858 | PREGABALINA NORMON 200 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Normon S.A. | Comercializada |
+| 83487 | PREMAX 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Neuraxpharm Spain S.L. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Existen también presentaciones en solución oral (Pregabalina Wockhardt 20 mg/ml).
 

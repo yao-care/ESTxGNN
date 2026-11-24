@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 301
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Erdafitinib: nueva indicación predicha, Hipertensión pulmonar (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "ERDAFITINIB"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome"]
@@ -72,11 +72,17 @@ Actualmente no hay literatura relacionada disponible para hipertensión pulmonar
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1241841009 | BALVERSA 4 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 1241841004 | BALVERSA 3 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 1241841011 | BALVERSA 5 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1241841009 | BALVERSA 4 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Janssen-Cilag International N.V | Comercializada |
+| 1241841004 | BALVERSA 3 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Janssen-Cilag International N.V | Comercializada |
+| 1241841011 | BALVERSA 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Janssen-Cilag International N.V | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

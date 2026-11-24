@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 233
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
 description: "Denosumab: nueva indicación predicha, Retinopatía diabética no proliferativa grave (severe nonproliferative diabetic retinopathy) (nivel de evidencia L5). Indicación original: No consta en los datos …"
@@ -79,13 +79,19 @@ Para la indicación principal (retinopatía diabética no proliferativa grave) n
 
 Se listan 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo). El texto de la indicación aprobada no figura en los datos compilados.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1241890001 | OBODENCE 60 mg | Solución inyectable en jeringa precargada | No disponible |
-| 11703001IP | XGEVA 120 mg | Solución inyectable | No disponible |
-| 1241904001 | OSENVELT 120 mg | Solución inyectable | No disponible |
-| 1251997001 | OSQAY 60 mg | Solución inyectable en jeringa precargada | No disponible |
-| 1251953004 | BOMYNTRA 120 mg | Solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1241890001 | OBODENCE 60 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Samsung Bioepis Nl B.V. | Comercializada |
+| 1241904001 | OSENVELT 120 MG SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Celltrion Healthcare Hungary Kft. | Comercializada |
+| 1251997001 | OSQAY 60 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Theramex Ireland Limited | Comercializada |
+| 1251953004 | BOMYNTRA 120 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Fresenius Kabi Deutschland Gmbh | Comercializada |
+| 1251954001 | CONEXXENCE 60 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Fresenius Kabi Deutschland Gmbh | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Las 15 autorizaciones restantes corresponden a otros biosimilares y presentaciones de 60 mg y 120 mg.
 

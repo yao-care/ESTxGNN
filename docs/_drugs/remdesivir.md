@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 691
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Remdesivir: nueva indicación predicha, Neoplasia endocrina múltiple (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "REMDESIVIR"
 predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "homozygous familial hypercholesterolemia"]
@@ -72,12 +72,24 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1201459001 | VEKLURY 100 MG CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Concentrado para solución para perfusión | No disponible |
-| 1201459002 | VEKLURY 100 MG POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Polvo para concentrado para solución para perfusión | No disponible |
+<!-- licenses:begin -->
 
-Ambas autorizaciones corresponden a Gilead Sciences Ireland Unlimited Company, son de componente único y están vigentes.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1201459002 | VEKLURY 100 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Gilead Sciences Ireland Unlimited Company | Comercializada |
+| 1201459001 | VEKLURY 100 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Gilead Sciences Ireland Unlimited Company | Revocada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
+
+Ambas autorizaciones corresponden a Gilead Sciences Ireland Unlimited Company y son de componente único; 1201459001 (VEKLURY 100 MG concentrado para solución para perfusión) está revocada.
+
+<!-- review:begin es-lic-20261124-remdesivir-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Ambas autorizaciones corresponden a Gilead Sciences Ireland Unlimited Company, son de componente único y están vigentes." Corregido: según CIMA (AEMPS), la autorización 1201459001 (VEKLURY 100 MG concentrado para solución para perfusión) figura como revocada. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124-remdesivir-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -103,11 +115,12 @@ La predicción para neoplasia endocrina múltiple es de nivel L5: no hay ensayos
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca) |
+| 2026-11-24 | «ambas vigentes» → 1201459001 revocada | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

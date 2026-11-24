@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 784
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tetrabenazine"
 predicted_indications: ["polycystic kidney disease 3 with or without polycystic liver disease", "renal-hepatic-pancreatic dysplasia", "Joubert syndrome with renal defect", "karyomegalic interstitial nephritis", "thoracic malformation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "acute intermittent porphyria", "adult familial nephronophthisis-spastic quadriparesia syndrome", "atypical glycine encephalopathy", "congenital disorder of glycosylation with defective fucosylation"]
 description: "Tetrabenazine: nueva indicación predicha, Enfermedad renal poliquística tipo 3 con o sin enfermedad hepática poliquística (polycystic kidney disease 3 with or wi… (nivel de evidencia L5). Indicación …"
@@ -72,12 +72,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 84164 | Tetrabenazina Aristo 25 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
-| 82080 | Tetrabenazina Sun 25 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
-| 70142 | Nitoman 25 mg comprimidos | Comprimido | No disponible en los datos compilados |
-| 72730 | Tetmodis 25 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 84164 | TETRABENAZINA ARISTO 25 MG COMPRIMIDOS EFG | COMPRIMIDO | Aristo Pharma Gmbh | Comercializada |
+| 82080 | TETRABENAZINA SUN 25 MG COMPRIMIDOS EFG | COMPRIMIDO | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+| 70142 | NITOMAN 25 mg COMPRIMIDOS | COMPRIMIDO | Bausch Health Ireland Limited | Comercializada |
+| 72730 | TETMODIS 25 mg COMPRIMIDOS EFG | COMPRIMIDO | Walter Ritter Gmbh & Co. Kg | Autorizada, no comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

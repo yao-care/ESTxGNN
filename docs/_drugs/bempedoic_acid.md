@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 91
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Bempedoic Acid: nueva indicación predicha, Hipertiroidismo (nivel de evidencia L5). Indicación original: Hipercolesterolemia (conocimiento general"
 monitor_inn: "bempedoic acid"
 predicted_indications: ["hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "malignant catarrh", "infectious bovine rhinotracheitis", "cytomegalovirus infection", "hyperthyroxinemia", "drug-induced osteoporosis", "multiple endocrine neoplasia", "pregnancy associated osteoporosis"]
@@ -65,7 +65,6 @@ El ácido bempedoico inhibe la ATP-citrato liasa (ACLY), una enzima situada por 
 
 Un posible nexo indirecto sería el metabolismo lipídico, ya que las hormonas tiroideas influyen en el manejo hepático del colesterol. Sin embargo, no hay datos que demuestren que la inhibición de ACLY modifique la función tiroidea.
 
-
 ---
 
 ## Evidencia de Ensayos Clínicos
@@ -82,10 +81,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1201425002 | NILEMDO 180 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 1201424002 | NUSTENDI 180 mg/10 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1201425002 | NILEMDO 180 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Daiichi Sankyo Europe Gmbh | Comercializada |
+| 1201424002 | NUSTENDI 180 mg/10 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Daiichi Sankyo Europe Gmbh | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones están vigentes y pertenecen a Daiichi Sankyo Europe GmbH.
 

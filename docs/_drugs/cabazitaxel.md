@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 129
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cabazitaxel: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "CABAZITAXEL"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin E disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-hemoglobin c disease syndrome", "HIV infectious disease", "hyperthyroidism", "neuroblastoma", "rheumatoid arthritis"]
@@ -98,17 +98,28 @@ Los datos compilados no incluyen el texto de la indicación aprobada.
 
 <!-- review:begin es-lic-20261105-cabazitaxel-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 15 autorizaciones vigentes (todas de medicamentos con un único principio activo). Los datos compilados no incluyen el texto de la indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 15 autorizaciones (comercializadas: 7); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se listan 5 de las 15 autorizaciones vigentes (todas de medicamentos con un único principio activo). Los datos compilados no incluyen el texto de la indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-cabazitaxel-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 11676001 | Jevtana 60 mg | Concentrado y disolvente para solución para perfusión | No disponible |
-| 88361 | Cabazitaxel Aurovit 20 mg/ml | Concentrado para solución para perfusión | No disponible |
-| 85677 | Cabazitaxel Teva 10 mg/ml | Concentrado para solución para perfusión | No disponible |
-| 85660 | Cabazitaxel Mylan 60 mg EFG | Concentrado y disolvente para solución para perfusión | No disponible |
-| 88251 | Cabazitaxel Fresenius Kabi 20 mg/ml | Concentrado para solución para perfusión | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 88361 | CABAZITAXEL AUROVIT 20 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Eugia Pharma (Malta) Limited | Comercializada |
+| 88035 | CABAZITAXEL TEVAGEN 10 MG/ML CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Teva B.V. | Comercializada |
+| 85714 | CABAZITAXEL EVER PHARMA 10 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Ever Valinject Gmbh | Comercializada |
+| 85908 | CABAZITAXEL ZENTIVA 60 MG CONCENTRADO Y DISOLVENTE PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO Y DISOLVENTE PARA SOLUCIÓN PARA PERFUSIÓN | Zentiva K.S. | Comercializada |
+| 88000 | CABAZITAXEL VIVANTA 60 MG CONCENTRADO Y DISOLVENTE PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO Y DISOLVENTE PARA SOLUCIÓN PARA PERFUSIÓN | Vivanta Generics S.R.O. | Comercializada |
+| 1201448001 | CABAZITAXEL ACCORD 20 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 85227 | CABAZITAXEL DR. REDDYS 60 MG CONCENTRADO Y DISOLVENTE PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO Y DISOLVENTE PARA SOLUCIÓN PARA PERFUSIÓN | Reddy Pharma Iberia S.A. | Comercializada |
+| 11676001 | JEVTANA 60 MG CONCENTRADO Y DISOLVENTE PARA SOLUCION PARA PERFUSION | CONCENTRADO Y DISOLVENTE PARA SOLUCIÓN PARA PERFUSIÓN | Sanofi Winthrop Industrie | Autorizada, no comercializada |
+| 88251 | CABAZITAXEL FRESENIUS KABI 20 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Autorizada, no comercializada |
+| 90817 | CABAZITAXEL EUGIA 10 MG/ML CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Eugia Pharma (Malta) Limited | Autorizada, no comercializada |
+
+Se muestran 10 de 15 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 
@@ -158,7 +169,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se listan 5 de las 15 autorizaciones vigentes (todas de medicamentos con un único principio activo)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se listan 5 de las 15 autorizaciones vigentes (todas de medicamentos con un único principio activo)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Jevtana (cabazitaxel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de3d9c26-572b-4ea4-9b2d-dd58a2b3e8fa) |
 
 <!-- review:end log -->

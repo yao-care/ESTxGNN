@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ataluren"
 predicted_indications: ["benign recurrent intrahepatic cholestasis", "inborn disorder of bilirubin metabolism", "hereditary North American Indian childhood cirrhosis", "familial intrahepatic cholestasis", "severe nonproliferative diabetic retinopathy", "bilirubin metabolism disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ataluren: nueva indicación predicha, colestasis intrahepática recurrente benigna (benign recurrent intrahepatic cholestasis) (nivel de evidencia L5). Indicación original: No consta en los datos local…"
 ---
 
@@ -72,11 +72,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 113902002 | TRANSLARNA 250 MG GRANULADO PARA SUSPENSION ORAL | Granulado para suspensión oral | No registrada en los datos locales |
-| 113902003 | TRANSLARNA 1000 MG GRANULADO PARA SUSPENSION ORAL | Granulado para suspensión oral | No registrada en los datos locales |
-| 113902001 | TRANSLARNA 125 MG GRANULADO PARA SUSPENSION ORAL | Granulado para suspensión oral | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 113902002 | TRANSLARNA 250 MG GRANULADO PARA SUSPENSION ORAL | GRANULADO PARA SUSPENSIÓN ORAL | Ptc Therapeutics International Limited | Autorizada, no comercializada |
+| 113902003 | TRANSLARNA 1000 MG GRANULADO PARA SUSPENSION ORAL | GRANULADO PARA SUSPENSIÓN ORAL | Ptc Therapeutics International Limited | Autorizada, no comercializada |
+| 113902001 | TRANSLARNA 125 MG GRANULADO PARA SUSPENSION ORAL | GRANULADO PARA SUSPENSIÓN ORAL | Ptc Therapeutics International Limited | Autorizada, no comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

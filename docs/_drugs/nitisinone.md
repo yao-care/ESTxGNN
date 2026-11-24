@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 570
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Nitisinone: nueva indicación predicha, Acidosis tubular renal (nivel de evidencia L5). Indicación original: Tirosinemia"
 monitor_inn: "nitisinone"
 predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy with toxic serpin polymerization", "C1 inhibitor deficiency", "glycogen storage disease", "adult polyglucosan body disease", "glycogen storage disease due to glucose-6-phosphatase deficiency", "Griscelli syndrome", "granulomatous disease, chronic, X-linked", "ermine phenotype"]
@@ -84,13 +84,19 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 Se listan 5 de las 12 autorizaciones vigentes (todas son monofármaco y están en estado válido):
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1171217001 | NITISINONE MDK 2 MG CAPSULAS DURAS | Cápsula dura | No disponible en los datos |
-| 04303003 | ORFADIN 10 mg CAPSULAS DURAS | Cápsula dura | No disponible en los datos |
-| 85156 | NITISINONA DIPHARMA 2 MG CAPSULAS DURAS EFG | Cápsula dura | No disponible en los datos |
-| 104303005 | ORFADIN 4 mg/ml SUSPENSION ORAL | Suspensión oral | No disponible en los datos |
-| 83467 | NITISINONA DIPHARMA 10 MG CAPSULAS DURAS EFG | Cápsula dura | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1171217001 | NITISINONE MDK 2 MG CAPSULAS DURAS | CÁPSULA DURA | Mendelikabs Europe Limited | Comercializada |
+| 04303003 | ORFADIN 10 mg CAPSULAS DURAS | CÁPSULA DURA | Swedish Orphan Biovitrum International Ab | Comercializada |
+| 1171217002 | NITISINONE MDK 5 MG CAPSULAS DURAS | CÁPSULA DURA | Mendelikabs Europe Limited | Comercializada |
+| 85156 | NITISINONA DIPHARMA 2 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Dipharma Arzneimittel Gmbh | Comercializada |
+| 04303002 | ORFADIN 5 mg CAPSULAS DURAS | CÁPSULA DURA | Swedish Orphan Biovitrum International Ab | Comercializada |
+
+Se muestran 5 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

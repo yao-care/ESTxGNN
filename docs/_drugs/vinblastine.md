@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 848
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
 description: "Vinblastine: nueva indicación predicha, rabdomiosarcoma (rhabdomyosarcoma (disease)) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
@@ -78,9 +78,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 37275 | VINBLASTINA STADA 10 MG POLVO PARA SOLUCIÓN INYECTABLE | Polvo para solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 37275 | VINBLASTINA STADA 10 MG POLVO PARA SOLUCIÓN INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Laboratorio Stada S.L. | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

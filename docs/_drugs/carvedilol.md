@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 150
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CARVEDILOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Carvedilol: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -80,13 +80,24 @@ El texto de indicación aprobada no está disponible en los datos compilados.
 
 <!-- review:end es-lic-20261105-carvedilol-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 59695 | COROPRES 25 mg comprimidos | Comprimido | No disponible |
-| 61281 | COROPRES 6,25 mg comprimidos | Comprimido | No disponible |
-| 65885 | Carvedilol Cinfamed 6,25 mg comprimidos EFG | Comprimido recubierto con película | No disponible |
-| 66921 | Carvedilol Teva 25 mg comprimidos EFG | Comprimido | No disponible |
-| 68471 | Normotride 6,25 mg comprimidos EFG | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 59695 | COROPRES 25 mg COMPRIMIDOS | COMPRIMIDO | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 65885 | CARVEDILOL CINFAMED 6,25 mg COMPRIMIDOS EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+| 61281 | COROPRES 6,25 mg COMPRIMIDOS | COMPRIMIDO | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 70697 | CARVEDILOL TEVA-RATIOPHARM 25 mg COMPRIMIDOS EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+| 70293 | CARVEDILOL ALMUS 6,25 mg COMPRIMIDOS EFG | COMPRIMIDO | Almus Farmaceutica S.A.U. | Comercializada |
+| 68471 | NORMOTRIDE 6,25 mg COMPRIMIDOS EFG | COMPRIMIDO | Arafarma Group S.A. | Comercializada |
+| 68877 | CARVEDILOL NORMON 25 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 66046 | CARVEDILOL SANDOZ 6,25 mg COMPRIMIDOS EFG | COMPRIMIDO | Sandoz Farmaceutica S.A. | Comercializada |
+| 67966 | NORMOTRIDE 25 mg COMPRIMIDOS EFG | COMPRIMIDO | Arafarma Group S.A. | Comercializada |
+| 65872 | CARVEDILOL KERN PHARMA 25 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

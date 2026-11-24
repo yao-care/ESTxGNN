@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 461
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LENVATINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
 description: "Lenvatinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 4 (comercializadas: 2; autorizadas no comercializadas: 2)"
@@ -79,12 +79,18 @@ La base de evidencia es limitada: un único estudio de fase Ib/II sin grupo comp
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1161128002 | KISPLYX 10 MG CÁPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
-| 1151002002 | LENVIMA 10 MG CÁPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
-| 1161128001 | KISPLYX 4 MG CÁPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
-| 1151002001 | LENVIMA 4 MG CÁPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1151002002 | LENVIMA 10 MG CAPSULAS DURAS | CÁPSULA DURA | Eisai Gmbh | Comercializada |
+| 1151002001 | LENVIMA 4 MG CAPSULAS DURAS | CÁPSULA DURA | Eisai Gmbh | Comercializada |
+| 1161128002 | KISPLYX 10 MG CAPSULAS DURAS | CÁPSULA DURA | Eisai Gmbh | Autorizada, no comercializada |
+| 1161128001 | KISPLYX 4 MG CAPSULAS DURAS | CÁPSULA DURA | Eisai Gmbh | Autorizada, no comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

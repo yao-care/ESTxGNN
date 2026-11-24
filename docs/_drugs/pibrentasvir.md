@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 635
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "pibrentasvir"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Pibrentasvir: nueva indicación predicha, Infección por virus de la hepatitis B (hepatitis B virus infection) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -86,10 +86,16 @@ Toda la literatura se centra en el VHC; ninguna publicación aporta datos de pib
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1171213002 | MAVIRET 50 MG/20 MG gránulos recubiertos en sobre | Gránulos recubiertos en sobres | No disponible en los datos compilados |
-| 1171213001 | MAVIRET 100 MG/40 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1171213002 | MAVIRET 50 MG/20 MG GRANULOS RECUBIERTOS EN SOBRE | GRANULOS RECUBIERTOS EN SOBRES | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 1171213001 | MAVIRET 100 MG/40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

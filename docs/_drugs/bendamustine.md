@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Bendamustine"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bendamustine: nueva indicación predicha, Linfoma de células del manto (mantle cell lymphoma) (nivel de evidencia L1). En España, autorizaciones de la AEMPS: 14 (comercializadas: 9)"
 ---
 
@@ -94,13 +94,24 @@ Se muestran los 10 ensayos más relevantes de los registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 86779 | Bendamustina Accord 25 mg/ml | Concentrado para solución para perfusión | No registrada |
-| 82784 | Bendamustina Dr. Reddys 45 mg/ml | Concentrado para solución para perfusión | No registrada |
-| 80644 | Bendamustina Dr. Reddys 2,5 mg/ml EFG | Polvo para concentrado para solución para perfusión | No registrada |
-| 80947 | Bendamustina Tillomed 2,5 mg/ml EFG | Polvo para concentrado para solución para perfusión | No registrada |
-| 72571 | Levact 2,5 mg/ml | Polvo para solución para perfusión | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 86779 | BENDAMUSTINA ACCORD 25 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 80644 | BENDAMUSTINA DR. REDDYS 2,5 MG/ML POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Reddy Pharma Iberia S.A. | Comercializada |
+| 84595 | BENDAMUSTINA BAXTER 2,5 MG/ML POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Baxter S.L. | Comercializada |
+| 81394 | BENDAMUSTINA KABI 2,5 MG/ML POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Comercializada |
+| 87928 | BENDAMUSTINA AUROVITAS 2.5 MG/ML POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Eugia Pharma (Malta) Limited | Comercializada |
+| 84770 | BENDAMUSTINA HIKMA 2,5 MG/ML POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Hikma Farmaceutica (Portugal) S.A. | Comercializada |
+| 79179 | BENDAMUSTINA ACCORD 2,5 MG/ML POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 72571 | LEVACT 2,5 mg/ml POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Pharmaand Gmbh | Comercializada |
+| 83205 | BENDAMUSTINA GLENMARK 2,5 MG/ML POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Glenmark Arzneimittel Gmbh | Comercializada |
+| 82784 | BENDAMUSTINA DR. REDDYS 45 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Reddy Pharma Iberia S.A. | Suspendida |
+
+Se muestran 10 de 14 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

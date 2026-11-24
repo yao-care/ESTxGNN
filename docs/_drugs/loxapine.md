@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 489
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Loxapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "atypical glycine encephalopathy"]
 description: "Loxapine: nueva indicación predicha, Retinal dystrophy with or without extraocular anomalies (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 1; autorizadas no comercializadas: 1)"
@@ -87,10 +87,16 @@ Se muestran 10 publicaciones representativas (de 20 disponibles). Todas son revi
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 113823002 | ADASUVE 9,1 mg polvo para inhalación (unidosis) | Polvo para inhalación (unidosis) | No disponible en los datos |
-| 113823004 | ADASUVE 9,1 mg polvo para inhalación (unidosis) | Polvo para inhalación (unidosis) | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 113823002 | ADASUVE 9,1 MG POLVO PARA INHALACION (UNIDOSIS) | POLVO PARA INHALACIÓN (UNIDOSIS) | Ferrer Internacional S.A. | Comercializada |
+| 113823004 | ADASUVE 9,1 MG POLVO PARA INHALACION (UNIDOSIS) | POLVO PARA INHALACIÓN (UNIDOSIS) | Ferrer Internacional S.A. | Autorizada, no comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones corresponden al titular Ferrer Internacional S.A. y están vigentes.
 

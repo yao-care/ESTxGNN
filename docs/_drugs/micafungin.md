@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 523
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "micafungin"
 predicted_indications: ["urinary tract infection (disease)"]
 description: "Micafungin: nueva indicación predicha, Infección del tracto urinario (urinary tract infection (disease)) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: al menos 20"
@@ -88,13 +88,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 86143 | Micafungina Sala 100 mg | Polvo para concentrado para solución para perfusión | Texto de indicación no disponible |
-| 85539 | Micafungina Diamed 100 mg | Polvo para concentrado para solución para perfusión | Texto de indicación no disponible |
-| 85334 | Micafungina Sandoz 50 mg | Polvo para solución para perfusión | Texto de indicación no disponible |
-| 08448001 | Mycamine 50 mg | Polvo para solución para perfusión | Texto de indicación no disponible |
-| 84703 | Micafungina Teva 100 mg | Polvo para solución para perfusión | Texto de indicación no disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 86143 | MICAFUNGINA SALA 100 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 86144 | MICAFUNGINA SALA 50 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 85701 | MICAFUNGINA HIKMA 100 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Hikma Farmaceutica (Portugal) S.A. | Comercializada |
+| 90128 | MICAFUNGINA MACLEODS 100 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Macleods Pharma Espana S.L.U. | Comercializada |
+| 85541 | MICAFUNGINA ACCORD 100 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 08448001 | MYCAMINE 50 mg POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Sandoz Pharmaceuticals D.D. | Comercializada |
+| 08448002 | MYCAMINE 100 mg POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Sandoz Pharmaceuticals D.D. | Comercializada |
+| 85540 | MICAFUNGINA ACCORD 50 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 85702 | MICAFUNGINA HIKMA 50 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Hikma Farmaceutica (Portugal) S.A. | Comercializada |
+| 84703 | MICAFUNGINA TEVA 100 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Teva B.V. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

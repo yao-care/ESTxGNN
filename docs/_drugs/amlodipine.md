@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Amlodipine"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amlodipine: nueva indicación predicha, infarto del tronco encefálico (brain stem infarction) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -74,13 +74,24 @@ Actualmente no hay literatura relacionada disponible.
 
 Los datos compilados registran 20 autorizaciones de amlodipino en monofármaco, de las cuales 11 están vigentes y 6 canceladas; el listado puede ser parcial. El fármaco se comercializa en España en forma de comprimidos.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 90902 | AMLODIPINO TEVA-RATIOPHARM 5 MG COMPRIMIDOS EFG | Comprimido | No registrada |
-| 84861 | AMLODIPINO BLUEPHARMA 5 MG COMPRIMIDOS EFG | Comprimido | No registrada |
-| 85522 | AMLODIPINO MABO 5 MG COMPRIMIDOS EFG | Comprimido | No registrada |
-| 59160 | NORVAS 10 mg COMPRIMIDOS | Comprimido | No registrada |
-| 72814 | AMLODIPINO COMBIX 10 mg COMPRIMIDOS EFG | Comprimido | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 90902 | AMLODIPINO TEVA-RATIOPHARM 5 MG COMPRIMIDOS EFG | COMPRIMIDO | Teva B.V. | Comercializada |
+| 85522 | AMLODIPINO MABO 5 MG COMPRIMIDOS EFG | COMPRIMIDO | Mabo Farma S.A. | Comercializada |
+| 59160 | NORVAS 10 mg COMPRIMIDOS | COMPRIMIDO | Viatris Healthcare Limited | Comercializada |
+| 72814 | AMLODIPINO COMBIX 10 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Combix S.L.U. | Comercializada |
+| 68425 | AMLODIPINO RATIOPHARM 5 mg COMPRIMIDOS EFG | COMPRIMIDO | Teva Pharma S.L.U. | Comercializada |
+| 85521 | AMLODIPINO MABO 10 MG COMPRIMIDOS EFG | COMPRIMIDO | Mabo Farma S.A. | Comercializada |
+| 75710 | AMLODIPINO TEVAGEN 10 mg COMPRIMIDOS EFG | COMPRIMIDO | Teva Pharma S.L.U. | Comercializada |
+| 69813 | AMLODIPINO ORTODROL 10 MG COMPRIMIDOS EFG | COMPRIMIDO | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 68760 | AMLODIPINO SANDOZ 5 MG COMPRIMIDOS EFG | COMPRIMIDO | Sandoz Farmaceutica S.A. | Comercializada |
+| 68426 | AMLODIPINO RATIOPHARM 10 mg COMPRIMIDOS EFG | COMPRIMIDO | Teva Pharma S.L.U. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

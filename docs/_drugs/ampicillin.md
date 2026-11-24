@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Ampicillin: nueva indicación predicha, laringitis (laryngitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 10 (comercializadas: 8; autorizadas no comercializadas: 2)"
 ---
 
@@ -84,13 +84,24 @@ Los estudios abordan sobre todo epiglotitis, abscesos y otras infecciones relaci
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 48325 | BRITAPEN 1 G POLVO PARA SOLUCIÓN PARA INYECCIÓN | Polvo para solución inyectable | No registrada en los datos locales |
-| 47729 | BRITAPEN 250 mg SUSPENSION | Suspensión oral | No registrada en los datos locales |
-| 41181 | BRITAPEN 500 MG POLVO PARA SOLUCIÓN PARA INYECCIÓN | Polvo para solución inyectable | No registrada en los datos locales |
-| 89095 | AMPICILINA TILLOMED 1 G POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN EFG | Polvo para solución inyectable y para perfusión | No registrada en los datos locales |
-| 44092 | BRITAPEN 500 mg CAPSULAS | Cápsula dura | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 48325 | BRITAPEN 1 G POLVO PARA SOLUCIÓN PARA INYECCIÓN | POLVO PARA SOLUCIÓN INYECTABLE | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 47729 | BRITAPEN 250 mg SUSPENSION | SUSPENSIÓN ORAL | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 41181 | BRITAPEN 500 MG POLVO PARA SOLUCIÓN PARA INYECCIÓN | POLVO PARA SOLUCIÓN INYECTABLE | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 44092 | BRITAPEN 500 mg CAPSULAS | CÁPSULA DURA | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 54341 | GOBEMICINA 1g INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 48101 | GOBEMICINA 250 mg INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 51887 | BRITAPEN 1g COMPRIMIDOS | COMPRIMIDO | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 48100 | GOBEMICINA 500 mg INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 89095 | AMPICILINA TILLOMED 1 G POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Laboratorios Tillomed Spain S.L.U | Autorizada, no comercializada |
+| 89096 | AMPICILINA TILLOMED 500 MG POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Laboratorios Tillomed Spain S.L.U | Autorizada, no comercializada |
+
+Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

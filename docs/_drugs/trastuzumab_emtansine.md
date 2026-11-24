@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 817
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Trastuzumab Emtansine: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -75,14 +75,20 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Trastuzum
 
 ## Información de Mercado en España
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 113885001IP1 | trastuzumab emtansina | POLVO PARA CONCENTRADO PARA SOLUCIÓN PAR | Vigente |
-| 113885002IP | trastuzumab emtansina | POLVO PARA CONCENTRADO PARA SOLUCIÓN PAR | Vigente |
-| 113885002 | trastuzumab emtansina | POLVO PARA CONCENTRADO PARA SOLUCIÓN PAR | Vigente |
-| 113885001IP | trastuzumab emtansina | POLVO PARA CONCENTRADO PARA SOLUCIÓN PAR | Vigente |
-| 113885001 | trastuzumab emtansina | POLVO PARA CONCENTRADO PARA SOLUCIÓN PAR | Vigente |
-| 113885002IP1 | trastuzumab emtansina | POLVO PARA CONCENTRADO PARA SOLUCIÓN PAR | Vigente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 113885001IP1 | KADCYLA 100 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Comercializada |
+| 113885002IP | KADCYLA 160 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Comercializada |
+| 113885002 | KADCYLA 160 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Comercializada |
+| 113885001IP | KADCYLA 100 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Comercializada |
+| 113885001 | KADCYLA 100 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Comercializada |
+| 113885002IP1 | KADCYLA 160 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Comercializada |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

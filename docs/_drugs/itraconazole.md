@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-13
+last_modified_at: 2026-11-24
 monitor_inn: "Itraconazole"
 predicted_indications: ["pneumocystosis"]
 description: "Itraconazole: nueva indicación predicha, Pneumocistosis (pneumocystosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 13 (comercializadas: 11)"
@@ -87,19 +87,30 @@ Se muestran las publicaciones más relevantes. Ninguna evalúa directamente itra
 
 Indicación aprobada: el texto de indicación no está disponible en los datos compilados para este rereporte.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 59343 | SPORANOX 100 mg CÁPSULAS (Janssen Cilag) | Cápsula dura | No disponible |
-| 71234 | ITRACONAZOL NORMON 100 mg CÁPSULAS DURAS EFG | Cápsula dura | No disponible |
-| 65762 | ITRACONAZOL ALTER 100 mg CÁPSULAS DURAS EFG | Cápsula dura | No disponible |
-| 78446 | ITRACONAZOL ALTAN 10 mg/ml concentrado y disolvente para solución para perfusión EFG | Concentrado para solución para perfusión | No disponible |
-| 59371 | CANADIOL 100 mg CÁPSULAS (Esteve) | Cápsula dura | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 71234 | ITRACONAZOL NORMON 100 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Normon S.A. | Comercializada |
+| 65762 | ITRACONAZOL ALTER 100 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Alter S.A. | Comercializada |
+| 78838 | ITRACONAZOL TECNIGEN 100 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Tecnimede España Industria Farmaceutica S.A. | Comercializada |
+| 59591 | HONGOSERIL 100 mg CAPSULAS | CÁPSULA DURA | Isdin S.A. | Comercializada |
+| 77459 | ITRAGERM 50 MG CAPSULAS DURAS | CÁPSULA DURA | Isdin S.A. | Comercializada |
+| 65775 | ITRACONAZOL SANDOZ 100 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Sandoz Farmaceutica S.A. | Comercializada |
+| 65765 | ITRACONAZOL VIATRIS 100 MG CAPSULAS EFG | CÁPSULA DURA | Viatris Pharmaceuticals S.L. | Comercializada |
+| 77398 | ITRACONAZOL STADA 100 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorio Stada S.L. | Comercializada |
+| 59343 | SPORANOX 100 mg CAPSULAS | CÁPSULA DURA | Janssen Cilag S.A. | Comercializada |
+| 65773 | ITRACONAZOL CINFA 100 mg CAPSULAS EFG | CÁPSULA DURA | Laboratorios Cinfa S.A. | Comercializada |
+
+Se muestran 10 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Existe una presentación intravenosa (perfusión), además de las cápsulas.
 
 <!-- review:begin es-lic-20261105-itraconazole-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "En total hay 13 autorizaciones vigentes (todas de medicamentos con un único principio activo); aquí se muestran 5. Existe una presentación intravenosa (perfusión), además de las cápsulas." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 13 autorizaciones (comercializadas: 12); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "En total hay 13 autorizaciones vigentes (todas de medicamentos con un único principio activo); aquí se muestran 5. Existe una presentación intravenosa (perfusión), además de las cápsulas." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-itraconazole-1 -->
 
@@ -135,7 +146,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "En total hay 13 autorizaciones vigentes (todas de medicamentos con un único principio activo); aquí se muestran 5" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "En total hay 13 autorizaciones vigentes (todas de medicamentos con un único principio activo); aquí se muestran 5" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

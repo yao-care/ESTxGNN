@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Adenosine"
 predicted_indications: ["obsolete bundle branch block"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Adenosine: nueva indicación predicha, Bloqueo de rama (obsolete bundle branch block) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 5)"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 La adenosina está comercializada en España, con 5 autorizaciones vigentes y 2 canceladas. A continuación se muestran las autorizaciones principales (productos de un solo principio activo):
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 36189 | Atepodin 100 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable |
-| 81545 | Adenosina Accord 6 mg/2 ml solución inyectable EFG | Solución inyectable |
-| 86371 | Adenosina Hikma 6 mg/2 ml solución inyectable EFG | Solución inyectable |
-| 81546 | Adenosina Accord 30 mg/10 ml solución para perfusión EFG | Solución para perfusión |
-| 61732 | Adenoscan 30 mg/10 ml solución para perfusión | Solución para perfusión |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 36189 | ATEPODIN 100 mg POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Medix S.A. | Comercializada |
+| 86371 | ADENOSINA HIKMA 6 MG/2ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Hikma Farmaceutica (Portugal) S.A. | Comercializada |
+| 61732 | ADENOSCAN 30 mg/10 ml SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | Sanofi Aventis S.A. | Comercializada |
+| 81604 | ADENOSINA KABI 3 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Fresenius Kabi España, S.A.U. | Comercializada |
+| 60375 | ADENOCOR 6 mg/2 ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Sanofi Aventis S.A. | Comercializada |
+
+Se muestran 5 de 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

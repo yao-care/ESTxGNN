@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 868
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ZOLPIDEM"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Zolpidem: nueva indicación predicha, Benign paroxysmal torticollis of infancy (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -93,13 +93,24 @@ El texto de indicación aprobada no está disponible en los datos compilados.
 
 <!-- review:end es-lic-20261105-zolpidem-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 58470 | STILNOX 10 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 59264 | DALPARAN 10 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 76724 | EDLUAR 5 mg comprimidos sublinguales | Comprimido sublingual |
-| 83190 | DAGAN 5 mg comprimidos bucodispersables EFG | Comprimido bucodispersable |
-| 64523 | ZOLPIDEM SANDOZ 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 64523 | ZOLPIDEM SANDOZ 10 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Comercializada |
+| 63794 | ZOLPIDEM STADA 10 mg COMPRIMIDOS RECUBIERTOS EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 83190 | DAGAN 5 MG COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Meiji Pharma Spain S.A. | Comercializada |
+| 65204 | ZOLPIDEM DESGEN 5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Generfarma S.L. | Comercializada |
+| 64811 | ZOLPIDEM VIATRIS 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO | Viatris Pharmaceuticals S.L. | Comercializada |
+| 83381 | ZOLPIDEM AUROVITAS 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 75798 | ZOLPIDEM TEVA-RATIOPHARM 10 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+| 58470 | STILNOX 10 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sanofi Aventis S.A. | Comercializada |
+| 59264 | DALPARAN 10 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sanofi Aventis S.A. | Comercializada |
+| 64551 | ZOLPIDEM NORMON 10 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

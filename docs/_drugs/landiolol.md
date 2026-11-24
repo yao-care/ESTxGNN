@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 449
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Landiolol: nueva indicación predicha, Discinesia lingual-facial-bucal (nivel de evidencia L5). Indicación original: No disponible en la autorización de AEMPS (el texto de indicación est…"
 monitor_inn: "LANDIOLOL"
 predicted_indications: ["lingual-facial-buccal dyskinesia", "chronic tic disorder", "psychogenic movement disorders", "benign shuddering attacks", "extrapyramidal and movement disease", "primary orthostatic tremor"]
@@ -72,9 +72,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 89271 | RAPIBLOC 300 MG POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Polvo para solución para perfusión | No especificada en los datos disponibles |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 89271 | RAPIBLOC 300 MG POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Orpha-Devel Handels Und Vertriebs Gmbh | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

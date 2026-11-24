@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 785
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tetracaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome"]
 description: "Tetracaine: nueva indicación predicha, Acrodermatitis crónica atrófica (acrodermatitis chronica atrophicans) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 2)"
@@ -71,11 +71,17 @@ Actualmente no hay literatura relacionada disponible para acrodermatitis crónic
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 80830 | Tetracaína Lainco 7,5 mg/g gel | Gel | No disponible |
-| 15371 | Anestesia Tópica B. Braun 10 mg/ml solución | Solución cutánea | No disponible |
-| 14534 | Lubristesic 7,5 mg/g pomada | Pomada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 80830 | TETRACAINA LAINCO 7,5 MG/G GEL | GEL | Lainco S.A. | Comercializada |
+| 14534 | LUBRISTESIC 7,5 mg/g POMADA | POMADA | Galenicum Derma S.L.U. | Comercializada |
+| 15371 | ANESTESIA TOPICA B. BRAUN 10 mg/ml SOLUCION | SOLUCIÓN CUTÁNEA | B Braun Medical S.A. | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

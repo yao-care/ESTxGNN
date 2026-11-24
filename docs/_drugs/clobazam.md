@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 191
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CLOBAZAM"
 predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "atypical childhood epilepsy with centrotemporal spikes", "photosensitive occipital lobe epilepsy", "cryptogenic late-onset epileptic spasms", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
 description: "Clobazam: nueva indicación predicha, Febrile infection-related epilepsy syndrome (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 4 (comercializadas: 4)"
@@ -75,12 +75,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 54862 | NOIAFREN 10 mg COMPRIMIDOS | Comprimido | No disponible |
-| 56993 | NOIAFREN 20 mg COMPRIMIDOS | Comprimido | No disponible |
-| 81523 | SILOCALM 2 MG/ML SUSPENSIÓN ORAL | Suspensión oral | No disponible |
-| 81524 | SILOCALM 1 MG/ML SUSPENSIÓN ORAL | Suspensión oral | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 54862 | NOIAFREN 10 mg COMPRIMIDOS | COMPRIMIDO | Atnahs Pharma Netherlands Bv. | Comercializada |
+| 81523 | SILOCALM 2 MG/ML SUSPENSION ORAL | SUSPENSIÓN ORAL | Ethypharm | Comercializada |
+| 81524 | SILOCALM 1 MG/ML SUSPENSION ORAL | SUSPENSIÓN ORAL | Ethypharm | Comercializada |
+| 56993 | NOIAFREN 20 mg COMPRIMIDOS | COMPRIMIDO | Atnahs Pharma Netherlands Bv. | Comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

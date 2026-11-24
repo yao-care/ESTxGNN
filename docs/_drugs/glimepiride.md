@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 379
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Glimepiride"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Glimepiride: nueva indicación predicha, Síndrome de la extremidad rígida focal (focal stiff limb syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -82,13 +82,24 @@ El texto de la indicación aprobada no figura en los datos compilados.
 
 <!-- review:end es-lic-20261105-glimepiride-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61406 | AMARYL 2 mg comprimidos (Sanofi Aventis) | Comprimido | No disponible |
-| 61409 | AMARYL 4 mg comprimidos (Sanofi Aventis) | Comprimido | No disponible |
-| 62807 | RONAME 4 mg comprimidos (Lacer) | Comprimido | No disponible |
-| 62808 | RONAME 2 mg comprimidos (Lacer) | Comprimido | No disponible |
-| 67533 | Glimepirida Normon 2 mg comprimidos EFG | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 67533 | GLIMEPIRIDA NORMON 2 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 67669 | GLIMEPIRIDA KERN PHARMA 2 mg COMPRIMIDOS EFG | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
+| 67670 | GLIMEPIRIDA KERN PHARMA 4 mg COMPRIMIDOS EFG | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
+| 67478 | GLIMEPIRIDA VIATRIS 4 MG COMPRIMIDOS EFG | COMPRIMIDO | Viatris Limited | Comercializada |
+| 67511 | GLIMEPIRIDA CINFA 4 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 62808 | RONAME 2 mg COMPRIMIDOS | COMPRIMIDO | Lacer S.A. | Comercializada |
+| 67058 | GLIMEPIRIDA SANDOZ 4 mg COMPRIMIDOS EFG | COMPRIMIDO | Sandoz Farmaceutica S.A. | Comercializada |
+| 62807 | RONAME 4 mg COMPRIMIDOS | COMPRIMIDO | Lacer S.A. | Comercializada |
+| 67244 | GLIMEPIRIDA ALTER 4 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Alter S.A. | Comercializada |
+| 67242 | GLIMEPIRIDA ALTER 2 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Alter S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Folic Acid: nueva indicación predicha, Enfermedad metabólica de la biotina (nivel de evidencia L5). Indicación original: Deficiencia de vitaminas / anemia por deficiencia de ácido fólico (se…"
 monitor_inn: "Folic acid"
 predicted_indications: ["biotin metabolic disease"]
@@ -72,7 +72,7 @@ Las publicaciones disponibles son principalmente revisiones generales sobre vita
 
 <!-- review:begin es-lic-20261105-folic_acid-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Existen 7 autorizaciones vigentes en total (todas de monofármaco); aquí se muestran las 5 principales." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 autorizaciones (comercializadas: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Existen 7 autorizaciones vigentes en total (todas de monofármaco); aquí se muestran las 5 principales." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-folic_acid-1 -->
 
@@ -91,13 +91,21 @@ Las publicaciones disponibles son principalmente revisiones generales sobre vita
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 64808 | ZOLICO 400 MICROGRAMOS COMPRIMIDOS | Comprimido | No disponible |
-| 86528 | ACIDO FOLICO ARISTO 5 MG COMPRIMIDOS | Comprimido | No disponible |
-| 68965 | BIALFOLI 5 mg COMPRIMIDOS | Comprimido | No disponible |
-| 11265 | ACFOL 5 mg COMPRIMIDOS | Comprimido | No disponible |
-| 52788 | ACIDO FÓLICO ASPOL 10MG CÁPSULAS DURAS | Cápsula dura | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 64808 | ZOLICO 400 MICROGRAMOS COMPRIMIDOS | COMPRIMIDO | Versalya Pharma S.L. | Comercializada |
+| 86528 | ACIDO FOLICO ARISTO 5 MG COMPRIMIDOS | COMPRIMIDO | Aristo Pharma Gmbh | Comercializada |
+| 11265 | ACFOL 5 mg COMPRIMIDOS | COMPRIMIDO | Italfarmaco S.A. | Comercializada |
+| 52788 | ACIDO FÓLICO ASPOL 10MG CÁPSULAS DURAS | CÁPSULA DURA | Interpharma S.A. | Comercializada |
+| 84087 | ACIDO FOLICO QUALIGEN 5 MG COMPRIMIDOS | COMPRIMIDO | Neuraxpharm Spain S.L. | Comercializada |
+| 68965 | BIALFOLI 5 mg COMPRIMIDOS | COMPRIMIDO | Laboratorios Bial S.A. | Suspendida |
+| 86401 | ACIDO FOLICO LORIEN 5 MG COMPRIMIDOS | COMPRIMIDO | Laboratorios Lorien S.L. | Revocada |
+
+Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -131,7 +139,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Existen 7 autorizaciones vigentes en total (todas de monofármaco); aquí se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Existen 7 autorizaciones vigentes en total (todas de monofármaco); aquí se muestran las 5 principales" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Quiofic (folic acid) prescribing information, Solubiomix, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b868b314-591d-458b-be82-2bcd0b73cce1) |
 
 <!-- review:end log -->

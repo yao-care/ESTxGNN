@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 617
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pegvaliase: nueva indicación predicha, Retinopatía diabética (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "pegvaliase"
 predicted_indications: ["diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic cataract"]
@@ -43,7 +43,7 @@ El modelo TxGNN predice que podría ser efectivo para **retinopatía diabética*
 
 <!-- review:begin es-lic-20261105-pegvaliase-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Pegvaliasa es una enzima fenilalanina amoníaco liasa pegilada que degrada la fenilalanina y está comercializada en España con el nombre PALYNZIQ. Los datos compilados para este informe no incluyen el texto de la indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 autorizaciones (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Pegvaliasa es una enzima fenilalanina amoníaco liasa pegilada que degrada la fenilalanina y está comercializada en España con el nombre PALYNZIQ. Los datos compilados para este informe no incluyen el texto de la indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-pegvaliase-1 -->
 
@@ -94,11 +94,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1191362004 | PALYNZIQ 20 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No especificada en los datos disponibles |
-| 1191362002 | PALYNZIQ 10 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No especificada en los datos disponibles |
-| 1191362001 | PALYNZIQ 2,5 mg solución inyectable en jeringa precargada | Solución inyectable | No especificada en los datos disponibles |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1191362004 | PALYNZIQ 20 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Biomarin International Limited | Autorizada, no comercializada |
+| 1191362002 | PALYNZIQ 10 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Biomarin International Limited | Autorizada, no comercializada |
+| 1191362001 | PALYNZIQ 2,5 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Biomarin International Limited | Autorizada, no comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Titular de las tres autorizaciones: Biomarin International Limited (todas vigentes, de tipo monofármaco).
 
@@ -138,7 +144,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "y está comercializada en España con el nombre PALYNZIQ" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "y está comercializada en España con el nombre PALYNZIQ" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Palynziq (pegvaliase-pqpz) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dba844a-db02-44f8-8593-ce497ed9406c) |
 
 <!-- review:end log -->

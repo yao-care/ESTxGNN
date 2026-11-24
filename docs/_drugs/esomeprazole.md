@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 308
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Esomeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Esomeprazole: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -88,13 +88,19 @@ Se muestran las 5 principales:
 
 <!-- review:end es-lic-20261105-esomeprazole-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 63437 | Nexium Mups 40 mg comprimidos gastrorresistentes | Comprimido gastrorresistente |
-| 66038 | Nexium 40 mg polvo para solución inyectable y para perfusión | Polvo para solución inyectable y para perfusión |
-| 69980 | Nexium 10 mg granulado gastrorresistente para suspensión oral, sobre | Granulado para suspensión oral |
-| 63940 | Axiago 20 mg comprimidos gastrorresistentes | Comprimido gastrorresistente |
-| 72702 | Esomeprazol Teva 40 mg cápsulas duras gastrorresistentes EFG | Cápsula dura gastrorresistente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 72702 | ESOMEPRAZOL TEVA 40 mg CAPSULAS DURAS GASTRORRESISTENTES EFG | CÁPSULA DURA GASTRORRESISTENTE | Teva Pharma S.L.U. | Comercializada |
+| 66038 | NEXIUM 40 mg POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Grünenthal Pharma S.A. | Comercializada |
+| 63940 | AXIAGO 20 mg COMPRIMIDOS GASTRORRESISTENTES | COMPRIMIDO GASTRORRESISTENTE | Grünenthal Pharma S.A. | Comercializada |
+| 81799 | ESOMEPRAZOL MABO 20 MG CAPSULAS DURAS GASTRORRESISTENTES EFG | CÁPSULA DURA GASTRORRESISTENTE | Mabo Farma S.A. | Comercializada |
+| 63437 | NEXIUM MUPS 40 mg COMPRIMIDOS GASTRORRESISTENTES | COMPRIMIDO GASTRORRESISTENTE | Grünenthal Pharma S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

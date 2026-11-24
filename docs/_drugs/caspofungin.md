@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "caspofungin"
 predicted_indications: ["gastrin secretion abnormality"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Caspofungin: nueva indicación predicha, Anomalía de la secreción de gastrina (gastrin secretion abnormality) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -74,13 +74,24 @@ Actualmente no hay literatura relacionada disponible.
 
 El fármaco figura como comercializado en España, con autorizaciones válidas de medicamentos de un solo principio activo. La lista puede ser parcial. Principales autorizaciones registradas:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 85533 | Caspofungina Stadafarma 70 mg | Polvo para concentrado para solución para perfusión |
-| 89229 | Caspofungina Tillomed 50 mg | Polvo para concentrado para solución para perfusión |
-| 83627 | Fornega 50 mg | Polvo para concentrado para solución para perfusión |
-| 01196001 | Cancidas 50 mg | Polvo para concentrado para solución para perfusión |
-| 82746 | Caspofungina Altan 50 mg | Polvo para concentrado para solución para perfusión |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 85533 | CASPOFUNGINA STADAFARMA 70 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Laboratorio Stada S.L. | Comercializada |
+| 01196001 | CANCIDAS 50 mg POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Merck Sharp & Dohme B.V. | Comercializada |
+| 81762 | CASPOFUNGINA HIKMA 50 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Hikma Farmaceutica (Portugal) S.A. | Comercializada |
+| 84502 | CASPOFUNGINA NORMON 50 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Laboratorios Normon S.A. | Comercializada |
+| 82789 | CASPOFUNGINA SUN 50 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+| 82150 | CASPOFUNGINA LORIEN 70 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Laboratorios Lorien S.L. | Comercializada |
+| 89229 | CASPOFUNGINA TILLOMED 50 MG POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Laboratorios Tillomed Spain S.L. | Autorizada, no comercializada |
+| 89230 | CASPOFUNGINA TILLOMED 70 MG POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Laboratorios Tillomed Spain S.L. | Autorizada, no comercializada |
+| 90072 | CASPOFUNGINA DEMO 50 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Demo S.A. Pharmaceutical Industry | Autorizada, no comercializada |
+| 90071 | CASPOFUNGINA DEMO 70 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Demo S.A. Pharmaceutical Industry | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

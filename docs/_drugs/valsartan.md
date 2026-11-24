@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 838
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "valsartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -75,13 +75,24 @@ Esta publicación trata de otro fármaco, por lo que no aporta evidencia directa
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 72942 | Valsartan Sandoz 160 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
-| 70360 | Valsartan Normon 80 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
-| 72385 | Diovan 3 mg/ml solución oral | Solución oral | No disponible en los datos |
-| 66910 | Diovan Cardio 40 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-| 77990 | Presar 320 mg comprimidos bucodispersables EFG | Comprimido bucodispersable | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 72942 | VALSARTAN SANDOZ 160 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Comercializada |
+| 70360 | VALSARTAN NORMON 80 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 75016 | VALSARTAN CARDIO VIATRIS 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Limited | Comercializada |
+| 73290 | VALSARTAN CINFA 320 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+| 77990 | PRESAR 320 MG COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Meiji Pharma Spain S.A. | Comercializada |
+| 64494 | VALS 160 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Esteve Pharmaceuticals S.A. | Comercializada |
+| 70318 | VALSARTAN PENSA 80 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Towa Pharmaceutical S.A. | Comercializada |
+| 75019 | VALSARTAN VIATRIS 320 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Limited | Comercializada |
+| 72385 | DIOVAN 3mg/ml SOLUCION ORAL | SOLUCIÓN ORAL | Novartis Farmaceutica S.A. | Comercializada |
+| 72201 | VALSARTÁN KRKA 40 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Krka D.D. Novo Mesto | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

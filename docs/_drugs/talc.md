@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 761
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Talc: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (la autorización no incluye tex…"
 monitor_inn: "talc"
 predicted_indications: ["thrombotic disease", "exostosis", "rheumatoid arthritis", "bronchitis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "vein disease", "fibromyalgia", "myositis fibrosa"]
@@ -97,9 +97,16 @@ Todas las publicaciones son de tipo revisión, reporte de caso o serie de casos;
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 48911 | ICTIOMEN POLVO | Polvo cutáneo | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 32958 | AMNIOLINA POMADA | POMADA | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 48911 | ICTIOMEN POLVO | POLVO CUTÁNEO | Casen Recordati S.L. | Revocada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Titular: Casen Recordati S.L. (autorización vigente, monofármaco).
 

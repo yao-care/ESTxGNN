@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 865
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Zidovudine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Zidovudine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos …"
@@ -95,11 +95,17 @@ Se listan las 10 publicaciones más relevantes de las 20 disponibles. No hay ECA
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 57486 | RETROVIR 250 mg CÁPSULAS DURAS | Cápsula dura | No especificada en los datos compilados |
-| 69184 | ZIDOVUDINA ALTAN 2 mg/ml SOLUCIÓN PARA PERFUSIÓN | Solución para perfusión | No especificada en los datos compilados |
-| 64213 | ZIDOVUDINA ACCORD 50 mg/5 ml SOLUCIÓN ORAL EFG | Solución oral | No especificada en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 57486 | RETROVIR 250 mg CAPSULAS DURAS | CÁPSULA DURA | Laboratorios Viiv Healthcare S.L. | Comercializada |
+| 69184 | ZIDOVUDINA ALTAN 2 MG/ML SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | Altan Pharmaceuticals Sa | Comercializada |
+| 64213 | ZIDOVUDINA ACCORD 50 mg/5 ml SOLUCION ORAL EFG | SOLUCIÓN ORAL | Accord Healthcare S.L.U. | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

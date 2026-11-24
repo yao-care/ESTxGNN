@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 704
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RISANKIZUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
 description: "Risankizumab: nueva indicación predicha, Dermatitis (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 6 (comercializadas: 5; autorizadas no comercializadas: 1)"
@@ -96,13 +96,20 @@ Queda un posible nicho en fenotipos de solapamiento psoriasis/eccema, donde hay 
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1191361005 | SKYRIZI 360 MG solución inyectable en cartucho | Solución inyectable en cartucho | No disponible en los datos |
-| 1191361001 | SKYRIZI 75 MG solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible en los datos |
-| 1191361004 | SKYRIZI 600 MG concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos |
-| 1191361002 | SKYRIZI 150 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos |
-| 1191361007 | SKYRIZI 180 MG solución inyectable en cartucho | Solución inyectable en cartucho | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1191361005 | SKYRIZI 360 MG SOLUCION INYECTABLE EN CARTUCHO | SOLUCIÓN INYECTABLE EN CARTUCHO | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 1191361004 | SKYRIZI 600 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 1191361002 | SKYRIZI 150 mg SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 1191361007 | SKYRIZI 180 MG SOLUCION INYECTABLE EN CARTUCHO | SOLUCIÓN INYECTABLE EN CARTUCHO | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 1191361003 | SKYRIZI 150 mg SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 1191361001 | SKYRIZI 75 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Abbvie Deutschland Gmbh & Co. Kg | Autorizada, no comercializada |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

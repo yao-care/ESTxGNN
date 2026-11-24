@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 197
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
 description: "Clomipramine: nueva indicación predicha, Trastorno de ansiedad (anxiety disorder) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 4 (comercializadas: 4)"
@@ -94,12 +94,18 @@ Ninguno de estos ensayos evalúa directamente clomipramina en trastornos de ansi
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 57568 | ANAFRANIL 75 MG COMPRIMIDOS DE LIBERACIÓN PROLONGADA | Comprimido de liberación prolongada | No disponible |
-| 49656 | ANAFRANIL 10 MG COMPRIMIDOS RECUBIERTOS | Comprimido recubierto | No disponible |
-| 44656 | ANAFRANIL 25 MG COMPRIMIDOS RECUBIERTOS | Comprimido recubierto | No disponible |
-| 44657 | ANAFRANIL 25 MG SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Solución inyectable y para perfusión | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 57568 | ANAFRANIL 75 MG COMPRIMIDOS DE LIBERACIÓN PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Alfasigma S.P.A. | Comercializada |
+| 49656 | ANAFRANIL 10 MG COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Alfasigma S.P.A. | Comercializada |
+| 44656 | ANAFRANIL 25 MG COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Alfasigma S.P.A. | Comercializada |
+| 44657 | ANAFRANIL 25 MG SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | SOLUCION INYECTABLE Y PARA PERFUSION | Alfasigma S.P.A. | Comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Todas las autorizaciones son de medicamentos de un solo principio activo, vigentes, y titularidad de Alfasigma S.P.A.
 

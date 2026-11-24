@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 667
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Progesterone"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Progesterone: nueva indicación predicha, Enfermedad fibroquística de la mama (breast fibrocystic disease) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 20 (comercializadas: 15; autorizadas no comercializadas: 4)"
@@ -83,13 +83,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 60879 | PROGEFFIK 100 mg cápsulas blandas | Cápsula blanda | No disponible |
-| 89065 | PROLUTEX 25 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible |
-| 78108 | PROLUTEX 25 mg solución inyectable | Solución inyectable | No disponible |
-| 88298 | UTROGESTAN 200 mg cápsulas vaginales blandas | Cápsula vaginal blanda | No disponible |
-| 55868 | DARSTIN 10 mg/g gel | Gel | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 60879 | PROGEFFIK 100 mg CAPSULAS BLANDAS | CÁPSULA BLANDA | Laboratorios Effik S.A. | Comercializada |
+| 89065 | PROLUTEX 25 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Ibsa Farmaceutici Italia S.R.L. | Comercializada |
+| 78108 | PROLUTEX 25 MG SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Ibsa Farmaceutici Italia S.R.L. | Comercializada |
+| 5352265IP2 | PROGEFFIK 200 mg CÁPSULAS BLANDAS | CÁPSULA BLANDA | Laboratorios Effik Sociedade Unipessoal Lda. | Comercializada |
+| 5352265IP | PROGEFFIK 200 MG CAPSULAS BLANDAS | CÁPSULA BLANDA | Laboratorios Effik Sociedade Unipessoal Lda. | Comercializada |
+| 88298 | UTROGESTAN 200 MG CAPSULAS VAGINALES BLANDAS | CÁPSULA VAGINAL BLANDA | Besins Healthcare Ireland Limited | Comercializada |
+| 55868 | DARSTIN 10 mg/g GEL | GEL | Seid S.A. | Comercializada |
+| 89979 | UTROGESTAN 400 MG CAPSULAS VAGINALES BLANDAS | CÁPSULA VAGINAL BLANDA | Besins Healthcare Ireland Limited | Comercializada |
+| 5352265IP1 | PROGEFFIK 200 MG CAPSULAS BLANDAS | CÁPSULA BLANDA | Laboratorios Effik Sociedade Unipessoal Lda. | Comercializada |
+| 88928 | UTROGESTAN 300 MG CAPSULAS VAGINALES BLANDAS | CÁPSULA VAGINAL BLANDA | Besins Healthcare Ireland Limited | Comercializada |
+
+Se muestran 10 de 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

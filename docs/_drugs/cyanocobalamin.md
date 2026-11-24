@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 209
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Cyanocobalamin"
 predicted_indications: ["biotin metabolic disease"]
 description: "Cyanocobalamin: nueva indicación predicha, Enfermedad metabólica de la biotina (biotin metabolic disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 4; autorizadas no comercializadas: 1)"
@@ -73,19 +73,26 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 85938 | Vitamina B12 Farmasierra 1000 microgramos cápsulas duras | Cápsula dura | No disponible |
-| 48877 | Optovite B12 1.000 microgramos solución inyectable | Solución inyectable | No disponible |
-| 90044 | Becaren 1.000 microgramos comprimidos | Comprimido | No disponible |
-| 52435 | Cromatonbic B12 1000 inyectable | Solución inyectable | No disponible |
-| 50758 | Isopto B12 0,5 mg/ml colirio en solución | Colirio en solución | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 85938 | VITAMINA B12 FARMASIERRA 1000 MICROGRAMOS CAPSULAS DURAS | CÁPSULA DURA | Farmasierra Laboratorios S.L. | Comercializada |
+| 48877 | OPTOVITE B12 1.000 MICROGRAMOS SOLUCIÓN INYECTABLE | SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 90044 | BECAREN 1.000 MICROGRAMOS COMPRIMIDOS | COMPRIMIDO | Italfarmaco S.A. | Comercializada |
+| 50758 | ISOPTO B12 0,5 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Reva Health Europe S.L. | Comercializada |
+| 90484 | VITAMINA B12 ANKERMANN 1.000 MICROGRAMOS COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Aaa-Pharma Gmbh | Autorizada, no comercializada |
+| 52435 | CROMATONBIC B12 1000 INYECTABLE | SOLUCIÓN INYECTABLE | Laboratorios Menarini S.A. | Revocada |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 La sexta es Vitamina B12 Ankermann 1.000 microgramos comprimidos recubiertos (nº 90484).
 
 <!-- review:begin es-lic-20261105-cyanocobalamin-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 6 autorizaciones vigentes (todas de principio activo único). La sexta es Vitamina B12 Ankermann 1.000 microgramos comprimidos recubiertos (nº 90484)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 6 autorizaciones vigentes (todas de principio activo único). La sexta es Vitamina B12 Ankermann 1.000 microgramos comprimidos recubiertos (nº 90484)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-cyanocobalamin-1 -->
 
@@ -116,7 +123,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 6 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 6 autorizaciones vigentes (todas de principio activo único)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: cyanocobalamin prescribing information, SOLA Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e559c6c8-2973-77fb-e053-2995a90af43d) |
 
 <!-- review:end log -->

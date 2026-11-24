@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 299
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Eptifibatide"
 predicted_indications: ["rheumatoid arthritis", "sickle cell-hemoglobin d disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "hemoglobinopathy", "female breast carcinoma", "beta-thalassemia with other manifestations", "partial deletion of the short arm of chromosome 16"]
 description: "Eptifibatide: nueva indicación predicha, Artritis reumatoide (rheumatoid arthritis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 0; autorizadas no comercializadas: 2)"
@@ -72,18 +72,24 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1151065001 | Eptifibatida Accord 0,75 mg/ml solución para perfusión EFG | Solución para perfusión | No especificada en los datos compilados |
-| 99109002 | Integrilin 2 mg/ml, solución inyectable | Solución inyectable | No especificada en los datos compilados |
-| 1151065002 | Eptifibatida Accord 2 mg/ml solución inyectable EFG | Solución inyectable | No especificada en los datos compilados |
-| 99109001 | Integrilin 0,75 mg/ml, solución para perfusión | Solución para perfusión | No especificada en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1151065001 | EPTIFIBATIDA ACCORD 0,75 MG/ML SOLUCION PARA PERFUSION EFG | SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Autorizada, no comercializada |
+| 1151065002 | EPTIFIBATIDA ACCORD 2 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Accord Healthcare S.L.U. | Autorizada, no comercializada |
+| 99109002 | INTEGRILIN 2 mg/ml, SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Glaxosmithkline (Ireland) Limited | Revocada |
+| 99109001 | INTEGRILIN 0,75 mg/ml, SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | Glaxosmithkline (Ireland) Limited | Revocada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Los titulares son Accord Healthcare S.L.U. y Glaxosmithkline (Ireland) Limited.
 
 <!-- review:begin es-lic-20261105-eptifibatide-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Las cuatro autorizaciones son de monofármaco y están vigentes. Los titulares son Accord Healthcare S.L.U. y Glaxosmithkline (Ireland) Limited." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 autorizaciones (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Las cuatro autorizaciones son de monofármaco y están vigentes. Los titulares son Accord Healthcare S.L.U. y Glaxosmithkline (Ireland) Limited." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-eptifibatide-1 -->
 
@@ -117,7 +123,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Las cuatro autorizaciones son de monofármaco y están vigentes" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Las cuatro autorizaciones son de monofármaco y están vigentes" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

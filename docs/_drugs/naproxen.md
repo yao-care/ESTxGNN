@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 552
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Naproxen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Naproxen: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 5; autorizadas no comercializadas: 1)"
@@ -72,19 +72,28 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 68435 | Naproxeno Normon 500 mg comprimidos EFG | Comprimido | No disponible |
-| 85570 | Naproxeno Aurovitas 500 mg comprimidos EFG | Comprimido | No disponible |
-| 80806 | Naproxeno Aurobindo 500 mg comprimidos EFG | Comprimido | No disponible |
-| 77727 | Lidet 500 mg comprimidos gastrorresistentes EFG | Comprimido gastrorresistente | No disponible |
-| 56267 | Naprosyn 500 mg comprimidos | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 68435 | NAPROXENO NORMON 500 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 85570 | NAPROXENO AUROVITAS 500 MG COMPRIMIDOS EFG | COMPRIMIDO | Aurovitas Spain, S.A.U. | Comercializada |
+| 56267 | NAPROSYN 500 mg COMPRIMIDOS | COMPRIMIDO | Atnahs Pharma Netherlands Bv. | Comercializada |
+| 54246 | LUNDIRAN 250 mg Cápsulas duras | CÁPSULA DURA | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 61370 | NAPROXENO TEVA-RATIOPHARM 500 mg COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+| 86455 | NAPROXENO INFECTOPHARM 50 MG/ML SUSPENSION ORAL | SUSPENSIÓN ORAL | Infectopharm Arzneimittel Und Consilium Gmbh | Autorizada, no comercializada |
+| 77727 | LIDET 500 MG COMPRIMIDOS GASTRORRESISTENTES EFG | COMPRIMIDO GASTRORRESISTENTE | Aristo Pharma Iberia S.L. | Suspendida |
+| 80806 | NAPROXENO AUROBINDO 500 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Aurobindo S.L.U. | Revocada |
+
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las otras tres corresponden a Lundiran 250 mg cápsulas duras, Naproxeno Teva-Ratiopharm 500 mg comprimidos recubiertos con película y Naproxeno Infectopharm 50 mg/ml suspensión oral.
 
 <!-- review:begin es-lic-20261105-naproxen-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco). Las otras tres corresponden a Lundiran 250 mg cápsulas duras, Naproxeno Teva-Ratiopharm 500 mg comprimidos recubiertos con película y Naproxeno Infectopharm 50 mg/ml suspensión oral." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 autorizaciones (comercializadas: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco). Las otras tres corresponden a Lundiran 250 mg cápsulas duras, Naproxeno Teva-Ratiopharm 500 mg comprimidos recubiertos con película y Naproxeno Infectopharm 50 mg/ml suspensión oral." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-naproxen-1 -->
 
@@ -117,7 +126,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Naprelan (naproxen sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b8a51c9a-488e-4377-a041-436f6a2f8893) |
 
 <!-- review:end log -->

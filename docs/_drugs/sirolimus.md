@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 740
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 4; autorizadas no comercializadas: 1)"
@@ -81,13 +81,19 @@ Ninguna de estas publicaciones evalúa directamente sirolimus en liposarcoma.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 01171010 | RAPAMUNE 2 mg comprimidos recubiertos | Comprimido recubierto | No disponible |
-| 01171008 | RAPAMUNE 1 mg comprimidos recubiertos | Comprimido recubierto | No disponible |
-| 01171009 | RAPAMUNE 2 mg comprimidos recubiertos | Comprimido recubierto | No disponible |
-| 01171013 | RAPAMUNE 0,5 mg comprimidos recubiertos | Comprimido recubierto | No disponible |
-| 01171001 | RAPAMUNE 1 mg/ml solución oral | Solución oral | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 01171008 | RAPAMUNE 1 mg COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Pfizer Europe Ma Eeig | Comercializada |
+| 01171009 | RAPAMUNE 2 mg COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Pfizer Europe Ma Eeig | Comercializada |
+| 01171013 | RAPAMUNE 0,5 mg COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Pfizer Europe Ma Eeig | Comercializada |
+| 01171001 | RAPAMUNE 1 mg/ml SOLUCION ORAL | SOLUCIÓN ORAL | Pfizer Europe Ma Eeig | Comercializada |
+| 01171010 | RAPAMUNE 2 mg COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Pfizer Europe Ma Eeig | Autorizada, no comercializada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

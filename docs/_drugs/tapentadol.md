@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 764
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tapentadol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "TAPENTADOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -94,13 +94,24 @@ El texto de la indicación aprobada no figura en los datos compilados.
 
 <!-- review:end es-lic-20261105-tapentadol-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 73613 | Yantil 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 73243 | Palexia Retard 50 mg | Comprimido de liberación prolongada | No disponible |
-| 73630 | Yantil Retard 250 mg | Comprimido de liberación prolongada | No disponible |
-| 76794 | Yantil 4 mg/ml solución oral | Solución oral | No disponible |
-| 88378 | Tapentadol Teva 100 mg EFG | Comprimido de liberación prolongada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 73613 | YANTIL 100 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Grünenthal Pharma S.A. | Comercializada |
+| 88378 | TAPENTADOL TEVA 100 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Teva Pharma S.L.U. | Comercializada |
+| 88377 | TAPENTADOL TEVA 50 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Teva Pharma S.L.U. | Comercializada |
+| 88288 | TAPENTADOL RETARD STADA 100 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Laboratorio Stada S.L. | Comercializada |
+| 73243 | PALEXIA RETARD 50 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Grünenthal Pharma S.A. | Comercializada |
+| 88333 | PALGESIC RETARD 25 MG COMPRIMIDOS DE LIBERACIÓN PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Kern Pharma S.L. | Comercializada |
+| 86286 | TAPENTADOL KRKA 150 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Krka D.D. Novo Mesto | Comercializada |
+| 88311 | TAPENTADOL RETARD SANDOZ 150 MG COMPRIMIDOS DE LIBERACIÓN PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Sandoz Farmaceutica S.A. | Comercializada |
+| 76794 | YANTIL 4 MG/ML SOLUCION ORAL | SOLUCIÓN ORAL | Grünenthal Pharma S.A. | Comercializada |
+| 88309 | TAPENTADOL RETARD SANDOZ 50 MG COMPRIMIDOS DE LIBERACIÓN PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Sandoz Farmaceutica S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

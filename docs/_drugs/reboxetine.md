@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 687
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Reboxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "Keppen-Lubinsky syndrome", "ligneous conjunctivitis"]
 description: "Reboxetine: nueva indicación predicha, Benign paroxysmal torticollis of infancy (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -89,10 +89,16 @@ Actualmente no hay ensayos clinicos relacionados registrados.
 
 ## Informacion de Mercado en Espana
 
-| Numero de Autorizacion | Nombre del Producto | Forma Farmaceutica | Indicacion Aprobada |
-|---------|------|------|-----------|
-| 63157 | IRENOR 4 mg COMPRIMIDOS | Comprimido | No disponible |
-| 61969 | NOREBOX 4 mg COMPRIMIDOS | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 63157 | IRENOR 4 mg COMPRIMIDOS | COMPRIMIDO | Pfizer S.L. | Comercializada |
+| 61969 | NOREBOX 4 mg COMPRIMIDOS | COMPRIMIDO | Pfizer S.L. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones son de Pfizer S.L., monofarmaco y vigentes.
 

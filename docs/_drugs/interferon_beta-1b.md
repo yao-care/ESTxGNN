@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 424
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Interferon Beta-1B: nueva indicación predicha, Leucemia de células pilosas (nivel de evidencia L5). Indicación original: Esclerosis múltiple remitente-recurrente"
 monitor_inn: "INTERFERON BETA-1B"
 predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
@@ -81,19 +81,25 @@ Actualmente no hay literatura relacionada disponible para leucemia de células p
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 95003005 | Betaferon 250 microgramos/ml | Polvo y disolvente para solución inyectable | No especificada en los datos compilados |
-| 95003008 | Betaferon 250 microgramos/ml | Polvo y disolvente para solución inyectable | No especificada en los datos compilados |
-| 108454008 | Extavia 250 microgramos/ml | Polvo y solución para solución inyectable | No especificada en los datos compilados |
-| 95003005IP1 | Betaferon 250 microgramos/ml | Polvo y disolvente para solución inyectable | No especificada en los datos compilados |
-| 95003003 | Betaferon 250 microgramos/ml | Polvo y disolvente para solución inyectable | No especificada en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 95003005 | BETAFERON 250 microgramos/ml, POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Bayer Ag | Comercializada |
+| 95003005IP1 | BETAFERON 250 MICROGRAMOS/ML POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Bayer Ag | Comercializada |
+| 95003008 | BETAFERON 250 microgramos/ml, POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Bayer Ag | Autorizada, no comercializada |
+| 108454008 | EXTAVIA 250 MICROGRAMOS/ML POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y SOLUCIÓN PARA SOLUCIÓN INYECTABLE | Novartis Europharm Limited | Revocada |
+| 95003003 | BETAFERON 250 microgramos/ml, POLVO Y SOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Bayer Pharma Ag | Revocada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Los titulares son Bayer AG / Bayer Pharma AG (Betaferon) y Novartis Europharm Limited (Extavia).
 
 <!-- review:begin es-lic-20261105-interferon_beta-1b-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Los titulares son Bayer AG / Bayer Pharma AG (Betaferon) y Novartis Europharm Limited (Extavia). Las 5 autorizaciones están vigentes." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 autorizaciones (comercializadas: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Los titulares son Bayer AG / Bayer Pharma AG (Betaferon) y Novartis Europharm Limited (Extavia). Las 5 autorizaciones están vigentes." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-interferon_beta-1b-1 -->
 
@@ -131,7 +137,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Las 5 autorizaciones están vigentes" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Las 5 autorizaciones están vigentes" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5) |
 
 <!-- review:end log -->

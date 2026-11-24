@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "antazoline"
 predicted_indications: ["recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "nasal cavity disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Antazoline: nueva indicación predicha, dermatitis atópica recalcitrante (recalcitrant atopic dermatitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
 ---
 
@@ -72,10 +72,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 81752 | OPTIALERG 5 MG/ML + 0,25 MG/ML COLIRIO EN SOLUCION | Colirio en solución |
-| 19763 | ALERGOFTAL 0,25 mg/ml + 5 mg/ml COLIRIO EN SOLUCION | Colirio en solución |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 81752 | OPTIALERG 5 MG/ML + 0,25 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Laboratorios Cinfa S.A. | Comercializada |
+| 19763 | ALERGOFTAL 0,25 mg/ml+ 5 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Reva Health Europe S.L. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las dos autorizaciones están vigentes.
 

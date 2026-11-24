@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 781
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Teriflunomide: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,30 +72,34 @@ Los candidatos que el modelo TxGNN propone para Teriflunomide son, en todos los 
 
 ## Información de Mercado en España
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 1221693002 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 89393 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 1130838006 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Autorizado, no comercializado |
-| 88844 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Autorizado, no comercializado |
-| 88753 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 88738 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 89188 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 113838002 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Autorizado, no comercializado |
-| 88947 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Autorizado, no comercializado |
-| 89818 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Cancelado |
-| 89189 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Autorizado, no comercializado |
-| 89846 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 89521 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 89341 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 88466 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 88896 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 90349 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Cancelado |
-| 89843 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Autorizado, no comercializado |
-| 89417 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 88254 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
+<!-- licenses:begin -->
 
-Los datos solo contienen parte de los registros; la lista puede estar incompleta.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1221693002 | TERIFLUNOMIDA ACCORD 14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Comercializada |
+| 89393 | TERIFLUNOMIDA VIATRIS PHARMACEUTICALS 14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Pharmaceuticals S.L. | Comercializada |
+| 88753 | TERIFLUNOMIDA KRKA 14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Krka D.D. Novo Mesto | Comercializada |
+| 88738 | TERIFLUNOMIDA VIVANTA 14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vivanta Generics S.R.O. | Comercializada |
+| 89188 | TERIFLUNOMIDA TARBIS 14 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Comercializada |
+| 89846 | TERIFLUNOMIDA AUROVITAS 14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 89521 | TERIFLUNOMIDA GLENMARK 14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Glenmark Arzneimittel Gmbh | Comercializada |
+| 89341 | TERIFLUNOMIDA KERN PHARMA 14 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+| 88466 | TERIFLUNOMIDA SANDOZ 14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Comercializada |
+| 88896 | TERIFLUNOMIDA ZENTIVA 14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Zentiva K.S. | Comercializada |
+| 89417 | TERIFLUNOMIDA NEURAXPHARM 14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Neuraxpharm Spain S.L.U. | Comercializada |
+| 88254 | TERIFLUNOMIDA STADA 14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 1130838006 | AUBAGIO 7 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sanofi Winthrop Industrie | Autorizada, no comercializada |
+| 88844 | TERIFLUNOMIDA DR REDDYS 7 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Reddy Pharma Iberia S.A. | Autorizada, no comercializada |
+| 113838002 | AUBAGIO 14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sanofi Winthrop Industrie | Autorizada, no comercializada |
+| 88947 | CLEFIREM 14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Bausch Health Ireland Limited | Autorizada, no comercializada |
+| 89189 | TERIFLUNOMIDA TARBIS 7 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Autorizada, no comercializada |
+| 89843 | THEDITRAX 14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Pharmathen S.A. | Autorizada, no comercializada |
+| 89818 | TERIFLUNOMIDA DESITIN 14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Desitin Arzneimittel Gmbh | Revocada |
+| 90349 | TERIFLUNOMIDA TEVAGEN 14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva B.V. | Revocada |
+
+Se muestran las 20 autorizaciones con este principio activo recogidas en los datos de CIMA (AEMPS) para este informe; primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

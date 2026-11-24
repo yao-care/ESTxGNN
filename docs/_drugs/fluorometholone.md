@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 344
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "fluorometholone"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis"]
 description: "Fluorometholone: nueva indicación predicha, Postinfectious vasculitis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 2)"
@@ -91,11 +91,17 @@ Como referencia indirecta, para la predicción de mayor coherencia biológica (q
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 57606 | FML 1 mg/ml colirio en suspensión | Colirio en suspensión | No disponible en los datos compilados |
-| 56132 | Isopto Flucon 1 mg/ml colirio en suspensión | Colirio en suspensión | No disponible en los datos compilados |
-| 53774 | Solubalm 0,5 mg/g + 100 mg/g crema | Crema | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 57606 | FML 1 mg/ml colirio en suspensión | COLIRIO EN SUSPENSIÓN | Abbvie Spain, S.L.U. | Comercializada |
+| 56132 | ISOPTO FLUCON 1 MG/ML COLIRIO EN SUSPENSION | COLIRIO EN SUSPENSIÓN | Immedica Pharma Ab | Comercializada |
+| 53774 | SOLUBALM 0,5 mg/g + 100 mg/g CREMA | CREMA | Arafarma Group S.A. | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

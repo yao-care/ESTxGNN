@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 280
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Elafibranor: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: Colangitis biliar primaria (según los datos farmacológicos compilados"
 monitor_inn: "ELAFIBRANOR"
 predicted_indications: ["amenorrhea (disease)"]
@@ -72,9 +72,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1241855001 | IQIRVO 80 MG comprimidos recubiertos con película (Ipsen Pharma) | Comprimido recubierto con película | No disponible en el texto de la autorización |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1241855001 | IQIRVO 80 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Ipsen Pharma | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

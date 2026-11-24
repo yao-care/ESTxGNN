@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 835
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "urofollitropin"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "His bundle tachycardia", "restless legs syndrome", "obsolete neurogenic bladder (disease)", "multifocal atrial tachycardia (disease)", "postural orthostatic tachycardia syndrome", "Raynaud disease"]
 description: "Urofollitropin: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la"
@@ -83,15 +83,28 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 68440 | FOSTIPUR 75 UI | Polvo y disolvente para solución inyectable | No disponible |
-| 77401 | FOSTIPUR KIT 225 UI | Polvo y disolvente para solución inyectable | No disponible |
-| 77402 | FOSTIPUR KIT 300 UI | Polvo y disolvente para solución inyectable | No disponible |
-| 75590 | FOSTIPUR KIT 150 UI | Polvo y disolvente para solución inyectable | No disponible |
-| 75588 | FOSTIPUR KIT 75 UI | Polvo y disolvente para solución inyectable | No disponible |
+<!-- licenses:begin -->
 
-Existe una sexta autorización (68441, FOSTIPUR 150 UI), no incluida en la tabla por el límite de cinco. Todas pertenecen a Ibsa Farmaceutici Italia S.R.L. y están vigentes.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 68440 | FOSTIPUR 75 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Ibsa Farmaceutici Italia S.R.L. | Comercializada |
+| 75590 | FOSTIPUR KIT 150 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Ibsa Farmaceutici Italia S.R.L. | Comercializada |
+| 75588 | FOSTIPUR KIT 75 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Ibsa Farmaceutici Italia S.R.L. | Comercializada |
+| 68441 | FOSTIPUR 150 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Ibsa Farmaceutici Italia S.R.L. | Comercializada |
+| 77401 | FOSTIPUR KIT 225 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Ibsa Farmaceutici Italia S.R.L. | Suspendida |
+| 77402 | FOSTIPUR KIT 300 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Ibsa Farmaceutici Italia S.R.L. | Suspendida |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
+
+Entre ellas figura FOSTIPUR 150 UI (68441). Todas pertenecen a Ibsa Farmaceutici Italia S.R.L.; el estado de cada una figura en la tabla.
+
+<!-- review:begin es-lic-20261124-urofollitropin-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Existe una sexta autorización (68441, FOSTIPUR 150 UI), no incluida en la tabla por el límite de cinco. Todas pertenecen a Ibsa Farmaceutici Italia S.R.L. y están vigentes." Corregido: no todas las autorizaciones están vigentes; según CIMA (AEMPS) algunas están suspendidas. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye la autorización 68441. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124-urofollitropin-1 -->
 
 ---
 
@@ -121,11 +134,12 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1201520 (urofollitropin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201520) |
+| 2026-11-24 | Eliminado: «no incluida en la tabla por el límite de cinco»; «todas están vigentes» → no todas (hay autorizaciones suspendidas) | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

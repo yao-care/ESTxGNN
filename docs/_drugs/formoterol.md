@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 355
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FORMOTEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Formoterol: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 7)"
@@ -80,13 +80,21 @@ Las publicaciones recuperadas no estudian la malformación respiratoria; tratan 
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 61667 | Oxis Turbuhaler 9 microgramos/inhalación | Polvo para inhalación |
-| 66573 | Formoterol Stada 12 microgramos | Polvo para inhalación (cápsula dura) |
-| 67037 | Broncoral Neo 12 microgramos/pulsación | Solución para inhalación en envase a presión |
-| 62197 | Foradil Aerolizer 12 microgramos | Polvo para inhalación (cápsula dura) |
-| 66558 | Formoterol Aldo-Unión 12 microgramos | Polvo para inhalación (cápsulas duras) |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61667 | OXIS TURBUHALER 9 microgramos/INHALACION POLVO PARA INHALACION | POLVO PARA INHALACIÓN | Laboratorio Beta S.A. | Comercializada |
+| 66573 | FORMOTEROL STADA 12 MICROGRAMOS POLVO PARA INHALACIÓN (CÁPSULA DURA) | POLVO PARA INHALACIÓN (CÁPSULA DURA) | Laboratorio Stada S.L. | Comercializada |
+| 67037 | BRONCORAL NEO 12 microgramos/PULSACION SOLUCION PARA INHALACION EN ENVASE A PRESION | SOLUCIÓN PARA INHALACIÓN POR NEBULIZADOR | Chiesi España S.A.U. | Comercializada |
+| 62197 | FORADIL AEROLIZER 12 microgramos POLVO PARA INHALACIÓN (CÁPSULA DURA) | POLVO PARA INHALACIÓN (CÁPSULA DURA) | Bexal Farmaceutica S.A. | Comercializada |
+| 66558 | FORMOTEROL ALDO-UNION 12 MICROGRAMOS POLVO PARA INHALACION (CAPSULAS DURAS) | POLVO PARA INHALACIÓN (CÁPSULA DURA) | Laboratorio Aldo Union S.L. | Comercializada |
+| 61666 | OXIS TURBUHALER 4,5 microgramos/INHALACION POLVO PARA INHALACION | POLVO PARA INHALACIÓN | Laboratorio Beta S.A. | Comercializada |
+| 68063 | FORMATRIS NOVOLIZER 12 microgramos/DOSIS, POLVO PARA INHALACION | POLVO PARA INHALACIÓN | Viatris Healthcare Limited | Comercializada |
+
+Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

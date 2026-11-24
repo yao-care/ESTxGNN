@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Etoricoxib: nueva indicación predicha, Migraña (trastorno migrañoso) (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "ETORICOXIB"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -91,13 +91,24 @@ Los textos de indicación aprobada no están disponibles.
 
 <!-- review:end es-lic-20261105-etoricoxib-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 64933 | EXXIV 120 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 72076 | EXXIV 30 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 80373 | Etoricoxib Viatris 60 mg EFG | Comprimido recubierto con película | No disponible |
-| 80262 | Etoricoxib Sandoz 60 mg EFG | Comprimido recubierto con película | No disponible |
-| 80673 | Torixib 30 mg EFG | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 81890 | ETORICOXIB AUROVITAS 120 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 80373 | ETORICOXIB VIATRIS 60 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Limited | Comercializada |
+| 81887 | ETORICOXIB AUROVITAS 30 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 81333 | ETORICOXIB VISO FARMACEUTICA 30 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Glenmark Arzneimittel Gmbh | Comercializada |
+| 81709 | ETORICOXIB KRKA 30 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Krka D.D. Novo Mesto | Comercializada |
+| 80673 | TORIXIB 30 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Neuraxpharm Spain S.L. | Comercializada |
+| 81888 | ETORICOXIB AUROVITAS 90 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 80262 | ETORICOXIB SANDOZ 60 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Comercializada |
+| 72076 | EXXIV 30 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Organon Salud S.L. | Autorizada, no comercializada |
+| 64933 | EXXIV 120 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Organon Salud S.L. | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

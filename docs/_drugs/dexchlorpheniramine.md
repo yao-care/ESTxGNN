@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 239
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Dexchlorpheniramine: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -73,12 +73,18 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Dexchlorp
 
 ## Información de Mercado en España
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 75389 | dexclorfeniramina | SOLUCIÓN INYECTABLE | Vigente |
-| 40135 | dexclorfeniramina | SOLUCIÓN INYECTABLE | Vigente |
-| 31195 | dexclorfeniramina | COMPRIMIDO | Vigente |
-| 32801 | dexclorfeniramina | JARABE | Vigente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 75389 | DEXCLORFENIRAMINA MALEATO ACCORD 5mg/ml SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Accord Healthcare S.L.U. | Comercializada |
+| 40135 | POLARAMINE 5 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Laboratorios Farmaceuticos Rovi S.A. | Comercializada |
+| 31195 | POLARAMINE 2 mg COMPRIMIDOS | COMPRIMIDO | Laboratorios Farmaceuticos Rovi S.A. | Comercializada |
+| 32801 | POLARAMINE 0,4 mg/ml JARABE | JARABE | Laboratorios Farmaceuticos Rovi S.A. | Comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

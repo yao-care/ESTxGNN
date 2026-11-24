@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 546
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
 description: "Mupirocin: nueva indicación predicha, Empiema pleural (pleural empyema (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 7)"
@@ -72,19 +72,28 @@ Actualmente no hay literatura relacionada disponible.
 
 <!-- review:begin es-lic-20261105-mupirocin-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 8 autorizaciones vigentes (todas de principio activo único)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 autorizaciones (comercializadas: 7); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 8 autorizaciones vigentes (todas de principio activo único)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-mupirocin-1 -->
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 59531 | BACTROBAN NASAL 20 mg/g POMADA NASAL | Pomada nasal | No disponible en los datos |
-| 58987 | PLASIMINE 20 mg/g POMADA | Pomada | No disponible en los datos |
-| 58868 | BACTROBAN 20 mg/g pomada | Pomada | No disponible en los datos |
-| 75862 | MUPIROCINA ISDIN 20 mg/g POMADA | Pomada | No disponible en los datos |
-| 84009 | MUPIROCINA INFECTOPHARM 20 MG/G POMADA | Pomada | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 59531 | BACTROBAN NASAL 20 mg/g POMADA NASAL | POMADA NASAL | Glaxosmithkline S.A. | Comercializada |
+| 58987 | PLASIMINE 20 mg/g POMADA | POMADA | Glaxosmithkline S.A. | Comercializada |
+| 58868 | BACTROBAN 20 mg/g pomada | POMADA | Glaxosmithkline S.A. | Comercializada |
+| 75862 | MUPIROCINA ISDIN 20 mg/g POMADA | POMADA | Isdin S.A. | Comercializada |
+| 84241 | BACNAS 20 MG/G POMADA NASAL | POMADA NASAL | Infectopharm Arzneimittel Und Consilium Gmbh | Comercializada |
+| 75869 | MUPIROCINA FARMALIDER 20 mg/g POMADA | POMADA | Farmalider S.A. | Comercializada |
+| 86458 | MUPIROCINA GALENICUMDERMA 20 MG/G POMADA | POMADA | Galenicum Derma S.L.U. | Comercializada |
+| 84009 | MUPIROCINA INFECTOPHARM 20 MG/G POMADA | POMADA | Infectopharm Arzneimittel Und Consilium Gmbh | Revocada |
+
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -119,7 +128,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 8 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 8 autorizaciones vigentes (todas de principio activo único)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Pirnuo (mupirocin) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89c43f7b-1a88-45bf-a356-07518d4e7870) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 198
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
 description: "Clonazepam: nueva indicación predicha, Síndrome de piernas inquietas (restless legs syndrome) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 10 (comercializadas: 8; autorizadas no comercializadas: 2)"
@@ -93,13 +93,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 52333 | RIVOTRIL 2,5 mg/ml gotas orales en solución | Gotas orales en solución | No disponible |
-| 52401 | RIVOTRIL 2 mg comprimidos | Comprimido | No disponible |
-| 52334 | RIVOTRIL 0,5 mg comprimidos | Comprimido | No disponible |
-| 88731 | Clonazepam TZF 0,5 mg comprimidos EFG | Comprimido | No disponible |
-| 85994 | Clonazepam Neuraxpharm 0,5 mg comprimidos EFG | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 52333 | RIVOTRIL 2,5 mg/ml GOTAS ORALES EN SOLUCION | GOTAS ORALES EN SOLUCIÓN | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 52401 | RIVOTRIL 2 mg COMPRIMIDOS | COMPRIMIDO | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 52334 | RIVOTRIL 0,5 mg COMPRIMIDOS | COMPRIMIDO | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 85994 | CLONAZEPAM NEURAXPHARM 0,5 MG COMPRIMIDOS EFG | COMPRIMIDO | Neuraxpharm Spain S.L. | Comercializada |
+| 85995 | CLONAZEPAM NEURAXPHARM 1 MG COMPRIMIDOS | COMPRIMIDO | Neuraxpharm Spain S.L. | Comercializada |
+
+Se muestran 5 de 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único, ninguna cancelada). Entre las restantes hay una presentación inyectable (RIVOTRIL 1 mg/ml, n.º 52332) y otras presentaciones en comprimidos.
 

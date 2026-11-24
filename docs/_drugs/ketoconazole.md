@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 440
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ketoconazole"
 predicted_indications: ["acne (disease)"]
 description: "Ketoconazole: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 15 (comercializadas: 8; autorizadas no comercializadas: 1)"
@@ -84,19 +84,30 @@ Nota: el resto de las publicaciones recuperadas (síndrome de ovario poliquísti
 
 <!-- review:begin es-lic-20261105-ketoconazole-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 15 autorizaciones vigentes. Todas son monofármaco, ninguna está cancelada, y entre ellas hay cremas, geles y óvulos vaginales (p. ej., Panfungol y Ketoisdin 400 mg óvulos)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 15 autorizaciones (comercializadas: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 15 autorizaciones vigentes. Todas son monofármaco, ninguna está cancelada, y entre ellas hay cremas, geles y óvulos vaginales (p. ej., Panfungol y Ketoisdin 400 mg óvulos)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-ketoconazole-1 -->
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 84762 | KETOCONAZOL KERN PHARMA 20 MG/G CREMA | Crema | No disponible en los datos |
-| 65190 | KETOCONAZOL ABAMED 20 mg/g GEL EFG | Gel | No disponible en los datos |
-| 66163 | KETO-CURE 20 mg/ml GEL | Gel | No disponible en los datos |
-| 57684 | KETOISDIN 20mg/g CREMA | Crema | No disponible en los datos |
-| 58437 | KETOCONAZOL ABAMED 20 mg/g CREMA | Crema | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 65190 | KETOCONAZOL ABAMED 20 mg/g GEL EFG | GEL | Qualix Pharma S.L. | Comercializada |
+| 57684 | KETOISDIN 20mg/g CREMA | CREMA | Isdin S.A. | Comercializada |
+| 58437 | KETOCONAZOL ABAMED 20 mg/g CREMA | CREMA | Qualix Pharma S.L. | Comercializada |
+| 66037 | KETOCONAZOL SANDOZ 20 MG/G GEL EFG | GEL | Sandoz Farmaceutica S.A. | Comercializada |
+| 57595 | FUNGAREST 20 mg/g crema | CREMA | Laboratorio Stada S.L. | Comercializada |
+| 57685 | KETOISDIN 400 mg OVULOS | ÓVULO | Isdin S.A. | Comercializada |
+| 64193 | KETOCONAZOL KORHISPANA 20 MG/G GEL EFG | GEL | Korhispana S.L. | Comercializada |
+| 66052 | KETOCONAZOL CINFA 2% GEL EFG | GEL | Laboratorios Cinfa S.A. | Comercializada |
+| 84762 | KETOCONAZOL KERN PHARMA 20 MG/G CREMA | CREMA | Kern Pharma S.L. | Autorizada, no comercializada |
+| 66163 | KETO-CURE 20 mg/ml GEL | GEL | Tarbis Farma S.L. | Suspendida |
+
+Se muestran 10 de 15 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -128,7 +139,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 15 autorizaciones vigentes. Todas son monofármaco, ninguna está cancelada, y entre ellas hay cremas, geles y óvulos vag" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 15 autorizaciones vigentes. Todas son monofármaco, ninguna está cancelada, y entre ellas hay cremas, geles y óvulos vag" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371) |
 
 <!-- review:end log -->

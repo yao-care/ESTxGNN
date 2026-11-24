@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 304
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eribulin: nueva indicación predicha, Fiebre mediterránea familiar autosómica recesiva (nivel de evidencia L5). Indicación original: Liposarcoma (según la base de conocimiento del modelo"
 monitor_inn: "eribulin"
 predicted_indications: ["autosomal recessive familial Mediterranean fever", "dermatofibrosarcoma protuberans", "pleural mesothelioma", "malignant peritoneal mesothelioma", "pleural adenomatoid tumor", "pleural biphasic mesothelioma", "fibroblastic neoplasm", "pleural epithelioid mesothelioma", "heart fibrosarcoma"]
@@ -76,17 +76,28 @@ Los textos de indicación aprobada no figuran en los datos compilados.
 
 <!-- review:begin es-lic-20261105-eribulin-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 11 autorizaciones vigentes (todas de principio activo único, ninguna cancelada). Los textos de indicación aprobada no figuran en los datos compilados." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 11 autorizaciones (comercializadas: 7); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 11 autorizaciones vigentes (todas de principio activo único, ninguna cancelada). Los textos de indicación aprobada no figuran en los datos compilados." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-eribulin-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 89127 | Eribulina Stada 0,44 mg/ml solución inyectable EFG | Solución inyectable | Laboratorio Stada S.L. |
-| 89659 | Eribulina Viatris 0,44 mg/ml solución inyectable EFG | Solución inyectable | Viatris Limited |
-| 89251 | Eribulina Glenmark 0,44 mg/ml solución inyectable EFG | Solución inyectable | Glenmark Arzneimittel GmbH |
-| 11678001 | Halaven 0,44 mg/ml solución inyectable | Solución inyectable | Eisai GmbH |
-| 89176 | Eribulina Advanz Pharma 0,44 mg/ml solución inyectable EFG | Solución inyectable | Advanz Pharma Limited |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 89127 | ERIBULINA STADA 0,44 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Laboratorio Stada S.L. | Comercializada |
+| 89251 | ERIBULINA GLENMARK 0,44 MG/ML SOLUCIÓN INYECTABLE EFG | SOLUCIÓN INYECTABLE | Glenmark Arzneimittel Gmbh | Comercializada |
+| 11678001 | HALAVEN 0,44 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Eisai Gmbh | Comercializada |
+| 89176 | ERIBULINA ADVANZ PHARMA 0,44 MG/ML SOLUCIÓN INYECTABLE EFG | SOLUCIÓN INYECTABLE | Advanz Pharma Limited | Comercializada |
+| 1241819001 | ERIBULINA BAXTER 0,44 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Baxter Holding B.V. | Comercializada |
+| 89838 | ERIBULINA EVER PHARMA 0,44 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Ever Valinject Gmbh | Comercializada |
+| 89728 | ERIBULINA ZENTIVA 0,44 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Zentiva K.S. | Comercializada |
+| 111678003 | HALAVEN 0,44 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Eisai Gmbh | Autorizada, no comercializada |
+| 90846 | ERIBULINA CTTQ 0,44 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Chia Tai Tian Qing Europe S.L. | Autorizada, no comercializada |
+| 90823 | ERIBULINA HIKMA 0,44 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Hikma Farmaceutica (Portugal) S.A. | Autorizada, no comercializada |
+
+Se muestran 10 de 11 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 
@@ -127,7 +138,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 11 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 11 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 734
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Silibinin: nueva indicación predicha, Hemoglobinopatía (nivel de evidencia L5). Indicación original: No disponible (los textos de indicación de las autorizaciones están v…"
 monitor_inn: "silibinin"
 predicted_indications: ["hemoglobinopathy", "thrombotic disease", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "rheumatoid arthritis", "factor 5 excess with spontaneous thrombosis", "beta-thalassemia with other manifestations", "thrombophilia", "partial deletion of the short arm of chromosome 16", "severe nonproliferative diabetic retinopathy"]
@@ -83,10 +83,16 @@ Actualmente no hay literatura relacionada disponible para hemoglobinopatía.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 59430 | SILIBININA VIATRIS 350 mg LIOFILIZADO PARA SOLUCIÓN PARA PERFUSIÓN | Polvo para solución para perfusión | No especificada |
-| 52190 | LEGALON 150 mg CÁPSULAS | Cápsula dura | No especificada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 59430 | SILIBININA VIATRIS 350 mg LIOFILIZADO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Viatris Healthcare Limited | Comercializada |
+| 52190 | LEGALON 150 mg CAPSULAS | CÁPSULA DURA | Cooper Consumer Health B.V. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

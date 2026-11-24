@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Interferon Alfa-2B: nueva indicación predicha, Esclerosis múltiple remitente-recurrente (nivel de evidencia L5). Indicación original: Infección anogenital por virus del papiloma humano"
 monitor_inn: "INTERFERON ALFA-2B"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
@@ -72,18 +72,30 @@ Actualmente no hay literatura relacionada disponible.
 
 <!-- review:begin es-lic-20261105-interferon_alfa-2b-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Las cuatro autorizaciones son de medicamento monofármaco, están vigentes y pertenecen a Merck Sharp & Dohme B.V." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 16 autorizaciones (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Las cuatro autorizaciones son de medicamento monofármaco, están vigentes y pertenecen a Merck Sharp & Dohme B.V." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-interferon_alfa-2b-1 -->
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 99127034 | INTRONA 30 millones de UI solución inyectable, pluma multidosis | Solución inyectable en pluma precargada | No disponible en los datos compilados |
-| 99127031 | INTRONA 18 millones de UI solución inyectable, pluma multidosis | Solución inyectable en pluma precargada | No disponible en los datos compilados |
-| 99127020 | INTRONA 10 millones de UI/ml solución inyectable o para perfusión | Solución inyectable y para perfusión | No disponible en los datos compilados |
-| 99127037 | INTRONA 60 millones de UI solución inyectable, pluma multidosis | Solución inyectable en pluma precargada | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1181352001 | BESREMI 250 MICROGRAMOS/0,5 ML DE SOLUCION PARA INYECCION EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Aop Orphan Pharmaceuticals Gmbh | Autorizada, no comercializada |
+| 99127034 | INTRONA 30 MILLONES DE UI SOLUCION INYECTABLE, PLUMA MULTIDOSIS | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Merck Sharp & Dohme B.V. | Revocada |
+| 99127031 | INTRONA 18 MILLONES DE UI SOLUCION INYECTABLE, PLUMA MULTIDOSIS | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Merck Sharp & Dohme B.V. | Revocada |
+| 99127020 | INTRONA 10 MILLONES DE UI/ml SOLUCION INYECTABLE O PARA PERFUSION | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Merck Sharp & Dohme B.V. | Revocada |
+| 99127037 | INTRONA 60 MILLONES DE UI SOLUCION INYECTABLE, PLUMA MULTIDOSIS | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Merck Sharp & Dohme B.V. | Revocada |
+| 00131039 | PEGINTRON 100 microgramos POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE EN PLUMA PRECARGADA | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Merck Sharp & Dohme B.V. | Revocada |
+| 00131043 | PEGINTRON 120 microgramos POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE EN PLUMA PRECARGADA | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Merck Sharp & Dohme B.V. | Revocada |
+| 00131047 | PEGINTRON 150 microgramos POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE EN PLUMA PRECARGADA | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Merck Sharp & Dohme B.V. | Revocada |
+| 00131002 | PEGINTRON 50 microgramos POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Merck Sharp & Dohme B.V. | Revocada |
+| 00131031 | PEGINTRON 50 microgramos POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE EN PLUMA PRECARGADA | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Merck Sharp & Dohme B.V. | Revocada |
+
+Se muestran 10 de 16 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 
@@ -127,7 +139,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Las cuatro autorizaciones son de medicamento monofármaco, están vigentes y pertenecen a Merck Sharp & Dohme B.V" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Las cuatro autorizaciones son de medicamento monofármaco, están vigentes y pertenecen a Merck Sharp & Dohme B.V" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

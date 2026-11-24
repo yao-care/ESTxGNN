@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 463
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Levetiracetam: nueva indicación predicha, Beta-ketothiolase deficiency (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -103,13 +103,24 @@ Los textos de indicación aprobada no están disponibles en los datos compilados
 
 <!-- review:end es-lic-20261105-levetiracetam-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 86140 | Levetiracetam Tarbis Farma 250 mg | Comprimido recubierto con película | No disponible |
-| 76607 | Levetiracetam UCB 500 mg | Comprimido recubierto con película | No disponible |
-| 83242 | Laurak 500 mg | Granulado para solución oral en sobre | No disponible |
-| 75157 | Levetiracetam Sandoz 100 mg/ml | Solución oral | No disponible |
-| 83843 | Levetiracetam Zentiva 100 mg/ml | Concentrado para solución para perfusión | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 86140 | LEVETIRACETAM TARBIS FARMA 250 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Comercializada |
+| 75608 | LEVETIRACETAM QUALIGEN 1000 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Neuraxpharm Spain S.L. | Comercializada |
+| 83242 | LAURAK 500 MG GRANULADO EN SOBRE EFG | GRANULADO PARA SOLUCIÓN ORAL EN SOBRE | Neuraxpharm Spain S.L. | Comercializada |
+| 76449 | LEVETIRACETAM COMBIX 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 75157 | LEVETIRACETAM SANDOZ 100 mg/ml SOLUCION ORAL EFG | SOLUCIÓN ORAL | Sandoz Farmaceutica S.A. | Comercializada |
+| 83241 | LAURAK 250 MG GRANULADO EN SOBRE EFG | GRANULADO PARA SOLUCIÓN ORAL EN SOBRE | Neuraxpharm Spain S.L. | Comercializada |
+| 83843 | LEVETIRACETAM ZENTIVA 100 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Zentiva K.S. | Comercializada |
+| 75040 | LEVETIRACETAM NORMON 250 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 74891 | LEVETIRACETAM ALTER 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Alter S.A. | Comercializada |
+| 11702014 | LEVETIRACETAM RATIOPHARM 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Ratiopharm Gmbh | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 La presentación intravenosa (concentrado para perfusión) es relevante para el estado epiléptico, que requiere administración parenteral.
 

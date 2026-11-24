@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 607
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "pamidronic acid"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 description: "Pamidronic Acid: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"
@@ -73,11 +73,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 64945 | Pamidronato Hospira 3 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos compilados |
-| 64946 | Pamidronato Hospira 6 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos compilados |
-| 64947 | Pamidronato Hospira 9 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 64945 | PAMIDRONATO HOSPIRA 3 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Pfizer S.L. | Comercializada |
+| 64947 | PAMIDRONATO HOSPIRA 9 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Pfizer S.L. | Comercializada |
+| 64946 | PAMIDRONATO HOSPIRA 6 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Pfizer S.L. | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las tres autorizaciones están vigentes, son de monofármaco y pertenecen a Pfizer S.L.
 

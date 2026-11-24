@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 855
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Vitamin A: nueva indicación predicha, Deficiencia congénita de protrombina (primera predicción del modelo (nivel de evidencia L5). Indicación original: Trastorno por deficiencia vitamínica / deficien…"
 monitor_inn: "Vitamin A"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "perinatal disease", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "disease by subcellular system affected", "radiation or chemically induced disorder"]
@@ -118,11 +118,17 @@ Hay otras publicaciones relevantes para la indicación «lesión», como una rev
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 28811 | RINOCUSI VITAMÍNICO 12.500 UI/g POMADA NASAL | Pomada nasal | No disponible en los datos compilados |
-| 24328 | AUXINA A MASIVA 50.000 UI CÁPSULAS BLANDAS | Cápsula dura | No disponible en los datos compilados |
-| 66883 | RINOVITEX 12.500 UI/g POMADA NASAL | Pomada nasal | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 28811 | RINOCUSI VITAMÍNICO 12.500 UI/g POMADA NASAL | POMADA NASAL | Laboratorio Stada S.L. | Comercializada |
+| 24328 | AUXINA A MASIVA 50.000 UI CAPSULAS BLANDAS | CÁPSULA DURA | Chiesi España S.A.U. | Comercializada |
+| 66883 | RINOVITEX 12.500 UI /g POMADA NASAL | POMADA NASAL | Reva Health Europe S.L. | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

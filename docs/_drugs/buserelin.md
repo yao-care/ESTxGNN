@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 127
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Buserelin: nueva indicación predicha, Hipertricosis (nivel de evidencia L5). Indicación original: Cáncer de próstata (según la información farmacológica compilada"
 monitor_inn: "buserelin"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
@@ -83,12 +83,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 62477 | SUPREFACT DEPOT 9,45 mg IMPLANTE | Implante | No disponible |
-| 57037 | SUPREFACT 100 microgramos/PULSACIÓN SOLUCIÓN PARA PULVERIZACIÓN NASAL | Solución para pulverización nasal | No disponible |
-| 60980 | SUPREFACT DEPOT 6,3 mg IMPLANTE EN JERINGA PRECARGADA | Implante | No disponible |
-| 57011 | SUPREFACT 1 mg/ml SOLUCIÓN INYECTABLE | Solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 62477 | SUPREFACT DEPOT 9,45 mg IMPLANTE | IMPLANTE | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 57011 | SUPREFACT 1 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 57037 | SUPREFACT 100 microgramos/PULSACION SOLUCION PARA PULVERIZACION NASAL | SOLUCION PARA PULVERIZACION NASAL | Cheplapharm Arzneimittel Gmbh | Suspendida |
+| 60980 | SUPREFACT DEPOT 6,3 mg IMPLANTE EN JERINGA PRECARGADA | IMPLANTE | Cheplapharm Arzneimittel Gmbh | Suspendida |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

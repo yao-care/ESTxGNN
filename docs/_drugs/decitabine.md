@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 228
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Decitabine"
 predicted_indications: ["refractory cytopenia of childhood"]
 description: "Decitabine: nueva indicación predicha, Citopenia refractaria de la infancia (refractory cytopenia of childhood) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 1; autorizadas no comercializadas: 1)"
@@ -75,10 +75,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 112792001 | DACOGEN 50 mg polvo para concentrado para solución para perfusión (Janssen-Cilag International N.V.) | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
-| 91107 | DECITABINA HIKMA 50 MG polvo para concentrado para solución para perfusión EFG (Hikma Farmacéutica (Portugal) S.A.) | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 112792001 | DACOGEN 50 mg polvo para concentrado para solucion para perfusion | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Janssen-Cilag International N.V | Comercializada |
+| 91107 | DECITABINA HIKMA 50 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Hikma Farmaceutica (Portugal) S.A. | Autorizada, no comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

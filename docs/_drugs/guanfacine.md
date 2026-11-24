@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 388
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Guanfacine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
 description: "Guanfacine: nueva indicación predicha, Faciodigitogenital syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 11 (comercializadas: 11)"
@@ -92,13 +92,24 @@ Se muestran las publicaciones más relevantes (guías y revisiones sistemáticas
 
 La guanfacina está comercializada en España con 11 autorizaciones vigentes, todas de monofármaco y en forma de comprimido de liberación prolongada. Los textos de indicación aprobada no están disponibles en los datos compilados.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1151040002 | Intuniv 1 mg | Comprimido de liberación prolongada | No disponible |
-| 1151040004 | Intuniv 2 mg | Comprimido de liberación prolongada | No disponible |
-| 1151040006 | Intuniv 3 mg | Comprimido de liberación prolongada | No disponible |
-| 1151040008 | Intuniv 4 mg | Comprimido de liberación prolongada | No disponible |
-| 1241908001 | Paxneury 1 mg EFG | Comprimido de liberación prolongada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1151040002 | Intuniv 1mg comprimidos de liberacion prolongada | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Takeda Pharmaceuticals International Ag Ireland Branch | Comercializada |
+| 1241908006 | PAXNEURY 6 MG COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Neuraxpharm Pharmaceuticals S.L. | Comercializada |
+| 1241908003 | PAXNEURY 3 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Neuraxpharm Pharmaceuticals S.L. | Comercializada |
+| 1241908001 | PAXNEURY 1 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Neuraxpharm Pharmaceuticals S.L. | Comercializada |
+| 1241908004 | PAXNEURY 4 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Neuraxpharm Pharmaceuticals S.L. | Comercializada |
+| 1151040004 | Intuniv 2mg comprimidos de liberacion prolongada | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Takeda Pharmaceuticals International Ag Ireland Branch | Comercializada |
+| 1241908005 | PAXNEURY 5 MG COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Neuraxpharm Pharmaceuticals S.L. | Comercializada |
+| 1241908007 | PAXNEURY 7 MG COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Neuraxpharm Pharmaceuticals S.L. | Comercializada |
+| 1151040006 | Intuniv 3mg comprimidos de liberacion prolongada | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Takeda Pharmaceuticals International Ag Ireland Branch | Comercializada |
+| 1241908002 | PAXNEURY 2 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Neuraxpharm Pharmaceuticals S.L. | Comercializada |
+
+Se muestran 10 de 11 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las otras 6 autorizaciones corresponden a Paxneury (2, 3, 4, 5, 6 y 7 mg), de Neuraxpharm; Intuniv es de Takeda.
 

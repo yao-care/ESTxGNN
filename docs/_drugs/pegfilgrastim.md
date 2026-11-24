@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 616
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pegfilgrastim: nueva indicación predicha, Retinopatía diabética no proliferativa grave (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaciones de AEMPS"
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -82,19 +82,30 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1181329002 | FULPHILA 6 mg solución inyectable en jeringa precargada | Solución inyectable | No disponible |
-| 02227004 | NEULASTA 6 mg solución inyectable | Solución inyectable en jeringa precargada | No disponible |
-| 1181327001 | ZIEXTENZO 6 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible |
-| 02227003 | NEULASTA 6 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible |
-| 1181313001 | PELGRAZ 6 mg solución inyectable en jeringa precargada | Solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1181329002 | FULPHILA 6 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Biosimilar Collaborations Ireland Limited | Comercializada |
+| 02227004 | NEULASTA 6 mg SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Amgen Europe B.V. | Comercializada |
+| 1181327001 | ZIEXTENZO 6 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Sandoz Gmbh | Comercializada |
+| 1181313001 | PELGRAZ 6 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Accord Healthcare S.L.U. | Comercializada |
+| 1181328001 | PELMEG 6 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Mundipharma Corporation (Ireland) Limited | Comercializada |
+| 1181313002 | PELGRAZ 6 MG SOLUCION INYECTABLE EN INYECTOR PRECARGADO | SOLUCIÓN INYECTABLE | Accord Healthcare S.L.U. | Comercializada |
+| 02227001 | NEULASTA 6 mg SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Amgen Europe B.V. | Autorizada, no comercializada |
+| 1221632001 | STIMUFEND 6 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Fresenius Kabi Deutschland Gmbh | Autorizada, no comercializada |
+| 1201486001 | NYVEPRIA 6 mg SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Pfizer Europe Ma Eeig | Autorizada, no comercializada |
+| 02227003 | NEULASTA 6 mg SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Amgen Europe B.V. | Revocada |
+
+Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Otros productos autorizados: Neulasta (jeringa), Pelmeg, Pelgraz (inyector precargado), Stimufend y Nyvepria.
 
 <!-- review:begin es-lic-20261105-pegfilgrastim-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único). Otros productos autorizados: Neulasta (jeringa), Pelmeg, Pelgraz (inyector precargado), Stimufend y Nyvepria." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 autorizaciones (comercializadas: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único). Otros productos autorizados: Neulasta (jeringa), Pelmeg, Pelgraz (inyector precargado), Stimufend y Nyvepria." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-pegfilgrastim-1 -->
 
@@ -140,7 +151,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83) |
 
 <!-- review:end log -->

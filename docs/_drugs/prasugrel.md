@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 655
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Prasugrel: nueva indicación predicha, Hipertensión pulmonar (nivel de evidencia L5). Indicación original: Síndrome coronario agudo"
 monitor_inn: "PRASUGREL"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
@@ -82,13 +82,19 @@ A continuación se listan las 5 principales; el texto de indicación aprobada no
 
 <!-- review:end es-lic-20261105-prasugrel-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 08503009 | Efient 10 mg (Substipharm) | Comprimido recubierto con película |
-| 82930 | Prasugrel Teva 10 mg EFG | Comprimido recubierto con película |
-| 83098 | Prasugrel Stada 10 mg EFG | Comprimido recubierto con película |
-| 83508 | Prasugrel Krka 5 mg EFG | Comprimido recubierto con película |
-| 83730 | Prasugrel Lesvi 10 mg EFG | Comprimido recubierto con película |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 08503009IP3 | EFIENT 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Substipharm | Comercializada |
+| 82930 | PRASUGREL TEVA 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+| 84648 | PRASUGREL COMBIX 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 83532 | PRASUGREL QUALIGEN 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Neuraxpharm Spain S.L. | Comercializada |
+| 08503009IP | EFIENT 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Substipharm | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

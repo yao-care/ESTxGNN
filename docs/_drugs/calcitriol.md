@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CALCITRIOL"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Calcitriol: nueva indicación predicha, Deficiencia de vitamina D obsoleta (obsolete vitamin D deficiency) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 3)"
 ---
 
@@ -70,12 +70,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 55973 | ROCALTROL 0,25 mcg cápsulas blandas | Cápsula blanda | No registrada en los datos locales |
-| 68934 | Calcitriol Kern Pharma 1 microgramo/ml solución inyectable EFG | Solución inyectable | No registrada en los datos locales |
-| 55974 | ROCALTROL 0,50 mcg cápsulas blandas | Cápsula blanda | No registrada en los datos locales |
-| 64527 | SILKIS 3 microgramos/g pomada | Pomada | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 55973 | ROCALTROL 0,25 mcg CAPSULAS BLANDAS | CÁPSULA BLANDA | Atnahs Pharma Netherlands Bv. | Comercializada |
+| 55974 | ROCALTROL 0,50 mcg CAPSULAS BLANDAS | CÁPSULA BLANDA | Atnahs Pharma Netherlands Bv. | Comercializada |
+| 64527 | SILKIS 3 microgramos /g POMADA | POMADA | Laboratorios Galderma S.A. | Comercializada |
+| 68934 | CALCITRIOL KERN PHARMA 1 microgramo/ml SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Kern Pharma S.L. | Revocada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

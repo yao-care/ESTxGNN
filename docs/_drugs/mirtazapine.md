@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 533
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Mirtazapine"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
 description: "Mirtazapine: nueva indicación predicha, Síndrome de Ohdo y variantes (Ohdo syndrome and variants) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -78,13 +78,24 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 90891 | Mirtazapina Stada 45 mg EFG | Comprimido recubierto con película | Laboratorio Stada S.L. |
-| 71841 | Mirtazapina Flas Kern Pharma 15 mg EFG | Comprimido bucodispersable | Kern Pharma S.L. |
-| 89479 | Mirtazapina Sandoz 30 mg EFG | Comprimido recubierto con película | Sandoz Farmacéutica S.A. |
-| 69802 | Mirtazapina Qualigen 15 mg EFG | Comprimido recubierto con película | Neuraxpharm Spain S.L. |
-| 66985 | Afloyan 15 mg | Comprimido recubierto con película | Laboratorios Alter S.A. |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 90891 | MIRTAZAPINA STADA 45 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 71841 | MIRTAZAPINA FLAS KERN PHARMA 15 mg COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Kern Pharma S.L. | Comercializada |
+| 89479 | MIRTAZAPINA SANDOZ 30 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Comercializada |
+| 69802 | MIRTAZAPINA QUALIGEN 15 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Neuraxpharm Spain S.L. | Comercializada |
+| 66982 | MIRTAZAPINA ALTER 15 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Alter S.A. | Comercializada |
+| 90068 | MIRTAZAPINA COMBIX 15 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 69999 | MIRTAZAPINA FLAS ALTER 30 mg COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Laboratorios Alter S.A. | Comercializada |
+| 65878 | MIRTAZAPINA STADA 30 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 89480 | MIRTAZAPINA SANDOZ 45 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Comercializada |
+| 69306 | MIRTAZAPINA ALMUS 15 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Almus Farmaceutica S.A.U. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

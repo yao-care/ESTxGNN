@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 647
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pixantrone: nueva indicación predicha, Catarata diabética (nivel de evidencia L5). Indicación original: No disponible en la autorización de AEMPS (el texto de indicación est…"
 monitor_inn: "pixantrone"
 predicted_indications: ["diabetic cataract"]
@@ -82,9 +82,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 112764001 | PIXUVRI 29 MG POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN (Les Laboratoires Servier) | Polvo para concentrado para solución inyectable y para perfusión | No especificada en los datos de la autorización |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 112764001 | PIXUVRI 29 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCION INYECTABLE Y PARA PERFUSION | Les Laboratoires Servier | Revocada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ---
 

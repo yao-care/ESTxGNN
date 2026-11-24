@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 510
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Metformin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 description: "Metformin: nueva indicación predicha, Classic stiff person syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -90,13 +90,24 @@ El texto de indicación aprobada no figura en los datos compilados.
 
 <!-- review:end es-lic-20261105-metformin-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 89159 | Metformina Adair 850 mg EFG | Comprimido recubierto con película | No disponible |
-| 84266 | Metformina Juta 850 mg EFG | Comprimido recubierto con película | No disponible |
-| 83866 | Metformina Vir 1000 mg EFG | Comprimido recubierto con película | No disponible |
-| 72221 | Metformina Viatris 850 mg EFG | Comprimido recubierto con película | No disponible |
-| 85976 | Brotmin 1000 mg EFG | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 83866 | METFORMINA VIR 1000 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 71269 | METFORMINA SANDOZ 850 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Comercializada |
+| 83863 | METFORMINA KERN PHARMA 1000 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+| 74969 | METFORMINA AUROVITAS 850 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 76579 | METFORMINA TARBIS 850 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Comercializada |
+| 83165 | METFORMINA ALMUS PHARMA 850 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Almus Farmaceutica S.A.U. | Comercializada |
+| 88536 | METFORMINA PENSA 850 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Towa Pharmaceutical S.A. | Comercializada |
+| 85976 | BROTMIN 1000 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Medochemie Iberia S.A. | Comercializada |
+| 89159 | METFORMINA ADAIR 850 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Galenicum Health S.L.U. | Autorizada, no comercializada |
+| 85981 | METFORMINA PHARMCONSUL 1000 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Pharmconsul S.R.O. | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

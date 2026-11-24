@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 224
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "DASABUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever"]
 description: "Dasabuvir: nueva indicación predicha, infección por el virus de la hepatitis B (hepatitis B virus infection) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0)"
@@ -81,9 +81,15 @@ Los siguientes ensayos incluyen población coinfectada, pero ninguno evalúa a d
 
 ## Información de Mercado en Espana
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 114983001 | EXVIERA 250 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 114983001 | EXVIERA 250 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Abbvie Deutschland Gmbh & Co. Kg | Revocada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 La única autorización registrada figura como cancelada.
 

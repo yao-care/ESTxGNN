@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 733
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Sertraline"
 predicted_indications: ["schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Sertraline: nueva indicación predicha, Trastorno esquizoide de la personalidad (schizoid personality disorder) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -75,13 +75,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Estado de mercado: comercializado. Constan al menos 20 autorizaciones, de las cuales 16 están vigentes y 4 canceladas; el listado puede ser parcial.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 84732 | Sertralina Cinfa 150 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 59717 | Besitran 50 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 65922 | Sertralina Normon 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 65997 | Sertralina Cuve 50 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 66116 | Sertralina Qualigen Farma 50 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 59717 | BESITRAN 50 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Healthcare Limited | Comercializada |
+| 65922 | SERTRALINA NORMON 100 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 65997 | SERTRALINA CUVE 50 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Pharmex Advanced Laboratories S.L. | Comercializada |
+| 66116 | SERTRALINA QUALIGEN FARMA 50 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Neuraxpharm Spain S.L. | Comercializada |
+| 65947 | SERTRALINA DAVUR 100 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+| 65968 | SERTRALINA MABO 50 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Mabo Farma S.A. | Comercializada |
+| 66170 | SERTRALINA SANDOZ FARMACÉUTICA 100 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Comercializada |
+| 69766 | SERTRALINA ALMUS 100 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Almus Farmaceutica S.A.U. | Comercializada |
+| 66015 | SERTRALINA SUN 50 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+| 66070 | SERTRALINA TEVA-RATIO 50 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

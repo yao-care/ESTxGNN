@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Anagrelide"
 predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay syndrome"]
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-24
 description: "Anagrelide: nueva indicación predicha, trombocitosis reactiva (reactive thrombocytosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 13 (comercializadas: 6; autorizadas no comercializadas: 1)"
 ---
 
@@ -86,13 +86,24 @@ Ninguna de estas publicaciones estudia directamente anagrelida en la trombocitos
 
 Anagrelida figura como comercializada en España, con presentaciones en cápsulas duras (monofármaco). Entre los productos autorizados se encuentran:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 04295001 | XAGRID 0,5 MG CAPSULAS DURAS | Cápsula dura |
-| 82672 | ANAGRELIDA TEVA 0,5 MG CAPSULAS DURAS EFG | Cápsula dura |
-| 82765 | ANAGRELIDA ARISTO 1 MG CAPSULAS DURAS | Cápsula dura |
-| 83065 | UXABEL 0,5 MG CAPSULAS DURAS EFG | Cápsula dura |
-| 85843 | ANAGRELIDA ACCORDPHARMA 0,5 MG CAPSULAS DURAS EFG | Cápsula dura |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 82766 | ANAGRELIDA PHARMAVIC 0,5 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Pharmavic Iberica S.L. | Comercializada |
+| 83207 | ANAGRELIDA BLUEFISH 0,5 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Bluefish Pharmaceuticals Ab (Publ) | Comercializada |
+| 82522 | ANAGRELIDA TEVA-RATIOPHARM 0,5 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Teva Pharma S.L.U. | Comercializada |
+| 82798 | ANAGRELIDA GLENMARK 0,5 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Glenmark Arzneimittel Gmbh | Comercializada |
+| 82631 | ANAGRELIDA STADA 0,5 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorio Stada S.L. | Comercializada |
+| 04295001 | XAGRID 0,5 MG CAPSULAS DURAS | CÁPSULA DURA | Takeda Pharmaceuticals International Ag Ireland Branch | Comercializada |
+| 83258 | ANAGRELIDA AUROVITAS 0.5 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Aurovitas Spain, S.A.U. | Autorizada, no comercializada |
+| 82672 | ANAGRELIDA TEVA 0,5 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Teva B.V. | Revocada |
+| 83063 | ANAGRELIDA URIACH 0,5 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Grupo J Uriach S.L. | Revocada |
+| 84711 | ANAGRELIDA AUROBINDO 0,5 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Aurobindo S.L.U. | Revocada |
+
+Se muestran 10 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

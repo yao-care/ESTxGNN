@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 602
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Paclitaxel: nueva indicación predicha, Parameningeal embryonal rhabdomyosarcoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 12 (comercializadas: 11; autorizadas no comercializadas: 1)"
@@ -98,13 +98,19 @@ Se muestran las publicaciones más relevantes, priorizando ensayos y revisiones.
 
 Existen 12 autorizaciones vigentes (todas de medicamentos con un solo principio activo). Los datos compilados no incluyen el texto de la indicación aprobada. Se muestran las 5 principales.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 73010 | Paclitaxel Accord 6 mg/ml EFG | Concentrado para solución para perfusión | No disponible en los datos compilados |
-| 66997 | Paclitaxel Teva 6 mg/ml EFG | Concentrado para solución para perfusión | No disponible en los datos compilados |
-| 66311 | Paclitaxel Hospira 6 mg/ml EFG | Concentrado para solución para perfusión | No disponible en los datos compilados |
-| 07428001 | Abraxane 5 mg/ml | Polvo para dispersión para perfusión | No disponible en los datos compilados |
-| 89649 | Bugvi 5 mg/ml EFG | Polvo para dispersión para perfusión | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 89649 | BUGVI 5 MG/ML POLVO PARA DISPERSION PARA PERFUSION EFG | POLVO PARA DISPERSIÓN PARA PERFUSIÓN | Laboratorio Stada S.L. | Comercializada |
+| 73010 | PACLITAXEL ACCORD 6 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 66997 | PACLITAXEL TEVA 6 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Teva Pharma S.L.U. | Comercializada |
+| 07428001 | ABRAXANE 5 MG/ML POLVO PARA DISPERSION PARA PERFUSION | POLVO PARA DISPERSIÓN PARA PERFUSIÓN | Bristol-Myers Squibb Pharma Eeig | Comercializada |
+| 1181317001 | PAZENIR 5 MG/ML POLVO PARA DISPERSION PARA PERFUSION EFG | POLVO PARA DISPERSIÓN PARA PERFUSIÓN | Ratiopharm Gmbh | Comercializada |
+
+Se muestran 5 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

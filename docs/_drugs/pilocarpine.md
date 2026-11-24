@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 636
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Pilocarpine: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,11 +72,17 @@ Todos los candidatos que el modelo TxGNN (puntuación ≥ 0,99) propone para Pil
 
 ## Información de Mercado en España
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 88757 | pilocarpina | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 61835 | pilocarpina | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 10955 | pilocarpina | COLIRIO EN SOLUCIÓN | Vigente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 88757 | PILOCARPINA APOTHEKE 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Apotheke Laboratorios S.L. | Comercializada |
+| 61835 | SALAGEN 5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Merus Labs Luxco Ii S.À.R.L. | Comercializada |
+| 10955 | COLIRCUSI PILOCARPINA 20 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Mizar Farmaceutica S.L. | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Benzocaine"
 predicted_indications: ["papillary conjunctivitis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Benzocaine: nueva indicación predicha, conjuntivitis papilar (papillary conjunctivitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 6)"
 ---
 
@@ -72,13 +72,22 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 65866 | TOPISPRAY 200mg/ml solución para pulverización bucal | Solución dental |
-| 69069 | TOPIGEL 200 mg/g gel bucal | Gel bucal |
-| 58609 | DENTISPRAY 50 mg/ml solución dental | Solución dental |
-| 59360 | HURRICAINE 200 mg/g gel bucal | Gel bucal |
-| 59359 | HURRICAINE SPRAY 200 mg/ml solución para pulverización bucal | Solución dental |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 69069 | TOPIGEL 200 MG/G GEL BUCAL | GEL BUCAL | Laboratorios Clarben S.A. | Comercializada |
+| 58609 | DENTISPRAY 50 mg/ml SOLUCION DENTAL | SOLUCIÓN DENTAL | Laboratorios Vinas S.A. | Comercializada |
+| 59360 | HURRICAINE 200 mg/g GEL BUCAL | GEL BUCAL | Laboratorios Clarben S.A. | Comercializada |
+| 59359 | HURRICAINE SPRAY 200 mg/ml SOLUCION PARA PULVERIZACION BUCAL | SOLUCIÓN DENTAL | Laboratorios Clarben S.A. | Comercializada |
+| 47137 | NANI PREDENTAL | GEL GINGIVAL | Laboratorios Alter S.A. | Comercializada |
+| 83169 | NORMOBUCAL 200 MG/ML SOLUCION PARA PULVERIZACION BUCAL | SOLUCIÓN PARA PULVERIZACIÓN BUCAL | Laboratorios Normon S.A. | Comercializada |
+| 65866 | TOPISPRAY 200mg/ml SOLUCION PARA PULVERIZACION BUCAL | SOLUCIÓN DENTAL | Laboratorios Clarben S.A. | Revocada |
+| 82851 | BENZOCAINA GOBENS 200 MG/ML SOLUCION PARA PULVERIZACION BUCAL | SOLUCIÓN PARA PULVERIZACIÓN BUCAL | Laboratorios Normon S.A. | Revocada |
+
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Los productos registrados son de administración bucal o gingival; no hay formulaciones oftálmicas entre ellos.
 

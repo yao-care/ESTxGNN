@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 807
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "toremifene"
 predicted_indications: ["HIV infectious disease"]
 description: "Toremifene: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 0; autorizadas no comercializadas: 2)"
@@ -43,7 +43,7 @@ El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pe
 
 <!-- review:begin es-lic-20261105-toremifene-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Toremifeno es un modulador selectivo de los receptores de estrógenos, comercializado en España como FARESTON 60 mg comprimidos. Según la información conocida de la clase, se emplea en cáncer de mama, aunque el texto de indicación de la autorización no está disponible en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 autorizaciones (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Toremifeno es un modulador selectivo de los receptores de estrógenos, comercializado en España como FARESTON 60 mg comprimidos. Según la información conocida de la clase, se emplea en cáncer de mama, aunque el texto de indicación de la autorización no está disponible en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-toremifene-1 -->
 
@@ -79,10 +79,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 96004001 | FARESTON 60 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
-| 96004002 | FARESTON 60 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 96004001 | FARESTON 60 mg COMPRIMIDOS | COMPRIMIDO | Orion Corporation | Autorizada, no comercializada |
+| 96004002 | FARESTON 60 mg COMPRIMIDOS | COMPRIMIDO | Orion Corporation | Autorizada, no comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones están vigentes, son de monofármaco y su titular es Orion Corporation.
 
@@ -123,7 +129,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "comercializado en España como FARESTON 60 mg comprimidos" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "comercializado en España como FARESTON 60 mg comprimidos" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Fareston (toremifene citrate) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2cab8dd1-3a10-48e6-86ce-0e5275ed49e5) |
 
 <!-- review:end log -->

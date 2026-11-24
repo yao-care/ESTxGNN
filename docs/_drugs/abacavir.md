@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ABACAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Abacavir: nueva indicación predicha, síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos lo…"
 ---
 
@@ -74,13 +74,22 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 85319 | Abacavir Accord 300 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No registrada en los datos locales |
-| 99112001 | Ziagen 300 mg comprimidos recubiertos con película | Comprimido recubierto | No registrada en los datos locales |
-| 84740 | Abacavir Tarbis 300 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No registrada en los datos locales |
-| 86115 | Abacavir Zentiva 300 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No registrada en los datos locales |
-| 99112002 | Ziagen 20 mg/ml solución oral | Solución oral | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 99112001 | ZIAGEN 300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO | Viiv Healthcare B.V. | Comercializada |
+| 84740 | ABACAVIR TARBIS 300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Comercializada |
+| 99112002 | ZIAGEN 20 MG/ML SOLUCION ORAL | SOLUCIÓN ORAL | Viiv Healthcare B.V. | Comercializada |
+| 81012 | ABACAVIR/LAMIVUDINA DR. REDDYS 600 MG/300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Reddy Pharma Iberia S.A. | Comercializada |
+| 85319 | ABACAVIR ACCORD 300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Revocada |
+| 86115 | ABACAVIR ZENTIVA 300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Zentiva K.S. | Revocada |
+| 84182 | ABACAVIR/LAMIVUDINA KERN PHARMA 600 MG/300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Revocada |
+| 82913 | ABACAVIR/LAMIVUDINA STADA 600 MG/300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Revocada |
+
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 538
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Moclobemide"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
 description: "Moclobemide: nueva indicación predicha, Agorafobia (agoraphobia) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -83,10 +83,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 59169 | MANERIX 150 comprimidos recubiertos con película | Comprimido recubierto | No disponible en los datos compilados |
-| 60824 | MANERIX 300 comprimidos recubiertos con película | Comprimido recubierto | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 59169 | MANERIX 150 COMPRIMIDOS RECUBIERTOS CON PELICULA. | COMPRIMIDO RECUBIERTO | Viatris Healthcare Limited | Comercializada |
+| 60824 | MANERIX 300 COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO | Viatris Healthcare Limited | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones corresponden a monofármaco, están vigentes y pertenecen a Viatris Healthcare Limited.
 

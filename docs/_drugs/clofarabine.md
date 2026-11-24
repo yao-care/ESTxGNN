@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 194
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clofarabine: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L1). Indicación original: Leucemia linfoblástica aguda (según la base de conocimiento del modelo"
 monitor_inn: "Clofarabine"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]
@@ -90,7 +90,7 @@ Se muestran las publicaciones más relevantes (de un total de 18 disponibles):
 
 <!-- review:begin es-lic-20261105-clofarabine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 10 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se listan las 5 primeras." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 autorizaciones (comercializadas: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 10 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se listan las 5 primeras." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-clofarabine-1 -->
 
@@ -111,13 +111,24 @@ Se muestran las publicaciones más relevantes (de un total de 18 disponibles):
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 83299 | Clofarabina Zentiva 1 mg/ml | Concentrado para solución para perfusión | No disponible |
-| 82208 | Clofarabina Teva 1 mg/ml | Concentrado para solución para perfusión | No disponible |
-| 06334002 | Evoltra 1 mg/ml | Concentrado para solución para perfusión | No disponible |
-| 86158 | Clofarabina Aurovitas 1 mg/ml | Concentrado para solución para perfusión | No disponible |
-| 82636 | Clofarabina Bioorganics 1 mg/ml | Concentrado para solución para perfusión | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 82208 | CLOFARABINA TEVA 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Teva Pharma S.L.U. | Comercializada |
+| 84596 | CLOFARABINA ACCORD 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 06334002 | EVOLTRA 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Sanofi B.V. | Autorizada, no comercializada |
+| 06334005 | EVOLTRA 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Sanofi B.V. | Autorizada, no comercializada |
+| 83299 | CLOFARABINA ZENTIVA 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Zentiva K.S. | Suspendida |
+| 86158 | CLOFARABINA AUROVITAS 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Aurovitas Spain, S.A.U. | Revocada |
+| 82636 | CLOFARABINA BIOORGANICS 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Bioorganics B.V. | Revocada |
+| 82174 | CLOFARABINA ARISTO 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Aristo Pharma Iberia S.L. | Revocada |
+| 1191396001 | IVOZALL 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Orphelia Pharma | Revocada |
+| 84707 | CLOFARABINA KOANAA 1 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Koanaa Healthcare Gmbh | Revocada |
+
+Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 
@@ -163,7 +174,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Hay 10 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se listan las 5 primeras" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Hay 10 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se listan las 5 primeras" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873) |
 
 <!-- review:end log -->

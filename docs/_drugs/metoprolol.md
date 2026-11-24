@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "METOPROLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Metoprolol: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 3)"
 ---
 
@@ -95,13 +95,19 @@ Se listan las publicaciones más relevantes de las 20 recuperadas; todas abordan
 
 Las 6 autorizaciones son de producto de un solo principio activo; los datos compilados no incluyen texto de indicación aprobada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Estado |
-|---------|------|------|-----------|
-| 82000 | Metoprolol Aurovitas 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Vigente |
-| 54503 | Lopresor 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | Vigente |
-| 56989 | Beloken 1 mg/ml solución inyectable | Solución inyectable | Vigente |
-| 61506 | Beloken Retard 95 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | Cancelada |
-| 55748 | Beloken 100 mg comprimidos | Comprimido | Cancelada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 82000 | METOPROLOL AUROVITAS 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 54503 | LOPRESOR 100 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Casen Recordati S.L. | Comercializada |
+| 56989 | BELOKEN 1 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Recordati Industria Chimica E Farmaceutica S.P.A. | Comercializada |
+| 61506 | BELOKEN RETARD 95 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Recordati Industria Chimica E Farmaceutica S.P.A. | Revocada |
+| 55748 | BELOKEN 100 mg COMPRIMIDOS | COMPRIMIDO | Recordati Industria Chimica E Farmaceutica S.P.A. | Revocada |
+
+Se muestran 5 de 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Hay una sexta autorización (81030, Metoprolol Krka Retard 95 mg, cancelada) no mostrada para respetar el límite de cinco filas.
 

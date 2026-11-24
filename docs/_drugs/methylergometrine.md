@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 514
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Methylergometrine: nueva indicación predicha, Hipertricosis (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (las autorizaciones no incluyen…"
 monitor_inn: "methylergometrine"
 predicted_indications: ["hypertrichosis (disease)", "pulmonary hypertension", "migraine disorder", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "kyphoscoliotic heart disease", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -91,10 +91,16 @@ Actualmente no hay literatura relacionada disponible para hipertricosis.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 78949 | METHERGIN 0,125 MG COMPRIMIDOS RECUBIERTOS | Comprimido recubierto | No disponible |
-| 25658 | METHERGIN 0,2 mg/ml SOLUCIÓN INYECTABLE | Solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 25658 | METHERGIN 0,2 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Essential Pharma Limited | Comercializada |
+| 78949 | METHERGIN 0,125 MG COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Essential Pharma Limited | Autorizada, no comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Amiodarone"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amiodarone: nueva indicación predicha, Taquicardia ventricular polimórfica catecolaminérgica (catecholaminergic polymorphic ventricular tachycardia) (nivel de evidencia L5)."
 ---
 
@@ -85,12 +85,18 @@ Las publicaciones recuperadas describen la enfermedad, pero ninguna evalúa amio
 
 Se registran 4 autorizaciones, de las cuales 3 están vigentes y 1 está cancelada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 81291 | AMIODARONA AUROVITAS 200 MG COMPRIMIDOS EFG | Comprimido | No registrada en los datos locales |
-| 54723 | TRANGOREX 150 mg / 3 ml SOLUCIÓN INYECTABLE | Solución inyectable | No registrada en los datos locales |
-| 85739 | AMIODARONA ACCORD 30 MG/ML CONCENTRADO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Solución inyectable y para perfusión en jeringa precargada | No registrada en los datos locales |
-| 48048 | TRANGOREX 200 mg COMPRIMIDOS | Comprimido | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 81291 | AMIODARONA AUROVITAS 200 MG COMPRIMIDOS EFG | COMPRIMIDO | Aurovitas Spain, S.A.U. | Comercializada |
+| 54723 | TRANGOREX 150 mg / 3 ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Sanofi Aventis S.A. | Comercializada |
+| 48048 | TRANGOREX 200 mg COMPRIMIDOS | COMPRIMIDO | Sanofi Aventis S.A. | Comercializada |
+| 85739 | AMIODARONA ACCORD 30 MG/ML CONCENTRADO PARA SOLUCION INYECTABLE Y PARA PERFUSION | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN EN JERINGA PRECARGADA | Accord Healthcare S.L.U. | Revocada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 688
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Regadenoson: nueva indicación predicha, Anafilaxia (nivel de evidencia L5). Indicación original: No disponible en la autorización de AEMPS (uso diagnóstico en MPI seg…"
 monitor_inn: "regadenoson"
 predicted_indications: ["anaphylaxis", "food-dependent exercise-induced anaphylaxis", "esotropia", "pseudoallergy"]
@@ -78,9 +78,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 110643001 | Rapiscan 400mcg solución inyectable (Ge Healthcare As) | Solución inyectable | Texto de indicación no disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 110643001 | Rapiscan 400mcg solucion inyectable | SOLUCIÓN INYECTABLE | Ge Healthcare As | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 332
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "fenticonazole"
 predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvitis", "herpetic vulvovaginitis"]
 description: "Fenticonazole: nueva indicación predicha, vulvovaginitis por tricomonas (trichomonal vulvovaginitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 6)"
@@ -75,13 +75,20 @@ La literatura vinculada se centra sobre todo en la candidiasis vulvovaginal y en
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61715 | LOMEXIN 600 mg cápsula vaginal blanda | Cápsula vaginal blanda | No disponible |
-| 61128 | LOMEXIN 20 mg/g crema | Crema | No disponible |
-| 61914 | LAURIMIC 200 mg cápsulas vaginales blandas | Cápsula vaginal blanda | No disponible |
-| 61915 | LAURIMIC 20 mg/g crema | Crema | No disponible |
-| 61916 | LAURIMIC 600 mg cápsula vaginal blanda | Cápsula vaginal blanda | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61715 | LOMEXIN 600 mg CAPSULA VAGINAL BLANDA | CÁPSULA VAGINAL BLANDA | Casen Recordati S.L. | Comercializada |
+| 61128 | LOMEXIN 20 MG/G CREMA | CREMA | Casen Recordati S.L. | Comercializada |
+| 61914 | LAURIMIC 200 MG CAPSULAS VAGINALES BLANDAS | CÁPSULA VAGINAL BLANDA | Laboratorios Effik S.A. | Comercializada |
+| 61915 | LAURIMIC 20 MG/G CREMA | CREMA | Laboratorios Effik S.A. | Comercializada |
+| 61916 | LAURIMIC 600 MG CAPSULA VAGINAL BLANDA | CÁPSULA VAGINAL BLANDA | Laboratorios Effik S.A. | Comercializada |
+| 61126 | LOMEXIN 200 mg CAPSULAS VAGINALES BLANDAS | CÁPSULA VAGINAL BLANDA | Casen Recordati S.L. | Comercializada |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Existe una autorización adicional (61126, LOMEXIN 200 mg cápsulas vaginales blandas). Las 6 autorizaciones están vigentes.
 

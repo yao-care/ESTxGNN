@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Bromocriptine"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "syndromic myopia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bromocriptine: nueva indicación predicha, Defecto congénito de glicosilación con fucosilación defectuosa (congenital disorder of glycosylation with defective fuc… (nivel de evidencia L5). Indicación …"
 ---
 
@@ -72,10 +72,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 54633 | PARLODEL 2,5 mg COMPRIMIDOS | Comprimido |
-| 56200 | PARLODEL 5 mg CÁPSULAS | Cápsula dura |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 54633 | PARLODEL 2,5 mg COMPRIMIDOS | COMPRIMIDO | Exeltis Healthcare S.L. | Comercializada |
+| 56200 | PARLODEL 5 mg CAPSULAS | CÁPSULA DURA | Exeltis Healthcare S.L. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

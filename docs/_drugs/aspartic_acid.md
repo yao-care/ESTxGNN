@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "aspartic acid"
 predicted_indications: ["renal tubular acidosis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Aspartic Acid: nueva indicación predicha, acidosis tubular renal (renal tubular acidosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
@@ -77,9 +77,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 48924 | BOI-K ASPARTICO COMPRIMIDOS EFERVESCENTES | Comprimido efervescente | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 48924 | BOI-K ASPARTICO COMPRIMIDOS EFERVESCENTES | COMPRIMIDO EFERVESCENTE | Ionfarma S.L. | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

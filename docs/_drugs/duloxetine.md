@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 270
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Duloxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
 description: "Duloxetine: nueva indicación predicha, Benign paroxysmal torticollis of infancy (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -98,13 +98,24 @@ La evidencia es indirecta: estudios abiertos o pequeños en trastorno de pánico
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 82593 | Dulotex 30 mg comprimidos gastrorresistentes | Comprimido gastrorresistente | Texto de indicación no disponible |
-| 04296006 | Cymbalta 30 mg cápsulas duras gastrorresistentes | Cápsula gastrorresistente | Texto de indicación no disponible |
-| 04296002IP2 | Cymbalta 60 mg cápsulas duras gastrorresistentes | Cápsula dura gastrorresistente | Texto de indicación no disponible |
-| 04280003 | Yentreve 40 mg cápsulas duras gastrorresistentes | Cápsula dura gastrorresistente | Texto de indicación no disponible |
-| 88002 | Duloxetina Cinfamed 120 mg cápsulas duras gastrorresistentes | Cápsula dura gastrorresistente | Texto de indicación no disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 82593 | DULOTEX 30 MG COMPRIMIDOS GASTRORRESISTENTES | COMPRIMIDO GASTRORRESISTENTE | Neuraxpharm Spain S.L. | Comercializada |
+| 04296002IP2 | CYMBALTA 60 MG CAPSULAS DURAS GASTRORRESISTENTES | CÁPSULA DURA GASTRORRESISTENTE | Eli Lilly Nederland B.V. | Comercializada |
+| 80544 | DULOXETINA VIR 30 MG CAPSULAS DURAS GASTRORRESISTENTES EFG | CÁPSULA DURA GASTRORRESISTENTE | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 79676 | DULOXETINA KRKA 60 MG CAPSULAS DURAS GASTRORRESISTENTES EFG | CÁPSULA DURA GASTRORRESISTENTE | Krka D.D. Novo Mesto | Comercializada |
+| 88002 | DULOXETINA CINFAMED 120 MG CAPSULAS DURAS GASTRORRESISTENTES | CÁPSULA DURA GASTRORRESISTENTE | Laboratorios Cinfa S.A. | Comercializada |
+| 80145 | DULOXETINA STADA 30 MG CAPSULAS DURAS GASTRORRESISTENTES EFG | CÁPSULA DURA GASTRORRESISTENTE | Laboratorio Stada S.L. | Comercializada |
+| 86427 | DULOXETINA TARBIS FARMA 60 MG CAPSULAS DURAS GASTRORRESISTENTES EFG | CÁPSULA DURA GASTRORRESISTENTE | Tarbis Farma S.L. | Comercializada |
+| 86280 | DULOXETINA CINFAMED 30 MG CAPSULAS DURAS GASTRORRESISTENTES EFG | CÁPSULA DURA GASTRORRESISTENTE | Laboratorios Cinfa S.A. | Comercializada |
+| 86468 | DULOXETINA STADAGEN 60 MG CAPSULAS DURAS GASTRORRESISTENTES EFG | CÁPSULA DURA GASTRORRESISTENTE | Laboratorio Stada S.L. | Comercializada |
+| 3400930020609 | XERISTAR 30 MG CAPSULAS DURAS GASTRORRESISTENTES EFG | CÁPSULA DURA GASTRORRESISTENTE | Biogaran | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

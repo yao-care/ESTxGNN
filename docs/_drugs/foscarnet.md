@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FOSCARNET"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "rheumatoid arthritis", "diabetic nephropathy"]
 description: "Foscarnet: nueva indicación predicha, Síndrome de hematuria familiar autosómico dominante con tortuosidad arteriolar retiniana y contracturas (autosomal domi… (nivel de evidencia L5). Indicación orig…"
@@ -73,11 +73,17 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 88760 | Foscarnet Tillomed 24 mg/ml solución para perfusión EFG | Solución para perfusión | No disponible |
-| 59712 | Foscavir 24 mg/ml solución para perfusión | Solución para perfusión | No disponible |
-| 85153 | Foscarnet Kabi 24 mg/ml solución para perfusión EFG | Solución para perfusión | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 59712 | FOSCAVIR 24 mg/ml SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | Clinigen Healthcare B.V. | Comercializada |
+| 85153 | FOSCARNET KABI 24 MG/ML SOLUCION PARA PERFUSION EFG | SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Comercializada |
+| 88760 | FOSCARNET TILLOMED 24 MG/ML SOLUCION PARA PERFUSION EFG | SOLUCIÓN PARA PERFUSIÓN | Laboratorios Tillomed Spain S.L.U | Autorizada, no comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 474
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lipegfilgrastim: nueva indicación predicha, Trastorno primario de liberación plaquetaria (primary release disorde… (nivel de evidencia L5). Indicación original: No disponible en los datos compilados …"
 monitor_inn: "LIPEGFILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "severe nonproliferative diabetic retinopathy", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "diabetic retinopathy"]
@@ -43,7 +43,7 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de
 
 <!-- review:begin es-lic-20261105-lipegfilgrastim-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Lipegfilgrastim es un análogo pegilado del factor estimulante de colonias de granulocitos (G-CSF), comercializado en España con el nombre Lonquex. En los datos compilados para este informe no consta el texto de su indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 autorizaciones (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Lipegfilgrastim es un análogo pegilado del factor estimulante de colonias de granulocitos (G-CSF), comercializado en España con el nombre Lonquex. En los datos compilados para este informe no consta el texto de su indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-lipegfilgrastim-1 -->
 
@@ -77,10 +77,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 113856001 | Lonquex 6 mg solución inyectable | Solución inyectable | No disponible |
-| 1130856004 | LONQUEX 6 MG/0,6 ML solución inyectable | Solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 113856001 | Lonquex 6mg solucion inyectable | SOLUCIÓN INYECTABLE | Teva B.V. | Autorizada, no comercializada |
+| 1130856004 | LONQUEX 6 MG/0,6 ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Teva B.V. | Autorizada, no comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones corresponden al titular Teva B.V. y están vigentes (monofármaco).
 
@@ -120,7 +126,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "comercializado en España con el nombre Lonquex" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "comercializado en España con el nombre Lonquex" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230) |
 
 <!-- review:end log -->

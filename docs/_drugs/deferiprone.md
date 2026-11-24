@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 230
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Deferiprone"
 predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
 description: "Deferiprone: nueva indicación predicha, Porfiria hepática (hepatic porphyria) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -75,10 +75,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 99108001 | FERRIPROX 500 mg comprimidos con cubierta pelicular | Comprimido recubierto | No disponible en los datos compilados |
-| 99108003 | FERRIPROX 100 mg/ml solución oral | Solución oral | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 99108001 | FERRIPROX 500 mg COMPRIMIDOS CON CUBIERTA PELICULAR | COMPRIMIDO RECUBIERTO | Chiesi Farmaceutici S.P.A. | Comercializada |
+| 99108003 | FERRIPROX 100 MG/ML SOLUCION ORAL | SOLUCIÓN ORAL | Chiesi Farmaceutici S.P.A. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

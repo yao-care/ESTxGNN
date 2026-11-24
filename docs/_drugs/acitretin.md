@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 21
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acitretin: nueva indicación predicha, Acné (enfermedad) (nivel de evidencia L3). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "acitretin"
 predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
@@ -94,12 +94,18 @@ El puntaje TxGNN de 0.9994 probablemente refleja la pertenencia a la clase de lo
 
 ## Información de Mercado en España
 
-| Numero de Autorizacion | Nombre del Producto | Forma Farmaceutica | Indicacion Aprobada |
-|---------|------|------|-----------|
-| 60303 | NEOTIGASON 10 MG CAPSULAS DURAS | Cápsula dura | No disponible |
-| 74726 | ACITRETINA IFC 25 mg CAPSULAS DURAS EFG | Cápsula dura | No disponible |
-| 60302 | NEOTIGASON 25 MG CAPSULAS DURAS | Cápsula dura | No disponible |
-| 74727 | ACITRETINA IFC 10 mg CAPSULAS DURAS EFG | Cápsula dura | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 60303 | NEOTIGASON 10 MG CAPSULAS DURAS | CÁPSULA DURA | Aurovitas Spain, S.A.U. | Comercializada |
+| 74726 | ACITRETINA IFC 25 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Industrial Farmaceutica Cantabria S.A. | Comercializada |
+| 60302 | NEOTIGASON 25 MG CAPSULAS DURAS | CÁPSULA DURA | Aurovitas Spain, S.A.U. | Comercializada |
+| 74727 | ACITRETINA IFC 10 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Industrial Farmaceutica Cantabria S.A. | Comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

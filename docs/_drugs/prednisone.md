@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 659
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Prednisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). En España, autorizaciones de la AEMPS: al menos 20"
@@ -85,13 +85,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 La prednisona está comercializada en España, con 16 autorizaciones vigentes y 4 canceladas entre los registros disponibles (la lista puede ser parcial).
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 70107 | PREDNISONA KERN PHARMA 10 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
-| 47863 | DACORTIN 2,5 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
-| 57819 | DACORTIN 30 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
-| 84018 | RECTODELT 100 MG SUPOSITORIOS EFG | Supositorio | No disponible en los datos compilados |
-| 58336 | PREDNISONA ALONGA 50 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 70107 | PREDNISONA KERN PHARMA 10 mg COMPRIMIDOS | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
+| 47863 | DACORTIN 2,5 mg COMPRIMIDOS | COMPRIMIDO | Laboratorios Ern S.A. | Comercializada |
+| 70106 | PREDNISONA KERN PHARMA 5 mg COMPRIMIDOS EFG | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
+| 75634 | PREDNISONA TARBIS 2,5 mg COMPRIMIDOS EFG | COMPRIMIDO | Tarbis Farma S.L. | Comercializada |
+| 57819 | DACORTIN 30 mg COMPRIMIDOS | COMPRIMIDO | Laboratorios Ern S.A. | Comercializada |
+| 75677 | PREDNISONA TARBIS 30 mg COMPRIMIDOS EFG | COMPRIMIDO | Tarbis Farma S.L. | Comercializada |
+| 75647 | PREDNISONA CINFA 5 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 75644 | PREDNISONA CINFA 2,5 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 75649 | PREDNISONA CINFA 10 mg COMPRIMIDOS | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 70162 | PREDNISONA PENSA 5 mg COMPRIMIDOS EFG | COMPRIMIDO | Towa Pharmaceutical S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

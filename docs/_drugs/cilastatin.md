@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 180
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
 description: "Cilastatin: nueva indicación predicha, Infección por Staphylococcus aureus (staphylococcus aureus infection) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 9 (comercializadas: 5; autorizadas no comercializadas: 2)"
@@ -99,17 +99,27 @@ Los datos disponibles no incluyen el texto de la indicación aprobada.
 
 <!-- review:begin es-lic-20261105-cilastatin-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 9 autorizaciones vigentes, todas en forma de polvo para solución para perfusión. Los datos disponibles no incluyen el texto de la indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 autorizaciones (comercializadas: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se listan 5 de las 9 autorizaciones vigentes, todas en forma de polvo para solución para perfusión. Los datos disponibles no incluyen el texto de la indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-cilastatin-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 71285 | Imipenem/Cilastatina Kabi 500 mg/500 mg EFG | Polvo para solución para perfusión | Fresenius Kabi España |
-| 82045 | Imipenem/Cilastatina ELC 250 mg/250 mg EFG | Polvo para solución para perfusión | Elc Group S.R.O. |
-| 84189 | Imipenem/Cilastatina Hikma 500 mg/500 mg EFG | Polvo para solución para perfusión | Hikma Farmacêutica (Portugal) |
-| 90726 | Enaros 500 mg/500 mg EFG | Polvo para solución para perfusión | Medochemie Limited |
-| 72637 | Imipenem/Cilastatina Aurovitas 500 mg/500 mg EFG | Polvo para solución para perfusión | Eugia Pharma (Malta) |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 71285 | IMIPENEM/CILASTATINA KABI 500 mg/500 mg POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Comercializada |
+| 84189 | IMIPENEM/CILASTATINA HIKMA 500 MG/500 MG POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Hikma Farmaceutica (Portugal) S.A. | Comercializada |
+| 90726 | ENAROS 500 MG/500 MG POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Medochemie Limited | Comercializada |
+| 72637 | IMIPENEM/CILASTATINA AUROVITAS 500 mg/500 mg POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Eugia Pharma (Malta) Limited | Comercializada |
+| 1191420001 | RECARBRIO 500 mg/500 mg/250 mg POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Merck Sharp & Dohme B.V. | Comercializada |
+| 90727 | IMIPENEM/CILASTATINA NORIDEM 500 MG/500 MG POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Noridem Enterprises Limited | Autorizada, no comercializada |
+| 89645 | IMIPENEM/CILASTATINA STERISCIENCE 500 MG/500 MG POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Steriscience B.V. | Autorizada, no comercializada |
+| 82045 | IMIPENEM/CILASTATINA ELC 250 MG/250 MG POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Elc Group S.R.O. | Revocada |
+| 82046 | IMIPENEM/CILASTATINA ELC 500 MG/500 MG POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Elc Group S.R.O. | Revocada |
+
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 
@@ -144,7 +154,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se listan 5 de las 9 autorizaciones vigentes, todas en forma de polvo para solución para perfusión" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se listan 5 de las 9 autorizaciones vigentes, todas en forma de polvo para solución para perfusión" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 788
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tezacaftor: nueva indicación predicha, Infección por VIH (nivel de evidencia L5). Indicación original: Fibrosis quística"
 monitor_inn: "tezacaftor"
 predicted_indications: ["HIV infectious disease", "leprosy", "multiple endocrine neoplasia"]
@@ -78,13 +78,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 1181306001 | Symkevi 100 mg/150 mg | Comprimido recubierto con película |
-| 1181306002 | Symkevi 50 mg/75 mg | Comprimido recubierto con película |
-| 1201468001 | Kaftrio 75 mg/50 mg/100 mg | Comprimido recubierto con película |
-| 1201468002 | Kaftrio 37,5 mg/25 mg/50 mg | Comprimido recubierto con película |
-| 1201468003 | Kaftrio 60 mg/40 mg/80 mg | Granulado en sobre |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1181306001 | SYMKEVI 100 MG/150 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vertex Pharmaceuticals (Ireland) Limited | Comercializada |
+| 1181306002 | SYMKEVI 50 mg/75 mg COMPRIMDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vertex Pharmaceuticals (Ireland) Limited | Comercializada |
+| 1201468003 | KAFTRIO 60 MG/40 MG/80 MG GRANULADO EN SOBRE | GRANULADO EN SOBRE | Vertex Pharmaceuticals (Ireland) Limited | Comercializada |
+| 1201468001 | KAFTRIO 75 MG/50 MG/100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vertex Pharmaceuticals (Ireland) Limited | Comercializada |
+| 1251943001 | ALYFTREK 50 MG/20 MG/4 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vertex Pharmaceuticals (Ireland) Limited | Comercializada |
+
+Se muestran 5 de 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 8 autorizaciones vigentes (todas del titular Vertex Pharmaceuticals (Ireland) Limited); las restantes corresponden a Kaftrio 75 mg/50 mg/100 mg granulado y a Alyftrek (50/20/4 mg y 125/50/10 mg). El texto de indicación aprobada no figura en los datos compilados para este informe.
 

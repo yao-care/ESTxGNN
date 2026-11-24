@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Deanol: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: No disponible en la autorización de la AEMPS"
 monitor_inn: "deanol"
 predicted_indications: ["insomnia (disease)"]
@@ -82,9 +82,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 49691 | DENUBIL 250 mg/180 mg SOLUCIÓN ORAL (Pierre Fabre Ibérica S.A.) | Solución oral | No especificada en los datos disponibles |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 49691 | DENUBIL 250 mg/180 mg SOLUCION ORAL | SOLUCIÓN ORAL | Pierre Fabre Iberica S.A. | Revocada |
+| 54990 | MENTIS | CÁPSULA DURA | A. Menarini Latin America S.L. | Revocada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

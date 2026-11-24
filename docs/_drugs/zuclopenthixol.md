@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 869
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "zuclopenthixol"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Zuclopenthixol: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) (nivel de evidencia L5). Indicación original…"
@@ -85,13 +85,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 6816281CIP | CLOPIXOL DEPOT 200 MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | No disponible en los datos compilados |
-| 60873 | CLOPIXOL 25 mg COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | No disponible en los datos compilados |
-| 60875 | CLOPIXOL ACUFASE 50 mg/ml SOLUCIÓN INYECTABLE | Solución inyectable | No disponible en los datos compilados |
-| 60872 | CLOPIXOL 10 mg COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | No disponible en los datos compilados |
-| 6816281C | CLOPIXOL DEPOT 200 MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 6816281CIP | CLOPIXOL DEPOT 200 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | H. Lundbeck A/S | Comercializada |
+| 60873 | CLOPIXOL 25 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Lundbeck Espana S.A. | Comercializada |
+| 60875 | CLOPIXOL ACUFASE 50 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Lundbeck Espana S.A. | Comercializada |
+| 60872 | CLOPIXOL 10 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Lundbeck Espana S.A. | Comercializada |
+| 6816281C | CLOPIXOL DEPOT 200 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | H. Lundbeck A/S | Comercializada |
+
+Se muestran 5 de 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 8 autorizaciones vigentes (todas de medicamento único, ninguna cancelada). Las otras tres corresponden a gotas orales 20 mg/ml (60871) y a otras presentaciones de Clopixol Depot (60874 y BE104736).
 

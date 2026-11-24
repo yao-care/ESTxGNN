@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 185
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "citric acid"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
 description: "Citric Acid: nueva indicación predicha, Enfermedad del estómago (stomach disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 18 (comercializadas: 10; autorizadas no comercializadas: 4)"
@@ -85,13 +85,19 @@ Ninguna de las publicaciones evalúa el ácido cítrico como tratamiento de la e
 
 Se muestran las principales licencias válidas. La indicación aprobada no está registrada en los datos locales.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 43081 | URALYT-URATO, granulado para solución oral | Granulado para solución oral | No disponible |
-| 57192 | DUCUNN 1.871 mg/1.398 mg granulado efervescente | Granulado efervescente | No disponible |
-| 88845 | CITRAFLEET solución oral | Solución oral | No disponible |
-| 72279 | PICOPREP polvo para solución oral | Polvo para solución oral | No disponible |
-| 55299 | SAL DE FRUTA ENO polvo efervescente sabor limón | Polvo efervescente | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 3400938416459 | CITRAFLEET POLVO PARA SOLUCION ORAL EN SOBRES | POLVO PARA SOLUCIÓN ORAL | Casen Recordati S.L. | Comercializada |
+| 5073317IP1 | CITRAFLEET POLVO PARA SOLUCION ORAL EN SOBRES | POLVO PARA SOLUCIÓN ORAL | Casen Recordati S.L. | Comercializada |
+| 038254013 | CITRAFLEET POLVO PARA SOLUCION ORAL EN SOBRES | POLVO PARA SOLUCIÓN ORAL | Casen Recordati S.L. | Comercializada |
+| 5073317IP | CITRAFLEET POLVO PARA SOLUCION ORAL EN SOBRE | POLVO PARA SOLUCIÓN ORAL | Casen Recordati S.L. | Comercializada |
+| 88845 | CITRAFLEET SOLUCION ORAL | SOLUCIÓN ORAL | Casen Recordati S.L. | Comercializada |
+
+Se muestran 5 de 18 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

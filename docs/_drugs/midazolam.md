@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 525
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
 description: "Midazolam: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: al menos 20"
@@ -83,13 +83,24 @@ Además, estudios clínicos de las décadas de 1980 y 1990 (búsqueda de dosis c
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 11709002 | Buccolam 5 mg solución bucal | Solución bucal | No disponible en los datos compilados |
-| 63936 | Midazolam Normon 1 mg/ml solución inyectable y para perfusión EFG | Solución inyectable | No disponible en los datos compilados |
-| 65375 | Midazolam Sala 15 mg/3 ml solución inyectable EFG | Solución inyectable | No disponible en los datos compilados |
-| 84339 | Midazolam Sun 1 mg/ml solución inyectable y para perfusión en jeringa precargada | Solución inyectable y para perfusión en jeringa precargada | No disponible en los datos compilados |
-| 68903 | Midazolam B. Braun 5 mg/ml solución para inyección/perfusión EFG | Solución inyectable y para perfusión | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 11709002 | BUCCOLAM 5 MG SOLUCION BUCAL | SOLUCIÓN BUCAL | Neuraxpharm Pharmaceuticals S.L. | Comercializada |
+| 63936 | MIDAZOLAM NORMON 1 MG/ML SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN EFG | SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 68903 | MIDAZOLAM B. BRAUN 5 mg/ml SOLUCION PARA INYECCION/PERFUSION EFG | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | B. Braun Melsungen Ag | Comercializada |
+| 85758 | OROXELAM 5 MG SOLUCION BUCAL | SOLUCIÓN BUCAL | Exeltis Healthcare S.L. | Comercializada |
+| 85757 | OROXELAM 2,5 MG SOLUCION BUCAL | SOLUCIÓN BUCAL | Exeltis Healthcare S.L. | Comercializada |
+| 11709004 | BUCCOLAM 10 MG SOLUCION BUCAL | SOLUCIÓN BUCAL | Neuraxpharm Pharmaceuticals S.L. | Comercializada |
+| 11709003 | BUCCOLAM 7,5 MG SOLUCION BUCAL | SOLUCIÓN BUCAL | Neuraxpharm Pharmaceuticals S.L. | Comercializada |
+| 85756 | OROXELAM 10 MG SOLUCION BUCAL | SOLUCIÓN BUCAL | Exeltis Healthcare S.L. | Comercializada |
+| 85759 | OROXELAM 7,5 MG SOLUCION BUCAL | SOLUCIÓN BUCAL | Exeltis Healthcare S.L. | Comercializada |
+| 90336 | MIDAZOLAM AGUETTANT 1 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Laboratoire Aguettant | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Las presentaciones son bucales (Buccolam, Oroxelam) e inyectables; no hay forma oral para insomnio.
 

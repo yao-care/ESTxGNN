@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 682
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "mature cataract", "tetanic cataract", "immature cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
 description: "Ranibizumab: nueva indicación predicha, Diabetes mellitus type 2 associated cataract (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 11 (comercializadas: 8; autorizadas no comercializadas: 3)"
@@ -87,13 +87,19 @@ Se listan las 10 publicaciones más relevantes (prioridad: ECA y análisis de EC
 
 Se listan 5 de las 11 autorizaciones vigentes (todas de principio activo único). El texto de la indicación aprobada no está disponible en los datos compilados.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 106374004 | Lucentis 10 mg/ml solución inyectable | Solución inyectable | No disponible |
-| 106374003 | Lucentis 10 mg/ml solución inyectable en jeringa precargada | Solución inyectable | No disponible |
-| 1211572001 | Byooviz 10 mg/ml solución inyectable | Solución inyectable | No disponible |
-| 1221673001 | Ranivisio 10 mg/ml solución inyectable | Solución inyectable | No disponible |
-| 1252012001 | Ranluspec 10 mg/ml solución inyectable | Solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1221691001 | XIMLUCI 10 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Stada Arzneimittel Ag | Comercializada |
+| 1221673001 | RANIVISIO 10 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Midas Pharma Gmbh | Comercializada |
+| 106374003IP | LUCENTIS 10 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Novartis Europharm Limited | Comercializada |
+| 1252012001 | RANLUSPEC 10 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Lupin Europe Gmbh | Comercializada |
+| 1211572003 | BYOOVIZ 10 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Samsung Bioepis Nl B.V. | Comercializada |
+
+Se muestran 5 de 11 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

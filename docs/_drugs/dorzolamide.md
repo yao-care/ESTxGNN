@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 262
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
 description: "Dorzolamide: nueva indicación predicha, Hypotrichosis simplex of the scalp (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 4; autorizadas no comercializadas: 1)"
@@ -97,13 +97,19 @@ No hay literatura disponible específica para glaucoma hereditario primario. Com
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 75621 | Dorzolamida Farmalider 20 mg/ml colirio en solución | Colirio en solución | No disponible |
-| 77776 | Arzolan 20 mg/ml colirio en solución | Colirio en solución | No disponible |
-| 86764 | Dimaz 20 mg/ml colirio en solución | Colirio en solución | No disponible |
-| 60651 | Trusopt 20 mg/ml colirio en solución | Colirio en solución | No disponible |
-| 72752 | Dorzolamida Aristo 20 mg/ml colirio en solución | Colirio en solución | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 77776 | ARZOLAN 20 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Tiedra Farmaceutica S.L. | Comercializada |
+| 86764 | DIMAZ 20 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Brill Pharma S.L. | Comercializada |
+| 60651 | TRUSOPT 20 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Santen Oy | Comercializada |
+| 72752 | DORZOLAMIDA ARISTO 20 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Aristo Pharma Iberia S.L. | Comercializada |
+| 75621 | DORZOLAMIDA FARMALIDER 20 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Farmalider S.A. | Autorizada, no comercializada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

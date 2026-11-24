@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Diphenhydramine: nueva indicación predicha, Conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 5)"
@@ -79,7 +79,7 @@ Actualmente no hay literatura relacionada disponible.
 
 <!-- review:begin es-lic-20261105-diphenhydramine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Existen 8 autorizaciones vigentes en total (todas de composición simple); se muestran las 5 principales." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 autorizaciones (comercializadas: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Existen 8 autorizaciones vigentes en total (todas de composición simple); se muestran las 5 principales." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-diphenhydramine-1 -->
 
@@ -87,13 +87,22 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 83596 | Difenhidramina Omega Pharma 50 mg comprimidos | Comprimido | No disponible en los datos |
-| 61459 | Neosayomol 20 mg/g crema | Crema | No disponible en los datos |
-| 38322 | Soñodor Difenhidramina 50 mg comprimidos | Comprimido | No disponible en los datos |
-| 80485 | Dolomidina 500/25 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-| 84763 | Antidol Noche 500 mg/25 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61459 | NEOSAYOMOL 20 mg/ g CREMA | CREMA | Laboratorios Cinfa S.A. | Comercializada |
+| 38322 | SOÑODOR DIFENHIDRAMINA 50 mg COMPRIMIDOS | COMPRIMIDO | Laboratorios Urgo S.L. | Comercializada |
+| 85664 | CINFATOS NOCHE 1,33 MG/ML + 2 MG/ML SOLUCION ORAL | SOLUCIÓN ORAL | Laboratorios Cinfa S.A. | Comercializada |
+| 69543 | BISOLVON ANTITUSIVO COMPOSITUM 3 mg/ml + 1,5 mg/ml SOLUCION ORAL | SOLUCIÓN ORAL | Opella Healthcare Spain S.L. | Comercializada |
+| 37653 | PAIDOTERIN DESCONGESTIVO JARABE | JARABE | Laboratorio Aldo Union S.L. | Comercializada |
+| 80485 | DOLOMIDINA 500/25MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Esteve Pharmaceuticals S.A. | Suspendida |
+| 83596 | DIFENHIDRAMINA OMEGA PHARMA 50 MG COMPRIMIDOS | COMPRIMIDO | Omega Pharma España, S.A. | Revocada |
+| 84763 | ANTIDOL NOCHE 500 MG/25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Revocada |
+
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 
@@ -130,7 +139,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Existen 8 autorizaciones vigentes en total (todas de composición simple); se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Existen 8 autorizaciones vigentes en total (todas de composición simple); se muestran las 5 principales" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: diphenhydramine hydrochloride prescribing information, Henry Schein, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af972e71-62ab-40c6-925a-cbcb4d6720a4) |
 
 <!-- review:end log -->

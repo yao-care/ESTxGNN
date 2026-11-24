@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 493
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Manidipine: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L5). Indicación original: No disponible en las autorizaciones de la AEMPS (el texto de indicaci…"
 monitor_inn: "manidipine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "benign prostatic hyperplasia (disease)", "atrophoderma vermiculata"]
@@ -98,13 +98,24 @@ Para la cuarta indicación predicha (hipertensión pulmonar) se recuperaron tres
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 73352 | Manidipino Viatris 20 mg comprimidos EFG | Comprimido | No disponible |
-| 75033 | Manidipino Kern Pharma 20 mg comprimidos EFG | Comprimido | No disponible |
-| 75034 | Manidipino Vir 10 mg comprimidos EFG | Comprimido | No disponible |
-| 77260 | Manidipino Combix 20 mg comprimidos EFG | Comprimido | No disponible |
-| 64634 | Artedil 10 mg comprimidos | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 73352 | MANIDIPINO VIATRIS 20 MG COMPRIMIDOS EFG | COMPRIMIDO | Viatris Limited | Comercializada |
+| 75033 | MANIDIPINO KERN PHARMA 20 mg COMPRIMIDOS EFG | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
+| 75034 | MANIDIPINO VIR 10 mg COMPRIMIDOS EFG | COMPRIMIDO | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 77260 | MANIDIPINO COMBIX 20 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Combix S.L.U. | Comercializada |
+| 73511 | MANIDIPINO TEVA 20 mg COMPRIMIDOS EFG | COMPRIMIDO | Teva Pharma S.L.U. | Comercializada |
+| 10268-12-02-2007 | ARTEDIL 20 mg COMPRIMIDOS | COMPRIMIDO | Chiesi Hellas S.A. | Comercializada |
+| 73311 | MANIDIPINO STADA 20 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Comercializada |
+| 75035 | MANIDIPINO VIR 20 mg COMPRIMIDOS EFG | COMPRIMIDO | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 73231 | MANIDIPINO CINFA 10 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 73229 | MANIDIPINO NORMON 10 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

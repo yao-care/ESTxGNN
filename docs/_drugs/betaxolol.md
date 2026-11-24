@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 100
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Betaxolol: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,9 +72,15 @@ Todos los candidatos que el modelo TxGNN propone para Betaxolol, y que se pueden
 
 ## Información de Mercado en España
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 61015 | betaxolol | COLIRIO EN SUSPENSIÓN | Vigente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61015 | BETOPTIC SUSPENSIÓN 2,5 MG/ML COLIRIO EN SUSPENSIÓN | COLIRIO EN SUSPENSIÓN | Immedica Pharma Ab | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

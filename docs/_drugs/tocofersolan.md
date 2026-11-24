@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 802
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tocofersolan: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en los datos de la autorización de AEMPS"
 monitor_inn: "tocofersolan"
 predicted_indications: ["amenorrhea (disease)", "acne (disease)"]
@@ -73,10 +73,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 09533002 | VEDROP 50 MG/ML EN SOLUCIÓN ORAL | Solución oral | No disponible |
-| 09533003 | VEDROP 50 MG/ML EN SOLUCIÓN ORAL | Solución oral | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 09533002 | VEDROP 50 MG/ML EN SOLUCION ORAL | SOLUCIÓN ORAL | Recordati Rare Diseases | Comercializada |
+| 09533003 | VEDROP 50 MG/ML EN SOLUCION ORAL | SOLUCIÓN ORAL | Recordati Rare Diseases | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones corresponden a monofármaco, están vigentes y pertenecen a Recordati Rare Diseases. La vía de administración es oral.
 

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 263
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Doxazosin"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 description: "Doxazosin: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: al menos 20"
@@ -92,13 +92,24 @@ Se trata de una serie de casos pequeña y sin control, con valor limitado como e
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 75010 | Doxazosina Neo Viatris 4 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | No disponible |
-| 70679 | Doxazosina Neo Aurovitas Spain 4 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | No disponible |
-| 62930 | Progandol Neo 8 mg comprimidos de liberación modificada | Comprimido de liberación modificada | No disponible |
-| 58861 | Progandol 4 mg comprimidos | Comprimido | No disponible |
-| 3400937625784 | Carduran Neo 8 mg comprimidos de liberación modificada | Comprimido de liberación prolongada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 75010 | DOXAZOSINA NEO VIATRIS 4 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Viatris Limited | Comercializada |
+| 70679 | DOXAZOSINA NEO AUROVITAS SPAIN 4 mg COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Aurovitas Spain, S.A.U. | Comercializada |
+| 58861 | PROGANDOL 4 mg COMPRIMIDOS | COMPRIMIDO | Almirall S.A. | Comercializada |
+| 3400937625784 | CARDURAN NEO 8 MG COMPRIMIDOS DE LIBERACION MODIFICADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Viatris Up | Comercializada |
+| 74978 | DOXAZOSINA NEO TEVA-RATIOPHARM 8 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Teva Pharma S.L.U. | Comercializada |
+| 81504 | DOXAZOSINA AUROVITAS 2 MG COMPRIMIDOS EFG | COMPRIMIDO | Aurovitas Spain, S.A.U. | Comercializada |
+| 63215 | DOXAZOSINA ALTER 2 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Alter S.A. | Comercializada |
+| 75009 | DOXAZOSINA NEO CINFA 4 MG COMPRIMIDOS DE LIBERACIÓN PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Laboratorios Cinfa S.A. | Comercializada |
+| 74986 | DOXAZOSINA NEO CINFA 8 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Laboratorios Cinfa S.A. | Comercializada |
+| 62655 | CARDURAN NEO 4 mg COMPRIMIDOS DE LIBERACION MODIFICADA | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Viatris Healthcare Limited | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

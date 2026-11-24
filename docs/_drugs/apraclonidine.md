@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 62
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Apraclonidine: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,10 +72,16 @@ Los candidatos que el modelo de aprendizaje profundo TxGNN (puntuación ≥ 0,99
 
 ## Información de Mercado en España
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 60634 | apraclonidina | COLIRIO EN SOLUCIÓN | Vigente |
-| 61225 | apraclonidina | COLIRIO EN SOLUCIÓN | Vigente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 60634 | IOPIMAX 5 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Essential Pharma Limited | Comercializada |
+| 61225 | IOPIMAX 10 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Essential Pharma Limited | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

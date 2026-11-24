@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 732
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "sertaconazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
 description: "Sertaconazole: nueva indicación predicha, Enfermedad infecciosa ectotrix (ectothrix infectious disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 5)"
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 59799 | DERMOFIX 20 MG/G POLVO CUTÁNEO | Polvo cutáneo | No disponible en los datos compilados |
-| 59078 | DERMOFIX 20 MG/G CREMA | Crema | No disponible en los datos compilados |
-| 59803 | DERMOFIX 20 MG/G GEL | Gel | No disponible en los datos compilados |
-| 62086 | GINEDERMOFIX 500 MG COMPRIMIDO VAGINAL | Comprimido vaginal | No disponible en los datos compilados |
-| 62087 | GINEDERMOFIX 2% CREMA VAGINAL | Crema vaginal | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 59078 | DERMOFIX 20 MG/G CREMA | CREMA | Ferrer Internacional S.A. | Comercializada |
+| 62086 | GINEDERMOFIX 500 MG COMPRIMIDO VAGINAL | COMPRIMIDO VAGINAL | Ferrer Internacional S.A. | Comercializada |
+| 62087 | GINEDERMOFIX 2% CREMA VAGINAL | CREMA VAGINAL | Ferrer Internacional S.A. | Comercializada |
+| 59804 | DERMOFIX 20 MG/ML SOLUCIÓN CUTÁNEA | SOLUCIÓN CUTÁNEA | Ferrer Internacional S.A. | Comercializada |
+| 59077 | ZALAIN 20 MG/G CREMA | CREMA | Ferrer Internacional S.A. | Comercializada |
+
+Se muestran 5 de 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Hay 7 autorizaciones en total (5 vigentes y 2 canceladas); la tabla muestra las 5 primeras.
 

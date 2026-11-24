@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 111
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brentuximab Vedotin: nueva indicación predicha, Linfoma folicular (nivel de evidencia L3). Indicación original: Linfoma de Hodgkin (clásico)"
 monitor_inn: "brentuximab vedotin"
 predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "Richter syndrome", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
@@ -92,10 +92,16 @@ Ninguna publicación evalúa directamente BV en linfoma folicular típico.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 112794001IP | ADCETRIS 50 mg polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión | Linfoma de Hodgkin (según base de conocimiento; texto de indicación no disponible en el registro) |
-| 112794001 | ADCETRIS 50 mg polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión | Linfoma de Hodgkin (según base de conocimiento; texto de indicación no disponible en el registro) |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 112794001 | ADCETRIS 50 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Takeda Pharma A/S | Comercializada |
+| 112794001IP | ADCETRIS 50 mg POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Takeda Pharma A/S | Autorizada, no comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones están vigentes y pertenecen a Takeda Pharma A/S.
 

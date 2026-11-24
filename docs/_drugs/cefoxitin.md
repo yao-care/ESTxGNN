@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "cefoxitin"
 predicted_indications: ["infectious otitis media", "chronic otitis media", "suppurative otitis media", "middle ear disease", "Ureaplasma urethritis", "toxocariasis", "otosalpingitis", "non-suppurative otitis media"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Cefoxitin: nueva indicación predicha, otitis media infecciosa (infectious otitis media) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 3)"
 ---
 
@@ -74,12 +74,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 68149 | Cefoxitina IPS 1 g | Polvo y disolvente para solución inyectable | No registrada en los datos locales |
-| 84251 | Cefoxitina LDP Laboratorios Torlan 1 g | Polvo para solución inyectable | No registrada en los datos locales |
-| 84252 | Cefoxitina LDP Laboratorios Torlan 2 g | Polvo para solución inyectable | No registrada en los datos locales |
-| 63814 | Cefoxitina Normon 1 g | Polvo y disolvente para solución inyectable | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 84251 | CEFOXITINA LDP LABORATORIOS TORLAN 1 G POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE | Ldp Laboratorios Torlan S.A. | Comercializada |
+| 84252 | CEFOXITINA LDP LABORATORIOS TORLAN 2 G POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE | Ldp Laboratorios Torlan S.A. | Comercializada |
+| 63814 | CEFOXITINA NORMON 1 g polvo y disolvente para solución inyectable y para perfusión EFG | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 68149 | CEFOXITINA IPS 1g POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE IV EFG | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | I P S Farma S.L. | Revocada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

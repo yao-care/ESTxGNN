@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 444
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
 description: "Lactic Acid: nueva indicación predicha, Coartación atípica de la aorta (atypical coarctation of aorta) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 2)"
@@ -74,11 +74,17 @@ Como referencia, para la segunda indicación predicha (malformación aórtica) s
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 55796 | ANTIVERRUGAS ISDIN COLODION | Colodión | No especificada en los datos |
-| 08690 | CALLICIDA NAION POMADA | Pomada | No especificada en los datos |
-| 57626 | VERUFIL COLODIÓN | Solución cutánea | No especificada en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 55796 | ANTIVERRUGAS ISDIN COLODION | COLODIÓN | Isdin S.A. | Comercializada |
+| 57626 | VERUFIL COLODIÓN | SOLUCIÓN CUTÁNEA | Laboratorio Stada S.L. | Comercializada |
+| 08690 | CALLICIDA NAION POMADA | POMADA | Industrias Farmaceuticas Puerto Galiano S.A. | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

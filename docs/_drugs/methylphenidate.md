@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 515
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 description: "Methylphenidate: nueva indicación predicha, Faciodigitogenital syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -86,15 +86,27 @@ Se identificaron 18 registros; se listan 10 priorizando los más relevantes (rev
 
 ## Información de Mercado en España
 
-Las 20 autorizaciones son de medicamentos de un solo principio activo y están vigentes. El texto de indicación aprobada no figura en los datos compilados. Se listan las 5 principales:
+Las autorizaciones recogidas son de medicamentos de un solo principio activo; algunas están revocadas o suspendidas (el estado de cada una figura en la tabla). El texto de indicación aprobada no figura en los datos compilados. Se listan las 5 principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 65148 | CONCERTA 18 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible |
-| 88837 | RUBIFEN PROLONG 30 mg cápsula dura de liberación modificada EFG | Cápsula dura de liberación modificada | No disponible |
-| 83958 | LUMENTA 20 mg cápsulas duras de liberación modificada EFG | Cápsula dura de liberación modificada | No disponible |
-| 76061 | EQUASYM 10 mg cápsulas duras de liberación modificada | Cápsula dura de liberación modificada | No disponible |
-| 83874 | DOPRILTEN 18 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | No disponible |
+<!-- review:begin es-lic-20261124-methylphenidate-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Las 20 autorizaciones son de medicamentos de un solo principio activo y están vigentes." Corregido: según CIMA (AEMPS), entre las autorizaciones recogidas para este informe hay autorizaciones revocadas (por ejemplo LUMENTA, DOPRILTEN, RUBIFEN RETARD) y suspendidas (METHYSYM RETARD, EQUASYM 10 mg). Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124-methylphenidate-1 -->
+
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 65148 | CONCERTA 18 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Janssen Cilag S.A. | Comercializada |
+| 88837 | RUBIFEN PROLONG 30 MG CAPSULA DURA DE LIBERACION MODIFICADA EFG | CÁPSULA DURA DE LIBERACIÓN MODIFICADA | Laboratorios Rubio S.A. | Comercializada |
+| 76076 | EQUASYM 20 mg CAPSULAS DURAS DE LIBERACION MODIFICADA | CÁPSULA DURA DE LIBERACIÓN MODIFICADA | Takeda Pharmaceuticals International Ag Ireland Branch | Comercializada |
+| 68545 | MEDIKINET 40 mg CAPSULAS DURAS DE LIBERACION MODIFICADA | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Medice Arzneimittel Puetter Gmbh & Co. Kg | Comercializada |
+| 86553 | ATENZA 18 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Exeltis Healthcare S.L. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -126,11 +138,12 @@ No existen ensayos clínicos y la literatura es indirecta, centrada en el TDAH, 
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4) |
+| 2026-11-24 | «las 20 … están vigentes» → algunas revocadas o suspendidas | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

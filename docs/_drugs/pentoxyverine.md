@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "pentoxyverine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Pentoxyverine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
@@ -70,15 +70,21 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 85498 | BISOLVON CALMATOS 2,13 MG/ML SOLUCION ORAL | Solución oral | No disponible en el registro local |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 85498 | BISOLVON CALMATOS 2,13 MG/ML SOLUCION ORAL | SOLUCIÓN ORAL | Opella Healthcare Spain S.L. | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 Titular: Opella Healthcare Spain S.L. Estado: autorizado, comercializado.
 
 <!-- review:begin es-lic-20261031-pentoxyverine-1 -->
 
-> **Corrección de revisión (2026-10-31)**: Texto original: "Estado: autorizado, no comercializado." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 1 autorización (comercializadas: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Estado: autorizado, no comercializado." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-10-31. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261031-pentoxyverine-1 -->
 
@@ -96,7 +102,7 @@ La predicción se basa solo en la puntuación del modelo (nivel L5), sin ensayos
 
 <!-- review:begin es-lic-20261031-pentoxyverine-2 -->
 
-> **Corrección de revisión (2026-10-31)**: Texto original: "Además, faltan el mecanismo de acción y la información de la ficha técnica, y el producto autorizado no está comercializado." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 1 autorización (comercializadas: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Además, faltan el mecanismo de acción y la información de la ficha técnica, y el producto autorizado no está comercializado." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-10-31. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261031-pentoxyverine-2 -->
 
@@ -115,8 +121,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-10-31 | Eliminado: "no" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
-| 2026-10-31 | Eliminado: "y el producto autorizado no está comercializado" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "no" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "y el producto autorizado no está comercializado" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

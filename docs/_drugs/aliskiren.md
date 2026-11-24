@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "aliskiren"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "cerebrovascular disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aliskiren: nueva indicación predicha, Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hypoxia) (nivel de evidencia L5). Indicación origi…"
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 07405032 | RASILEZ 300 mg comprimidos recubiertos con película | Comprimido recubierto con película | No registrada en los datos locales |
-| 07405022 | RASILEZ 150 mg comprimidos recubiertos con película | Comprimido recubierto con película | No registrada en los datos locales |
-| 07405013IP | RASILEZ 300 mg comprimidos recubiertos con película | Comprimido recubierto con película | No registrada en los datos locales |
-| 07405030 | RASILEZ 150 mg comprimidos recubiertos con película | Comprimido recubierto con película | No registrada en los datos locales |
-| 07405040 | RASILEZ 300 mg comprimidos recubiertos con película | Comprimido recubierto con película | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 07405032 | RASILEZ 300 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Noden Pharma Designated Activity Company | Comercializada |
+| 07405022 | RASILEZ 150 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Noden Pharma Designated Activity Company | Comercializada |
+| 07405013IP | RASILEZ 300 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Novartis Europharm Limited | Autorizada, no comercializada |
+| 07405030 | RASILEZ 150 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Noden Pharma Designated Activity Company | Autorizada, no comercializada |
+| 07405040 | RASILEZ 300 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Noden Pharma Designated Activity Company | Autorizada, no comercializada |
+
+Se muestran 5 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 La lista puede no incluir todas las autorizaciones; se muestran las cinco principales.
 

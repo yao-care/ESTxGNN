@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levothyroxine: nueva indicación predicha, Hipodisplasia/aplasia renal (nivel de evidencia L5). Indicación original: Hipotiroidismo"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Se muestran 5 de las autorizaciones listadas (la lista total puede ser parcial). Los textos de indicación aprobada no figuran en los datos compilados.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Estado |
-|---------|------|------|-----------|
-| 77802 | Levotiroxina Sanofi 100 microgramos comprimidos | Comprimido | Vigente |
-| 89301 | Levotiroxina Aristo 137 microgramos comprimidos | Comprimido | Vigente |
-| 85613 | Solsint 13 microgramos solución oral en envase unidosis | Solución oral en envase unidosis | Cancelado |
-| 77114 | Levotiroxina Sanofi 500 microgramos polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | Vigente |
-| 64013 | Eutirox 75 microgramos comprimidos | Comprimido | Vigente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 77802 | LEVOTIROXINA SANOFI 100 MICROGRAMOS COMPRIMIDOS | COMPRIMIDO | Sanofi Aventis S.A. | Comercializada |
+| 89301 | LEVOTIROXINA ARISTO 137 MICROGRAMOS COMPRIMIDOS | COMPRIMIDO | Aristo Pharma Gmbh | Comercializada |
+| 86545 | LEVOTIROXINA ARISTO 75 MICROGRAMOS COMPRIMIDOS | COMPRIMIDO | Aristo Pharma Gmbh | Comercializada |
+| 84484 | LEVOTIROXINA ARISTO 100 MICROGRAMOS COMPRIMIDOS EFG | COMPRIMIDO | Aristo Pharma Gmbh | Comercializada |
+| 89304 | LEVOTIROXINA ARISTO 112 MICROGRAMOS COMPRIMIDOS | COMPRIMIDO | Aristo Pharma Gmbh | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 818
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
 description: "Travoprost: nueva indicación predicha, Visceral calciphylaxis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 18 (comercializadas: 9; autorizadas no comercializadas: 2)"
@@ -104,17 +104,28 @@ Los datos compilados no incluyen el texto de la indicación aprobada.
 
 <!-- review:begin es-lic-20261105-travoprost-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 18 autorizaciones vigentes, todas de monofármaco y en forma de colirio. Los datos compilados no incluyen el texto de la indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 18 autorizaciones (comercializadas: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 18 autorizaciones vigentes, todas de monofármaco y en forma de colirio. Los datos compilados no incluyen el texto de la indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-travoprost-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 79302 | Travoprost Abamed 40 microgramos/ml | Colirio en solución | No disponible en los datos compilados |
-| 79222 | Travoprost Rafarm 40 microgramos/ml | Colirio en solución | No disponible en los datos compilados |
-| 01199002IP | Travatan 40 microgramos/ml | Colirio en solución | No disponible en los datos compilados |
-| 81831 | Vizitrav 40 microgramos/ml | Colirio en solución | No disponible en los datos compilados |
-| 85999 | Traglasin 40 microgramos/ml | Colirio en solución en envase unidosis | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 79302 | TRAVOPROST ABAMED 40 MICROGRAMOS/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Qualix Pharma S.L. | Comercializada |
+| 79222 | TRAVOPROST RAFARM 40 MICROGRAMOS/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Rafarm S.A. | Comercializada |
+| 79133 | TRAVOPROST STADA 40 MICROGRAMOS/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Laboratorio Stada S.L. | Comercializada |
+| 86208 | VISUTRAX 40 MICROGRAMOS/ML COLIRIO EN SOLUCION EN ENVASE UNIDOSIS | COLIRIO EN SOLUCIÓN | Visufarma S.P.A. | Comercializada |
+| 01199001IP2 | TRAVATAN 40 MICROGRAMOS/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Novartis Europharm Limited | Comercializada |
+| 82673 | SINETRAV 40 MICROGRAMOS/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Horus Pharma | Comercializada |
+| 101199003 | TRAVATAN 40 MICROGRAMOS/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Novartis Europharm Limited | Comercializada |
+| 85999 | TRAGLASIN 40 MICROGRAMOS/ML COLIRIO EN SOLUCION EN ENVASE UNIDOSIS | COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS | Omnivision Gmbh | Comercializada |
+| 01199001IP | TRAVATAN 40 MICROGRAMOS/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Novartis Europharm Limited | Comercializada |
+| 01199001 | TRAVATAN 40 MICROGRAMOS/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Novartis Europharm Limited | Autorizada, no comercializada |
+
+Se muestran 10 de 18 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -164,7 +175,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 18 autorizaciones vigentes, todas de monofármaco y en forma de colirio" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 18 autorizaciones vigentes, todas de monofármaco y en forma de colirio" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5) |
 
 <!-- review:end log -->

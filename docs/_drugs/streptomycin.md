@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 748
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Streptomycin"
 predicted_indications: ["conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "Lyme disease", "infectious otitis interna"]
 description: "Streptomycin: nueva indicación predicha, Conjuntivitis (conjunctivitis) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
@@ -81,9 +81,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 16129 | Sulfato de Estreptomicina Reig Jofre 1 g polvo para solución inyectable | Polvo para solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 16129 | SULFATO DE ESTREPTOMICINA REIG JOFRE 1 G POLVO PARA SOLUCIÓN INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Laboratorio Reig Jofre, S.A. | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

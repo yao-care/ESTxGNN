@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "FOSINOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fosinopril: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No registrada en los datos locales (l…"
 ---
 
@@ -70,12 +70,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 59716 | FOSITENS 20 mg COMPRIMIDOS | Comprimido | No registrada en los datos locales |
-| 83239 | FOSINOPRIL AUROVITAS 20 MG COMPRIMIDOS EFG | Comprimido | No registrada en los datos locales |
-| 74975 | FOSINOPRIL AUROBINDO 20 mg COMPRIMIDOS EFG | Comprimido | No registrada en los datos locales |
-| 66779 | FOSINOPRIL TEVA 20 mg COMPRIMIDOS EFG | Comprimido | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 59716 | FOSITENS 20 mg COMPRIMIDOS | COMPRIMIDO | Bausch Health Ireland Limited | Comercializada |
+| 83239 | FOSINOPRIL AUROVITAS 20 MG COMPRIMIDOS EFG | COMPRIMIDO | Aurovitas Spain, S.A.U. | Comercializada |
+| 74975 | FOSINOPRIL AUROBINDO 20 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Aurobindo S.L.U. | Revocada |
+| 66779 | FOSINOPRIL TEVA 20 mg COMPRIMIDOS EFG | COMPRIMIDO | Teva Pharma S.L.U. | Revocada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 De las 4 autorizaciones, 2 están vigentes y 2 canceladas.
 

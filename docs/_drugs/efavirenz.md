@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 276
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Efavirenz: nueva indicación predicha, infección por virus de inmunodeficiencia simia (simian immunodeficiency virus infection) (nivel de evidencia L4)."
@@ -83,13 +83,23 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 99110009 | SUSTIVA 600 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 99110001 | SUSTIVA 50 mg, cápsulas duras | Cápsula dura | No disponible |
-| 99110002 | SUSTIVA 100 mg, cápsulas duras | Cápsula dura | No disponible |
-| 99110003 | SUSTIVA 200 mg, cápsulas duras | Cápsula dura | No disponible |
-| 79191 | Efavirenz Aurovitas 600 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 79191 | EFAVIRENZ AUROVITAS 600 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 111742001 | Efavirenz Teva 600 mg comprimidos recubiertos con pelicula EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva B.V. | Comercializada |
+| 99110009 | SUSTIVA 600 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Bristol-Myers Squibb Pharma Eeig | Revocada |
+| 99110001 | SUSTIVA 50 mg, CAPSULAS DURAS | CÁPSULA DURA | Bristol-Myers Squibb Pharma Eeig | Revocada |
+| 99110002 | SUSTIVA 100 mg, CAPSULAS DURAS | CÁPSULA DURA | Bristol-Myers Squibb Pharma Eeig | Revocada |
+| 99110003 | SUSTIVA 200 mg, CAPSULAS DURAS | CÁPSULA DURA | Bristol-Myers Squibb Pharma Eeig | Revocada |
+| 77176 | EFAVIRENZ MYLAN 600 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Mylan Pharmaceuticals S.L. | Revocada |
+| 77828 | EFAVIRENZ SANDOZ 600 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Revocada |
+| 79697 | EFAVIRENZ ACCORD 600 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Revocada |
+
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Hay 2 autorizaciones vigentes de las 9 registradas; las 7 restantes figuran como canceladas.
 

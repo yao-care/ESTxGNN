@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 797
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "tipiracil"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
 description: "Tipiracil: nueva indicación predicha, adenoma velloso del ciego (cecum villous adenoma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 4; autorizadas no comercializadas: 2)"
@@ -74,13 +74,20 @@ Actualmente no hay literatura relacionada disponible.
 
 Estado de mercado: comercializado.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1161096001 | LONSURF 15 MG/6,14 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 1161096006 | LONSURF 20 MG/8,19 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 1161096003 | LONSURF 15 MG/6,14 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 1161096001IP | LONSURF 15 MG/6,14 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 1161096003IP | LONSURF 15 MG/6,14 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1161096001 | LONSURF 15 MG/6,14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Les Laboratoires Servier | Comercializada |
+| 1161096006 | LONSURF 20 MG/8,19 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Les Laboratoires Servier | Comercializada |
+| 1161096003 | LONSURF 15 MG/6,14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Les Laboratoires Servier | Comercializada |
+| 1161096004 | LONSURF 20 MG/8,19 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Les Laboratoires Servier | Comercializada |
+| 1161096001IP | LONSURF 15 MG/6,14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Les Laboratoires Servier | Autorizada, no comercializada |
+| 1161096003IP | LONSURF 15 MG/6,14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Les Laboratoires Servier | Autorizada, no comercializada |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Nota: todas las autorizaciones corresponden a la combinación trifluridina/tipiracilo (Lonsurf), por lo que no describen la situación regulatoria del tipiracilo como único principio activo.
 

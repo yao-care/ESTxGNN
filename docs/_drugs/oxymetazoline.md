@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 598
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "oxymetazoline"
 predicted_indications: ["nasal cavity disease", "headache disorder"]
 description: "Oxymetazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -78,13 +78,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 76791 | LAIRESP 0,5 MG/ML solución para pulverización nasal | Solución para pulverización nasal | No disponible en los datos |
-| 79715 | OKALRINUS 0,5 MG/ML solución para pulverización nasal | Solución para pulverización nasal | No disponible en los datos |
-| 71356 | CUVENAX 35 microgramos/pulsación solución para pulverización nasal | Solución para pulverización nasal | No disponible en los datos |
-| 82948 | ILVIRESPIR 0,5 MG/ML solución para pulverización nasal | Solución para pulverización nasal | No disponible en los datos |
-| 51889 | RESPIBIEN 0,5 mg/ml solución para pulverización nasal | Solución para pulverización nasal | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 76791 | LAIRESP 0,5 MG/ML SOLUCION PARA PULVERIZACION NASAL | SOLUCION PARA PULVERIZACION NASAL | Lainco S.A. | Comercializada |
+| 71356 | CUVENAX 35 microgramos/PULSACION SOLUCION PARA PULVERIZACION NASAL | SOLUCION PARA PULVERIZACION NASAL | Pharmex Advanced Laboratories S.L. | Comercializada |
+| 51889 | RESPIBIEN 0,5 mg/ml solución para pulverización nasal | SOLUCION PARA PULVERIZACION NASAL | Laboratorios Cinfa S.A. | Comercializada |
+| 64498 | INTERFRIN 0,5 mg/ml SOLUCION PARA PULVERIZACION NASAL | SOLUCION PARA PULVERIZACION NASAL | Interpharma S.A. | Comercializada |
+| 75517 | RESPIBIEN FRESHMINT 0,5 mg/ ml SOLUCION PARA PULVERIZACION NASAL | SOLUCION PARA PULVERIZACION NASAL | Laboratorios Cinfa S.A. | Comercializada |
+| 67307 | UTABON 0,5 mg/ml SOLUCION PARA PULVERIZACION NASAL CON BOMBA DOSIFICADORA | SOLUCION PARA PULVERIZACION NASAL | Uriach Consumer Healthcare S.L. | Comercializada |
+| 71355 | OXIMETAZOLINA FARLINE 0,5 mg/ml SOLUCION PARA PULVERIZACION NASAL | SOLUCION PARA PULVERIZACION NASAL | Farline Comercializadora De Productos Farmaceuticos S.A. | Comercializada |
+| 41111 | RESPIR 0,5 mg/ml SOLUCION PARA PULVERIZACION NASAL | SOLUCION PARA PULVERIZACION NASAL | Bayer Hispania S.L. | Comercializada |
+| 82918 | OXIMETAZOLINA TECNIMEDE 0,5 MG/ML SOLUCION PARA PULVERIZACION NASAL | SOLUCION PARA PULVERIZACION NASAL | Tecnimede España Industria Farmaceutica S.A. | Comercializada |
+| 61461 | NASOLINA 0,57 MG/ML SOLUCIÓN PARA PULVERIZACIÓN NASAL | SOLUCION PARA PULVERIZACION NASAL | Laboratorios Salvat S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Entre las restantes hay también una presentación pediátrica en gotas nasales (UTABON NIÑOS 0,25 mg/ml).
 

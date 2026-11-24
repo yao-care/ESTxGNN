@@ -3,7 +3,7 @@ layout: default
 title: Olodaterol
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 587
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "OLODATEROL"
 description: "Olodaterol: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
@@ -48,9 +48,15 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 78253 | STRIVERDI RESPIMAT 2,5 microgramos solución para inhalación | Solución para inhalación | No especificada en los datos compilados (en la base de conocimiento: EPOC) |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 78253 | STRIVERDI RESPIMAT 2,5 MICROGRAMOS SOLUCION PARA INHALACION | SOLUCIÓN PARA INHALACIÓN | Boehringer Ingelheim International Gmbh | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ---
 

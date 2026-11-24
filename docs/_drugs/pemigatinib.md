@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 620
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pemigatinib: nueva indicación predicha, Neoplasia endocrina múltiple (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (el texto de indicación de las…"
 monitor_inn: "PEMIGATINIB"
 predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "malignant catarrh", "infectious bovine rhinotracheitis", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "axial spondylometaphyseal dysplasia"]
@@ -82,11 +82,17 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1211535001 | PEMAZYRE 4,5 mg comprimidos | Comprimido | No disponible |
-| 1211535005 | PEMAZYRE 13,5 mg comprimidos | Comprimido | No disponible |
-| 1211535003 | PEMAZYRE 9 mg comprimidos | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1211535001 | PEMAZYRE 4,5 mg COMPRIMIDOS | COMPRIMIDO | Incyte Biosciences Distribution B.V. | Comercializada |
+| 1211535005 | PEMAZYRE 13,5 mg COMPRIMIDOS | COMPRIMIDO | Incyte Biosciences Distribution B.V. | Comercializada |
+| 1211535003 | PEMAZYRE 9 mg COMPRIMIDOS | COMPRIMIDO | Incyte Biosciences Distribution B.V. | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Titular: Incyte Biosciences Distribution B.V.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Biperiden"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "progressive supranuclear palsy-corticobasal syndrome", "paralysis agitans, juvenile, of Hunt", "Lewy body dementia", "attention deficit-hyperactivity disorder", "X-linked intellectual disability-ataxia-apraxia syndrome"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Biperiden: nueva indicación predicha, Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"
 ---
 
@@ -72,11 +72,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 28994 | AKINETON 5MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | No registrada en los datos locales |
-| 26692 | AKINETON 2 mg COMPRIMIDOS | Comprimido | No registrada en los datos locales |
-| 51224 | AKINETON RETARD 4 MG COMPRIMIDOS DE LIBERACIÓN PROLONGADA | Comprimido de liberación prolongada | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 28994 | AKINETON 5MG/ML SOLUCIÓN INYECTABLE | SOLUCIÓN INYECTABLE | Laboratorio Farmaceutico S.I.T. - Specialita' Igienico Tera… | Comercializada |
+| 26692 | AKINETON 2 mg COMPRIMIDOS | COMPRIMIDO | Laboratorio Farmaceutico S.I.T. - Specialita' Igienico Tera… | Comercializada |
+| 51224 | AKINETON RETARD 4 MG COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Laboratorio Farmaceutico S.I.T. - Specialita' Igienico Tera… | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

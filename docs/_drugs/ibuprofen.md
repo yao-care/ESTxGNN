@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 400
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ibuprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Ibuprofen: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (nivel de evidencia L5). Indicación original: No consta en los dat…"
@@ -79,13 +79,24 @@ Los textos de indicación aprobada no están disponibles en los datos compilados
 
 <!-- review:end es-lic-20261105-ibuprofen-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 90114 | Ibuprofeno Combix 400 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 68200 | Ibufarmalid 400 mg suspensión oral | Suspensión oral |
-| 80719 | Espidifen 600 mg granulado para solución oral sabor cola-limón | Granulado para solución oral |
-| 64030 | Ibuprofeno Mabo 50 mg/g gel | Gel |
-| 85161 | Ibuprofeno B. Braun Pediátrico 200 mg solución para perfusión | Solución para perfusión |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 90114 | IBUPROFENO COMBIX 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 68200 | IBUFARMALID 400 mg SUSPENSION ORAL | SUSPENSIÓN ORAL | Farmalider S.A. | Comercializada |
+| 80719 | ESPIDIFEN 600 MG GRANULADO PARA SOLUCION ORAL SABOR COLA-LIMON | GRANULADO PARA SOLUCIÓN ORAL | Zambon S.A.U. | Comercializada |
+| 64030 | IBUPROFENO MABO 50 MG/G GEL | GEL | Mabo Farma S.A. | Comercializada |
+| 69343 | IBUPROFENO (ARGININA) STADA 600 mg GRANULADO PARA SOLUCION ORAL EFG | GRANULADO PARA SOLUCIÓN ORAL | Laboratorio Stada S.L. | Comercializada |
+| 90651 | DALSYDOL RAPID 400 MG CAPSULAS BLANDAS | CÁPSULA BLANDA | Viatris Healthcare Limited | Comercializada |
+| 82804 | IBUPROFENO FARMALID 600 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Farmalider S.A. | Comercializada |
+| 82405 | IBUPROFENO WINADOL 200 MG SUSPENSION ORAL | SUSPENSIÓN ORAL | Farmalider S.A. | Comercializada |
+| 61610 | NEOBRUFEN 600 mg GRANULADO EFERVESCENTE | GRANULADO EFERVESCENTE | Viatris Healthcare Limited | Comercializada |
+| 67918 | IBUPROFENO KERN PHARMA 600 mg GRANULADO EFERVESCENTE EFG | GRANULADO EFERVESCENTE | Kern Pharma S.L. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

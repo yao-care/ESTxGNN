@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 184
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder"]
 description: "Citalopram: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: al menos 20"
@@ -93,13 +93,24 @@ La literatura incluye estudios abiertos específicos con citalopram en TOC en ad
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 66251 | Citalopram Mabo 20 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-| 67805 | Citalopram Cinfa 30 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-| 67544 | Citalopram Farmaprojects 20 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-| 84478 | Citalopram Aurobindo 20 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-| 66481 | Citalopram Vir 20 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 66251 | CITALOPRAM MABO 20 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Mabo Farma S.A. | Comercializada |
+| 67805 | CITALOPRAM CINFA 30 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+| 66481 | CITALOPRAM VIR 20 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 66401 | CITALVIR 20 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Ababor Pharmaceuticals S.L. | Comercializada |
+| 83781 | CITALOPRAM AUROVITAS 30 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 66263 | CITALOPRAM COMBIX 30 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 67107 | CITALOPRAM SUN 20 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+| 67774 | CITALOPRAM COMBIX 20 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 66035 | CITALOPRAM STADA 20 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 67579 | CITALOPRAM TEVA-RIMAFAR 30 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

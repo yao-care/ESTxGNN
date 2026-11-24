@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Hydroxocobalamin"
 predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding"]
 description: "Hydroxocobalamin: nueva indicación predicha, Esophageal varices with bleeding (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 3; autorizadas no comercializadas: 1)"
@@ -71,12 +71,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 46090 | Megamilbedoce 5.000 microgramos/ml solución inyectable | Solución inyectable | No disponible en los datos compilados |
-| 07420001 | Cyanokit 2,5 g polvo para solución para perfusión | Polvo para solución para perfusión | No disponible en los datos compilados |
-| 88743 | Hidroxocobalamina Basi 1 mg/ml solución inyectable | Solución inyectable | No disponible en los datos compilados |
-| 07420002 | Cyanokit 5 g polvo para solución para perfusión | Polvo para solución para perfusión | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 46090 | MEGAMILBEDOCE 5.000 MICROGRAMOS/ML SOLUCIÓN INYECTABLE | SOLUCIÓN INYECTABLE | Aristo Pharma Iberia S.L. | Comercializada |
+| 88743 | HIDROXOCOBALAMINA BASI 1 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Laboratorios Basi Industria Farmaceutica S.A. | Comercializada |
+| 07420002 | CYANOKIT 5 g POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Serb Sa | Comercializada |
+| 07420001 | CYANOKIT 2,5 g POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Serb Sa | Autorizada, no comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

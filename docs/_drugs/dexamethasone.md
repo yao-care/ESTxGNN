@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 238
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Dexamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
 description: "Dexamethasone: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -73,13 +73,24 @@ Actualmente no hay literatura relacionada disponible.
 
 La dexametasona figura como comercializada en España. Los datos locales no incluyen el texto de indicación aprobada de estas autorizaciones. Selección de autorizaciones válidas:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 12090 | Dexafree 1 mg/ml colirio en solución | Colirio en solución | No disponible |
-| 81415 | Dexametasona TAD 8 mg comprimidos | Comprimido | No disponible |
-| 84548 | Etacortilen 1,5 mg/ml colirio en solución | Colirio en solución | No disponible |
-| 90518 | Dexametasona Novamis 4 mg comprimidos EFG | Comprimido | No disponible |
-| 88798 | Dexametasona Medochemie 4 mg/ml solución inyectable y para perfusión EFG | Solución inyectable y para perfusión | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 12090 | Dexafree 1mg/ml colirio en solucion | COLIRIO EN SOLUCIÓN | Laboratoires Thea | Comercializada |
+| 81415 | DEXAMETASONA TAD 8 MG COMPRIMIDOS | COMPRIMIDO | Tad Pharma Gmbh | Comercializada |
+| 84548 | ETACORTILEN 1,5 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Sifi S.P.A. | Comercializada |
+| 67671 | DEXAFREE 1 MG/ML COLIRIO EN SOLUCION EN ENVASE UNIDOSIS | COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS | Laboratoires Thea | Comercializada |
+| 86123 | DEXAMETASONA ABDRUG 8 MG COMPRIMIDOS | COMPRIMIDO | Mabo Farma S.A. | Comercializada |
+| 88798 | DEXAMETASONA MEDOCHEMIE 4 MG/ML SOLUCION INYECTABLE Y PARA PERFUSION EFG | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Medochemie Limited | Comercializada |
+| 81416 | DEXAMETASONA TAD 40 MG COMPRIMIDOS | COMPRIMIDO | Tad Pharma Gmbh | Comercializada |
+| 3400937477680IP | DEXAFREE 1 MG/ML COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS | COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS | Laboratoires Thea | Comercializada |
+| 40602 | COLIRCUSI DEXAMETASONA 1 mg/ml colirio en solución | COLIRIO EN SOLUCIÓN | Fidia Farmaceutici S.P.A. | Comercializada |
+| 42666 | MAXIDEX 1 MG/ML COLIRIO EN SUSPENSIÓN | COLIRIO EN SUSPENSIÓN | Novartis Farmaceutica S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

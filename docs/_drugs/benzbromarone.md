@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "benzbromarone"
 predicted_indications: ["hypouricemia, renal"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benzbromarone: nueva indicación predicha, hipouricemia renal (hypouricemia, renal) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
 ---
 
@@ -85,9 +85,15 @@ La literatura sobre hipouricemia renal es abundante, pero se trata de revisiones
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 49386 | URINORM 100 mg COMPRIMIDOS | Comprimido | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 49386 | URINORM 100 mg COMPRIMIDOS | COMPRIMIDO | Evolan Pharma Ab | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

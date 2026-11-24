@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 248
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dienogest: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaciones"
 monitor_inn: "DIENOGEST"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
@@ -82,13 +82,19 @@ Ninguna publicación evalúa dienogest como tratamiento de la amenorrea.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 84765 | Dienogest Aristo 2 mg comprimidos EFG | Comprimido | No disponible |
-| 85463 | Adienocare 2 mg comprimidos EFG | Comprimido | No disponible |
-| 84820 | Endovelle 2 mg comprimidos EFG | Comprimido | No disponible |
-| 84015 | Dimetrio 2 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 89468 | Dienogest Adalvo 2 mg comprimidos EFG | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 84765 | DIENOGEST ARISTO 2 MG COMPRIMIDOS EFG | COMPRIMIDO | Aristo Pharma Gmbh | Comercializada |
+| 85463 | ADIENOCARE 2 MG COMPRIMIDOS EFG | COMPRIMIDO | Procare Health Iberia S.L. | Comercializada |
+| 84820 | ENDOVELLE 2 MG COMPRIMIDOS EFG | COMPRIMIDO | Exeltis Healthcare S.L. | Comercializada |
+| 84015 | DIMETRIO 2 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+| 71929 | VISANNETTE 2 mg COMPRIMIDOS | COMPRIMIDO | Bayer Hispania S.L. | Comercializada |
+
+Se muestran 5 de 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Hay 7 autorizaciones vigentes en total, todas de monofármaco; se muestran las 5 principales.
 

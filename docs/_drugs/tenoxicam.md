@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "TENOXICAM"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "trigeminal autonomic cephalalgia", "alopecia"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Tenoxicam: nueva indicación predicha, Brachydactyly-syndactyly syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 1)"
 ---
 
@@ -78,10 +78,16 @@ Sin embargo, el respaldo específico de tenoxicam es limitado: hay un ensayo de 
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 58665 | REUTENOX 20 mg comprimidos recubiertos (vigente) | Comprimido recubierto | Sin texto de indicación disponible |
-| 60557 | REUTENOX 20 mg granulado para suspensión oral (cancelada) | Granulado para suspensión oral | Sin texto de indicación disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 58665 | REUTENOX 20 mg COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Laboratorios Rubio S.A. | Comercializada |
+| 60557 | REUTENOX 20 mg GRANULADO PARA SUSPENSION ORAL | GRANULADO PARA SUSPENSIÓN ORAL | Laboratorios Rubio S.A. | Revocada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

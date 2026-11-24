@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "BRIVARACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brivaracetam: nueva indicación predicha, Déficit de beta-cetotiolasa (beta-ketothiolase deficiency) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -70,13 +70,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay al menos 20 autorizaciones registradas (la lista puede ser parcial). A continuación se muestran las principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 90946 | Paucilex 50 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 1151073014IP | Briviact 75 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 90771 | Brivaracetam Pensa 75 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 90760 | Brivaracetam Desitin 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 90494 | Brivaracetam Stada 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 90494 | BRIVARACETAM STADA 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Stada Arzneimittel Ag | Comercializada |
+| 90377 | BRIVARACETAM TEVA 50 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva B.V. | Comercializada |
+| 1151073006 | BRIVIACT 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Ucb Pharma | Comercializada |
+| 90944 | BRIVARACETAM COMBIX 50 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 90431 | BRIVARACETAM CINFA 75 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

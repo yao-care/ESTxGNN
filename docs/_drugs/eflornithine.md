@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 277
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "eflornithine"
 predicted_indications: ["esotropia", "neurotrophic keratopathy"]
 description: "Eflornithine: nueva indicación predicha, Esotropía (esotropia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 1; autorizadas no comercializadas: 2)"
@@ -73,11 +73,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 01173002 | VANIQA 11,5 % CREMA (Almirall S.A.) | Crema | No disponible |
-| 01173003 | VANIQA 11,5 % CREMA (Almirall S.A.) | Crema | No disponible |
-| 01173001 | VANIQA 11,5 % CREMA (Almirall S.A.) | Crema | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 01173002 | VANIQA 11,5 % CREMA | CREMA | Almirall S.A. | Comercializada |
+| 01173003 | VANIQA 11,5 % CREMA | CREMA | Almirall S.A. | Autorizada, no comercializada |
+| 01173001 | VANIQA 11,5 % CREMA | CREMA | Almirall S.A. | Autorizada, no comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las tres autorizaciones son de medicamentos de un solo principio activo y están vigentes. Todas corresponden a una formulación tópica (crema).
 

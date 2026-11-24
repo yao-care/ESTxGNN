@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 171
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Chlordiazepoxide"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "sleep disorder, initiating and maintaining sleep", "barbiturate abuse", "hallucinogen abuse", "antidepressant type abuse", "myofascial pain syndrome"]
 description: "Chlordiazepoxide: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 2)"
@@ -79,11 +79,17 @@ Nota: para el trastorno del sueño relacionado (inicio y mantenimiento del sueñ
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 37794 | HUBERPLEX 5 MG comprimidos recubiertos con película | Comprimido recubierto | No disponible |
-| 37620 | HUBERPLEX 10 MG comprimidos recubiertos con película | Comprimido recubierto | No disponible |
-| 37809 | HUBERPLEX 25 MG comprimidos recubiertos con película | Comprimido recubierto | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 37794 | HUBERPLEX 5 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | COMPRIMIDO RECUBIERTO | Teofarma S.R.L. | Comercializada |
+| 37620 | HUBERPLEX 10 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | COMPRIMIDO RECUBIERTO | Teofarma S.R.L. | Comercializada |
+| 37809 | HUBERPLEX 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO | Teofarma S.R.L. | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

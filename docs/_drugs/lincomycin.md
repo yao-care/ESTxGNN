@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 472
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "lincomycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
 description: "Lincomycin: nueva indicación predicha, Hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 0)"
@@ -82,11 +82,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 41468 | LINCOCIN 600 mg INYECTABLE (Pfizer S.L.) | Solución inyectable | No disponible |
-| 46655 | LINCOMICINA NORMON 600 mg SOLUCIÓN INYECTABLE (Laboratorios Normon S.A.) | Solución inyectable | No disponible |
-| 41290 | LINCOCIN 500 MG CÁPSULAS DURAS (Pfizer S.L.) | Cápsula dura | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 41468 | LINCOCIN 600 mg INYECTABLE | SOLUCIÓN INYECTABLE | Pfizer S.L. | Revocada |
+| 46655 | LINCOMICINA NORMON 600 mg SOLUCIÓN INYECTABLE | SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Revocada |
+| 41290 | LINCOCIN 500 MG CAPSULAS DURAS | CÁPSULA DURA | Pfizer S.L. | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

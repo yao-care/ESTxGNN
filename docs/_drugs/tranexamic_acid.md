@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 813
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "tranexamic acid"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Tranexamic Acid: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 10 (comercializadas: 5; autorizadas no comercializadas: 3)"
@@ -76,19 +76,30 @@ Ninguna de las dos publicaciones evalúa el ácido tranexámico como tratamiento
 
 <!-- review:begin es-lic-20261105-tranexamic_acid-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 autorizaciones (comercializadas: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-tranexamic_acid-1 -->
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 53940 | AMCHAFIBRIN 500 mg COMPRIMIDOS | Comprimido | No disponible |
-| 89608 | TANTIRAMIX 500 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | No disponible |
-| 85520 | ÁCIDO TRANEXÁMICO BAXTER 100 MG/ML SOLUCIÓN INYECTABLE EFG | Solución inyectable y para perfusión | No disponible |
-| 80781 | ÁCIDO TRANEXÁMICO ZENTIVA 500 mg COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película | No disponible |
-| 83427 | ÁCIDO TRANEXÁMICO AUROVITAS 100 MG/ML SOLUCIÓN INYECTABLE EFG | Solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 80781 | ACIDO TRANEXAMICO ZENTIVA 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Zentiva K.S. | Comercializada |
+| 86353 | MEDSAMIC 100 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Medochemie Limited | Comercializada |
+| 90522 | ACIDO TRANEXAMICO VIATRIS 100 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Viatris Healthcare Limited | Comercializada |
+| 53939 | AMCHAFIBRIN 500 mg SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Viatris Healthcare Limited | Comercializada |
+| 88279 | AMCHAFIBRIN 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Healthcare Limited | Comercializada |
+| 89608 | TANTIRAMIX 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Adamed Pharma S.A. | Autorizada, no comercializada |
+| 85520 | ACIDO TRANEXAMICO BAXTER 100 MG/ML SOLUCION INYECTABLE EFG | SOLUCION INYECTABLE Y PARA PERFUSION | Baxter Holding B.V. | Autorizada, no comercializada |
+| 89178 | NEXAG 1.000 MG GRANULADO RECUBIERTO EN SOBRES | GRANULADO RECUBIERTO EN SOBRE | Cemag Care | Autorizada, no comercializada |
+| 53940 | AMCHAFIBRIN 500 mg COMPRIMIDOS | COMPRIMIDO | Meda Pharma S.L. | Revocada |
+| 83427 | ACIDO TRANEXAMICO AUROVITAS 100 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Aurovitas Spain, S.A.U. | Revocada |
+
+Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -121,7 +132,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5) |
 
 <!-- review:end log -->

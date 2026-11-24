@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 665
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Procarbazine"
 predicted_indications: ["follicular lymphoma", "neuroblastoma", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
 description: "Procarbazine: nueva indicación predicha, Linfoma folicular (follicular lymphoma) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
@@ -84,9 +84,15 @@ Como apoyo directo, una publicación de 2006 describe dos pacientes con linfoma 
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 42248 | NATULAN 50 MG CÁPSULAS DURAS (Leadiant GmbH) | Cápsula dura | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 42248 | NATULAN 50 MG CÁPULAS DURAS | CÁPSULA DURA | Leadiant Gmbh | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

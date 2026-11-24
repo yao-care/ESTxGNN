@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 562
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Nevirapine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Nevirapine: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) (nivel de evidencia L4). Indicación original: No consta en los da…"
@@ -85,19 +85,30 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 <!-- review:begin es-lic-20261105-nevirapine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 14 autorizaciones vigentes (todas de principio activo único)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 14 autorizaciones (comercializadas: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 14 autorizaciones vigentes (todas de principio activo único)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-nevirapine-1 -->
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 97055006 | VIRAMUNE 100 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible |
-| 97055004 | VIRAMUNE 200 mg comprimidos | Comprimido | No disponible |
-| 97055001 | VIRAMUNE 200 mg comprimidos | Comprimido | No disponible |
-| 75787 | Nevirapina Accord 200 mg comprimidos EFG | Comprimido | No disponible |
-| 97055002 | VIRAMUNE 50 mg/5 ml suspensión oral | Suspensión oral | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 97055002 | VIRAMUNE 50 mg/5 ml SUSPENSION ORAL | SUSPENSIÓN ORAL | Boehringer Ingelheim International Gmbh | Comercializada |
+| 85896 | NEVIRAPINA AUROVITAS 400 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Aurovitas Spain, S.A.U. | Comercializada |
+| 81164 | NEVIRAPINA TEVA 400 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Teva Pharma S.L.U. | Comercializada |
+| 76844 | NEVIRAPINA NORMON 200 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 74264 | NEVIRAPINA KERN PHARMA 200 mg COMPRIMIDOS EFG | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
+| 85245 | NEVIRAPINA TARBIS FARMA 400 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Tarbis Farma S.L. | Comercializada |
+| 97055004 | VIRAMUNE 200 mg COMPRIMIDOS | COMPRIMIDO | Boehringer Ingelheim International Gmbh | Autorizada, no comercializada |
+| 97055001 | VIRAMUNE 200 mg COMPRIMIDOS | COMPRIMIDO | Boehringer Ingelheim International Gmbh | Autorizada, no comercializada |
+| 97055008 | VIRAMUNE 400 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Boehringer Ingelheim International Gmbh | Autorizada, no comercializada |
+| 97055006 | VIRAMUNE 100 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Boehringer Ingelheim International Gmbh | Revocada |
+
+Se muestran 10 de 14 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -128,7 +139,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 14 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 14 autorizaciones vigentes (todas de principio activo único)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15) |
 
 <!-- review:end log -->

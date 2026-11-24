@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 373
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "gemfibrozil"
 predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
 description: "Gemfibrozil: nueva indicación predicha, Artritis reumatoide (rheumatoid arthritis) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 8 (comercializadas: 8)"
@@ -86,13 +86,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61051 | TRIALMIN 900 mg comprimidos recubiertos con película | Comprimido recubierto | No disponible |
-| 62503 | GEMFIBROZILO TARBIS 600 mg comprimidos recubiertos con película EFG | Comprimido recubierto | No disponible |
-| 61830 | GEMFIBROZILO STADA 600 mg comprimidos EFG | Comprimido recubierto con película | No disponible |
-| 61831 | GEMFIBROZILO STADA 900 mg comprimidos EFG | Comprimido recubierto con película | No disponible |
-| 58832 | LOPID 600 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61051 | TRIALMIN 900 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO | Laboratorios Menarini S.A. | Comercializada |
+| 62503 | GEMFIBROZILO TARBIS 600 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO | Tarbis Farma S.L. | Comercializada |
+| 61830 | GEMFIBROZILO STADA 600 mg COMPRIMIDOS EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 61831 | GEMFIBROZILO STADA 900 mg COMPRIMIDOS EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 58832 | LOPID 600 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Pfizer S.L. | Comercializada |
+
+Se muestran 5 de 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 8 autorizaciones vigentes.
 

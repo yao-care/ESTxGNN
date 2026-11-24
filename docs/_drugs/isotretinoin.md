@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 435
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Isotretinoin"
 predicted_indications: ["malignant hypertensive renal disease"]
 description: "Isotretinoin: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -88,13 +88,24 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 67570 | ISOACNE 10 mg cápsulas blandas | Cápsula blanda | No disponible en los datos |
-| 67878 | DERCUTANE 40 mg cápsulas blandas | Cápsula blanda | No disponible en los datos |
-| 86649 | ISOTIORGA 40 mg cápsulas blandas | Cápsula blanda | No disponible en los datos |
-| 78326 | DERCUTANE 30 mg cápsulas blandas | Cápsula blanda | No disponible en los datos |
-| 82566 | ACNEMIN 10 mg cápsulas blandas EFG | Cápsula blanda | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 67570 | ISOACNE 10 mg CAPSULAS BLANDAS | CÁPSULA BLANDA | Pierre Fabre Iberica S.A. | Comercializada |
+| 67878 | DERCUTANE 40 mg CAPSULAS BLANDAS | CÁPSULA BLANDA | Industrial Farmaceutica Cantabria S.A. | Comercializada |
+| 86649 | ISOTIORGA 40 MG CAPSULAS BLANDAS | CÁPSULA BLANDA | Laboratoires Bailleul S.A. | Comercializada |
+| 78326 | DERCUTANE 30 MG CAPSULAS BLANDAS | CÁPSULA BLANDA | Industrial Farmaceutica Cantabria S.A. | Comercializada |
+| 82566 | ACNEMIN 10 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Laboratorios Vinas S.A. | Comercializada |
+| 69572 | MAYESTA 20 mg CAPSULAS BLANDAS | CÁPSULA BLANDA | Alfasigma Espana S.L. | Comercializada |
+| 69742 | DERCUTANE 5 mg CAPSULAS BLANDAS | CÁPSULA BLANDA | Industrial Farmaceutica Cantabria S.A. | Comercializada |
+| 69927 | ISOACNE 40 mg CAPSULAS BLANDAS | CÁPSULA BLANDA | Pierre Fabre Iberica S.A. | Comercializada |
+| 66160 | FLEXRESAN 10 mg CAPSULAS BLANDAS | CÁPSULA BLANDA | Especialidades Farmaceuticas Centrum S.A. | Comercializada |
+| 66121 | ISDIBEN 10 mg CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Isdin S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

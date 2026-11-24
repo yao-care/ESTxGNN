@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "Atorvastatin"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-24
 description: "Atorvastatin: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -96,13 +96,24 @@ Un efecto antiviral directo de atorvastatina no está demostrado. La principal p
 
 Atorvastatina se encuentra comercializada en España. Los registros disponibles pueden ser parciales. Ejemplos de autorizaciones de medicamentos con atorvastatina como único principio activo:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 76261 | Atorvastatina Vir 20 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 73778 | Atorvastatina Combix 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 89944 | Atorvastatina Davurgama 60 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 86214 | Atorvastatina Bluefish 80 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 85926 | Thervan 20 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 89944 | ATORVASTATINA DAVURGAMA 60 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+| 86214 | ATORVASTATINA BLUEFISH 80 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Bluefish Pharmaceuticals Ab (Publ) | Comercializada |
+| 73731 | ATORVASTATINA VIATRIS 20 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Limited | Comercializada |
+| 89030 | ATORVASTATINA PENSA PHARMA 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Towa Pharmaceutical S.A. | Comercializada |
+| 3400934306983IP | CARDYL 40 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Up | Comercializada |
+| 82895 | ATORVASTATINA QUALIGEN FARMA 80 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Neuraxpharm Spain S.L. | Comercializada |
+| 85926 | THERVAN 20 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Alter S.A. | Comercializada |
+| 78281 | ATORVASTATINA PHARMA COMBIX 80 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 72443 | ATORVASTATINA VIR PHARMA 80 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 80729 | ATORVASTATINA STADA 20 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

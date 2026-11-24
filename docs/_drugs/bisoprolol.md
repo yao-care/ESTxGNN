@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "BISOPROLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bisoprolol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -74,13 +74,24 @@ Actualmente no hay literatura relacionada disponible.
 
 Los datos compilados indican que bisoprolol está comercializado en España, con autorizaciones válidas (la lista de registros puede ser parcial). Principales presentaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 57543 | EURADAL 10 mg comprimidos recubiertos con película | Comprimido recubierto |
-| 63048 | EMCONCOR COR 5 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 57654 | EMCONCOR 5 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 73633 | Bisoprolol Cor Viatris 5 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 85878 | Bisoprolol Zentiva 7,5 mg comprimidos EFG | Comprimido |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 73633 | BISOPROLOL COR VIATRIS 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Limited | Comercializada |
+| 82243 | BISOPROLOL STADA 10 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Comercializada |
+| 72163 | BISOPROLOL NORMON 2,5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 90254 | BISOPROLOL COMBIX 2,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 73632 | BISOPROLOL COR VIATRIS 2,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Limited | Comercializada |
+| 63048 | EMCONCOR COR 5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Merck S.L. | Comercializada |
+| 90546 | BISOPROLOL STADAFARMA 2,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 57654 | EMCONCOR 5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Merck S.L. | Comercializada |
+| 78739 | BISOPROLOL KRKA 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Krka D.D. Novo Mesto | Comercializada |
+| 73635 | BISOPROLOL VIATRIS PHARMACEUTICALS 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Limited | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

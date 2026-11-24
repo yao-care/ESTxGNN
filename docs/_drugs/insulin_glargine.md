@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 420
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Insulin glargine"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
 description: "Insulin Glargine: nueva indicación predicha, Ooforitis autoinmune (autoimmune oophoritis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 16 (comercializadas: 8; autorizadas no comercializadas: 7)"
@@ -76,17 +76,28 @@ El texto de indicación aprobada no figura en los datos compilados.
 
 <!-- review:begin es-lic-20261105-insulin_glargine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 16 autorizaciones vigentes (todas de principio activo único). El texto de indicación aprobada no figura en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 16 autorizaciones (comercializadas: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 16 autorizaciones vigentes (todas de principio activo único). El texto de indicación aprobada no figura en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-insulin_glargine-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 00134007 | Lantus 100 unidades/ml solución inyectable en un cartucho | Solución inyectable en cartucho | No disponible |
-| 00134002 | Lantus 100 unidades/ml solución inyectable en un vial | Solución inyectable | No disponible |
-| 1181270003 | Semglee 100 unidades/ml solución inyectable en pluma precargada | Solución inyectable | No disponible |
-| 100133034 | Toujeo 300 unidades/ml SoloStar solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible |
-| 1252000002 | Ondibta 100 unidades/ml solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1181270003 | SEMGLEE 100 UNIDADES/ML SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Biosimilar Collaborations Ireland Limited | Comercializada |
+| 100133034 | TOUJEO 300 UNIDADES/ML SOLOSTAR SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Sanofi-Aventis Deutschland Gmbh | Comercializada |
+| 00134006 | LANTUS 100 UNIDADES/ML SOLUCION INYECTABLE EN UN CARTUCHO | SOLUCIÓN INYECTABLE EN CARTUCHO | Sanofi-Aventis Deutschland Gmbh | Comercializada |
+| 00134033 | LANTUS SOLOSTAR 100 UNIDADES/ML SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Sanofi-Aventis Deutschland Gmbh | Comercializada |
+| 114944012 | ABASAGLAR 100 UNIDADES/ML KWIKPEN SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Eli Lilly Nederland B.V. | Comercializada |
+| 1181270003IP | SEMGLEE 100 UNIDADES/ML SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Biosimilar Collaborations Ireland Limited | Comercializada |
+| 1000133038 | TOUJEO 300 UNIDADES/ML DOUBLESTAR SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Sanofi-Aventis Deutschland Gmbh | Comercializada |
+| 00134012 | LANTUS 100 UNIDADES/ML SOLUCION INYECTABLE EN UN VIAL | SOLUCIÓN INYECTABLE | Sanofi-Aventis Deutschland Gmbh | Comercializada |
+| 00134007 | LANTUS 100 UNIDADES/ML SOLUCION INYECTABLE EN UN CARTUCHO | SOLUCIÓN INYECTABLE EN CARTUCHO | Sanofi-Aventis Deutschland Gmbh | Autorizada, no comercializada |
+| 00134002 | LANTUS 100 UNIDADES/ML SOLUCION INYECTABLE EN UN VIAL | SOLUCIÓN INYECTABLE | Sanofi-Aventis Deutschland Gmbh | Autorizada, no comercializada |
+
+Se muestran 10 de 16 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -122,7 +133,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 16 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 16 autorizaciones vigentes (todas de principio activo único)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Langlara (insulin glargine-aldy) prescribing information, Lanexa Biologics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5328761e-59d3-ca7a-e063-6394a90ae810) |
 
 <!-- review:end log -->

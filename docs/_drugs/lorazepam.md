@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 483
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LORAZEPAM"
 predicted_indications: ["trigeminal nerve neoplasm"]
 description: "Lorazepam: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -77,13 +77,24 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 90287 | Lorazepam Aurovitas 1 mg comprimidos EFG | Comprimido | No disponible |
-| 83684 | Lorazepam Aristo 2,5 mg comprimidos bucodispersables EFG | Comprimido bucodispersable | No disponible |
-| 88360 | Temelor 4 mg/ml solución inyectable EFG | Solución inyectable | No disponible |
-| 49796 | Orfidal 1 mg comprimidos | Comprimido | No disponible |
-| 68477 | Lorazepam Cinfa 1 mg comprimidos EFG | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 90287 | LORAZEPAM AUROVITAS 1 MG COMPRIMIDOS EFG | COMPRIMIDO | Aurovitas Spain, S.A.U. | Comercializada |
+| 88360 | TEMELOR 4 MG/ML SOLUCIÓN INYECTABLE EFG | SOLUCIÓN INYECTABLE | Macure Healthcare Limited | Comercializada |
+| 68477 | LORAZEPAM CINFA 1 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 53555 | LORAZEPAM KERN PHARMA 1 mg COMPRIMIDOS EFG | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
+| 81245 | LORAZEPAM KERN PHARMA 5 MG COMPRIMIDOS EFG | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
+| 86665 | LORAZEPAM NORMON 0,5 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 68480 | LORAZEPAM PENSA 5 mg COMPRIMIDOS EFG | COMPRIMIDO | Towa Pharmaceutical S.A. | Comercializada |
+| 68479 | LORAZEPAM PENSA 1 mg COMPRIMIDOS EFG | COMPRIMIDO | Towa Pharmaceutical S.A. | Comercializada |
+| 90286 | LORAZEPAM AUROVITAS 0,5 MG COMPRIMIDOS EFG | COMPRIMIDO | Aurovitas Spain, S.A.U. | Comercializada |
+| 49796 | ORFIDAL 1 mg COMPRIMIDOS | COMPRIMIDO | Pfizer S.L. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

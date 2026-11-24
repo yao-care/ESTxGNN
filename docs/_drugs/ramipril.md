@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 680
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
 description: "Ramipril: nueva indicación predicha, Pulmonary hypertension owing to lung disease and/or hypoxia (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -89,13 +89,24 @@ Nota: varias publicaciones recuperadas (por ejemplo, sobre enfermedad de Cushing
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 67880 | RAMIPRIL ARISTO 2.5 mg COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
-| 73549 | RAMIPRIL TECNIGEN 2.5 mg COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
-| 65104 | ACOVIL 10 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
-| 73787 | RAMIPRIL COMBIX 10 mg COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
-| 76966 | RAMIPRIL ALTER 10 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 73549 | RAMIPRIL TECNIGEN 2.5 mg COMPRIMIDOS EFG | COMPRIMIDO | Tecnimede España Industria Farmaceutica S.A. | Comercializada |
+| 65104 | ACOVIL 10 mg COMPRIMIDOS | COMPRIMIDO | Sanofi Aventis S.A. | Comercializada |
+| 89630 | RAMIPRIL ALTER GENÉRICOS 5 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Alter S.A. | Comercializada |
+| 65824 | RAMIPRIL SANDOZ 2,5 mg COMPRIMIDOS EFG | COMPRIMIDO | Sandoz Farmaceutica S.A. | Comercializada |
+| 90368 | RAMIPRIL CINFAMED 5 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 71992 | RAMIPRIL AUROVITAS SPAIN 2.5 mg COMPRIMIDOS EFG | COMPRIMIDO | Aurovitas Spain, S.A.U. | Comercializada |
+| 65825 | RAMIPRIL SANDOZ 5 mg COMPRIMIDOS EFG | COMPRIMIDO | Sandoz Farmaceutica S.A. | Comercializada |
+| 73547 | RAMIPRIL TECNIGEN 5 mg COMPRIMIDOS EFG | COMPRIMIDO | Tecnimede España Industria Farmaceutica S.A. | Comercializada |
+| 78052 | RAMIPRIL TEVAGEN 5 MG COMPRIMIDOS EFG | COMPRIMIDO | Teva Pharma S.L.U. | Comercializada |
+| LT1971617003 | ACOVIL 5 mg COMPRIMIDOS | COMPRIMIDO | Sanofi Winthrop Industrie | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

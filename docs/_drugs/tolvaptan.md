@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 804
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "tolvaptan"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan: nueva indicación predicha, Renal-hepatic-pancreatic dysplasia (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -82,13 +82,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1231719006 | Tolvaptan Accord 15 mg comprimidos EFG | Comprimido | No disponible en los datos |
-| 09539003 | Samsca 30 mg comprimidos | Comprimido | No disponible en los datos |
-| 1151000013 | Jinarc 30 mg + 90 mg comprimidos | Comprimido | No disponible en los datos |
-| 1231719010 | Tolvaptan Accord 30 mg comprimidos EFG | Comprimido | No disponible en los datos |
-| 1151000008 | Jinarc 30 mg + 60 mg comprimidos | Comprimido | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1231719006 | TOLVAPTAN ACCORD 15 MG COMPRIMIDOS EFG | COMPRIMIDO | Accord Healthcare S.L.U. | Comercializada |
+| 09539003 | SAMSCA 30 mg COMPRIMIDOS | COMPRIMIDO | Otsuka Pharmaceutical Netherlands B.V. | Comercializada |
+| 1151000013 | JINARC 30 mg + 90 mg COMPRIMIDOS | COMPRIMIDO | Otsuka Pharmaceutical Netherlands B.V. | Comercializada |
+| 1231719010 | TOLVAPTAN ACCORD 30 MG COMPRIMIDOS EFG | COMPRIMIDO | Accord Healthcare S.L.U. | Comercializada |
+| 09539001 | SAMSCA 15 mg COMPRIMIDOS | COMPRIMIDO | Otsuka Pharmaceutical Netherlands B.V. | Comercializada |
+| 84995 | TOLVAPTAN TEVAGEN 30 MG COMPRIMIDOS EFG | COMPRIMIDO | Teva B.V. | Comercializada |
+| 84993 | TOLVAPTAN TEVA 15 MG + TOLVAPTAN TEVA 45 MG COMPRIMIDOS EFG | COMPRIMIDO | Teva B.V. | Comercializada |
+| 109539007 | SAMSCA 7,5 MG COMPRIMIDOS | COMPRIMIDO | Otsuka Pharmaceutical Netherlands B.V. | Comercializada |
+| 84994 | TOLVAPTAN TEVA 15 MG COMPRIMIDOS EFG | COMPRIMIDO | Teva B.V. | Comercializada |
+| 84992 | TOLVAPTAN TEVA 30 MG COMPRIMIDOS EFG | COMPRIMIDO | Teva B.V. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Se registran 20 autorizaciones vigentes en total (todas de monofármaco), de los titulares Otsuka, Accord y Teva.
 

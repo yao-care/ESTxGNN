@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Carbimazole"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Carbimazole: nueva indicación predicha, Resistencia a la hormona tiroidea por mutación en el receptor beta de la hormona tiroidea (resistance to thyroid hormon… (nivel de evidencia L5). Indicación or…"
 ---
 
@@ -74,9 +74,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 28996 | NEO-TOMIZOL 5 mg COMPRIMIDOS | Comprimido | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 28996 | NEO-TOMIZOL 5 mg COMPRIMIDOS | COMPRIMIDO | Ferrer Internacional S.A. | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

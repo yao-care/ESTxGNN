@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CALCIFEDIOL"
 predicted_indications: ["renal tubular acidosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Calcifediol: nueva indicación predicha, Renal tubular acidosis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 12 (comercializadas: 5; autorizadas no comercializadas: 6)"
 ---
 
@@ -69,6 +69,25 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
+
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 55315 | HIDROFEROL 0,1 mg/ml GOTAS ORALES EN SOLUCION | GOTAS ORALES EN SOLUCIÓN | Faes Farma S.A. | Comercializada |
+| 53684 | HIDROFEROL CHOQUE 3 mg SOLUCION ORAL | SOLUCIÓN ORAL | Faes Farma S.A. | Comercializada |
+| 53683 | HIDROFEROL 0,266 mg SOLUCION ORAL | SOLUCIÓN ORAL | Faes Farma S.A. | Comercializada |
+| 80095 | HIDROFEROL 0,266 MG CAPSULAS BLANDAS | CÁPSULA BLANDA | Faes Farma S.A. | Comercializada |
+| 89725 | HIDROFEROL SEMANAL 100 MICROGRAMOS CAPSULAS BLANDAS | CÁPSULA BLANDA | Faes Farma S.A. | Comercializada |
+| 90092 | VITODE SEMANAL 75 MICROGRAMOS CAPSULAS BLANDAS | CÁPSULA BLANDA | Faes Farma S.A. | Autorizada, no comercializada |
+| 88826 | CALCIFEDIOL NORMOGEN 0,266 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Laboratorios Normon S.A. | Autorizada, no comercializada |
+| 90091 | VITODE SEMANAL 100 MICROGRAMOS CAPSULAS BLANDAS | CÁPSULA BLANDA | Faes Farma S.A. | Autorizada, no comercializada |
+| 85519 | RAYALDEE 30 MICROGRAMOS CAPSULAS BLANDAS DE LIBERACION PROLONGADA | CÁPSULA BLANDA DE LIBERACIÓN PROLONGADA | Vifor Fresenius Medical Care Renal Pharma France | Autorizada, no comercializada |
+| 88825 | CALCIFEDIOL NORMON 0,266 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Laboratorios Normon S.A. | Autorizada, no comercializada |
+
+Se muestran 10 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Calcifediol está comercializado en España, con 12 autorizaciones registradas de productos de un solo principio activo (cápsulas blandas, cápsulas blandas de liberación prolongada, gotas orales y solución oral). Entre las marcas figuran Hidroferol, Vitode Semanal, Rayaldee y varios genéricos EFG de Normon y Faes Farma.
 

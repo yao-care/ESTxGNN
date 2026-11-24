@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 683
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ranitidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
 description: "Ranitidine: nueva indicación predicha, Perforación de úlcera péptica (peptic ulcer perforation) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -84,13 +84,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Todas las autorizaciones registradas figuran como canceladas. La lista de los datos compilados puede ser parcial. Se muestran las 5 principales.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 56004 | ZANTAC 150 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 60298 | ALQUEN 150 mg comprimidos efervescentes | Comprimido efervescente | No disponible |
-| 61921 | RANITIDINA NORMON 10 mg/ml solución inyectable EFG | Solución inyectable | No disponible |
-| 57831 | TERPOSEN 300 mg comprimidos recubiertos con película | Comprimido recubierto | No disponible |
-| 66030 | LEIRACID 75 mg comprimidos recubiertos | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 63445 | RANITIDINA CINFALAB 75 mg COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Laboratorios Cinfa S.A. | Suspendida |
+| 69843 | RANITIDINA TEVA 300 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Suspendida |
+| 60298 | ALQUEN 150 mg COMPRIMIDOS EFERVESCENTES | COMPRIMIDO EFERVESCENTE | Smithkline Beecham Farma S.A. | Revocada |
+| 70953 | RANITIDINA ARISTO 300 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aristo Pharma Iberia S.L. | Revocada |
+| 63811 | RANITIDINA DURBAN 300 mg COMPRIMIDOS EFG | COMPRIMIDO RECUBIERTO | Laboratorios Francisco Durban S.A. | Revocada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

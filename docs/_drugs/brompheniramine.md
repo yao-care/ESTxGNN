@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 120
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Brompheniramine: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -73,11 +73,17 @@ Todos los candidatos que el modelo TxGNN propone para este fármaco (puntuación
 
 ## Información de Mercado en España
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 79577 | paracetamol + bromfeniramina + cafeína | CÁPSULA DURA | Cancelado |
-| 60577 | paracetamol + bromfeniramina + cafeína | GRANULADO PARA SOLUCIÓN ORAL | Vigente |
-| 33844 | paracetamol + bromfeniramina + cafeína | COMPRIMIDO RECUBIERTO | Vigente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 60577 | ILVICO GRANULADO PARA SOLUCION ORAL | GRANULADO PARA SOLUCIÓN ORAL | Laboratorios Vicks S.L. | Comercializada |
+| 33844 | ILVICO COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Laboratorios Vicks S.L. | Comercializada |
+| 79577 | RESFRIOL CAPSULAS DURAS | CÁPSULA DURA | Teva Pharma S.L.U. | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

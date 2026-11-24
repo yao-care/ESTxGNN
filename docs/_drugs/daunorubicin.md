@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 226
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "daunorubicin"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
 description: "Daunorubicin: nueva indicación predicha, Linfoma de Hodgkin (Hodgkins lymphoma) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -85,10 +85,16 @@ Sin embargo, la relación es débil: el régimen estándar en el linfoma de Hodg
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 46427 | DAUNOBLASTINA 20 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
-| 1181308001 | VYXEOS LIPOSOMAL 44 mg/100 mg polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 46427 | DAUNOBLASTINA 20 mg POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Pfizer S.L. | Comercializada |
+| 1181308001 | VYXEOS LIPOSOMAL 44 MG/100 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Jazz Pharmaceuticals Ireland Limited | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

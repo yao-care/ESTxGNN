@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 828
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 description: "Trimethoprim: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locale"
@@ -85,10 +85,16 @@ Otras publicaciones recuperadas (enfermedad por arañazo de gato, estudios veter
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 52548 | TEDIPRIMA 160 MG CÁPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
-| 52547 | TEDIPRIMA 16 MG/ML SUSPENSIÓN ORAL | Suspensión oral | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 52547 | TEDIPRIMA 16 MG/ML SUSPENSIÓN ORAL | SUSPENSIÓN ORAL | Laboratorio Estedi S.L. | Comercializada |
+| 52548 | TEDIPRIMA 160 MG CÁPSULAS DURAS | CÁPSULA DURA | Laboratorio Estedi S.L. | Revocada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones son de formulaciones orales de trimetoprima sola, titularidad de Laboratorio Estedi S.L. No hay en España una formulación oftálmica entre las autorizaciones listadas.
 

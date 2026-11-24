@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 847
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Vildagliptin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Vildagliptin: nueva indicación predicha, Classic stiff person syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -80,13 +80,24 @@ Los textos de indicación aprobada no figuran en los datos compilados.
 
 <!-- review:end es-lic-20261105-vildagliptin-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 07414003 | Galvus 50 mg comprimidos | Comprimido | Novartis Europharm Limited |
-| 08485003 | Jalra 50 mg comprimidos | Comprimido | Novartis Europharm Limited |
-| 08486003 | Xiliarx 50 mg comprimidos | Comprimido | Novartis Europharm Limited |
-| 86670 | Vildagliptina Vir 50 mg comprimidos EFG | Comprimido | Industria Química y Farmacéutica Vir S.A. |
-| 84925 | Vildagliptina Tecnigen 50 mg cápsulas duras EFG | Cápsula dura | Tecnimede España Industria Farmacéutica S.A. |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 07414005IP1 | GALVUS 50 MG COMPRIMIDOS | COMPRIMIDO | Novartis Europharm Limited | Comercializada |
+| 83995 | VILDAGLIPTINA TEVA 50 MG COMPRIMIDOS EFG | COMPRIMIDO | Teva B.V. | Comercializada |
+| 86303 | VILDAGLIPTINA PENSA 50 MG COMPRIMIDOS EFG | COMPRIMIDO | Towa Pharmaceutical S.A. | Comercializada |
+| 07414005IP2 | GALVUS 50 MG COMPRIMIDOS | COMPRIMIDO | Novartis Europharm Limited | Comercializada |
+| 84908 | VILDAGLIPTINA KERN PHARMA 50 MG COMPRIMIDOS EFG | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
+| 83106 | VILDAGLIPTINA KRKA 50 MG COMPRIMIDOS EFG | COMPRIMIDO | Krka D.D. Novo Mesto | Comercializada |
+| 84925 | VILDAGLIPTINA TECNIGEN 50 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Tecnimede España Industria Farmaceutica S.A. | Comercializada |
+| 08486003 | XILIARX 50 mg COMPRIMIDOS | COMPRIMIDO | Novartis Europharm Limited | Comercializada |
+| 84989 | VILDAGLIPTINA COMBIX 50 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Combix S.L.U. | Comercializada |
+| 08485003 | JALRA 50 mg COMPRIMIDOS | COMPRIMIDO | Novartis Europharm Limited | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

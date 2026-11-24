@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 767
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Tazobactam: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,30 +72,34 @@ Todos los candidatos que el modelo TxGNN (puntuación ≥ 0,99) propone para Taz
 
 ## Información de Mercado en España
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 67902 | piperacilina + tazobactam | POLVO Y DISOLVENTE PARA SOLUCIÓN PARA PE | Cancelado |
-| 67903 | piperacilina + tazobactam | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Cancelado |
-| 71824 | piperacilina + tazobactam | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Vigente |
-| 86582 | piperacilina + tazobactam | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Cancelado |
-| 78656 | piperacilina + tazobactam | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PE | Cancelado |
-| 71601 | piperacilina + tazobactam | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Vigente |
-| 71287 | piperacilina + tazobactam | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Cancelado |
-| 88989 | piperacilina + tazobactam | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Vigente |
-| 89486 | piperacilina + tazobactam | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Autorizado, no comercializado |
-| 86581 | piperacilina + tazobactam | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Cancelado |
-| 88988 | piperacilina + tazobactam | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Vigente |
-| 88716 | piperacilina + tazobactam | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Cancelado |
-| 1151032001 | ceftolozano + tazobactam | POLVO PARA CONCENTRADO PARA SOLUCIÓN PAR | Vigente |
-| 71600 | piperacilina + tazobactam | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Vigente |
-| 88715 | piperacilina + tazobactam | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Cancelado |
-| 71286 | piperacilina + tazobactam | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Vigente |
-| 89485 | piperacilina + tazobactam | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Vigente |
-| 89690 | piperacilina + tazobactam | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Autorizado, no comercializado |
-| 71826 | piperacilina + tazobactam | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Vigente |
-| 68206 | piperacilina + tazobactam | POLVO Y DISOLVENTE PARA SOLUCIÓN PARA PE | Cancelado |
+<!-- licenses:begin -->
 
-Los datos solo contienen parte de los registros; la lista puede estar incompleta.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 71824 | PIPERACILINA/TAZOBACTAM AUROVITAS 4 g/0,5 g POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Eugia Pharma (Malta) Limited | Comercializada |
+| 71601 | PIPERACILINA/TAZOBACTAM KABI 4 g/0,5 g POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Comercializada |
+| 88989 | PIPERACILINA/TAZOBACTAM QILU 4 G/0,5 G POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Qilu Pharma Spain S.L. | Comercializada |
+| 88988 | PIPERACILINA/TAZOBACTAM QILU 2 G/0,25 G POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Qilu Pharma Spain S.L. | Comercializada |
+| 1151032001 | ZERBAXA 1 G/0,5 G POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Merck Sharp & Dohme B.V. | Comercializada |
+| 71600 | PIPERACILINA/TAZOBACTAM KABI 2 g/0,25 g POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Comercializada |
+| 71286 | PIPERACILINA/TAZOBACTAM SANDOZ 4 G/0,5 G POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Sandoz Farmaceutica S.A. | Comercializada |
+| 89485 | PIPERACILINA/TAZOBACTAM ACCORD HEALTHCARE 4 G/0,5 G POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 71826 | PIPERACILINA/TAZOBACTAM AUROVITAS 2 g/0,25 g POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Eugia Pharma (Malta) Limited | Comercializada |
+| 89486 | PIPERACILINA/TAZOBACTAM ACCORD HEALTHCARE 2 G/0,25 G POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Autorizada, no comercializada |
+| 89690 | PITAZ 2 G/0,25 G POLVO PARA SOLUCIÓN PARA PERFUSIÓN EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Medochemie Limited | Autorizada, no comercializada |
+| 71287 | PIPERACILINA/TAZOBACTAM SANDOZ 2 G/0,25 G POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Sandoz Farmaceutica S.A. | Suspendida |
+| 67902 | PIPERACILINA/TAZOBACTAM ACCORD 2/0,25 g POLVO Y DISOLVENTE PARA SOLUCION PARA PERFUSION EFG | POLVO Y DISOLVENTE PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Revocada |
+| 67903 | PIPERACILINA/TAZOBACTAM ACCORD 4/0,5 g POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Revocada |
+| 86582 | PIPERACILINA/TAZOBACTAM STADA 4 G/0,5 G POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Laboratorio Stada S.L. | Revocada |
+| 78656 | PIPERACILINA/TAZOBACTAM NORMON 2 G/0,25 G POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Laboratorios Normon S.A. | Revocada |
+| 86581 | PIPERACILINA/TAZOBACTAM STADA 2 G/0,25 G POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Laboratorio Stada S.L. | Revocada |
+| 88716 | PIPERACILINA/TAZOBACTAM KALCEKS 4 G/0,5 G POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Kalceks As | Revocada |
+| 88715 | PIPERACILINA/TAZOBACTAM KALCEKS 2 G/0,25 G POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Kalceks As | Revocada |
+| 68206 | PIPERACILINA/TAZOBACTAM ACCORDPHARMA 2/0,25 g POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE EFG | POLVO Y DISOLVENTE PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Revocada |
+
+Se muestran las 20 autorizaciones con este principio activo recogidas en los datos de CIMA (AEMPS) para este informe; primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

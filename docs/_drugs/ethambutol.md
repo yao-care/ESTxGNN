@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 313
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "ethambutol"
 predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection", "peritonitis", "infectious otitis media"]
 description: "Ethambutol: nueva indicación predicha, Epiglotitis (epiglottitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -75,10 +75,16 @@ La evidencia no aísla la contribución del etambutol y no corresponde a epiglot
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 44430 | Myambutol 400 mg comprimidos recubiertos | Comprimido recubierto | No disponible |
-| 65904 | Rimstar comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 44430 | Myambutol 400 mg comprimidos recubiertos | COMPRIMIDO RECUBIERTO | Teofarma S.R.L. | Comercializada |
+| 65904 | RIMSTAR COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Gmbh | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

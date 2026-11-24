@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 172
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Chloroprocaine: nueva indicación predicha, Síndrome de la cola de caballo (nivel de evidencia L5). Indicación original: No disponible en las autorizaciones de AEMPS (texto de indicación vac…"
 monitor_inn: "chloroprocaine"
 predicted_indications: ["cauda equina syndrome"]
@@ -77,10 +77,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 84918 | AMPRES 20 MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | No disponible en los datos compilados |
-| 76137 | AMPRES 10 MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 76137 | AMPRES 10 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | B Braun Medical S.A. | Comercializada |
+| 84918 | AMPRES 20 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | B Braun Medical S.A. | Revocada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

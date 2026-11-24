@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 223
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DARUNAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Darunavir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos l…"
@@ -78,13 +78,24 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 06380003 | PREZISTA 400 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 06380004 | PREZISTA 150 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 106380007 | PREZISTA 800 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 85186 | Darunavir Tarbis 800 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 83578 | Darunavir Dr. Reddys 600 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 85186 | DARUNAVIR TARBIS 800 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Comercializada |
+| 85184 | DARUNAVIR TARBIS 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Comercializada |
+| 06380003 | PREZISTA 400 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Janssen-Cilag International N.V | Comercializada |
+| 82144 | DARUNAVIR SANDOZ 800 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Comercializada |
+| 86483 | DARUNAVIR VIVANTA 600 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vivanta Generics S.R.O. | Comercializada |
+| 106380007 | PREZISTA 800 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Janssen-Cilag International N.V | Comercializada |
+| 1161140032 | DARUNAVIR MYLAN 600 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Mylan Pharmaceuticals Limited | Autorizada, no comercializada |
+| 1171249005 | DARUNAVIR KRKA 600 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Krka D.D. Novo Mesto | Autorizada, no comercializada |
+| 06380005 | PREZISTA 75 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Janssen-Cilag International N.V | Autorizada, no comercializada |
+| 1161140040 | DARUNAVIR MYLAN 800 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Mylan Pharmaceuticals Limited | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

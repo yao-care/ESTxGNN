@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 117
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bromazepam: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "bromazepam"
 predicted_indications: ["migraine disorder"]
@@ -72,19 +72,30 @@ Actualmente no hay literatura relacionada disponible.
 
 <!-- review:begin es-lic-20261105-bromazepam-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 13 autorizaciones vigentes (todas de medicamentos con un único principio activo, en cápsula dura):" Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 13 autorizaciones (comercializadas: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se listan 5 de las 13 autorizaciones vigentes (todas de medicamentos con un único principio activo, en cápsula dura):" Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-bromazepam-1 -->
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 73129 | Bromazepam Normon 6 mg cápsulas duras EFG | Cápsula dura | No disponible |
-| 73133 | Bromazepam Normon 3 mg cápsulas duras EFG | Cápsula dura | No disponible |
-| 55751 | Lexatin 3 mg cápsulas duras | Cápsula dura | No disponible |
-| 73322 | Bromazepam Kern Pharma 1,5 mg cápsulas EFG | Cápsula dura | No disponible |
-| 73132 | Bromazepam Normon 1,5 mg cápsulas duras EFG | Cápsula dura | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 73129 | BROMAZEPAM NORMON 6 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Normon S.A. | Comercializada |
+| 73133 | BROMAZEPAM NORMON 3 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Normon S.A. | Comercializada |
+| 55751 | LEXATIN 3 mg CAPSULAS DURAS | CÁPSULA DURA | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 73322 | BROMAZEPAM KERN PHARMA 1,5 mg CAPSULAS EFG | CÁPSULA DURA | Kern Pharma S.L. | Comercializada |
+| 73132 | BROMAZEPAM NORMON 1,5 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Normon S.A. | Comercializada |
+| 73321 | BROMAZEPAM KERN PHARMA 3 mg CAPSULAS EFG | CÁPSULA DURA | Kern Pharma S.L. | Comercializada |
+| 53560 | LEXATIN 1,5 mg CAPSULAS DURAS | CÁPSULA DURA | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 73319 | BROMAZEPAM PENSA 3 mg CAPSULAS EFG | CÁPSULA DURA | Towa Pharmaceutical S.A. | Comercializada |
+| 79660 | BROMAZEPAM TARBIS 6 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Tarbis Farma S.L. | Autorizada, no comercializada |
+| 73324 | BROMAZEPAM PENSA 1,5 mg CAPSULAS EFG | CÁPSULA DURA | Towa Pharmaceutical S.A. | Suspendida |
+
+Se muestran 10 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -112,7 +123,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se listan 5 de las 13 autorizaciones vigentes (todas de medicamentos con un único principio activo, en cápsula dura):" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se listan 5 de las 13 autorizaciones vigentes (todas de medicamentos con un único principio activo, en cápsula dura):" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062) |
 
 <!-- review:end log -->

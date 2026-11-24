@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Insulin glulisine"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Glulisine: nueva indicación predicha, Thiamine-responsive dysfunction syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 3; autorizadas no comercializadas: 1)"
@@ -106,13 +106,19 @@ Entre los demás ensayos figuran estudios de Fase 4 en CSII (p. ej., NCT00607087
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 04285001 | APIDRA 100 unidades/ml solución inyectable en vial | Solución inyectable | No disponible en los datos |
-| 04285032 | APIDRA 100 unidades/ml SoloStar solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos |
-| 04285008 | APIDRA 100 unidades/ml solución inyectable en cartucho | Solución inyectable en cartucho | No disponible en los datos |
-| 04285032IP | APIDRA SoloStar 100 unidades/ml solución inyectable en una pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos |
-| 04285024 | APIDRA 100 unidades/ml OptiClik solución inyectable en cartucho | Solución inyectable en cartucho | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 04285032 | APIDRA 100 UNIDADES/ML,SOLOSTAR SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Sanofi-Aventis Deutschland Gmbh | Comercializada |
+| 04285008 | APIDRA 100 UNIDADES/ML SOLUCION INYECTABLE EN CARTUCHO | SOLUCIÓN INYECTABLE EN CARTUCHO | Sanofi-Aventis Deutschland Gmbh | Comercializada |
+| 04285032IP | APIDRA SOLOSTAR 100 UNIDADES/ML SOLUCION INYECTABLE EN UNA PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Sanofi-Aventis Deutschland Gmbh | Comercializada |
+| 04285001 | APIDRA 100 UNIDADES/ML SOLUCION INYECTABLE EN VIAL | SOLUCIÓN INYECTABLE | Sanofi-Aventis Deutschland Gmbh | Autorizada, no comercializada |
+| 04285024 | APIDRA 100 UNIDADES/ml OPTICLIK SOLUCION INYECTABLE EN CARTUCHO | SOLUCIÓN INYECTABLE EN CARTUCHO | Sanofi-Aventis Deutschland Gmbh | Revocada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 
@@ -127,7 +133,7 @@ Entre los demás ensayos figuran estudios de Fase 4 en CSII (p. ej., NCT00607087
 
 <!-- review:begin es-lic-20261105-insulin_glulisine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Las cinco autorizaciones están vigentes, son de monofármaco y pertenecen a Sanofi-Aventis Deutschland GmbH." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 autorizaciones (comercializadas: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Las cinco autorizaciones están vigentes, son de monofármaco y pertenecen a Sanofi-Aventis Deutschland GmbH." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-insulin_glulisine-1 -->
 
@@ -160,7 +166,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Las cinco autorizaciones están vigentes, son de monofármaco y pertenecen a Sanofi-Aventis Deutschland GmbH" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Las cinco autorizaciones están vigentes, son de monofármaco y pertenecen a Sanofi-Aventis Deutschland GmbH" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa) |
 
 <!-- review:end log -->

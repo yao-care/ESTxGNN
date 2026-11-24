@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 331
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fentanyl: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (nivel de evidencia L5). Indicación original: No disponible en los datos compilados para este informe"
 monitor_inn: "fentanyl"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -80,13 +80,24 @@ Los textos de indicación aprobada no figuran en los datos compilados.
 
 <!-- review:end es-lic-20261105-fentanyl-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 69731 | Fentanilo Matrix Sandoz 50 µg/hora | Parche transdérmico | Sandoz Farmacéutica S.A. |
-| 61960 | Durogesic Matrix 50 µg/h | Parche transdérmico | Janssen Cilag S.A. |
-| 64061 | Actiq 1600 µg | Comprimido para chupar con aplicador bucal | Phoenix Labs Unlimited Company |
-| 76980 | Avaric 800 µg | Comprimido sublingual | Angelini Pharma España S.L. |
-| 74148 | Breakyl 600 µg | Película bucal | Viatris Healthcare Limited |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 69731 | FENTANILO MATRIX SANDOZ 50 microgramos/HORA PARCHES TRANSDERMICOS EFG | PARCHE TRANSDÉRMICO | Sandoz Farmaceutica S.A. | Comercializada |
+| 71763 | FENTANILO MATRIX STADA 25 microgramos /H PARCHE TRANSDERMICOS EFG | PARCHE TRANSDÉRMICO | Laboratorio Stada S.L. | Comercializada |
+| 84694 | FENTANILO ARISTO 100 MICROGRAMOS COMPRIMIDOS BUCALES EFG | COMPRIMIDO BUCAL | Aristo Pharma Gmbh | Comercializada |
+| 70041 | FENTANILO MATRIX RATIOPHARM 12 microgramos/HORA PARCHES TRANSDERMICOS EFG | PARCHE TRANSDÉRMICO | Teva Pharma S.L.U. | Comercializada |
+| 61960 | DUROGESIC MATRIX 50 microgramos/H PARCHES TRANSDERMICOS | PARCHE TRANSDÉRMICO | Janssen Cilag S.A. | Comercializada |
+| 68559 | FENTANILO MATRIX RATIOPHARM 50 microgramos/HORA PARCHES TRANSDERMICOS EFG | PARCHE TRANSDÉRMICO | Teva Pharma S.L.U. | Comercializada |
+| 81258 | ABFENTIQ 600 MICROGRAMOS COMPRIMIDOS PARA CHUPAR EFG | COMPRIMIDO PARA CHUPAR | Ferrer Internacional S.A. | Comercializada |
+| 84695 | FENTANILO ARISTO 200 MICROGRAMOS COMPRIMIDOS BUCALES EFG | COMPRIMIDO BUCAL | Aristo Pharma Gmbh | Comercializada |
+| 64061 | ACTIQ 1600 microgramos, COMPRIMIDOS PARA CHUPAR CON APLICADOR BUCAL INTEGRADO | COMPRIMIDO PARA CHUPAR | Phoenix Labs Unlimited Company | Comercializada |
+| 71858 | FENTANILO MATRIX CINFA 50 microgramos/H PARCHES TRANSDERMICOS EFG | PARCHE TRANSDÉRMICO | Laboratorios Cinfa S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

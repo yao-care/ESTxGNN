@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 833
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TUROCTOCOG ALFA PEGOL"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "hereditary thrombocytosis with transverse limb defect", "fetal and neonatal alloimmune thrombocytopenia"]
 description: "Turoctocog Alfa Pegol: nueva indicación predicha, Primary release disorder of platelets (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 5)"
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1191374001 | ESPEROCT 500 UI | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
-| 1191374002 | ESPEROCT 1000 UI | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
-| 1191374003 | ESPEROCT 1500 UI | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
-| 1191374004 | ESPEROCT 2000 UI | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
-| 1191374005 | ESPEROCT 3000 UI | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1191374002 | ESPEROCT 1000 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Novo Nordisk A/S | Comercializada |
+| 1191374001 | ESPEROCT 500 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Novo Nordisk A/S | Comercializada |
+| 1191374003 | ESPEROCT 1500 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Novo Nordisk A/S | Comercializada |
+| 1191374004 | ESPEROCT 2000 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Novo Nordisk A/S | Comercializada |
+| 1191374005 | ESPEROCT 3000 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Novo Nordisk A/S | Comercializada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Todas las autorizaciones corresponden a Novo Nordisk A/S, son de principio activo único y se encuentran vigentes.
 

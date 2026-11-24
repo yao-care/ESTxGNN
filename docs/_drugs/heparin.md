@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 392
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Heparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
 description: "Heparin: nueva indicación predicha, Trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency… (nivel de evidencia L5). Indicación original: No consta …"
@@ -83,14 +83,20 @@ Nota: para la segunda predicción (trastorno primario de liberación plaquetaria
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 58691 | Heparina Sódica Rovi 1000 UI/ml | Solución inyectable | No disponible |
-| 56465 | Heparina Sódica Sala 1.000 UI/ml | Solución inyectable | No disponible |
-| 58678 | Menaven 1000 UI/g Gel | Gel (tópico) | No disponible |
-| 58679 | Menaven 1000 UI/g Crema | Pomada | No disponible |
-| 58693 | Heparina Sódica Rovi 5000 UI/ml | Solución inyectable | No disponible |
-| 56029 | Heparina Sódica Sala 5000 UI/ml | Solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 58691 | HEPARINA SODICA ROVI 1000 UI/ml SOLUCIÓN INYECTABLE | SOLUCIÓN INYECTABLE | Laboratorios Farmaceuticos Rovi S.A. | Comercializada |
+| 56465 | HEPARINA SODICA SALA 1.000 UI/ml | SOLUCIÓN INYECTABLE | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 58678 | MENAVEN 1000 UI/G GEL | GEL | Laboratorios Menarini S.A. | Comercializada |
+| 58693 | HEPARINA SODICA ROVI 5000 UI/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Laboratorios Farmaceuticos Rovi S.A. | Comercializada |
+| 56029 | HEPARINA SODICA SALA 5000 UI/ml | SOLUCIÓN INYECTABLE | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 58679 | MENAVEN 1000 UI/G CREMA | POMADA | Laboratorios Menarini S.A. | Revocada |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Hay presentaciones inyectables y tópicas (gel y crema). Las inyectables son las relevantes para una indicación sistémica como la predicha.
 

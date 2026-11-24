@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 214
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Cytarabine"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
 description: "Cytarabine: nueva indicación predicha, Small cell lung carcinoma (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 6 (comercializadas: 4)"
@@ -68,7 +68,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 <!-- review:begin es-lic-20261105-cytarabine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 6 autorizaciones vigentes en total (todas de monofármaco); la tabla muestra las 5 principales." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 6 autorizaciones vigentes en total (todas de monofármaco); la tabla muestra las 5 principales." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-cytarabine-1 -->
 
@@ -89,13 +89,20 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 86180 | Citarabina Pfizer 20 mg/ml solución inyectable y para perfusión | Solución inyectable y para perfusión | No disponible en los datos compilados |
-| 56463 | Citarabina Pfizer 500 mg polvo y disolvente para solución inyectable y para perfusión | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
-| 74455 | Citarabina Accord 100 mg/ml solución inyectable y para perfusión | Solución inyectable y para perfusión | No disponible en los datos compilados |
-| 49154 | Citarabina Pfizer 100 mg polvo y disolvente para solución inyectable y para perfusión | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
-| 77352 | Citarabina Kabi 100 mg/ml solución inyectable o para perfusión | Solución inyectable y para perfusión | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 86180 | CITARABINA PFIZER 20 MG/ML SOLUCION INYECTABLE Y PARA PERFUSION | SOLUCION INYECTABLE Y PARA PERFUSION | Pfizer S.L. | Comercializada |
+| 56463 | CITARABINA PFIZER 500 mg POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Pfizer S.L. | Comercializada |
+| 74455 | CITARABINA ACCORD 100 mg/ml SOLUCION INYECTABLE Y PARA PERFUSION | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 49154 | CITARABINA PFIZER 100 mg POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Pfizer S.L. | Comercializada |
+| 77352 | CITARABINA KABI 100MG/ML SOLUCION INYECTABLE O PARA PERFUSION | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Suspendida |
+| 83265 | CITARABINA ACCORD 20 MG/ML SOLUCION INYECTABLE Y PARA PERFUSION | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Accord Healthcare S.L.U. | Suspendida |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 
@@ -139,7 +146,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Hay 6 autorizaciones vigentes en total (todas de monofármaco); la tabla muestra las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Hay 6 autorizaciones vigentes en total (todas de monofármaco); la tabla muestra las 5 principales" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd) |
 
 <!-- review:end log -->

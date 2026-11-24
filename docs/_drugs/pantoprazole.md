@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 610
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Pantoprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -83,13 +83,19 @@ La relación entre la indicación original y la predicha es muy estrecha: la úl
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61001 | PANTECTA 40 mg comprimidos gastrorresistentes | Comprimido gastrorresistente | No disponible en los datos compilados |
-| 77931 | PANTOPRAZOL DURBAN 40 mg comprimidos gastrorresistentes EFG | Comprimido gastrorresistente | No disponible en los datos compilados |
-| 69698 | PANTOPRAZOL NORMON 40 mg polvo para solución inyectable EFG | Polvo para solución inyectable | No disponible en los datos compilados |
-| 72528 | PANTOPRAZOL BLUEFISH 40 mg comprimidos gastrorresistentes EFG | Comprimido gastrorresistente | No disponible en los datos compilados |
-| 84014 | PANTOPRAZOL HIKMA 40 mg polvo para solución inyectable EFG | Polvo para solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61001 | PANTECTA 40 mg COMPRIMIDOS GASTRORRESISTENTES | COMPRIMIDO GASTRORRESISTENTE | Takeda Gmbh | Comercializada |
+| 77931 | PANTOPRAZOL DURBAN 40 MG COMPRIMIDOS GASTRORRESISTENTES EFG | COMPRIMIDO GASTRORRESISTENTE | Laboratorios Francisco Durban S.A. | Comercializada |
+| 69698 | PANTOPRAZOL NORMON 40 mg POLVO PARA SOLUCION INYECTABLE EFG | POLVO PARA SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 72528 | PANTOPRAZOL BLUEFISH 40 mg COMPRIMIDOS GASTRORRESISTENTES EFG | COMPRIMIDO GASTRORRESISTENTE | Bluefish Pharmaceuticals Ab (Publ) | Comercializada |
+| R6898 | PANTECTA 40 MG COMPRIMIDOS GASTRORRESISTENTES | COMPRIMIDO GASTRORRESISTENTE | Takeda Pharma Sp. Z O.O. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Se incluyen formas orales (comprimidos de 20 y 40 mg) e inyectables.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Atomoxetine"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Atomoxetine: nueva indicación predicha, Trastorno específico del desarrollo (specific developmental disorder) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -82,13 +82,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Lista parcial; los registros locales pueden no estar completos.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 67660 | STRATTERA 10 mg cápsulas duras | Cápsula dura | No registrada en los datos locales |
-| 70123 | STRATTERA 100 mg cápsulas duras | Cápsula dura | No registrada en los datos locales |
-| 82443 | ATOMOXETINA CINFA 25 mg cápsulas duras EFG | Cápsula dura | No registrada en los datos locales |
-| 82389 | ATAMAX 40 mg cápsulas duras EFG | Cápsula dura | No registrada en los datos locales |
-| 84097 | AUDALIS 18 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 82443 | ATOMOXETINA CINFA 25 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Cinfa S.A. | Comercializada |
+| 82445 | ATOMOXETINA CINFA 60 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Cinfa S.A. | Comercializada |
+| 82389 | ATAMAX 40 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Rubio S.A. | Comercializada |
+| 82442 | ATOMOXETINA CINFA 18 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Cinfa S.A. | Comercializada |
+| 82392 | ATAMAX 100 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Rubio S.A. | Comercializada |
+| 89295 | ATOMOXETINA TARBIS 25 MG CÁPSULAS DURAS EFG | CÁPSULA DURA | Tarbis Farma S.L. | Comercializada |
+| 89293 | ATOMOXETINA TARBIS 10 MG CÁPSULAS DURAS EFG | CÁPSULA DURA | Tarbis Farma S.L. | Comercializada |
+| 89294 | ATOMOXETINA TARBIS 18 MG CÁPSULAS DURAS EFG | CÁPSULA DURA | Tarbis Farma S.L. | Comercializada |
+| 82440 | ATOMOXETINA CINFA 100 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Cinfa S.A. | Comercializada |
+| 84536 | ATOMOXETINA MACLEODS 60 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Macleods Pharma Espana S.L.U. | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

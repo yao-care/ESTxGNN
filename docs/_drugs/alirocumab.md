@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ALIROCUMAB"
 predicted_indications: ["ichthyosis, X-linked, without steroid sulfatase deficiency", "disorder of other vitamins and cofactors metabolism and transport", "xanthomatosis (disease)", "46,XY disorder of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect", "cholesterol catabolic process disease", "46,XY disorder of sex development due to a cholesterol synthesis defect", "dappled diaphyseal dysplasia", "neutral lipid storage disease", "3-hydroxyacyl-CoA dehydrogenase deficiency", "spastic paraplegia-optic atrophy-neuropathy and spastic paraplegia-optic atrophy-neuropathy-related disorder"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Alirocumab: nueva indicación predicha, ictiosis ligada al cromosoma X, sin deficiencia de esteroide sulfatasa (ichthyosis, X-linked… (nivel de evidencia L5). Indicación original: No consta en los dat…"
 ---
 
@@ -74,13 +74,23 @@ Actualmente no hay literatura relacionada disponible.
 
 Alirocumab figura como comercializado en España (Praluent, de Sanofi Winthrop Industrie), en solución inyectable en jeringa o pluma precargada, con dosis de 75 mg, 150 mg y 300 mg.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 1151031011 | Praluent 150 mg solución inyectable en jeringa precargada | Solución inyectable |
-| 1151031008 | Praluent 150 mg solución inyectable en pluma precargada | Solución inyectable |
-| 1151031010 | Praluent 150 mg solución inyectable en jeringa precargada | Solución inyectable |
-| 1151031004 | Praluent 75 mg solución inyectable en jeringa precargada | Solución inyectable |
-| 1151031019 | Praluent 300 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1151031008 | PRALUENT 150 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Sanofi Winthrop Industrie | Comercializada |
+| 1151031019 | PRALUENT 300 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Sanofi Winthrop Industrie | Comercializada |
+| 1151031002 | PRALUENT 75 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Sanofi Winthrop Industrie | Comercializada |
+| 1151031011 | PRALUENT 150 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Sanofi Winthrop Industrie | Autorizada, no comercializada |
+| 1151031010 | PRALUENT 150 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Sanofi Winthrop Industrie | Autorizada, no comercializada |
+| 1151031004 | PRALUENT 75 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Sanofi Winthrop Industrie | Autorizada, no comercializada |
+| 1151031007 | PRALUENT 150 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Sanofi Winthrop Industrie | Autorizada, no comercializada |
+| 1151031005 | PRALUENT 75 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Sanofi Winthrop Industrie | Autorizada, no comercializada |
+| 1151031001 | PRALUENT 75 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Sanofi Winthrop Industrie | Autorizada, no comercializada |
+
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

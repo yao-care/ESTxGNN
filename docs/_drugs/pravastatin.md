@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 656
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: nueva indicación predicha, HIV infectious disease (nivel de evidencia L4). En España, autorizaciones de la AEMPS: al menos 20"
@@ -101,13 +101,19 @@ Se muestran las 5 principales:
 
 <!-- review:end es-lic-20261105-pravastatin-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 66521 | Pravastatina Tarbis 40 mg comprimidos EFG | Comprimido |
-| 81468 | Pravastatina Aurovitas 20 mg comprimidos EFG | Comprimido |
-| 60162 | Bristacol 20 mg comprimidos | Comprimido |
-| 62688 | Prareduct 40 mg comprimidos | Comprimido |
-| 66609 | Pravastatina Teva 40 mg comprimidos EFG | Comprimido |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 81468 | PRAVASTATINA AUROVITAS 20 MG COMPRIMIDOS EFG | COMPRIMIDO | Aurovitas Spain, S.A.U. | Comercializada |
+| 70376 | PRAVASTATINA KORHISPANA 10 mg COMPRIMIDOS EFG | COMPRIMIDO | Korhispana S.L. | Comercializada |
+| 68535 | PRAVASTATINA QUALIGEN 10 mg COMPRIMIDOS EFG | COMPRIMIDO | Neuraxpharm Spain S.L. | Comercializada |
+| 70154 | PRAVASTATINA CINFAMED 20 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 67686 | PRAVASTATINA MABO 40 mg COMPRIMIDOS EFG | COMPRIMIDO | Mabo Farma S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

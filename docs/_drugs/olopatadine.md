@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 588
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Olopatadine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Olopatadine: nueva indicación predicha, Conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 3; autorizadas no comercializadas: 5)"
@@ -75,19 +75,31 @@ Se listan las 5 principales. El texto de indicación aprobada no figura en los d
 
 <!-- review:begin es-lic-20261105-olopatadine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se identificaron 9 autorizaciones vigentes (todas de monofármaco, ninguna cancelada). Se listan las 5 principales." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 autorizaciones (comercializadas: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se identificaron 9 autorizaciones vigentes (todas de monofármaco, ninguna cancelada). Se listan las 5 principales." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-olopatadine-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 02217001 | OPATANOL 1 mg/ml colirio en solución (Novartis Europharm Limited) | Colirio en solución | No disponible en los datos compilados |
-| 02217001IP | OPATANOL 1 mg/ml colirio en solución (Alcon Laboratories Ltd, Reino Unido) | Colirio en solución | No disponible en los datos compilados |
-| 84786 | Olopatadina Juta 1 mg/ml colirio en solución | Colirio en solución | No disponible en los datos compilados |
-| 80808 | Apadin 1 mg/ml colirio en solución (Tiedra Farmacéutica S.L.) | Colirio en solución | No disponible en los datos compilados |
-| 83595 | Olopatadina Abamed 1 mg/ml colirio en solución (Qualix Pharma S.L.) | Colirio en solución | No disponible en los datos compilados |
+<!-- licenses:begin -->
 
-Las otras autorizaciones corresponden a presentaciones adicionales de Opatanol (02217001IP1, 02217001IP2, 02217001IP3) y a Olopatadina Vir (84864). Todas las formas son colirio en solución.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 02217001 | OPATANOL 1 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Novartis Europharm Limited | Comercializada |
+| 80808 | APADIN 1 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Tiedra Farmaceutica S.L. | Comercializada |
+| 83595 | OLOPATADINA ABAMED 1 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Qualix Pharma S.L. | Comercializada |
+| 02217001IP3 | OPATANOL 1 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Alcon Laboratories Ltd (Uk) | Autorizada, no comercializada |
+| 02217001IP | OPATANOL 1 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Alcon Laboratories Ltd (Uk) | Autorizada, no comercializada |
+
+Se muestran 5 de 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
+
+Entre las autorizaciones figuran también presentaciones adicionales de Opatanol (02217001IP1, 02217001IP2, 02217001IP3) y Olopatadina Vir (84864). Todas las formas son colirio en solución.
+
+<!-- review:begin es-lic-20261124-olopatadine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Las otras autorizaciones corresponden a presentaciones adicionales de Opatanol (02217001IP1, 02217001IP2, 02217001IP3) y a Olopatadina Vir (84864)." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y algunas de ellas (por ejemplo 02217001IP3) ya figuran en la tabla. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124-olopatadine-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -118,8 +130,9 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se identificaron 9 autorizaciones vigentes (todas de monofármaco, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se identificaron 9 autorizaciones vigentes (todas de monofármaco, ninguna cancelada)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85) |
+| 2026-11-24 | «Las otras autorizaciones» → «Entre las autorizaciones figuran también» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

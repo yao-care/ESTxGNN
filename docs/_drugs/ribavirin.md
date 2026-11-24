@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 696
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ribavirin"
 predicted_indications: ["chronic hepatitis B virus infection", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "hepatic porphyria", "IgG4-related pachymeningitis", "IgG4-related mediastinitis", "IgG4-related mesenteritis"]
 description: "Ribavirin: nueva indicación predicha, Infección crónica por virus de la hepatitis B (chronic hepatitis B virus infection) (nivel de evidencia L1). En España, autorizaciones de la AEMPS: 10 (comercializadas: 1)"
@@ -99,19 +99,30 @@ No se identificaron ECA entre las publicaciones; todas son revisiones o textos n
 
 <!-- review:begin es-lic-20261105-ribavirin-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 10 autorizaciones vigentes, todas de monofármaco; se muestran las 5 primeras." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 autorizaciones (comercializadas: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 10 autorizaciones vigentes, todas de monofármaco; se muestran las 5 primeras." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-ribavirin-1 -->
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 99107001 | REBETOL 200 MG CÁPSULAS DURAS | Cápsula dura | No disponible en los datos |
-| 77096 | RIBAVIRINA AUROVITAS 200 MG CÁPSULAS DURAS EFG | Cápsula dura | No disponible en los datos |
-| 09527003 | RIBAVIRINA TEVA PHARMA BV 200 mg COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película | No disponible en los datos |
-| 99107004 | REBETOL 40 MG/ML SOLUCIÓN ORAL | Solución oral | No disponible en los datos |
-| 73658 | RIBAVIRINA NORMON 200 mg COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 73658 | RIBAVIRINA NORMON 200 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 99107001 | REBETOL 200 MG CAPSULAS DURAS | CÁPSULA DURA | Merck Sharp & Dohme B.V. | Revocada |
+| 77096 | RIBAVIRINA AUROVITAS 200 MG CÁPSULAS DURAS EFG | CÁPSULA DURA | Aurovitas Spain, S.A.U. | Revocada |
+| 09527003 | RIBAVIRINA TEVA PHARMA BV 200 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva B.V. | Revocada |
+| 99107004 | REBETOL 40 MG/ML SOLUCION ORAL | SOLUCIÓN ORAL | Merck Sharp & Dohme B.V. | Revocada |
+| 09509003 | RIBAVIRINA TEVA 200 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Teva B.V. | Revocada |
+| 09509004 | RIBAVIRINA TEVA 200 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Teva B.V. | Revocada |
+| 99107003 | REBETOL 200 MG CAPSULAS DURAS | CÁPSULA DURA | Merck Sharp & Dohme B.V. | Revocada |
+| 09527008 | RIBAVIRINA TEVA PHARMA BV 200 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva B.V. | Revocada |
+| 99107002 | REBETOL 200 MG CAPSULAS DURAS | CÁPSULA DURA | Merck Sharp & Dohme B.V. | Revocada |
+
+Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -142,7 +153,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Hay 10 autorizaciones vigentes, todas de monofármaco; se muestran las 5 primeras" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Hay 10 autorizaciones vigentes, todas de monofármaco; se muestran las 5 primeras" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: ribavirin prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee304d0-c2ea-44f4-97d9-92a414d31b6c) |
 
 <!-- review:end log -->

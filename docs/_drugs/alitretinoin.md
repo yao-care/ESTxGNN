@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 38
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Alitretinoin: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en los datos de autorización (el texto de indicación es…"
 monitor_inn: "alitretinoin"
 predicted_indications: ["amenorrhea (disease)", "acne (disease)", "atypical coarctation of aorta", "pregnancy associated osteoporosis", "aortic malformation", "postmenopausal osteoporosis", "autosomal dominant neovascular inflammatory vitreoretinopathy", "breast fibrocystic disease", "benign mammary dysplasia", "Worth syndrome"]
@@ -80,12 +80,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 70844 | TOCTINO 30 mg cápsulas blandas | Cápsula blanda | No disponible |
-| 84058 | Alitretinoína IFC 30 mg cápsulas blandas EFG | Cápsula blanda | No disponible |
-| 70843 | TOCTINO 10 mg cápsulas blandas | Cápsula blanda | No disponible |
-| 84057 | Alitretinoína IFC 10 mg cápsulas blandas EFG | Cápsula blanda | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 70844 | TOCTINO 30 mg CAPSULAS BLANDAS | CÁPSULA BLANDA | Glaxosmithkline S.A. | Comercializada |
+| 84058 | ALITRETINOINA IFC 30 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Industrial Farmaceutica Cantabria S.A. | Comercializada |
+| 70843 | TOCTINO 10 mg CAPSULAS BLANDAS | CÁPSULA BLANDA | Glaxosmithkline S.A. | Comercializada |
+| 84057 | ALITRETINOINA IFC 10 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Industrial Farmaceutica Cantabria S.A. | Comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

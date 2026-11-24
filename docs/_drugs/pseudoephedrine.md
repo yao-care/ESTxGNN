@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 672
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Pseudoephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Rinitis alérgica"
 monitor_inn: "pseudoephedrine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
@@ -90,13 +90,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 82731 | RESPIDINA 120 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible en los datos |
-| 69010 | PSEUDOEFEDRINA FARMALIDER 30 mg chicles medicamentosos | Chicle medicamentoso | No disponible en los datos |
-| 107399004 | AERINAZE 2,5 mg/120 mg comprimidos de liberación modificada | Comprimido de liberación modificada | No disponible en los datos |
-| 69107 | VINCITOS FORTE 3 mg/ml + 6 mg/ml solución oral | Solución oral | No disponible en los datos |
-| 63423 | CLARITYNE PLUS 10 mg/240 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 82731 | RESPIDINA 120 MG COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Laboratorios Cinfa S.A. | Comercializada |
+| 63423 | CLARITYNE PLUS 10mg/240mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Bayer Hispania S.L. | Comercializada |
+| 83605 | PHARMAFREN 200 MG/30 MG CAPSULAS DURAS | CÁPSULA DURA | Laboratorios Cinfa S.A. | Comercializada |
+| 60499 | RINOBACTIL 10 mg/120 mg CAPSULAS DURAS DE LIBERACION MODIFICADA | CÁPSULA DURA | Laboratorios Almirall S.L. | Comercializada |
+| 78831 | SINUSVICKS 200MG/30MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Vicks S.L. | Comercializada |
+| 59556 | NARINE REPETABS 5 mg/120 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Bayer Hispania S.L. | Comercializada |
+| 65542 | REACTINE CETIRIZINA/PSEUDOEFEDRINA 5mg/120mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Jntl Consumer Health (Spain) S.L. | Comercializada |
+| 60498 | RINO-EBASTEL 10 mg/120 mg CAPSULAS DURAS DE LIBERACION MODIFICADA | CÁPSULA DURA | Almirall S.A. | Comercializada |
+| 78433 | TERMALGIN RESFRIADO 500 MG/30 MG POLVO PARA SOLUCION ORAL | POLVO PARA SOLUCIÓN ORAL | Haleon Spain S.A. | Comercializada |
+| 62103 | VIRLIX PLUS COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Lacer S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Hay 12 autorizaciones vigentes en total; el medicamento está comercializado.
 

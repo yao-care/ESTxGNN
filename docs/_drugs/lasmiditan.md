@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-24
 monitor_inn: "lasmiditan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Lasmiditan: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 0; autorizadas no comercializadas: 2)"
@@ -81,10 +81,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1211587006 | RAYVOW 50 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 1211587016 | RAYVOW 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1211587006 | RAYVOW 50 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Eli Lilly Nederland B.V. | Autorizada, no comercializada |
+| 1211587016 | RAYVOW 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Eli Lilly Nederland B.V. | Autorizada, no comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

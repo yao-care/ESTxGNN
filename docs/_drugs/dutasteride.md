@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 273
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-24
 description: "Dutasteride: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (nivel de evidencia L5). Indicación original: Hiperplasia prostática benigna"
 monitor_inn: "Dutasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "familial isolated trichomegaly"]
@@ -79,13 +79,24 @@ Los datos compilados no incluyen el texto de la indicación aprobada.
 
 <!-- review:end es-lic-20261105-dutasteride-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 65178 | AVIDART 0,5 mg cápsulas blandas | Cápsula blanda | Glaxosmithkline S.A. |
-| 2578701 | AVIDART 0,5 mg cápsulas blandas | Cápsula blanda | Glaxosmithkline A.E.B.E. |
-| 83259 | Dutasterida Tarbis 0,5 mg cápsulas blandas EFG | Cápsula blanda | Tarbis Farma S.L. |
-| 77635 | Dutasterida Ratiopharm 0,5 mg cápsulas blandas EFG | Cápsula blanda | Teva Pharma S.L.U. |
-| 81794 | DUTRYS 0,5 mg cápsulas blandas EFG | Cápsula blanda | Krka D.D. Novo Mesto |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 79750 | DUTASTERIDA VIR 0,5 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 81153 | DUTASTERIDA PENSA 0,5 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Towa Pharmaceutical S.A. | Comercializada |
+| 84597 | DUTASTERIDA AUROVITAS 0,5 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Aurovitas Spain, S.A.U. | Comercializada |
+| 81574 | DUTASTERIDA KRKA 0,5 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Krka D.D. Novo Mesto | Comercializada |
+| 81781 | DUTASTERIDA VIATRIS 0,5 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Viatris Pharmaceuticals S.L. | Comercializada |
+| 65178 | AVIDART 0,5 mg CAPSULAS BLANDAS | CÁPSULA BLANDA | Glaxosmithkline S.A. | Comercializada |
+| 035895010IP1 | AVIDART 0,5 MG CAPSULAS BLANDAS | CÁPSULA BLANDA | Glaxosmithkline S.P.A. | Comercializada |
+| 84497 | DUTACAP 0,5 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Galenicum Derma S.L.U. | Comercializada |
+| 035895010IP2 | AVIDART 0,5 mg CAPSULAS BLANDAS | CÁPSULA BLANDA | Glaxosmithkline S.P.A. | Comercializada |
+| 83259 | DUTASTERIDA TARBIS 0,5 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Tarbis Farma S.L. | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 590
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Omeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -90,13 +90,24 @@ Sin embargo, la supresión ácida no bloquea directamente el reflujo biliar. Ade
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 63301 | Omeprazol Kern Pharma 20 mg cápsulas duras gastrorresistentes EFG | Cápsula dura gastrorresistente | No disponible en los datos compilados |
-| 66871 | Omeprazol Serraclinics 40 mg polvo para solución para perfusión EFG | Polvo para solución para perfusión | No disponible en los datos compilados |
-| 86474 | Omeprazol Viatris Pharmaceuticals 20 mg cápsulas duras gastrorresistentes | Cápsula dura gastrorresistente | No disponible en los datos compilados |
-| 89376 | Omereflux 20 mg cápsulas duras gastrorresistentes | Cápsula dura gastrorresistente | No disponible en los datos compilados |
-| 88991 | Omeprazol Noridem 40 mg polvo para solución para perfusión EFG | Polvo para solución para perfusión | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 63301 | OMEPRAZOL KERN PHARMA 20 mg CAPSULAS DURAS GASTRORRESISTENTES EFG | CÁPSULA DURA GASTRORRESISTENTE | Kern Pharma S.L. | Comercializada |
+| 66871 | OMEPRAZOL SERRACLINICS 40 mg POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Laboratorios Serra Pamies S.A. | Comercializada |
+| 86474 | OMEPRAZOL VIATRIS PHARMACEUTICALS 20 MG CAPSULAS DURAS GASTRORRESISTENTES | CÁPSULA DURA GASTRORRESISTENTE | Viatris Pharmaceuticals S.L. | Comercializada |
+| 89376 | OMEREFLUX 20 MG CÁPSULAS DURAS GASTRORRESISTENTES | CÁPSULA DURA GASTRORRESISTENTE | Laboratorios Normon S.A. | Comercializada |
+| 65688 | ARAPRIDE 40 mg CAPSULAS DURAS GASTRORRESISTENTES | CÁPSULA DURA GASTRORRESISTENTE | Arafarma Group S.A. | Comercializada |
+| 64004 | OMEPRAZOL TECNIMEDE 20 MG CAPSULAS DURAS GASTRORRESISTENTES EFG | CÁPSULA DURA GASTRORRESISTENTE | Tecnimede España Industria Farmaceutica S.A. | Comercializada |
+| 58428 | PEPTICUM 20 MG CÁPSULAS DURAS GASTRORRESISTENTES EFG | CÁPSULA DURA GASTRORRESISTENTE | Aristo Pharma Iberia S.L. | Comercializada |
+| 68776 | OMEPRAZOL KRKA 40 mg CAPSULAS DURAS GASTRORRESISTENTES | CÁPSULA DURA GASTRORRESISTENTE | Krka D.D. Novo Mesto | Comercializada |
+| 79879 | OMEPRAZOL HEALTHKERN 20 mg CÁPSULAS DURAS GASTRORRESISTENTES | CÁPSULA DURA GASTRORRESISTENTE | Kern Pharma S.L. | Comercializada |
+| 63983 | OMEPRAZOL CINFA 20 mg CAPSULAS DURAS GASTRORRESISTENTES EFG | CÁPSULA DURA GASTRORRESISTENTE | Laboratorios Cinfa S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

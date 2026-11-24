@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 742
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "solriamfetol"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "insomnia (disease)", "attention deficit hyperactivity disorder, inattentive type", "chondromyxoid fibroma", "specific developmental disorder", "variably protease-sensitive prionopathy", "multiple system atrophy", "postural orthostatic tachycardia syndrome", "disorder of peroxisomal alpha-, beta- and omega-oxidation"]
 description: "Solriamfetol: nueva indicación predicha, Trastorno por déficit de atención con hiperactividad (attention deficit-hyperactivity disorder) (nivel de evidencia L2)."
@@ -87,10 +87,16 @@ Este vínculo se basa en la farmacología conocida del fármaco y no en el regis
 
 El fármaco está comercializado en España, con autorizaciones válidas.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1191408002 | SUNOSI 75 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 1191408007 | SUNOSI 150 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1191408002 | SUNOSI 75 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Atnahs Pharma Netherlands Bv. | Comercializada |
+| 1191408007 | SUNOSI 150 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Atnahs Pharma Netherlands Bv. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

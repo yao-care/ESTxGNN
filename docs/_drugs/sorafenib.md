@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 744
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "SORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
 description: "Sorafenib: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 12 (comercializadas: 6; autorizadas no comercializadas: 2)"
@@ -85,13 +85,24 @@ Este ensayo no estudia el liposarcoma de forma específica, por lo que no permit
 
 Sorafenib está comercializado en España: hay 12 autorizaciones registradas, de las cuales 6 están vigentes y 4 canceladas.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 06342001 | NEXAVAR 200 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 06342001IP | NEXAVAR 200 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 1221696001 | Sorafenib Accord 200 mg EFG | Comprimido recubierto con película | No disponible |
-| 90146 | Sorafenib Eugia 200 mg EFG | Comprimido recubierto con película | No disponible |
-| 85665 | Sorafenib Viatris 200 mg EFG | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 06342001 | NEXAVAR 200 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Bayer Ag | Comercializada |
+| 1221696001 | SORAFENIB ACCORD 200 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Comercializada |
+| 85665 | SORAFENIB VIATRIS 200 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Limited | Comercializada |
+| 84240 | SORAFENIB TEVA 200 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+| 85431 | SORAFENIB STADA 200 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 85957 | SORAFENIB STADA 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 06342001IP | NEXAVAR 200 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Bayer Ag | Autorizada, no comercializada |
+| 90146 | SORAFENIB EUGIA 200 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Eugia Pharma (Malta) Limited | Autorizada, no comercializada |
+| 86413 | SORAFENIB DR. REDDYS 200 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Reddy Pharma Iberia S.A. | Suspendida |
+| 85586 | SORAFENIB SWANPOND INVESTMENTS 200 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Swan Pond Investments Limited | Revocada |
+
+Se muestran 10 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

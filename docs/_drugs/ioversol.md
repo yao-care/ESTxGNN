@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "IOVERSOL"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "alopecia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ioversol: nueva indicación predicha, Osteoartritis (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 62068 | OPTIRAY 300 mg/ml solución inyectable | Solución inyectable | No disponible |
-| 62069 | OPTIRAY 350 mg/ml solución inyectable | Solución inyectable | No disponible |
-| 62067 | OPTIRAY ULTRAJECT 350 mg/ml solución inyectable | Solución inyectable | No disponible |
-| 60714 | OPTIRAY ULTRAJECT 320 mg/ml solución inyectable | Solución inyectable | No disponible |
-| 62070 | OPTIRAY ULTRAJECT 300 mg/ml solución inyectable | Solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 62068 | OPTIRAY 300 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Guerbet | Comercializada |
+| 62069 | OPTIRAY 350 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Guerbet | Comercializada |
+| 62067 | OPTIRAY ULTRAJECT 350 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Guerbet | Comercializada |
+| 60714 | OPTIRAY ULTRAJECT 320 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Guerbet | Comercializada |
+| 62070 | OPTIRAY ULTRAJECT 300 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Guerbet | Comercializada |
+
+Se muestran 5 de 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 8 autorizaciones; las otras 3 son: 58469 (OPTIRAY 320 mg/ml, vigente) y dos canceladas (60713 y 58468). Todas son del titular Guerbet.
 

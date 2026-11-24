@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 430
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "irbesartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 description: "Irbesartan: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -98,13 +98,24 @@ Como referencia, para la indicación alternativa de **hipertensión pulmonar por
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 97049017 | KARVEA 75 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 97046027IP1 | APROVEL 300 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 97046027IP2 | APROVEL 300 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 70117 | Irbesartán Cinfa 75 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
-| 70158 | Irbesartán Sandoz 75 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 70117 | IRBESARTAN CINFA 75 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 88577 | IRBESARTAN TARBIS FARMA 75 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Comercializada |
+| 74941 | IRBESARTAN COMBIX 75 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 74162 | IRBESARTAN TECNIGEN 150 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tecnimede España Industria Farmaceutica S.A. | Comercializada |
+| 70158 | IRBESARTAN SANDOZ 75 mg COMPRIMIDOS EFG | COMPRIMIDO | Sandoz Farmaceutica S.A. | Comercializada |
+| 70221 | IRBESARTAN NORMON 300 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 08480002 | IFIRMASTA 75 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Krka D.D. Novo Mesto | Comercializada |
+| 74943 | IRBESARTAN COMBIX 300 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 97046027IP1 | APROVEL 300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sanofi Winthrop Industrie | Comercializada |
+| 97046027IP2 | APROVEL 300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sanofi Winthrop Industrie | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

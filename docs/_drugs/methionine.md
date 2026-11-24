@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "immature cataract", "diabetic cataract"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Methionine: nueva indicación predicha, Acné (enfermedad) (nivel de evidencia L5). Indicación original: No disponible"
 ---
 
@@ -44,7 +44,7 @@ Por ello la predicción se considera solo computacional (nivel L5).
 
 <!-- review:begin es-lic-20261031-methionine-1 -->
 
-> **Corrección de revisión (2026-10-31)**: Texto original: "Metionina es un aminoácido esencial azufrado que, en España, figura únicamente en una autorización cancelada de una pomada oftálmica epitelizante (combinación de tres principios activos), sin texto de indicación aprobada disponible." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 67 autorizaciones (comercializadas: 50); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Metionina es un aminoácido esencial azufrado que, en España, figura únicamente en una autorización cancelada de una pomada oftálmica epitelizante (combinación de tres principios activos), sin texto de indicación aprobada disponible." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-10-31. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261031-methionine-1 -->
 
@@ -81,11 +81,32 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 25908 | Pomada Oculos Epitelizante 3 mg/g + 5,5 mg/g + 5 mg/g (Laboratoires Thea), estado: cancelada | Pomada oftálmica | No consta texto de indicación |
+<!-- licenses:begin -->
 
-La lista puede considerarse completa (1 autorización). Es un producto de combinación, por lo que no describe la situación regulatoria de la metionina como principio activo único.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 67054 | AMINOPLASMAL B.BRAUN 10% E SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | B. Braun Melsungen Ag | Comercializada |
+| 67057 | AMINOPLASMAL B.BRAUN 10% SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | B. Braun Melsungen Ag | Comercializada |
+| 78892 | AMINOPLASMAL B.BRAUN 15% SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | B. Braun Melsungen Ag | Comercializada |
+| 67055 | AMINOPLASMAL B.BRAUN 5% SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | B. Braun Melsungen Ag | Comercializada |
+| 59755 | AMINOPLASMAL HEPA SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | B Braun Medical S.A. | Comercializada |
+| 78871 | AMINOPLASMAL PAED 10% SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | B. Braun Melsungen Ag | Comercializada |
+| 59964 | AMINOPLASMAL PO 12,5% SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | B Braun Medical S.A. | Comercializada |
+| 59669 | AMINOSTERIL N-HEPA 8% SOLUCION PARA PERFUSION INTRAVENOSA | SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Comercializada |
+| 59628 | AMINOVEN INFANT 10% SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Comercializada |
+| 62981 | AMINOVEN 10% SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi Deutschland Gmbh | Comercializada |
+
+Se muestran 10 de 67 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
+
+La mayoría de las autorizaciones corresponden a soluciones y emulsiones para perfusión (nutrición parenteral).
+
+<!-- review:begin es-lic-20261124-methionine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "La lista puede considerarse completa (1 autorización). Es un producto de combinación, por lo que no describe la situación regulatoria de la metionina como principio activo único." Corregido: la frase describía la tabla anterior, que solo tenía una autorización. Según CIMA (AEMPS) la metionina figura en muchas más autorizaciones, en su mayoría soluciones y emulsiones para perfusión (nutrición parenteral); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124-methionine-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -106,7 +127,7 @@ La predicción para acné se basa solo en el modelo: no hay ensayos ni estudios 
 
 <!-- review:begin es-lic-20261105-methionine-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción para acné se basa solo en el modelo: no hay ensayos ni estudios que evalúen la metionina en esta enfermedad, y la literatura disponible es tangencial. Además, la única autorización en España está cancelada." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 67 autorizaciones (comercializadas: 50); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "La predicción para acné se basa solo en el modelo: no hay ensayos ni estudios que evalúen la metionina en esta enfermedad, y la literatura disponible es tangencial. Además, la única autorización en España está cancelada." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-methionine-2 -->
 
@@ -126,8 +147,9 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-10-31 | Eliminado: "que, figura únicamente en una autorización cancelada una pomada oftálmica epitelizante (combinación de tres" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
-| 2026-11-05 | Eliminado: "Además, la única autorización en España está cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "que, figura únicamente en una autorización cancelada una pomada oftálmica epitelizante (combinación de tres" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Además, la única autorización en España está cancelada" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | «La lista puede considerarse completa (1 autorización)…» → la mayoría son soluciones y emulsiones para perfusión | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

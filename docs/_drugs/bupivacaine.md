@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Bupivacaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bupivacaine: nueva indicación predicha, Acrodermatitis crónica atrófica (acrodermatitis chronica atrophicans) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 10 (comercializadas: 5)"
 ---
 
@@ -71,13 +71,24 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 57109 | Bupivacaína Physan 2,5 mg/ml solución inyectable | Solución inyectable | No registrada en los datos locales |
-| 58023 | Bupivacaína Physan 7,5 mg/ml solución inyectable | Solución inyectable | No registrada en los datos locales |
-| 81695 | Bupivacaína Accord 2,5 mg/ml solución inyectable EFG | Solución inyectable | No registrada en los datos locales |
-| 81696 | Bupivacaína Accord 5 mg/ml solución inyectable EFG | Solución inyectable | No registrada en los datos locales |
-| 62412 | Bupivacaína B. Braun 2,5 mg/ml solución inyectable | Solución inyectable | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 57109 | BUPIVACAINA PHYSAN 2,5 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Laphysan S.A.U. | Comercializada |
+| 58023 | BUPIVACAINA PHYSAN 7,5 MG/ML SOLUCIÓN INYECTABLE | SOLUCIÓN INYECTABLE | Laphysan S.A.U. | Comercializada |
+| 62411 | BUPIVACAINA B. BRAUN 5 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | B Braun Medical S.A. | Comercializada |
+| 57110 | BUPIVACAINA PHYSAN 5 MG/ML SOLUCIÓN INYECTABLE | SOLUCIÓN INYECTABLE | Laphysan S.A.U. | Comercializada |
+| 62409 | BUPIVACAINA B. BRAUN 7,5 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | B Braun Medical S.A. | Comercializada |
+| 83059 | BUPIVACAINA AUROVITAS 5 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Eugia Pharma (Malta) Limited | Suspendida |
+| 83058 | BUPIVACAINA AUROVITAS 2,5 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Eugia Pharma (Malta) Limited | Suspendida |
+| 81695 | BUPIVACAINA ACCORD 2,5 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Accord Healthcare S.L.U. | Revocada |
+| 81696 | BUPIVACAINA ACCORD 5 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Accord Healthcare S.L.U. | Revocada |
+| 62412 | BUPIVACAINA B.BRAUN 2,5 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | B Braun Medical S.A. | Revocada |
+
+Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

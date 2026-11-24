@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 409
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "imipenem"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"]
 description: "Imipenem: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 5; autorizadas no comercializadas: 2)"
@@ -113,19 +113,29 @@ Como referencia, publicaciones seleccionadas de las predicciones alternativas:
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 71285 | Imipenem/Cilastatina Kabi 500 mg/500 mg | Polvo para solución para perfusión | No disponible |
-| 82045 | Imipenem/Cilastatina ELC 250 mg/250 mg | Polvo para solución para perfusión | No disponible |
-| 84189 | Imipenem/Cilastatina Hikma 500 mg/500 mg | Polvo para solución para perfusión | No disponible |
-| 90726 | Enaros 500 mg/500 mg | Polvo para solución para perfusión | No disponible |
-| 72637 | Imipenem/Cilastatina Aurovitas 500 mg/500 mg | Polvo para solución para perfusión | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 71285 | IMIPENEM/CILASTATINA KABI 500 mg/500 mg POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Comercializada |
+| 84189 | IMIPENEM/CILASTATINA HIKMA 500 MG/500 MG POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Hikma Farmaceutica (Portugal) S.A. | Comercializada |
+| 90726 | ENAROS 500 MG/500 MG POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Medochemie Limited | Comercializada |
+| 72637 | IMIPENEM/CILASTATINA AUROVITAS 500 mg/500 mg POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Eugia Pharma (Malta) Limited | Comercializada |
+| 1191420001 | RECARBRIO 500 mg/500 mg/250 mg POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Merck Sharp & Dohme B.V. | Comercializada |
+| 90727 | IMIPENEM/CILASTATINA NORIDEM 500 MG/500 MG POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Noridem Enterprises Limited | Autorizada, no comercializada |
+| 89645 | IMIPENEM/CILASTATINA STERISCIENCE 500 MG/500 MG POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Steriscience B.V. | Autorizada, no comercializada |
+| 82045 | IMIPENEM/CILASTATINA ELC 250 MG/250 MG POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Elc Group S.R.O. | Revocada |
+| 82046 | IMIPENEM/CILASTATINA ELC 500 MG/500 MG POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Elc Group S.R.O. | Revocada |
+
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Entre las restantes figura Recarbrio (imipenem/cilastatina/relebactam, Merck Sharp & Dohme B.V.).
 
 <!-- review:begin es-lic-20261105-imipenem-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 9 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se muestran las 5 principales. Entre las restantes figura Recarbrio (imipenem/cilastatina/relebactam, Merck Sharp & Dohme B.V.)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 autorizaciones (comercializadas: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 9 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se muestran las 5 principales. Entre las restantes figura Recarbrio (imipenem/cilastatina/relebactam, Merck Sharp & Dohme B.V.)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-imipenem-1 -->
 
@@ -164,7 +174,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Hay 9 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Hay 9 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se muestran las 5 principales" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708) |
 
 <!-- review:end log -->

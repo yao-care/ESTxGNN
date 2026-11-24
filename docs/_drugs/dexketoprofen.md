@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 241
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "dexketoprofen"
 predicted_indications: ["tendinitis", "fibromyalgia", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "migraine disorder", "headache disorder", "migraine with brainstem aura", "exostosis", "congenital hypotrichosis milia"]
 description: "Dexketoprofen: nueva indicación predicha, Tendinitis (nivel de evidencia L5)."
@@ -80,13 +80,24 @@ Los datos compilados no incluyen el texto de indicación aprobada de ninguna de 
 
 <!-- review:end es-lic-20261105-dexketoprofen-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 60930 | Ketesse 25 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 66821 | Enandol 25 mg granulado para solución oral | Granulado para solución oral |
-| 64888 | Ketesse 50 mg/2 ml solución inyectable y para perfusión | Solución inyectable |
-| 83328 | Dexketoprofeno B. Braun 50 mg/100 ml solución para perfusión | Solución para perfusión |
-| 77593 | Dexketoprofeno Combix 25 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 77593 | DEXKETOPROFENO COMBIX 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 89550 | DEXKETOPROFENO SANDOZ CARE 25 MG SOLUCION ORAL | SOLUCION ORAL EN SOBRE | Sandoz Farmaceutica S.A. | Comercializada |
+| 81517 | DEXKETOPROFENO ALTER 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Alter S.A. | Comercializada |
+| 77975 | DEXKETOPROFENO VIR 12,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 77866 | DEXKETOPROFENO TEVAGEN 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+| 91027 | DEXKETOPROFENO ALTERPHARMA 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Alter S.A. | Comercializada |
+| 77835 | DEXKETOPROFENO STADA 12,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 77594 | DEXKETOPROFENO PHARMA COMBIX 25 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 77871 | DEXKETOPROFENO TEVA 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+| 88796 | DEXKETOPROFENO PENSAVITAL 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Towa Pharmaceutical S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

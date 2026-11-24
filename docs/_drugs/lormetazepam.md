@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 485
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "LORMETAZEPAM"
 predicted_indications: ["alcohol withdrawal delirium", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "anxiety", "cauda equina syndrome", "anxiety disorder", "benign paroxysmal torticollis of infancy"]
 description: "Lormetazepam: nueva indicación predicha, Delirium por abstinencia alcohólica (alcohol withdrawal delirium) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El fármaco está comercializado en España. Según los datos locales compilados, 17 de las autorizaciones están vigentes y 3 están canceladas. La lista puede ser parcial. A continuación se muestran algunas de las autorizaciones principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 89877 | Lormetazepam Alter 2 mg comprimidos EFG | Comprimido | No disponible |
-| 63332 | Noctamid 2,5 mg/ml gotas orales en solución | Gotas orales en solución | No disponible |
-| 75732 | Lormetazepam Stada 1 mg comprimidos EFG | Comprimido | No disponible |
-| 88831 | Lormetazepam Tecnigen 1 mg comprimidos EFG | Comprimido | No disponible |
-| 58639 | Loramet 2 mg comprimidos | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 89877 | LORMETAZEPAM ALTER 2 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Alter S.A. | Comercializada |
+| 63332 | NOCTAMID 2,5 mg/ml GOTAS ORALES EN SOLUCION | GOTAS ORALES EN SOLUCIÓN | Teofarma S.R.L. | Comercializada |
+| 75732 | LORMETAZEPAM STADA 1 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Comercializada |
+| 88831 | LORMETAZEPAM TECNIGEN 1 MG COMPRIMIDOS EFG | COMPRIMIDO | Tecnimede España Industria Farmaceutica S.A. | Comercializada |
+| 73584 | LORMETAZEPAM KERN PHARMA 1 mg COMPRIMIDOS EFG | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

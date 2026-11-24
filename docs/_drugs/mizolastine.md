@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 537
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Mizolastine"
 predicted_indications: ["acute intermittent porphyria", "psychogenic movement disorders", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "extrapyramidal and movement disease", "benign shuddering attacks", "primary orthostatic tremor", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "carbamoyl phosphate synthetase I deficiency disease"]
 description: "Mizolastine: nueva indicación predicha, Porfiria aguda intermitente (acute intermittent porphyria) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 0)"
@@ -90,10 +90,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61658 | MIZOLEN 10 mg comprimidos de liberación modificada (Opella Healthcare Spain S.L.) | Comprimido de liberación modificada | No disponible en los datos compilados |
-| 61976 | ZOLISTAN 10 mg comprimidos de liberación modificada (Sanofi Aventis S.A.) | Comprimido de liberación modificada | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61658 | MIZOLEN 10 mg COMPRIMIDOS DE LIBERACION MODIFICADA | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Opella Healthcare Spain S.L. | Revocada |
+| 61976 | ZOLISTAN 10 mg COMPRIMIDOS DE LIBERACION MODIFICADA | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Sanofi Aventis S.A. | Revocada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

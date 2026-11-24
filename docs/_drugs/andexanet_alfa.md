@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 58
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Andexanet Alfa: nueva indicación predicha, Trombastenia de Glanzmann (nivel de evidencia L5). Indicación original: No disponible en los datos de autorización de la AEMPS (texto de indi…"
 monitor_inn: "ANDEXANET ALFA"
 predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "hemophilia"]
@@ -44,7 +44,7 @@ Su puntaje alto parece reflejar cercanía en la red de conocimiento de trastorno
 
 <!-- review:begin es-lic-20261105-andexanet_alfa-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Andexanet alfa es una proteína recombinante, señuelo del factor Xa catalíticamente inactivo, comercializada en España como ONDEXXYA para revertir el efecto de los inhibidores del factor Xa. / El modelo TxGNN predice que podría ser efectivo para **trombastenia de Glanzmann**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 autorización (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Andexanet alfa es una proteína recombinante, señuelo del factor Xa catalíticamente inactivo, comercializada en España como ONDEXXYA para revertir el efecto de los inhibidores del factor Xa. / El modelo TxGNN predice que podría ser efectivo para **trombastenia de Glanzmann**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-andexanet_alfa-1 -->
 
@@ -113,9 +113,15 @@ A modo de contexto, para la cuarta predicción (hemofilia) se identificaron publ
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1181345001 | ONDEXXYA 200 MG polvo para solución para perfusión (Astrazeneca AB) | Polvo para solución para perfusión | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1181345001 | ONDEXXYA 200 MG POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Astrazeneca Ab | Autorizada, no comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ---
 
@@ -148,7 +154,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "comercializada en España como ONDEXXYA" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "comercializada en España como ONDEXXYA" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Andexxa (andexanet alfa) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9d90a6-63e6-46ef-96ff-dd6519ae7b6c) |
 
 <!-- review:end log -->

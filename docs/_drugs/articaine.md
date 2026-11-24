@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 67
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Articaine: nueva indicación predicha, Gota (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "articaine"
 predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthma"]
@@ -71,13 +71,19 @@ Actualmente no hay literatura relacionada disponible para gota.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 68104 | Articaína/Epinefrina Dermogen 40 mg/ml + 5 µg/ml solución inyectable EFG | Solución inyectable | No disponible |
-| 61194 | Meganest 40 mg/ml + 10 µg/ml solución inyectable | Solución inyectable | No disponible |
-| 59942 | Septanest con adrenalina 40 mg/ml + 10 µg/ml solución inyectable | Solución inyectable en cartucho | No disponible |
-| 68103 | Articaína/Epinefrina Dermogen 40 mg/ml + 10 µg/ml solución inyectable EFG | Solución inyectable | No disponible |
-| 89153 | Articaína/Epinefrina Normon 40 mg/ml + 5 µg/ml solución inyectable EFG | Solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 68104 | ARTICAINA / EPINEFRINA DERMOGEN 40 MG/ML + 5 MICROGRAMOS/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Farmalider S.A. | Comercializada |
+| 61194 | MEGANEST 40 MG/ML + 10 MICROGRAMOS/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Laboratorios Clarben S.A. | Comercializada |
+| 59942 | SEPTANEST CON ADRENALINA 40 MG/ML + 10 MICROGRAMOS/ML SOLUCION INYECTABLE. | SOLUCIÓN INYECTABLE EN CARTUCHO | Septodont | Comercializada |
+| 68103 | ARTICAINA / EPINEFRINA DERMOGEN 40 MG/ML + 10 MICROGRAMOS/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Farmalider S.A. | Comercializada |
+| 89153 | ARTICAINA/EPINEFRINA NORMON 40 MG/ML + 5 MICROGRAMOS/ML SOLUCIÓN INYECTABLE EFG | SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+
+Se muestran 5 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 12 autorizaciones vigentes.
 

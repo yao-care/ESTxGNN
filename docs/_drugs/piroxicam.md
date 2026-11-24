@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 644
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PIROXICAM"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
 description: "Piroxicam: nueva indicación predicha, Colobomatous microphthalmia-rhizomelic dysplasia syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 1)"
@@ -81,19 +81,29 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 55382 | FELDENE 10 mg cápsulas duras (Pfizer) | Cápsula dura | No especificada en los datos disponibles |
-| 55806 | FELDENE 20 mg cápsulas duras (Pfizer) | Cápsula dura | No especificada en los datos disponibles |
-| 58085 | FELDENE 20 mg/ml solución inyectable (Pfizer) | Solución inyectable | No especificada en los datos disponibles |
-| 60070 | FELDENE FLAS 20 mg liofilizado oral (Pfizer) | Liofilizado oral | No especificada en los datos disponibles |
-| 62418 | PIROXICAM CINFA 20 mg comprimidos dispersables EFG | Comprimido dispersable | No especificada en los datos disponibles |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 58986 | SALVACAM 5mg/g GEL | GEL | Laboratorios Salvat S.A. | Comercializada |
+| 62418 | PIROXICAM CINFA 20 mg COMPRIMIDOS DISPERSABLES EFG | COMPRIMIDO DISPERSABLE | Laboratorios Cinfa S.A. | Suspendida |
+| 58708 | SASULEN 5 MG/G GEL | GEL | Laboratorios Veris S.A. | Revocada |
+| 55382 | FELDENE 10 MG CAPSULAS DURAS | CÁPSULA DURA | Pfizer S.L. | Revocada |
+| 55806 | FELDENE 20 MG CAPSULAS DURAS | CÁPSULA DURA | Pfizer S.L. | Revocada |
+| 58198 | IMPRONTAL 5 mg/g CREMA | CREMA | Meda Pharma S.L. | Revocada |
+| 58085 | FELDENE 20 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Pfizer S.L. | Revocada |
+| 60070 | FELDENE FLAS 20 mg LIOFILIZADO ORAL | LIOFILIZADO ORAL | Pfizer S.L. | Revocada |
+| 57797 | FELDEGEL 5 mg/g GEL | GEL | Pfizer S.L. | Revocada |
+
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las demás autorizaciones corresponden a formulaciones tópicas (geles y crema): SASULEN 5 mg/g gel, SALVACAM 5 mg/g gel, IMPRONTAL 5 mg/g crema y FELDEGEL 5 mg/g gel.
 
 <!-- review:begin es-lic-20261105-piroxicam-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 autorizaciones (comercializadas: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-piroxicam-1 -->
 
@@ -138,7 +148,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4) |
 
 <!-- review:end log -->

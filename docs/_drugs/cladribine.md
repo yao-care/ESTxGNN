@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 186
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Cladribine"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
 description: "Cladribine: nueva indicación predicha, Parameningeal embryonal rhabdomyosarcoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 4; autorizadas no comercializadas: 1)"
@@ -87,13 +87,19 @@ Como referencia, en la séptima predicción (sarcoma hepático) solo se recuper�
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61380 | LEUSTATIN 1 MG/ML SOLUCION PARA PERFUSION | Solución inyectable | No disponible |
-| 04275001 | LITAK 2 mg/ml SOLUCION INYECTABLE | Solución inyectable | No disponible |
-| 90544 | LEUSTATIN 2 MG/ML SOLUCION INYECTABLE | Solución inyectable | No disponible |
-| 1171212001 | MAVENCLAD 10 MG COMPRIMIDOS | Comprimido | No disponible |
-| 04275002 | LITAK 2 mg/ml SOLUCION INYECTABLE | Solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61380 | LEUSTATIN 1 MG/ML SOLUCION PARA PERFUSION | SOLUCIÓN INYECTABLE | Atnahs Pharma Netherlands Bv. | Comercializada |
+| 04275001 | LITAK 2 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Lipomed Gmbh | Comercializada |
+| 1171212001 | MAVENCLAD 10 MG COMPRIMIDOS | COMPRIMIDO | Merck Europe B.V. | Comercializada |
+| 04275002 | LITAK 2 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Lipomed Gmbh | Comercializada |
+| 90544 | LEUSTATIN 2 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Atnahs Pharma Netherlands Bv. | Autorizada, no comercializada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

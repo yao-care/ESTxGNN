@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 242
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "dexpanthenol"
 predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
 description: "Dexpanthenol: nueva indicación predicha, Estenosis anorrectal (anorectal stricture) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 2)"
@@ -99,11 +99,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 17466 | BEPANMED 500 mg/2 ml, solución inyectable | Solución inyectable | No consta |
-| 86165 | SEPTANASAL 1 mg/ml + 50 mg/ml solución para pulverización nasal | Solución para pulverización nasal | No consta |
-| 83634 | FRENASAL PLUS 1 mg/ml + 50 mg/ml solución para pulverización nasal | Solución para pulverización nasal | No consta |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 17466 | BEPANMED 500 mg/2 ml, SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Bayer Hispania S.L. | Comercializada |
+| 86165 | SEPTANASAL 1 MG/ML + 50 MG/ML SOLUCION PARA PULVERIZACION NASAL | SOLUCION PARA PULVERIZACION NASAL | Krka D.D. Novo Mesto | Comercializada |
+| 83634 | FRENASAL PLUS 1 MG/ML + 50 MG/ML SOLUCION PARA PULVERIZACION NASAL | SOLUCION PARA PULVERIZACION NASAL | Jntl Consumer Health (Spain) S.L. | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

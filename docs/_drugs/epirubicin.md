@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 297
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
 description: "Epirubicin: nueva indicación predicha, linfoma pulmonar primario (primary pulmonary lymphoma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 4; autorizadas no comercializadas: 1)"
@@ -81,13 +81,20 @@ Ninguna publicación estudia directamente epirubicina en linfoma pulmonar primar
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 57201 | Farmorubicina 50 mg polvo para solución inyectable y para perfusión | Polvo para solución inyectable y para perfusión | Pfizer S.L. |
-| 71700 | Epirubicina Accord 2 mg/ml solución inyectable o para perfusión EFG | Solución inyectable y para perfusión | Accord Healthcare S.L.U. |
-| 70523 | Epirubicina Aurovitas 2 mg/ml solución inyectable EFG | Solución inyectable | Eugia Pharma (Malta) Limited |
-| 70763 | Epirubicina Teva 2 mg/ml solución inyectable y para perfusión EFG | Solución inyectable y para perfusión | Teva Pharma S.L.U. |
-| 60847 | Farmorubicina 2 mg/ml solución inyectable y para perfusión | Solución inyectable y para perfusión | Pfizer S.L. |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 57201 | FARMORUBICINA 50 mg POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Pfizer S.L. | Comercializada |
+| 70523 | EPIRUBICINA AUROVITAS 2 mg/ml SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Eugia Pharma (Malta) Limited | Comercializada |
+| 70763 | EPIRUBICINA TEVA 2 mg/ml SOLUCION INYECTABLE Y PARA PERFUSION EFG | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Teva Pharma S.L.U. | Comercializada |
+| 60847 | FARMORUBICINA 2 mg/ml SOLUCION INYECTABLE Y PARA PERFUSION | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Pfizer S.L. | Comercializada |
+| 85307 | EPIRUBICINA HIKMA 2 MG/ML SOLUCION INTRAVESICAL E INYECTABLE EFG | SOLUCION INTRAVESICAL E INYECTABLE | Hikma Farmaceutica (Portugal) S.A. | Autorizada, no comercializada |
+| 71700 | EPIRUBICINA ACCORD 2 mg/ml SOLUCION INYECTABLE O PARA PERFUSION EFG | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Accord Healthcare S.L.U. | Suspendida |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

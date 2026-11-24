@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 459
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Lenalidomide"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Lenalidomide: nueva indicación predicha, Leucemia mieloide (myeloid leukemia) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: al menos 20"
@@ -106,13 +106,19 @@ Los textos de indicación aprobada no están disponibles en los datos compilados
 
 <!-- review:end es-lic-20261105-lenalidomide-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1181316004 | Lenalidomida Accord 5 mg cápsulas duras EFG | Cápsula dura | No disponible |
-| 86357 | Lenalidomida Olpha 10 mg cápsulas duras EFG | Cápsula dura | No disponible |
-| 87788 | Lenalidomida Tecnigen 10 mg cápsulas duras EFG | Cápsula dura | No disponible |
-| 86240 | Lenalidomida Sun 20 mg cápsulas duras EFG | Cápsula dura | No disponible |
-| 86254 | Lenalidomida Sun 2,5 mg cápsulas duras EFG | Cápsula dura | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1181316004 | LENALIDOMIDA ACCORD 5 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Accord Healthcare S.L.U. | Comercializada |
+| 87788 | LENALIDOMIDA TECNIGEN 10 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Tecnimede España Industria Farmaceutica S.A. | Comercializada |
+| 86240 | LENALIDOMIDA SUN 20 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+| 86075 | LENALIDOMIDA GRINDEKS 5 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Grindeks As | Comercializada |
+| 83624 | LENALIDOMIDA SANDOZ 25 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Sandoz Farmaceutica S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

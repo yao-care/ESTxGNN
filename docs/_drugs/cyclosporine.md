@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 212
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
 description: "Cyclosporine: nueva indicación predicha, Enfermedad granulomatosa crónica, autosómica recesiva (granulomatous disease, chronic, autosomal recessive) (nivel de evidencia L4). Indicación original: No c…"
@@ -84,13 +84,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 56800 | Sandimmun 50 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible |
-| 89655 | Cequa 0,9 mg/ml colirio en solución en envase unidosis | Colirio en solución en envase unidosis | No disponible |
-| 60318 | Sandimmun Neoral 50 mg cápsulas blandas | Cápsula blanda | No disponible |
-| 78331 | Ciqorin 100 mg cápsulas blandas EFG | Cápsula blanda | No disponible |
-| 1241857001 | Vevizye 1 mg/ml colirio en solución | Colirio en solución | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 56800 | SANDIMMUN 50 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Novartis Farmaceutica S.A. | Comercializada |
+| 60318 | SANDIMMUN NEORAL 50 mg CAPSULAS BLANDAS | CÁPSULA BLANDA | Novartis Farmaceutica S.A. | Comercializada |
+| 78331 | CIQORIN 100 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Teva Pharma S.L.U. | Comercializada |
+| 60319 | SANDIMMUN NEORAL 25 mg CAPSULAS BLANDAS | CÁPSULA BLANDA | Novartis Farmaceutica S.A. | Comercializada |
+| 60320 | SANDIMMUN NEORAL 100 mg CAPSULAS BLANDAS | CÁPSULA BLANDA | Novartis Farmaceutica S.A. | Comercializada |
+| 115990001 | IKERVIS 1 mg/ml colirio en emulsion | COLIRIO EN EMULSIÓN | Santen Oy | Comercializada |
+| 56798 | SANDIMMUN 250 mg/5 ml CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Novartis Farmaceutica S.A. | Comercializada |
+| 78333 | CIQORIN 50 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Teva Pharma S.L.U. | Comercializada |
+| 78332 | CIQORIN 25 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Teva Pharma S.L.U. | Comercializada |
+| 56799 | SANDIMMUN NEORAL 100 mg/ml SOLUCION ORAL | SOLUCIÓN ORAL | Novartis Farmaceutica S.A. | Comercializada |
+
+Se muestran 10 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Existen 13 autorizaciones vigentes en total (todas de monofármaco), con formulaciones de perfusión, cápsulas, solución oral y colirios.
 

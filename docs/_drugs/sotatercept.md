@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 746
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Sotatercept: nueva indicación predicha, Leucemia linfoblástica aguda (nivel de evidencia L5). Indicación original: No disponible (el texto de indicación de las autorizaciones AEMPS est…"
 monitor_inn: "SOTATERCEPT"
 predicted_indications: ["acute lymphoblastic leukemia (disease)", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "diabetic cataract", "HER2 positive breast carcinoma", "transitional cell carcinoma", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant"]
@@ -69,10 +69,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1241850001 | Winrevair 45 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible |
-| 1241850003 | Winrevair 60 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1241850001 | WINREVAIR 45 MG POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Merck Sharp & Dohme B.V. | Comercializada |
+| 1241850003 | WINREVAIR 60 MG POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Merck Sharp & Dohme B.V. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

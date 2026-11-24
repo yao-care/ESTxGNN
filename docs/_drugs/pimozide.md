@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 638
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Pimozide"
 predicted_indications: ["trichotillomania", "manic bipolar affective disorder", "insomnia (disease)", "major affective disorder", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "Malan overgrowth syndrome", "attention deficit hyperactivity disorder, inattentive type", "agoraphobia", "benign paroxysmal torticollis of infancy"]
 description: "Pimozide: nueva indicación predicha, Tricotilomanía (trichotillomania) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -91,10 +91,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 49504 | ORAP FUERTE 4 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
-| 49503 | ORAP 1 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 49504 | ORAP FUERTE 4 mg COMPRIMIDOS | COMPRIMIDO | Eumedica. | Comercializada |
+| 49503 | ORAP 1 mg COMPRIMIDOS | COMPRIMIDO | Eumedica. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

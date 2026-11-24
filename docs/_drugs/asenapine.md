@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Asenapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "syndromic myopia", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Asenapine: nueva indicación predicha, distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) (nivel de evidencia L5). Indicación original: No …"
 ---
 
@@ -74,13 +74,22 @@ Actualmente no hay literatura relacionada disponible para esta indicación predi
 
 La asenapina figura con autorizaciones vigentes en España, todas de medicamentos con un único principio activo y forma sublingual (comprimido sublingual), titular Organon N.V.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 10640005IP2 | SYCREST 10 MG comprimidos sublinguales | Comprimido sublingual | No registrada en los datos locales |
-| 10640002IP2 | SYCREST 5 MG comprimidos sublinguales | Comprimido sublingual | No registrada en los datos locales |
-| 10640002 | SYCREST 5 MG comprimidos sublinguales | Comprimido sublingual | No registrada en los datos locales |
-| 10640005IP3 | SYCREST 10 MG comprimidos sublinguales | Comprimido sublingual | No registrada en los datos locales |
-| 10640005IP | SYCREST 10 MG comprimidos sublinguales | Comprimido sublingual | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 10640005IP2 | SYCREST 10 MG COMPRIMIDOS SUBLINGUALES | COMPRIMIDO SUBLINGUAL | Organon N.V. | Comercializada |
+| 10640002IP2 | SYCREST 5 MG COMPRIMIDOS SUBLINGUALES | COMPRIMIDO SUBLINGUAL | Organon N.V. | Comercializada |
+| 10640002 | SYCREST 5 MG COMPRIMIDOS SUBLINGUALES | COMPRIMIDO SUBLINGUAL | Organon N.V. | Comercializada |
+| 10640005IP3 | SYCREST 10 MG COMPRIMIDOS SUBLINGUALES | COMPRIMIDO SUBLINGUAL | Organon N.V. | Comercializada |
+| 10640005IP | SYCREST 10 MG COMPRIMIDOS SUBLINGUALES | COMPRIMIDO SUBLINGUAL | Organon N.V. | Comercializada |
+| 10640005 | SYCREST 10 MG COMPRIMIDOS SUBLINGUALES | COMPRIMIDO SUBLINGUAL | Organon N.V. | Comercializada |
+| 10640002IP3 | SYCREST 5 MG COMPRIMIDOS SUBLINGUALES | COMPRIMIDO SUBLINGUAL | Organon N.V. | Comercializada |
+| 10640002IP | SYCREST 5 MG COMPRIMIDOS SUBLINGUALES | COMPRIMIDO SUBLINGUAL | Organon N.V. | Comercializada |
+
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

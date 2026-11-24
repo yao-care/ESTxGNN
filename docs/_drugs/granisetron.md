@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 385
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Granisetron: nueva indicación predicha, Trastorno afectivo bipolar maníaco (manic bipolar affective disorder) (nivel de evidencia L5). Indicación original: No disponible en los datos de licencias de …"
 monitor_inn: "granisetron"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "acute contagious conjunctivitis", "angioedema", "allergic urticaria", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "bronchitis", "cold urticaria", "conjunctivitis"]
@@ -97,19 +97,30 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 59867 | KYTRIL 3MG/3ML SOLUCIÓN INYECTABLE | Solución inyectable | No disponible |
-| 68225 | GRANISETRON ALTAN 1 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película | No disponible |
-| 71577 | GRANISETRON AUROVITAS SPAIN 1 mg COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película | No disponible |
-| 61803 | KYTRIL 1MG/1ML SOLUCIÓN INYECTABLE | Solución inyectable | No disponible |
-| 60204 | KYTRIL 1 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 59867 | KYTRIL 3MG/3ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Atnahs Pharma Netherlands Bv. | Comercializada |
+| 71577 | GRANISETRON AUROVITAS SPAIN 1 mg COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 61803 | KYTRIL 1MG/1ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Atnahs Pharma Netherlands Bv. | Comercializada |
+| 60204 | KYTRIL 1 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Atnahs Pharma Netherlands Bv. | Comercializada |
+| 68611 | GRANISETRON ALTAN 3 MG/50 ML SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | Altan Pharmaceuticals Sa | Comercializada |
+| 70744 | GRANISETRON KABI 1 mg/ml CONCENTRADO PARA SOLUCION INYECTABLE EFG | CONCENTRADO PARA SOLUCIÓN INYECTABLE | Fresenius Kabi España, S.A.U. | Comercializada |
+| 70880 | GRANISETRON NORMON 1 mg/1 ml SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 112766001 | SANCUSO 3,1 MG/24 H PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Grünenthal Gmbh | Autorizada, no comercializada |
+| 68464 | GRANISETRON ALTAN 3 MG/3 ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Altan Pharmaceuticals Sa | Suspendida |
+| 68225 | GRANISETRON ALTAN 1 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Altan Pharmaceuticals Sa | Revocada |
+
+Se muestran 10 de 11 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 El resto incluye presentaciones en solución para perfusión, concentrado para solución inyectable y el parche transdérmico SANCUSO 3,1 mg/24 h.
 
 <!-- review:begin es-lic-20261105-granisetron-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 11 autorizaciones vigentes (todas de monofármaco). El resto incluye presentaciones en solución para perfusión, concentrado para solución inyectable y el parche transdérmico SANCUSO 3,1 mg/24 h." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 11 autorizaciones (comercializadas: 7); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 11 autorizaciones vigentes (todas de monofármaco). El resto incluye presentaciones en solución para perfusión, concentrado para solución inyectable y el parche transdérmico SANCUSO 3,1 mg/24 h." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-granisetron-1 -->
 
@@ -146,7 +157,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 11 autorizaciones vigentes (todas de monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 11 autorizaciones vigentes (todas de monofármaco)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sustol (granisetron) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7c7ffdd-8270-4030-bc1e-a1cb28a6de56) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 476
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LISINOPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 description: "Lisinopril: nueva indicación predicha, Pulmonary hypertension with unclear multifactorial mechanism (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -90,13 +90,19 @@ Se listan las 5 principales (el texto de indicación aprobada no figura en los d
 
 <!-- review:end es-lic-20261105-lisinopril-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 64562 | LISINOPRIL CINFA 20 mg COMPRIMIDOS EFG | Comprimido | No disponible |
-| 65530 | LISINOPRIL VIATRIS 5 MG COMPRIMIDOS EFG | Comprimido | No disponible |
-| 88814 | LISINOPRIL GRINDEKS 20 MG COMPRIMIDOS EFG | Comprimido | No disponible |
-| 59129 | PRINIVIL 20 mg COMPRIMIDOS | Comprimido | No disponible |
-| 59127 | ZESTRIL 20 mg COMPRIMIDOS | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 64562 | LISINOPRIL CINFA 20 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 65530 | LISINOPRIL VIATRIS 5 MG COMPRIMIDOS EFG | COMPRIMIDO | Viatris Pharmaceuticals S.L. | Comercializada |
+| 59129 | PRINIVIL 20 mg COMPRIMIDOS | COMPRIMIDO | Pan Quimica Farmaceutica S.A. | Comercializada |
+| 63961 | LISINOPRIL TEVA-RATIOPHARM 5 mg COMPRIMIDOS EFG | COMPRIMIDO | Teva Pharma S.L.U. | Comercializada |
+| 65253 | LISINOPRIL NORMON 5 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 586
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Olmesartan: nueva indicación predicha, Angina de Prinzmetal (nivel de evidencia L5). Indicación original: No disponible en los datos de autorización compilados"
 monitor_inn: "olmesartan"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
@@ -90,13 +90,24 @@ Los datos compilados no incluyen texto de indicación aprobada.
 
 <!-- review:end es-lic-20261105-olmesartan-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 79926 | Olmesartan Viatris 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 87977 | Olmesartan Ratio 40 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 85107 | Olmadur 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 036026110 | Ixia 40 mg comprimidos recubiertos | Comprimido recubierto | No disponible |
-| 82425 | Olseron 40 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 79926 | OLMESARTAN VIATRIS 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Limited | Comercializada |
+| 79928 | OLMESARTAN VIATRIS 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Limited | Comercializada |
+| 82529 | OLMESARTAN KERN PHARMA 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+| 79000 | OLMESARTAN COMBIX 40 MG COMPRIMIIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 80371 | OLMESARTAN NORMON 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 036026110 | IXIA 40 MG COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Menarini International Operations Luxembourg S.A. | Comercializada |
+| 80799 | OLMESARTAN STADA 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 87975 | OLMESARTAN TEVA 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+| 78999 | OLMESARTAN COMBIX 20 MG COMPRIMIIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 79897 | OLMESARTAN CINFA 20 MG COMPRIMDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

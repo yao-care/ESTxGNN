@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "IMATINIB"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
 description: "Imatinib: nueva indicación predicha, Heart fibrosarcoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -90,13 +90,24 @@ Actualmente no hay ensayos clínicos relacionados registrados para fibrosarcoma 
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 81933 | Imatinib Aristo 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 81037 | Imatinib Normon 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 113845002 | Imatinib Accord 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 01198010 | Glivec 400 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 01198008 | Glivec 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 81037 | IMATINIB NORMON 100 MG COMPRIMIDO RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 80889 | IMATINIB KRKA D.D. 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Krka D.D. Novo Mesto | Comercializada |
+| 112808009 | IMATINIB TEVA 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva B.V. | Comercializada |
+| 81038 | IMATINIB NORMON 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 85146 | IMATINIB TARBIS 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Comercializada |
+| 01198010 | GLIVEC 400 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Novartis Europharm Limited | Comercializada |
+| 01198008 | GLIVEC 100 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Novartis Europharm Limited | Comercializada |
+| 80784 | IMATINIB SANDOZ 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Comercializada |
+| 113845002 | Imatinib Accord 100 mg comprimidos recubiertos con pelicula | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Autorizada, no comercializada |
+| 113845006 | Imatinib Accord 100 mg comprimidos recubiertos con pelicula | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

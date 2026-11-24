@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 713
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Rosuvastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
 description: "Rosuvastatin: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (cholesterol-ester transfer protein deficiency) (nivel de evidencia L5). Indicación origi…"
@@ -80,13 +80,19 @@ Se muestran las 5 primeras. Los textos de indicación aprobada no estaban dispon
 
 <!-- review:end es-lic-20261105-rosuvastatin-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 82539 | Rosuvastatina Vir 5 mg EFG | Comprimido recubierto con película |
-| 82543 | Rosuvastatina Farmaprojects 10 mg EFG | Comprimido recubierto con película |
-| 86107 | Vaxar 10 mg EFG | Comprimido recubierto con película |
-| 86108 | Vaxar 20 mg EFG | Comprimido recubierto con película |
-| 70335 | Crestor 40 mg | Comprimido recubierto con película |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 82539 | ROSUVASTATINA VIR 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 86107 | VAXAR 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Adamed Laboratorios S.L.U. | Comercializada |
+| 86108 | VAXAR 20 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Adamed Laboratorios S.L.U. | Comercializada |
+| 86110 | VAXAR 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Adamed Laboratorios S.L.U. | Comercializada |
+| 81846 | ROSUVASTATINA KRKA 30 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Krka D.D. Novo Mesto | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

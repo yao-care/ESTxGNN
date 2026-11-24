@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 175
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "chlortetracycline"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
 description: "Chlortetracycline: nueva indicación predicha, Postinfectious vasculitis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 2)"
@@ -90,11 +90,17 @@ Para la predicción de menor rango (infestación parasitaria del párpado) exist
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 17503 | DERMOSA AUREOMICINA 10 MG/G POMADA | Pomada | No disponible |
-| 17890 | DERMOSA AUREOMICINA 30 MG/G POMADA | Pomada | No disponible |
-| 13909 | OFTALMOLOSA CUSI AUREOMICINA 5 mg/g POMADA OFTÁLMICA | Pomada oftálmica | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 17890 | DERMOSA AUREOMICINA 30 MG/G POMADA | POMADA | Teofarma S.R.L. | Comercializada |
+| 13909 | OFTALMOLOSA CUSI AUREOMICINA 5 mg/g POMADA OFTÁLMICA | POMADA OFTÁLMICA | Ntc S.R.L. | Comercializada |
+| 17503 | DERMOSA AUREOMICINA 10 MG/G POMADA | POMADA | Teofarma S.R.L. | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

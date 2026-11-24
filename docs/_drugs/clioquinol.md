@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "clioquinol"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Clioquinol: nueva indicación predicha, Ectothrix infectious disease (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"
 ---
 
@@ -72,11 +72,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 54860 | MENADERM OTOLOGICO 0,25 mg/10 mg/ml gotas óticas en solución | Gotas óticas en solución | No consta texto de indicación |
-| 52444 | MENADERM CLIO 0,25 mg/30 mg/g crema | Crema | No consta texto de indicación |
-| 51784 | CUATROCREM crema | Crema | No consta texto de indicación |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 54860 | MENADERM OTOLOGICO 0,25 mg/10 mg/ml gotas oticas en solucion | GOTAS ÓTICAS EN SOLUCIÓN | Laboratorios Menarini S.A. | Comercializada |
+| 52444 | MENADERM CLIO 0,25 mg/30 mg/g CREMA | CREMA | Laboratorios Menarini S.A. | Comercializada |
+| 51784 | CUATROCREM CREMA | CREMA | Galenicum Derma S.L.U. | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 293
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Enzalutamide"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
 description: "Enzalutamide: nueva indicación predicha, Prostate leiomyoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 17 (comercializadas: 1; autorizadas no comercializadas: 16)"
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Se muestran 5 de las 17 autorizaciones vigentes (todas de principio activo único). Los textos de indicación aprobada no estaban disponibles en los datos compilados.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 89057 | Enzalutamida Sandoz 80 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 113846002 | Xtandi 40 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 89615 | Enzalutamida Accord 40 mg cápsulas blandas EFG | Cápsula blanda |
-| 1241842002 | Enzalutamida Viatris 40 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 113846001 | Xtandi 40 mg cápsulas blandas | Cápsula blanda |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 113846002 | XTANDI 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Astellas Pharma Europe B.V. | Comercializada |
+| 89057 | ENZALUTAMIDA SANDOZ 80 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Autorizada, no comercializada |
+| 89615 | ENZALUTAMIDA ACCORD 40 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Accord Healthcare S.L.U. | Autorizada, no comercializada |
+| 1241842002 | ENZALUTAMIDA VIATRIS 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Limited | Autorizada, no comercializada |
+| 113846001 | XTANDI 40 MG CAPSULAS BLANDAS | CÁPSULA BLANDA | Astellas Pharma Europe B.V. | Autorizada, no comercializada |
+
+Se muestran 5 de 17 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

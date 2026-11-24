@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ALFACALCIDOL"
 predicted_indications: ["craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alfacalcidol: nueva indicación predicha, Conodisplasia craneofacial (craniofacial conodysplasia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"
 ---
 
@@ -72,11 +72,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61022 | ETALPHA 1 microgramo SOLUCION INYECTABLE | Solución inyectable | No registrada en los datos locales |
-| 55906 | ETALPHA 2 microgramos/ml GOTAS ORALES EN SOLUCION | Gotas orales en solución | No registrada en los datos locales |
-| 61023 | ETALPHA 2 microgramos SOLUCION INYECTABLE | Solución inyectable | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61022 | ETALPHA 1 microgramo SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 55906 | ETALPHA 2 microgramos /ml GOTAS ORALES EN SOLUCION | GOTAS ORALES EN SOLUCIÓN | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 61023 | ETALPHA 2 microgramos SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Cheplapharm Arzneimittel Gmbh | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

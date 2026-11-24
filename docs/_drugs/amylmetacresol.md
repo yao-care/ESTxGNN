@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 55
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Amylmetacresol: nueva indicación predicha, Síndrome de la cauda equina (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "amylmetacresol"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "ciliary body disease", "panuveitis (disease)", "iris disease", "infectious anterior uveitis", "uveitis", "ciliary body cancer", "benign neoplasm of ciliary body"]
@@ -89,13 +89,24 @@ Los textos de indicación aprobada no están disponibles en los datos compilados
 
 <!-- review:end es-lic-20261105-amylmetacresol-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 78850 | Bucomax pastillas para chupar sabor menta | Pastilla para chupar | No disponible |
-| 61935 | Strepsils pastillas para chupar sabor fresa | Pastilla para chupar | No disponible |
-| 80162 | Geisil 0,6 mg/1,2 mg pastillas para chupar sabor menta | Pastilla para chupar | No disponible |
-| 63896 | Strepsils con lidocaína pastillas para chupar | Pastilla para chupar | No disponible |
-| 85434 | Farinstop spray solución para pulverización bucal | Solución para pulverización bucal | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 78850 | BUCOMAX PASTILLAS PARA CHUPAR SABOR MENTA | PASTILLA PARA CHUPAR | Laboratorios Cinfa S.A. | Comercializada |
+| 61935 | STREPSILS PASTILLAS PARA CHUPAR SABOR FRESA | PASTILLA PARA CHUPAR | Reckitt Benckiser Healthcare S.A. | Comercializada |
+| 9500006 | STREPSILS PASTILLAS PARA CHUPAR SABOR MIEL Y LIMON | PASTILLA PARA CHUPAR | Reckitt Benckiser (Romania) S.R.L. | Comercializada |
+| 56418 | STREPSILS PASTILLAS PARA CHUPAR SABOR MIEL Y LIMON | PASTILLA PARA CHUPAR | Reckitt Benckiser Healthcare S.A. | Comercializada |
+| 78858 | BUCOMAX PASTILLAS PARA CHUPAR SABOR MIEL Y LIMON | PASTILLA PARA CHUPAR | Laboratorios Cinfa S.A. | Comercializada |
+| 76814 | STREPSILS pastillas para chupar sabor limon | PASTILLA PARA CHUPAR | Reckitt Benckiser Healthcare S.A. | Comercializada |
+| 483218-7-10 | STREPSILS PASTILLAS PARA CHUPAR SABOR MIEL Y LIMON | PASTILLA PARA CHUPAR | Reckitt Benckiser Hellas Chemicals S.A. | Comercializada |
+| 56417 | STREPSILS pastillas para chupar sabor menta | PASTILLA PARA CHUPAR | Reckitt Benckiser Healthcare S.A. | Comercializada |
+| 63896 | STREPSILS CON LIDOCAINA PASTILLAS PARA CHUPAR | PASTILLA PARA CHUPAR | Reckitt Benckiser Healthcare S.A. | Comercializada |
+| BE207462 | STREPSILS CON LIDOCAINA PASTILLAS PARA CHUPAR | PASTILLA PARA CHUPAR | Reckitt Benckiser (Belgium)S.A/N.V. Ou Reckitt Benckiser He… | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

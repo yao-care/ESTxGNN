@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 275
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ECULIZUMAB"
 predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "X-linked severe congenital neutropenia", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "adult idiopathic neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "autosomal recessive severe congenital neutropenia due to CSF3R deficiency", "severe congenital neutropenia", "primary release disorder of platelets"]
 description: "Eculizumab: nueva indicación predicha, Hematopoyesis cíclica (cyclic hematopoiesis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"
@@ -71,11 +71,17 @@ Actualmente no hay literatura relacionada disponible para hematopoyesis cíclica
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1231727001 | BEKEMV 300 mg concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos compilados |
-| 07393001 | SOLIRIS 300 mg concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos compilados |
-| 1231735001 | EPYSQLI 300 mg concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1231727001 | BEKEMV 300 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Amgen Technology (Ireland) Unlimited Company | Comercializada |
+| 07393001 | SOLIRIS 300 mg CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Alexion Europe Sas | Comercializada |
+| 1231735001 | EPYSQLI 300 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Samsung Bioepis Nl B.V. | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

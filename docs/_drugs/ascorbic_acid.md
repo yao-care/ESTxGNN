@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ascorbic acid"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "florid cemento-osseous dysplasia", "perinatal disease", "segmental odontomaxillary dysplasia", "disease by subcellular system affected"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ascorbic Acid: nueva indicación predicha, Malformación esofágica no sindrómica (non-syndromic esophageal malformation) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 1; autorizadas no comercializadas: 1)"
 ---
 
@@ -72,10 +72,16 @@ Actualmente no hay literatura relacionada disponible.
 
 El medicamento figura como comercializado: de las 2 autorizaciones registradas, 1 está vigente y comercializada, y la otra no se encuentra comercializada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 90151 | VITAMINA C BASI 100 MG/ML SOLUCION INYECTABLE | Solución inyectable | No registrada en los datos locales |
-| 17536 | LAROSCORBINE 1000 mg/5 ml SOLUCION INYECTABLE | Solución inyectable | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 17536 | LAROSCORBINE 1000 mg/5 ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Bayer Hispania S.L. | Comercializada |
+| 90151 | VITAMINA C BASI 100 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Laboratorios Basi Industria Farmaceutica S.A. | Autorizada, no comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

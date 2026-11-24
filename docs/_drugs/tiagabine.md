@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 792
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-24
 description: "Tiagabine: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,11 +72,17 @@ El modelo de aprendizaje profundo TxGNN generó candidatos para Tiagabine con un
 
 ## Información de Mercado en España
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 61607 | tiagabina | COMPRIMIDO RECUBIERTO CON PELÍCULA | Cancelado |
-| 61608 | tiagabina | COMPRIMIDO RECUBIERTO CON PELÍCULA | Cancelado |
-| 61606 | tiagabina | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61606 | GABITRIL 5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva B.V. | Comercializada |
+| 61607 | GABITRIL 10 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva B.V. | Revocada |
+| 61608 | GABITRIL 15 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva B.V. | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

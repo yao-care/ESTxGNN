@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 727
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Secnidazole"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vaginal discharge", "vulvar neoplasm", "leukoplakia of vagina", "vulvovaginal candidiasis"]
 description: "Secnidazole: nueva indicación predicha, Vaginitis atrófica posmenopáusica (postmenopausal atrophic vaginitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0; autorizadas no comercializadas: 1)"
@@ -73,9 +73,15 @@ Actualmente no hay literatura relacionada disponible.
 
 El fármaco figura como autorizado pero no comercializado. Hay una autorización de tipo monofármaco.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 90874 | DEIRON 2 G GRANULADO EN SOBRE (Faes Farma S.A.) | Granulado en sobre | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 90874 | DEIRON 2 G GRANULADO EN SOBRE | GRANULADO EN SOBRE | Faes Farma S.A. | Autorizada, no comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

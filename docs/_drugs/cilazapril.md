@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 181
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CILAZAPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease"]
 description: "Cilazapril: nueva indicación predicha, Pulmonary hypertension with unclear multifactorial mechanism (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 1)"
@@ -79,11 +79,20 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 59330 | INOCAR 1 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 59329 | INOCAR 2,5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 59328 | INOCAR 5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 60649 | INHIBACE PLUS 5 mg/12,5mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 59330 | INOCAR 1 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Mylan Ire Healthcare Limited | Revocada |
+| 59329 | INOCAR 2,5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Mylan Ire Healthcare Limited | Revocada |
+| 59328 | INOCAR 5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Mylan Ire Healthcare Limited | Revocada |
+| 61296 | INOCAR PLUS 5 mg/12,5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Mylan Ire Healthcare Limited | Revocada |
+| 58-181-03C | INHIBACE PLUS 5 MG/12,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Cheplapharm Arzneimittel Gmbh | Revocada |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 643
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
 description: "Pirfenidone: nueva indicación predicha, Mastocitoma extracutáneo (extracutaneous mastocytoma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -79,13 +79,24 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 87491 | Pirfenidona Stada 801 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
-| 88982 | Pirfenidona Vivanta 801 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
-| 11667001 | Esbriet 267 mg cápsulas duras | Cápsula dura | No disponible en los datos |
-| 111667018 | Esbriet 801 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-| 87875 | Pirfenidona Teva 267 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 88982 | PIRFENIDONA VIVANTA 801 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vivanta Generics S.R.O. | Comercializada |
+| 87495 | PIRFENIDONA KERN PHARMA 267 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+| 87875 | PIRFENIDONA TEVA 267 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+| 89206 | PIRFENIDONA TARBIS 267 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Comercializada |
+| 87494 | PIRFENIDONA DR. REDDYS 801 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Reddy Pharma Iberia S.A. | Comercializada |
+| 111667018 | ESBRIET 801 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Roche Registration Gmbh | Comercializada |
+| 1221655011 | PIRFENIDONA AXUNIO 267 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Axunio Pharma Gmbh | Comercializada |
+| 88981 | PIRFENIDONA VIVANTA 267 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vivanta Generics S.R.O. | Comercializada |
+| 87497 | PIRFENIDONA KERN PHARMA 801 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+| 87492 | PIRFENIDONA DR. REDDYS 267 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Reddy Pharma Iberia S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

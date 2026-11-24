@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 853
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Vinpocetine"
 predicted_indications: ["coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery", "lissencephaly", "alexia", "respiratory malformation", "Rienhoff syndrome"]
 description: "Vinpocetine: nueva indicación predicha, Enfermedad de las arterias coronarias (coronary artery disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -77,10 +77,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61827 | VINPOCETINA COVEX 5 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
-| 85430 | VINPOCETINA COVEX 10 MG COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61827 | VINPOCETINA COVEX 5 mg COMPRIMIDOS | COMPRIMIDO | Covex S.A. | Comercializada |
+| 85430 | VINPOCETINA COVEX 10 MG COMPRIMIDOS | COMPRIMIDO | Covex S.A. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

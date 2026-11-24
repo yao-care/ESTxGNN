@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 399
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Hydroxyzine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Hydroxyzine: nueva indicación predicha, Rosacea conjunctivitis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 5)"
@@ -58,7 +58,6 @@ Actualmente no hay **ensayos clínicos** registrados y la evidencia consiste en 
 
 Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción. Según la información conocida, la hidroxizina es un antagonista de los receptores H1 de histamina (la base de datos farmacológica consultada confirma el receptor H1, gen HRH1, como diana), y su metabolito activo es la cetirizina. Al bloquear los receptores H1 del endotelio vascular cutáneo y de las terminaciones nerviosas sensitivas, reduce la formación de habones y el prurito mediados por histamina.
 
-
 Cabe señalar que las guías actuales favorecen los antihistamínicos de segunda generación, a dosis ajustadas, como primera línea en urticaria, debido a la sedación y la carga anticolinérgica de los de primera generación como la hidroxizina.
 
 ## Evidencia de Ensayos Clínicos
@@ -84,13 +83,19 @@ Ninguna de las publicaciones aportadas contiene datos de ensayos específicos de
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 80887 | Hidroxizina Bluefish 25 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 80406 | Hidroxizina Qualigen 25 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 26308 | Atarax 25 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 89357 | Hidroxizina Tarbis 25 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 26269 | Atarax 2 mg/ml jarabe | Jarabe | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 80887 | HIDROXIZINA BLUEFISH 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Bluefish Pharmaceuticals Ab (Publ) | Comercializada |
+| 80406 | HIDROXIZINA QUALIGEN 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Neuraxpharm Spain S.L. | Comercializada |
+| 26308 | ATARAX 25 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Ucb Pharma S.A. | Comercializada |
+| 89357 | HIDROXIZINA TARBIS 25 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Comercializada |
+| 26269 | ATARAX 2 mg/ml JARABE | JARABE | Ucb Pharma S.A. | Comercializada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 657
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Prednicarbate"
 predicted_indications: ["vulvar inverted follicular keratosis", "lichen planus pigmentosus", "hypertrophic lichen planus", "annular atrophic lichen planus", "lichen planus pemphigoides", "2-hydroxyethyl methacrylate sensitization", "primary cutaneous B-cell lymphoma"]
 description: "Prednicarbate: nueva indicación predicha, Queratosis folicular invertida vulvar (vulvar inverted follicular keratosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 6)"
@@ -85,19 +85,28 @@ Actualmente no hay literatura relacionada disponible.
 
 <!-- review:begin es-lic-20261105-prednicarbate-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 8 autorizaciones vigentes (todas de medicamento con un único principio activo, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 autorizaciones (comercializadas: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 8 autorizaciones vigentes (todas de medicamento con un único principio activo, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-prednicarbate-1 -->
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 60371 | PEITEL 2,5 MG/G UNGUENTO (Ferrer Internacional S.A.) | Pomada | No disponible |
-| 60458 | BATMEN 2,5 MG/G CREMA (A. Menarini Latin America S.L.) | Crema | No disponible |
-| 60459 | BATMEN SOLUCION (Laboratorios Menarini S.A.) | Solución cutánea | No disponible |
-| 60370 | PEITEL 2,5 MG/G POMADA (Galenicum Derma S.L.) | Pomada | No disponible |
-| 60372 | PEITEL 2,5 MG/G CREMA (Galenicum Derma S.L.) | Crema | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 60458 | BATMEN 2,5 MG/G CREMA | CREMA | A. Menarini Latin America S.L. | Comercializada |
+| 60370 | PEITEL 2,5 MG/G POMADA | POMADA | Galenicum Derma S.L. | Comercializada |
+| 60372 | PEITEL 2,5 MG/G CREMA | CREMA | Galenicum Derma S.L. | Comercializada |
+| 60456 | BATMEN 2,5 MG/G POMADA | POMADA | A. Menarini Latin America S.L. | Comercializada |
+| 60393 | PEITEL 2,5 MG/G SOLUCION CUTANEA | SOLUCIÓN CUTÁNEA | Galenicum Derma S.L. | Comercializada |
+| 60457 | BATMEN 2,5 MG/G UNGÜENTO | POMADA | A. Menarini Latin America S.L. | Comercializada |
+| 60371 | PEITEL 2,5 MG/G UNGUENTO | POMADA | Ferrer Internacional S.A. | Revocada |
+| 60459 | BATMEN SOLUCION | SOLUCIÓN CUTÁNEA | Laboratorios Menarini S.A. | Revocada |
+
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -128,7 +137,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 8 autorizaciones vigentes (todas de medicamento con un único principio activo, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 8 autorizaciones vigentes (todas de medicamento con un único principio activo, ninguna cancelada)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1200386 (prednicarbate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200386) |
 
 <!-- review:end log -->

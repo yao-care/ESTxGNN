@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 671
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Prucalopride: nueva indicación predicha, Hipoalfalipoproteinemia (nivel de evidencia L5). Indicación original: Trastorno de estreñimiento (estreñimiento crónico)"
 monitor_inn: "Prucalopride"
 predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "duodenal ulcer (disease)", "oral candidiasis", "obsolete familial combined hyperlipidemia", "amyloidosis (disease)", "strongyloidiasis", "HIV infectious disease", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
@@ -71,10 +71,16 @@ Actualmente no hay literatura relacionada disponible para hipoalfalipoproteinemi
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 09581002 | RESOLOR 2 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 09581001 | RESOLOR 1 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 09581002 | RESOLOR 2 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Takeda Pharmaceuticals International Ag Ireland Branch | Comercializada |
+| 09581001 | RESOLOR 1 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Takeda Pharmaceuticals International Ag Ireland Branch | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones están vigentes y corresponden al titular Takeda Pharmaceuticals International AG, sucursal de Irlanda.
 

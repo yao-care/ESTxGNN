@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 597
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Oxybutynin"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
 description: "Oxybutynin: nueva indicación predicha, Síndrome de piernas inquietas (restless legs syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 3; autorizadas no comercializadas: 1)"
@@ -85,12 +85,18 @@ Para la indicación predicha de menor rango (enfermedad ulcerosa péptica), solo
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 57185 | DITROPAN 5 mg COMPRIMIDOS | Comprimido | No disponible |
-| 03270001 | KENTERA 3,9 mg/24 HORAS, PARCHE TRANSDÉRMICO | Parche transdérmico | No disponible |
-| 85899 | VESOXX 1 MG/ML SOLUCIÓN INTRAVESICAL | Solución intravesical | No disponible |
-| 62205 | DRESPLAN COMPRIMIDOS | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 57185 | DITROPAN 5 mg COMPRIMIDOS | COMPRIMIDO | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 03270001 | KENTERA 3,9 mg/24 HORAS, PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Teva B.V. | Comercializada |
+| 62205 | DRESPLAN COMPRIMIDOS | COMPRIMIDO | Macure Healthcare Limited | Comercializada |
+| 85899 | VESOXX 1 MG/ML SOLUCION INTRAVESICAL | SOLUCION INTRAVESICAL | Farco-Pharma Gmbh | Autorizada, no comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

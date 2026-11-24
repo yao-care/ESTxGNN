@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Azathioprine"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Azathioprine: nueva indicación predicha, Síndrome de microftalmía colobomatosa con displasia rizomélica (colobomatous microphthalmia-rhizomelic dysplasia syndro… (nivel de evidencia L5). Indicación o…"
 ---
 
@@ -71,6 +71,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
+
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 78164 | IMMUFALK 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Dr. Falk Pharma Gmbh | Comercializada |
+| 50043 | IMUREL 50 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO | Teofarma S.R.L. | Comercializada |
+| 78165 | IMMUFALK 75 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Dr. Falk Pharma Gmbh | Comercializada |
+| 51003 | IMUREL 50 mg POLVO PARA SOLUCION INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Teofarma S.R.L. | Revocada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 La azatioprina está comercializada en España en polvo para solución inyectable y en comprimidos (incluidos comprimidos recubiertos con película), con los nombres comerciales Imurel e Immufalk. Los datos locales no recogen el texto de indicación aprobada de estas autorizaciones. El detalle de las autorizaciones lo añade el programa a partir de los registros locales.
 

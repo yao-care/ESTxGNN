@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 110
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bosentan: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: Hipertensión arterial pulmonar / esclerodermia (esclerosis sistémica)"
 monitor_inn: "bosentan"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
@@ -86,13 +86,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 81159 | Bosentan Teva 125 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
-| 113832004 | Stayveer 125 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-| 81567 | Bosentan Cipla 125 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
-| 81135 | Bosentan Aurovitas 125 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
-| 02220002 | Tracleer 62,5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 81567 | BOSENTAN CIPLA 125 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Cipla Europe N.V. | Comercializada |
+| 81135 | BOSENTAN AUROVITAS 125 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 81031 | BOSENTAN SUN 125 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+| 80172 | BOSENTAN NORMON 125 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 79827 | BOSENTAN ACCORDPHARMA 125 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Comercializada |
+| 113832001 | STAYVEER 62,5mg comprimidos recubiertos con pelicula | COMPRIMIDO RECUBIERTO CON PELÍCULA | Janssen-Cilag International N.V | Comercializada |
+| 79828 | BOSENTAN ACCORDPHARMA 62,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Comercializada |
+| 81566 | BOSENTAN CIPLA 62,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Cipla Europe N.V. | Comercializada |
+| 80073 | BOSENTAN KERN PHARMA 62,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+| 81032 | BOSENTAN SUN 62,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

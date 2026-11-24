@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 565
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NIFURTIMOX"
 predicted_indications: ["congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "blood group incompatibility", "monoclonal gammopathy", "premalignant hematological system disease", "hematological disease associated with an acquired peripheral neuropathy"]
 description: "Nifurtimox: nueva indicación predicha, Analbuminemia congénita (congenital analbuminemia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -74,10 +74,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 89506 | LAMPIT 120 MG COMPRIMIDOS | Comprimido | No especificada en los datos compilados |
-| 89507 | LAMPIT 30 MG COMPRIMIDOS | Comprimido | No especificada en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 89506 | LAMPIT 120 MG COMPRIMIDOS | COMPRIMIDO | Bayer Hispania S.L. | Comercializada |
+| 89507 | LAMPIT 30 MG COMPRIMIDOS | COMPRIMIDO | Bayer Hispania S.L. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones están vigentes y pertenecen a Bayer Hispania S.L.
 

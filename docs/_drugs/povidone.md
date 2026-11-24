@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 652
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Povidone: nueva indicación predicha, Eritrodermia ictiosiforme congénita (nivel de evidencia L5). Indicación original: Síndrome del ojo seco / xeroftalmia"
 monitor_inn: "povidone"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61983 | OCULOTECT 50 mg/ml colirio en solución en envase unidosis (Alcon Healthcare S.A.) | Colirio en solución | No especificada en los datos |
-| 61982 | OCULOTECT 50 mg/ml colirio en solución (Alcon Healthcare S.A.) | Colirio en solución | No especificada en los datos |
-| 2943389 | OCULOTECT 50 mg/ml colirio en solución en envase unidosis (Alcon Portugal) | Colirio en solución en envase unidosis | No especificada en los datos |
-| 1-21275 | OCULOTECT 50 mg/ml colirio en solución (Laboratoires Thea) | Colirio en solución | No especificada en los datos |
-| 2630085 | OCULOTECT 50 mg/ml colirio en solución (Alcon Portugal) | Colirio en solución | No especificada en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 2943389 | OCULOTECT 50 MG/ML COLIRIO EN SOLUCION EN ENVASE UNIDOSIS | COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS | Alcon Portugal Produtos E Equipamentos Oftalmologicos Lda. | Autorizada, no comercializada |
+| 2630085 | OCULOTECT 50 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Alcon Portugal Produtos E Equipamentos Oftalmologicos Lda. | Autorizada, no comercializada |
+| 61983 | OCULOTECT 50 mg/ml COLIRIO EN SOLUCION EN ENVASE UNIDOSIS | COLIRIO EN SOLUCIÓN | Alcon Healthcare S.A. | Revocada |
+| 61982 | OCULOTECT 50 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Alcon Healthcare S.A. | Revocada |
+| 1-21275 | OCULOTECT 50 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Laboratoires Thea | Revocada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 La indicación original (síndrome del ojo seco / xeroftalmia) no proviene del texto de las autorizaciones; procede del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 

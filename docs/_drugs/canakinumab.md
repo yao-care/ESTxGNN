@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CANAKINUMAB"
 predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "syndrome with combined immunodeficiency", "periodic fever-infantile enterocolitis-autoinflammatory syndrome", "extracutaneous mastocytoma", "Blau syndrome", "monosomy X", "liver angiosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Canakinumab: nueva indicación predicha, hepatic infarction (infarto hepático) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 1)"
 ---
 
@@ -70,10 +70,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 109564004 | ILARIS 150 MG/ML SOLUCION INYECTABLE | Solución inyectable | No registrada en los datos locales |
-| 09564001 | ILARIS 150 mg POLVO PARA SOLUCION INYECTABLE | Polvo para solución inyectable | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 109564004 | ILARIS 150 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Novartis Europharm Limited | Comercializada |
+| 09564001 | ILARIS 150 mg POLVO PARA SOLUCION INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Novartis Europharm Limited | Revocada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

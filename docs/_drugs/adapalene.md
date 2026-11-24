@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 24
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adapalene: nueva indicación predicha, Zinc plasmático elevado (nivel de evidencia L5). Indicación original: Acné"
 monitor_inn: "Adapalene"
 predicted_indications: ["zinc, elevated plasma"]
@@ -64,10 +64,16 @@ Además, el zinc plasmático elevado es un hallazgo de laboratorio y no una enfe
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61066 | DIFFERINE 1 mg/g GEL | Gel | No disponible |
-| 66158 | DIFFERINE 1 mg/g CREMA | Crema | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61066 | DIFFERINE 1 mg/g GEL | GEL | Laboratorios Galderma S.A. | Comercializada |
+| 66158 | DIFFERINE 1 mg/g CREMA | CREMA | Laboratorios Galderma S.A. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones son de monofármaco, están vigentes y pertenecen a Laboratorios Galderma S.A.
 

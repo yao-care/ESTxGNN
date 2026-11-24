@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 800
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin: nueva indicación predicha, Queratitis por exposición (exposure keratitis) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 18 (comercializadas: 10)"
@@ -68,7 +68,7 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 <!-- review:begin es-lic-20261105-tobramycin-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 18 autorizaciones vigentes (todas de principio activo único), con formas oftálmicas, inyectables, de perfusión y de inhalación." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 18 autorizaciones (comercializadas: 10); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 18 autorizaciones vigentes (todas de principio activo único), con formas oftálmicas, inyectables, de perfusión y de inhalación." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-tobramycin-1 -->
 
@@ -87,13 +87,24 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 57594 | Tobrex 3 mg/ml colirio en solución | Colirio en solución | No disponible en los datos compilados |
-| 57593 | Tobrex ungüento oftálmico 3 mg/g | Pomada oftálmica | No disponible en los datos compilados |
-| 64350 | Tobrabact 3,0 mg/ml colirio en solución | Colirio en solución | No disponible en los datos compilados |
-| 63689 | Tobi 300 mg/5 ml | Solución para inhalación por nebulizador | No disponible en los datos compilados |
-| 64191 | Tobramicina Braun 3 mg/ml | Solución para perfusión | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 65262 | TOBRAMICINA NORMON 50 mg/2 ml SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 68621 | BRAMITOB 300 mg/4 ml SOLUCION PARA INHALACION POR NEBULIZADOR | SOLUCIÓN PARA INHALACIÓN POR NEBULIZADOR | Chiesi España S.A.U. | Comercializada |
+| 57594 | TOBREX 3 MG/ML COLIRIO EN SOLUCIÓN | COLIRIO EN SOLUCIÓN | Novartis Farmaceutica S.A. | Comercializada |
+| 65261 | TOBRAMICINA NORMON 100 mg/2 ml SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 57593 | TOBREX UNGÜENTO OFTÁLMICO 3 MG/G POMADA OFTÁLMICA | POMADA OFTÁLMICA | Novartis Farmaceutica S.A. | Comercializada |
+| 84187 | TOBRAMICINA ALTAN 300 MG/5 ML SOLUCION PARA INHALACION POR NEBULIZADOR | SOLUCIÓN PARA INHALACIÓN POR NEBULIZADOR | Altan Pharmaceuticals Sa | Comercializada |
+| 10652002 | TOBI PODHALER 28 mg POLVO PARA INHALACION (CAPSULA DURA) | POLVO PARA INHALACIÓN (CÁPSULA DURA) | Viatris Healthcare Limited | Comercializada |
+| 181350001 | VANTOBRA 170 MG SOLUCION PARA INHALACION POR NEBULIZADOR | SOLUCIÓN PARA INHALACIÓN POR NEBULIZADOR | Pari Pharma Gmbh | Comercializada |
+| 75344 | TOBRAMICINA ACCORD 300 mg / 5 ml SOLUCION PARA INHALACION POR NEBULIZADOR | SOLUCIÓN PARA INHALACIÓN POR NEBULIZADOR | Accord Healthcare S.L.U. | Comercializada |
+| 77752 | URSITAN 3 MG/ML COLIRIO EN SOLUCION EN ENVASES UNIDOSIS | COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS | Laboratorios Salvat S.A. | Comercializada |
+
+Se muestran 10 de 18 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -126,7 +137,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Hay 18 autorizaciones vigentes (todas de principio activo único), con formas oftálmicas, inyectables, de perfusión y de inhalación" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Hay 18 autorizaciones vigentes (todas de principio activo único), con formas oftálmicas, inyectables, de perfusión y de inhalación" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a) |
 
 <!-- review:end log -->

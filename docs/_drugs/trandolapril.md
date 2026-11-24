@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 812
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRANDOLAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Trandolapril: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -74,10 +74,16 @@ Para otras indicaciones predichas (por ejemplo, hipertensión pulmonar asociada 
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 59984 | GOPTEN 0,5 mg CAPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
-| 59985 | GOPTEN 2 mg CAPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 59984 | GOPTEN 0,5 mg CAPSULAS DURAS | CÁPSULA DURA | Viatris Healthcare Limited | Comercializada |
+| 59985 | GOPTEN 2 mg CAPSULAS DURAS | CÁPSULA DURA | Viatris Healthcare Limited | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones son de monofármaco, están vigentes y pertenecen a Viatris Healthcare Limited.
 

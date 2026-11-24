@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 414
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "INDINAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "fibroma of prostate"]
 description: "Indinavir: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) (nivel de evidencia L4). Indicación original: No consta en los dat…"
@@ -80,11 +80,17 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 96024005 | CRIXIVAN 400 MG CÁPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
-| 96024003 | CRIXIVAN 200 MG CÁPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
-| 96024009 | CRIXIVAN 400 mg CÁPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 96024005 | CRIXIVAN 400 MG CAPSULAS DURAS | CÁPSULA DURA | Merck Sharp & Dohme B.V. | Revocada |
+| 96024003 | CRIXIVAN 200 MG CAPSULAS DURAS | CÁPSULA DURA | Merck Sharp & Dohme B.V. | Revocada |
+| 96024009 | CRIXIVAN 400 mg CAPSULAS DURAS | CÁPSULA DURA | Merck Sharp & Dohme B.V. | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 545
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Moxonidine: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: Hipertensión (esencial)"
 monitor_inn: "Moxonidine"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "primary hereditary glaucoma"]
@@ -88,11 +88,17 @@ Cabe señalar que para la predicción de "alopecia" (posición 4) se recuperó u
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61158 | MOXON 0,4 mg comprimidos recubiertos con película | Comprimido recubierto | Hipertensión (según la base de conocimiento; el texto de indicación no está disponible) |
-| 61157 | MOXON 0,3 mg comprimidos recubiertos con película | Comprimido recubierto | Hipertensión (según la base de conocimiento; el texto de indicación no está disponible) |
-| 61156 | MOXON 0,2 mg comprimidos recubiertos con película | Comprimido recubierto | Hipertensión (según la base de conocimiento; el texto de indicación no está disponible) |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61158 | MOXON 0,4 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO | Viatris Healthcare Limited | Comercializada |
+| 61157 | MOXON 0,3 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO | Viatris Healthcare Limited | Comercializada |
+| 61156 | MOXON 0,2 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO | Viatris Healthcare Limited | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las tres autorizaciones están vigentes, son de monofármaco y su titular es Viatris Healthcare Limited.
 

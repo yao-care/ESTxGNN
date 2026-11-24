@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ambrisentan"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ambrisentan: nueva indicación predicha, Malformación arteriovenosa pulmonar (pulmonary arteriovenous malformation (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos local…"
 ---
 
@@ -75,13 +75,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Existen autorizaciones vigentes de ambrisentan en forma de comprimidos recubiertos con película. El registro de autorizaciones puede ser parcial. Principales productos:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 84715 | Ambrisentan Sandoz 5 mg | Comprimido recubierto con película | No registrada |
-| 84775 | Ambrisentan Alembic 10 mg | Comprimido recubierto con película | No registrada |
-| 85001 | Ambrisentan Kern Pharma 10 mg | Comprimido recubierto | No registrada |
-| 08451004 | Volibris 10 mg | Comprimido recubierto con película | No registrada |
-| 84716 | Ambrisentan Sandoz 10 mg | Comprimido recubierto con película | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 85001 | AMBRISENTAN KERN PHARMA 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO | Kern Pharma S.L. | Comercializada |
+| 08451004 | VOLIBRIS 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Glaxosmithkline (Ireland) Limited | Comercializada |
+| 88445 | AMBRISENTAN AUROVITAS 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 86090 | AMBRISENTAN SALA 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 89412 | AMBRISENTAN VIVANTA 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vivanta Generics S.R.O. | Comercializada |
+| 84582 | AMBRISENTAN ACCORD 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Comercializada |
+| 08451002 | VOLIBRIS 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Glaxosmithkline (Ireland) Limited | Comercializada |
+| 88446 | AMBRISENTAN AUROVITAS 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 85000 | AMBRISENTAN KERN PHARMA 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO | Kern Pharma S.L. | Comercializada |
+| 89411 | AMBRISENTAN VIVANTA 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vivanta Generics S.R.O. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

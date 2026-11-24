@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 567
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "nimodipine"
 predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Nimodipine: nueva indicación predicha, Hipercolesterolemia familiar homocigota (homozygous familial hypercholesterolemia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 4)"
@@ -72,19 +72,27 @@ Actualmente no hay literatura relacionada disponible.
 
 <!-- review:begin es-lic-20261105-nimodipine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 7 autorizaciones vigentes en total; también existen dos presentaciones en solución para perfusión (Nimotop 0,2 mg/ml, n.º 58075, y Nimodipino Altan 0,2 mg/ml EFG, n.º 67042)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 7 autorizaciones vigentes en total; también existen dos presentaciones en solución para perfusión (Nimotop 0,2 mg/ml, n.º 58075, y Nimodipino Altan 0,2 mg/ml EFG, n.º 67042)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-nimodipine-1 -->
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 58644 | Nimodipino Remontal 30 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 62504 | Nimodipino Stada 30 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-| 84780 | Nimodipino Stadafarma 30 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 58780 | Brainal 30 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 58074 | Nimotop 30 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 84780 | NIMODIPINO STADAFARMA 30 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 58780 | BRAINAL 30 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aristo Pharma Iberia S.L. | Comercializada |
+| 58075 | NIMOTOP 0,2 mg/ml SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | Laboratoire X.O | Comercializada |
+| 67042 | NIMODIPINO ALTAN 0,2 MG/ML SOLUCION PARA PERFUSION EFG | SOLUCIÓN PARA PERFUSIÓN | Altan Pharmaceuticals Sa | Comercializada |
+| 58074 | NIMOTOP 30 mg, COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratoire X.O | Suspendida |
+| 58644 | NIMODIPINO REMONTAL 30 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Neuraxpharm Spain S.L. | Revocada |
+| 62504 | NIMODIPINO STADA 30 mg comprimidos recubiertos con película EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Revocada |
+
+Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -121,7 +129,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Hay 7 autorizaciones vigentes en total; también existen dos presentaciones en solución para perfusión (Nimotop 0,2 mg/ml, n.º 58075, y Nimod" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Hay 7 autorizaciones vigentes en total; también existen dos presentaciones en solución para perfusión (Nimotop 0,2 mg/ml, n.º 58075, y Nimod" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Nymalize (nimodipine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e660fa26-b5c4-4d6d-8887-9e22b6666a10) |
 
 <!-- review:end log -->

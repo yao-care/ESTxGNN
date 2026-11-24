@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 300
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Eptinezumab: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,9 +72,15 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) propone para Eptinezum
 
 ## Información de Mercado en España
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 1211599001 | eptinezumab | CONCENTRADO Y DISOLVENTE PARA SOLUCIÓN P | Vigente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1211599001 | VYEPTI 100 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO Y DISOLVENTE PARA SOLUCIÓN PARA PERFUSIÓN | H. Lundbeck A/S | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

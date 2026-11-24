@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 566
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nilotinib: nueva indicación predicha, Dermatofibrosarcoma protuberans (nivel de evidencia L5). Indicación original: Leucemia mieloide crónica, BCR-ABL1 positivo"
 monitor_inn: "NILOTINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
@@ -74,13 +74,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 89705 | Nilotinib Stada 150 mg cápsulas duras EFG | Cápsula dura | Leucemia mieloide crónica, BCR-ABL1 positivo (según la indicación original) |
-| 1241845004 | Nilotinib Accord 50 mg cápsulas duras EFG | Cápsula dura | Leucemia mieloide crónica, BCR-ABL1 positivo (según la indicación original) |
-| 89745 | Nilotinib Teva 150 mg cápsulas duras EFG | Cápsula dura | Leucemia mieloide crónica, BCR-ABL1 positivo (según la indicación original) |
-| 90289 | Nilotinib Zentiva 150 mg cápsulas duras EFG | Cápsula dura | Leucemia mieloide crónica, BCR-ABL1 positivo (según la indicación original) |
-| 07422006 | Tasigna 150 mg cápsulas duras | Cápsula dura | Leucemia mieloide crónica, BCR-ABL1 positivo (según la indicación original) |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 89705 | NILOTINIB STADA 150 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorio Stada S.L. | Comercializada |
+| 1241845004 | NILOTINIB ACCORD 50 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Accord Healthcare S.L.U. | Comercializada |
+| 1241845012 | NILOTINIB ACCORD 150 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Accord Healthcare S.L.U. | Comercializada |
+| 89745 | NILOTINIB TEVA 150 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Teva Gmbh | Comercializada |
+| 1241845022 | NILOTINIB ACCORD 200 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Accord Healthcare S.L.U. | Comercializada |
+
+Se muestran 5 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 12 autorizaciones vigentes (todas de principio activo único). El texto de indicación de las autorizaciones no estaba disponible en los datos; la indicación mostrada procede de la indicación original del fármaco.
 

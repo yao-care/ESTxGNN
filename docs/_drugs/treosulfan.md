@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 820
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Treosulfan: nueva indicación predicha, Catarata diabética (nivel de evidencia L5). Indicación original: No disponible en los datos de autorización (el texto de indicación es…"
 monitor_inn: "treosulfan"
 predicted_indications: ["diabetic cataract"]
@@ -72,10 +72,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1181351003 | TRECONDI 5 G polvo para solución para perfusión | Polvo para solución para perfusión | No registrada en los datos disponibles |
-| 83122 | Treosulfano Zentiva 5 g polvo para solución para perfusión EFG | Polvo para solución inyectable y para perfusión | No registrada en los datos disponibles |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1181351003 | TRECONDI 5 G POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Medac Gesellschaft Für Klinische Spezialpräparate Gmbh | Comercializada |
+| 83122 | TREOSULFANO ZENTIVA 5 G POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Zentiva K.S. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

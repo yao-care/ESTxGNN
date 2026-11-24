@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 819
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Trazodone"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
 description: "Trazodone: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 9 (comercializadas: 4; autorizadas no comercializadas: 3)"
@@ -93,13 +93,23 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 90501 | Trazodona Stadafarma 100 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
-| 83033 | Trazodona Stada 100 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
-| 51612 | Deprax/Deprase 100 mg comprimidos recubiertos con película | Comprimido | No disponible en los datos compilados |
-| 83568 | Trazodona Cinfa 100 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
-| 90503 | Trazodona Stadafarma 50 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 83033 | TRAZODONA STADA 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Comercializada |
+| 83568 | TRAZODONA CINFA 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 78762 | DEPRAX 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Angelini Pharma Espana S.L. | Comercializada |
+| 78585 | TRAZODONA NORMON 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 90501 | TRAZODONA STADAFARMA 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Autorizada, no comercializada |
+| 90503 | TRAZODONA STADAFARMA 50 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Autorizada, no comercializada |
+| 90502 | TRAZODONA STADAFARMA 150 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Autorizada, no comercializada |
+| 51612 | DEPRASER 100 mg COMPRIMIDOS RECUBIERTOS CON PELÍCULA | COMPRIMIDO | Angelini Pharma Espana S.L. | Suspendida |
+| 77556 | TRAZODONA SANDOZ 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Sandoz Farmaceutica S.A. | Revocada |
+
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 
@@ -109,7 +119,7 @@ Los datos compilados no incluyen advertencias ni contraindicaciones del prospect
 
 <!-- review:begin es-lic-20261105-trazodone-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-trazodone-1 -->
 
@@ -146,7 +156,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: trazodone hydrochloride prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e861818-6e7b-fe6d-e063-6294a90a7768) |
 
 <!-- review:end log -->

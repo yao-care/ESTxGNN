@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 684
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rasagiline: nueva indicación predicha, Neurodegeneración asociada a PLA2G6 (nivel de evidencia L5). Indicación original: Enfermedad de Parkinson (y síndromes parkinsonianos relacionados)"
 monitor_inn: "Rasagiline"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
@@ -99,13 +99,19 @@ Se muestran las 5 principales:
 
 <!-- review:end es-lic-20261105-rasagiline-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 04304004IP3 | AZILECT 1 MG COMPRIMIDOS | Comprimido | No disponible en los datos |
-| 04304004IP5 | AZILECT 1 mg COMPRIMIDOS | Comprimido | No disponible en los datos |
-| 04304004IP1 | AZILECT 1 MG COMPRIMIDOS | Comprimido | No disponible en los datos |
-| 81248 | DEVOLINA 1 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos |
-| 80582 | RASAGILINA BLUEFISH 1 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 80582 | RASAGILINA BLUEFISH 1 MG COMPRIMIDOS EFG | COMPRIMIDO | Bluefish Pharmaceuticals Ab (Publ) | Comercializada |
+| 04304004IP3 | AZILECT 1 MG COMPRIMIDOS | COMPRIMIDO | Teva B.V. | Comercializada |
+| 80627 | RASAGILINA TECNIGEN 1 MG COMPRIMIDOS EFG | COMPRIMIDO | Tecnimede España Industria Farmaceutica S.A. | Comercializada |
+| 80355 | RASAGILINA MABO 1 MG COMPRIMIDOS EFG | COMPRIMIDO | Mabo Farma S.A. | Comercializada |
+| 80297 | RASAGILINA NORMON 1 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

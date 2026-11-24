@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "acetohydroxamic acid"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetohydroxamic Acid: nueva indicación predicha, Uretritis por Ureaplasma (Ureaplasma urethritis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
 ---
 
@@ -72,10 +72,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 56204 | URONEFREX 125 mg CAPSULAS | Cápsula dura | No registrada en los datos locales |
-| 56203 | URONEFREX 250 mg CAPSULAS | Cápsula dura | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 56204 | URONEFREX 125 mg CAPSULAS | CÁPSULA DURA | Ferrer Internacional S.A. | Comercializada |
+| 56203 | URONEFREX 250 mg CAPSULAS | CÁPSULA DURA | Ferrer Internacional S.A. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

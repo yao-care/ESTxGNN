@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 215
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Dacarbazine"
 predicted_indications: ["upper aerodigestive tract neoplasm"]
 description: "Dacarbazine: nueva indicación predicha, Neoplasia del tracto aerodigestivo superior (upper aerodigestive tract neoplasm) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -84,10 +84,16 @@ Se muestran las publicaciones más relevantes (los tipos de estudio provienen de
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 62334 | Dacarbazina Medac 1000 mg polvo para solución para perfusión | Polvo para solución para perfusión | No disponible en los datos compilados |
-| 62333 | Dacarbazina Medac 500 mg polvo para solución para perfusión | Polvo para solución para perfusión | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 62334 | DACARBAZINA MEDAC 1000 mg POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Medac Gesellschaft Für Klinische Spezialpräparate Gmbh | Comercializada |
+| 62333 | DACARBAZINA MEDAC 500 mg POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Medac Gesellschaft Für Klinische Spezialpräparate Gmbh | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

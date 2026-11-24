@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 773
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TEMSIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarcoma"]
 description: "Temsirolimus: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 1)"
@@ -88,10 +88,16 @@ Aunque el carcinoma renal y el liposarcoma son tumores de origen muy distinto, c
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 86058 | Temsirolimus Accord 30 mg concentrado y disolvente para solución para perfusión EFG | Concentrado y disolvente para solución para perfusión | No disponible |
-| 07424001 | Torisel 30 mg concentrado y disolvente para solución para perfusión | Concentrado y disolvente para solución para perfusión | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 07424001 | TORISEL 30 MG CONCENTRADO Y DISOLVENTE PARA SOLUCION PARA PERFUSION | CONCENTRADO Y DISOLVENTE PARA SOLUCIÓN PARA PERFUSIÓN | Pfizer Europe Ma Eeig | Comercializada |
+| 86058 | TEMSIROLIMUS ACCORD 30 MG CONCENTRADO Y DISOLVENTE PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO Y DISOLVENTE PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Revocada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

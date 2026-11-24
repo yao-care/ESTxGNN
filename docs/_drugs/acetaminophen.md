@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 16
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Acetaminophen: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,30 +72,34 @@ Los candidatos que el modelo TxGNN propone para Acetaminophen (puntuación ≥ 0
 
 ## Información de Mercado en España
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 81946 | paracetamol | SOLUCIÓN ORAL | Vigente |
-| 70349 | paracetamol | COMPRIMIDO | Cancelado |
-| 81874 | paracetamol | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 69955 | paracetamol | SOLUCIÓN ORAL | Vigente |
-| 88032 | paracetamol | COMPRIMIDO | Vigente |
-| 88987 | paracetamol | SOLUCIÓN PARA PERFUSIÓN | Vigente |
-| 86634 | paracetamol | COMPRIMIDO | Autorizado, no comercializado |
-| 85132 | paracetamol | COMPRIMIDO | Vigente |
-| 69477 | paracetamol | COMPRIMIDO | Vigente |
-| 84333 | paracetamol | COMPRIMIDO EFERVESCENTE | Cancelado |
-| 90018 | paracetamol | COMPRIMIDO | Cancelado |
-| 86485 | paracetamol | COMPRIMIDO RECUBIERTO CON PELÍCULA | Autorizado, no comercializado |
-| 85496 | paracetamol | COMPRIMIDO | Vigente |
-| 78837 | paracetamol | SOLUCIÓN ORAL | Vigente |
-| 86643 | paracetamol | COMPRIMIDO | Autorizado, no comercializado |
-| 84216 | paracetamol | COMPRIMIDO | Vigente |
-| 86879 | paracetamol | SOLUCIÓN PARA PERFUSIÓN | Cancelado |
-| 70040 | paracetamol | SOLUCIÓN ORAL | Vigente |
-| 83287 | paracetamol | POLVO PARA SOLUCION ORAL EN SOBRE | Vigente |
-| 58156 | paracetamol | COMPRIMIDO EFERVESCENTE | Vigente |
+<!-- licenses:begin -->
 
-Los datos solo contienen parte de los registros; la lista puede estar incompleta.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 81946 | DOLOSTOP 500 MG SOLUCION ORAL | SOLUCIÓN ORAL | Kern Pharma S.L. | Comercializada |
+| 81874 | PARACETAMOL VIR 1 g COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 69955 | APIREDOL 100 mg/ml SOLUCION ORAL | SOLUCIÓN ORAL | Ionfarma S.L. | Comercializada |
+| 88032 | PARACETAMOL PENSA PHARMA 1G COMPRIMIDOS EFG | COMPRIMIDO | Towa Pharmaceutical S.A. | Comercializada |
+| 88987 | SUPOFEN 10 MG/ML SOLUCION PARA PERFUSION EFG | SOLUCIÓN PARA PERFUSIÓN | Laboratorios Basi Industria Farmaceutica S.A. | Comercializada |
+| 85132 | PARACETAMOL KRKA 1000 MG COMPRIMIDOS EFG | COMPRIMIDO | Krka D.D. Novo Mesto | Comercializada |
+| 69477 | PARACETAMOL STADA 650 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Comercializada |
+| 85496 | PARACETAMOL VIR PHARMA 1 G COMPRIMIDOS EFG | COMPRIMIDO | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 78837 | DOLOSTOP PEDIÁTRICO 100 MG/ML SOLUCION ORAL | SOLUCIÓN ORAL | Kern Pharma S.L. | Comercializada |
+| 84216 | PARACETAMOL STADAPHARM 650 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Comercializada |
+| 70040 | EFETAMOL 100 mg/ml SOLUCION ORAL | SOLUCIÓN ORAL | Italfarmaco S.A. | Comercializada |
+| 83287 | PARACETAMOL AUROVITAS 1 G POLVO PARA SOLUCION ORAL EFG | POLVO PARA SOLUCION ORAL EN SOBRE | Aurovitas Spain, S.A.U. | Comercializada |
+| 58156 | EFFERALDOL 500 mg COMPRIMIDOS EFERVESCENTES | COMPRIMIDO EFERVESCENTE | Upsa S.A.S. | Comercializada |
+| 86634 | PARACETAMOL FARMALIDER 650 MG COMPRIMIDOS EFG | COMPRIMIDO | Farmalider S.A. | Autorizada, no comercializada |
+| 86485 | PARACETAMOL PHARMACLAN 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Pharmaclan S.R.O. | Autorizada, no comercializada |
+| 86643 | PARACETAMOL FARMALID 650 MG COMPRIMIDOS EFG | COMPRIMIDO | Dermogen-Farma S.A. | Autorizada, no comercializada |
+| 70349 | PARACETAMOL TEVA 1 g COMPRIMIDOS EFG | COMPRIMIDO | Teva Pharma S.L.U. | Revocada |
+| 84333 | FIZAMOL 500 MG COMPRIMIDOS EFERVESCENTES EFG | COMPRIMIDO EFERVESCENTE | Accord Healthcare S.L.U. | Revocada |
+| 90018 | PARACETAMOL NORMOGEN 650 MG COMPRIMIDOS | COMPRIMIDO | Laboratorios Normon S.A. | Revocada |
+| 86879 | PARACETAMOL RTU BAXTER 10 MG/ML SOLUCION PARA PERFUSION EFG | SOLUCIÓN PARA PERFUSIÓN | Baxter Holding B.V. | Revocada |
+
+Se muestran las 20 autorizaciones con este principio activo recogidas en los datos de CIMA (AEMPS) para este informe; primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

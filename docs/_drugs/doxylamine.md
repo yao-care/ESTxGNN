@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 266
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Doxylamine"
 predicted_indications: ["nasal cavity disease"]
 description: "Doxylamine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 18 (comercializadas: 10)"
@@ -75,17 +75,28 @@ Los datos compilados no incluyen el texto de la indicación aprobada.
 
 <!-- review:begin es-lic-20261105-doxylamine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 18 autorizaciones vigentes (todas de medicamentos con un único principio activo). Los datos compilados no incluyen el texto de la indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 18 autorizaciones (comercializadas: 10); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 18 autorizaciones vigentes (todas de medicamentos con un único principio activo). Los datos compilados no incluyen el texto de la indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-doxylamine-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 83322 | DOXIMAX 12,5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 80704 | DOXILAMINA SANDOZ CARE 25 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 77281 | DOXILAMINA ESTEVE 12,5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 60154 | DORMIDINA DOXILAMINA 12,5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 80761 | SOÑODOR DOXILAMINA 25 mg polvo oral | Polvo oral | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 77281 | DOXILAMINA ESTEVE 12,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Esteve Pharmaceuticals S.A. | Comercializada |
+| 60154 | DORMIDINA DOXILAMINA 12,5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Esteve Pharmaceuticals S.A. | Comercializada |
+| 77517 | NORMODORM 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 58658 | DORMIDINA DOXILAMINA 25 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Esteve Pharmaceuticals S.A. | Comercializada |
+| 77551 | DORMIKERN 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+| 83321 | DORMIGEN 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tecnimede España Industria Farmaceutica S.A. | Comercializada |
+| 77280 | DOXILAMINA ESTEVE 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Esteve Pharmaceuticals S.A. | Comercializada |
+| 81255 | DULSUEÑOS 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Apotheke Laboratorios S.L. | Comercializada |
+| 72235 | DORMIREL FORTE 25 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+| 79497 | DOXILAMINA AUROVITAS 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+
+Se muestran 10 de 18 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -118,7 +129,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 18 autorizaciones vigentes (todas de medicamentos con un único principio activo)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 18 autorizaciones vigentes (todas de medicamentos con un único principio activo)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Doxylamine Succinate And Pyridoxine Hydrochloride (doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de265fd1-bc22-4da1-aab5-b5fedd649c8b) |
 
 <!-- review:end log -->

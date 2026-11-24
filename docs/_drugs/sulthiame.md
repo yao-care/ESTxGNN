@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 755
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sulthiame: nueva indicación predicha, Síndrome de la cola de caballo (cauda equina syndrome) (nivel de evidencia L5). Indicación original: No disponible en los datos de la autorización de AEMPS"
 monitor_inn: "sulthiame"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "neurocirculatory asthenia", "anaphylaxis", "food-dependent exercise-induced anaphylaxis", "familial mitral valve prolapse", "mitral valve prolapse (disease)", "MVP1", "autonomic nervous system disease"]
@@ -43,7 +43,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de la cola 
 
 <!-- review:begin es-lic-20261105-sulthiame-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Sultiamo es un inhibidor de la anhidrasa carbónica comercializado en España como suspensión oral (OSPOLOT 20 mg/ml), pero los datos compilados para este informe no incluyen el texto de su indicación aprobada. / El modelo TxGNN predice que podría ser efectivo para el **síndrome de la cola de caballo**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata de una predicción puramente computacional." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 autorización (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Sultiamo es un inhibidor de la anhidrasa carbónica comercializado en España como suspensión oral (OSPOLOT 20 mg/ml), pero los datos compilados para este informe no incluyen el texto de su indicación aprobada. / El modelo TxGNN predice que podría ser efectivo para el **síndrome de la cola de caballo**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata de una predicción puramente computacional." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-sulthiame-1 -->
 
@@ -93,9 +93,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 89631 | OSPOLOT 20 MG/ML SUSPENSIÓN ORAL | Suspensión oral | No especificada en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 89631 | OSPOLOT 20 MG/ML SUSPENSIÓN ORAL | SUSPENSIÓN ORAL | Desitin Arzneimittel Gmbh | Autorizada, no comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 Titular: Desitin Arzneimittel GmbH. Autorización vigente, de tipo monofármaco.
 
@@ -128,7 +134,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "comercializado en España como suspensión oral (OSPOLOT 20 mg/ml)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "comercializado en España como suspensión oral (OSPOLOT 20 mg/ml)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL328560 (sulthiame): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL328560) |
 
 <!-- review:end log -->

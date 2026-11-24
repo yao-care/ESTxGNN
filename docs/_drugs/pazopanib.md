@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 614
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 description: "Pazopanib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 10 (comercializadas: 10)"
@@ -101,13 +101,24 @@ La prediccion supone, por tanto, una extensión dentro de una familia de tumores
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 10628001 | Votrient 200 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 10628004 | Votrient 400 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 86571 | Pazopanib Stada 200 mg EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-| 86572 | Pazopanib Stada 400 mg EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-| 89350 | Pazopanib Accord 200 mg EFG | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 90228 | PAZOPANIB DR. REDDYS 200 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Reddy Pharma Iberia S.A. | Comercializada |
+| 89350 | PAZOPANIB ACCORD 200 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Comercializada |
+| 89786 | PAZOPANIB GLENMARK 200 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Glenmark Arzneimittel Gmbh | Comercializada |
+| 86571 | PAZOPANIB STADA 200 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 86572 | PAZOPANIB STADA 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 10628001 | VOTRIENT 200 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Novartis Europharm Limited | Comercializada |
+| 10628004 | VOTRIENT 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Novartis Europharm Limited | Comercializada |
+| 89787 | PAZOPANIB GLENMARK 400 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Glenmark Arzneimittel Gmbh | Comercializada |
+| 90229 | PAZOPANIB DR. REDDYS 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Reddy Pharma Iberia S.A. | Comercializada |
+| 89351 | PAZOPANIB ACCORD 400 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Comercializada |
+
+Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Hay 10 autorizaciones vigentes en total (todas de medicamento con un único principio activo, ninguna cancelada).
 

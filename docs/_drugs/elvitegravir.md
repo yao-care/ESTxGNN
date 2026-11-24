@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 284
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "elvitegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Elvitegravir: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) (nivel de evidencia L4). Indicación original: No consta en los …"
@@ -81,12 +81,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1151061001IP | GENVOYA 150mg/150mg/200mg/10mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 1151061001 | GENVOYA 150mg/150mg/200mg/10mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 113830001 | STRIBILD 150mg/150mg/200mg/245mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 113830001IP | STRIBILD 150mg/150mg/200mg/245mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 113830001 | STRIBILD 150mg/150mg/200mg/245mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Gilead Sciences Ireland Unlimited Company | Comercializada |
+| 1151061001 | GENVOYA 150mg/150mg/200mg/10mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Gilead Sciences Ireland Unlimited Company | Comercializada |
+| 1151061001IP | GENVOYA 150mg/150mg/200mg/10mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Gilead Sciences Ireland Unlimited Company | Autorizada, no comercializada |
+| 113830001IP | STRIBILD 150MG/150MG/200MG/245MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Gilead Sciences Ireland Unlimited Company | Autorizada, no comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Todas las autorizaciones pertenecen a Gilead Sciences Ireland Unlimited Company y están vigentes.
 

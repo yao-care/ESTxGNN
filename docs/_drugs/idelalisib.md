@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 403
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "IDELALISIB"
 predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "small intestinal Burkitt lymphoma", "colon adenocarcinoma"]
 description: "Idelalisib: nueva indicación predicha, Linfoma de células del manto (mantle cell lymphoma) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -101,10 +101,16 @@ No se identificaron ensayos controlados aleatorizados publicados específicos pa
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 114938002 | Zydelig 150 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 114938001 | Zydelig 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 114938002 | Zydelig 150 mg comprimidos recubiertos con pelicula | COMPRIMIDO RECUBIERTO CON PELÍCULA | Gilead Sciences Ireland Unlimited Company | Comercializada |
+| 114938001 | Zydelig 100 mg comprimidos recubiertos con pelicula | COMPRIMIDO RECUBIERTO CON PELÍCULA | Gilead Sciences Ireland Unlimited Company | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Titular: Gilead Sciences Ireland Unlimited Company.
 

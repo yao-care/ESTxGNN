@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Almasilate"
 predicted_indications: ["gastroduodenitis"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Almasilate: nueva indicación predicha, gastroduodenitis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0)"
 ---
 
@@ -43,7 +43,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 <!-- review:begin es-lic-20261105-almasilate-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Almasilato es un antiácido que se comercializa en España en forma de polvo para suspensión oral. / El modelo TxGNN predice que podría ser útil para **gastroduodenitis (gastroduodenitis)**," Eliminado: contradecía los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 autorización (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Almasilato es un antiácido que se comercializa en España en forma de polvo para suspensión oral. / El modelo TxGNN predice que podría ser útil para **gastroduodenitis (gastroduodenitis)**," Eliminado: contradecía los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-almasilate-1 -->
 
@@ -77,9 +77,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 52255 | DOLCOPIN 1 g POLVO PARA SUSPENSIÓN ORAL | Polvo para suspensión oral | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 52255 | DOLCOPIN 1 g POLVO PARA SUSPENSION ORAL | POLVO PARA SUSPENSIÓN ORAL | Meda Pharma S.L. | Revocada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -106,7 +112,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Almasilato es un antiácido que se comercializa en España en forma de polvo para suspensión oral" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Almasilato es un antiácido que se comercializa en España en forma de polvo para suspensión oral" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Golimumab: nueva indicación predicha, hipermovilidad del cóccix (nivel de evidencia L5). Indicación original: Artritis reumatoide (junto con artritis psoriásica…"
 monitor_inn: "GOLIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
@@ -89,15 +89,29 @@ La vasculitis reumatoide es una manifestación extraarticular grave de la artrit
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 09546001IP1 | SIMPONI 50 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada | Janssen Biologics B.V. |
-| 109546005 | SIMPONI 100 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada | Janssen-Cilag International N.V. |
-| 09546005IP1 | SIMPONI 100 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada | Janssen Biologics B.V. |
-| 09546001IP | SIMPONI 50 mg solución inyectable | Solución inyectable en jeringa precargada | Janssen Biologics B.V. |
-| 1251988005 | GOBIVAZ 100 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada | Advanz Pharma Limited |
+<!-- licenses:begin -->
 
-Hay 7 autorizaciones vigentes en total; la tabla muestra las 5 principales. Las otras dos corresponden a GOBIVAZ 50 mg (1251988001) y SIMPONI 50 mg (09546001).
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 109546005 | SIMPONI 100 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Janssen-Cilag International N.V | Comercializada |
+| 09546005IP1 | SIMPONI 100 mg SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Janssen Biologics B.V. | Comercializada |
+| 1251988005 | GOBIVAZ 100 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Advanz Pharma Limited | Comercializada |
+| 1251988001 | GOBIVAZ 50 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Advanz Pharma Limited | Comercializada |
+| 09546001 | SIMPONI 50 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Janssen-Cilag International N.V | Comercializada |
+| 09546001IP1 | SIMPONI 50 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Janssen Biologics B.V. | Autorizada, no comercializada |
+| 09546001IP | SIMPONI 50mg SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Janssen Biologics B.V. | Autorizada, no comercializada |
+
+Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
+
+Entre las autorizaciones figuran GOBIVAZ 50 mg (1251988001) y SIMPONI 50 mg (09546001).
+
+<!-- review:begin es-lic-20261124-golimumab-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 7 autorizaciones vigentes en total; la tabla muestra las 5 principales. Las otras dos corresponden a GOBIVAZ 50 mg (1251988001) y SIMPONI 50 mg (09546001)." Eliminado: la frase describía qué filas mostraba la tabla anterior. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye GOBIVAZ 50 mg y SIMPONI 50 mg; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124-golimumab-1 -->
 
 ---
 
@@ -129,11 +143,12 @@ El puntaje del modelo es alto, pero no hay ningún estudio que pruebe golimumab 
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00) |
+| 2026-11-24 | Eliminado: descripción de la tabla anterior («la tabla muestra las 5 principales; las otras dos…») | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

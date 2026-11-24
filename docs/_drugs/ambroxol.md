@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "AMBROXOL"
 predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Ambroxol: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -76,13 +76,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Se registran al menos 20 autorizaciones, todas de producto de un solo principio activo; la lista puede ser parcial. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 68110 | MUCOSAN 6 MG/ML JARABE | Jarabe | No registrada en los datos locales |
-| 63790 | AMBROXOL NORMON 3 mg/ml SOLUCION ORAL EFG | Jarabe | No registrada en los datos locales |
-| 56155 | MOTOSOL 7,5 mg/ml SOLUCION INYECTABLE | Solución inyectable | No registrada en los datos locales |
-| 86435 | BROXIVAN 6 MG/ML SOLUCION ORAL EFG | Solución oral | No registrada en los datos locales |
-| 56154 | MUCOSAN 30 mg COMPRIMIDOS | Comprimido | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 68110 | MUCOSAN 6 MG/ML JARABE | JARABE | Opella Healthcare Spain S.L. | Comercializada |
+| 63790 | AMBROXOL NORMON 3 mg/ml SOLUCION ORAL EFG | JARABE | Laboratorios Normon S.A. | Comercializada |
+| 86435 | BROXIVAN 6 MG/ML SOLUCION ORAL EFG | SOLUCIÓN ORAL | Medochemie Iberia S.A. | Comercializada |
+| 56156 | MUCOSAN PEDIATRICO 3 mg/ml JARABE | JARABE | Opella Healthcare Spain S.L. | Comercializada |
+| 63590 | MUXIMED JARABE EFG | JARABE | Amneal Pharma Spain S.L. | Comercializada |
+| 86434 | BROXIVAN 3 MG/ML SOLUCION ORAL EFG | SOLUCIÓN ORAL | Medochemie Iberia S.A. | Comercializada |
+| 80439 | BUCOXON 20 MG PASTILLAS PARA CHUPAR SABOR REGALIZ | PASTILLA PARA CHUPAR | Laboratorios Cinfa S.A. | Comercializada |
+| 80208 | BUCOXON 20 MG PASTILLAS PARA CHUPAR SABOR MENTA | PASTILLA PARA CHUPAR | Laboratorios Cinfa S.A. | Comercializada |
+| 86392 | AMBROXOL CINFA 6 MG/ML JARABE | JARABE | Laboratorios Cinfa S.A. | Comercializada |
+| 56538 | MUCIBRÓN 3 mg/ ml SOLUCIÓN ORAL. | SOLUCIÓN ORAL | Laboratorios Normon S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

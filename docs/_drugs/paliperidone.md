@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 604
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Paliperidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
 description: "Paliperidone: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) (nivel de evidencia L5). Indicación original: …"
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Paliperidona está comercializada en España con 20 autorizaciones vigentes (todas de principio activo único). Los textos de indicación aprobada no figuran en los datos compilados. Se muestran las 5 principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 11672002 | XEPLION 50 mg suspensión inyectable de liberación prolongada | Suspensión inyectable en jeringa precargada | No disponible |
-| 11672004 | XEPLION 100 mg suspensión inyectable de liberación prolongada | Suspensión inyectable en jeringa precargada | No disponible |
-| 114971010 | TREVICTA 525 mg suspensión inyectable de liberación prolongada | Suspensión inyectable de liberación prolongada | No disponible |
-| 07395004 | INVEGA 3 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible |
-| 07395006 | INVEGA 6 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 11672002 | XEPLION 50 mg SUSPENSION INYECTABLE DE LIBERACION PROLONGADA | SUSPENSIÓN INYECTABLE EN JERINGA PRECARGADA | Janssen-Cilag International N.V | Comercializada |
+| 89540 | PALIPERIDONA STADA 100 MG SUSPENSION INYECTABLE DE LIBERACION PROLONGADA EN JERINGA PRECARGADA EFG | SUSPENSIÓN INYECTABLE DE LIBERACIÓN PROLONGADA EN JERINGA PRECARGADA | Laboratorio Stada S.L. | Comercializada |
+| 86055 | PALIPERIDONA TEVA 75 MG SUSPENSION INYECTABLE DE LIBERACION PROLONGADA EFG | SUSPENSION INYECTABLE DE LIBERACION PROLONGADA | Teva B.V. | Comercializada |
+| 83086 | PARNIDO 6 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Tad Pharma Gmbh | Comercializada |
+| 11672004 | XEPLION 100 mg SUSPENSION INYECTABLE DE LIBERACION PROLONGADA | SUSPENSIÓN INYECTABLE EN JERINGA PRECARGADA | Janssen-Cilag International N.V | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

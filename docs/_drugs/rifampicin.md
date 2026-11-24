@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 699
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "rifampicin"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
 description: "Rifampicin: nueva indicación predicha, Conjuntivitis (conjunctivitis) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 7 (comercializadas: 7)"
@@ -83,15 +83,29 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-Rifampicina está comercializada en España, con 7 autorizaciones vigentes y ninguna cancelada. Los registros locales no incluyen texto de indicación aprobada. A continuación se listan las autorizaciones de producto con rifampicina como único principio activo.
+Rifampicina está comercializada en España, con 7 autorizaciones vigentes y ninguna cancelada. Los registros locales no incluyen texto de indicación aprobada. Además de los productos con rifampicina como único principio activo, hay combinaciones con isoniazida, pirazinamida y etambutol (RIFINAH, RIFATER, RIMSTAR).
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 49034 | RIMACTAN 300 mg cápsulas duras | Cápsula dura | No disponible |
-| 46029 | RIFALDIN 300 mg cápsulas | Cápsula dura | No disponible |
-| 56487 | RIFALDIN 600 mg polvo y disolvente para solución para perfusión | Polvo y disolvente para solución para perfusión | No disponible |
-| 46028 | RIFALDIN 20 mg/ml suspensión oral | Suspensión oral | No disponible |
-| 54213 | RIFINAH 300 mg/150 mg comprimidos recubiertos con película | Comprimido recubierto | No disponible |
+<!-- review:begin es-lic-20261124-rifampicin-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Los registros locales no incluyen texto de indicación aprobada. A continuación se listan las autorizaciones de producto con rifampicina como único principio activo." Corregido: la tabla anterior solo listaba productos de rifampicina como único principio activo. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) e incluye todas las autorizaciones con rifampicina; según CIMA, RIFINAH, RIFATER y RIMSTAR son combinaciones. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124-rifampicin-1 -->
+
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 49034 | RIMACTAN 300 mg CAPSULAS DURAS | CÁPSULA DURA | Sandoz Farmaceutica S.A. | Comercializada |
+| 46029 | RIFALDIN 300 mg CAPSULAS | CÁPSULA DURA | Sanofi Aventis S.A. | Comercializada |
+| 56487 | RIFALDIN 600 mg POLVO Y DISOLVENTE PARA SOLUCION PARA PERFUSION | POLVO Y DISOLVENTE PARA SOLUCIÓN PARA PERFUSIÓN | Sanofi Aventis S.A. | Comercializada |
+| 46028 | RIFALDIN 20 mg/ml SUSPENSION ORAL | SUSPENSIÓN ORAL | Sanofi Aventis S.A. | Comercializada |
+| 54213 | RIFINAH 300 MG/150 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | COMPRIMIDO RECUBIERTO | Sanofi Aventis S.A. | Comercializada |
+| 58299 | RIFATER COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Sanofi Aventis S.A. | Comercializada |
+| 65904 | RIMSTAR COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Gmbh | Comercializada |
+
+Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Ninguna de estas presentaciones es una formulación oftálmica. Un uso en conjuntivitis requeriría una formulación tópica ocular.
 
@@ -114,6 +128,18 @@ Hay un ensayo aleatorizado doble ciego y estudios clínicos directamente en infe
 - Obtener evidencia moderna con un ensayo clínico controlado frente a los tratamientos actuales.
 - Revisar la seguridad local y sistémica, y la aparición de resistencias.
 - Completar los datos de advertencias y contraindicaciones del prospecto, y los datos detallados del mecanismo de acción.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «se listan las autorizaciones … como único principio activo» → la tabla incluye también combinaciones | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Biotin"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Biotin: nueva indicación predicha, dispepsia (dyspepsia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
 ---
 
@@ -80,10 +80,16 @@ Ninguna de las publicaciones recuperadas estudia la biotina como tratamiento de 
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 24616 | MEDEBIOTIN FUERTE COMPRIMIDOS | Comprimido | No registrada en los datos locales |
-| 34236 | MEDEBIOTIN FUERTE SOLUCION INYECTABLE | Solución inyectable | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 24616 | MEDEBIOTIN FUERTE COMPRIMIDOS | COMPRIMIDO | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 34236 | MEDEBIOTIN FUERTE SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Laboratorio Reig Jofre, S.A. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

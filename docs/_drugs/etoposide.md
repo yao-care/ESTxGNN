@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "etoposide"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
 description: "Etoposide: nueva indicación predicha, Well-differentiated fetal adenocarcinoma of the lung (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 6)"
@@ -85,7 +85,7 @@ Se muestran las 10 publicaciones más relevantes (de 20 recuperadas), priorizand
 
 <!-- review:begin es-lic-20261105-etoposide-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 7 autorizaciones vigentes en total, todas de monofármaco; se listan las 5 principales (las otras dos son Etopósido Sandoz y Etopósido Hikma, ambas en concentrado para perfusión)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 autorizaciones (comercializadas: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 7 autorizaciones vigentes en total, todas de monofármaco; se listan las 5 principales (las otras dos son Etopósido Sandoz y Etopósido Hikma, ambas en concentrado para perfusión)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-etoposide-1 -->
 
@@ -104,13 +104,21 @@ Se muestran las 10 publicaciones más relevantes (de 20 recuperadas), priorizand
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 64713 | ETOPOSIDO TEVA 20 mg/ml | Concentrado para solución para perfusión | No disponible |
-| 62169 | ETOPOSIDO TEVAGEN 20 mg/ml | Concentrado para solución para perfusión | No disponible |
-| 56108 | VEPESID 100 mg | Cápsula blanda | No disponible |
-| 56488 | VEPESID 50 mg | Cápsula blanda | No disponible |
-| 79326 | ETOPOSIDO ACCORD 20 mg/ml EFG | Concentrado para solución para perfusión | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 64713 | ETOPOSIDO TEVA 20 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Teva Pharma S.L.U. | Comercializada |
+| 56108 | VEPESID 100 mg CAPSULAS BLANDAS | CÁPSULA BLANDA | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 56488 | VEPESID 50 mg CAPSULAS BLANDAS | CÁPSULA BLANDA | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 79326 | ETOPOSIDO ACCORD 20 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 63625 | ETOPÓSIDO SANDOZ 20 MG/ML CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Sandoz Farmaceutica S.A. | Comercializada |
+| 86400 | ETOPOSIDO HIKMA 20 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Hikma Farmaceutica (Portugal) S.A. | Comercializada |
+| 62169 | ETOPOSIDO TEVAGEN 20mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Teva Pharma S.L.U. | Revocada |
+
+Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 
@@ -153,7 +161,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Hay 7 autorizaciones vigentes en total, todas de monofármaco; se listan las 5 principales (las otras dos son Etopósido Sandoz y Etopósido Hi" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Hay 7 autorizaciones vigentes en total, todas de monofármaco; se listan las 5 principales (las otras dos son Etopósido Sandoz y Etopósido Hi" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059) |
 
 <!-- review:end log -->

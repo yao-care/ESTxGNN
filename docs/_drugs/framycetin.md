@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Framycetin: nueva indicación predicha, Colangitis esclerosante (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (las autorizaciones no incluyen…"
 monitor_inn: "framycetin"
 predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
@@ -72,11 +72,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 49840 | ABICREM 0,25 MG/G + 5 MG/G CREMA | Crema | No especificada en los datos |
-| 42725 | ALDODERMA 1 MG/G + 3,5 MG/G POMADA | Pomada | No especificada en los datos |
-| 55286 | OTOMIDRIN 8 MG/ML + 0,25 MG/ML + 20 MG/ML GOTAS ÓTICAS EN SUSPENSIÓN | Gotas óticas en suspensión | No especificada en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 49840 | ABICREM 0,25 MG/G +5 MG/G CREMA | CREMA | Galenicum Derma S.L.U. | Comercializada |
+| 42725 | ALDODERMA 1 MG/G+ 3,5 MG/G POMADA | POMADA | Laboratorio Aldo Union S.L. | Comercializada |
+| 55286 | OTOMIDRIN 8 MG/ML + 0,25 MG/ML + 20 MG/ML GOTAS ÓTICAS EN SUSPENSIÓN | GOTAS ÓTICAS EN SUSPENSIÓN | Laboratorio De Aplicaciones Farmacodinamicas S.A. | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

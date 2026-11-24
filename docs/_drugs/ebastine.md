@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ebastine"
 predicted_indications: ["coronary artery disease", "myocardial ischemia"]
 description: "Ebastine: nueva indicación predicha, Enfermedad de las arterias coronarias (coronary artery disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -80,13 +80,24 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 63365 | Bactil Forte 20 mg comprimidos recubiertos con película | Comprimido recubierto con película | Laboratorios Almirall S.L. |
-| 63366 | Ebastel Forte 20 mg comprimidos recubiertos con película | Comprimido recubierto con película | Almirall S.A. |
-| 68663 | Alastina 20 mg comprimidos recubiertos con película | Comprimido recubierto con película | Uxa Farma S.A. |
-| 67674 | Ebastina Cinfa 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Laboratorios Cinfa S.A. |
-| 78558 | Ebastina Ratiopharm 10 mg comprimidos bucodispersables EFG | Comprimido bucodispersable | Teva Pharma S.L.U. |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 67663 | EBASTINA TARBIS 10 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Comercializada |
+| 80256 | EBASTINA FLAS STADA 10 MG COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Laboratorio Stada S.L. | Comercializada |
+| 74992 | EBASTINA TEVA-RATIOPHARM 20 MG COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Teva Pharma S.L.U. | Comercializada |
+| 67708 | EBASTINA VIATRIS 20 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Pharmaceuticals S.L. | Comercializada |
+| 74991 | EBASTINA TEVA-RATIOPHARM 10 MG COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Teva Pharma S.L.U. | Comercializada |
+| 76459 | EBASTINA KERN PHARMA 20 MG COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Kern Pharma S.L. | Comercializada |
+| 78491 | EBASTINA SANDOZ 20 MG COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Sandoz Farmaceutica S.A. | Comercializada |
+| 69521 | EBASTINA TECNIGEN 20 mg COMPRIMIDOS EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tecnimede España Industria Farmaceutica S.A. | Comercializada |
+| 63366 | EBASTEL FORTE 20 mg COMPRIMIDOS RECUBIERTOS CON PELÍCULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Almirall S.A. | Comercializada |
+| 67655 | EBASTINA KERN PHARMA 20 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Los textos de indicación aprobada no figuran en los datos compilados. Las formas farmacéuticas disponibles son comprimidos recubiertos con película y comprimidos bucodispersables, ambos de administración oral.
 

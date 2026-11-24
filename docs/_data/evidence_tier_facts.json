@@ -9,7 +9,7 @@
   "with_current": 41,
   "none_current": 4,
   "without_data": 16,
-  "with_reviews": 36,
+  "with_reviews": 37,
   "rows": [
    {
     "t": "Bendamustine",
@@ -447,8 +447,8 @@
     "i": "Conjuntivitis",
     "lt": 7,
     "lv": 7,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "«se listan las autorizaciones … como único principio activo» → la tabla incluye también combinaciones",
     "x": 0
    },
    {
@@ -1058,8 +1058,8 @@
     "i": "Enfermedad de la cavidad nasal",
     "lt": 13,
     "lv": 12,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«todas de composición simple» → 3 son combinaciones",
     "x": 0
    },
    {
@@ -1223,8 +1223,8 @@
     "i": "Enfermedad pulmonar obstructiva",
     "lt": 12,
     "lv": 7,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«de 12 vigentes» eliminado (no todas están vigentes)",
     "x": 0
    },
    {
@@ -1420,7 +1420,7 @@
   "with_current": 637,
   "none_current": 70,
   "without_data": 140,
-  "with_reviews": 561,
+  "with_reviews": 564,
   "rows": [
    {
     "t": "Ethinylestradiol",
@@ -1440,8 +1440,8 @@
     "i": "acne (disease)",
     "lt": 67,
     "lv": 50,
-    "r": 2,
-    "rs": "Eliminado: \"Además, la única autorización en España está cancelada\"",
+    "r": 3,
+    "rs": "«La lista puede considerarse completa (1 autorización)…» → la mayoría son soluciones y emulsiones para…",
     "x": 0
    },
    {
@@ -2287,8 +2287,8 @@
     "i": "faciodigitogenital syndrome",
     "lt": 0,
     "lv": 13,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«las 20 … están vigentes» → algunas revocadas o suspendidas",
     "x": 0
    },
    {
@@ -3893,8 +3893,8 @@
     "i": "multiple endocrine neoplasia",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: «no listada arriba por el límite de cinco»",
     "x": 0
    },
    {
@@ -4157,8 +4157,8 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 6,
     "lv": 5,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior («se muestran 5 de las 6…; la sexta es…»)",
     "x": 0
    },
    {
@@ -4168,8 +4168,8 @@
     "i": "hypermobility of coccyx",
     "lt": 7,
     "lv": 5,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: descripción de la tabla anterior («la tabla muestra las 5 principales; las otras dos…»)",
     "x": 0
    },
    {
@@ -4905,8 +4905,8 @@
     "i": "chronic rhinosinusitis",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«productos de un solo principio activo» → solo 1 es monofármaco; las demás son combinaciones",
     "x": 0
    },
    {
@@ -5059,8 +5059,8 @@
     "i": "Trastorno de migraña",
     "lt": 6,
     "lv": 4,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: «no incluida en la tabla por el límite de cinco»; «todas están vigentes» → no todas (hay…",
     "x": 0
    },
    {
@@ -5334,8 +5334,8 @@
     "i": "autoimmune oophoritis",
     "lt": 7,
     "lv": 3,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«todas monocomponente» → XULTOPHY y RYZODEG son combinaciones; «las dos restantes» (fuera de la tabla…",
     "x": 0
    },
    {
@@ -5488,8 +5488,8 @@
     "i": "Conjuntivitis rosácea",
     "lt": 9,
     "lv": 3,
-    "r": 2,
-    "rs": "Eliminado: \"Se identificaron 9 autorizaciones vigentes (todas de monofármaco, ninguna cancelada)\"",
+    "r": 3,
+    "rs": "«Las otras autorizaciones» → «Entre las autorizaciones figuran también»",
     "x": 0
    },
    {
@@ -5510,8 +5510,8 @@
     "i": "hyperthyroidism",
     "lt": 6,
     "lv": 3,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: «no listada por el límite de cinco»",
     "x": 0
    },
    {
@@ -7435,8 +7435,8 @@
     "i": "osteoarthritis",
     "lt": 2,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "«ambas vigentes» → 71048 suspendida",
     "x": 0
    },
    {
@@ -7501,8 +7501,8 @@
     "i": "interventricular septum aneurysm",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "«de un solo principio activo» → combinación con fluocinonida y ruscogenina",
     "x": 0
    },
    {
@@ -7908,8 +7908,8 @@
     "i": "Síndrome de microftalmia colobomatosa-displasia rizomélica",
     "lt": 2,
     "lv": 1,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«un solo principio activo» → combinaciones",
     "x": 0
    },
    {
@@ -8029,8 +8029,8 @@
     "i": "multiple endocrine neoplasia",
     "lt": 2,
     "lv": 1,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«ambas vigentes» → 1201459001 revocada",
     "x": 0
    },
    {

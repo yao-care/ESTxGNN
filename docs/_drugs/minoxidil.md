@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 532
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MINOXIDIL"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with connective tissue disease", "pulmonary arterial hypertension associated with schistosomiasis"]
 description: "Minoxidil: nueva indicación predicha, hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: al menos 20"
@@ -76,13 +76,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 84231 | Normopil 50 mg/ml solución cutánea | Solución cutánea | No disponible |
-| 57597 | Regaxidil 20 mg/ml solución cutánea | Solución cutánea | No disponible |
-| 91046 | Minogal 5 mg comprimidos EFG | Comprimido | No disponible |
-| 55636 | Loniten 10 mg comprimidos | Comprimido | No disponible |
-| 83193 | Alocutan 50 mg/ml solución para pulverización cutánea | Solución para pulverización cutánea | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 84231 | NORMOPIL 50 MG/ML SOLUCION CUTANEA | SOLUCIÓN CUTÁNEA | Laboratorios Normon S.A. | Comercializada |
+| 57597 | REGAXIDIL 20 mg/ml SOLUCION CUTANEA | SOLUCIÓN CUTÁNEA | Industrial Farmaceutica Cantabria S.A. | Comercializada |
+| 91046 | MINOGAL 5 MG COMPRIMIDOS EFG | COMPRIMIDO | Galenicum Derma S.L.U. | Comercializada |
+| 66953 | ALOXIDIL 50 mg/ml SOLUCION CUTANEA | SOLUCIÓN CUTÁNEA | Laboratorios Vinas S.A. | Comercializada |
+| 66848 | REGAXIDIL 50 mg/ml SOLUCION CUTANEA | SOLUCIÓN CUTÁNEA | Industrial Farmaceutica Cantabria S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Los datos de autorizaciones son parciales: se muestran solo cinco de las autorizaciones registradas.
 

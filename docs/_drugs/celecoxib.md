@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 161
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CELECOXIB"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
 description: "Celecoxib: nueva indicación predicha, Displasia acromesomélica tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (nivel de evidencia L5). Indicación original: No consta en los dato…"
@@ -89,13 +89,19 @@ Los registros no incluyen texto de indicación aprobada. Se muestran las 5 princ
 
 <!-- review:end es-lic-20261105-celecoxib-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 63073 | CELEBREX 200 mg cápsulas duras | Cápsula dura | Viatris Healthcare Limited |
-| 3400935437068IP1 | CELEBREX 200 mg cápsulas duras | Cápsula dura | Pfizer Holding France |
-| 63891 | ARTILOG 200 mg cápsulas duras | Cápsula dura | Viatris Healthcare Limited |
-| 76749 | Celecoxib Teva 200 mg cápsulas duras EFG | Cápsula dura | Teva Pharma S.L.U. |
-| 77596 | Celecoxib Pensa 200 mg cápsulas duras EFG | Cápsula dura | Pensa Pharma, S.A.U |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 79034 | CELECOXIB ALTER 200 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Alter S.A. | Comercializada |
+| 76749 | CELECOXIB TEVA 200 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Teva Pharma S.L.U. | Comercializada |
+| 63891 | ARTILOG 200 mg CAPSULAS DURAS | CÁPSULA DURA | Viatris Healthcare Limited | Comercializada |
+| 78687 | CELECOXIB NORMON 200 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Normon S.A. | Comercializada |
+| 81276 | CELECOXIB AUROVITAS 200 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Aurovitas Spain, S.A.U. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

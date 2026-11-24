@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Cefazolin"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cefazolin: nueva indicación predicha, Otitis media infecciosa (infectious otitis media) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 13 (comercializadas: 12)"
 ---
 
@@ -74,6 +74,25 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | [3742953](https://pubmed.ncbi.nlm.nih.gov/3742953/) | 1986 | Revisión | Clinical Pharmacy | Manejo del síndrome de Stevens-Johnson; la otitis media se menciona solo como antecedente del caso. No pertinente a esta indicación |
 
 ## Información de Mercado en España
+
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 67021 | CEFAZOLINA SALA 2 G POLVO PARA SOLUCION INYECTABLE EFG | POLVO PARA SOLUCIÓN INYECTABLE | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 64848 | CEFAZOLINA NORMON 1 G POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE INTRAMUSCULAR EFG. | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 64850 | CEFAZOLINA NORMON 2 G POLVO PARA SOLUCIÓN INYECTABLE INTRAVENOSA EFG. | POLVO PARA SUSPENSIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 86542 | CEFAZOLINA LDP LABORATORIOS TORLAN 2G POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Ldp Laboratorios Torlan S.A. | Comercializada |
+| 83506 | CEFAZOLINA QILU 2 G POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Qilu Pharma Spain S.L. | Comercializada |
+| 83665 | ZEPILEN 1G POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Medochemie Limited | Comercializada |
+| 64849 | CEFAZOLINA NORMON 1 G POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE INTRAVENOSA EFG. | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 67022 | CEFAZOLINA SALA 1 G POLVO PARA SOLUCION INYECTABLE EFG | POLVO PARA SOLUCIÓN INYECTABLE | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 53915 | INTRAZOLINA 500 mg POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE Y PARA PERFUSION | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Ldp Laboratorios Torlan S.A. | Comercializada |
+| 53914 | INTRAZOLINA 1000 mg POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE Y PARA PERFUSION | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Ldp Laboratorios Torlan S.A. | Comercializada |
+
+Se muestran 10 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Cefazolina está comercializada en España con autorizaciones vigentes de medicamentos de un solo principio activo (todas en polvo para solución inyectable, con o sin disolvente, y para perfusión). El texto de indicación aprobada no figura en los datos locales.
 

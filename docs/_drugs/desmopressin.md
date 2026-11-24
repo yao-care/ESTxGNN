@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 235
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "desmopressin"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
 description: "Desmopressin: nueva indicación predicha, Deficiencia congénita de protrombina (congenital prothrombin deficiency) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -79,13 +79,24 @@ El texto de la indicación aprobada no está disponible en los datos compilados.
 
 <!-- review:end es-lic-20261105-desmopressin-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 89023 | Desmopresina Aristo 240 microgramos comprimidos sublinguales EFG | Comprimido sublingual | No disponible |
-| 68268 | Minurin Flas 120 microgramos liofilizado oral | Liofilizado oral | No disponible |
-| 61413 | Minurin 4 microgramos/ml solución inyectable | Solución inyectable | No disponible |
-| 58566 | Minurin 0,1 mg/ml solución para pulverización nasal | Solución para pulverización nasal | No disponible |
-| 78875 | Desmirin 360 microgramos/ml solución oral | Solución oral | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 68268 | MINURIN FLAS 120 microgramos LIOFILIZADO ORAL | LIOFILIZADO ORAL | Ferring S.A.U. | Comercializada |
+| 89642 | DESMOPRESINA STADA 120 MICROGRAMOS COMPRIMIDOS SUBLINGUALES EFG | COMPRIMIDO SUBLINGUAL | Laboratorio Stada S.L. | Comercializada |
+| 89000 | DESMOPRESINA TEVA 120 MICROGRAMOS COMPRIMIDOS SUBLINGUALES EFG | COMPRIMIDO SUBLINGUAL | Teva B.V. | Comercializada |
+| 61413 | MINURIN 4 MICROGRAMOS/ML SOLUCIÓN INYECTABLE | SOLUCIÓN INYECTABLE | Ferring S.A.U. | Comercializada |
+| 58566 | MINURIN 0,1 MILIGRAMOS/MILILITRO SOLUCION PARA PULVERIZACION NASAL | SOLUCION PARA PULVERIZACION NASAL | Ferring S.A.U. | Comercializada |
+| 65911 | WETIRIN 0,1 mg COMPRIMIDOS | COMPRIMIDO | Ferring S.A.U. | Comercializada |
+| 68269 | MINURIN FLAS 240 microgramos LIOFILIZADO ORAL | LIOFILIZADO ORAL | Ferring S.A.U. | Comercializada |
+| 89016 | DESMOPRESINA SANDOZ 120 MICROGRAMOS COMPRIMIDOS SUBLINGUALES EFG | COMPRIMIDO SUBLINGUAL | Sandoz Farmaceutica S.A. | Comercializada |
+| 65910 | WETIRIN 0,2 mg COMPRIMIDOS | COMPRIMIDO | Ferring S.A.U. | Comercializada |
+| 78876 | NICTUR 360 MICROGRAMOS/ML SOLUCION ORAL | SOLUCIÓN ORAL | Gp Pharm S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

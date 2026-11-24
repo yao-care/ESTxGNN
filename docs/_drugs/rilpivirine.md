@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 701
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Rilpivirine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Rilpivirine: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -78,10 +78,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 11736001 | EDURANT 25 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 1201482002 | REKAMBYS 900 mg suspensión inyectable de liberación prolongada | Suspensión inyectable de liberación prolongada | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 11736001 | EDURANT 25 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Janssen-Cilag International N.V | Comercializada |
+| 1201482002 | REKAMBYS 900 MG SUSPENSION INYECTABLE DE LIBERACION PROLONGADA | SUSPENSION INYECTABLE DE LIBERACION PROLONGADA | Janssen-Cilag International N.V | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

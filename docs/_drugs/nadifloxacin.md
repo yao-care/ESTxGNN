@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 548
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Nadifloxacin: nueva indicación predicha, Malaria (nivel de evidencia L5). Indicación original: Acné (según la base de conocimiento del modelo"
 monitor_inn: "nadifloxacin"
 predicted_indications: ["malaria"]
@@ -72,9 +72,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 64291 | NADIXA 1% CREMA (Ferrer Internacional S.A.) | Crema | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 64291 | NADIXA 1% CREMA | CREMA | Ferrer Internacional S.A. | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 507
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MEROPENEM"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
 description: "Meropenem: nueva indicación predicha, artritis bacteriana (bacterial arthritis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -84,13 +84,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Meropenem figura como comercializado en España, con 6 autorizaciones vigentes y 7 canceladas entre los registros disponibles; la lista puede ser parcial.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 74304 | Meropenem Aurovit 1000 mg | Polvo para solución inyectable y para perfusión | No disponible en los datos |
-| 88903 | Meropenem Venus Pharma 2000 mg | Polvo para solución inyectable y para perfusión | No disponible en los datos |
-| 60639 | Meronem I.V. 500 mg (Pfizer) | Polvo para solución inyectable y para perfusión | No disponible en los datos |
-| 81049 | Meropenem Aurovitas 1000 mg | Polvo para solución inyectable y para perfusión | No disponible en los datos |
-| 75815 | Meropenem Accordpharma 500 mg | Polvo para solución inyectable | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 74304 | MEROPENEM AUROVIT 1000 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Eugia Pharma (Malta) Limited | Comercializada |
+| 89435 | MEROPENEM AUROVIT 2.000 MG POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Eugia Pharma (Malta) Limited | Comercializada |
+| 74303 | MEROPENEM AUROVIT 500 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Eugia Pharma (Malta) Limited | Comercializada |
+| 83989 | ARCHIFAR 500 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Medochemie Iberia S.A. | Comercializada |
+| 72610 | MEROPENEM KABI 500 mg POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Comercializada |
+| 89569 | MEROPENEM LDP LABORATORIOS TORLAN 500 MG POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Ldp Laboratorios Torlan S.A. | Comercializada |
+| 88903 | MEROPENEM VENUS PHARMA 2000 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Venus Pharma Gmbh | Autorizada, no comercializada |
+| 88341 | MEROPENEM STERISCIENCE 500 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Steriscience B.V. | Autorizada, no comercializada |
+| 90807 | MEROPENEM QILU 2 G POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Qilu Pharma Spain S.L. | Autorizada, no comercializada |
+| 88901 | MEROPENEM VENUS PHARMA 500 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Venus Pharma Gmbh | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 584
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Olanzapine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: nueva indicación predicha, Torticolis paroxistica benigna de la infancia (benign paroxysmal torticollis of infancy) (nivel de evidencia L5). Indicación original: No consta en los datos lo…"
@@ -89,13 +89,24 @@ Los textos de indicacion aprobada no estan disponibles en los datos compilados.
 
 <!-- review:end es-lic-20261105-olanzapine-1 -->
 
-| Numero de Autorizacion | Nombre del Producto | Forma Farmaceutica |
-|---------|------|------|
-| 72155 | Olanzapina Sun 5 mg comprimidos EFG | Comprimido |
-| 71751 | Olanzapina Sandoz 5 mg comprimidos recubiertos con pelicula EFG | Comprimido recubierto con pelicula |
-| 96022004IP1 | Zyprexa 5 mg comprimidos recubiertos | Comprimido recubierto |
-| 99125001IP2 | Zyprexa Velotab 5 mg comprimidos bucodispersables | Comprimido bucodispersable |
-| 74752 | Zolafren 5 mg capsulas duras EFG | Capsula dura |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 72155 | OLANZAPINA SUN 5 mg COMPRIMIDOS EFG | COMPRIMIDO | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+| 71751 | OLANZAPINA SANDOZ 5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Comercializada |
+| 109592001 | OLAZAX DISPERZI 5 MG COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Glenmark Pharmaceuticals S.R.O. | Comercializada |
+| 74752 | ZOLAFREN 5 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Adamed Laboratorios S.L.U. | Comercializada |
+| 68837 | OLANZAPINA NORMON 7,5 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 68991 | ARENBIL 5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Neuraxpharm Spain S.L. | Comercializada |
+| 75198 | OLANZAPINA PENSA 5 mg COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Towa Pharmaceutical S.A. | Comercializada |
+| 99125001IP2 | ZYPREXA VELOTAB 5 MG COMPRIMIDOS BUCODISPERSABLES | COMPRIMIDO BUCODISPERSABLE | Eli Lilly Nederland B.V. | Comercializada |
+| 08475019 | OLANZAPINA VIATRIS 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Limited | Comercializada |
+| 96022004IP1 | ZYPREXA 5 mg comprimidos recubiertos | COMPRIMIDO RECUBIERTO | Eli Lilly Nederland B.V. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

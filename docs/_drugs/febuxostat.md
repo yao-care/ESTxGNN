@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 326
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
 description: "Febuxostat: nueva indicación predicha, Hipouricemia renal (hypouricemia, renal) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: al menos 20"
@@ -87,13 +87,24 @@ El texto de indicación aprobada no está disponible en los datos compilados.
 
 <!-- review:end es-lic-20261105-febuxostat-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 08447014IP | ADENURIC 80 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 08447003IP1 | ADENURIC 120 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 83214 | Febuxostat Kern Pharma 120 mg EFG | Comprimido recubierto con película | No disponible |
-| 83213 | Febuxostat Bluepharma 80 mg EFG | Comprimido recubierto con película | No disponible |
-| 83602 | Febuxostat Accord 80 mg EFG | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 08447014IP | ADENURIC 80 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Menarini International Operations Luxembourg S.A. | Comercializada |
+| 08447003IP1 | ADENURIC 120 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Menarini International Operations Luxembourg S.A. | Comercializada |
+| 83255 | FEBUXOSTAT TEVA-RATIOPHARM 120 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva B.V. | Comercializada |
+| 84140 | GOTARIC 80 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Especialidades Farmaceuticas Centrum S.A. | Comercializada |
+| 82898 | FEBUXOSTAT STADA 120 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 88926 | FEBUXOSTAT PHARMA COMBIX 80 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 83625 | FEBUXOSTAT CINFA 120 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+| 88925 | FEBUXOSTAT PHARMA COMBIX 120 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Autorizada, no comercializada |
+| 1181347002 | FEBUXOSTAT KRKA 80 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Krka D.D. Novo Mesto | Autorizada, no comercializada |
+| 83214 | FEBUXOSTAT KERN PHARMA 120 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Revocada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

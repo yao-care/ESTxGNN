@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 801
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab: nueva indicación predicha, Espondilitis anquilosante (ankylosing spondylitis) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 11 (comercializadas: 10; autorizadas no comercializadas: 1)"
@@ -87,13 +87,19 @@ Sin embargo, existe un matiz importante: dos ensayos de Fase 3 controlados con p
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 08492001 | ROACTEMRA 20 mg/ml, concentrado para solución para perfusión | Solución inyectable | No disponible en los datos compilados |
-| 08492003 | ROACTEMRA 20 mg/ml, concentrado para solución para perfusión | Solución inyectable | No disponible en los datos compilados |
-| 108492007 | ROACTEMRA 162 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible en los datos compilados |
-| 108492009 | ROACTEMRA 162 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos compilados |
-| 1241825001 | TOCILIZUMAB STADA 20 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 08492001 | ROACTEMRA 20 mg/ml, CONCENTRADO PARA SOLUCION PARA PERFUSION | SOLUCIÓN INYECTABLE | Roche Registration Gmbh | Comercializada |
+| 1241896010 | AVTOZMA 162 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Celltrion Healthcare Hungary Kft. | Comercializada |
+| 1231754007 | TYENNE 162 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Fresenius Kabi Deutschland Gmbh | Comercializada |
+| 08492003 | ROACTEMRA 20 mg/ml, CONCENTRADO PARA SOLUCION PARA PERFUSION | SOLUCIÓN INYECTABLE | Roche Registration Gmbh | Comercializada |
+| 1231754001 | TYENNE 20 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi Deutschland Gmbh | Comercializada |
+
+Se muestran 5 de 11 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 11 autorizaciones vigentes. Las demás corresponden a los biosimilares Tyenne (Fresenius Kabi) y Avtozma (Celltrion) en formatos de perfusión, jeringa y pluma precargadas.
 

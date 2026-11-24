@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 770
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "telmisartan"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
 description: "Telmisartan: nueva indicación predicha, Angina de Prinzmetal (Prinzmetal angina) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -90,13 +90,19 @@ Los datos compilados no incluyen el texto de la indicación aprobada de cada aut
 
 <!-- review:end es-lic-20261105-telmisartan-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 98089007IP3 | PRITOR 80 mg comprimidos (Bayer AG) | Comprimido |
-| 98090002 | MICARDIS 40 mg comprimidos (Boehringer Ingelheim) | Comprimido |
-| 98090022 | MICARDIS 80 mg comprimidos (Boehringer Ingelheim) | Comprimido |
-| 98089002 | PRITOR 40 mg comprimidos (Bayer AG) | Comprimido |
-| 110632009 | Tolura 40 mg comprimidos EFG (Krka) | Comprimido |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 98089007IP3 | PRITOR 80 mg COMPRIMIDOS | COMPRIMIDO | Bayer Ag | Comercializada |
+| 86720 | TELMISARTAN AUROVITAS 20 MG COMPRIMIDOS EFG | COMPRIMIDO | Aurovitas Spain, S.A.U. | Comercializada |
+| 77604 | TELMISARTAN CINFA 20 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 74864 | TELMISARTAN VIR 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 77830 | TELMISARTAN KERN PHARMA 40 MG COMPRIMIDOS EFG | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 El resto son genéricos (EFG) de 20, 40 y 80 mg, en comprimido o comprimido recubierto con película.
 

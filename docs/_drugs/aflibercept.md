@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "AFLIBERCEPT"
 predicted_indications: ["esotropia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aflibercept: nueva indicación predicha, esotropía (esotropia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -74,13 +74,24 @@ Actualmente no hay literatura relacionada disponible.
 
 Los datos compilados incluyen al menos 20 autorizaciones y la lista puede ser parcial. Algunas de las principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1241895001 | EYDENZELT 40 mg/ml solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No registrada en los datos locales |
-| 1241865002 | OPUVIZ 40 mg/ml solución inyectable en vial | Solución inyectable | No registrada en los datos locales |
-| 112797001 | EYLEA 40 mg/ml solución inyectable en jeringa precargada | Solución inyectable | No registrada en los datos locales |
-| 1251909002 | PAVBLU 40 mg/ml solución inyectable en vial | Solución inyectable | No registrada en los datos locales |
-| 112814003 | ZALTRAP 25 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1241895001 | EYDENZELT 40 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Celltrion Healthcare Hungary Kft. | Comercializada |
+| 1241865002 | OPUVIZ 40 MG/ML SOLUCION INYECTABLE EN VIAL | SOLUCIÓN INYECTABLE | Samsung Bioepis Nl B.V. | Comercializada |
+| 112797001 | EYLEA 40 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Bayer Ag | Comercializada |
+| 112797004 | EYLEA 114,3 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Bayer Ag | Comercializada |
+| 1251964001 | MYNZEPLI 40 MG/ML SOLUCION INYECTABLE EN VIAL | SOLUCIÓN INYECTABLE | Advanz Pharma Limited | Comercializada |
+| 112814003 | ZALTRAP 25 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Sanofi Winthrop Industrie | Comercializada |
+| 1241867001 | AFQLIR 40 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Sandoz Gmbh | Comercializada |
+| 1251963001 | EIYZEY 40 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Zaklady Farmaceutyczne Polpharma S.A. | Comercializada |
+| 1241865003 | OPUVIZ 40 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Samsung Bioepis Nl B.V. | Comercializada |
+| 1251963002 | EIYZEY 40 MG/ML SOLUCION INYECTABLE EN VIAL | SOLUCIÓN INYECTABLE | Zaklady Farmaceutyczne Polpharma S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

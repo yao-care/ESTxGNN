@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 499
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Medroxyprogesterone acetate"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Medroxyprogesterone Acetate: nueva indicación predicha, Enfermedad fibroquística de la mama (breast fibrocystic disease) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 4 (comercializadas: 3)"
@@ -80,12 +80,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 46983 | DEPO-PROGEVERA 150 mg/ml suspensión inyectable | Suspensión inyectable | No disponible |
-| 59139 | PROGEVERA 10 mg comprimidos | Comprimido | No disponible |
-| 42643 | PROGEVERA 5 mg comprimidos | Comprimido | No disponible |
-| 57258 | FARLUTAL 500 mg comprimidos | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 46983 | DEPO-PROGEVERA 150 mg/ml SUSPENSION INYECTABLE | SUSPENSIÓN INYECTABLE | Pfizer S.L. | Comercializada |
+| 59139 | PROGEVERA 10 mg COMPRIMIDOS | COMPRIMIDO | Pfizer S.L. | Comercializada |
+| 42643 | PROGEVERA 5 mg COMPRIMIDOS | COMPRIMIDO | Pfizer S.L. | Comercializada |
+| 57258 | FARLUTAL 500 mg COMPRIMIDOS | COMPRIMIDO | Pfizer S.L. | Revocada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Todos los productos son de Pfizer S.L. y contienen el principio activo solo.
 

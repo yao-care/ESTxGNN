@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 670
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PROPRANOLOL"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
 description: "Propranolol: nueva indicación predicha, Miopatía distal tipo Tateyama (distal myopathy, Tateyama type) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 11 (comercializadas: 11)"
@@ -82,13 +82,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 89689 | Propranolol Tarbis 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 89692 | Propranolol Tarbis 40 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 84656 | Propranolol Aurovitas 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 84649 | Propranolol Aurovitas 40 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 114919001 | Hemangiol 3,75 mg/ml solución oral | Solución oral | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 89689 | PROPRANOLOL TARBIS 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Comercializada |
+| 89692 | PROPRANOLOL TARBIS 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Comercializada |
+| 84656 | PROPRANOLOL AUROVITAS 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 84649 | PROPRANOLOL AUROVITAS 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 77175 | PROPRANOLOL ACCORD 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Comercializada |
+
+Se muestran 5 de 11 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 11 autorizaciones vigentes (todas de principio activo único). Las restantes corresponden a Propranolol Accord (10 y 40 mg), Propranolol Kern Pharma (10 y 40 mg) y Sumial (10 y 40 mg).
 

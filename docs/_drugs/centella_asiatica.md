@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 163
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Centella Asiatica: nueva indicación predicha, Insomnio (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "centella asiatica"
 predicted_indications: ["insomnia (disease)", "anxiety", "sleep disorder, initiating and maintaining sleep"]
@@ -75,13 +75,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 86442 | BLASTOESTIMULINA 10 MG/G POMADA | Pomada | No disponible |
-| 35908 | BLASTOESTIMULINA 20 MG/G POLVO CUTÁNEO | Polvo cutáneo | No disponible |
-| 67771 | GRAIL 30 mg CÁPSULAS | Cápsula dura | No disponible |
-| 39485 | BLASTOESTIMULINA POMADA | Pomada | No disponible |
-| 50543 | CEMALYT 1 mg/g + 10 mg/g CREMA | Crema | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 86442 | BLASTOESTIMULINA 10 MG/G POMADA | POMADA | Almirall S.A. | Comercializada |
+| 35908 | BLASTOESTIMULINA 20 MG/G POLVO CUTANEO | POLVO CUTÁNEO | Almirall S.A. | Comercializada |
+| 67771 | GRAIL 30 mg CAPSULAS | CÁPSULA DURA | Trepat Chemical | Comercializada |
+| 39485 | BLASTOESTIMULINA POMADA | POMADA | Almirall S.A. | Revocada |
+| 50543 | CEMALYT 1 mg/g + 10 mg/g CREMA | CREMA | Meda Pharma S.L. | Revocada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

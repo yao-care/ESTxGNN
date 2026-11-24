@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CAPTOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Captopril: nueva indicación predicha, hipertensión renal maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -76,13 +76,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Se registran 20 autorizaciones de medicamentos con captopril como único principio activo (la lista puede ser parcial); 6 figuran como vigentes y 14 como canceladas. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61620 | CAPTOPRIL MYLAN 50 mg COMPRIMIDOS EFG | Comprimido | No registrada en los datos locales |
-| 64762 | CAPTOPRIL MABO 50 mg COMPRIMIDOS EFG | Comprimido | No registrada en los datos locales |
-| 55939 | CAPTOPRIL QUALIGEN 50 mg COMPRIMIDOS | Comprimido | No registrada en los datos locales |
-| 64764 | CAPTOPRIL TARBIS 25 mg COMPRIMIDOS EFG | Comprimido | No registrada en los datos locales |
-| 62424 | CAPTOPRIL SANDOZ 25 mg COMPRIMIDOS EFG | Comprimido | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 62304 | CAPTOPRIL CINFA 25 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 61471 | CAPTOPRIL NORMON 50 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 62305 | CAPTOPRIL CINFA 50 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 61470 | CAPTOPRIL NORMON 25 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 62318 | CAPTOPRIL ALTER 25 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Alter S.A. | Comercializada |
+| 62319 | CAPTOPRIL ALTER 50 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Alter S.A. | Comercializada |
+| 61620 | CAPTOPRIL MYLAN 50 mg COMPRIMIDOS EFG | COMPRIMIDO | Mylan Pharmaceuticals S.L. | Revocada |
+| 64762 | CAPTOPRIL MABO 50 mg COMPRIMIDOS EFG | COMPRIMIDO | Mabo Farma S.A. | Revocada |
+| 55939 | CAPTOPRIL QUALIGEN 50 mg COMPRIMIDOS | COMPRIMIDO | Neuraxpharm Spain S.L. | Revocada |
+| 64764 | CAPTOPRIL TARBIS 25 mg COMPRIMIDOS EFG | COMPRIMIDO | Tarbis Farma S.L. | Revocada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Lidocaine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lidocaine: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible para la queratoconjuntiviti
 
 La lista de autorizaciones puede ser parcial (al menos 20). Se muestran 5 de ellas. Los registros compilados no incluyen texto de indicación aprobada, por lo que no se puede resumir.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Estado |
-|---------|------|------|-----------|
-| 44793 | Lidocaína B. Braun 10 mg/ml solución inyectable | Solución inyectable | Vigente |
-| 83733 | Lidocaína Aguettant 10 mg/ml en jeringa precargada | Solución inyectable en jeringa precargada | Vigente |
-| 69789 | Lambdalina 40 mg/g crema | Crema | Vigente |
-| 84450 | Ophtesic 20 mg/g gel oftálmico en envase unidosis | Gel oftálmico en envase unidosis | Vigente |
-| 71848 | Versatis 700 mg apósito adhesivo medicamentoso | Apósito adhesivo medicamentoso | Vigente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 44793 | LIDOCAINA B. BRAUN 10 mg/ml solucion inyectable | SOLUCIÓN INYECTABLE | B Braun Medical S.A. | Comercializada |
+| 83733 | LIDOCAINA AGUETTANT 10 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Laboratoire Aguettant | Comercializada |
+| 83398 | ACTILOGIC 700 MG APOSITO ADHESIVO MEDICAMENTOSO | APÓSITO ADHESIVO MEDICAMENTOSO | Grünenthal Pharma S.A. | Comercializada |
+| 83925 | LIDOCAINA KABI 10 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Fresenius Kabi España, S.A.U. | Comercializada |
+| 69789 | LAMBDALINA 40 mg/g CREMA | CREMA | Isdin S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 611
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "PARECOXIB"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
 description: "Parecoxib: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
@@ -76,10 +76,16 @@ Para subtipos relacionados se identificó además evidencia preclínica (rata): 
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 02209005 | DYNASTAT 40 mg polvo para solución inyectable | Polvo para solución inyectable | No disponible |
-| 02209008 | DYNASTAT 40 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 02209005 | DYNASTAT 40 mg POLVO PARA SOLUCION INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Pfizer Europe Ma Eeig | Comercializada |
+| 02209008 | DYNASTAT 40 mg POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Pfizer Europe Ma Eeig | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones pertenecen a Pfizer Europe MA EEIG y están vigentes.
 

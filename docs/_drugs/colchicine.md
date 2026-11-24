@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 206
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Colchicine"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
 description: "Colchicine: nueva indicación predicha, Malaria por Plasmodium falciparum (Plasmodium falciparum malaria) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 3; autorizadas no comercializadas: 3)"
@@ -84,13 +84,22 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 86658 | Colchicina Tiofarma 1 mg comprimidos | Comprimido |
-| 33720 | Colchicina Seid 1 mg comprimidos | Comprimido |
-| 86430 | Colcamexx 0,5 mg comprimidos EFG | Comprimido |
-| 86659 | Colchicina Tiofarma 0,5 mg comprimidos | Comprimido |
-| 78947 | Colchicina Seid 0,5 mg comprimidos | Comprimido |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 33720 | COLCHICINA SEID 1 mg COMPRIMIDOS | COMPRIMIDO | Seid S.A. | Comercializada |
+| 78947 | COLCHICINA SEID 0,5 MG COMPRIMIDOS | COMPRIMIDO | Seid S.A. | Comercializada |
+| 90154 | COLCHICINA INDOCO 0,5 MG COMPRIMIDOS EFG | COMPRIMIDO | Indoco Remedies Czech S.R.O. | Comercializada |
+| 86658 | COLCHICINA TIOFARMA 1 MG COMPRIMIDOS | COMPRIMIDO | Tiofarma B.V. | Autorizada, no comercializada |
+| 86659 | COLCHICINA TIOFARMA 0,5 MG COMPRIMIDOS | COMPRIMIDO | Tiofarma B.V. | Autorizada, no comercializada |
+| 88127 | COLCHICINA STRIDES 0,5 MG COMPRIMIDOS EFG | COMPRIMIDO | Strides Pharma (Cyprus) Limited | Autorizada, no comercializada |
+| 86430 | COLCAMEXX 0,5 MG COMPRIMIDOS EFG | COMPRIMIDO | Pharmaselect International Beteiligungs Gmbh | Suspendida |
+| 84475 | COLCHICINA RIA 1 MG COMPRIMIDOS EFG | COMPRIMIDO | Ria Generics Limited | Suspendida |
+
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 
@@ -107,7 +116,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 <!-- review:begin es-lic-20261105-colchicine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 8 autorizaciones vigentes, todas de principio activo único. No hay autorizaciones canceladas." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 autorizaciones (comercializadas: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 8 autorizaciones vigentes, todas de principio activo único. No hay autorizaciones canceladas." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-colchicine-1 -->
 
@@ -140,7 +149,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 8 autorizaciones vigentes, todas de principio activo único. No hay autorizaciones canceladas" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 8 autorizaciones vigentes, todas de principio activo único. No hay autorizaciones canceladas" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Mitigare (colchicine) prescribing information, Hikma Specialty USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb5f9d85-6b81-49f8-bcd6-17b7bfbc10f2) |
 
 <!-- review:end log -->

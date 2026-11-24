@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Clavulanic Acid: nueva indicación predicha, Uretritis por Ureaplasma (nivel de evidencia L5). Indicación original: Infección del tracto urinario (según la base de conocimiento"
 monitor_inn: "clavulanic acid"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urogenital tuberculosis", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament"]
@@ -87,13 +87,24 @@ El texto de indicación aprobada no está disponible en los datos compilados.
 
 <!-- review:end es-lic-20261105-clavulanic_acid-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 83523 | Amoxicilina/Ácido Clavulánico Aurovitas 875 mg/125 mg EFG | Comprimido recubierto con película | No disponible |
-| 59515 | Augmentine 875 mg/125 mg | Comprimido recubierto con película | No disponible |
-| 65136 | Amoxicilina/Ácido Clavulánico Sandoz 1000 mg/200 mg EFG | Polvo para solución inyectable y para perfusión | No disponible |
-| 66565 | Amoxicilina/Ácido Clavulánico Cinfa 250 mg/62,5 mg EFG | Polvo para suspensión oral en sobres | No disponible |
-| 89514 | Amoxicilina/Ácido Clavulánico Sandoz 100 mg/ml + 12,5 mg/ml EFG | Polvo para suspensión oral | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 83523 | AMOXICILINA/ACIDO CLAVULANICO AUROVITAS 875 MG/125 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 80066 | AMOXICILINA/ACIDO CLAVULANICO TAD 875 MG/125 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tad Pharma Gmbh | Comercializada |
+| 64425 | AMOXICILINA/ACIDO CLAVULANICO ARDINECLAV 500/125 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 83994 | AMOXICILINA/ACIDO CLAVULANICO COMBIX 875 MG/125 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 65136 | AMOXICILINA/ACIDO CLAVULANICO SANDOZ 1000 mg/200 mg POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Sandoz Farmaceutica S.A. | Comercializada |
+| 66565 | AMOXICILINA/ACIDO CLAVULANICO CINFA 250 mg /62,5 mg POLVO PARA SUSPENSION ORAL EN SOBRES EFG | POLVO PARA SUSPENSIÓN ORAL | Laboratorios Cinfa S.A. | Comercializada |
+| 70189 | AMOXICILINA/ACIDO CLAVULANICO NORMON 500 mg /125 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 59515 | AUGMENTINE 875 mg/125 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Glaxosmithkline S.A. | Comercializada |
+| 64712 | AMOXICILINA/ ACIDO CLAVULANICO VIATRIS 875/125 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Pharmaceuticals S.L. | Comercializada |
+| 89514 | AMOXICILINA/ACIDO CLAVULANICO SANDOZ 100 MG/ML + 12,5 MG/ML POLVO PARA SUSPENSION ORAL EFG | POLVO PARA SUSPENSIÓN ORAL | Sandoz Farmaceutica S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 7
 monitor_inn: "ABATACEPT"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Abatacept: nueva indicación predicha, espondilitis anquilosante (ankylosing spondylitis) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"
 ---
 
@@ -85,11 +85,17 @@ Sin embargo, la evidencia clínica es limitada y poco favorable. El único estud
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 07389008 | ORENCIA 125 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No registrada en los datos locales |
-| 107389011 | ORENCIA 125 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No registrada en los datos locales |
-| 07389001 | ORENCIA 250 mg polvo para concentrado para solución para perfusión | Concentrado para solución para perfusión | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 07389008 | ORENCIA 125 mg SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Bristol-Myers Squibb Pharma Eeig | Comercializada |
+| 107389011 | ORENCIA 125 mg SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Bristol-Myers Squibb Pharma Eeig | Comercializada |
+| 07389001 | ORENCIA 250 mg POLVO PARA CONCENTRADO PARA SOL. PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Bristol-Myers Squibb Pharma Eeig | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

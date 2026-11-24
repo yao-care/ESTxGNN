@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "carbetocin"
 predicted_indications: ["isotretinoin-like syndrome", "Goodman syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carbetocin: nueva indicación predicha, Síndrome similar a la isotretinoína (isotretinoin-like syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
 ---
 
@@ -72,10 +72,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 79228 | CARBETOCINA GP-PHARM 100 microgramos solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada |
-| 68550 | DURATOBAL 100 microgramos/ml solución inyectable | Solución inyectable |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 79228 | CARBETOCINA GP-PHARM 100 MICROGRAMOS SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Gp Pharm S.A. | Comercializada |
+| 68550 | DURATOBAL 100 microgramos/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Ferring S.A.U. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

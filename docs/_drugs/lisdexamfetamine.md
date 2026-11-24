@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 475
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "lisdexamfetamine"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "autosomal dominant cerebellar ataxia", "cerebellar ataxia", "spinocerebellar degeneration with slow eye movements", "trichotillomania", "transient tic disorder", "narcolepsy"]
 description: "Lisdexamfetamine: nueva indicación predicha, Trastorno específico del desarrollo (specific developmental disorder) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 19 (comercializadas: 6; autorizadas no comercializadas: 10)"
@@ -67,7 +67,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 <!-- review:begin es-lic-20261105-lisdexamfetamine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamentos de un solo principio activo, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 19 autorizaciones (comercializadas: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamentos de un solo principio activo, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-lisdexamfetamine-1 -->
 
@@ -80,13 +80,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 77643 | ELVANSE 50 MG CÁPSULAS DURAS | Cápsula dura | No disponible |
-| 77644 | ELVANSE 70 MG CÁPSULAS DURAS | Cápsula dura | No disponible |
-| 88769 | MANOLLIA 20 MG CÁPSULAS DURAS EFG | Cápsula dura | No disponible |
-| 89633 | MANOLLIA 10 MG/ML SOLUCIÓN ORAL | Solución oral | No disponible |
-| 88636 | LISDEXANFETAMINA TEVA 70 MG CÁPSULAS DURAS EFG | Cápsula dura | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 77643 | ELVANSE 50 MG CAPSULAS DURAS | CÁPSULA DURA | Takeda Pharmaceuticals International Ag Ireland Branch | Comercializada |
+| 77644 | ELVANSE 70 MG CAPSULAS DURAS | CÁPSULA DURA | Takeda Pharmaceuticals International Ag Ireland Branch | Comercializada |
+| 82336 | ELVANSE ADULTOS 30 MG CAPSULAS DURAS | CÁPSULA DURA | Takeda Pharmaceuticals International Ag Ireland Branch | Comercializada |
+| 82338 | ELVANSE ADULTOS 70 MG CAPSULAS DURAS | CÁPSULA DURA | Takeda Pharmaceuticals International Ag Ireland Branch | Comercializada |
+| 82337 | ELVANSE ADULTOS 50 MG CAPSULAS DURAS | CÁPSULA DURA | Takeda Pharmaceuticals International Ag Ireland Branch | Comercializada |
+| 77642 | ELVANSE 30 MG CAPSULAS DURAS | CÁPSULA DURA | Takeda Pharmaceuticals International Ag Ireland Branch | Comercializada |
+| 88769 | MANOLLIA 20 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Aristo Pharma Gmbh | Autorizada, no comercializada |
+| 88773 | MANOLLIA 60 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Aristo Pharma Gmbh | Autorizada, no comercializada |
+| 89633 | MANOLLIA 10 MG/ML SOLUCION ORAL | SOLUCIÓN ORAL | Aristo Pharma Gmbh | Autorizada, no comercializada |
+| 88772 | MANOLLIA 50 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Aristo Pharma Gmbh | Autorizada, no comercializada |
+
+Se muestran 10 de 19 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -118,7 +129,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamentos de un solo principio activo, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamentos de un solo principio activo, ninguna cancelada)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

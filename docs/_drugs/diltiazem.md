@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 252
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-13
+last_modified_at: 2026-11-24
 description: "Diltiazem: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,30 +72,34 @@ Los candidatos que el modelo TxGNN propone para Diltiazem (puntuación ≥ 0,99)
 
 ## Información de Mercado en España
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 60006 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
-| 11456610496 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Cancelado |
-| 60089 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Cancelado |
-| 60214 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
-| 59776 | diltiazem | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Cancelado |
-| 78966 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Autorizado, no comercializado |
-| 62328 | diltiazem | COMPRIMIDO | Vigente |
-| 60216 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
-| 60091 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
-| 60007 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
-| 59950 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Cancelado |
-| 59911 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
-| 27502 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Cancelado |
-| 60215 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
-| 60231 | diltiazem | COMPRIMIDO | Vigente |
-| 62619 | diltiazem | COMPRIMIDO | Cancelado |
-| 60200 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
-| 60005 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
-| 60101 | diltiazem | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Cancelado |
-| 61132 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
+<!-- licenses:begin -->
 
-Los datos solo contienen parte de los registros; la lista puede estar incompleta.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 60006 | LACEROL RETARD 120 mg CAPSULAS DURAS DE LIBERACION PROLONGADA | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Lacer S.A. | Comercializada |
+| 60214 | ANGIODROX 300 mg CAPSULAS DURAS DE LIBERACION PROLONGADA | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Viatris Healthcare Limited | Comercializada |
+| 62328 | DILTIAZEM SANDOZ 60 mg COMPRIMIDOS EFG | COMPRIMIDO | Sandoz Farmaceutica S.A. | Comercializada |
+| 60216 | ANGIODROX 180 mg CAPSULAS DURAS DE LIBERACION PROLONGADA | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Viatris Healthcare Limited | Comercializada |
+| 60091 | DILTIWAS RETARD 120 MG CÁPSULAS DURAS DE LIBERACIÓN PROLONGADA | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Alfasigma Espana S.L. | Comercializada |
+| 60007 | LACEROL RETARD 180 mg CAPSULAS DURAS DE LIBERACION PROLONGADA | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Lacer S.A. | Comercializada |
+| 59911 | MASDIL 300 mg CAPSULAS DE LIBERACION PROLONGADA | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Esteve Pharmaceuticals S.A. | Comercializada |
+| 60215 | ANGIODROX 90 mg CAPSULAS DURAS DE LIBERACION PROLONGADA | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Viatris Healthcare Limited | Comercializada |
+| 60231 | LACEROL 60 MG COMPRIMIDOS | COMPRIMIDO | Lacer S.A. | Comercializada |
+| 60200 | LACEROL HTA RETARD 240 mg CAPSULAS DURAS DE LIBERACION PROLONGADA | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Lacer S.A. | Comercializada |
+| 60005 | LACEROL RETARD 90 mg CAPSULAS DURAS DE LIBERACION PROLONGADA | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Lacer S.A. | Comercializada |
+| 61132 | CRONODINE 120 mg CAPSULAS DE LIBERACION PROLONGADA | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Especialidades Farmaceuticas Centrum S.A. | Comercializada |
+| 78966 | DILTIAZEM DERMOGEN 300 MG CAPSULAS DURAS DE LIBERACION PROLONGADA EFG | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Dermogen-Farma S.A. | Autorizada, no comercializada |
+| 62619 | DILTIAZEM ARISTO 60 mg COMPRIMIDOS EFG | COMPRIMIDO | Aristo Pharma Iberia S.L. | Suspendida |
+| 11456610496 | TILKER CAPSULAS | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Lavipharm S.A. | Revocada |
+| 60089 | DOCLIS RETARD 120 MG CÁPSULAS DURAS DE LIBERACIÓN PROLONGADA | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Laboratorios Bial S.A. | Revocada |
+| 59776 | DINISOR RETARD 180 mg COMPRIMIDOS DE LIBERACION MODIFICADA | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Pfizer S.L. | Revocada |
+| 59950 | TILKER 300 mg, CAPSULAS DURAS DE LIBERACION PROLONGADA | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Sanofi Aventis S.A. | Revocada |
+| 27502 | TILKER CAPSULAS | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Sanofi Aventis | Revocada |
+| 60101 | TILKER 120 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Sanofi Aventis S.A. | Revocada |
+
+Se muestran las 20 autorizaciones con este principio activo recogidas en los datos de CIMA (AEMPS) para este informe; primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

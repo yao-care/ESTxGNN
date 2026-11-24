@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "BELIMUMAB"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "severe nonproliferative diabetic retinopathy", "autosomal dominant macrothrombocytopenia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Belimumab: nueva indicación predicha, trastorno primario de liberación plaquetaria (primary release disorder of platelets) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"
 ---
 
@@ -72,11 +72,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 11700001 | BENLYSTA 120 mg polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión | No registrada en los datos locales |
-| 11700002 | BENLYSTA 400 mg polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión | No registrada en los datos locales |
-| 111700004 | BENLYSTA 200 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 11700001 | BENLYSTA 120 mg POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Glaxosmithkline (Ireland) Limited | Comercializada |
+| 11700002 | BENLYSTA 400 mg POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Glaxosmithkline (Ireland) Limited | Comercializada |
+| 111700004 | BENLYSTA 200 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Glaxosmithkline (Ireland) Limited | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

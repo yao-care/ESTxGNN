@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 121
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "BROTIZOLAM"
 predicted_indications: ["alcohol withdrawal delirium", "antidepressant type abuse", "barbiturate abuse", "hallucinogen abuse", "anxiety"]
 description: "Brotizolam: nueva indicación predicha, Delirio por abstinencia de alcohol (alcohol withdrawal delirium) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
@@ -75,9 +75,15 @@ Actualmente no hay literatura relacionada disponible.
 
 El fármaco figura como comercializado, con 1 autorización vigente.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 58229 | SINTONAL 0,25 mg comprimidos | Comprimido | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 58229 | SINTONAL 0,25 mg comprimidos | COMPRIMIDO | Boehringer Ingelheim Espana S.A. | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

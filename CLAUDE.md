@@ -19,10 +19,10 @@
 | 套用 | `scripts/apply_drug_reviews.py` | 套到 `docs/_drugs/*.md`：查核框 `<!-- review:begin id -->`、每頁查核紀錄表；可重複執行；`--check` 只檢查、`--touch` 連 last_modified_at 一起改 |
 | 頁首等級 | `src/estxgnn/regulatory/page_format.py`（規則在 site.py 的 HEADER_RULE） | 頁首＝Resumen rápido「Nivel de Evidencia」格的**第一個**等級（主預測）。2026-11-12 實測 830 頁有總覽等級，全部符合；整格取最高會有 7 頁不同 |
 | 撤回預測 | `src/estxgnn/regulatory/withdrawn.py` | verdict=withdraw 的預測不進證據監測（`scripts/extract_drug_list.py`）、搜尋索引與 FHIR（母目錄 `.claude/rebuild_search_index.py`、`.claude/sync_fhir_levels.py` 會讀本站這支） |
-| 許可證 | `snapshots/es_licenses.json.gz`、`scripts/build_license_snapshot.py`、`src/estxgnn/regulatory/licenses.py` | 快照存本藥號碼與事實層；gate 依快照驗市場段落表格的號碼歸屬、狀態列與張數列、表格列狀態（本站沒有程式產生的許可證表，所以沒有程式區塊標記） |
+| 許可證 | `scripts/sync_license_tables.py`（程式表前後有 `<!-- licenses:begin/end -->` 標記，2026-11-24 起）、`snapshots/es_licenses.json.gz`、`scripts/build_license_snapshot.py`、`src/estxgnn/regulatory/licenses.py` | 快照存本藥號碼、事實層與程式表列；gate 依快照驗程式區塊、市場段落表格的號碼歸屬、狀態列與張數列、表格列狀態 |
 | 刪改轉紀錄 | `scripts/reviews_from_edits.py` | 依成分重建刪句後（`scripts/license_rebuild_run.py` 有的話會自動跑）或依 git 前後版本，把正文刪改轉成 correct 紀錄 |
 | 待查清單 | `docs/_data/drug_reviews_uncertain.json`、`scripts/check_original_indications.py` | 原適應症交叉驗證；本站證據包的 CIMA 紀錄沒有適應症文字，可比對 0 頁（程式照實回報） |
-| gate | `scripts/check_seo_docs.py` 第 17–20 項 | 紀錄都已套用、許可證＝快照、頁首＝本站規則算出的等級、撤回預測沒有對外發布 |
+| gate | `scripts/check_seo_docs.py` 第 17–20、22 項 | 紀錄都已套用、許可證＝快照（含程式表）、頁首＝本站規則算出的等級、撤回預測沒有對外發布、正文張數＝程式改寫結果 |
 
 原則（同 Tw）：基本事實照主管機關資料更正；模型預測原文不刪不改寫，只加註；證據等級與決策只經重審（rereview → rereview_result）變更。
 
@@ -37,6 +37,36 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 2026-10-31～11-06 依成分重建後直接刪掉的矛盾子句，2026-11-12 已用 `scripts/reviews_from_edits.py --git` 轉成 247 筆紀錄（241 頁；沒有因 AI 重產而原句已不在頁面的；f64d05ef 的部分還原併進 8c11d4af 的整句刪除，成為子句級更正）。另 2026-11-12 人工更正 indacaterol（11-09 Release 事實層：12 張中已上市 2、授權未上市 6、撤銷 4）：概覽狀態列與張數列用 `tools/txgnn/.claude/license_table_sync_20261029.py` 的 sync_market_rows 程式同步，正文「12 autorizaciones vigentes」記成一筆 correct 紀錄。
 `scripts/sync_notes_to_docs.py` 依 notes 重寫整頁時，會重套紀錄（有程式許可證表的站也保留舊頁的程式區塊），notes 裡的舊錯句會被紀錄再更正一次。
 2026-11-12 正文許可證張數對事實層的掃描：codeine（第六張 20709 寫有效，CIMA 為 Revocada）、phenytoin（第六張 65303 寫有效、六張全有效，實為 4 張有效、65340 與 65303 撤銷）以 `es-lic-20261112-*` 更正；錨在 codeine 那句的 es-lic-20261105-codeine-1 改錨，前版存 history。
+
+
+## 市場段落許可證表與正文張數改由程式維護（2026-11-24）
+
+用戶 2026-11-24 決定（30 站逐站做，本站第二波、A＋B 都做；照 COTxGNN 同日的同名程式，同為西班牙文）：每週許可證排程只改概覽表狀態列／張數列，AI 寫的自由格式許可證表
+（多數只有號碼、品名、劑型與一欄寫「No disponible」的「Indicación Aprobada」，少數另寫 Vigente／Cancelado）與正文寫死的張數會跟每週變的 CIMA 矛盾，checker 擋頁、要人處理。
+- A. `scripts/sync_license_tables.py`：市場段落（Información de Mercado en España）的第一張表換成程式依證據包產生的表
+  「| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |」（欄位全取 CIMA 原文：nregistro、nombre、forma farmacéutica、titular，不翻譯；
+  原表第四欄「Indicación Aprobada」CIMA 資料沒有內容，改放持有人）。狀態照 CIMA：Autorizada＋comercializado→Comercializada、Autorizada (no comercializada)→
+  Autorizada, no comercializada、Revocada、Suspendida（cima_not_listed 的號碼證據包原本就是 Revocada，照寫）；排序上市→授權未上市→暫停→撤銷。
+  列數＝原表列數與 min(10, 總數) 取大（上限 20；CO 是 5，本站 AI 正文常在表下補講第 6、7 張）；段落裡有 AI 寫的「表上列了幾筆」說明句（se muestran／se listan／
+  la tabla／la lista muestra／las N principales／no listadas…）時照原表列數。表下程式句「Se muestran N de M autorizaciones con este principio activo en los datos de CIMA (AEMPS)…」
+  （部分紀錄寫「de al menos K」，列滿時「las K … recogidas … para este informe」）；沒有紀錄時寫 NONE_LINE；段落沒有表的頁在標題下補程式區塊；known_use_pages 的舊部分紀錄提示句拿掉。
+  gate 由 `site.program_block_problems` 依快照（rows、total、partial、listed）重算比對。快照另存 susp（Suspendida 筆數）與 single_real／valid_single_real
+  （依證據包成分欄「 + 」重算的單方張數：事實層 single_total 把複方也算成單方，2026-11-24 實測 104 頁不符；只給正文改寫用，事實層不改）。
+  接進：每週排程（`scripts/license_adapter.py` 的 sync_tables＋PAGE_NOTE）、`build_license_snapshot.py` 結尾（全站重排＋B；`--no-rewrite` 不跑）、`sync_notes_to_docs.py` 的 carry_block。
+- B. `scripts/rewrite_license_counts.py`＋`src/estxgnn/regulatory/count_prose.py`（照 CO 的版本，句型改 CIMA 寫法）：comercializad→上市數；no comercializad→授權未上市數；
+  revocad／suspendid／cancelad→非有效數（只寫 revocad 而有暫停的，讀法另含 非有效−暫停）；vigente／válid→上市數或上市＋授權未上市數都算對、要改時兩者相同才改；
+  有保留、相對數、劑型或廠商子集、顯示筆數、部分紀錄頁不改，同一行有判斷不了的整行不動；改成 0 或跨過 1 張（單複數）列 plural、不改。
+  `apply_drug_reviews.py`（非 --check）結尾、`build_license_snapshot.py` 結尾都會跑；gate 第 22 項擋「再跑一次會變」。
+- 2026-11-24 套用（Release data-20261123-143851）：公開藥物頁 859 頁中 855 頁有市場段落，849 頁的 AI 表換掉、6 頁補程式區塊（連 noindex 共 856 頁有變，last_modified_at 改 2026-11-24）；
+  沒有錨在舊表列上的查核紀錄（superseded 0 筆）。B 評估 76 句（非部分紀錄頁）：56 句已等於事實、17 句有保留或子集、3 句判斷不了，改寫 0 句（11-12 起的紀錄已把張數改對）。
+  換表後跟新表或事實對不上的 17 句以 17 筆 `es-lic-20261124-*` 更正：舊表「沒列第六張／límite de cinco」「la sexta es…」「las otras dos…」（maraviroc、palbociclib、urofollitropin、
+  fosaprepitant、golimumab、olopatadine、methionine、norepinephrine、rifampicin）、單方說法依成分欄是複方（ephedrine、hexetidine、insulin_degludec、oxytetracycline、phenylbutazone）、
+  「ambas／todas vigentes」而有撤銷或暫停（gadobenic_acid、remdesivir、methylphenidate、urofollitropin）。
+  查核紀錄更正文字裡寫死的張數（用戶同日追加決定）：147 筆刪句紀錄 note 的「El medicamento tiene N autorizaciones (comercializadas: M)」拿掉、只留「las cifras actuales están en el Resumen rápido…」，
+  codeine、indacaterol、phenytoin、salmeterol、norfloxacin 5 筆的張數／舊表筆數改成號碼或「見表」寫法，共 152 筆同 id 重發（前版存 history）。
+  部分紀錄頁寫死的張數跟已收錄紀錄不符的 4 句（adalimumab、amlodipine、azithromycin、pseudoephedrine）列進待查清單（程式不改 partial 頁）。
+- 母目錄 `.claude/license_labels/ESTxGNN.json` 還沒有程式表的狀態字（Comercializada、Autorizada, no comercializada、Revocada、Suspendida）；lts.apply 認不得就跳過、不會列 unsynced，
+  程式表由 sync_tables 重排，但要讓 checker 的表格列狀態檢查也驗程式表，需在母目錄加這 4 個字。
 
 ## 新資料查不到的許可證（2026-11-17）
 

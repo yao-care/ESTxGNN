@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 351
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Flutamide"
 predicted_indications: ["fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma", "benign prostate phyllodes tumor", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 description: "Flutamide: nueva indicación predicha, Fibroma of prostate (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 1)"
@@ -72,11 +72,17 @@ Actualmente no hay literatura relacionada disponible para esta indicación predi
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 59594 | GRISETIN 250 mg comprimidos recubiertos con película (Faes Farma S.A.) | Comprimido recubierto con película | No especificada en los datos disponibles |
-| 59593 | PROSTACUR comprimidos (Mylan Pharmaceuticals S.L.) | Comprimido | No especificada en los datos disponibles |
-| 62912 | FLUTAMIDA CINFA 250 mg comprimidos EFG (Laboratorios Cinfa S.A.) | Comprimido | No especificada en los datos disponibles |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 62912 | FLUTAMIDA CINFA 250 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 59593 | PROSTACUR COMPRIMIDOS | COMPRIMIDO | Mylan Pharmaceuticals S.L. | Suspendida |
+| 59594 | GRISETIN 250 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Faes Farma S.A. | Revocada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

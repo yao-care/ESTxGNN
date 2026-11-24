@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Galantamine: nueva indicación predicha, Trastornos psicógenos del movimiento (nivel de evidencia L5). Indicación original: Enfermedad de Alzheimer"
 monitor_inn: "Galantamine"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
@@ -80,13 +80,24 @@ Los textos de indicación aprobada no figuran en los datos compilados.
 
 <!-- review:end es-lic-20261105-galantamine-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 74331 | GALNORA 24 mg cápsulas duras de liberación prolongada EFG | Cápsula dura de liberación prolongada | No disponible |
-| 66652 | REMINYL 24 mg cápsulas duras de liberación prolongada | Cápsula dura de liberación prolongada | No disponible |
-| 74688 | GALANTAMINA VIATRIS 24 mg cápsulas duras de liberación prolongada EFG | Cápsula dura de liberación prolongada | No disponible |
-| 63388 | REMINYL 4 mg/ml solución oral | Solución oral | No disponible |
-| 77472 | GALANTAMINA TEVA-RATIO 16 mg cápsulas duras de liberación prolongada EFG | Cápsula dura de liberación prolongada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 74331 | GALNORA 24 mg CAPSULAS DURAS DE LIBERACION PROLONGADA EFG | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Krka D.D. Novo Mesto | Comercializada |
+| 66652 | REMINYL 24 mg CAPSULAS DURAS DE LIBERACION PROLONGADA | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Essential Pharma Limited | Comercializada |
+| 74688 | GALANTAMINA VIATRIS 24 MG CAPSULAS DURAS DE LIBERACION PROLONGADA EFG | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Viatris Limited | Comercializada |
+| 74351 | GALANTAMINA KERN PHARMA 8 mg CAPSULAS DURAS DE LIBERACION PROLONGADA EFG | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Kern Pharma S.L. | Comercializada |
+| 77472 | GALANTAMINA TEVA-RATIO 16 MG CAPSULAS DURAS DE LIBERACION PROLONGADA EFG | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Teva Pharma S.L.U. | Comercializada |
+| 66651 | REMINYL 16 mg CAPSULAS DURAS DE LIBERACION PROLONGADA | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Essential Pharma Limited | Comercializada |
+| 74353 | GALANTAMINA KERN PHARMA 24 mg CAPSULAS DURAS DE LIBERACION PROLONGADA EFG | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Kern Pharma S.L. | Comercializada |
+| 74330 | GALNORA 16 mg CAPSULAS DURAS DE LIBERACION PROLONGADA EFG | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Krka D.D. Novo Mesto | Comercializada |
+| 78444 | GALANTAMINA NORMON 24 MG CAPSULAS DURAS DE LIBERACION PROLONGADA EFG | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Laboratorios Normon S.A. | Comercializada |
+| 78443 | GALANTAMINA NORMON 16 MG CAPSULAS DURAS DE LIBERACION PROLONGADA EFG | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Laboratorios Normon S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

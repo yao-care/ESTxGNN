@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 134
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Calcipotriol: nueva indicación predicha, Queratosis seborreica (seborrheic keratosis) (nivel de evidencia L3). Indicación original: No disponible en los datos regulatorios (el texto de indicación de …"
 monitor_inn: "CALCIPOTRIOL"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -88,9 +88,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 60944 | DAIVONEX 50 MICROGRAMOS/G CREMA | Crema | No especificada en los datos disponibles |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 60944 | DAIVONEX 50 MICROGRAMOS/G CREMA | CREMA | Leo Pharma A/S | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ---
 

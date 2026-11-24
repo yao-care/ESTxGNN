@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 592
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "ORLISTAT"
 predicted_indications: ["hypervitaminosis"]
 description: "Orlistat: nueva indicación predicha, Hipervitaminosis (hypervitaminosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -72,13 +72,24 @@ Las principales:
 
 <!-- review:end es-lic-20261105-orlistat-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 07401009 | ALLI 60 mg cápsulas duras | Cápsula dura | No disponible |
-| 78962 | Orlistat Sandoz 120 mg cápsulas duras | Cápsula dura | No disponible |
-| 98071003IP9 | Xenical 120 mg cápsulas duras | Cápsula dura | No disponible |
-| 81233 | Orlistat Teva 120 mg cápsulas duras | Cápsula dura | No disponible |
-| 07401012 | ALLI 27 mg comprimidos masticables | Comprimido masticable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 07401009 | ALLI 60 MG CAPSULAS DURAS | CÁPSULA DURA | Haleon Ireland Dungarvan Limited | Comercializada |
+| 78962 | ORLISTAT SANDOZ 120 MG CAPSULAS DURAS | CÁPSULA DURA | Sandoz Farmaceutica S.A. | Comercializada |
+| 98071003IP9 | XENICAL 120 MG CAPSULAS DURAS | CÁPSULA DURA | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 81233 | ORLISTAT TEVA 120 MG CAPSULAS DURAS | CÁPSULA DURA | Teva Pharma S.L.U. | Comercializada |
+| 78587 | BEACITA 60 MG CAPSULAS DURAS | CÁPSULA DURA | Aurovitas Spain, S.A.U. | Comercializada |
+| 98071003IP3 | XENICAL 120 mg CAPSULAS DURAS | CÁPSULA DURA | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 82247 | ORLIDUNN 60 MG CAPSULAS DURAS | CÁPSULA DURA | Laboratorio Stada S.L. | Comercializada |
+| 98071003IP | XENICAL 120 mg CAPSULAS DURAS | CÁPSULA DURA | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 78603 | ORLISTAT AUROVITAS 120 MG CAPSULAS DURAS | CÁPSULA DURA | Aurovitas Spain, S.A.U. | Comercializada |
+| 83534 | NORMOSTAT 120 MG CAPSULAS DURAS | CÁPSULA DURA | Laboratorios Normon S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Entre las demás autorizaciones figuran Beacita, Orlidunn, Normostat, Linestat, Orliloss, Orlistat Stada, Orlistat Aurovitas y Orlistat Aristo.
 

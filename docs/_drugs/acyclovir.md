@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acyclovir: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 63759 | ACICLOVIR VIATRIS 200 MG COMPRIMIDOS EFG | Comprimido | No registrada en los datos locales |
-| 62686 | ACICLOVIR SANDOZ 800 MG COMPRIMIDOS EFG | Comprimido | No registrada en los datos locales |
-| 85741 | HERVAX 250 MG POLVO PARA SOLUCION PARA PERFUSION EFG | Polvo para solución para perfusión | No registrada en los datos locales |
-| 56633 | ZOVIRAX 30 mg/g POMADA OFTALMICA | Pomada oftálmica | No registrada en los datos locales |
-| 59226 | ZOVIRAX 400 mg/5 ml SUSPENSION ORAL | Suspensión oral | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 62736 | ACICLOVIR KERN PHARMA 200 mg COMPRIMIDOS DISPERSABLES EFG | COMPRIMIDO DISPERSABLE | Kern Pharma S.L. | Comercializada |
+| 88775 | ACICLOVIR NORIDEM 250 MG POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Noridem Enterprises Limited | Comercializada |
+| 61721 | ACICLOVIR STADA 200 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Comercializada |
+| 62737 | ACICLOVIR KERN PHARMA 800 mg COMPRIMIDOS DISPERSABLES EFG | COMPRIMIDO RECUBIERTO | Kern Pharma S.L. | Comercializada |
+| 56779 | ZOVIRAX 200 mg COMPRIMIDOS DISPERSABLES | COMPRIMIDO DISPERSABLE | Glaxosmithkline S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 La lista puede ser parcial: se muestran solo 5 de las autorizaciones registradas.
 

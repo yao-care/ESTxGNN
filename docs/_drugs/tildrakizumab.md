@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 794
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tildrakizumab: nueva indicación predicha, Retinopatía diabética no proliferativa grave (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (el texto de indicación de l…"
 monitor_inn: "TILDRAKIZUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "drug-induced osteoporosis"]
@@ -80,12 +80,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1181323002 | ILUMETRI 100 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible |
-| 1181323001 | ILUMETRI 100 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible |
-| 1181323004 | ILUMETRI 100 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible |
-| 1181323003 | ILUMETRI 200 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1181323001 | ILUMETRI 100 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Almirall S.A. | Comercializada |
+| 1181323004 | ILUMETRI 100 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Almirall S.A. | Comercializada |
+| 1181323003 | ILUMETRI 200 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Almirall S.A. | Comercializada |
+| 1181323002 | ILUMETRI 100 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Almirall S.A. | Autorizada, no comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Titular: Almirall S.A. Las cuatro autorizaciones son de monofármaco y están vigentes.
 

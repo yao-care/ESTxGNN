@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "amiloride"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amiloride: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 3)"
 ---
 
@@ -72,12 +72,18 @@ Actualmente no hay literatura relacionada disponible.
 
 Los productos siguientes contienen amilorida. Varios son combinaciones a dosis fija (5 mg/50 mg con hidroclorotiazida), por lo que sus autorizaciones no describen la situación de la amilorida como principio activo único.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 86330 | Amilorida/Hidroclorotiazida Aurovitas 5 mg/50 mg comprimidos EFG | Comprimido | No registrada en los datos locales |
-| 55423 | Diuzine 5 mg/50 mg comprimidos | Comprimido | No registrada en los datos locales |
-| 53265 | Ameride 5 mg/50 mg comprimidos | Comprimido | No registrada en los datos locales |
-| 57632 | Kalten | Cápsula dura | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 86330 | AMILORIDA/HIDROCLOROTIAZIDA AUROVITAS 5 MG/50 MG COMPRIMIDOS EFG | COMPRIMIDO | Aurovitas Spain, S.A.U. | Comercializada |
+| 55423 | DIUZINE 5 mg/50 mg COMPRIMIDOS | COMPRIMIDO | Teofarma S.R.L. | Comercializada |
+| 53265 | AMERIDE 5 mg/50 mg COMPRIMIDOS | COMPRIMIDO | Pan Quimica Farmaceutica S.A. | Comercializada |
+| 57632 | KALTEN | CÁPSULA DURA | Teofarma S.R.L. | Revocada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

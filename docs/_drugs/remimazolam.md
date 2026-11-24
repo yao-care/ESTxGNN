@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 692
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Remimazolam: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (el texto de indicación de la a…"
 monitor_inn: "REMIMAZOLAM"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
@@ -45,7 +45,7 @@ Actualmente **no hay ensayos clínicos ni publicaciones** en los datos compilado
 
 <!-- review:begin es-lic-20261105-remimazolam-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Remimazolam es una benzodiazepina de acción ultracorta administrada por vía intravenosa, autorizada y comercializada en España (Byfavo), aunque los datos compilados no recogen el texto de su indicación aprobada. / El modelo TxGNN predice que podría ser efectivo para **insomnio** (puntaje 0,9991), y como segunda predicción para el **delirium por abstinencia alcohólica** (0,9930)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 autorización (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Remimazolam es una benzodiazepina de acción ultracorta administrada por vía intravenosa, autorizada y comercializada en España (Byfavo), aunque los datos compilados no recogen el texto de su indicación aprobada. / El modelo TxGNN predice que podría ser efectivo para **insomnio** (puntaje 0,9991), y como segunda predicción para el **delirium por abstinencia alcohólica** (0,9930)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-remimazolam-1 -->
 
@@ -89,9 +89,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1201505001 | BYFAVO 20 MG POLVO PARA SOLUCIÓN INYECTABLE (Paion Pharma GmbH) | Polvo para solución inyectable | No especificada en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1201505001 | BYFAVO 20 MG POLVO PARA SOLUCION INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Paion Pharma Gmbh | Autorizada, no comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ---
 
@@ -128,7 +134,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "autorizada y comercializada en España (Byfavo)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "autorizada y comercializada en España (Byfavo)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Byfavo (remimazolam besylate) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e1838f2-b999-41a7-a761-d94f09aa531f) |
 
 <!-- review:end log -->

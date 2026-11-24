@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 815
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: nueva indicación predicha, Malignant cutaneous granular cell skin tumor (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 17 (comercializadas: 17)"
@@ -103,13 +103,24 @@ Por tanto, esta predicción se solapa con la indicación ya aprobada: es una est
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1171241001 | Ontruzant 150 mg | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
-| 1181281001 | Kanjinti 150 mg | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
-| 1181295002 | Trazimera 420 mg | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
-| 1171257001 | Herzuma 150 mg | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
-| 100145002 | Herceptin 600 mg | Solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1171241001 | ONTRUZANT 150 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Samsung Bioepis Nl B.V. | Comercializada |
+| 1181281001 | KANJINTI 150 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Amgen Europe B.V. | Comercializada |
+| 1181295002 | TRAZIMERA 420 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Pfizer Europe Ma Eeig | Comercializada |
+| 1171257001 | HERZUMA 150 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Celltrion Healthcare Hungary Kft. | Comercializada |
+| 1171241002 | ONTRUZANT 420 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Samsung Bioepis Nl B.V. | Comercializada |
+| 1171257002 | HERZUMA 420 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Celltrion Healthcare Hungary Kft. | Comercializada |
+| 1181281002 | KANJINTI 420 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Amgen Europe B.V. | Comercializada |
+| 1181295001 | TRAZIMERA 150 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Pfizer Europe Ma Eeig | Comercializada |
+| 1181341002 | OGIVRI 420 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Biosimilar Collaborations Ireland Limited | Comercializada |
+| 1201456003 | ZERCEPAC 420 mg POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+
+Se muestran 10 de 17 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Se registran 17 autorizaciones vigentes en total (incluyen biosimilares como Ontruzant, Kanjinti, Trazimera, Herzuma, Ogivri y Zercepac, además del original Herceptin).
 

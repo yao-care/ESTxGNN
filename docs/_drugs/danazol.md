@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 219
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DANAZOL"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
 description: "Danazol: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"
@@ -85,11 +85,17 @@ Ninguno de los estudios citados evalúa directamente la amenorrea como enfermeda
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 56256 | DANATROL 100 mg CÁPSULAS | Cápsula dura | No disponible |
-| 55580 | DANATROL 200 mg CÁPSULAS | Cápsula dura | No disponible |
-| 56255 | DANATROL 50 mg CÁPSULAS | Cápsula dura | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 56256 | DANATROL 100 mg CAPSULAS | CÁPSULA DURA | Laboratorios Fidia Farmaceutica S.L. | Comercializada |
+| 55580 | DANATROL 200 mg CAPSULAS | CÁPSULA DURA | Laboratorios Fidia Farmaceutica S.L. | Comercializada |
+| 56255 | DANATROL 50 mg CAPSULAS | CÁPSULA DURA | Laboratorios Fidia Farmaceutica S.L. | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

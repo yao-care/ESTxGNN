@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 283
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-24
 monitor_inn: "ELTROMBOPAG"
 predicted_indications: ["HIV infectious disease"]
 description: "Eltrombopag: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -84,13 +84,24 @@ Un único cribado in vitro (PMID 32977702) sugiere una posible modulación de la
 
 La lista puede ser parcial.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 10612005 | REVOLADE 50 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 110612013 | REVOLADE 25 MG polvo para suspensión oral | Polvo para suspensión oral | No disponible |
-| 91040 | ELTROMBOPAG COMBIX 50 MG EFG | Comprimido recubierto con película | No disponible |
-| 89802 | ELTROMBOPAG KERN PHARMA 25 MG EFG | Comprimido recubierto con película | No disponible |
-| 90342 | ELTROMBOPAG SANDOZ 25 MG EFG | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 89802 | ELTROMBOPAG KERN PHARMA 25 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+| 89173 | ELTROMBOPAG GLENMARK 50 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Glenmark Arzneimittel Gmbh | Comercializada |
+| 90317 | ELTROMBOPAG VIVANTA 25 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vivanta Generics S.R.O. | Comercializada |
+| 89544 | ELTROMBOPAG ZENTIVA 50 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Zentiva K.S. | Comercializada |
+| 90180 | ELTROMBOPAG DR. REDDYS 25 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Reddy Pharma Iberia S.A. | Comercializada |
+| 1241903021 | ELTROMBOPAG ACCORD 75 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Comercializada |
+| 90263 | ELTROMBOPAG TARBIS 50 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Comercializada |
+| 90319 | ELTROMBOPAG VIVANTA 75 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vivanta Generics S.R.O. | Comercializada |
+| 90181 | ELTROMBOPAG DR. REDDYS 50 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Reddy Pharma Iberia S.A. | Comercializada |
+| 110612013 | REVOLADE 25 MG POLVO PARA SUSPENSION ORAL | POLVO PARA SUSPENSIÓN ORAL | Novartis Europharm Limited | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

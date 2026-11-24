@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 601
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ozenoxacin: nueva indicación predicha, Malaria (nivel de evidencia L5). Indicación original: Acné"
 monitor_inn: "ozenoxacin"
 predicted_indications: ["malaria"]
@@ -81,9 +81,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 82357 | OZANEX 10 MG/G CREMA (Ferrer Internacional S.A.) | Crema | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 82357 | OZANEX 10 MG/G CREMA | CREMA | Ferrer Internacional S.A. | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ---
 

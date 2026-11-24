@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 340
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fludrocortisone: nueva indicación predicha, Linfoma cutáneo primario de células T (nivel de evidencia L5). Indicación original: No disponible (las autorizaciones de AEMPS no incluyen texto de indic…"
 monitor_inn: "fludrocortisone"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "cystic teratoma", "spinal cord dermoid cyst", "dermoid cyst of ovary", "disease of orbital part of eye adnexa", "eye disease", "disease of orbital region", "exostosis"]
@@ -71,11 +71,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 90556 | Fludrocortisona Ria 0,1 mg comprimidos EFG | Comprimido | No disponible |
-| 90755 | Fludrocortisona Novumgen 0,1 mg comprimidos EFG | Comprimido | No disponible |
-| 48921 | Astonin 0,1 mg comprimidos | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 90755 | FLUDROCORTISONA NOVUMGEN 0,1 MG COMPRIMIDOS EFG | COMPRIMIDO | Novumgen Limited | Comercializada |
+| 48921 | ASTONIN 0,1 mg COMPRIMIDOS | COMPRIMIDO | Laboratorios Ern S.A. | Comercializada |
+| 90556 | FLUDROCORTISONA RIA 0,1 MG COMPRIMIDOS EFG | COMPRIMIDO | Ria Generics Limited | Autorizada, no comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

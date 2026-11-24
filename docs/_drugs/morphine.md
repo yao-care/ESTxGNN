@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 543
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: nueva indicación predicha, Síndrome de dolor miofascial (myofascial pain syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -78,13 +78,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61909 | MST Continus 200 mg | Comprimido de liberación prolongada | No disponible |
-| 59655 | Sevredol 20 mg | Comprimido recubierto con película | No disponible |
-| 86588 | Morfina Sun 2 mg/ml | Solución para perfusión en jeringa precargada | No disponible |
-| 42221 | Morfina B. Braun 10 mg/ml | Solución inyectable | No disponible |
-| 62040 | Oramorph 20 mg/ml | Solución oral | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61909 | MST CONTINUS 200 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Mundipharma Pharmaceuticals S.L. | Comercializada |
+| 59655 | SEVREDOL 20 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Mundipharma Pharmaceuticals S.L. | Comercializada |
+| 57897 | MST CONTINUS 30 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Mundipharma Pharmaceuticals S.L. | Comercializada |
+| 61080 | MST CONTINUS 5 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Mundipharma Pharmaceuticals S.L. | Comercializada |
+| 57900 | MST CONTINUS 100 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Mundipharma Pharmaceuticals S.L. | Comercializada |
+| 42221 | MORFINA B. BRAUN 10 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | B Braun Medical S.A. | Comercializada |
+| 62040 | ORAMORPH 20 MG/ML SOLUCION ORAL | SOLUCIÓN ORAL | L. Molteni & C. Dei Fratelli Alitti Societa Di Esercizio S.… | Comercializada |
+| 82748 | MORFINA B. BRAUN 1 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | B Braun Medical S.A. | Comercializada |
+| 57899 | MST CONTINUS 60 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Mundipharma Pharmaceuticals S.L. | Comercializada |
+| 61081 | MST CONTINUS 15 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Mundipharma Pharmaceuticals S.L. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Hay 15 autorizaciones vigentes y 5 canceladas; la lista mostrada es parcial.
 

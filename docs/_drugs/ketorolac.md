@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 442
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ketorolac: nueva indicación predicha, Trastorno de cefalea (headache disorder) (nivel de evidencia L1). Indicación original: Conjuntivitis atópica…"
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
@@ -83,7 +83,7 @@ Nota: los ensayos NCT04353505, NCT01534806 y NCT05983354 fueron retirados sin pa
 
 <!-- review:begin es-lic-20261105-ketorolac-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 8 autorizaciones vigentes en total, todas de principio activo único." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 8 autorizaciones vigentes en total, todas de principio activo único." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-ketorolac-1 -->
 
@@ -104,13 +104,22 @@ Nota: los ensayos NCT04353505, NCT01534806 y NCT05983354 fueron retirados sin pa
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 84357 | Ketorolaco Kabi 30 mg/ml solución inyectable EFG | Solución inyectable | No disponible |
-| 70102 | Ketorolaco Trometamol Normon 30 mg/ml solución inyectable EFG | Solución inyectable | No disponible |
-| 334 295-9 | Acular colirio | Colirio en solución | No disponible |
-| 70103 | Ketorolaco Trometamol Qualigen 30 mg/ml solución inyectable EFG | Solución inyectable | No disponible |
-| 58976 | Toradol 30 mg/1 ml solución inyectable | Solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 70102 | KETOROLACO TROMETAMOL NORMON 30 mg/ml SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 58976 | TORADOL 30 mg/1 ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Atnahs Pharma Netherlands Bv. | Comercializada |
+| 70105 | KETOROLACO TROMETAMOL QUALIGEN 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Neuraxpharm Spain S.L. | Comercializada |
+| 61690 | ACULAR 5 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Abbvie Spain, S.L.U. | Comercializada |
+| 84357 | KETOROLACO KABI 30 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Fresenius Kabi España, S.A.U. | Suspendida |
+| 334 295-9 | ACULAR COLIRIO | COLIRIO EN SOLUCIÓN | Allergan France | Revocada |
+| 70103 | KETOROLACO TROMETAMOL QUALIGEN 30 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Neuraxpharm Spain S.L. | Revocada |
+| 70098 | KETOROLACO TROMETAMOL ACCORD 30 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Accord Healthcare S.L.U. | Revocada |
+
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -151,7 +160,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Hay 8 autorizaciones vigentes en total, todas de principio activo único" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Hay 8 autorizaciones vigentes en total, todas de principio activo único" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Toronova Ii Suik (ketorolac tromethamine) prescribing information, Advanced Rx of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49dd153c-10e8-505b-e063-6394a90a595f) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 312
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Etelcalcetide"
 predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices with bleeding", "esophageal varices without bleeding", "varicose disease"]
 description: "Etelcalcetide: nueva indicación predicha, hiperfosfatemia (hyperphosphatemia (disease)) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"
@@ -78,11 +78,17 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Espana
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1161142002 | PARSABIV 2,5 MG SOLUCIÓN INYECTABLE | Solución inyectable | No disponible en los datos compilados |
-| 1161142006 | PARSABIV 5 MG SOLUCIÓN INYECTABLE | Solución inyectable | No disponible en los datos compilados |
-| 1161142010 | PARSABIV 10 MG SOLUCIÓN INYECTABLE | Solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1161142002 | PARSABIV 2,5 MG SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Amgen Europe B.V. | Comercializada |
+| 1161142010 | PARSABIV 10 MG SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Amgen Europe B.V. | Comercializada |
+| 1161142006 | PARSABIV 5 MG SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Amgen Europe B.V. | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

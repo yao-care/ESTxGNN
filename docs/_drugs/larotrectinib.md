@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 454
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Larotrectinib: nueva indicación predicha, Neoplasia endocrina múltiple (nivel de evidencia L5). Indicación original: No disponible en los textos de autorización compilados (el fármaco es…"
 monitor_inn: "LAROTRECTINIB"
 predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
@@ -75,12 +75,18 @@ El puntaje alto del modelo TxGNN (aprendizaje profundo) (0,9924) proviene del mo
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1191385003 | VITRAKVI 20 mg/ml solución oral, 1 frasco de 100 ml | Solución oral | No disponible |
-| 1191385004 | VITRAKVI 20 mg/ml solución oral, 2 frascos de 50 ml | Solución oral | No disponible |
-| 1191385001 | VITRAKVI 25 mg cápsulas duras | Cápsula dura | No disponible |
-| 1191385002 | VITRAKVI 100 mg cápsulas duras | Cápsula dura | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1191385004 | VITRAKVI 20 MG/ML SOLUCION ORAL, 2 frascos de 50 ml | SOLUCIÓN ORAL | Bayer Ag | Comercializada |
+| 1191385001 | VITRAKVI 25 MG CAPSULAS DURAS | CÁPSULA DURA | Bayer Ag | Comercializada |
+| 1191385002 | VITRAKVI 100 MG CAPSULAS DURAS | CÁPSULA DURA | Bayer Ag | Comercializada |
+| 1191385003 | VITRAKVI 20 MG/ML SOLUCION ORAL, 1 frasco de 100 ml | SOLUCIÓN ORAL | Bayer Ag | Revocada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

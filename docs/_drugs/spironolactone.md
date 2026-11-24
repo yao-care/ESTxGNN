@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 747
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Spironolactone"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 8; autorizadas no comercializadas: 1)"
@@ -66,13 +66,19 @@ También se predijo **hipotricosis congénita con milia** (puntaje 0.9904, nivel
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 88190 | Espironolactona Orion 50 mg comprimidos EFG | Comprimido | No disponible |
-| 54900 | Aldactone 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 88191 | Espironolactona Orion 100 mg comprimidos EFG | Comprimido | No disponible |
-| 81033 | Espironolactona Accord 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 63835 | Espironolactona Alter 25 mg comprimidos recubiertos EFG | Comprimido recubierto | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 54900 | ALDACTONE 100 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Pfizer S.L. | Comercializada |
+| 88191 | ESPIRONOLACTONA ORION 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Orion Corporation | Comercializada |
+| 81033 | ESPIRONOLACTONA ACCORD 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Comercializada |
+| 63835 | ESPIRONOLACTONA ALTER 25 mg COMPRIMIDOS RECUBIERTOS EFG | COMPRIMIDO RECUBIERTO | Laboratorios Alter S.A. | Comercializada |
+| 81034 | ESPIRONOLACTONA ACCORD 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Comercializada |
+
+Se muestran 5 de 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único, ninguna cancelada).
 

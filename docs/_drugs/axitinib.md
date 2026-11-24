@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 4
 monitor_inn: "AXITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Axitinib: nueva indicación predicha, liposarcoma (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 9 (comercializadas: 9)"
 ---
 
@@ -74,13 +74,23 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1241847009 | AXITINIB ACCORD 3 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | Comprimido recubierto con película | No registrada |
-| 12777005 | INLYTA 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | Comprimido recubierto con película | No registrada |
-| 1241847014 | AXITINIB ACCORD 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | Comprimido recubierto con película | No registrada |
-| 89675 | AXITINIB TEVA 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | Comprimido recubierto con película | No registrada |
-| 88718 | AXITINIB STADA 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | Comprimido recubierto con película | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1241847009 | AXITINIB ACCORD 3 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Comercializada |
+| 12777005 | INLYTA 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Pfizer Europe Ma Eeig | Comercializada |
+| 1241847014 | AXITINIB ACCORD 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Comercializada |
+| 89675 | AXITINIB TEVA 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+| 88718 | AXITINIB STADA 5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 88717 | AXITINIB STADA 1 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 1241847004 | AXITINIB ACCORD 1 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Accord Healthcare S.L.U. | Comercializada |
+| 12777002 | INLYTA 1 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Pfizer Europe Ma Eeig | Comercializada |
+| 89674 | AXITINIB TEVA 1 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

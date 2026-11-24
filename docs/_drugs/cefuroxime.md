@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Cefuroxime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cefuroxime: nueva indicación predicha, hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -73,13 +73,24 @@ Actualmente no hay literatura relacionada disponible.
 
 Los datos locales indican que el fármaco está comercializado, con autorizaciones vigentes para varias presentaciones (comprimidos recubiertos y polvo para solución inyectable). El registro de autorizaciones puede ser parcial.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 80366 | Cefuroxima Tecnigen 500 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No registrada |
-| 62909 | Cefuroxima Normon 250 mg polvo y disolvente para solución inyectable EFG | Polvo y disolvente para solución inyectable | No registrada |
-| 64949 | Cefuroxima Sala 1.500 mg polvo para solución inyectable y para perfusión EFG | Polvo para solución inyectable y para perfusión | No registrada |
-| 15-061-88-C-C | Zinnat 500 mg comprimidos recubiertos con película | Comprimido recubierto con película | No registrada |
-| 76098 | Prokam 50 mg polvo para solución inyectable | Polvo para solución inyectable | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 80318 | CEFUROXIMA AUROVITAS 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 62909 | CEFUROXIMA NORMON 250 mg POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE EFG | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 64949 | CEFUROXIMA SALA 1.500 mg POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 71020 | CEFUROXIMA SANDOZ 500 mg COMPRIMIDOS RECUBIERTOS EFG | COMPRIMIDO RECUBIERTO | Sandoz Farmaceutica S.A. | Comercializada |
+| 68473 | CEFUROXIMA REIG JOFRE 250 mg POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE EFG | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 70908 | CEFUROXIMA ALTER 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Alter S.A. | Comercializada |
+| 69954 | CEFUROXIMA TEVA-RATIO 250 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+| 68115 | CEFUROXIMA NORMON 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 72257 | CEFUROXIMA STADA 500 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 69957 | CEFUROXIMA KERN PHARMA 250 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

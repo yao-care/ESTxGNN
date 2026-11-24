@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 738
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: nueva indicación predicha, Brain stem infarction (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -104,13 +104,19 @@ Solo dos ensayos (NCT00552097 y NCT00129402) tienen simvastatina como componente
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 65193 | Simvastatina Vir 20 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-| 65199 | Simvastatina Normon 40 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-| 64276 | Simvastatina Davur 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-| 64249 | Simvastatina Tarbis 20 mg comprimidos EFG | Comprimido recubierto | No disponible en los datos compilados |
-| 70230 | Simvastatina Cinfamed 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 65193 | SIMVASTATINA VIR 20 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 65199 | SIMVASTATINA NORMON 40 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 64276 | SIMVASTATINA DAVUR 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+| 64249 | SIMVASTATINA TARBIS 20 mg COMPRIMIDOS EFG | COMPRIMIDO RECUBIERTO | Tarbis Farma S.L. | Comercializada |
+| 70230 | SIMVASTATINA CINFAMED 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Se muestran solo las 5 primeras.
 

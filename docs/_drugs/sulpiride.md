@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 754
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Sulpiride"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "syndromic myopia", "atypical glycine encephalopathy"]
 description: "Sulpiride: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) (nivel de evidencia L5). Indicación original: No …"
@@ -75,12 +75,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 51836 | PSICOCEN 50 mg CÁPSULAS | Cápsula dura | No disponible en los datos compilados |
-| 48557 | DOGMATIL 50 mg/ml SOLUCIÓN INYECTABLE | Solución inyectable | No disponible en los datos compilados |
-| 48558 | DOGMATIL FUERTE 200 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
-| 73195 | SULPIRIDA KERN PHARMA 50 mg CÁPSULAS EFG | Cápsula dura | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 51836 | PSICOCEN 50 mg CAPSULAS | CÁPSULA DURA | Especialidades Farmaceuticas Centrum S.A. | Comercializada |
+| 48557 | DOGMATIL 50 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Neuraxpharm Spain S.L. | Comercializada |
+| 48558 | DOGMATIL FUERTE 200 mg COMPRIMIDOS | COMPRIMIDO | Neuraxpharm Spain S.L.U. | Comercializada |
+| 73195 | SULPIRIDA KERN PHARMA 50 mg CAPSULAS EFG | CÁPSULA DURA | Kern Pharma S.L. | Comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

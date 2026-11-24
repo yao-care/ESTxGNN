@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 137
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Candesartan: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L2). Indicación original: Hipertensión (según datos farmacológicos"
 monitor_inn: "candesartan"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
@@ -98,13 +98,24 @@ La relación entre la indicación original (hipertensión, un trastorno vascular
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 75867 | Candesartan Pensa 32 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
-| 74913 | Candesartan Apotex AG 32 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
-| 90116 | Candesartan Stadafarma 32 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
-| 61894 | Atacand 16 mg comprimidos | Comprimido | No disponible en los datos compilados |
-| 62006 | Parapres 4 mg comprimidos | Comprimido | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 75867 | CANDESARTAN PENSA 32 mg COMPRIMIDOS EFG | COMPRIMIDO | Towa Pharmaceutical S.A. | Comercializada |
+| 90116 | CANDESARTAN STADAFARMA 32 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Comercializada |
+| 74070 | CANDESARTAN VIATRIS 32 MG COMPRIMIDOS EFG | COMPRIMIDO | Viatris Limited | Comercializada |
+| 74775 | CANDESARTAN NORMON 8 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 75397 | CANDESARTAN KERN PHARMA 16 mg COMPRIMIDOS EFG | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
+| 61894 | ATACAND 16 mg COMPRIMIDOS | COMPRIMIDO | Cheplapharm Arzneimittel Gmbh | Comercializada |
+| 83182 | CANDESARTAN AUROVITAS 8 MG COMPRIMIDOS EFG | COMPRIMIDO | Aurovitas Spain, S.A.U. | Comercializada |
+| 74066 | CANDESARTAN VIATRIS 8 MG COMPRIMIDOS EFG | COMPRIMIDO | Viatris Limited | Comercializada |
+| 73701 | CANDESARTAN ALTER 8 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Alter S.A. | Comercializada |
+| 62006 | PARAPRES 4 mg COMPRIMIDOS | COMPRIMIDO | Almirall S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

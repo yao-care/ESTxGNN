@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 260
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-24
 monitor_inn: "donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 description: "Donepezil: nueva indicación predicha, Psychogenic movement disorders (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -87,13 +87,19 @@ No se dispone del texto de indicación aprobada en los datos compilados. Se list
 
 <!-- review:end es-lic-20261105-donepezil-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 74861 | Donepezilo Flas Sandoz 5 mg comprimidos bucodispersables EFG | Comprimido bucodispersable | No disponible |
-| 76026 | Donepezilo Kern Pharma 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 0612298C | Aricept 10 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 75251 | Donepezilo Ratio 5 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 76110-4-12-2006IP1 | Aricept Flas 10 mg comprimidos bucodispersables | Comprimido bucodispersable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 74861 | DONEPEZILO FLAS SANDOZ 5 mg COMPRIMIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Sandoz Farmaceutica S.A. | Comercializada |
+| 76026 | DONEPEZILO KERN PHARMA 10 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+| 0612298C | ARICEPT 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Pfizer Spol. S R.O. | Comercializada |
+| 76110-4-12-2006IP1 | ARICEPT FLAS 10 mg COMPRIMIDOS BUCODISPERSABLES | COMPRIMIDO BUCODISPERSABLE | Pfizer Hellas S.A. | Comercializada |
+| 79124 | DONEPEZILO FLAS PHARMA COMBIX 5 MG COMPRIMIIDOS BUCODISPERSABLES EFG | COMPRIMIDO BUCODISPERSABLE | Laboratorios Combix S.L.U. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

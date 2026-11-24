@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "AVAPRITINIB"
 predicted_indications: ["axial spondylometaphyseal dysplasia", "bilateral parasagittal parieto-occipital polymicrogyria", "amyotrophic lateral sclerosis", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "amyotrohpic lateral sclerosis type 22", "lower motor neuron syndrome with late-adult onset", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Avapritinib: nueva indicación predicha, displasia espondilometafisaria axial (axial spondylometaphyseal dysplasia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 5)"
 ---
 
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 1201473001 | AYVAKYT 100 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película |
-| 1201473003 | AYVAKYT 300 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película |
-| 1201473004 | AYVAKYT 25 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película |
-| 1201473005 | AYVAKYT 50 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película |
-| 1201473002 | AYVAKYT 200 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1201473001 | AYVAKYT 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Blueprint Medicines (Netherlands) B.V. | Comercializada |
+| 1201473003 | AYVAKYT 300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Blueprint Medicines (Netherlands) B.V. | Comercializada |
+| 1201473004 | AYVAKYT 25 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Blueprint Medicines (Netherlands) B.V. | Comercializada |
+| 1201473005 | AYVAKYT 50 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Blueprint Medicines (Netherlands) B.V. | Comercializada |
+| 1201473002 | AYVAKYT 200 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Blueprint Medicines (Netherlands) B.V. | Comercializada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

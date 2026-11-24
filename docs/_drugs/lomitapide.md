@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 477
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Lomitapide: nueva indicación predicha, Macrotrombocitopenia con insuficiencia de la válvula mitral (nivel de evidencia L5). Indicación original: Hipercolesterolemia familiar homocigota (el texto de i…"
 monitor_inn: "Lomitapide"
 predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "platelet storage pool deficiency"]
@@ -81,11 +81,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 113851003 | LOJUXTA 20 MG CÁPSULAS DURAS | Cápsula dura | Chiesi Farmaceutici S.P.A. |
-| 113851002 | LOJUXTA 10 MG CÁPSULAS DURAS | Cápsula dura | Chiesi Farmaceutici S.P.A. |
-| 113851001 | LOJUXTA 5 MG CÁPSULAS DURAS | Cápsula dura | Chiesi Farmaceutici S.P.A. |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 113851003 | LOJUXTA 20 MG CAPSULAS DURAS | CÁPSULA DURA | Chiesi Farmaceutici S.P.A. | Comercializada |
+| 113851002 | LOJUXTA 10 MG CAPSULAS DURAS | CÁPSULA DURA | Chiesi Farmaceutici S.P.A. | Comercializada |
+| 113851001 | LOJUXTA 5 MG CAPSULAS DURAS | CÁPSULA DURA | Chiesi Farmaceutici S.P.A. | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las tres autorizaciones están vigentes y son de principio activo único. Los datos compilados no incluyen el texto de la indicación aprobada.
 

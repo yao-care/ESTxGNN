@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ATENOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atenolol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -74,13 +74,24 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 Se identificaron al menos 20 autorizaciones (la lista puede ser parcial): 15 vigentes y 5 canceladas. Principales autorizaciones vigentes:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 56967 | TENORMIN 50 mg comprimidos | Comprimido |
-| 56777 | TENORMIN 0,5 mg/ml solución inyectable | Solución inyectable |
-| 62446 | Atenolol Alter 50 mg comprimidos EFG | Comprimido |
-| 84415 | Atenolol Aurovitas 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 61493 | Atenolol Normon 100 mg comprimidos recubiertos EFG | Comprimido recubierto |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 56967 | TENORMIN 50 mg COMPRIMIDOS | COMPRIMIDO | Atnahs Pharma Netherlands Bv. | Comercializada |
+| 62446 | ATENOLOL ALTER 50 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Alter S.A. | Comercializada |
+| 56777 | TENORMIN 0,5 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Atnahs Pharma Netherlands Bv. | Comercializada |
+| 84415 | ATENOLOL AUROVITAS 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 89528 | ATENOLOL COMBIX 100 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 61493 | ATENOLOL NORMON 100 mg COMPRIMIDOS RECUBIERTOS EFG | COMPRIMIDO RECUBIERTO | Laboratorios Normon S.A. | Comercializada |
+| 61492 | ATENOLOL NORMON 50 mg COMPRIMIDOS RECUBIERTOS EFG | COMPRIMIDO RECUBIERTO | Laboratorios Normon S.A. | Comercializada |
+| 84416 | ATENOLOL AUROVITAS 50 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 63147 | ATENOLOL CINFA 50 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Cinfa S.A. | Comercializada |
+| 62450 | ATENOLOL SANDOZ 100 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO | Sandoz Farmaceutica S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

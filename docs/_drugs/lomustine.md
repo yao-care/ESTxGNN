@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 478
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Lomustine"
 predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer"]
 description: "Lomustine: nueva indicación predicha, linfosarcoma (lymphosarcoma) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0)"
@@ -95,9 +95,15 @@ Los ensayos son de linfomas relacionados (no específicamente linfosarcoma) y ca
 
 La lomustina figura en España con una única autorización, actualmente cancelada, sin ninguna autorización vigente.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 58474 | BELUSTINE CAPSULAS | Cápsula dura | No disponible el texto de indicación |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 58474 | BELUSTINE CAPSULAS | CÁPSULA DURA | Bellon | Revocada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "IODIXANOL"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Iodixanol: nueva indicación predicha, Osteoartritis (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 ---
 
@@ -77,10 +77,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 60636 | VISIPAQUE 270 mg/ml solución inyectable | Solución inyectable | No disponible en los datos compilados |
-| 60637 | VISIPAQUE 320 mg/ml solución inyectable | Solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 60636 | VISIPAQUE 270 mg /ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Ge Healthcare Bio-Sciences, S.A.U. | Comercializada |
+| 60637 | VISIPAQUE 320 mg /ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Ge Healthcare Bio-Sciences, S.A.U. | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

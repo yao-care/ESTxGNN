@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 306
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Erythromycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
 description: "Erythromycin: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locale"
@@ -68,7 +68,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 <!-- review:begin es-lic-20261105-erythromycin-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 15 autorizaciones vigentes (todas de principio activo único)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 15 autorizaciones (comercializadas: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 15 autorizaciones vigentes (todas de principio activo único)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-erythromycin-1 -->
 
@@ -80,13 +80,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 57686 | DERIPIL SOLUCION | Solución cutánea | No disponible |
-| 25412 | OFTALMOLOSA CUSI ERITROMICINA 5 MG/G POMADA OFTÁLMICA | Pomada oftálmica | No disponible |
-| 58854 | LODERM GEL | Gel | No disponible |
-| 59470 | ERIDOSIS, TOALLITAS | Apósito impregnado | No disponible |
-| 41000 | PANTOMICINA 250 mg GRANULADO PARA SUSPENSION ORAL EN SOBRES | Granulado para suspensión oral | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 25412 | OFTALMOLOSA CUSI ERITROMICINA 5 MG/G POMADA OFTÁLMICA | POMADA OFTÁLMICA | Ntc S.R.L. | Comercializada |
+| 58767 | PANTOMICINA 100mg/ml GRANULADO PARA SUSPENSION ORAL | GRANULADO PARA SUSPENSIÓN ORAL | Amdipharm Limited | Comercializada |
+| 55771 | PANTOMICINA 1G POLVO PARA SOLUCIÓN PARA PERFUSIÓN | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Amdipharm Limited | Comercializada |
+| 79380 | ERITROMICINA PANPHARMA 1 G POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Panpharma | Comercializada |
+| 39690 | ERITROMICINA NORMON 500 MG COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Laboratorios Normon S.A. | Comercializada |
+| 57474 | PANTOMICINA 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO | Amdipharm Limited | Suspendida |
+| 57686 | DERIPIL SOLUCION | SOLUCIÓN CUTÁNEA | Laboratorio Reig Jofre, S.A. | Revocada |
+| 58854 | LODERM GEL | GEL | Laboratorios Vinas S.A. | Revocada |
+| 59470 | ERIDOSIS, TOALLITAS | APÓSITO IMPREGNADO | Laboratorio Reig Jofre, S.A. | Revocada |
+| 41000 | PANTOMICINA 250 mg GRANULADO PARA SUSPENSION ORAL EN SOBRES | GRANULADO PARA SUSPENSIÓN ORAL | Amdipharm Limited | Revocada |
+
+Se muestran 10 de 15 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -116,7 +127,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 15 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 15 autorizaciones vigentes (todas de principio activo único)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd) |
 
 <!-- review:end log -->

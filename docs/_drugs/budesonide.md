@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Budesonide"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Budesonide: nueva indicación predicha, eccema atópico (atopic eczema) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -85,13 +85,24 @@ La literatura recuperada es mayoritariamente indirecta (esofagitis eosinofílica
 
 Budesonida está comercializada en España con autorizaciones vigentes de medicamentos de un solo principio activo. La lista de autorizaciones puede ser parcial. Entre los productos principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61728 | ENTOCORD 3 mg cápsulas de liberación modificada | Cápsula dura de liberación modificada | No registrada en los datos locales |
-| 83987 | Budesonida Aldo-Unión 100 µg/pulsación | Suspensión para inhalación en envase a presión | No registrada en los datos locales |
-| 88386 | Intestifalk 4 mg supositorios | Supositorio | No registrada en los datos locales |
-| 1171254003 | Jorveza 1 mg comprimido bucodispersable | Comprimido bucodispersable | No registrada en los datos locales |
-| 59298 | Pulmicort 0,25 mg/ml | Suspensión para inhalación por nebulizador | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61728 | ENTOCORD 3 mg CAPSULAS DE LIBERACION MODIFICADA | CÁPSULA DURA DE LIBERACIÓN MODIFICADA | Tillotts Pharma Gmbh | Comercializada |
+| 83987 | BUDESONIDA ALDO-UNION 100 MICROGRAMOS/PULSACION SUSPENSION PARA INHALACION EN ENVASE A PRESION | SUSPENSIÓN PARA INHALACIÓN EN ENVASE A PRESIÓN | Laboratorio Aldo Union S.L. | Comercializada |
+| 88386 | INTESTIFALK 4 MG SUPOSITORIOS | SUPOSITORIO | Dr. Falk Pharma Gmbh | Comercializada |
+| 67103 | NOVOPULM NOVOLIZER 400 microgramos POLVO PARA INHALACION | POLVO PARA INHALACIÓN | Viatris Healthcare Limited | Comercializada |
+| 1171254003 | JORVEZA 1 MG COMPRIMIDO BUCODISPERSABLE | COMPRIMIDO BUCODISPERSABLE | Dr. Falk Pharma Gmbh | Comercializada |
+| 85219 | BUDENA 0,25 MG/ML SUSPENSION PARA INHALACION POR NEBULIZADOR | SUSPENSIÓN PARA INHALACIÓN POR NEBULIZADOR | Laboratorio Aldo Union S.L. | Comercializada |
+| 59035 | BUDESONIDA PULMICTAN 200 microgramos/INHALACION SUSPENSION PARA INHALACION EN ENVASE A PRESION | SUSPENSIÓN PARA INHALACIÓN EN ENVASE A PRESIÓN | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 59298 | PULMICORT 0,25 mg/ml SUSPENSION PARA INHALACION POR NEBULIZADOR | SUSPENSIÓN PARA INHALACIÓN POR NEBULIZADOR | Astrazeneca Farmaceutica Spain S.A. | Comercializada |
+| 68406 | BUDESONIDA ALDO-UNION 64 microgramos SUSPENSION PARA PULVERIZACION NASAL EFG | SUSPENSIÓN PARA PULVERIZACIÓN NASAL | Laboratorio Aldo Union S.L. | Comercializada |
+| 66943 | BUDESONIDA ALDO-UNION 0,25 mg/ml SUSPENSION PARA INHALACION POR NEBULIZADOR | SUSPENSIÓN PARA INHALACIÓN POR NEBULIZADOR | Laboratorio Aldo Union S.L. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

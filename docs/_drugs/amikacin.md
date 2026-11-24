@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "amikacin"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "meningococcemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amikacin: nueva indicación predicha, fiebre paratifoidea (paratyphoid fever) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 4; autorizadas no comercializadas: 3)"
 ---
 
@@ -81,13 +81,22 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 67333 | AMIKACINA SALA 125 mg / 2 ml SOLUCION INYECTABLE EFG | Solución inyectable | No registrada en los datos locales |
-| 57012 | AMIKACINA NORMON 500 MG/2 ML SOLUCION INYECTABLE Y PARA PERFUSIÓN EFG | Solución inyectable | No registrada en los datos locales |
-| 63879 | AMICACINA B BRAUN 5 MG/ML SOLUCION PARA PERFUSION INTRAVENOSA | Solución para perfusión | No registrada en los datos locales |
-| 85160 | AMIKACINA KABI 5 MG/ML SOLUCION PARA PERFUSION | Solución para perfusión | No registrada en los datos locales |
-| 90159 | AMIKACINA NORIDEM 125 MG/ML SOLUCIÓN INYECTABLE Y PARA PERFUSION EFG | Solución inyectable y para perfusión | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 57012 | AMIKACINA NORMON 500 MG/2 ML SOLUCION INYECTABLE Y PARA PERFUSIÓN EFG | SOLUCIÓN INYECTABLE | Laboratorios Normon S.A. | Comercializada |
+| 63879 | AMICACINA B BRAUN 5 MG/ML SOLUCION PARA PERFUSION INTRAVENOSA | SOLUCIÓN PARA PERFUSIÓN | B Braun Medical S.A. | Comercializada |
+| 63880 | AMICACINA B BRAUN 10 mg/ml SOLUCION PARA PERFUSION INTRAVENOSA | SOLUCIÓN PARA PERFUSIÓN | B Braun Medical S.A. | Comercializada |
+| 58048 | AMICACINA BRAUN 500 MG/2ML SOLUCIÓN INYECTABLE | SOLUCIÓN INYECTABLE | B Braun Medical S.A. | Comercializada |
+| 85160 | AMIKACINA KABI 5 MG/ML SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Autorizada, no comercializada |
+| 90159 | AMIKACINA NORIDEM 125 MG/ML SOLUCIÓN INYECTABLE Y PARA PERFUSION EFG | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Noridem Enterprises Limited | Autorizada, no comercializada |
+| 90160 | AMIKACINA NORIDEM 250 MG/ML SOLUCIÓN INYECTABLE Y PARA PERFUSION EFG | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Noridem Enterprises Limited | Autorizada, no comercializada |
+| 67333 | AMIKACINA SALA 125 mg / 2 ml SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Laboratorio Reig Jofre, S.A. | Revocada |
+
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

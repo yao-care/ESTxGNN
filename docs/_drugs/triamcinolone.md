@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 823
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Triamcinolone: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 12 (comercializadas: 9)"
@@ -68,7 +68,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 <!-- review:begin es-lic-20261105-triamcinolone-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 12 autorizaciones vigentes (el texto de indicación aprobada no está disponible en los datos compilados)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 12 autorizaciones (comercializadas: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 12 autorizaciones vigentes (el texto de indicación aprobada no está disponible en los datos compilados)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-triamcinolone-1 -->
 
@@ -81,13 +81,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61970 | NASACORT 55 microgramos/dosis | Suspensión para pulverización nasal | No disponible |
-| 78545 | BLUXAM 20 mg/ml | Suspensión inyectable | No disponible |
-| 44901 | TRIGON DEPOT 40 mg/ml | Suspensión inyectable | No disponible |
-| 74673 | TRIESENCE 40 mg/ml | Suspensión inyectable | No disponible |
-| 55845 | PROCTOSTEROID 10 mg | Espuma rectal | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 61970 | NASACORT 55 microgramos/dosis, SUSPENSION PARA PULVERIZACION NASAL | SUSPENSIÓN PARA PULVERIZACIÓN NASAL | Opella Healthcare Spain S.L. | Comercializada |
+| 3400934292293 | NASACORT 55 microgramos/dosis, SUSPENSION PARA PULVERIZACION NASAL | SUSPENSIÓN PARA PULVERIZACIÓN NASAL | Opella Healthcare France S.A.S. | Comercializada |
+| 44901 | TRIGON DEPOT 40 mg/ml SUSPENSIÓN INYECTABLE | SUSPENSIÓN INYECTABLE | Bristol Myers Squibb S.A. | Comercializada |
+| 55845 | PROCTOSTEROID 10 MG ESPUMA RECTAL | ESPUMA RECTAL | Laboratorio Aldo Union S.L. | Comercializada |
+| 42725 | ALDODERMA 1 MG/G+ 3,5 MG/G POMADA | POMADA | Laboratorio Aldo Union S.L. | Comercializada |
+| 52411 | INTERDERM CREMA 30 GRAMOS | CREMA | Interpharma S.A. | Comercializada |
+| 48825 | POSITON 2,5 MG/G + 1 MG/G + 100.000 UI/G CREMA | CREMA | Faes Farma S.A. | Comercializada |
+| 51967 | ANSO POMADA RECTAL | POMADA RECTAL | Lacer S.A. | Comercializada |
+| 34215 | POSITON 2,5 MG/G + 1 MG/G + 100000 UI/G POMADA | POMADA | Faes Farma S.A. | Comercializada |
+| 78545 | BLUXAM 20 MG/ML SUSPENSION INYECTABLE | SUSPENSIÓN INYECTABLE | Esteve Pharmaceuticals Gmbh | Suspendida |
+
+Se muestran 10 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -116,7 +127,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 12 autorizaciones vigentes (el texto de indicación aprobada no está disponible en los datos compilados)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 12 autorizaciones vigentes (el texto de indicación aprobada no está disponible en los datos compilados)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad) |
 
 <!-- review:end log -->

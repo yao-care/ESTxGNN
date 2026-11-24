@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Finasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
 description: "Finasteride: nueva indicación predicha, Ambras type hypertrichosis universalis congenita (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -80,13 +80,24 @@ Ninguna publicación es un estudio controlado de finasterida en hipertricosis; l
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 71064 | Finasterida Normon 1 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
-| 68168 | Finasterida Tecnigen 5 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
-| 76704 | Finasterida Cinfa 1 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
-| 74134 | Capikern 1 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
-| 86827 | Alocare 2,275 mg/ml solución para pulverización cutánea | Solución para pulverización cutánea | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 71064 | FINASTERIDA NORMON 1 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 76704 | FINASTERIDA CINFA 1 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+| 68042 | FINASTERIDA BENEL 5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Farmalider S.A. | Comercializada |
+| 86827 | ALOCARE 2,275 MG/ML SOLUCION PARA PULVERIZACION CUTANEA | SOLUCIÓN PARA PULVERIZACIÓN CUTÁNEA | Industrial Farmaceutica Cantabria S.A. | Comercializada |
+| 72113 | FINASTERIDA VIATRIS 1 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Limited | Comercializada |
+| 78259 | FINASTERIDA AUROVITAS 1 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 69257 | LITACE 5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Ababor Pharmaceuticals S.L. | Comercializada |
+| 76811 | FINASTERIDA BIORGA 1 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratoires Bailleul S.A. | Comercializada |
+| 88249 | FINASTERIDA COMBIX 1 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 68467 | FINASTERIDA TARBIS 5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tarbis Farma S.L. | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Se observan presentaciones de 1 mg y de 5 mg, además de una formulación tópica (Alocare, solución cutánea).
 

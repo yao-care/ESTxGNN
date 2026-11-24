@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 497
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "meclizine"
 predicted_indications: ["allergic urticaria", "common cold", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "cold urticaria"]
 description: "Meclizine: nueva indicación predicha, Urticaria alérgica (allergic urticaria) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 2)"
@@ -74,12 +74,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 59406 | NAVICALM 5 MG/5 ML JARABE | Jarabe | No disponible en los datos compilados |
-| 57907 | CHICLIDA 25 mg COMPRIMIDOS PARA CHUPAR | Pastilla para chupar | No disponible en los datos compilados |
-| 59405 | NAVICALM 25 MG COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
-| 33924 | CHICLIDA 25 mg CHICLES MEDICAMENTOSOS | Chicle medicamentoso | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 57907 | CHICLIDA 25 mg COMPRIMIDOS PARA CHUPAR | PASTILLA PARA CHUPAR | Fleer Española S.L. | Comercializada |
+| 33924 | CHICLIDA 25 mg CHICLES MEDICAMENTOSOS | CHICLE MEDICAMENTOSO | Fleer Española S.L. | Comercializada |
+| 59406 | NAVICALM 5 MG/5 ML JARABE | JARABE | Arafarma Group S.A. | Revocada |
+| 59405 | NAVICALM 25 MG COMPRIMIDOS | COMPRIMIDO | Arafarma Group S.A. | Revocada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

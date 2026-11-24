@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 451
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Lansoprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Lansoprazole: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -82,13 +82,24 @@ Los textos de indicación aprobada no están disponibles en los datos compilados
 
 <!-- review:end es-lic-20261105-lansoprazole-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 66127 | Lansoprazol Sandoz 15 mg cápsulas gastrorresistentes EFG | Cápsula dura gastrorresistente | No disponible |
-| 77739 | Lansoprazol Flas Salvat 30 mg comprimidos bucodispersables | Comprimido bucodispersable | No disponible |
-| 36286-00-00IP | Opiren 30 mg cápsulas | Cápsula dura gastrorresistente | No disponible |
-| 61219 | Pro Ulco 30 mg cápsulas gastrorresistentes | Cápsula dura | No disponible |
-| 62316 | Estomil 15 mg cápsulas duras gastrorresistentes EFG | Cápsula dura | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 66127 | LANSOPRAZOL SANDOZ 15 mg CAPSULAS GASTRORRESISTENTES EFG | CÁPSULA DURA GASTRORRESISTENTE | Sandoz Farmaceutica S.A. | Comercializada |
+| 67430 | LANSOPRAZOL VIR PHARMA 30 mg CAPSULAS GASTRORRESISTENTES EFG | CÁPSULA DURA GASTRORRESISTENTE | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 77014 | LANSOPRAZOL STADA 30 MG CAPSULAS DURAS GASTRORRESISTENTES EFG | CÁPSULA DURA GASTRORRESISTENTE | Laboratorio Stada S.L. | Comercializada |
+| 69189 | LANSOPRAZOL VIR 30 mg CAPSULAS DURAS GASTRORRESISTENTES EFG | CÁPSULA DURA GASTRORRESISTENTE | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 71368 | LANSOPRAZOL FLAS QUALIGEN 15 mg COMPRIMIDOS BUCODISPERSABLES | COMPRIMIDO BUCODISPERSABLE | Neuraxpharm Spain S.L. | Comercializada |
+| 66226 | LANSOPRAZOL DAVUR 15 mg CAPSULAS DURAS GASTRORRESISTENTES EFG | CÁPSULA DURA GASTRORRESISTENTE | Teva Pharma S.L.U. | Comercializada |
+| 69321 | LANSOPRAZOL PENSA 30 mg CAPSULAS DURAS GASTRORRESISTENTES EFG | CÁPSULA DURA GASTRORRESISTENTE | Towa Pharmaceutical S.A. | Comercializada |
+| 36286-00-00IP | OPIREN 30 MG CAPSULAS | CÁPSULA DURA GASTRORRESISTENTE | Takeda Gmbh | Comercializada |
+| 62325 | MONOLITUM 15 mg CAPSULAS DURAS GASTRORRESISTENTES EFG | CÁPSULA DURA | Laboratorios Salvat S.A. | Comercializada |
+| 61219 | PRO ULCO 30 mg CAPSULAS GASTRORRESISTENTES | CÁPSULA DURA | Viatris Healthcare Limited | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

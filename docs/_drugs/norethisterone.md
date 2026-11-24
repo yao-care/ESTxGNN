@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 574
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Norethisterone: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
 monitor_inn: "Norethisterone"
 predicted_indications: []
@@ -48,10 +48,16 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 39927 | PRIMOLUT-NOR 5 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
-| 44646 | PRIMOLUT-NOR 10 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 39927 | PRIMOLUT-NOR 5 mg COMPRIMIDOS | COMPRIMIDO | Bayer Hispania S.L. | Comercializada |
+| 44646 | PRIMOLUT-NOR 10 mg COMPRIMIDOS | COMPRIMIDO | Bayer Hispania S.L. | Revocada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

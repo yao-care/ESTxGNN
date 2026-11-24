@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 724
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SALMETEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 5)"
@@ -86,21 +86,31 @@ Ninguna de estas publicaciones estudia directamente la malformación respiratori
 
 ## Información de Mercado en España
 
-Salmeterol cuenta con 9 autorizaciones como principio activo único: 5 comercializadas y 4 revocadas (59490, 59523, 59527 y 59676).
+Salmeterol cuenta con autorizaciones como principio activo único; están revocadas 59490, 59523, 59527 y 59676.
 
 <!-- review:begin es-lic-20261117-salmeterol-1 -->
 
-> **Corrección de revisión (2026-11-17)**: Texto original: "Salmeterol cuenta con 9 autorizaciones válidas como principio activo único, sin autorizaciones canceladas." Según CIMA (AEMPS), datos del 2026-11-17, de las 9 autorizaciones de salmeterol 5 siguen autorizadas y 4 están revocadas: 59490 (SEREVENT 25 microgramos/inhalación), 59527 (INASPIR 25 microgramos/inhalación), 59523 y 59676. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Salmeterol cuenta con 9 autorizaciones válidas como principio activo único, sin autorizaciones canceladas." Según CIMA (AEMPS), datos del 2026-11-17, están revocadas 59490 (SEREVENT 25 microgramos/inhalación), 59527 (INASPIR 25 microgramos/inhalación), 59523 y 59676; el estado de cada autorización figura en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261117-salmeterol-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 59489 | SEREVENT ACCUHALER 50 microgramos/inhalación | Polvo para inhalación | No disponible en los datos |
-| 83247 | SOLTEL 25 microgramos/inhalación | Suspensión para inhalación en envase a presión | No disponible en los datos |
-| 59675 | BETAMICAN ACCUHALER 50 microgramos/inhalación | Polvo para inhalación | No disponible en los datos |
-| 59490 | SEREVENT 25 microgramos/inhalación | Suspensión para inhalación en envase a presión | No disponible en los datos |
-| 59527 | INASPIR 25 microgramos/inhalación | Suspensión para inhalación en envase a presión | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 59489 | SEREVENT ACCUHALER 50 microgramos/inhalación, polvo para inhalación | POLVO PARA INHALACIÓN | Glaxosmithkline S.A. | Comercializada |
+| 83247 | SOLTEL 25 MICROGRAMOS/INHALACION SUSPENSION PARA INHALACION EN ENVASE A PRESION | SUSPENSIÓN PARA INHALACIÓN EN ENVASE A PRESIÓN | Cipla Europe N.V. | Comercializada |
+| 59675 | BETAMICAN ACCUHALER 50 microgramos/inhalación POLVO PARA INHALACION | POLVO PARA INHALACIÓN | Glaxosmithkline S.A. | Comercializada |
+| 59522 | BEGLAN ACCUHALER 50 microgramos/inhalación, polvo para inhalación | POLVO PARA INHALACIÓN | Glaxosmithkline S.A. | Comercializada |
+| 59526 | INASPIR ACCUHALER 50 microgramos/inhalacion, POLVO PARA INHALACION | POLVO PARA INHALACIÓN | Glaxosmithkline S.A. | Comercializada |
+| 59490 | SEREVENT 25 microgramos/inhalación, suspensión para inhalación en envase a presión | SUSPENSIÓN PARA INHALACIÓN EN ENVASE A PRESIÓN | Glaxosmithkline S.A. | Revocada |
+| 59527 | INASPIR 25 microgramos/inhalacion SUSPENSION PARA INHALACION EN ENVASE A PRESION | SUSPENSIÓN PARA INHALACIÓN EN ENVASE A PRESIÓN | Glaxosmithkline S.A. | Revocada |
+| 59676 | BETAMICAN 25 microgramos/inhalación SUSPENSION PARA INHALACION EN ENVASE A PRESION | SUSPENSIÓN PARA INHALACIÓN EN ENVASE A PRESIÓN | Glaxosmithkline S.A. | Revocada |
+| 59523 | BEGLAN 25 microgramos/inhalación, suspensión para inhalación en envase a presión | SUSPENSIÓN PARA INHALACIÓN EN ENVASE A PRESIÓN | Glaxosmithkline S.A. | Revocada |
+
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -133,7 +143,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-17 | Autorizaciones vigentes: 9 → 5 de 9 (4 revocadas) | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Autorizaciones vigentes: 9 → 5 de 9 (4 revocadas) | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4) |
 
 <!-- review:end log -->

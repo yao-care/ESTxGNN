@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 863
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Zanamivir: nueva indicación predicha, Pielonefritis (nivel de evidencia L5). Indicación original: Gripe (influenza)"
 monitor_inn: "ZANAMIVIR"
 predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
@@ -71,10 +71,16 @@ Actualmente no hay literatura relacionada disponible para pielonefritis.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1181349001 | DECTOVA 10 mg/ml solución para perfusión | Solución para perfusión | No disponible en los datos compilados |
-| 62712 | RELENZA 5 mg/dosis polvo para inhalación (unidosis) | Polvo para inhalación | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 62712 | RELENZA 5 mg/dosis POLVO PARA INHALACIÓN (UNIDOSIS) | POLVO PARA INHALACIÓN | Glaxosmithkline S.A. | Comercializada |
+| 1181349001 | DECTOVA 10 MG/ML SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | Glaxosmithkline Trading Services Limited | Autorizada, no comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

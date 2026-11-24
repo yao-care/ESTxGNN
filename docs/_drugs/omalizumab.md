@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 589
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 description: "Omalizumab: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 7; autorizadas no comercializadas: 1)"
@@ -83,13 +83,22 @@ El puntaje del modelo es muy alto (1,0000), pero es una predicción computaciona
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 05319002 | XOLAIR 150 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible |
-| 05319008 | XOLAIR 150 mg solución inyectable | Solución inyectable en jeringa precargada | No disponible |
-| 05319005 | XOLAIR 75 mg solución inyectable | Solución inyectable en jeringa precargada | No disponible |
-| 1241817002 | OMLYCLO 150 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible |
-| 1241817001 | OMLYCLO 75 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 05319008 | XOLAIR 150 MG SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Novartis Europharm Limited | Comercializada |
+| 1241817002 | OMLYCLO 150 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Celltrion Healthcare Hungary Kft. | Comercializada |
+| 05319005 | XOLAIR 75 MG SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Novartis Europharm Limited | Comercializada |
+| 1241817001 | OMLYCLO 75 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Celltrion Healthcare Hungary Kft. | Comercializada |
+| 1241817006 | OMLYCLO 150 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Celltrion Healthcare Hungary Kft. | Comercializada |
+| 1241817014 | OMLYCLO 300 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Celltrion Healthcare Hungary Kft. | Comercializada |
+| 1241817005 | OMLYCLO 75 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Celltrion Healthcare Hungary Kft. | Comercializada |
+| 05319002 | XOLAIR 150 mg POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Novartis Europharm Limited | Autorizada, no comercializada |
+
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

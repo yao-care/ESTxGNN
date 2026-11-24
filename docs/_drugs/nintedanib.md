@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 568
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NINTEDANIB"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 description: "Nintedanib: nueva indicación predicha, Dermatofibrosarcoma protuberans (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -74,13 +74,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 114979004 | OFEV 150 mg cápsulas blandas | Cápsula blanda | No disponible |
-| 114979002 | OFEV 100 mg cápsulas blandas | Cápsula blanda | No disponible |
-| 114954004 | VARGATEF 150 mg cápsulas blandas | Cápsula blanda | No disponible |
-| 114954003 | VARGATEF 100 mg cápsulas blandas | Cápsula blanda | No disponible |
-| 89430 | Nintedanib Teva 100 mg cápsulas blandas EFG | Cápsula blanda | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 89430 | NINTEDANIB TEVA 100 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Teva Pharma S.L.U. | Comercializada |
+| 90027 | NINTEDANIB EUGIA 150 MG CÁPSULAS BLANDAS EFG | CÁPSULA BLANDA | Eugia Pharma (Malta) Limited | Comercializada |
+| 114954004 | VARGATEF 150 MG CAPSULAS BLANDAS | CÁPSULA BLANDA | Boehringer Ingelheim International Gmbh | Comercializada |
+| 89431 | NINTEDANIB TEVA 150 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Teva Pharma S.L.U. | Comercializada |
+| 114979004 | OFEV 150 MG CAPSULAS BLANDAS | CÁPSULA BLANDA | Boehringer Ingelheim International Gmbh | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos con un único principio activo, ninguna cancelada); el resto corresponde a genéricos de otros titulares.
 

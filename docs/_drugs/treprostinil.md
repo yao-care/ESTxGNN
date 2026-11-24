@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 821
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Treprostinil: nueva indicación predicha, Malformación arteriovenosa pulmonar (nivel de evidencia L5). Indicación original: Hipertensión arterial pulmonar (los textos de indicación de las autor…"
 monitor_inn: "treprostinil"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita"]
@@ -109,13 +109,19 @@ Actualmente no hay literatura relacionada disponible para malformación arteriov
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1191419001 | TREPULMIX 1 mg/ml | Solución para perfusión | No disponible |
-| 88063 | TREPROSTINILO ZENTIVA 5 mg/ml EFG | Solución para perfusión | No disponible |
-| 83747 | TREPROSTINILO FERRER 2,5 mg/ml EFG | Solución para perfusión | No disponible |
-| 84772 | TRESUVI 2,5 mg/ml EFG | Solución para perfusión | No disponible |
-| 84986 | TREPROSTINILO DR REDDYS 5 mg/ml EFG | Solución para perfusión | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1191419001 | TREPULMIX 1 mg/ml SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | Scipharm S.À.R.L. | Comercializada |
+| 1191419002 | TREPULMIX 2,5 mg/ml SOLUCION PARA PERFUSION | SOLUCIÓN PARA PERFUSIÓN | Scipharm S.À.R.L. | Comercializada |
+| 83747 | TREPROSTINILO FERRER 2,5 MG/ML SOLUCION PARA PERFUSION EFG | SOLUCIÓN PARA PERFUSIÓN | Ferrer Internacional S.A. | Comercializada |
+| 84772 | TRESUVI 2,5 MG/ML SOLUCION PARA PERFUSION EFG | SOLUCIÓN PARA PERFUSIÓN | Amomed Pharma Gmbh | Comercializada |
+| 83745 | TREPROSTINILO FERRER 1 MG/ML SOLUCION PARA PERFUSION EFG | SOLUCIÓN PARA PERFUSIÓN | Ferrer Internacional S.A. | Comercializada |
+
+Se muestran 5 de 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada).
 

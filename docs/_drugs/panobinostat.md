@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 609
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "PANOBINOSTAT"
 predicted_indications: ["myeloid leukemia"]
 description: "Panobinostat: nueva indicación predicha, Leucemia mieloide (myeloid leukemia) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 3 (comercializadas: 0; autorizadas no comercializadas: 3)"
@@ -107,11 +107,17 @@ Se priorizan revisiones y estudios clínicos; no se identificó ningún ECA publ
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1151023007 | FARYDAK 20 MG CÁPSULAS DURAS | Cápsula dura | No disponible |
-| 1151023004 | FARYDAK 15 MG CÁPSULAS DURAS | Cápsula dura | No disponible |
-| 1151023001 | FARYDAK 10 MG CÁPSULAS DURAS | Cápsula dura | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1151023007 | FARYDAK 20 MG CAPSULAS DURAS | CÁPSULA DURA | Pharmaand Gmbh | Autorizada, no comercializada |
+| 1151023004 | FARYDAK 15 MG CAPSULAS DURAS | CÁPSULA DURA | Pharmaand Gmbh | Autorizada, no comercializada |
+| 1151023001 | FARYDAK 10 MG CAPSULAS DURAS | CÁPSULA DURA | Pharmaand Gmbh | Autorizada, no comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Las tres autorizaciones están vigentes y pertenecen al titular Pharmaand GmbH.
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 771
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "temoporfin"
 predicted_indications: ["nasopharyngeal teratoma", "odontogenic cyst", "pre-malignant neoplasm", "epiglottis neoplasm", "tumor of testis and paratestis", "cystic neoplasm", "benign neoplasm of floor of mouth", "benign neoplasm of tongue", "benign neoplasm of hypopharynx", "cervical neuroblastoma"]
 description: "Temoporfin: nueva indicación predicha, Teratoma nasofaríngeo (nasopharyngeal teratoma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 0; autorizadas no comercializadas: 4)"
@@ -90,12 +90,18 @@ Para la indicación principal (teratoma nasofaríngeo) no hay literatura relacio
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 01197002 | FOSCAN 4 mg/ml solución inyectable | Solución inyectable | No disponible en los datos compilados |
-| 01197003 | FOSCAN 1 mg/ml solución inyectable | Solución inyectable | No disponible en los datos compilados |
-| 01197005 | FOSCAN 1 mg/ml solución inyectable | Solución inyectable | No disponible en los datos compilados |
-| 01197004 | FOSCAN 1 mg/ml solución inyectable | Solución inyectable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 01197002 | FOSCAN 4 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Biolitec Pharma Limited | Autorizada, no comercializada |
+| 01197003 | FOSCAN 1 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Biolitec Pharma Limited | Autorizada, no comercializada |
+| 01197005 | FOSCAN 1 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Biolitec Pharma Limited | Autorizada, no comercializada |
+| 01197004 | FOSCAN 1 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Biolitec Pharma Limited | Autorizada, no comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Titular de las autorizaciones: Biolitec Pharma Limited. Las cuatro autorizaciones están vigentes.
 

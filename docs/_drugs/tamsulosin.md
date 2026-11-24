@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 763
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
 description: "Tamsulosin: nueva indicación predicha, Ambras type hypertrichosis universalis congenita (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -92,13 +92,24 @@ El texto de indicación aprobada no figura en los datos compilados.
 
 <!-- review:end es-lic-20261105-tamsulosin-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 6775201401IP1 | OMNIC OCAS 0,4 mg comprimidos de liberación prolongada recubiertos con película | Comprimido de liberación prolongada | No disponible |
-| 74994 | Tamsulosina Normon 0,4 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | No disponible |
-| 67217 | Tamsulosina Teva-Ratiopharm 0,4 mg cápsulas duras de liberación modificada EFG | Cápsula dura de liberación modificada | No disponible |
-| 68385 | Tamsulosina Normon 0,4 mg cápsulas duras de liberación modificada EFG | Cápsula dura de liberación modificada | No disponible |
-| 89664 | Tamsulosina Stadafarma 0,4 mg cápsulas duras de liberación modificada EFG | Cápsula dura de liberación modificada | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 6775201401IP1 | OMNIC OCAS 0,4 MG COMPRIMIDOS DE LIBERACION PROLONGADA RECUBIERTOS CON PELICULA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Astellas Pharma Europe B.V. | Comercializada |
+| 74994 | TAMSULOSINA NORMON 0,4 mg COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Laboratorios Normon S.A. | Comercializada |
+| 67217 | TAMSULOSINA TEVA-RATIOPHARM 0,4 mg CAPSULAS DURAS DE LIBERACION MODIFICADA EFG | CÁPSULA DURA DE LIBERACIÓN MODIFICADA | Teva Pharma S.L.U. | Comercializada |
+| 68385 | TAMSULOSINA NORMON 0,4 mg CAPSULAS DURAS DE LIBERACION MODIFICADA EFG | CÁPSULA DURA DE LIBERACIÓN MODIFICADA | Laboratorios Normon S.A. | Comercializada |
+| 89664 | TAMSULOSINA STADAFARMA 0,4 MG CAPSULAS DURAS DE LIBERACION MODIFICADA EFG | CÁPSULA DURA DE LIBERACIÓN MODIFICADA | Laboratorio Stada S.L. | Comercializada |
+| 7164IP | OMNIC 0,4 mg CAPSULAS DE LIBERACION MODIFICADA | CÁPSULA DURA DE LIBERACIÓN MODIFICADA | Astellas Pharma Sp. Z O.O. | Comercializada |
+| 67584 | ZUANTRIP 0,4 mg CAPSULAS DURAS DE LIBERACION MODIFICADA EFG | CÁPSULA DURA DE LIBERACIÓN MODIFICADA | Gp Pharm S.A. | Comercializada |
+| 67422 | TAMSULOSINA ALMUS 0,4 mg CAPSULAS DURAS DE LIBERACION MODIFICADA EFG | CÁPSULA DURA DE LIBERACIÓN MODIFICADA | Almus Farmaceutica S.A.U. | Comercializada |
+| 11429IP2 | OMNIC OCAS 0,4 MG COMPRIMIDOS DE LIBERACION PROLONGADA RECUBIERTOS CON PELICULA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Astellas Pharma Sp. Z O.O. | Comercializada |
+| 74189 | TAMSULOSINA SANDOZ 0,4 mg COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Sandoz Farmaceutica S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

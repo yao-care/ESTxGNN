@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 253
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "dimenhydrinate"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
 description: "Dimenhydrinate: nueva indicación predicha, Urticaria alérgica (allergic urticaria) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 19 (comercializadas: 12)"
@@ -85,19 +85,30 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 60839 | CINFAMAR 50 mg comprimidos recubiertos | Comprimido recubierto | No disponible |
-| 57681 | BIODRAMINA 20 mg chicles medicamentosos | Chicle medicamentoso | No disponible |
-| 66174 | BIODRAMINA INFANTIL 4 mg/ml solución oral | Solución oral | No disponible |
-| 85911 | BIODRAMINA INFANTIL 12,5 mg solución oral | Solución oral en sobre | No disponible |
-| 76942 | BIODRAMINA INFANTIL 24 mg solución oral | Solución oral | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 60839 | CINFAMAR 50 mg COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Laboratorios Cinfa S.A. | Comercializada |
+| 57681 | BIODRAMINA 20 mg CHICLES MEDICAMENTOSOS | CHICLE MEDICAMENTOSO | Uriach Consumer Healthcare S.L. | Comercializada |
+| 66174 | BIODRAMINA INFANTIL 4 mg/ml SOLUCION ORAL | SOLUCIÓN ORAL | Uriach Consumer Healthcare S.L. | Comercializada |
+| 85911 | BIODRAMINA INFANTIL 12,5 MG SOLUCION ORAL | SOLUCION ORAL EN SOBRE | Uriach Consumer Healthcare S.L. | Comercializada |
+| 16409 | BIODRAMINA 50 mg COMPRIMIDOS | COMPRIMIDO | Uriach Consumer Healthcare S.L. | Comercializada |
+| 72308 | CINFAMAR INFANTIL 12,5 mg SOLUCION ORAL | SOLUCIÓN ORAL | Laboratorios Cinfa S.A. | Comercializada |
+| 20120 | CINFAMAR INFANTIL 25 mg COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Laboratorios Cinfa S.A. | Comercializada |
+| 78946 | NORMOSTOP 50 MG COMPRIMIDOS | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 83545 | NORMOSTOP CAFEINA 50 MG/50 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 84721 | DIZINEL 20 MG/40 MG COMPRIMIDOS EFG | COMPRIMIDO | Italfarmaco S.A. | Comercializada |
+
+Se muestran 10 de 19 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Entre las demás hay comprimidos, supositorios y cápsulas duras, así como asociaciones con cafeína.
 
 <!-- review:begin es-lic-20261105-dimenhydrinate-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamento con un solo principio activo; ninguna cancelada). Entre las demás hay comprimidos, supositorios y cápsulas duras, así como asociaciones con cafeína." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 19 autorizaciones (comercializadas: 12); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamento con un solo principio activo; ninguna cancelada). Entre las demás hay comprimidos, supositorios y cápsulas duras, así como asociaciones con cafeína." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-dimenhydrinate-1 -->
 
@@ -135,7 +146,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamento con un solo principio activo; ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamento con un solo principio activo; ninguna cancelada)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: dimenhydrinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc71539e-1a33-4709-8a24-c2894e8dbc1c) |
 
 <!-- review:end log -->

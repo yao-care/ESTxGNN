@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 711
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "ROMIPLOSTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "platelet-type bleeding disorder", "autosomal dominant macrothrombocytopenia", "Ehlers-Danlos syndrome, fibronectinemic type"]
 description: "Romiplostim: nueva indicación predicha, Trastorno primario de liberación plaquetaria (primary release disorder of platelets) (nivel de evidencia L5). Indicación original: No consta en los datos local…"
@@ -83,12 +83,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 08497001 | NPLATE 250 microgramos polvo para solución inyectable | Polvo para solución inyectable | No disponible |
-| 08497005 | NPLATE 250 microgramos polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible |
-| 08497007 | NPLATE 500 microgramos polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible |
-| 08497002 | NPLATE 500 microgramos polvo para solución inyectable | Polvo para solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 08497001 | NPLATE 250 microgramos POLVO PARA SOLUCION INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Amgen Europe B.V. | Comercializada |
+| 08497005 | NPLATE 250 microgramos POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Amgen Europe B.V. | Comercializada |
+| 08497007 | NPLATE 500 microgramos POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Amgen Europe B.V. | Comercializada |
+| 08497002 | NPLATE 500 microgramos POLVO PARA SOLUCION INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Amgen Europe B.V. | Autorizada, no comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Titular de las autorizaciones: Amgen Europe B.V.
 

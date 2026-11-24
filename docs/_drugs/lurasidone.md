@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 491
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "lurasidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Lurasidone: nueva indicación predicha, Retinal dystrophy with or without extraocular anomalies (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 17 (comercializadas: 12; autorizadas no comercializadas: 5)"
@@ -84,13 +84,24 @@ Las otras nueve predicciones del modelo (distrofia retiniana, hidranencefalia, d
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 89812 | Lurasidona Cinfa 18,5 mg EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-| 114913009 | Latuda 37 mg | Comprimido recubierto con película | No disponible en los datos compilados |
-| 90571 | Lurobran 111 mg | Comprimido recubierto con película | No disponible en los datos compilados |
-| 114913002 | Latuda 18,5 mg | Comprimido recubierto con película | No disponible en los datos compilados |
-| 89731 | Lurasidona Teva 74 mg EFG | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 89812 | LURASIDONA CINFA 18,5 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+| 114913009 | LATUDA 37 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Angelini Pharma Italia Aziende Chimiche Riunite Angelini Fr… | Comercializada |
+| 114913002 | LATUDA 18,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Angelini Pharma Italia Aziende Chimiche Riunite Angelini Fr… | Comercializada |
+| 89731 | LURASIDONA TEVA 74 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva B.V. | Comercializada |
+| 89729 | LURASIDONA TEVA 18,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva B.V. | Comercializada |
+| 89407 | LURASIDONA TECNIGEN 37 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tecnimede España Industria Farmaceutica S.A. | Comercializada |
+| 89730 | LURASIDONA TEVA 37 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva B.V. | Comercializada |
+| 89408 | LURASIDONA TECNIGEN 74 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tecnimede España Industria Farmaceutica S.A. | Comercializada |
+| 89813 | LURASIDONA CINFA 37 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+| 89814 | LURASIDONA CINFA 74 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+
+Se muestran 10 de 17 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Hay 17 autorizaciones vigentes en total (todas de principio activo único), de laboratorios como Cinfa, Angelini (Latuda), Exeltis (Lurobran), Teva y Tecnimede.
 

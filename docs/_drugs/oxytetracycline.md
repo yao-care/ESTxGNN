@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 599
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "oxytetracycline"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
 description: "Oxytetracycline: nueva indicación predicha, Chronic rhinosinusitis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 4)"
@@ -73,14 +73,26 @@ Actualmente no hay literatura relacionada disponible para rinosinusitis crónica
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 41198 | Terramicina Pomada Oftálmica Estéril | Pomada oftálmica | No consta en los datos compilados |
-| 19650 | Terramicina Pomada Tópica | Pomada | No consta en los datos compilados |
-| 27631 | Terracortril Pomada Tópica | Pomada | No consta en los datos compilados |
-| 34053 | Terracortril Pomada Estéril Ótico-Oftálmica | Pomada ótica y oftálmica | No consta en los datos compilados |
+<!-- licenses:begin -->
 
-Las cuatro autorizaciones son de Farmasierra Laboratorios S.L., están vigentes y corresponden a productos de un solo principio activo, según los datos compilados.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 41198 | TERRAMICINA POMADA OFTALMICA ESTERIL | POMADA OFTÁLMICA | Farmasierra Laboratorios S.L. | Comercializada |
+| 19650 | TERRAMICINA POMADA TOPICA | POMADA | Farmasierra Laboratorios S.L. | Comercializada |
+| 27631 | TERRACORTRIL POMADA TOPICA | POMADA | Farmasierra Laboratorios S.L. | Comercializada |
+| 34053 | TERRACORTRIL POMADA ESTERIL OTICO-OFTALMICA | POMADA ÓTICA Y OFTÁLMICA | Farmasierra Laboratorios S.L. | Comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
+
+Las autorizaciones son de Farmasierra Laboratorios S.L. y están vigentes; solo TERRAMICINA pomada oftálmica es de un solo principio activo, y las demás son combinaciones con polimixina B o hidrocortisona.
+
+<!-- review:begin es-lic-20261124-oxytetracycline-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Las cuatro autorizaciones son de Farmasierra Laboratorios S.L., están vigentes y corresponden a productos de un solo principio activo, según los datos compilados." Corregido: según CIMA (AEMPS), TERRAMICINA POMADA TOPICA (oxitetraciclina + polimixina B), TERRACORTRIL POMADA TOPICA (hidrocortisona + oxitetraciclina) y TERRACORTRIL POMADA ESTERIL OTICO-OFTALMICA (hidrocortisona + oxitetraciclina + polimixina B) son combinaciones. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124-oxytetracycline-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -112,11 +124,12 @@ La predicción para rinosinusitis crónica se basa solo en el modelo (nivel L5),
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517) |
+| 2026-11-24 | «productos de un solo principio activo» → solo 1 es monofármaco; las demás son combinaciones | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

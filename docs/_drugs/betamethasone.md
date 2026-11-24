@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 7
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Betamethasone: nueva indicación predicha, Mucinosis folicular (alopecia mucinosa) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 10 (comercializadas: 9)"
 ---
 
@@ -76,13 +76,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Se muestran 5 de las 10 autorizaciones registradas. Hay 9 vigentes y 1 cancelada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 55041 | DIPRODERM 0,5 mg/g POMADA | Pomada | No registrada en los datos locales |
-| 80594 | BETAMETASONA SONPHAR 0,5 MG/ML GOTAS ORALES EN SOLUCIÓN EFG | Gotas orales en solución | No registrada en los datos locales |
-| 40576 | BETNOVATE 1 mg/g CREMA | Crema | No registrada en los datos locales |
-| 40628 | CELESTONE CRONODOSE SUSPENSIÓN INYECTABLE | Suspensión inyectable | No registrada en los datos locales |
-| 55118 | DIPRODERM 0,5 mg/g SOLUCIÓN CUTÁNEA | Solución cutánea | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 55041 | DIPRODERM 0,5 mg/g POMADA | POMADA | Organon Salud S.L. | Comercializada |
+| 80594 | BETAMETASONA SONPHAR 0,5 MG/ML GOTAS ORALES EN SOLUCION EFG | GOTAS ORALES EN SOLUCIÓN | Laboratorios Sonphar S.L. | Comercializada |
+| 40576 | BETNOVATE 1 mg/g CREMA | CREMA | Industrial Farmaceutica Cantabria S.A. | Comercializada |
+| 40628 | CELESTONE CRONODOSE SUSPENSION INYECTABLE | SUSPENSIÓN INYECTABLE | Organon Salud S.L. | Comercializada |
+| 41645 | CELECREM 0,5 mg/g CREMA | CREMA | Galenicum Derma S.L.U. | Comercializada |
+
+Se muestran 5 de 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

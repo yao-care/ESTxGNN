@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Droperidol: nueva indicación predicha, Síndrome de Tourette (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaciones de la AEMPS"
 monitor_inn: "DROPERIDOL"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "manic bipolar affective disorder", "attention deficit hyperactivity disorder, inattentive type", "nephrogenic syndrome of inappropriate antidiuresis", "attention deficit-hyperactivity disorder", "headache disorder", "common cold", "hypertrichosis (disease)", "specific developmental disorder"]
@@ -81,19 +81,25 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 90791 | DROPERIDOL AGUETTANT 2,5 MG/ML SOLUCIÓN INYECTABLE EFG | Solución inyectable | Laboratoire Aguettant |
-| 69837 | XOMOLIX 2,5 mg/ml SOLUCIÓN INYECTABLE | Solución inyectable | Substipharm |
-| 86009 | DROPERIDOL KALCEKS 2,5 MG/ML SOLUCIÓN INYECTABLE EFG | Solución inyectable | Kalceks As |
-| 86008 | DROPERIDOL KALCEKS 1,25 MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | Kalceks As |
-| 82997 | DROPERIDOL HIKMA 2,5 MG/ML SOLUCIÓN INYECTABLE EFG | Solución inyectable | Hikma Farmacêutica (Portugal) S.A. |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 90791 | DROPERIDOL AGUETTANT 2,5 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Laboratoire Aguettant | Comercializada |
+| 69837 | XOMOLIX 2,5 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Substipharm | Comercializada |
+| 86009 | DROPERIDOL KALCEKS 2,5 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Kalceks As | Comercializada |
+| 82997 | DROPERIDOL HIKMA 2,5 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Hikma Farmaceutica (Portugal) S.A. | Comercializada |
+| 86008 | DROPERIDOL KALCEKS 1,25 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Kalceks As | Revocada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Todas son formas inyectables, lo que es poco práctico para el tratamiento crónico de un trastorno de tics.
 
 <!-- review:begin es-lic-20261105-droperidol-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Las cinco autorizaciones están vigentes y son de monofármaco. Todas son formas inyectables, lo que es poco práctico para el tratamiento crónico de un trastorno de tics." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Las cinco autorizaciones están vigentes y son de monofármaco. Todas son formas inyectables, lo que es poco práctico para el tratamiento crónico de un trastorno de tics." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-droperidol-1 -->
 
@@ -144,7 +150,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Las cinco autorizaciones están vigentes y son de monofármaco" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Las cinco autorizaciones están vigentes y son de monofármaco" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1108 (droperidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1108) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 321
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "EVEROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
 description: "Everolimus: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). En España, autorizaciones de la AEMPS: al menos 20"
@@ -88,13 +88,24 @@ Conviene ser prudente: el puntaje del modelo es muy alto, pero el respaldo clín
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 11710002 | VOTUBIA 2,5 MG COMPRIMIDOS | Comprimido | No disponible |
-| 83446 | EVEROLIMUS ACCORD 5 MG COMPRIMIDOS EFG | Comprimido | No disponible |
-| 83478 | EVEROLIMUS ETHYPHARM 2,5 MG COMPRIMIDOS EFG | Comprimido | No disponible |
-| 86608 | EVEROLIMUS BIOCON 10 MG COMPRIMIDOS EFG | Comprimido | No disponible |
-| 66007 | CERTICAN 0,75 MG COMPRIMIDOS | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 11710002 | VOTUBIA 2,5 MG COMPRIMIDOS | COMPRIMIDO | Novartis Europharm Limited | Comercializada |
+| 83446 | EVEROLIMUS ACCORD 5 MG COMPRIMIDOS EFG | COMPRIMIDO | Accord Healthcare S.L.U. | Comercializada |
+| 83478 | EVEROLIMUS ETHYPHARM 2,5 MG COMPRIMIDOS EFG | COMPRIMIDO | Ethypharm | Comercializada |
+| 66007 | CERTICAN 0,75 mg COMPRIMIDOS | COMPRIMIDO | Novartis Farmaceutica S.A. | Comercializada |
+| 11710004 | VOTUBIA 5 MG COMPRIMIDOS | COMPRIMIDO | Novartis Europharm Limited | Comercializada |
+| 83147 | EVEROLIMUS STADA 5 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Comercializada |
+| 83502 | EVEROLIMUS VIATRIS 5 MG COMPRIMIDOS EFG | COMPRIMIDO | Viatris Limited | Comercializada |
+| 66006 | CERTICAN 0,5 mg COMPRIMIDOS | COMPRIMIDO | Novartis Farmaceutica S.A. | Comercializada |
+| 83423 | EVEROLIMUS DR. REDDYS 10 MG COMPRIMIDOS EFG | COMPRIMIDO | Reddy Pharma Iberia S.A. | Comercializada |
+| 111710014 | VOTUBIA 5 MG COMPRIMIDOS DISPERSABLES | COMPRIMIDO DISPERSABLE | Novartis Europharm Limited | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 También existe una presentación de comprimido dispersable (VOTUBIA 5 mg).
 

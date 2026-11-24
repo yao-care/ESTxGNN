@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "avibactam"
 predicted_indications: ["ureter tuberculosis", "urinary schistosomiasis", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Avibactam: nueva indicación predicha, Tuberculosis del uréter (nivel de evidencia L5). Indicación original: Pielonefritis"
 ---
 
@@ -82,10 +82,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1161109001 | ZAVICEFTA 2 G/0,5 G | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
-| 1241808001 | EMBLAVEO 1,5 G/0,5 G | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1161109001 | ZAVICEFTA 2 G/0,5 G POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Pfizer Ireland Pharmaceuticals | Comercializada |
+| 1241808001 | EMBLAVEO 1,5 G/0,5 G POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Pfizer Europe Ma Eeig | Comercializada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones están vigentes. Corresponden a productos con avibactam en combinación con otros principios activos, por lo que no deben interpretarse como autorizaciones del avibactam como principio activo único.
 

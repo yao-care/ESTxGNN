@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 714
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Rotigotine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
 description: "Rotigotine: nueva indicación predicha, Attention deficit-hyperactivity disorder (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 20 (comercializadas: 12; autorizadas no comercializadas: 2)"
@@ -67,7 +67,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 <!-- review:begin es-lic-20261105-rotigotine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 20 autorizaciones (comercializadas: 12); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-rotigotine-1 -->
 
@@ -81,13 +81,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 05331013 | NEUPRO 2, 4, 6, 8 MG/24 H PARCHE TRANSDÉRMICO | Parche transdérmico | No disponible |
-| 89422 | ROTIGOTINA LUYE 6 MG/24 H PARCHES TRANSDÉRMICOS EFG | Parche transdérmico | No disponible |
-| 89423 | ROTIGOTINA LUYE 8 MG/24 H PARCHES TRANSDÉRMICOS EFG | Parche transdérmico | No disponible |
-| 89089 | DARIANTE 1 MG/24 HORAS PARCHES TRANSDÉRMICOS EFG | Parche transdérmico | No disponible |
-| 89090 | DARIANTE 2 MG/24 HORAS PARCHES TRANSDÉRMICOS EFG | Parche transdérmico | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 89089 | DARIANTE 1 MG/24 HORAS PARCHES TRANSDÉRMICOS EFG | PARCHE TRANSDÉRMICO | Exeltis Healthcare S.L. | Comercializada |
+| 89090 | DARIANTE 2 MG/24 HORAS PARCHES TRANSDÉRMICOS EFG | PARCHE TRANSDÉRMICO | Exeltis Healthcare S.L. | Comercializada |
+| 05331040 | NEUPRO 1 MG/24 H PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Ucb Pharma | Comercializada |
+| 05331011 | NEUPRO 8 MG/24 H PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Ucb Pharma | Comercializada |
+| 89091 | DARIANTE 3 MG/24 HORAS PARCHES TRANSDÉRMICOS EFG | PARCHE TRANSDÉRMICO | Exeltis Healthcare S.L. | Comercializada |
+| 05331008 | NEUPRO 6 MG/24 H PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Ucb Pharma | Comercializada |
+| 05331002 | NEUPRO 2 MG/24 H PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Ucb Pharma | Comercializada |
+| 05331049 | NEUPRO 3 MG/24 H PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Ucb Pharma | Comercializada |
+| 89094 | DARIANTE 8 MG/24 HORAS PARCHES TRANSDÉRMICOS EFG | PARCHE TRANSDÉRMICO | Exeltis Healthcare S.L. | Comercializada |
+| 05331005 | NEUPRO 4 MG/24 H PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Ucb Pharma | Comercializada |
+
+Se muestran 10 de 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -121,7 +132,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0) |
 
 <!-- review:end log -->

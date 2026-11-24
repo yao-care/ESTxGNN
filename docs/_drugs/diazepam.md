@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 245
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "DIAZEPAM"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "barbiturate abuse", "hallucinogen abuse", "antidepressant type abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
 description: "Diazepam: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: al menos 20"
@@ -83,13 +83,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Estado: comercializado. De las 20 autorizaciones registradas, 18 están vigentes y 2 canceladas. Se muestran las principales.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 39905 | VALIUM 10 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
-| 39943 | VALIUM 5 mg/ml SOLUCIÓN INYECTABLE | Solución inyectable | No disponible en los datos compilados |
-| 80703 | DIAZEPAM QUALIGEN 10 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
-| 89559 | DIAZEPAM BASI 5 MG/ML SOLUCIÓN INYECTABLE EFG | Solución inyectable | No disponible en los datos compilados |
-| 85969 | DIAZEPAM NORMON 10 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 39905 | VALIUM 10 mg COMPRIMIDOS | COMPRIMIDO | Atnahs Pharma Netherlands Bv. | Comercializada |
+| 80703 | DIAZEPAM QUALIGEN 10 MG COMPRIMIDOS EFG | COMPRIMIDO | Neuraxpharm Spain S.L. | Comercializada |
+| 88090 | DIAZEPAM PENSA 5 MG COMPRIMIDOS EFG | COMPRIMIDO | Towa Pharmaceutical S.A. | Comercializada |
+| 39693 | DIAZEPAN PRODES 5 mg COMPRIMIDOS | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
+| 89721 | DIAZEPAM AUROVITAS 2,5 MG COMPRIMIDOS | COMPRIMIDO | Aurovitas Spain, S.A.U. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

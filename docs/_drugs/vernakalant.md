@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 844
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Vernakalant: nueva indicación predicha, Trastorno cerebrovascular (ictus) (nivel de evidencia L5). Indicación original: Fibrilación auricular"
 monitor_inn: "VERNAKALANT"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
@@ -81,9 +81,15 @@ Se incluyen las publicaciones disponibles (ninguna es un ECA; todas tratan de fi
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 10645002 | BRINAVESS 20 mg/ml, concentrado para solución para perfusión | Concentrado para solución para perfusión | No especificada en los datos disponibles |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 10645002 | BRINAVESS 20 mg/ml, CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Advanz Pharma Limited | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

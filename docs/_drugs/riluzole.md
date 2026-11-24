@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 702
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "riluzole"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance"]
 description: "Riluzole: nueva indicación predicha, polimicrogiria parieto-occipital parasagital bilateral (bilateral parasagittal parieto-occipital polymicrogyria) (nivel de evidencia L5)."
@@ -72,13 +72,20 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 88570 | EMYLIF 50 mg película bucodispersable | Película bucodispersable | No disponible en los datos |
-| 78243 | TEGLUTIK 5 mg/ml suspensión oral | Suspensión oral | No disponible en los datos |
-| 75131 | RILUZOL PMCS 50 mg comprimido recubierto con película EFG | Comprimido recubierto con película | No disponible en los datos |
-| 96010001 | RILUTEK 50 mg comprimidos recubiertos con película | Comprimido recubierto | No disponible en los datos |
-| 75015 | RILUZOL SUN 50 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 88570 | EMYLIF 50 MG PELICULA BUCODISPERSABLE | PELICULA BUCODISPERSABLE | Zambon S.P.A. | Comercializada |
+| 78243 | TEGLUTIK 5MG/ML SUSPENSION ORAL | SUSPENSIÓN ORAL | Italfarmaco S.A. | Comercializada |
+| 75015 | RILUZOL SUN 50 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+| 75160 | RILUZOL AUROVITAS 50 mg COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 75131 | RILUZOL PMCS 50 MG COMPRIMIDO RECUBIERTO CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Pro.Med.Cs Praha A.S. | Autorizada, no comercializada |
+| 96010001 | RILUTEK 50 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO | Sanofi Winthrop Industrie | Autorizada, no comercializada |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

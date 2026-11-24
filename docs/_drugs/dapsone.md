@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 222
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Dapsone"
 predicted_indications: ["pneumocystosis"]
 description: "Dapsone: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L1). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0; autorizadas no comercializadas: 1)"
@@ -94,9 +94,15 @@ Esta indicación es, de hecho, un uso clínico aceptado: la dapsona es una alter
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 15201 | SULFONA COMPRIMIDOS (Esteve Pharmaceuticals S.A.) | Comprimido | Texto de indicación no disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 15201 | SULFONA COMPRIMIDOS | COMPRIMIDO | Esteve Pharmaceuticals S.A. | Autorizada, no comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 866
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Ziprasidone"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
 description: "Ziprasidone: nueva indicación predicha, Tricotilomanía (trichotillomania) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Se listan las 5 primeras autorizaciones de los registros locales (la lista puede ser parcial):
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 64851 | ZELDOX 20 mg cápsulas duras | Cápsula dura |
-| 64852 | ZELDOX 40 mg cápsulas duras | Cápsula dura |
-| 64853 | ZELDOX 60 mg cápsulas duras | Cápsula dura |
-| 64854 | ZELDOX 80 mg cápsulas duras | Cápsula dura |
-| 64855 | ZELDOX 20 mg/ml polvo para solución inyectable | Polvo para solución inyectable |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 64851 | ZELDOX 20 mg CAPSULAS DURAS | CÁPSULA DURA | Viatris Healthcare Limited | Comercializada |
+| 75683 | ZIPRASIDONA STADA 40 mg CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorio Stada S.L. | Comercializada |
+| 80957 | ZIPRASIDONA CINFA 80 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Cinfa S.A. | Comercializada |
+| 83770 | ZIPRASIDONA AUROVITAS 20 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Aurovitas Spain, S.A.U. | Comercializada |
+| 76544 | ZIPRASIDONA SANDOZ 80 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Sandoz Farmaceutica S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

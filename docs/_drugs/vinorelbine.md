@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 852
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Vinorelbine"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
 description: "Vinorelbine: nueva indicación predicha, Sarcoma de Ewing (Ewing sarcoma) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 16 (comercializadas: 10; autorizadas no comercializadas: 1)"
@@ -64,7 +64,7 @@ Hay que señalar que la relación con la indicación original es mecanística y 
 
 <!-- review:begin es-lic-20261105-vinorelbine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 16 autorizaciones vigentes en total (todas de monofármaco, ninguna cancelada), con presentaciones en cápsula blanda y en concentrado para perfusión, de varios titulares (Pierre Fabre, Accord, Glenmark, Medac, Sandoz, Eugia, IPS)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 16 autorizaciones (comercializadas: 10); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 16 autorizaciones vigentes en total (todas de monofármaco, ninguna cancelada), con presentaciones en cápsula blanda y en concentrado para perfusión, de varios titulares (Pierre Fabre, Accord, Glenmark, Medac, Sandoz, Eugia, IPS)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-vinorelbine-1 -->
 
@@ -89,13 +89,24 @@ Hay que señalar que la relación con la indicación original es mecanística y 
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 59300 | NAVELBINE 10 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos compilados |
-| 65978 | NAVELBINE 20 mg cápsulas blandas | Cápsula blanda | No disponible en los datos compilados |
-| 65979 | NAVELBINE 30 mg cápsulas blandas | Cápsula blanda | No disponible en los datos compilados |
-| 72511 | VINORELBINA IPS 10 mg/ml concentrado para solución para perfusión EFG | Concentrado para solución para perfusión | No disponible en los datos compilados |
-| 70585 | VINORELBINA SANDOZ 10 mg/ml concentrado para solución para perfusión EFG | Concentrado para solución para perfusión | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 84245 | VINORELBINA GLENMARK 20 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Glenmark Arzneimittel Gmbh | Comercializada |
+| 65978 | NAVELBINE 20 mg CAPSULAS BLANDAS | CÁPSULA BLANDA | Pierre Fabre Iberica S.A. | Comercializada |
+| 88630 | VINORELBINA ACCORD 30 MG CAPSULA BLANDA EFG | CÁPSULA BLANDA | Accord Healthcare S.L.U. | Comercializada |
+| 88629 | VINORELBINA ACCORD 20 MG CAPSULA BLANDA EFG | CÁPSULA BLANDA | Accord Healthcare S.L.U. | Comercializada |
+| 84246 | VINORELBINA GLENMARK 30 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Glenmark Arzneimittel Gmbh | Comercializada |
+| 87418 | VINORELBINA MEDAC 20 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Medac Gesellschaft Für Klinische Spezialpräparate Gmbh | Comercializada |
+| 70227 | VINORELBINA AUROVITAS 10 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Eugia Pharma (Malta) Limited | Comercializada |
+| 87419 | VINORELBINA MEDAC 30 MG CAPSULAS BLANDAS EFG | CÁPSULA BLANDA | Medac Gesellschaft Für Klinische Spezialpräparate Gmbh | Comercializada |
+| 65979 | NAVELBINE 30 mg CAPSULAS BLANDAS | CÁPSULA BLANDA | Pierre Fabre Iberica S.A. | Comercializada |
+| 81968 | VINORELBINA ACCORD 10 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+
+Se muestran 10 de 16 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 
@@ -140,7 +151,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Hay 16 autorizaciones vigentes en total (todas de monofármaco, ninguna cancelada), con presentaciones en cápsula blanda y en concentrado par" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Hay 16 autorizaciones vigentes en total (todas de monofármaco, ninguna cancelada), con presentaciones en cápsula blanda y en concentrado par" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: vinorelbine prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397) |
 
 <!-- review:end log -->

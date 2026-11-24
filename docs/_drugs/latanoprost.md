@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 456
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
 description: "Latanoprost: nueva indicación predicha, Visceral calciphylaxis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -75,13 +75,24 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20130076 | Monoprost 50 microgramos/ml colirio en solución en envase unidosis (Laboratoires Thea) | Colirio en solución | No disponible en los datos |
-| 76616 | Monoprost 50 microgramos/ml colirio en solución en envase unidosis (Laboratoires Thea) | Colirio en solución | No disponible en los datos |
-| 89747 | Latanoprost Yonsung 50 microgramos/ml (Yonsung GmbH) | Colirio en solución en envase unidosis | No disponible en los datos |
-| 73959 | Latanoprost Cinfa 50 microgramos/ml (Laboratorios Cinfa) | Colirio en solución | No disponible en los datos |
-| 1231763001 | Catiolanze 50 microgramos/ml (Santen Oy) | Colirio en emulsión | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 76616 | MONOPROST 50 MICROGRAMOS/ML COLIRIO EN SOLUCION EN ENVASE UNIDOSIS | COLIRIO EN SOLUCIÓN | Laboratoires Thea | Comercializada |
+| 82878 | MONOPROST 50 MICROGRAMOS/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Laboratoires Thea | Comercializada |
+| 1231763001 | CATIOLANZE 50 MICROGRAMOS/ML COLIRIO EN EMULSION | COLIRIO EN EMULSIÓN | Santen Oy | Comercializada |
+| 88819 | TANOLUX 50 MICROGRAMOS/ML COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS | COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS | Laboratorios Salvat S.A. | Comercializada |
+| 3400926738266 | MONOPROST 50 MICROGRAMOS/ML COLIRIO EN SOLUCION EN ENVASE UNIDOSIS | COLIRIO EN SOLUCIÓN | Laboratoires Thea | Comercializada |
+| 6400313C | MONOPROST 50 MICROGRAMOS/ML COLIRIO EN SOLUCION EN ENVASE UNIDOSIS | COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS | Laboratoires Thea | Comercializada |
+| 85233 | VIZILATAN 50 MICROGRAMOS/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Bausch + Lomb Ireland Limited | Comercializada |
+| BE428635 | MONOPROST 50 MICROGRAMOS/ML COLIRIO EN SOLUCION EN ENVASE UNIDOSIS | COLIRIO EN SOLUCIÓN | Laboratoires Thea | Comercializada |
+| 71098 | LATANOPROST AUROVITAS 50 microgramos/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Aurovitas Spain, S.A.U. | Comercializada |
+| 86752 | LIFOG 50 MICROGRAMOS/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Brill Pharma S.L. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

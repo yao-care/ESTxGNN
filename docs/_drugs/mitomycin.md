@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 535
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "mitomycin"
 predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "mixed ductal-endocrine carcinoma of pancreas", "undifferentiated pancreatic carcinoma", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
 description: "Mitomycin: nueva indicación predicha, Carcinoma pseudopapilar sólido de páncreas (solid pseudopapillary carcinoma of pancreas) (nivel de evidencia L5)."
@@ -74,13 +74,24 @@ Actualmente no hay literatura relacionada disponible.
 
 La mitomicina figura como **comercializada** en España, con 2 autorizaciones vigentes y 3 canceladas. El texto de indicación aprobada no está registrado en los datos locales. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 81601 | Mitomicina Medac 20 mg | Polvo para solución intravesical e inyectable | No disponible |
-| 80512 | Mitomicina Accord 2 mg | Polvo para solución intravesical e inyectable | No disponible |
-| 82516 | Mitomicina Accord 40 mg | Polvo para solución inyectable y para perfusión | No disponible |
-| 82767 | Mitomycin-C 40 mg (Inibsa) | Polvo y disolvente para suspensión intravesical | No disponible |
-| 81599 | Mitomicina Medac 2 mg | Polvo para solución intravesical e inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 80513 | MITOMICINA ACCORD 20 MG POLVO PARA SOLUCION INTRAVESICAL Y PARA SOLUCION INYECTABLE | Polvo para solución intravesical y para solución inyectable | Accord Healthcare S.L.U. | Comercializada |
+| 81602 | MITOMICINA MEDAC 40 MG POLVO PARA SOLUCION INTRAVESICAL Y PARA SOLUCION INYECTABLE EFG | Polvo para solución intravesical y para solución inyectable | Medac Gesellschaft Für Klinische Spezialpräparate Gmbh | Comercializada |
+| 81601 | MITOMICINA MEDAC 20 MG POLVO PARA SOLUCION INTRAVESICAL Y PARA SOLUCION INYECTABLE EFG | Polvo para solución intravesical y para solución inyectable | Medac Gesellschaft Für Klinische Spezialpräparate Gmbh | Autorizada, no comercializada |
+| 80512 | MITOMICINA ACCORD 2 MG POLVO PARA SOLUCION INTRAVESICAL Y PARA SOLUCION INYECTABLE EFG | Polvo para solución intravesical y para solución inyectable | Accord Healthcare S.L.U. | Autorizada, no comercializada |
+| 82516 | MITOMICINA ACCORD 40 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Accord Healthcare S.L.U. | Autorizada, no comercializada |
+| 81599 | MITOMICINA MEDAC 2 MG POLVO PARA SOLUCION INTRAVESICAL Y PARA SOLUCION INYECTABLE EFG | Polvo para solución intravesical y para solución inyectable | Medac Gesellschaft Für Klinische Spezialpräparate Gmbh | Autorizada, no comercializada |
+| 80511 | MITOMICINA ACCORD 10 MG POLVO PARA SOLUCION INTRAVESICAL Y PARA SOLUCION INYECTABLE EFG | Polvo para solución intravesical y para solución inyectable | Accord Healthcare S.L.U. | Autorizada, no comercializada |
+| 81600 | MITOMICINA MEDAC 10 MG POLVO PARA SOLUCION INTRAVESICAL Y PARA SOLUCION INYECTABLE EFG | Polvo para solución intravesical y para solución inyectable | Medac Gesellschaft Für Klinische Spezialpräparate Gmbh | Autorizada, no comercializada |
+| 82767 | MITOMYCIN-C 40 MG POLVO Y DISOLVENTE PARA SOLUCION INTRAVESICAL | POLVO Y DISOLVENTE PARA SUSPENSION INTRAVESICAL | Inibsa Hospital, S.L.U. | Revocada |
+| 57084 | MITOMYCIN-C 10 mg POLVO PARA SOLUCION INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Inibsa Hospital, S.L.U. | Revocada |
+
+Se muestran 10 de 11 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

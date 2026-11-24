@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Famotidine"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
 description: "Famotidine: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 9)"
@@ -88,13 +88,19 @@ Los resúmenes disponibles describen los objetivos de los estudios, pero no sus 
 
 Famotidina está comercializada en España con 9 autorizaciones vigentes, todas de monofármaco. A continuación se listan las 5 principales. Los textos de indicación aprobada no están disponibles en los datos compilados.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 63319 | Famotidina Cinfa 20 mg comprimidos recubiertos con película EFG | Comprimido recubierto |
-| 66094 | Famotidina Normon 40 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 63713 | Famotidina Aristo 40 mg comprimidos EFG | Comprimido |
-| 63317 | Famotidina Cinfa 40 mg comprimidos recubiertos con película EFG | Comprimido recubierto |
-| 62090 | Pepcid 10 mg comprimidos recubiertos | Comprimido recubierto |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 63319 | FAMOTIDINA CINFA 20 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO | Laboratorios Cinfa S.A. | Comercializada |
+| 66094 | FAMOTIDINA NORMON 40 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 63713 | FAMOTIDINA ARISTO 40 mg COMPRIMIDOS EFG | COMPRIMIDO | Aristo Pharma Iberia S.L. | Comercializada |
+| 63317 | FAMOTIDINA CINFA 40 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO | Laboratorios Cinfa S.A. | Comercializada |
+| 63712 | FAMOTIDINA ARISTO 20 mg COMPRIMIDOS EFG | COMPRIMIDO | Aristo Pharma Iberia S.L. | Comercializada |
+
+Se muestran 5 de 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

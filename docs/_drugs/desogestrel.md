@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 236
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Desogestrel: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en los textos de autorización de la AEMPS (uso conocido…"
 monitor_inn: "DESOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
@@ -43,7 +43,7 @@ con **1 ensayo clínico** (de relevancia indirecta) y **11 publicaciones** que a
 
 <!-- review:begin es-lic-20261105-desogestrel-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Desogestrel es un progestágeno utilizado en España como anticonceptivo oral de solo gestágeno (75 microgramos), con 10 autorizaciones vigentes. / El modelo TxGNN predice que podría ser efectivo para **Amenorrea**," Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 autorizaciones (comercializadas: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Desogestrel es un progestágeno utilizado en España como anticonceptivo oral de solo gestágeno (75 microgramos), con 10 autorizaciones vigentes. / El modelo TxGNN predice que podría ser efectivo para **Amenorrea**," Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-desogestrel-1 -->
 
@@ -90,13 +90,24 @@ Cabe señalar que el ensayo de Fase 3 identificado estudia la función reproduct
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 88043 | PILUNA 75 microgramos comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 76489 | KERIZET 75 microgramos comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 73734 | AZALIA 75 microgramos comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 77474 | ARISTIANE 75 microgramos comprimidos EFG | Comprimido | No disponible |
-| 62285 | CERAZET 75 microgramos comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 76489 | KERIZET 75 MICROGRAMOS COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+| 73734 | AZALIA 75 microgramos COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Gedeon Richter Plc. | Comercializada |
+| 62285 | CERAZET 75 microgramos COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Organon Salud S.L. | Comercializada |
+| 76226 | AIACET 75 MICROGRAMOS COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+| 85971 | DESOGESTREL STADAFARMA 75 MICROGRAMOS COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 76490 | DESOPOP 75 MICROGRAMOS COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Effik S.A. | Comercializada |
+| 88043 | PILUNA 75 MICROGRAMOS COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratoire Hra Pharma | Revocada |
+| 77474 | ARISTIANE 75 MICROGRAMOS COMPRIMIDOS EFG | COMPRIMIDO | Aristo Pharma Iberia S.L. | Revocada |
+| 76228 | NACREZ 75 MICROGRAMOS COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Theramex Ireland Limited | Revocada |
+| 76575 | DESOGESTREL STADA 75 MICROGRAMOS COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Revocada |
+
+Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Existen otras 5 autorizaciones vigentes (AIACET, NACREZ, DESOGESTREL STADA, DESOGESTREL STADAFARMA y DESOPOP), todas de monofármaco.
 
@@ -128,7 +139,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Desogestrel es un progestágeno utilizado en España como anticonceptivo oral de solo gestágeno (75 microgramos), con 10 autorizaciones vigent" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Desogestrel es un progestágeno utilizado en España como anticonceptivo oral de solo gestágeno (75 microgramos), con 10 autorizaciones vigent" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 438
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ivermectin"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "neonatal candidiasis", "candida glabrata", "congenital candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
 description: "Ivermectin: nueva indicación predicha, Candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 5; autorizadas no comercializadas: 1)"
@@ -74,13 +74,20 @@ Cabe mencionar que, entre las demás predicciones, solo aparecen dos casos clín
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 85728 | IVERGALEN 3 MG COMPRIMIDOS EFG | Comprimido | No disponible |
-| 85956 | ZULIMA 3 MG COMPRIMIDOS EFG | Comprimido | No disponible |
-| 79911 | SOOLANTRA 10 MG/G CREMA | Crema | No disponible |
-| 86297 | IVERCARE 3 MG COMPRIMIDOS EFG | Comprimido | No disponible |
-| 88545 | IVERMECTINA TEVA 3 MG COMPRIMIDOS EFG | Comprimido | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 85728 | IVERGALEN 3 MG COMPRIMIDOS EFG | COMPRIMIDO | Galenicum Derma S.L.U. | Comercializada |
+| 79911 | SOOLANTRA 10 MG/G CREMA | CREMA | Laboratorios Galderma S.A. | Comercializada |
+| 86297 | IVERCARE 3 MG COMPRIMIDOS EFG | COMPRIMIDO | Industrial Farmaceutica Cantabria S.A. | Comercializada |
+| 88545 | IVERMECTINA TEVA 3 MG COMPRIMIDOS EFG | COMPRIMIDO | Teva B.V. | Comercializada |
+| 90070 | IVERTILENE 3 MG COMPRIMIDOS EFG | COMPRIMIDO | Glenmark Arzneimittel Gmbh | Comercializada |
+| 85956 | ZULIMA 3 MG COMPRIMIDOS EFG | COMPRIMIDO | Exeltis Healthcare S.L. | Autorizada, no comercializada |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Hay una sexta autorización vigente (90070, IVERTILENE 3 MG COMPRIMIDOS EFG, Glenmark), para un total de 6 autorizaciones, todas de monofármaco y vigentes.
 

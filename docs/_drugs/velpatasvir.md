@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 841
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "velpatasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Velpatasvir: nueva indicación predicha, Infección por el virus de la hepatitis B (hepatitis B virus infection) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 6 (comercializadas: 6)"
@@ -100,13 +100,20 @@ Ninguna publicación demuestra eficacia de velpatasvir frente al VHB.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1161116001 | EPCLUSA 400 mg/100 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 1161116003 | EPCLUSA 150 mg/37,5 mg granulado recubierto en sobre | Granulado recubierto | No disponible en los datos compilados |
-| 1161116004 | EPCLUSA 200 mg/50 mg granulado recubierto en sobre | Granulado recubierto | No disponible en los datos compilados |
-| 1171223001 | VOSEVI 400 mg/100 mg/100 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 1161116001IP | EPCLUSA 400 mg/100 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1161116001IP1 | EPCLUSA 400 MG/100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Gilead Sciences Ireland Unlimited Company | Comercializada |
+| 1161116003 | EPCLUSA 150 MG/37,5 MG GRANULADO RECUBIERTO EN SOBRE | GRANULADO RECUBIERTO | Gilead Sciences Ireland Unlimited Company | Comercializada |
+| 1161116004 | EPCLUSA 200 MG/50 MG GRANULADO RECUBIERTO EN SOBRE | GRANULADO RECUBIERTO | Gilead Sciences Ireland Unlimited Company | Comercializada |
+| 1161116001IP | EPCLUSA 400 MG/100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Gilead Sciences Ireland Unlimited Company | Comercializada |
+| 1161116001 | EPCLUSA 400 MG/100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Gilead Sciences Ireland Unlimited Company | Comercializada |
+| 1171223001 | VOSEVI 400 MG/100 MG/100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Gilead Sciences Ireland Unlimited Company | Comercializada |
+
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Hay 6 autorizaciones vigentes en total (la sexta, 1161116001IP1, corresponde también a Epclusa 400 mg/100 mg). Todas pertenecen a Gilead Sciences Ireland Unlimited Company.
 

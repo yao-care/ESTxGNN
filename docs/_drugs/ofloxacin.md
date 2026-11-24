@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 583
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ofloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
 description: "Ofloxacin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 4)"
@@ -71,19 +71,29 @@ Actualmente no hay literatura relacionada disponible.
 
 <!-- review:begin es-lic-20261105-ofloxacin-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-ofloxacin-1 -->
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 62560 | EXOCIN 3 MG/ML COLIRIO EN SOLUCION | Colirio en solución | No disponible |
-| 82188 | FARMIFLOX 3 MG/ML COLIRIO EN SOLUCION | Colirio en solución | No disponible |
-| 81022 | OFLOXACINO POS 3 MG/ML COLIRIO EN SOLUCION | Colirio en solución | No disponible |
-| 59653 | OFLOVIR 200 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | Comprimido recubierto | No disponible |
-| 67741 | OFLOXACINO ALTAN 2 MG/ML SOLUCION PARA PERFUSION EFG | Solución para perfusión | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 62560 | EXOCIN 3 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Abbvie Spain, S.L.U. | Comercializada |
+| 81022 | OFLOXACINO POS 3 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Brill Pharma S.L. | Comercializada |
+| 59653 | OFLOVIR 200 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 67741 | OFLOXACINO ALTAN 2 MG/ML SOLUCION PARA PERFUSION EFG | SOLUCIÓN PARA PERFUSIÓN | Altan Pharmaceuticals Sa | Comercializada |
+| 82188 | FARMIFLOX 3 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Farmigea S.P.A. | Revocada |
+| 84143 | OCULAFLOX 3 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Ntc S.R.L. | Revocada |
+| 82189 | FARMIFLOX 3 MG/ML COLIRIO EN SOLUCION EN ENVASE UNIDOSIS | COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS | Farmigea S.P.A. | Revocada |
+| 84144 | OCULAFLOX 3 MG/ML COLIRIO EN SOLUCION EN ENVASE UNIDOSIS | COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS | Ntc S.R.L. | Revocada |
+| 77631 | OFLOXAVIS 3 mg/ml COLIRIO EN SOLUCIÓN | COLIRIO EN SOLUCIÓN | Pharma Stulln Gmbh | Revocada |
+
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -114,7 +124,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ofloxacin Otic (ofloxacin) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42366170-e536-46a1-9735-d76e5820a9de) |
 
 <!-- review:end log -->

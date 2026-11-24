@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Amoxicillin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amoxicillin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
@@ -74,13 +74,24 @@ Actualmente no hay literatura relacionada disponible.
 
 Los datos compilados muestran al menos 20 autorizaciones, por lo que la lista puede ser parcial. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 62337 | AMOXICILINA PENSA 1 g comprimidos recubiertos EFG | Comprimido recubierto |
-| 64117 | AMOXICILINA CINFA 1000 mg polvo para suspensión oral en sobres EFG | Polvo para suspensión oral |
-| 50239 | CLAMOXYL 500 mg cápsulas duras | Cápsula dura |
-| 64390 | AMOXICILINA NORMON 1000 mg comprimidos EFG | Comprimido |
-| 56265 | AMITRON 500 mg polvo para solución inyectable | Polvo para solución inyectable |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 64117 | AMOXICILINA CINFA 1000 MG POLVO PARA SUSPENSIÓN ORAL EN SOBRES EFG | POLVO PARA SUSPENSIÓN ORAL | Laboratorios Cinfa S.A. | Comercializada |
+| 50239 | CLAMOXYL 500 mg CAPSULAS DURAS | CÁPSULA DURA | Glaxosmithkline S.A. | Comercializada |
+| 64390 | AMOXICILINA NORMON 1000 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 62437 | AMOXICILINA NORMON 500 MG CÁPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Normon S.A. | Comercializada |
+| 64388 | AMOXICILINA NORMON 500 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+| 84016 | AMOXICILINA COMBIX 1000 MG COMPRIMIDOS DISPERSABLES EFG | COMPRIMIDO DISPERSABLE | Laboratorios Combix S.L.U. | Comercializada |
+| 83825 | AMOXICILINA ALTER 500 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Laboratorios Alter S.A. | Comercializada |
+| 52371 | AMOXICILINA ARDINE 500 mg POLVO PARA SUSPENSION ORAL EN SOBRES EFG | POLVO PARA SUSPENSIÓN ORAL | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 83136 | AMOXICILINA ALMUS 500 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Almus Farmaceutica S.A.U. | Comercializada |
+| 53623 | AMOXICILINA ARDINE 500 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Reig Jofre, S.A. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

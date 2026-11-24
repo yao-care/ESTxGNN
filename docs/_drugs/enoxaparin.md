@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 290
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
 description: "Enoxaparin: nueva indicación predicha, Trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency… (nivel de evidencia L5). Indicación original: No cons…"
@@ -80,13 +80,24 @@ El texto de indicación aprobada no está disponible en los datos compilados.
 
 <!-- review:end es-lic-20261105-enoxaparin-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 62470 | Clexane 6.000 UI (60 mg)/0,6 ml | Solución inyectable en jeringa precargada | No disponible |
-| 82494 | Enoxaparina Rovi 6.000 UI (60 mg)/0,6 ml | Solución inyectable en jeringa precargada | No disponible |
-| 82497 | Crusia 10.000 UI (100 mg)/1 ml | Solución inyectable en jeringa precargada | No disponible |
-| 83293 | Hepaxane 2.000 UI (20 mg)/0,2 ml | Solución inyectable en jeringa precargada | No disponible |
-| 1161132007 | Inhixa 8.000 UI (80 mg)/0,8 ml | Solución inyectable | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 82494 | ENOXAPARINA ROVI 6.000 UI (60 MG)/0,6 ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Laboratorios Farmaceuticos Rovi S.A. | Comercializada |
+| 84424 | ENOXAPARINA LEDRAXEN 10.000 UI (100 MG)/1 ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Venipharm | Comercializada |
+| 82492 | ENOXAPARINA ROVI 12.000 UI (120 MG)/0,8 ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Laboratorios Farmaceuticos Rovi S.A. | Comercializada |
+| 1161132007 | INHIXA 8.000 UI (80 MG)/0,8 ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Techdow Pharma Netherlands B.V. | Comercializada |
+| 84425 | ENOXAPARINA LEDRAXEN 8.000 UI (80 MG)/0,8 ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Venipharm | Comercializada |
+| 83293 | HEPAXANE 2.000 UI (20 MG)/0,2 ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Chemi S.P.A. | Comercializada |
+| 62470 | CLEXANE 6.000 UI (60 mg)/ 0,6 ml SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Sanofi Aventis S.A. | Comercializada |
+| 83290 | HEPAXANE 12.000 UI (120 MG)/0,8 ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Chemi S.P.A. | Comercializada |
+| 82491 | ENOXAPARINA ROVI 15.000 UI (150 MG)/1 ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Laboratorios Farmaceuticos Rovi S.A. | Comercializada |
+| 84428 | ENOXAPARINA LEDRAXEN 2.000 UI (20 MG)/0,2 ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Venipharm | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

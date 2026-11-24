@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 541
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: al menos 20"
@@ -94,13 +94,19 @@ La evidencia directa sobre bronquitis es limitada y de tamaño reducido (63 y 10
 
 Montelukast figura como comercializado en España. Los datos compilados registran 17 autorizaciones vigentes y 3 canceladas, y la lista puede ser parcial. A continuación se muestran 5 autorizaciones vigentes.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61980 | SINGULAIR 10 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
-| 63673 | SINGULAIR 4 mg comprimidos masticables | Comprimido masticable | No disponible en los datos compilados |
-| 70236 | MONTELUKAST ALTER 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-| 74176 | MONTELUKAST NORMON 4 mg granulado EFG | Granulado | No disponible en los datos compilados |
-| 71407 | MONTELUKAST QUALIGEN 5 mg comprimidos masticables EFG | Comprimido masticable | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 72593 | MONTELUKAST STADA 4 mg COMPRIMIDOS MASTICABLES EFG | COMPRIMIDO MASTICABLE | Laboratorio Stada S.L. | Comercializada |
+| 71407 | MONTELUKAST QUALIGEN 5 mg COMPRIMIDOS MASTICABLES EFG | COMPRIMIDO MASTICABLE | Neuraxpharm Spain S.L. | Comercializada |
+| 75844 | MONTELUKAST NORMON 10 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 76680 | MONTELUKAST TEVA-RATIOPHARM 4 MG COMPRIMIDOS MASTICABLES EFG | COMPRIMIDO MASTICABLE | Teva Pharma S.L.U. | Comercializada |
+| 71408 | PLURALAIS 5 mg COMPRIMIDOS MASTICABLES EFG | COMPRIMIDO MASTICABLE | Laboratorios Alter S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

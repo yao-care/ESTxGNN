@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 758
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tacrolimus: nueva indicación predicha, Dermatitis seborreica (nivel de evidencia L1). Indicación original: Dermatitis atópica (eccema atópico)"
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
@@ -103,13 +103,19 @@ Los textos de indicación aprobada no figuran en los datos compilados. Se muestr
 
 <!-- review:end es-lic-20261105-tacrolimus-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 02201004 | Protopic 0,1% pomada | Pomada | No disponible en los datos |
-| 02201003 | Protopic 0,1% pomada | Pomada | No disponible en los datos |
-| 82803 | Cellmune 1 mg/g pomada | Pomada | No disponible en los datos |
-| 61004 | Prograf 5 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos |
-| 07387014 | Advagraf 0,5 mg cápsulas duras de liberación prolongada | Cápsula dura de liberación prolongada | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 88081 | TACROLIMUS STADAFARMA 5 MG CAPSULAS DURAS DE LIBERACION PROLONGADA EFG | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Laboratorio Stada S.L. | Comercializada |
+| 02201004 | PROTOPIC 0,1% POMADA | POMADA | Leo Pharma A/S | Comercializada |
+| 114935005 | Envarsus 1mg comprimidos de liberacion prolongada | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Chiesi Farmaceutici S.P.A. | Comercializada |
+| 07387014 | ADVAGRAF 0,5 MG CAPSULAS DURAS DE LIBERACION PROLONGADA | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Astellas Pharma Europe B.V. | Comercializada |
+| 84631 | CONFEROPORT 3 MG CAPSULAS DURAS DE LIBERACION PROLONGADA EFG | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Sandoz Farmaceutica S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

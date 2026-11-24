@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 370
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ganirelix: nueva indicación predicha, Hipertricosis (nivel de evidencia L5). Indicación original: No disponible en las autorizaciones de la AEMPS (el texto de indicaci…"
 monitor_inn: "GANIRELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial male-limited precocious puberty", "persistent fetal circulation syndrome", "aromatase excess syndrome", "centra precocious puberty 1", "familial isolated trichomegaly"]
@@ -81,13 +81,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 78205 | Fyremadel 0,25 mg/0,5 ml solución inyectable en jeringa precargada EFG | Solución inyectable | No especificada |
-| 1221658001 | Ganirelix Gedeon Richter 0,25 mg/0,5 ml solución inyectable en jeringa precargada EFG | Solución inyectable en jeringa precargada | No especificada |
-| 86368 | Astarte 0,25 mg/0,5 ml solución inyectable en jeringa precargada EFG | Solución inyectable en jeringa precargada | No especificada |
-| 00130001 | Orgalutran 0,25 mg/0,5 ml solución inyectable | Solución inyectable en jeringa precargada | No especificada |
-| 00130002 | Orgalutran 0,25 mg/0,5 ml solución inyectable | Solución inyectable en jeringa precargada | No especificada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1221658001 | GANIRELIX GEDEON RICHTER 0,25 MG/0,5 ML SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Gedeon Richter Plc. | Comercializada |
+| 86368 | ASTARTE 0,25 MG/0,5 ML SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Gp Pharm S.A. | Comercializada |
+| 00130001 | ORGALUTRAN 0,25 MG/0,5 ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Organon N.V. | Comercializada |
+| 00130002 | ORGALUTRAN 0,25 MG/0,5 ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Organon N.V. | Comercializada |
+| 78205 | FYREMADEL 0,25 MG / 0,5 ML SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE | Sun Pharmaceutical Industries (Europe) B.V. | Suspendida |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

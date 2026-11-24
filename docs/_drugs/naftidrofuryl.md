@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 550
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "naftidrofuryl"
 predicted_indications: ["stroke disorder"]
 description: "Naftidrofuryl: nueva indicación predicha, Ictus (stroke disorder) (nivel de evidencia L1). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0)"
@@ -83,9 +83,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 54807 | PRAXILENE 100 mg, CÁPSULAS | Cápsula dura | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 54807 | PRAXILENE 100 mg, CAPSULAS | CÁPSULA DURA | Faes Farma S.A. | Revocada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

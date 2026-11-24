@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 642
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Piperacillin: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "piperacillin"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
@@ -104,13 +104,24 @@ El texto de la indicación aprobada no figura en los datos compilados.
 
 <!-- review:end es-lic-20261105-piperacillin-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 67902 | Piperacilina/Tazobactam Accord 2/0,25 g EFG | Polvo y disolvente para solución para perfusión | No disponible |
-| 67903 | Piperacilina/Tazobactam Accord 4/0,5 g EFG | Polvo para solución para perfusión | No disponible |
-| 71824 | Piperacilina/Tazobactam Aurovitas 4 g/0,5 g EFG | Polvo para solución para perfusión | No disponible |
-| 86582 | Piperacilina/Tazobactam Stada 4 g/0,5 g EFG | Polvo para solución para perfusión | No disponible |
-| 78656 | Piperacilina/Tazobactam Normon 2 g/0,25 g EFG | Polvo para solución inyectable y para perfusión | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 71824 | PIPERACILINA/TAZOBACTAM AUROVITAS 4 g/0,5 g POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Eugia Pharma (Malta) Limited | Comercializada |
+| 71601 | PIPERACILINA/TAZOBACTAM KABI 4 g/0,5 g POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Comercializada |
+| 88989 | PIPERACILINA/TAZOBACTAM QILU 4 G/0,5 G POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Qilu Pharma Spain S.L. | Comercializada |
+| 88988 | PIPERACILINA/TAZOBACTAM QILU 2 G/0,25 G POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Qilu Pharma Spain S.L. | Comercializada |
+| 71600 | PIPERACILINA/TAZOBACTAM KABI 2 g/0,25 g POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Comercializada |
+| 71286 | PIPERACILINA/TAZOBACTAM SANDOZ 4 G/0,5 G POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Sandoz Farmaceutica S.A. | Comercializada |
+| 89485 | PIPERACILINA/TAZOBACTAM ACCORD HEALTHCARE 4 G/0,5 G POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 71826 | PIPERACILINA/TAZOBACTAM AUROVITAS 2 g/0,25 g POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Eugia Pharma (Malta) Limited | Comercializada |
+| 89486 | PIPERACILINA/TAZOBACTAM ACCORD HEALTHCARE 2 G/0,25 G POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Autorizada, no comercializada |
+| 89690 | PITAZ 2 G/0,25 G POLVO PARA SOLUCIÓN PARA PERFUSIÓN EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Medochemie Limited | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

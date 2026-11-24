@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 200
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CLOPIDOGREL"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]
 description: "Clopidogrel: nueva indicación predicha, Migraña con aura del tronco encefálico (migraine with brainstem aura) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -102,13 +102,24 @@ Los textos de indicación aprobada no están disponibles para estas autorizacion
 
 <!-- review:end es-lic-20261105-clopidogrel-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 98069001AIP1 | PLAVIX 75 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 98069009 | PLAVIX 300 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 98070001 | ISCOVER 75 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 98070009 | ISCOVER 300 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 72537 | AGRELAN 75 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 109556003 | CLOPIDOGREL KRKA 75 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Krka D.D. Novo Mesto | Comercializada |
+| 98069009 | PLAVIX 300 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sanofi Winthrop Industrie | Comercializada |
+| 89625 | CLOPIDOGREL MABO-FARMA 75 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Mabo Farma S.A. | Comercializada |
+| 76987 | CLOPIDOGREL AUROVITAS 75 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 109556004 | CLOPIDOGREL KRKA 75 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Krka D.D. Novo Mesto | Comercializada |
+| 98070001 | ISCOVER 75 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sanofi Winthrop Industrie | Comercializada |
+| 71676 | CLOPIDOGREL ALTER 75 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Alter S.A. | Comercializada |
+| 71774 | CLOPIDOGREL ALMUS 75 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Almus Farmaceutica S.A.U. | Comercializada |
+| 77638 | CLOPIDOGREL SUN 75 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
+| 9555001 | CLOPIDOGREL TAD 75 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tad Pharma Gmbh | Autorizada, no comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

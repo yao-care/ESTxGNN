@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 669
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
 description: "Propofol: nueva indicación predicha, Migraña (migraine disorder) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 19 (comercializadas: 8; autorizadas no comercializadas: 4)"
@@ -64,7 +64,7 @@ La relación con la indicación original es farmacológica más que clínica: un
 
 <!-- review:begin es-lic-20261105-propofol-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamento único)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 19 autorizaciones (comercializadas: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamento único)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-propofol-1 -->
 
@@ -93,13 +93,24 @@ La relación con la indicación original es farmacológica más que clínica: un
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 76392 | Propofol Sandoz 20 mg/ml | Emulsión inyectable y para perfusión | No disponible |
-| 70956 | Propofol Lipuro 5 mg/ml | Emulsión inyectable y para perfusión | No disponible |
-| 89617 | Propofol Farmak 20 mg/ml | Emulsión inyectable y para perfusión | No disponible |
-| 62134 | Propofol Fresenius 10 mg/ml | Emulsión inyectable y para perfusión | No disponible |
-| 60744 | Diprivan 20 mg/ml | Emulsión inyectable y para perfusión | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 70956 | PROPOFOL LIPURO 5 mg/ml EMULSIÓN INYECTABLE Y PARA PERFUSIÓN | EMULSIÓN INYECTABLE Y PARA PERFUSIÓN | B. Braun Melsungen Ag | Comercializada |
+| 67164 | PROPOFOL LIPOVEN FRESENIUS 10 mg/ml EMULSION INYECTABLE Y PARA PERFUSION | EMULSIÓN INYECTABLE Y PARA PERFUSIÓN | Fresenius Kabi Deutschland Gmbh | Comercializada |
+| 84394 | PROPOFOL BAXTER 10MG/ML EMULSION INYECTABLE Y PARA PERFUSION EFG | EMULSIÓN INYECTABLE Y PARA PERFUSIÓN | Baxter Holding B.V. | Comercializada |
+| 62953 | PROPOFOL LIPURO 10 mg/ml EMULSIÓN INYECTABLE Y PARA PERFUSIÓN | EMULSIÓN INYECTABLE Y PARA PERFUSIÓN | B. Braun Melsungen Ag | Comercializada |
+| 60744 | DIPRIVAN 20 mg/ml EMULSION PARA PERFUSION | EMULSIÓN INYECTABLE Y PARA PERFUSIÓN | Aspen Pharma Trading Limited | Comercializada |
+| 67216 | PROPOFOL LIPOVEN FRESENIUS 20 mg/ml EMULSION INYECTABLE Y PARA PERFUSION | EMULSIÓN INYECTABLE Y PARA PERFUSIÓN | Fresenius Kabi Deutschland Gmbh | Comercializada |
+| 64868 | PROPOFOL LIPURO 20 mg/ml EMULSIÓN INYECTABLE y PARA PERFUSIÓN | EMULSIÓN INYECTABLE Y PARA PERFUSIÓN | B. Braun Melsungen Ag | Comercializada |
+| 84395 | PROPOFOL BAXTER 20MG/ML EMULSION INYECTABLE Y PARA PERFUSION EFG | EMULSIÓN INYECTABLE Y PARA PERFUSIÓN | Baxter Holding B.V. | Comercializada |
+| 89617 | PROPOFOL FARMAK 20 MG/ML EMULSION INYECTABLE Y PARA PERFUSION EFG | EMULSIÓN INYECTABLE Y PARA PERFUSIÓN | Farmak International Sp. Z O.O. | Autorizada, no comercializada |
+| 89616 | PROPOFOL FARMAK 10 MG/ML EMULSION INYECTABLE Y PARA PERFUSION EFG | EMULSIÓN INYECTABLE Y PARA PERFUSIÓN | Farmak International Sp. Z O.O. | Autorizada, no comercializada |
+
+Se muestran 10 de 19 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -137,7 +148,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamento único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamento único)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Diprivan (propofol) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3105799-a4b6-f3f4-e6e2-b2b29bbdb538) |
 
 <!-- review:end log -->

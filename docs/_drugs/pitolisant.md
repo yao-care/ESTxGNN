@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 646
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PITOLISANT"
 predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome"]
 description: "Pitolisant: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 2; autorizadas no comercializadas: 2)"
@@ -82,12 +82,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1211546002 | OZAWADE 18 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 1151068001 | WAKIX 4,5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 1151068002 | WAKIX 18 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 1211546001 | OZAWADE 4,5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1151068001 | WAKIX 4,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Bioprojet Pharma | Comercializada |
+| 1151068002 | WAKIX 18 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Bioprojet Pharma | Comercializada |
+| 1211546002 | OZAWADE 18 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Bioprojet Pharma | Autorizada, no comercializada |
+| 1211546001 | OZAWADE 4,5 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Bioprojet Pharma | Autorizada, no comercializada |
+
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

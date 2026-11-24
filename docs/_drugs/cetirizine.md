@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 166
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Cetirizine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
 description: "Cetirizine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -92,13 +92,19 @@ Las 5 principales:
 
 <!-- review:end es-lic-20261105-cetirizine-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 64869 | Cetirizina Teva-Ratiopharm 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No especificada en los datos compilados |
-| 60279 | Zyrtec 1 mg/ml solución oral | Solución oral | No especificada en los datos compilados |
-| 66778 | Cetirizina Zentiva 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No especificada en los datos compilados |
-| 62787 | Alerlisin 1 mg/ml solución oral | Solución oral | No especificada en los datos compilados |
-| 68460 | Cetirizina Sandoz 10 mg/ml gotas orales en solución EFG | Gotas orales en solución | No especificada en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 64869 | CETIRIZINA TEVA-RATIOPHARM 10 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Pharma S.L.U. | Comercializada |
+| 60279 | ZYRTEC 1 mg/ml SOLUCION ORAL | SOLUCIÓN ORAL | Ucb Pharma S.A. | Comercializada |
+| 66778 | CETIRIZINA ZENTIVA 10 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Zentiva K.S. | Comercializada |
+| 62787 | ALERLISIN 1 mg/ml SOLUCION ORAL | SOLUCIÓN ORAL | Retrain, S.A.U. | Comercializada |
+| 66826 | CETIRIZINA ALTER 10 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Alter S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 725
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "sapropterin"
 predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome"]
 description: "Sapropterin: nueva indicación predicha, Trastorno del metabolismo de la tirosina (disorder of tyrosine metabolism) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 6; autorizadas no comercializadas: 2)"
@@ -83,13 +83,19 @@ Ninguna de las publicaciones recuperadas estudia directamente el trastorno del m
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 08481002 | KUVAN 100 mg, comprimidos solubles | Comprimido | No disponible en los datos compilados |
-| 1211620004 | Sapropterina Dipharma 500 mg polvo para solución oral EFG | Polvo para solución oral | No disponible en los datos compilados |
-| 1211620001 | Sapropterina Dipharma 100 mg comprimidos solubles EFG | Comprimido soluble | No disponible en los datos compilados |
-| 89442 | Sapropterina Stada 100 mg comprimidos solubles EFG | Comprimido soluble | No disponible en los datos compilados |
-| 88742 | Sapropterina Aurovitas 100 mg comprimidos solubles EFG | Comprimido soluble | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 08481002 | KUVAN 100 mg, COMPRIMIDOS SOLUBLES | COMPRIMIDO | Biomarin International Limited | Comercializada |
+| 1211620004 | SAPROPTERINA DIPHARMA 500 MG POLVO PARA SOLUCION ORAL EFG | POLVO PARA SOLUCIÓN ORAL | Dipharma Arzneimittel Gmbh | Comercializada |
+| 89442 | SAPROPTERINA STADA 100 MG COMPRIMIDOS SOLUBLES EFG | COMPRIMIDO SOLUBLE | Laboratorio Stada S.L. | Comercializada |
+| 89850 | SAPROPTERINA TARBIS 100 MG COMPRIMIDOS SOLUBLES EFG | COMPRIMIDO SOLUBLE | Tarbis Farma S.L. | Comercializada |
+| 87916 | SAPROPTERINA TEVA 100 MG COMPRIMIDOS SOLUBLES EFG | COMPRIMIDO SOLUBLE | Teva Pharma S.L.U. | Comercializada |
+
+Se muestran 5 de 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 La lista muestra las cinco autorizaciones principales; el texto de indicación aprobada no figura en los datos locales.
 

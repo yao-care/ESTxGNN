@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 512
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Methotrexate: nueva indicación predicha, Pulmonary blastoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -115,13 +115,19 @@ El texto de indicación aprobada no figura en los datos compilados. Se muestran 
 
 <!-- review:end es-lic-20261105-methotrexate-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 40698 | Metotrexato Wyeth 2,5 mg comprimidos | Comprimido | No disponible en los datos compilados |
-| 57241 | Metotrexato Wyeth 25 mg/ml solución inyectable | Solución inyectable | No disponible en los datos compilados |
-| 71107 | Metoject 7,5 mg/0,15 ml | Solución inyectable en jeringa precargada | No disponible en los datos compilados |
-| 78631 | Metoject Pen 30 mg | Solución inyectable en pluma precargada | No disponible en los datos compilados |
-| 80860 | Methofill 7,5 mg/0,15 ml EFG | Solución inyectable en jeringa precargada | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 80860 | METHOFILL 7,5 MG/ 0,15 ML SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Accord Healthcare S.L.U. | Comercializada |
+| 79558 | IMETH 25 MG/1ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Nordic Group B.V. | Comercializada |
+| 79126 | QUINUX 10 MG/0,4 ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Especialidades Farmaceuticas Centrum S.A. | Comercializada |
+| 71785 | BERTANEL 15 mg/1,5 ml SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Ebewe Pharma Ges.M.B.H. Nfg.Kg | Comercializada |
+| 85490 | METHOFILL PEN 22,5MG/0,45 ML SOLUCION INYECTABLE EN PLUMA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Accord Healthcare S.L.U. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 

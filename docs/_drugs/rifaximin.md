@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 700
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "rifaximin"
 predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "oral leukoedema", "burning mouth syndrome", "candidiasis"]
 description: "Rifaximin: nueva indicación predicha, Oral candidiasis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 3; autorizadas no comercializadas: 2)"
@@ -75,13 +75,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 62250 | SPIRAXIN 200 mg comprimidos recubiertos con película | Comprimido recubierto | No disponible en los datos |
-| 12333201901 | SPIRAXIN 200 mg comprimidos recubiertos con película | Comprimido recubierto | No disponible en los datos |
-| 77627 | TIXTAR 550 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-| 77626 | TIXTELLER 550 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-| 90543 | SPIRAXIN 400 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 62250 | SPIRAXIN 200 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO | Alfasigma S.P.A. | Comercializada |
+| 77627 | TIXTAR 550 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Alfasigma S.P.A. | Comercializada |
+| 77626 | TIXTELLER 550 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Alfasigma Espana S.L. | Comercializada |
+| 12333201901 | SPIRAXIN 200 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO | Alfasigma S.P.A. | Autorizada, no comercializada |
+| 90543 | SPIRAXIN 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Alfasigma S.P.A. | Autorizada, no comercializada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

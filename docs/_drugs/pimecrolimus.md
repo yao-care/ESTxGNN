@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 637
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PIMECROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
 description: "Pimecrolimus: nueva indicación predicha, Dermatitis seborreica (seborrheic dermatitis) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
@@ -85,9 +85,15 @@ Las revisiones sistemáticas de ensayos aleatorizados concluyen que pimecrolimus
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 65029 | ELIDEL 10 mg/g CREMA (Viatris Healthcare Limited) | Crema | Texto de indicación no disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 65029 | ELIDEL 10 mg/g CREMA | CREMA | Viatris Healthcare Limited | Comercializada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

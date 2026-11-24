@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 237
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Desvenlafaxine: nueva indicación predicha, Trastorno obsesivo-compulsivo (nivel de evidencia L4). Indicación original: Trastorno depresivo mayor"
 monitor_inn: "Desvenlafaxine"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -91,17 +91,23 @@ Los datos compilados no incluyen el texto de la indicación aprobada. Se muestra
 
 <!-- review:begin es-lic-20261105-desvenlafaxine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 16 autorizaciones vigentes, todas de monofármaco y en forma de comprimido de liberación prolongada. Los datos compilados no incluyen el texto de la indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 16 autorizaciones (comercializadas: 14); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 16 autorizaciones vigentes, todas de monofármaco y en forma de comprimido de liberación prolongada. Los datos compilados no incluyen el texto de la indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-desvenlafaxine-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 75560 | PRISTIQ 50 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | Pfizer S.L. |
-| 75561 | PRISTIQ 100 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | Pfizer S.L. |
-| 75553 | ENZUDE 50 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | Pfizer S.L. |
-| 75554 | ENZUDE 100 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | Pfizer S.L. |
-| 86730 | EXITAL 100 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | Laboratorios Alter S.A. |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 86730 | EXITAL 100 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Laboratorios Alter S.A. | Comercializada |
+| 89361 | DESVENLAFAXINA NORMON 100 MG COMPRIMIDOS DE LIBERACIÓN PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Laboratorios Normon S.A. | Comercializada |
+| 75561 | PRISTIQ 100 mg COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Pfizer S.L. | Comercializada |
+| 86733 | EXITAL 50 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Laboratorios Alter S.A. | Comercializada |
+| 86688 | DESVENLAFAXINA ALTER 50 MG COMPRIMIDOS DE LIBERACION PROLONGADA EFG | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Laboratorios Alter S.A. | Comercializada |
+
+Se muestran 5 de 16 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 
@@ -136,7 +142,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Hay 16 autorizaciones vigentes, todas de monofármaco y en forma de comprimido de liberación prolongada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Hay 16 autorizaciones vigentes, todas de monofármaco y en forma de comprimido de liberación prolongada" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Pristiq Extended-Release (desvenlafaxine succinate) prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f43610c-f290-46ea-d186-4f998ed99fce) |
 
 <!-- review:end log -->

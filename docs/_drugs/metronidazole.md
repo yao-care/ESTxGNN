@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 520
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 description: "Metronidazole: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 17 (comercializadas: 12; autorizadas no comercializadas: 2)"
@@ -92,19 +92,30 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 62224 | Metronidazol Normon 5 mg/ml solución para perfusión EFG | Solución para perfusión | No disponible |
-| 85883 | Metronidazol Montvel 250 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-| 60536 | Rozex 7,5 mg/g gel | Gel | No disponible |
-| 59325 | Flagyl 1500 mg solución para perfusión | Solución para perfusión | No disponible |
-| 34985 | Flagyl 500 mg comprimidos vaginales | Comprimido vaginal | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 62224 | METRONIDAZOL NORMON 5 MG/ML SOLUCIÓN PARA PERFUSIÓN EFG | SOLUCIÓN PARA PERFUSIÓN | Laboratorios Normon S.A. | Comercializada |
+| 60536 | ROZEX 7,5 MG/G GEL | GEL | Laboratorios Galderma S.A. | Comercializada |
+| 34985 | FLAGYL 500 mg COMPRIMIDOS VAGINALES | COMPRIMIDO VAGINAL | Laboratorios Fidia Farmaceutica S.L. | Comercializada |
+| 68162 | METRONIDAZOL SERRACLINICS 5mg/ml SOLUCION PARA PERFUSION EFG | SOLUCIÓN PARA PERFUSIÓN | Laboratorios Serra Pamies S.A. | Comercializada |
+| 47656 | FLAGYL 125mg/5 ml SUSPENSION ORAL | SUSPENSIÓN ORAL | Laboratorios Fidia Farmaceutica S.L. | Comercializada |
+| 89284 | INTIZOL VAGINAL 1.000 MG OVULOS | ÓVULO | Seid S.A. | Comercializada |
+| 84614 | METRONIDAZOL AUROVITAS 250 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 63884 | METRONIDAZOL VIÑAS 7,5 MG/G GEL | GEL | Laboratorios Vinas S.A. | Comercializada |
+| 68091 | METRONIDAZOL ALTAN 5 MG/ML SOLUCION PARA PERFUSION EFG | SOLUCIÓN PARA PERFUSIÓN | Altan Pharmaceuticals Sa | Comercializada |
+| 62223 | METRONIDAZOL NORMON 250 mg COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Normon S.A. | Comercializada |
+
+Se muestran 10 de 17 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Incluyen formas de perfusión, orales, vaginales y tópicas.
 
 <!-- review:begin es-lic-20261105-metronidazole-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 17 autorizaciones vigentes (todas de monofármaco). Incluyen formas de perfusión, orales, vaginales y tópicas." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 17 autorizaciones (comercializadas: 12); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 17 autorizaciones vigentes (todas de monofármaco). Incluyen formas de perfusión, orales, vaginales y tópicas." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-metronidazole-1 -->
 
@@ -142,7 +153,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Se muestran 5 de las 17 autorizaciones vigentes (todas de monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-24 | Eliminado: "Se muestran 5 de las 17 autorizaciones vigentes (todas de monofármaco)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: metronidazole prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49360d6f-c8b3-420e-af75-154cf7b05255) |
 
 <!-- review:end log -->

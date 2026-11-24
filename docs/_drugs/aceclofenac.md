@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Aceclofenac"
 predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx", "Kummell disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Aceclofenac: nueva indicación predicha, síndrome de braquiolmia-amelogénesis imperfecta (brachyolmia-amelogenesis imperfecta syndrome) (nivel de evidencia L5). Indicación original: No consta en los d…"
 ---
 
@@ -74,13 +74,24 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay 10 autorizaciones vigentes y 6 canceladas según los datos locales. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 70982 | ACECLOFENACO AUROVITAS SPAIN 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No registrada en los datos locales |
-| 69551 | ARACENAC 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No registrada en los datos locales |
-| 59026 | GERBIN 100 mg comprimidos recubiertos con película | Comprimido recubierto | No registrada en los datos locales |
-| 60695 | AIRTAL 100 mg polvo para suspensión oral | Polvo para suspensión oral | No registrada en los datos locales |
-| 60191 | AIRTAL DIFUCREM 15 mg/g crema | Crema | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 69551 | ARACENAC 100 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Arafarma Group S.A. | Comercializada |
+| 79696 | ACECLOFENACO STADA 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+| 67487 | ACECLOFENACO KERN PHARMA 100 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Comercializada |
+| 69223 | ACECLOFENACO CINFA 100 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+| 71437 | ACECLOFENACO NORMON 100 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 59026 | GERBIN 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO | Laboratorios Almirall S.L. | Comercializada |
+| 74653 | ACECLOFENACO VIR 100 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Industria Quimica Y Farmaceutica Vir S.A. | Comercializada |
+| 59024 | AIRTAL 100 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Almirall S.A. | Comercializada |
+| 60695 | AIRTAL 100 mg POLVO PARA SUSPENSION ORAL | POLVO PARA SUSPENSIÓN ORAL | Almirall S.A. | Comercializada |
+| 60191 | AIRTAL DIFUCREM 15 mg/g CREMA | CREMA | Almirall S.A. | Comercializada |
+
+Se muestran 10 de 16 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

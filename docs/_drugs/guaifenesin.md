@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 387
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Guaifenesin"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
 description: "Guaifenesin: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"
@@ -83,11 +83,17 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 60356 | FORMULAEXPEC 13,33 mg/ml JARABE SABOR MIEL | Jarabe | No disponible |
-| 75546 | INISTON MUCOSIDAD 20 mg/ml SOLUCIÓN ORAL SABOR MENTA | Jarabe | No disponible |
-| 44990 | FRISPEC 6,5 mg/ml JARABE | Solución oral | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 60356 | FORMULAEXPEC 13,33 mg/ml JARABE SABOR MIEL | JARABE | Laboratorios Vicks S.L. | Comercializada |
+| 75546 | INISTON MUCOSIDAD 20mg/ml SOLUCION ORAL SABOR MENTA | JARABE | Jntl Consumer Health (Spain) S.L. | Comercializada |
+| 44990 | FRISPEC 6,5 mg/ml JARABE | SOLUCIÓN ORAL | Farline Comercializadora De Productos Farmaceuticos S.A. | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ---
 

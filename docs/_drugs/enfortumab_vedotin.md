@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 289
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Enfortumab Vedotin: nueva indicación predicha, Lepra (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (el texto de indicación de las…"
 monitor_inn: "enfortumab vedotin"
 predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "malignant catarrh", "infectious bovine rhinotracheitis"]
@@ -71,13 +71,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1211615001 | PADCEV 20 mg polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión | No disponible |
-| 1211615001IP | PADCEV 20 mg polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión | No disponible |
-| 1211615002 | PADCEV 30 mg polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión | No disponible |
-| 1211615002IP | PADCEV 30 mg polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión | No disponible |
-| 1211615002IP1 | PADCEV 30 mg polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 1211615001 | PADCEV 20 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Astellas Pharma Europe B.V. | Comercializada |
+| 1211615002 | PADCEV 30 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Astellas Pharma Europe B.V. | Comercializada |
+| 1211615002IP1 | PADCEV 30 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Astellas Pharma Europe B.V. | Comercializada |
+| 1211615001IP | PADCEV 20 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Astellas Pharma Europe B.V. | Autorizada, no comercializada |
+| 1211615002IP | PADCEV 30 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Astellas Pharma Europe B.V. | Autorizada, no comercializada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Titular: Astellas Pharma Europe B.V. Las 5 autorizaciones son de medicamento único y están vigentes.
 

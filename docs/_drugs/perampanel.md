@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 626
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "PERAMPANEL"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Perampanel: nueva indicación predicha, Beta-ketothiolase deficiency (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
@@ -96,13 +96,19 @@ Ninguna de estas publicaciones es específica de epilepsia visual. Se muestran c
 
 Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo, ninguna cancelada). Los textos de indicación aprobada no figuran en los datos compilados.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 12776001 | FYCOMPA 2 mg comprimidos recubiertos con película | Comprimido recubierto con película | Eisai GmbH |
-| 12776003IP | FYCOMPA 4 mg comprimidos recubiertos con película | Comprimido recubierto con película | Eisai GmbH |
-| 12776006IP | FYCOMPA 6 mg comprimidos recubiertos con película | Comprimido recubierto con película | Eisai GmbH |
-| 12776015 | FYCOMPA 12 mg comprimidos recubiertos con película | Comprimido recubierto con película | Eisai GmbH |
-| 112776024 | FYCOMPA 0,5 mg/ml suspensión oral | Suspensión oral | Eisai GmbH |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 90394 | PERAMPANEL CINFA 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+| 91018 | PERAMPANEL COMBIX 6 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 12776015 | FYCOMPA 12 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Eisai Gmbh | Comercializada |
+| 91019 | PERAMPANEL COMBIX 8 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Combix S.L.U. | Comercializada |
+| 90389 | PERAMPANEL CINFA 6 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 Además del original, hay genéricos (EFG) de Cinfa, Combix, Elpen, Teva y Vivanta.
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 176
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Chlorthalidone"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "acute pulmonary heart disease", "congenital hypotrichosis milia"]
 description: "Chlorthalidone: nueva indicación predicha, Glaucoma hereditario primario (primary hereditary glaucoma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 1; autorizadas no comercializadas: 3)"
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 89953 | CLORTALIDONA GLENMARK 12,5 MG COMPRIMIDOS | Comprimido | No disponible en los datos |
-| 89952 | CLORTALIDONA GLENMARK 50 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos |
-| 89954 | CLORTALIDONA GLENMARK 25 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos |
-| 45843 | HIGROTONA 50 mg comprimidos | Comprimido | No disponible en los datos |
-| 83330 | CLORTALIDONA TECNIGEN 50 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 45843 | HIGROTONA 50 mg comprimidos | COMPRIMIDO | Amdipharm Limited | Comercializada |
+| 89953 | CLORTALIDONA GLENMARK 12,5 MG COMPRIMIDOS | COMPRIMIDO | Glenmark Arzneimittel Gmbh | Autorizada, no comercializada |
+| 89952 | CLORTALIDONA GLENMARK 50 MG COMPRIMIDOS EFG | COMPRIMIDO | Glenmark Arzneimittel Gmbh | Autorizada, no comercializada |
+| 89954 | CLORTALIDONA GLENMARK 25 MG COMPRIMIDOS EFG | COMPRIMIDO | Glenmark Arzneimittel Gmbh | Autorizada, no comercializada |
+| 83330 | CLORTALIDONA TECNIGEN 50 MG COMPRIMIDOS EFG | COMPRIMIDO | Tecnimede España Industria Farmaceutica S.A. | Revocada |
+
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

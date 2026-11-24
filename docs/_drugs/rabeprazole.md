@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 676
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Rabeprazole: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -73,30 +73,34 @@ El modelo de aprendizaje profundo TxGNN (puntuación ≥ 0,99) generó candidato
 
 ## Información de Mercado en España
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 76934 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Cancelado |
-| 034216186 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
-| BE199692IP1 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
-| 75791 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
-| 3400935514790 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
-| 3247308042014 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
-| 76969 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Cancelado |
-| 83465 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
-| 75481 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
-| 72744 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
-| 62461 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
-| 73898 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Cancelado |
-| 75440 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
-| 3247308042014IP1 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Autorizado, no comercializado |
-| 3247308042014IP | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
-| 355147-9IP | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
-| 73505 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
-| 76198 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Cancelado |
-| 76936 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Autorizado, no comercializado |
-| 355147-9 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
+<!-- licenses:begin -->
 
-Los datos solo contienen parte de los registros; la lista puede estar incompleta.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 034216186 | PARIET 20 MG COMPRIMIDOS GASTRORRESISTENTES | COMPRIMIDO GASTRORRESISTENTE | Janssen Cilag S.P.A. | Comercializada |
+| BE199692IP1 | PARIET 10 MG COMPRIMIDOS GASTRORRESISTENTES | COMPRIMIDO GASTRORRESISTENTE | Janssen-Cilag | Comercializada |
+| 75791 | RABEPRAZOL TEVA-RATIO 10 mg COMPRIMIDOS GASTRORRESISTENTES EFG | COMPRIMIDO GASTRORRESISTENTE | Teva Pharma S.L.U. | Comercializada |
+| 3400935514790 | PARIET 20 MG COMPRIMIDOS GASTRORRESISTENTES | COMPRIMIDO GASTRORRESISTENTE | Janssen-Cilag | Comercializada |
+| 3247308042014 | PARIET 20 MG COMPRIMIDOS GASTRORRESISTENTES | COMPRIMIDO GASTRORRESISTENTE | Janssen Cilag Pharmaceutical S.A.C.I. | Comercializada |
+| 83465 | RABEPRAZOL KRKA 10 MG COMPRIMIDOS GASTRORRESISTENTES EFG | COMPRIMIDO GASTRORRESISTENTE | Krka D.D. Novo Mesto | Comercializada |
+| 75481 | RABEPRAZOL QUALIGEN 20 mg COMPRIMIDOS GASTRORRESISTENTES EFG | COMPRIMIDO GASTRORRESISTENTE | Neuraxpharm Spain S.L. | Comercializada |
+| 72744 | RABEPRAZOL CINFA 20 MG COMPRIMIDOS GASTRORRESISTENTES EFG | COMPRIMIDO GASTRORRESISTENTE | Laboratorios Cinfa S.A. | Comercializada |
+| 62461 | PARIET 10 mg COMPRIMIDOS GASTRORRESISTENTES | COMPRIMIDO GASTRORRESISTENTE | Janssen Cilag S.A. | Comercializada |
+| 75440 | RABEPRAZOL STADA 10 MG COMPRIMIDOS GASTRORRESISTENTES EFG | COMPRIMIDO GASTRORRESISTENTE | Laboratorio Stada S.L. | Comercializada |
+| 3247308042014IP | PARIET 20 mg COMPRIMIDOS GASTRORRESISTENTES | COMPRIMIDO GASTRORRESISTENTE | Janssen Cilag Pharmaceutical S.A.C.I. | Comercializada |
+| 355147-9IP | PARIET 20 MG COMPRIMIDOS GASTRORRESISTENTES | COMPRIMIDO GASTRORRESISTENTE | Janssen-Cilag | Comercializada |
+| 73505 | RABEPRAZOL SANDOZ 10 mg COMPRIMIDOS GASTRORRESISTENTES EFG | COMPRIMIDO GASTRORRESISTENTE | Sandoz Farmaceutica S.A. | Comercializada |
+| 355147-9 | PARIET 20 MG COMPRIMIDOS GASTRORRESISTENTES | COMPRIMIDO GASTRORRESISTENTE | Janssen-Cilag | Comercializada |
+| 3247308042014IP1 | PARIET 20 MG COMPRIMIDOS GASTRORRESISTENTES | COMPRIMIDO GASTRORRESISTENTE | Janssen Cilag Pharmaceutical S.A.C.I. | Autorizada, no comercializada |
+| 76936 | RABEPRAZOL SUN 20 MG COMPRIMIDOS GASTRORRESISTENTES EFG | COMPRIMIDO GASTRORRESISTENTE | Sun Pharmaceutical Industries (Europe) B.V. | Autorizada, no comercializada |
+| 76969 | RABEPRAZOL ALMUS 10 MG COMPRIMIDOS GASTRORRESISTENTES EFG | COMPRIMIDO GASTRORRESISTENTE | Almus Farmaceutica S.A.U. | Suspendida |
+| 76934 | RABEPRAZOL MABO 10 MG COMPRIMIDOS GASTRORRESISTENTES EFG | COMPRIMIDO GASTRORRESISTENTE | Mabo Farma S.A. | Revocada |
+| 73898 | RABEPRAZOL TAD 10 mg COMPRIMIDOS GASTRORRESISTENTES EFG | COMPRIMIDO GASTRORRESISTENTE | Tad Pharma Gmbh | Revocada |
+| 76198 | RABEPRAZOL PENSA 20 MG COMPRIMIDOS GASTRORRESISTENTES EFG | COMPRIMIDO GASTRORRESISTENTE | Towa Pharmaceutical S.A. | Revocada |
+
+Se muestran las 20 autorizaciones con este principio activo recogidas en los datos de CIMA (AEMPS) para este informe; primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

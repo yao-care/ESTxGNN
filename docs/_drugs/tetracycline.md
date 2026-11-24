@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 786
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "tetracycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
 description: "Tetracycline: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locale"
@@ -74,10 +74,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 25697 | TETRACICLINA ITALFARMACO | Comprimido recubierto con película | No disponible |
-| 75095 | PYLERA 140 mg/125 mg/125 mg CÁPSULAS | Cápsula dura | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 75095 | PYLERA 140 mg/125 mg/125 mg CAPSULAS | CÁPSULA DURA | Laboratoires Juvise Pharmaceuticals | Comercializada |
+| 25697 | TETRACICLINA ITALFARMACO | COMPRIMIDO RECUBIERTO CON PELÍCULA | Italfarmaco S.A. | Revocada |
+
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

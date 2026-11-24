@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 118
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Bromfenac: nueva indicación predicha, Enfermedad ocular (categoría amplia) (nivel de evidencia L1). Indicación original: No disponible en las autorizaciones (el texto de indicación está vací…"
 monitor_inn: "bromfenac"
 predicted_indications: ["eye disease", "optic papillitis", "von Hippel anomaly", "mcpherson robertson cammarano syndrome", "vulvar inverted follicular keratosis", "lagophthalmos", "microblepharon-ablephara syndrome", "seborrheic keratosis", "conjunctival degeneration", "luxation of globe"]
@@ -100,13 +100,19 @@ Se muestran las publicaciones más relevantes (de 20 identificadas):
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 11692001IP4 | YELLOX 0,9 mg/ml colirio en solución | Colirio en solución | No disponible en los datos |
-| 11692001 | YELLOX 0,9 mg/ml colirio en solución | Colirio en solución | No disponible en los datos |
-| 16692001IP3 | YELLOX 0,9 mg/ml colirio en solución | Colirio en solución | No disponible en los datos |
-| 90917 | REDENAC 0,9 mg/ml colirio en solución | Colirio en solución | No disponible en los datos |
-| 11692001IP5 | YELLOX 0,9 mg/ml colirio en solución | Colirio en solución | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 11692001IP4 | YELLOX 0,9 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Bausch Health Ireland Limited | Comercializada |
+| 11692001 | YELLOX 0,9 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Bausch + Lomb Ireland Limited | Comercializada |
+| 16692001IP3 | YELLOX 0,9 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Pharmaswiss Ceska Republika S.R.O. | Comercializada |
+| 11692001IP5 | YELLOX 0,9 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Bausch + Lomb Ireland Limited | Comercializada |
+| 11692001IP | YELLOX 0,9mg/ml colirio en solucion | COLIRIO EN SOLUCIÓN | Croma-Pharma Gmbh | Comercializada |
+
+Se muestran 5 de 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 Hay 8 autorizaciones vigentes en total (todas de monofármaco); se listan las 5 principales.
 

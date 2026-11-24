@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 796
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "tioconazole"
 predicted_indications: ["vulvitis", "postmenopausal atrophic vaginitis"]
 description: "Tioconazole: nueva indicación predicha, Vulvitis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 3)"
@@ -87,11 +87,17 @@ Se muestran las publicaciones más relevantes (ECA y revisiones primero). Todas 
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 67439 | TIOCONAZOL KORHISPANA 280 mg/ml BARNIZ DE UÑAS MEDICAMENTOSO EFG | Barniz de uñas medicamentoso | No disponible |
-| 58758 | TROSID 280 mg/ml BARNIZ DE UÑAS MEDICAMENTOSO | Barniz de uñas medicamentoso | No disponible |
-| 70801 | SERNAX 280 mg/ml SOLUCIÓN CUTÁNEA EFG | Solución cutánea | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 67439 | TIOCONAZOL KORHISPANA 280 mg/ml BARNIZ DE UÑAS MEDICAMENTOSO EFG | BARNIZ DE UÑAS MEDICAMENTOSO | Korhispana S.L. | Comercializada |
+| 58758 | TROSID 280 mg/ml BARNIZ DE UÑAS MEDICAMENTOSO | BARNIZ DE UÑAS MEDICAMENTOSO | Pfizer S.L. | Comercializada |
+| 70801 | SERNAX 280 mg/ml SOLUCION CUTANEA EFG | SOLUCIÓN CUTÁNEA | Laboratorios Serra Pamies S.A. | Comercializada |
+
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

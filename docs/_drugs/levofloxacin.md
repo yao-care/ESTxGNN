@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 467
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Levofloxacin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
 description: "Levofloxacin: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5)."
@@ -75,13 +75,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Hay 20 autorizaciones registradas en los datos locales, de las cuales 10 están vigentes; la lista puede ser parcial.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 68868 | Levofloxacino Serraclinics 5 mg/ml solución para perfusión | Solución para perfusión |
-| 74832 | Levofloxacino Aurobindo 500 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 72160 | Levofloxacino Kabi 5 mg/ml solución para perfusión EFG | Solución para perfusión |
-| 69697 | Levofloxacino Normon 500 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 90054 | Neumax 750 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 72160 | LEVOFLOXACINO KABI 5 MG/ML SOLUCION PARA PERFUSION EFG | SOLUCIÓN PARA PERFUSIÓN | Fresenius Kabi España, S.A.U. | Comercializada |
+| 69697 | LEVOFLOXACINO NORMON 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Normon S.A. | Comercializada |
+| 76349 | LEVOFLOXACINO ALTER 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Alter S.A. | Comercializada |
+| 90054 | NEUMAX 750 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Gebro Pharma S.A. | Comercializada |
+| 84399 | MONOFLOX 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Arafarma Group S.A. | Comercializada |
+| 79760 | LEVOFLOXACINO KRKA 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Krka D.D. Novo Mesto | Comercializada |
+| 80897 | LEVOFLOXACINO DERMOGEN 250 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Dermogen-Farma S.A. | Comercializada |
+| 73591 | LEVOFLOXACINO MABO-FARMA 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Mabo Farma S.A. | Comercializada |
+| 73798 | LEVOFLOXACINO QUALIGEN 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Neuraxpharm Spain S.L. | Comercializada |
+| 77073 | LEVOFLOXACINO ALMUS 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Almus Farmaceutica S.A.U. | Comercializada |
+
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 544
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-24
 description: "Moxifloxacin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (nivel de evidencia L5). Indicación original: Infecciones bacterianas (neumonía bacteriana, peritonitis…"
 monitor_inn: "Moxifloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
@@ -90,13 +90,19 @@ Se muestran las 5 principales, que cubren las distintas formas farmacéuticas (o
 
 <!-- review:end es-lic-20261105-moxifloxacin-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 83222 | ACTIRA 400 mg/250 ml solución para perfusión | Solución para perfusión | Bayer Hispania S.L. |
-| 77662 | Moxifloxacino Cinfa 400 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Laboratorios Cinfa S.A. |
-| 78593 | Moxifloxacino Kern Pharma 5 mg/ml colirio en solución | Colirio en solución | Kern Pharma S.L. |
-| 82031 | Moxifloxacino Krka 400 mg/250 ml solución para perfusión EFG | Solución para perfusión | Krka D.D. Novo Mesto |
-| 78336 | ABIOX 400 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Tiedra Farmacéutica S.L. |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 82014 | MOXIFLOXACINO AUROVITAS 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 77662 | MOXIFLOXACINO CINFA 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Cinfa S.A. | Comercializada |
+| 74573 | MOXIFLOXACINO SANDOZ 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Comercializada |
+| 83756 | ERELAN 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Medochemie Limited | Comercializada |
+| 78062 | MOXIFLOXACINO STADA 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorio Stada S.L. | Comercializada |
+
+Se muestran 5 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
+
+<!-- licenses:end -->
 
 ---
 
