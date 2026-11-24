@@ -28084,6 +28084,506 @@
    ],
    "checked": "2026-11-24",
    "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-acetylcysteine-1",
+   "drug": "acetylcysteine",
+   "file": "acetylcysteine.md",
+   "action": "correct",
+   "claim": "Hay al menos 20 autorizaciones registradas, de las cuales 17 constan como válidas; el listado puede ser parcial.",
+   "replacement": "Hay autorizaciones comercializadas, otras autorizadas sin comercializar y algunas revocadas; los datos de este informe solo recogen parte de ellas.",
+   "summary": "«al menos 20 autorizaciones … 17 válidas» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 17、授權未上市 2、撤銷或暫停 1；total_matches 59）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm acetilcisteína）58 張：上市 41、授權未上市 6、暫停 2、撤銷 9",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-aflibercept-1",
+   "drug": "aflibercept",
+   "file": "aflibercept.md",
+   "action": "correct",
+   "claim": "Los datos compilados incluyen al menos 20 autorizaciones y la lista puede ser parcial.",
+   "replacement": "Los datos compilados solo recogen parte de las autorizaciones y la lista puede ser parcial.",
+   "summary": "«al menos 20 autorizaciones» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 15、授權未上市 5、撤銷或暫停 0；total_matches 23）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm aflibercept）25 張：上市 17、授權未上市 8、暫停 0、撤銷 0",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-allopurinol-1",
+   "drug": "allopurinol",
+   "file": "allopurinol.md",
+   "action": "correct",
+   "claim": "Los datos compilados muestran 20 autorizaciones de medicamentos con alopurinol como único principio activo, todos en forma de comprimido (la lista puede ser parcial).",
+   "replacement": "Los datos compilados muestran autorizaciones de medicamentos con alopurinol como único principio activo, todos en forma de comprimido (la lista puede ser parcial).",
+   "summary": "«20 autorizaciones» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 11、授權未上市 4、撤銷或暫停 5；total_matches 33）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm alopurinol）31 張：上市 20、授權未上市 6、暫停 0、撤銷 5",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-ambroxol-1",
+   "drug": "ambroxol",
+   "file": "ambroxol.md",
+   "action": "correct",
+   "claim": "Se registran al menos 20 autorizaciones, todas de producto de un solo principio activo; la lista puede ser parcial.",
+   "replacement": "Todas las autorizaciones recogidas son de producto de un solo principio activo; la lista puede ser parcial.",
+   "summary": "«al menos 20 autorizaciones» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 14、授權未上市 1、撤銷或暫停 5；total_matches 25）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm ambroxol）24 張：上市 17、授權未上市 1、暫停 0、撤銷 6",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-amoxicillin-1",
+   "drug": "amoxicillin",
+   "file": "amoxicillin.md",
+   "action": "correct",
+   "claim": "Los datos compilados muestran al menos 20 autorizaciones, por lo que la lista puede ser parcial.",
+   "replacement": "Los datos compilados solo recogen parte de las autorizaciones, por lo que la lista puede ser parcial.",
+   "summary": "«al menos 20 autorizaciones» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 13、授權未上市 4、撤銷或暫停 3；total_matches 73）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm amoxicilina）73 張：上市 44、授權未上市 6、暫停 6、撤銷 17",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-apixaban-1",
+   "drug": "apixaban",
+   "file": "apixaban.md",
+   "action": "correct",
+   "claim": "Los datos locales incluyen al menos 20 autorizaciones, por lo que esta lista puede ser parcial; solo una figura como vigente y comercializada (Eliquis) y una está cancelada.",
+   "replacement": "Los datos locales solo recogen parte de las autorizaciones, por lo que esta lista puede ser parcial; entre ellas hay autorizaciones comercializadas (como Eliquis), otras autorizadas sin comercializar y alguna revocada.",
+   "summary": "«al menos 20 … solo una figura como vigente y comercializada (Eliquis)» → hay varias comercializadas; sin cifras",
+   "note": "Corregido: según CIMA (AEMPS), hay varias autorizaciones de apixabán comercializadas (además de ELIQUIS, genéricos de otros titulares), otras autorizadas sin comercializar y algunas revocadas; la frase anterior decía que solo una estaba comercializada. Los datos de este informe solo recogen parte de las autorizaciones; las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 10、授權未上市 9、撤銷或暫停 1；total_matches 91）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm apixabán）109 張：上市 50、授權未上市 55、暫停 0、撤銷 4",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-atenolol-1",
+   "drug": "atenolol",
+   "file": "atenolol.md",
+   "action": "correct",
+   "claim": "Se identificaron al menos 20 autorizaciones (la lista puede ser parcial): 15 vigentes y 5 canceladas.",
+   "replacement": "Hay autorizaciones vigentes y otras canceladas (la lista puede ser parcial).",
+   "summary": "«al menos 20 … 15 vigentes y 5 canceladas» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 15、授權未上市 0、撤銷或暫停 5；total_matches 21）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm atenolol）21 張：上市 16、授權未上市 0、暫停 0、撤銷 5",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-brivaracetam-1",
+   "drug": "brivaracetam",
+   "file": "brivaracetam.md",
+   "action": "correct",
+   "claim": "Hay al menos 20 autorizaciones registradas (la lista puede ser parcial).",
+   "replacement": "Los datos de este informe solo recogen parte de las autorizaciones registradas (la lista puede ser parcial).",
+   "summary": "«al menos 20 autorizaciones» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 12、授權未上市 8、撤銷或暫停 0；total_matches 66）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm brivaracetam）90 張：上市 49、授權未上市 41、暫停 0、撤銷 0",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-buprenorphine-1",
+   "drug": "buprenorphine",
+   "file": "buprenorphine.md",
+   "action": "correct",
+   "claim": "Hay al menos 20 autorizaciones registradas, y la lista puede ser parcial.",
+   "replacement": "Los datos de este informe solo recogen parte de las autorizaciones registradas, y la lista puede ser parcial.",
+   "summary": "«al menos 20 autorizaciones» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 9、授權未上市 2、撤銷或暫停 9；total_matches 43）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm buprenorfina）41 張：上市 23、授權未上市 7、暫停 1、撤銷 10",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-captopril-1",
+   "drug": "captopril",
+   "file": "captopril.md",
+   "action": "correct",
+   "claim": "Se registran 20 autorizaciones de medicamentos con captopril como único principio activo (la lista puede ser parcial); 6 figuran como vigentes y 14 como canceladas.",
+   "replacement": "Se registran autorizaciones de medicamentos con captopril como único principio activo (la lista puede ser parcial); unas figuran como vigentes y la mayoría como canceladas.",
+   "summary": "«20 … 6 vigentes y 14 canceladas» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 6、授權未上市 0、撤銷或暫停 14；total_matches 21）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm captopril）18 張：上市 6、授權未上市 0、暫停 0、撤銷 12；另有證據包 3 張已不在 CIMA 清單（撤銷約 5 年後移除，cima_not_listed），合計至少 21 張，多於證據包收錄的 20 張",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-cholecalciferol-1",
+   "drug": "cholecalciferol",
+   "file": "cholecalciferol.md",
+   "action": "correct",
+   "claim": "Los datos disponibles muestran al menos 20 autorizaciones de medicamentos de colecalciferol como principio activo único; la lista puede ser parcial.",
+   "replacement": "Los datos disponibles solo recogen parte de las autorizaciones de medicamentos de colecalciferol como principio activo único; la lista puede ser parcial.",
+   "summary": "«al menos 20 autorizaciones» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 14、授權未上市 1、撤銷或暫停 5；total_matches 69）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm colecalciferol）69 張：上市 40、授權未上市 12、暫停 5、撤銷 12",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-ciprofloxacin-1",
+   "drug": "ciprofloxacin",
+   "file": "ciprofloxacin.md",
+   "action": "correct",
+   "claim": "Hay 13 autorizaciones vigentes, y los registros locales disponibles pueden ser parciales.",
+   "replacement": "Hay autorizaciones vigentes, y los registros locales disponibles pueden ser parciales.",
+   "summary": "«13 autorizaciones vigentes» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 13、授權未上市 1、撤銷或暫停 6；total_matches 66）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm ciprofloxacino）62 張：上市 33、授權未上市 2、暫停 5、撤銷 22",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-fluoxetine-1",
+   "drug": "fluoxetine",
+   "file": "fluoxetine.md",
+   "action": "correct",
+   "claim": "Los datos compilados contienen al menos 20 autorizaciones de la fluoxetina como principio activo único, y la lista puede ser parcial.",
+   "replacement": "Los datos compilados solo recogen parte de las autorizaciones de la fluoxetina como principio activo único, y la lista puede ser parcial.",
+   "summary": "«al menos 20 autorizaciones» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 8、授權未上市 0、撤銷或暫停 12；total_matches 36）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm fluoxetina）33 張：上市 14、授權未上市 0、暫停 5、撤銷 14",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-fluvastatin-1",
+   "drug": "fluvastatin",
+   "file": "fluvastatin.md",
+   "action": "correct",
+   "claim": "La lista siguiente es parcial: hay al menos 20 autorizaciones y se muestran 5 de ellas.",
+   "replacement": "La lista siguiente es parcial: se muestran 5 de las autorizaciones.",
+   "summary": "«hay al menos 20 autorizaciones» → sin cifras (se conserva el número de filas de la tabla)",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 15、授權未上市 0、撤銷或暫停 5；total_matches 29）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm fluvastatina）28 張：上市 19、授權未上市 0、暫停 2、撤銷 7",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-levofloxacin-1",
+   "drug": "levofloxacin",
+   "file": "levofloxacin.md",
+   "action": "correct",
+   "claim": "Hay 20 autorizaciones registradas en los datos locales, de las cuales 10 están vigentes; la lista puede ser parcial.",
+   "replacement": "Hay autorizaciones vigentes, otras autorizadas sin comercializar y algunas revocadas; los datos locales solo recogen parte de ellas.",
+   "summary": "«20 autorizaciones … 10 vigentes» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 10、授權未上市 4、撤銷或暫停 6；total_matches 45）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm levofloxacino）44 張：上市 29、授權未上市 5、暫停 3、撤銷 7",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-levonorgestrel-1",
+   "drug": "levonorgestrel",
+   "file": "levonorgestrel.md",
+   "action": "correct",
+   "claim": "Los registros locales incluyen 20 autorizaciones de levonorgestrel como principio activo único: 16 vigentes, 2 canceladas y 2 sin comercialización.",
+   "replacement": "Los registros locales solo recogen parte de las autorizaciones de levonorgestrel como principio activo único; entre ellas hay autorizaciones vigentes, otras sin comercialización y algunas canceladas.",
+   "summary": "«20 autorizaciones: 16 vigentes, 2 canceladas y 2 sin comercialización» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 16、授權未上市 2、撤銷或暫停 2；total_matches 29）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm levonorgestrel）31 張：上市 24、授權未上市 4、暫停 0、撤銷 3",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-lidocaine-1",
+   "drug": "lidocaine",
+   "file": "lidocaine.md",
+   "action": "correct",
+   "claim": "La lista de autorizaciones puede ser parcial (al menos 20).",
+   "replacement": "La lista de autorizaciones puede ser parcial.",
+   "summary": "«(al menos 20)» eliminado",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 16、授權未上市 1、撤銷或暫停 3；total_matches 25）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm lidocaína）23 張：上市 18、授權未上市 3、暫停 0、撤銷 2",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-lormetazepam-1",
+   "drug": "lormetazepam",
+   "file": "lormetazepam.md",
+   "action": "correct",
+   "claim": "Según los datos locales compilados, 17 de las autorizaciones están vigentes y 3 están canceladas.",
+   "replacement": "Según los datos locales compilados, la mayoría de las autorizaciones están vigentes y algunas están canceladas.",
+   "summary": "«17 vigentes y 3 canceladas» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 17、授權未上市 0、撤銷或暫停 3；total_matches 31）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm lormetazepam）30 張：上市 28、授權未上市 0、暫停 0、撤銷 2",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-lovastatin-1",
+   "drug": "lovastatin",
+   "file": "lovastatin.md",
+   "action": "correct",
+   "claim": "Se listan las autorizaciones principales de las 20 registradas (la lista puede ser parcial; 11 vigentes y 9 canceladas entre las listadas).",
+   "replacement": "Se listan las autorizaciones principales (la lista puede ser parcial; hay autorizaciones vigentes y otras canceladas).",
+   "summary": "«de las 20 registradas … 11 vigentes y 9 canceladas» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 11、授權未上市 0、撤銷或暫停 9；total_matches 21）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm lovastatina）21 張：上市 11、授權未上市 0、暫停 0、撤銷 10",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-meropenem-1",
+   "drug": "meropenem",
+   "file": "meropenem.md",
+   "action": "correct",
+   "claim": "Meropenem figura como comercializado en España, con 6 autorizaciones vigentes y 7 canceladas entre los registros disponibles; la lista puede ser parcial.",
+   "replacement": "Meropenem figura como comercializado en España, con autorizaciones vigentes, otras autorizadas sin comercializar y otras canceladas entre los registros disponibles; la lista puede ser parcial.",
+   "summary": "«6 vigentes y 7 canceladas» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 6、授權未上市 7、撤銷或暫停 7；total_matches 37）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm meropenem）36 張：上市 15、授權未上市 8、暫停 4、撤銷 9",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-montelukast-1",
+   "drug": "montelukast",
+   "file": "montelukast.md",
+   "action": "correct",
+   "claim": "Los datos compilados registran 17 autorizaciones vigentes y 3 canceladas, y la lista puede ser parcial.",
+   "replacement": "Los datos compilados registran autorizaciones vigentes y otras canceladas, y la lista puede ser parcial.",
+   "summary": "«17 vigentes y 3 canceladas» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 17、授權未上市 0、撤銷或暫停 3；total_matches 103）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm montelukast）102 張：上市 82、授權未上市 7、暫停 2、撤銷 11",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-morphine-1",
+   "drug": "morphine",
+   "file": "morphine.md",
+   "action": "correct",
+   "claim": "Hay 15 autorizaciones vigentes y 5 canceladas; la lista mostrada es parcial.",
+   "replacement": "Hay autorizaciones vigentes y otras canceladas; la lista mostrada es parcial.",
+   "summary": "«15 vigentes y 5 canceladas» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 15、授權未上市 0、撤銷或暫停 5；total_matches 24）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm morfina）24 張：上市 19、授權未上市 0、暫停 0、撤銷 5",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-prednisone-1",
+   "drug": "prednisone",
+   "file": "prednisone.md",
+   "action": "correct",
+   "claim": "La prednisona está comercializada en España, con 16 autorizaciones vigentes y 4 canceladas entre los registros disponibles (la lista puede ser parcial).",
+   "replacement": "La prednisona está comercializada en España, con autorizaciones vigentes y otras canceladas entre los registros disponibles (la lista puede ser parcial).",
+   "summary": "«16 vigentes y 4 canceladas» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 16、授權未上市 0、撤銷或暫停 4；total_matches 21）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm prednisona）21 張：上市 17、授權未上市 0、暫停 1、撤銷 3",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-sertraline-1",
+   "drug": "sertraline",
+   "file": "sertraline.md",
+   "action": "correct",
+   "claim": "Constan al menos 20 autorizaciones, de las cuales 16 están vigentes y 4 canceladas; el listado puede ser parcial.",
+   "replacement": "Constan numerosas autorizaciones, en su mayoría vigentes y algunas canceladas; el listado puede ser parcial.",
+   "summary": "«al menos 20 … 16 vigentes y 4 canceladas» → sin cifras",
+   "note": "Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "部分紀錄頁（2026-11-24 第三輪，用戶決定：帶保留語、數字等於證據包收錄筆數的張數句依全量改成不寫數字）：證據包收 20 張（上市 16、授權未上市 0、撤銷或暫停 4；total_matches 71）；CIMA 全量（data/raw/cima_medicamentos_raw.json，data-20261123，vtm sertralina）66 張：上市 48、授權未上市 2、暫停 3、撤銷 13",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+  },
+  {
+   "id": "es-lic-20261124c-carbenoxolone-1",
+   "drug": "carbenoxolone",
+   "file": "carbenoxolone.md",
+   "action": "correct",
+   "claim": "la formulación disponible en España (pomada bucal)",
+   "replacement": "la única formulación que figura en CIMA para España (pomada bucal, autorización revocada)",
+   "summary": "«la formulación disponible en España» → la única autorización (pomada bucal) está revocada",
+   "note": "Corregido: según CIMA (AEMPS), la única autorización con carbenoxolona (SANODIN 20 mg/g pomada bucal, 44352) está revocada; no hay ninguna formulación disponible. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "44352 Revocada（證據包與 CIMA 全量一致）；第三輪補市場段落程式表時順帶查到",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第三輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
   }
  ]
 }

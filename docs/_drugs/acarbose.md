@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "acarbose"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Acarbose: nueva indicación predicha, Síndrome de la extremidad rígida focal (focal stiff limb syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 12 (comercializadas: 4; autorizadas no comercializadas: 4)"
 ---
 
@@ -61,6 +61,27 @@ Acarbosa inhibe las alfa-glucosidasas del intestino, con lo que retrasa la diges
 El síndrome de la extremidad rígida focal pertenece al espectro de la persona rígida, un trastorno neuroinmunológico relacionado con la patología GABAérgica y los anticuerpos anti-GAD. No se identifica un vínculo mecanístico claro con la acción de acarbosa.
 
 La puntuación alta parece deberse a asociaciones del modelo con nodos relacionados con la diabetes (por ejemplo, la autoinmunidad anti-GAD), y no a evidencia clínica o biológica. Esta predicción debe tomarse como una hipótesis sin respaldo.
+
+## Información de Mercado en España
+
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 70451 | ACARBOSA TECNIGEN 50 mg COMPRIMIDOS | COMPRIMIDO | Tecnimede España Industria Farmaceutica S.A. | Comercializada |
+| 71442 | ACARBOSA VIATRIS 50 MG COMPRIMIDOS | COMPRIMIDO | Viatris Limited | Comercializada |
+| 71443 | ACARBOSA VIATRIS 100 MG COMPRIMIDOS | COMPRIMIDO | Viatris Limited | Comercializada |
+| 70452 | ACARBOSA TECNIGEN 100 mg COMPRIMIDOS | COMPRIMIDO | Tecnimede España Industria Farmaceutica S.A. | Comercializada |
+| 76586 | ACARBOSA FARMALIDER 50 MG COMPRIMIDOS | COMPRIMIDO | Farmalider S.A. | Autorizada, no comercializada |
+| 70537 | ACARBOSA TARBIS 50 mg COMPRIMIDOS | COMPRIMIDO | Tarbis Farma S.L. | Autorizada, no comercializada |
+| 70536 | ACARBOSA TARBIS 100 mg COMPRIMIDOS | COMPRIMIDO | Tarbis Farma S.L. | Autorizada, no comercializada |
+| 76587 | ACARBOSA FARMALIDER 100 MG COMPRIMIDOS | COMPRIMIDO | Farmalider S.A. | Autorizada, no comercializada |
+| 59419 | GLUCOBAY 50 mg COMPRIMIDOS | COMPRIMIDO | Bayer Hispania S.L. | Revocada |
+| 59420 | GLUCOBAY 100 mg COMPRIMIDOS | COMPRIMIDO | Bayer Hispania S.L. | Revocada |
+
+Se muestran 10 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

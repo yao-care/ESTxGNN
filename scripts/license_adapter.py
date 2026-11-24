@@ -114,7 +114,8 @@ def update(rec, new):
 # 2026-11-24（用戶決定）：市場段落的許可證表改由程式產生（scripts/sync_license_tables.py）。每週排程（母目錄
 # license_refresh_20261029.py 的 sync_tables 掛鉤）對狀態有變的證據包重排程式表；3b 自我檢查另允許改的非表格行＝PAGE_NOTE
 # （表下程式說明句、NONE_LINE、程式區塊標記、known_use_pages 的舊部分紀錄提示）。
-PAGE_NOTE = (r"^(Se muestran? (la única|las \d+|\d+ de (al menos )?\d+) autorizaci(ón|ones) con este principio activo (recogidas )?en los "
+# 2026-11-24 第三輪起另有公開頁補的「## Información de Mercado en España」標題（sync_license_tables.add_section）。
+PAGE_NOTE = (r"^(## Información de Mercado en España|Se muestran? (la única|las \d+|\d+ de (al menos )?\d+) autorizaci(ón|ones) con este principio activo (recogidas )?en los "
              r"datos de CIMA \(AEMPS\).*|No se encontraron autorizaciones con este principio activo en los datos de CIMA \(AEMPS\).*|"
              r"Los datos solo contienen parte de los registros; la lista puede estar incompleta\.|<!-- licenses:(begin|end) -->)$")
 

@@ -95,7 +95,13 @@ Se muestran 10 de al menos 20 autorizaciones con este principio activo en los da
 
 <!-- licenses:end -->
 
-Los datos locales incluyen al menos 20 autorizaciones, por lo que esta lista puede ser parcial; solo una figura como vigente y comercializada (Eliquis) y una está cancelada.
+Los datos locales solo recogen parte de las autorizaciones, por lo que esta lista puede ser parcial; entre ellas hay autorizaciones comercializadas (como Eliquis), otras autorizadas sin comercializar y alguna revocada.
+
+<!-- review:begin es-lic-20261124c-apixaban-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Los datos locales incluyen al menos 20 autorizaciones, por lo que esta lista puede ser parcial; solo una figura como vigente y comercializada (Eliquis) y una está cancelada." Corregido: según CIMA (AEMPS), hay varias autorizaciones de apixabán comercializadas (además de ELIQUIS, genéricos de otros titulares), otras autorizadas sin comercializar y algunas revocadas; la frase anterior decía que solo una estaba comercializada. Los datos de este informe solo recogen parte de las autorizaciones; las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124c-apixaban-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -117,11 +123,12 @@ Ningún estudio respalda el uso de apixabán en la migraña; los dos casos clín
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25) |
+| 2026-11-24 | «al menos 20 … solo una figura como vigente y comercializada (Eliquis)» → hay varias comercializadas; sin cifras | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

@@ -91,7 +91,13 @@ Conviene tener presente que "enfermedad trombótica" es un término general que 
 
 ## Información de Mercado en España
 
-Hay al menos 20 autorizaciones registradas, de las cuales 17 constan como válidas; el listado puede ser parcial. Todas son de medicamentos con acetilcisteína como único principio activo. A continuación se muestran las cinco principales:
+Hay autorizaciones comercializadas, otras autorizadas sin comercializar y algunas revocadas; los datos de este informe solo recogen parte de ellas. Todas son de medicamentos con acetilcisteína como único principio activo. A continuación se muestran las cinco principales:
+
+<!-- review:begin es-lic-20261124c-acetylcysteine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Hay al menos 20 autorizaciones registradas, de las cuales 17 constan como válidas; el listado puede ser parcial." Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124c-acetylcysteine-1 -->
 
 <!-- licenses:begin -->
 
@@ -134,11 +140,12 @@ Existe un ensayo de Fase 3 completado en microangiopatía trombótica asociada a
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39) |
+| 2026-11-24 | «al menos 20 autorizaciones … 17 válidas» → sin cifras | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

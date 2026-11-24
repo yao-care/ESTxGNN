@@ -21,11 +21,11 @@
   "items_current": 2442
  },
  "reviews": {
-  "records": 950,
-  "pages": 673,
-  "public_pages_with_records": 673,
+  "records": 975,
+  "pages": 678,
+  "public_pages_with_records": 678,
   "by_action": {
-   "correct": 341,
+   "correct": 366,
    "mechanism": 609
   }
  },
@@ -204,7 +204,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 2,
+   "r": 3,
    "i": "Malformación esofágica no sindrómica"
   },
   {
@@ -219,6 +219,15 @@
  ],
  "no_current_more": 65,
  "most_reviewed": [
+  {
+   "t": "Carbenoxolone",
+   "u": "/drugs/carbenoxolone/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 3,
+   "i": "Malformación esofágica no sindrómica"
+  },
   {
    "t": "Catumaxomab",
    "u": "/drugs/catumaxomab/",
@@ -263,15 +272,6 @@
    "lv": 6,
    "r": 3,
    "i": "amenorrhea (disease)"
-  },
-  {
-   "t": "Diosmin",
-   "u": "/drugs/diosmin/",
-   "l": "L5",
-   "lt": 15,
-   "lv": 9,
-   "r": 3,
-   "i": "amenorrhea (disease)"
   }
  ],
  "example": {
@@ -285,197 +285,197 @@
  },
  "recent_reviews": [
   {
-   "t": "Zuclopenthixol",
-   "u": "/drugs/zuclopenthixol/",
-   "s": "Eliminado: descripción de la tabla anterior y número; «Las otras tres» → «Entre ellas»",
+   "t": "Sertraline",
+   "u": "/drugs/sertraline/",
+   "s": "«al menos 20 … 16 vigentes y 4 canceladas» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Vortioxetine",
-   "u": "/drugs/vortioxetine/",
-   "s": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto)",
+   "t": "Prednisone",
+   "u": "/drugs/prednisone/",
+   "s": "«16 vigentes y 4 canceladas» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Velpatasvir",
-   "u": "/drugs/velpatasvir/",
-   "s": "Eliminado: número y «la sexta»",
+   "t": "Morphine",
+   "u": "/drugs/morphine/",
+   "s": "«15 vigentes y 5 canceladas» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Turoctocog Alfa",
-   "u": "/drugs/turoctocog-alfa/",
-   "s": "«Existe además una sexta autorización» → «Entre las autorizaciones figura»",
+   "t": "Montelukast",
+   "u": "/drugs/montelukast/",
+   "s": "«17 vigentes y 3 canceladas» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Treprostinil",
-   "u": "/drugs/treprostinil/",
-   "s": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "t": "Meropenem",
+   "u": "/drugs/meropenem/",
+   "s": "«6 vigentes y 7 canceladas» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Tolvaptan",
-   "u": "/drugs/tolvaptan/",
-   "s": "«20 autorizaciones vigentes en total» eliminado; «de los titulares» → «entre los titulares figuran»",
+   "t": "Lovastatin",
+   "u": "/drugs/lovastatin/",
+   "s": "«de las 20 registradas … 11 vigentes y 9 canceladas» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Tocilizumab",
-   "u": "/drugs/tocilizumab/",
-   "s": "Eliminado: descripción de la tabla anterior y número; «Las demás corresponden a» → «Entre las autorizaciones…",
+   "t": "Lormetazepam",
+   "u": "/drugs/lormetazepam/",
+   "s": "«17 vigentes y 3 canceladas» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Tezacaftor",
-   "u": "/drugs/tezacaftor/",
-   "s": "Eliminado: descripción de la tabla anterior y número; «las restantes» → «entre ellas»",
+   "t": "Lidocaine",
+   "u": "/drugs/lidocaine/",
+   "s": "«(al menos 20)» eliminado",
    "d": "2026-11-24"
   },
   {
-   "t": "Telmisartan",
-   "u": "/drugs/telmisartan/",
-   "s": "«El resto son» → «Entre las autorizaciones hay»",
+   "t": "Levonorgestrel",
+   "u": "/drugs/levonorgestrel/",
+   "s": "«20 autorizaciones: 16 vigentes, 2 canceladas y 2 sin comercialización» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Sulfamethoxazole",
-   "u": "/drugs/sulfamethoxazole/",
-   "s": "Eliminado: descripción de la tabla anterior y número de autorizaciones",
+   "t": "Levofloxacin",
+   "u": "/drugs/levofloxacin/",
+   "s": "«20 autorizaciones … 10 vigentes» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Spironolactone",
-   "u": "/drugs/spironolactone/",
-   "s": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "t": "Fluvastatin",
+   "u": "/drugs/fluvastatin/",
+   "s": "«hay al menos 20 autorizaciones» → sin cifras (se conserva el número de filas de la tabla)",
    "d": "2026-11-24"
   },
   {
-   "t": "Simoctocog Alfa",
-   "u": "/drugs/simoctocog-alfa/",
-   "s": "Eliminado: descripción de la tabla anterior («las 5 primeras de 8…; las restantes…»)",
+   "t": "Fluoxetine",
+   "u": "/drugs/fluoxetine/",
+   "s": "«al menos 20 autorizaciones» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Sertaconazole",
-   "u": "/drugs/sertaconazole/",
-   "s": "Eliminado: descripción de la tabla anterior y número de autorizaciones",
+   "t": "Ciprofloxacin",
+   "u": "/drugs/ciprofloxacin/",
+   "s": "«13 autorizaciones vigentes» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Safinamide",
-   "u": "/drugs/safinamide/",
-   "s": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto)",
+   "t": "Cholecalciferol",
+   "u": "/drugs/cholecalciferol/",
+   "s": "«al menos 20 autorizaciones» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Sacubitril",
-   "u": "/drugs/sacubitril/",
-   "s": "«20 autorizaciones vigentes en total» eliminado",
+   "t": "Carbenoxolone",
+   "u": "/drugs/carbenoxolone/",
+   "s": "«la formulación disponible en España» → la única autorización (pomada bucal) está revocada",
    "d": "2026-11-24"
   },
   {
-   "t": "Ruxolitinib",
-   "u": "/drugs/ruxolitinib/",
-   "s": "«Existe además una sexta autorización» → «Entre las autorizaciones figura»",
+   "t": "Captopril",
+   "u": "/drugs/captopril/",
+   "s": "«20 … 6 vigentes y 14 canceladas» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Ranibizumab",
-   "u": "/drugs/ranibizumab/",
-   "s": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "t": "Buprenorphine",
+   "u": "/drugs/buprenorphine/",
+   "s": "«al menos 20 autorizaciones» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Pseudoephedrine",
-   "u": "/drugs/pseudoephedrine/",
-   "s": "«12 autorizaciones vigentes en total» → sin cifra",
+   "t": "Brivaracetam",
+   "u": "/drugs/brivaracetam/",
+   "s": "«al menos 20 autorizaciones» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Propranolol",
-   "u": "/drugs/propranolol/",
-   "s": "Eliminado: descripción de la tabla anterior y número; «Las restantes» → «entre ellas»",
+   "t": "Atenolol",
+   "u": "/drugs/atenolol/",
+   "s": "«al menos 20 … 15 vigentes y 5 canceladas» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Plerixafor",
-   "u": "/drugs/plerixafor/",
-   "s": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "t": "Apixaban",
+   "u": "/drugs/apixaban/",
+   "s": "«al menos 20 … solo una figura como vigente y comercializada (Eliquis)» → hay varias comercializadas; sin…",
    "d": "2026-11-24"
   },
   {
-   "t": "Piroxicam",
-   "u": "/drugs/piroxicam/",
-   "s": "«Las demás autorizaciones corresponden a» → «Entre las autorizaciones hay»",
+   "t": "Amoxicillin",
+   "u": "/drugs/amoxicillin/",
+   "s": "«al menos 20 autorizaciones» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Pertuzumab",
-   "u": "/drugs/pertuzumab/",
-   "s": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "t": "Ambroxol",
+   "u": "/drugs/ambroxol/",
+   "s": "«al menos 20 autorizaciones» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Perampanel",
-   "u": "/drugs/perampanel/",
-   "s": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto)",
+   "t": "Allopurinol",
+   "u": "/drugs/allopurinol/",
+   "s": "«20 autorizaciones» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Paliperidone",
-   "u": "/drugs/paliperidone/",
-   "s": "«20 autorizaciones vigentes» → sin cifra",
+   "t": "Aflibercept",
+   "u": "/drugs/aflibercept/",
+   "s": "«al menos 20 autorizaciones» → sin cifras",
    "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Zuclopenthixol",
-   "u": "/drugs/zuclopenthixol/",
-   "s": "Eliminado: descripción de la tabla anterior y número; «Las otras tres» → «Entre ellas»",
+   "t": "Sertraline",
+   "u": "/drugs/sertraline/",
+   "s": "«al menos 20 … 16 vigentes y 4 canceladas» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Vortioxetine",
-   "u": "/drugs/vortioxetine/",
-   "s": "«5 de las 20 autorizaciones vigentes» eliminado (lista parcial; se conserva el resto)",
+   "t": "Prednisone",
+   "u": "/drugs/prednisone/",
+   "s": "«16 vigentes y 4 canceladas» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Velpatasvir",
-   "u": "/drugs/velpatasvir/",
-   "s": "Eliminado: número y «la sexta»",
+   "t": "Morphine",
+   "u": "/drugs/morphine/",
+   "s": "«15 vigentes y 5 canceladas» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Turoctocog Alfa",
-   "u": "/drugs/turoctocog-alfa/",
-   "s": "«Existe además una sexta autorización» → «Entre las autorizaciones figura»",
+   "t": "Montelukast",
+   "u": "/drugs/montelukast/",
+   "s": "«17 vigentes y 3 canceladas» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Treprostinil",
-   "u": "/drugs/treprostinil/",
-   "s": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "t": "Meropenem",
+   "u": "/drugs/meropenem/",
+   "s": "«6 vigentes y 7 canceladas» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Tolvaptan",
-   "u": "/drugs/tolvaptan/",
-   "s": "«20 autorizaciones vigentes en total» eliminado; «de los titulares» → «entre los titulares figuran»",
+   "t": "Lovastatin",
+   "u": "/drugs/lovastatin/",
+   "s": "«de las 20 registradas … 11 vigentes y 9 canceladas» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Tocilizumab",
-   "u": "/drugs/tocilizumab/",
-   "s": "Eliminado: descripción de la tabla anterior y número; «Las demás corresponden a» → «Entre las autorizaciones…",
+   "t": "Lormetazepam",
+   "u": "/drugs/lormetazepam/",
+   "s": "«17 vigentes y 3 canceladas» → sin cifras",
    "d": "2026-11-24"
   },
   {
-   "t": "Tezacaftor",
-   "u": "/drugs/tezacaftor/",
-   "s": "Eliminado: descripción de la tabla anterior y número; «las restantes» → «entre ellas»",
+   "t": "Lidocaine",
+   "u": "/drugs/lidocaine/",
+   "s": "«(al menos 20)» eliminado",
    "d": "2026-11-24"
   }
  ],

@@ -74,7 +74,13 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-Se registran al menos 20 autorizaciones, todas de producto de un solo principio activo; la lista puede ser parcial. Principales autorizaciones:
+Todas las autorizaciones recogidas son de producto de un solo principio activo; la lista puede ser parcial. Principales autorizaciones:
+
+<!-- review:begin es-lic-20261124c-ambroxol-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se registran al menos 20 autorizaciones, todas de producto de un solo principio activo; la lista puede ser parcial." Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124c-ambroxol-1 -->
 
 <!-- licenses:begin -->
 
@@ -113,6 +119,19 @@ La puntuación del modelo es muy alta (0.9991), pero no hay ensayos clínicos y 
 - Datos detallados del mecanismo de acción y su relación con la mucosa nasal
 - Revisión de advertencias y contraindicaciones del prospecto autorizado por la AEMPS
 - Evaluación de la compatibilidad de las vías de administración disponibles (oral, bucal, inyectable) con el uso nasal propuesto
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «al menos 20 autorizaciones» → sin cifras | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

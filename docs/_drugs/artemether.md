@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "artemether"
 predicted_indications: ["acquired angioedema", "angioedema", "hereditary angioedema", "nephrogenic syndrome of inappropriate antidiuresis", "acute contagious conjunctivitis", "scleroderma (disease)", "conjunctivitis", "renin-angiotensin-aldosterone system-blocker-induced angioedema"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Artemether: nueva indicación predicha, angioedema adquirido (acquired angioedema) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 0)"
 ---
 
@@ -59,6 +59,18 @@ Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Artemether es 
 No se identifica un vínculo mecanístico entre artemeter y el angioedema adquirido. Esta forma de angioedema está mediada por bradicinina o por el complemento, y no se conoce ninguna vía que conecte a artemeter con ella. El puntaje elevado de TxGNN es una predicción basada solo en el modelo, sin respaldo clínico ni bibliográfico.
 
 Por tanto, esta predicción debe considerarse puramente hipotética hasta que se disponga de estudios preclínicos o clínicos que la sustenten.
+
+## Información de Mercado en España
+
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 63764 | RIAMET 20 mg/120 mg COMPRIMIDOS | COMPRIMIDO | Novartis Farmaceutica S.A. | Revocada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

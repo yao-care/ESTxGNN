@@ -70,9 +70,15 @@ Por tanto, no es posible construir un fundamento mecanístico sólido. La predic
 
 ## Informe de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 44352 | SANODIN 20 mg/g POMADA BUCAL | Pomada bucal | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
+|---------|------|------|------|------|
+| 44352 | SANODIN 20 mg/g POMADA BUCAL | POMADA BUCAL | Laboratorios Ern S.A. | Revocada |
+
+Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -99,7 +105,13 @@ Todas con nivel de evidencia L5, sin ensayos ni literatura, y recomendación Hol
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en un puntaje alto del modelo, sin ensayos clínicos, literatura ni mecanismo plausible, y la formulación disponible en España (pomada bucal) no tiene una relación evidente con una malformación congénita.
+La predicción se apoya únicamente en un puntaje alto del modelo, sin ensayos clínicos, literatura ni mecanismo plausible, y la única formulación que figura en CIMA para España (pomada bucal, autorización revocada) no tiene una relación evidente con una malformación congénita.
+
+<!-- review:begin es-lic-20261124c-carbenoxolone-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "la formulación disponible en España (pomada bucal)" Corregido: según CIMA (AEMPS), la única autorización con carbenoxolona (SANODIN 20 mg/g pomada bucal, 44352) está revocada; no hay ninguna formulación disponible. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124c-carbenoxolone-1 -->
 
 **Para avanzar se necesita:**
 - Obtener el mecanismo de acción desde DrugBank.
@@ -118,6 +130,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-24 | Eliminado: "Titular: Laboratorios Ern S.A. Autorización vigente, de tipo monofármaco" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL499915 (carbenoxolone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL499915) |
+| 2026-11-24 | «la formulación disponible en España» → la única autorización (pomada bucal) está revocada | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

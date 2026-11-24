@@ -28,7 +28,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SEC_RE = re.compile(r"^## Informaci[oó]n de Mercado en Espa[nñ]a\s*$")
+SEC_RE = re.compile(r"^## (Informaci[oó]n|Informe) de Mercado en Espa[nñ]a\s*$")  # 「Informe de Mercado」：carbenoxolone 的報告用這個標題（2026-11-24 第三輪）
+SEC_TITLE = "## Información de Mercado en España"
 HEAD = ["| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |",
         "|---------|------|------|------|------|"]
 SRC = "CIMA (AEMPS)"
@@ -195,7 +196,8 @@ def process(text, tf):
     lines = strip_marks(text.split("\n"))
     a, b = _bounds(lines)
     if a is None:
-        return None
+        t2 = add_section(text, tf)
+        return t2 if t2 and t2 != text else None
     mask = _review_mask(lines)
     tb = [k for k in range(a, b) if lines[k].startswith("|") and k not in mask]
     rows, total, partial = counts(tf)
@@ -227,6 +229,28 @@ def process(text, tf):
     return t2 if t2 != text else None
 
 
+# 2026-11-24 第三輪（用戶決定，比照 JpTxGNN 第二輪）：公開頁整頁沒有市場段落、但證據包有紀錄的，補「## Información de Mercado en España」段落放程式表。
+# 位置：「## Consideraciones de Seguridad」之前（預測頁的固定順序）；沒有就「## Conclusión y Próximos Pasos」之前；再沒有就「## Descargo de responsabilidad」之前。
+# noindex 頁與證據包沒有紀錄的頁不補；gate（licenses.page_problems）擋「公開頁有紀錄卻沒有市場段落」。
+ADD_BEFORE = (re.compile(r"^## Consideraciones de Seguridad\s*$", re.I), re.compile(r"^## Conclusi[oó]n y Pr[oó]ximos Pasos\s*$", re.I),
+              re.compile(r"^## Descargo de responsabilidad\s*$", re.I))
+
+
+def add_section(text, tf):
+    fm = text.split("---", 2)[1] if text.startswith("---") else ""
+    if re.search(r"^noindex:\s*true", fm, re.M):
+        return None
+    rows, _total, _partial = counts(tf)
+    if not rows:
+        return None
+    lines = text.split("\n")
+    at = next((i for rx in ADD_BEFORE for i, l in enumerate(lines) if rx.match(l)), None)
+    if at is None:
+        return None
+    sec = [SEC_TITLE, ""] + wrap(block_for(tf, min(DEFAULT_ROWS, len(rows)))) + [""]
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(lines[:at] + sec + lines[at:]))
+
+
 def block_lines(text):
     """頁面上程式區塊的內容行（不含標記與空行）；沒有區塊回 None"""
     lines = text.split("\n")
@@ -255,8 +279,11 @@ def carry_block(old_text, new_text):
     blk = old[old.index(BEGIN):old.index(END) + 1]
     lines = strip_marks(new_text.split("\n"))
     a, b = _bounds(lines)
-    if a is None:
-        return new_text
+    if a is None:  # 新頁沒有市場段落（第三輪 add_section 補過的頁）：照 add_section 的位置補段落、放舊區塊
+        at = next((i for rx in ADD_BEFORE for i, l in enumerate(lines) if rx.match(l)), None)
+        if at is None:
+            return new_text
+        return re.sub(r"\n{3,}", "\n\n", "\n".join(lines[:at] + [SEC_TITLE, ""] + blk + [""] + lines[at:]))
     tb = [k for k in range(a, b) if lines[k].startswith("|")]
     if not tb:
         out = lines[:a] + [""] + blk + [""] + lines[a:]

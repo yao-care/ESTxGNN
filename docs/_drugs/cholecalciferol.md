@@ -90,7 +90,13 @@ Se muestran las publicaciones más relevantes (de 20 recuperadas), priorizando e
 
 ## Información de Mercado en España
 
-Los datos disponibles muestran al menos 20 autorizaciones de medicamentos de colecalciferol como principio activo único; la lista puede ser parcial. Los registros no incluyen texto de indicación aprobada.
+Los datos disponibles solo recogen parte de las autorizaciones de medicamentos de colecalciferol como principio activo único; la lista puede ser parcial. Los registros no incluyen texto de indicación aprobada.
+
+<!-- review:begin es-lic-20261124c-cholecalciferol-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Los datos disponibles muestran al menos 20 autorizaciones de medicamentos de colecalciferol como principio activo único; la lista puede ser parcial." Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124c-cholecalciferol-1 -->
 
 <!-- licenses:begin -->
 
@@ -136,11 +142,12 @@ Ningún ensayo ni publicación estudia directamente la osteodistrofia renal como
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042) |
+| 2026-11-24 | «al menos 20 autorizaciones» → sin cifras | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

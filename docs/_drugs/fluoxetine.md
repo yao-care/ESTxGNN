@@ -76,7 +76,13 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-Los datos compilados contienen al menos 20 autorizaciones de la fluoxetina como principio activo único, y la lista puede ser parcial. A continuación se muestran 5 autorizaciones vigentes.
+Los datos compilados solo recogen parte de las autorizaciones de la fluoxetina como principio activo único, y la lista puede ser parcial. A continuación se muestran 5 autorizaciones vigentes.
+
+<!-- review:begin es-lic-20261124c-fluoxetine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Los datos compilados contienen al menos 20 autorizaciones de la fluoxetina como principio activo único, y la lista puede ser parcial." Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124c-fluoxetine-1 -->
 
 <!-- licenses:begin -->
 
@@ -112,6 +118,19 @@ La predicción del modelo es muy alta (0.9992), pero la evidencia directa se lim
 - Datos detallados del mecanismo de acción y una justificación del vínculo con los rasgos esquizotípicos.
 - Texto de advertencias y contraindicaciones del prospecto de la AEMPS, y revisión de las contraindicaciones del grafo de conocimiento (en especial el trastorno bipolar).
 - Texto de indicación autorizada de las fichas técnicas, que los datos compilados no incluyen.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «al menos 20 autorizaciones» → sin cifras | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

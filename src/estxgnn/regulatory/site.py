@@ -72,7 +72,7 @@ T = {
 }
 
 # ---------- 許可證（licenses、build_license_snapshot） ----------
-MARKET_SEC = re.compile(r"^## Informaci[oó]n de Mercado en Espa[nñ]a\s*$")
+MARKET_SEC = re.compile(r"^## (Informaci[oó]n|Informe) de Mercado en Espa[nñ]a\s*$")
 ID_RE = re.compile(r"\b\d{5,10}(?:IP\d?)?\b")  # CIMA nregistro（2026-11-12 依頁面實測：5–10 碼數字，平行進口加 IP；只驗市場段落表格第一欄）
 
 

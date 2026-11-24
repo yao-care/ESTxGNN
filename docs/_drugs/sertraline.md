@@ -73,7 +73,13 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-Estado de mercado: comercializado. Constan al menos 20 autorizaciones, de las cuales 16 están vigentes y 4 canceladas; el listado puede ser parcial.
+Estado de mercado: comercializado. Constan numerosas autorizaciones, en su mayoría vigentes y algunas canceladas; el listado puede ser parcial.
+
+<!-- review:begin es-lic-20261124c-sertraline-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Constan al menos 20 autorizaciones, de las cuales 16 están vigentes y 4 canceladas; el listado puede ser parcial." Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124c-sertraline-1 -->
 
 <!-- licenses:begin -->
 
@@ -112,6 +118,18 @@ La predicción se apoya únicamente en el puntaje del modelo. No hay ensayos cl�
 - Datos detallados del mecanismo de acción y de un posible vínculo mecanístico con esta enfermedad
 - Revisión del prospecto de la AEMPS (advertencias y contraindicaciones) para completar el análisis de seguridad
 - Evaluación de la relevancia clínica de la hipótesis, considerando que cualquier beneficio podría limitarse a síntomas de ansiedad o depresión comórbidos
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «al menos 20 … 16 vigentes y 4 canceladas» → sin cifras | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

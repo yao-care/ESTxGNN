@@ -92,7 +92,13 @@ La evidencia directa sobre bronquitis es limitada y de tamaño reducido (63 y 10
 
 ## Información de Mercado en España
 
-Montelukast figura como comercializado en España. Los datos compilados registran 17 autorizaciones vigentes y 3 canceladas, y la lista puede ser parcial. A continuación se muestran 5 autorizaciones vigentes.
+Montelukast figura como comercializado en España. Los datos compilados registran autorizaciones vigentes y otras canceladas, y la lista puede ser parcial. A continuación se muestran 5 autorizaciones vigentes.
+
+<!-- review:begin es-lic-20261124c-montelukast-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Los datos compilados registran 17 autorizaciones vigentes y 3 canceladas, y la lista puede ser parcial." Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124c-montelukast-1 -->
 
 <!-- licenses:begin -->
 
@@ -132,11 +138,12 @@ Hay ensayos controlados pequeños en bronquitis eosinofílica no asmática y bro
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842) |
+| 2026-11-24 | «17 vigentes y 3 canceladas» → sin cifras | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

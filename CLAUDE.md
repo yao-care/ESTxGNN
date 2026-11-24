@@ -74,6 +74,16 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   說明句拿掉後 42 頁程式表依規則改列 min(10, 總數) 列。沒有張數、跟程式表一致的引導句（「Principales autorizaciones:」「Se muestran las 5 principales:」、部分紀錄頁「5 de al menos 20」約 80 句）不動。
   劑型說法全站 51 句逐句對照證據包與 CIMA 全量：azathioprine（注射劑已撤銷）、cabozantinib（Cometriq 未上市）、midazolam（另有 DORMICUM 錠劑；併在既有紀錄重發）、ebastine（另有口溶凍晶、口服液）更正，其餘成立。
   `site._fig`（reviews_from_edits 寫紀錄說明的張數樣板）改成不寫數字。checker 0→0、gate exit 0。
+- 2026-11-24 第三輪（用戶決定）：
+  B. 公開頁（非 noindex）整頁沒有市場段落、但證據包有紀錄的（比照 JpTxGNN 第二輪 add_section）：`scripts/sync_license_tables.py` 的 `add_section` 在「## Consideraciones de Seguridad」之前
+  （沒有就「## Conclusión y Próximos Pasos」、再沒有就「## Descargo de responsabilidad」之前）補「## Información de Mercado en España」與程式區塊；`carry_block` 遇到整頁重寫後沒有市場段落的頁也照同一位置補回舊區塊。
+  全量量測：公開頁 859 頁中 4 頁沒有「Información de Mercado」段落：acarbose、artemether、carboplatin 補段落（12、1、6 張），carbenoxolone 的報告用「## Informe de Mercado en España」標題、
+  下面是 AI 表——`SEC_RE`／`site.MARKET_SEC` 改成也認這個標題，AI 表換成程式表（標題不改）。gate 第 18 項加「公開頁有證據包紀錄卻沒有市場段落」就擋（licenses.page_problems）；
+  `scripts/license_adapter.py` 的 PAGE_NOTE 放行新標題行。carbenoxolone 結論裡「la formulación disponible en España (pomada bucal)」（唯一一張 44352 已撤銷）以 `es-lic-20261124c-carbenoxolone-1` 更正。
+  C. 部分紀錄頁帶保留語（según los datos compilados／puede ser parcial／al menos）、數字等於證據包收錄筆數（或其中的上市／撤銷張數）而 CIMA 全量（data/raw/cima_medicamentos_raw.json，依 vtm；
+  另加證據包裡已不在 CIMA 的撤銷號）較多的張數句：全量掃部分紀錄頁 177 頁，24 句依全量改成不寫數字的寫法（`es-lic-20261124c-*`，note 指向概覽表與程式表，實際張數記在 finding）；
+  apixaban 另更正「solo una figura como vigente y comercializada (Eliquis)」（CIMA 有多張上市的學名藥）。agomelatine 的「hay 20 autorizaciones registradas」照 CIMA 全量（19＋1 張，全在證據包）成立，不改。
+  「Se muestran las 5 principales:」「Se muestran 5 de al menos 20」「se muestran solo 5」這類只講表上列數的句子照第二輪決定不動（程式表照原表列數）。checker 0→0、gate exit 0。
 - 母目錄 `.claude/license_labels/ESTxGNN.json` 還沒有程式表的狀態字（Comercializada、Autorizada, no comercializada、Revocada、Suspendida）；lts.apply 認不得就跳過、不會列 unsynced，
   程式表由 sync_tables 重排，但要讓 checker 的表格列狀態檢查也驗程式表，需在母目錄加這 4 個字。
 

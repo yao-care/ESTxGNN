@@ -150,8 +150,8 @@
     "i": "Enfermedad trombótica",
     "lt": 0,
     "lv": 17,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«al menos 20 autorizaciones … 17 válidas» → sin cifras",
     "x": 0
    },
    {
@@ -293,8 +293,8 @@
     "i": "Acné",
     "lt": 0,
     "lv": 16,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«20 autorizaciones: 16 vigentes, 2 canceladas y 2 sin comercialización» → sin cifras",
     "x": 0
    },
    {
@@ -326,8 +326,8 @@
     "i": "Bronquitis",
     "lt": 0,
     "lv": 17,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«17 vigentes y 3 canceladas» → sin cifras",
     "x": 0
    },
    {
@@ -414,8 +414,8 @@
     "i": "alopecia areata",
     "lt": 0,
     "lv": 16,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«16 vigentes y 4 canceladas» → sin cifras",
     "x": 0
    },
    {
@@ -543,7 +543,7 @@
   "with_current": 75,
   "none_current": 2,
   "without_data": 16,
-  "with_reviews": 59,
+  "with_reviews": 60,
   "rows": [
    {
     "t": "Abatacept",
@@ -673,8 +673,8 @@
     "i": "schizotypal personality disorder",
     "lt": 0,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "«al menos 20 autorizaciones» → sin cifras",
     "x": 0
    },
    {
@@ -1420,7 +1420,7 @@
   "with_current": 637,
   "none_current": 70,
   "without_data": 140,
-  "with_reviews": 575,
+  "with_reviews": 579,
   "rows": [
    {
     "t": "Ethinylestradiol",
@@ -1605,8 +1605,8 @@
     "i": "Delirium por abstinencia alcohólica",
     "lt": 0,
     "lv": 17,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "«17 vigentes y 3 canceladas» → sin cifras",
     "x": 0
    },
    {
@@ -1726,8 +1726,8 @@
     "i": "Queratoconjuntivitis epitelial punteada",
     "lt": 0,
     "lv": 16,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«(al menos 20)» eliminado",
     "x": 0
    },
    {
@@ -1759,8 +1759,8 @@
     "i": "Trastorno esquizoide de la personalidad",
     "lt": 0,
     "lv": 16,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "«al menos 20 … 16 vigentes y 4 canceladas» → sin cifras",
     "x": 0
    },
    {
@@ -1825,8 +1825,8 @@
     "i": "esotropía",
     "lt": 0,
     "lv": 15,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«al menos 20 autorizaciones» → sin cifras",
     "x": 0
    },
    {
@@ -1836,8 +1836,8 @@
     "i": "Enfermedad renal hipertensiva maligna",
     "lt": 0,
     "lv": 15,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«al menos 20 … 15 vigentes y 5 canceladas» → sin cifras",
     "x": 0
    },
    {
@@ -1869,8 +1869,8 @@
     "i": "HIV infectious disease",
     "lt": 0,
     "lv": 15,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«hay al menos 20 autorizaciones» → sin cifras (se conserva el número de filas de la tabla)",
     "x": 0
    },
    {
@@ -1913,8 +1913,8 @@
     "i": "Síndrome de dolor miofascial",
     "lt": 0,
     "lv": 15,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«15 vigentes y 5 canceladas» → sin cifras",
     "x": 0
    },
    {
@@ -1979,8 +1979,8 @@
     "i": "enfermedad de la cavidad nasal",
     "lt": 0,
     "lv": 14,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "«al menos 20 autorizaciones» → sin cifras",
     "x": 0
    },
    {
@@ -2012,8 +2012,8 @@
     "i": "acromesomelic dysplasia, Campailla Martinelli type",
     "lt": 0,
     "lv": 14,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«al menos 20 autorizaciones» → sin cifras",
     "x": 0
    },
    {
@@ -2144,8 +2144,8 @@
     "i": "Síndrome de hiperviscosidad policlonal",
     "lt": 0,
     "lv": 13,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«al menos 20 autorizaciones» → sin cifras",
     "x": 0
    },
    {
@@ -2166,8 +2166,8 @@
     "i": "Esclerodermia difusa",
     "lt": 0,
     "lv": 13,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«13 autorizaciones vigentes» → sin cifras",
     "x": 0
    },
    {
@@ -2441,8 +2441,8 @@
     "i": "Déficit de beta-cetotiolasa",
     "lt": 0,
     "lv": 12,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«al menos 20 autorizaciones» → sin cifras",
     "x": 0
    },
    {
@@ -2661,8 +2661,8 @@
     "i": "porfiria hepática",
     "lt": 0,
     "lv": 11,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«20 autorizaciones» → sin cifras",
     "x": 0
    },
    {
@@ -2738,8 +2738,8 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 0,
     "lv": 11,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«de las 20 registradas … 11 vigentes y 9 canceladas» → sin cifras",
     "x": 0
    },
    {
@@ -2892,8 +2892,8 @@
     "i": "trastorno de migraña",
     "lt": 0,
     "lv": 10,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«al menos 20 … solo una figura como vigente y comercializada (Eliquis)» → hay varias comercializadas; sin…",
     "x": 0
    },
    {
@@ -2958,8 +2958,8 @@
     "i": "queratoconjuntivitis epitelial punteada",
     "lt": 0,
     "lv": 10,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«20 autorizaciones … 10 vigentes» → sin cifras",
     "x": 0
    },
    {
@@ -3057,8 +3057,8 @@
     "i": "porfiria aguda intermitente",
     "lt": 0,
     "lv": 9,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "«al menos 20 autorizaciones» → sin cifras",
     "x": 0
    },
    {
@@ -3761,8 +3761,8 @@
     "i": "hipertensión renal maligna",
     "lt": 0,
     "lv": 6,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«20 … 6 vigentes y 14 canceladas» → sin cifras",
     "x": 0
    },
    {
@@ -3904,8 +3904,8 @@
     "i": "artritis bacteriana",
     "lt": 0,
     "lv": 6,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«6 vigentes y 7 canceladas» → sin cifras",
     "x": 0
    },
    {
@@ -8546,8 +8546,8 @@
     "i": "Malformación esofágica no sindrómica",
     "lt": 1,
     "lv": 0,
-    "r": 2,
-    "rs": "Eliminado: \"Titular: Laboratorios Ern S.A. Autorización vigente, de tipo monofármaco\"",
+    "r": 3,
+    "rs": "«la formulación disponible en España» → la única autorización (pomada bucal) está revocada",
     "x": 0
    },
    {

@@ -26,6 +26,7 @@
       （頁面被產線或排程改寫會蓋掉；修法：python3 scripts/apply_drug_reviews.py）（2026-11-12，本站查核機制）。
   18. 藥物頁的許可證資訊＝snapshots/es_licenses.json.gz：市場段落表格的號碼屬於本藥、狀態列與張數列＝事實層寫法、
       表格列狀態不跟事實相反；有程式表的站另驗程式區塊（src/estxgnn/regulatory/licenses.py）（2026-11-12）。
+      公開頁（非 noindex）證據包有紀錄卻沒有「Información de Mercado en España」段落也擋（2026-11-24 第三輪，sync_license_tables.add_section 補）。
   19. 藥物頁頁首等級＝Quick Overview 證據等級格依本站規則算出的等級（主預測撤回時為其他預測表最高等級或 N/A），
       parent 對應列表頁（src/estxgnn/regulatory/page_format.py、site.py 的 HEADER_RULE）（2026-11-12）。
   20. 查核紀錄裡重審撤回（verdict=withdraw）的預測，不出現在 search-index.json、FHIR ClinicalUseDefinition、

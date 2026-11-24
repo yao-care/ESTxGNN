@@ -72,7 +72,13 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-El fármaco está comercializado en España. Según los datos locales compilados, 17 de las autorizaciones están vigentes y 3 están canceladas. La lista puede ser parcial. A continuación se muestran algunas de las autorizaciones principales:
+El fármaco está comercializado en España. Según los datos locales compilados, la mayoría de las autorizaciones están vigentes y algunas están canceladas. La lista puede ser parcial. A continuación se muestran algunas de las autorizaciones principales:
+
+<!-- review:begin es-lic-20261124c-lormetazepam-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Según los datos locales compilados, 17 de las autorizaciones están vigentes y 3 están canceladas." Corregido: la cifra solo correspondía a las autorizaciones recogidas para este informe (una parte del total); según el listado completo de CIMA (AEMPS), datos del 2026-11-23, hay más autorizaciones con este principio activo. Las cifras recogidas están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261124c-lormetazepam-1 -->
 
 <!-- licenses:begin -->
 
@@ -103,6 +109,18 @@ No hay ensayos clínicos ni publicaciones que estudien lormetazepam en el deliri
 - Estudios clínicos o literatura específica de lormetazepam en abstinencia alcohólica grave, con comparación frente a diazepam o lorazepam.
 - Datos detallados del mecanismo de acción (MOA).
 - Revisión de las advertencias y contraindicaciones del prospecto, con atención al riesgo de dependencia y a la sedación en esta población.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «17 vigentes y 3 canceladas» → sin cifras | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 
