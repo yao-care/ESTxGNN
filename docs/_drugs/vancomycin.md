@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 839
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Vancomycin"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
-description: "Vancomycin: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 10 (comercializadas: 7; autorizadas no comercializadas: 1)"
+description: "Vancomycin: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 12 (comercializadas: 7; autorizadas no comercializadas: 3)"
 ---
 
 # Vancomycin
@@ -52,8 +52,8 @@ La evidencia es únicamente computacional y la predicción carece de plausibilid
 | Nueva Indicación Predicha | Esclerodermia difusa (diffuse scleroderma) |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 10; autorizadas no comercializadas: 1; revocadas o suspendidas: 2) |
-| Número de Autorizaciones | 10 (comercializadas: 7) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 12; autorizadas no comercializadas: 3; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 12 (comercializadas: 7) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -96,10 +96,10 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 78672 | VANCOMICINA MIP 500 MG POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Mip Pharma Gmbh | Comercializada |
 | 78671 | VANCOMICINA MIP 1000 MG POLVO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Mip Pharma Gmbh | Comercializada |
 | 90304 | VANGOZYR 250 MG CAPSULAS DURAS | CÁPSULA DURA | Mabo Farma S.A. | Autorizada, no comercializada |
-| 73785 | VANCOMICINA PFIZER 1000 mg POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Pfizer S.L. | Revocada |
-| 73784 | VANCOMICINA PFIZER 500 mg POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Pfizer S.L. | Revocada |
+| 91205 | VANCOMICINA NORIDEM 1000 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Noridem Enterprises Limited | Autorizada, no comercializada |
+| 91206 | VANCOMICINA NORIDEM 500 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Noridem Enterprises Limited | Autorizada, no comercializada |
 
-Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

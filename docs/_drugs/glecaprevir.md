@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "glecaprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-description: "Glecaprevir: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
+description: "Glecaprevir: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 2; autorizadas no comercializadas: 1)"
 ---
 
 # Glecaprevir
@@ -50,8 +50,8 @@ Los datos compilados incluyen **7 ensayos clínicos** y **20 publicaciones** rel
 | Nueva Indicación Predicha | Infección por VIH (HIV infectious disease) |
 | Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 2) |
-| Número de Autorizaciones | 2 (comercializadas: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 3; autorizadas no comercializadas: 1) |
+| Número de Autorizaciones | 3 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -94,12 +94,19 @@ Por ello, cualquier afirmación debe limitarse a esa población coinfectada y no
 |---------|------|------|------|------|
 | 1171213002 | MAVIRET 50 MG/20 MG GRANULOS RECUBIERTOS EN SOBRE | GRANULOS RECUBIERTOS EN SOBRES | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
 | 1171213001 | MAVIRET 100 MG/40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 1171213001IP | MAVIRET 100 MG/40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Abbvie Deutschland Gmbh & Co. Kg | Autorizada, no comercializada |
 
-Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-Ambas autorizaciones están vigentes y el titular es Abbvie Deutschland GmbH & Co. KG.
+Todas las autorizaciones están vigentes y el titular es Abbvie Deutschland GmbH & Co. KG.
+
+<!-- review:begin es-lic-20261125-glecaprevir-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Ambas autorizaciones están vigentes y el titular es Abbvie Deutschland GmbH & Co. KG." Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261125-glecaprevir-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -127,11 +134,12 @@ Ninguno de los estudios identificados evalúa el tratamiento de la infección po
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363) |
+| 2026-11-25 | «Ambas» → todas | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

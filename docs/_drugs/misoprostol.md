@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 534
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Misoprostol: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "MISOPROSTOL"
 predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero no hay
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 0,9964 |
 | Nivel de Evidencia | L5 (según la clasificación de los datos compilados; estrictamente, la evidencia directa corresponde a L5) |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 5) |
-| Número de Autorizaciones | 5 (comercializadas: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 6; autorizadas no comercializadas: 1) |
+| Número de Autorizaciones | 6 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -100,8 +100,9 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 58403 | CYTOTEC 200 MICROGRAMOS COMPRIMIDOS | COMPRIMIDO | Pfizer S.L. | Comercializada |
 | 77146 | MISOONE 400 MICROGRAMOS COMPRIMIDOS | COMPRIMIDO | Exelgyn | Comercializada |
 | 69682 | MISOFAR 25 microgramos COMPRIMIDOS VAGINALES | COMPRIMIDO VAGINAL | Laboratorios Bial S.A. | Comercializada |
+| 91614 | GYXINY 25 MICROGRAMOS COMPRIMIDOS | COMPRIMIDO | Afyx Therapeutics A/S | Autorizada, no comercializada |
 
-Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

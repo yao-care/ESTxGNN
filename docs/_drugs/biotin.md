@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Biotin"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
-last_modified_at: 2026-11-24
-description: "Biotin: nueva indicación predicha, dispepsia (dyspepsia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
+last_modified_at: 2026-11-25
+description: "Biotin: nueva indicación predicha, dispepsia (dyspepsia) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 2; autorizadas no comercializadas: 2)"
 ---
 
 # Biotin
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectiva para **dispepsia (dyspepsia)**,
 | Nueva Indicación Predicha | dispepsia (dyspepsia) |
 | Puntaje de Predicción TxGNN | 0,9943 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 2) |
-| Número de Autorizaciones | 2 (comercializadas: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 4; autorizadas no comercializadas: 2) |
+| Número de Autorizaciones | 4 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -86,8 +86,10 @@ Ninguna de las publicaciones recuperadas estudia la biotina como tratamiento de 
 |---------|------|------|------|------|
 | 24616 | MEDEBIOTIN FUERTE COMPRIMIDOS | COMPRIMIDO | Laboratorio Reig Jofre, S.A. | Comercializada |
 | 34236 | MEDEBIOTIN FUERTE SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 91148 | BEOTEBAL 5 MG COMPRIMIDOS | COMPRIMIDO | Farmaprojects S.A.U. | Autorizada, no comercializada |
+| 91149 | BEOTEBAL 10 MG COMPRIMIDOS | COMPRIMIDO | Farmaprojects S.A.U. | Autorizada, no comercializada |
 
-Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

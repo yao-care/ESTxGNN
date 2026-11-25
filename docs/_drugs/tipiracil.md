@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 797
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "tipiracil"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
-description: "Tipiracil: nueva indicación predicha, adenoma velloso del ciego (cecum villous adenoma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 4; autorizadas no comercializadas: 2)"
+description: "Tipiracil: nueva indicación predicha, adenoma velloso del ciego (cecum villous adenoma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 4; autorizadas no comercializadas: 4)"
 ---
 
 # Tipiracil
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 | Nueva Indicación Predicha | adenoma velloso del ciego (cecum villous adenoma) |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 6; autorizadas no comercializadas: 2) |
-| Número de Autorizaciones | 6 (comercializadas: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 8; autorizadas no comercializadas: 4) |
+| Número de Autorizaciones | 8 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -84,12 +84,20 @@ Estado de mercado: comercializado.
 | 1161096004 | LONSURF 20 MG/8,19 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Les Laboratoires Servier | Comercializada |
 | 1161096001IP | LONSURF 15 MG/6,14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Les Laboratoires Servier | Autorizada, no comercializada |
 | 1161096003IP | LONSURF 15 MG/6,14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Les Laboratoires Servier | Autorizada, no comercializada |
+| 91317 | TRIFLURIDINA/TIPIRACILO EUGIA 20 MG/8,19 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Eugia Pharma (Malta) Limited | Autorizada, no comercializada |
+| 91318 | TRIFLURIDINA/TIPIRACILO EUGIA 15 MG/6,14 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Eugia Pharma (Malta) Limited | Autorizada, no comercializada |
 
-Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-Nota: todas las autorizaciones corresponden a la combinación trifluridina/tipiracilo (Lonsurf), por lo que no describen la situación regulatoria del tipiracilo como único principio activo.
+Nota: todas las autorizaciones corresponden a la combinación trifluridina/tipiracilo (Lonsurf y genéricos), por lo que no describen la situación regulatoria del tipiracilo como único principio activo.
+
+<!-- review:begin es-lic-20261125-tipiracil-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "todas las autorizaciones corresponden a la combinación trifluridina/tipiracilo (Lonsurf)," Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261125-tipiracil-1 -->
 
 ## Citotoxicidad
 
@@ -125,11 +133,12 @@ La predicción tiene un puntaje alto en el modelo (0,9999), pero carece de ensay
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lonsurf (trifluridine and tipiracil) prescribing information, Taiho Pharmaceutical Co., Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f5beed22-d71d-4c0d-8dca-2c7317d65d85) |
+| 2026-11-25 | «(Lonsurf)» → Lonsurf y genéricos | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

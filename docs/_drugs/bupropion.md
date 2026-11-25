@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Bupropion: nueva indicación predicha, Trastorno por déficit de atención con hiperactividad (attention deficit-hyperactivity disorder) (nivel de evidencia L1). Indicación original: No consta en los da…"
 ---
 
@@ -50,8 +50,8 @@ con **6 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 | Nueva Indicación Predicha | Trastorno por déficit de atención con hiperactividad (attention deficit-hyperactivity disorder) |
 | Puntaje de Predicción TxGNN | 0,9999 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 16; autorizadas no comercializadas: 4; revocadas o suspendidas: 4) |
-| Número de Autorizaciones | 16 (comercializadas: 8) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 18; autorizadas no comercializadas: 6; revocadas o suspendidas: 4) |
+| Número de Autorizaciones | 18 (comercializadas: 8) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -107,7 +107,7 @@ Bupropion se comercializa en España con autorizaciones vigentes en comprimidos 
 | 88040 | BUPROPION ACCORD 150 MG COMPRIMIDOS DE LIBERACION MODIFICADA EFG | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Accord Healthcare S.L.U. | Autorizada, no comercializada |
 | 90083 | BUPROPION SUN 150 MG COMPRIMIDOS DE LIBERACION MODIFICADA EFG | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Sun Pharmaceutical Industries (Europe) B.V. | Autorizada, no comercializada |
 
-Se muestran 10 de 16 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 18 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

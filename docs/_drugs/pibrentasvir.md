@@ -5,10 +5,10 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 635
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "pibrentasvir"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-description: "Pibrentasvir: nueva indicación predicha, Infección por virus de la hepatitis B (hepatitis B virus infection) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
+description: "Pibrentasvir: nueva indicación predicha, Infección por virus de la hepatitis B (hepatitis B virus infection) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 3 (comercializadas: 2; autorizadas no comercializadas: 1)"
 ---
 
 # Pibrentasvir
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **infección por virus de 
 | Nueva Indicación Predicha | Infección por virus de la hepatitis B (hepatitis B virus infection) |
 | Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 2) |
-| Número de Autorizaciones | 2 (comercializadas: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 3; autorizadas no comercializadas: 1) |
+| Número de Autorizaciones | 3 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -92,8 +92,9 @@ Toda la literatura se centra en el VHC; ninguna publicación aporta datos de pib
 |---------|------|------|------|------|
 | 1171213002 | MAVIRET 50 MG/20 MG GRANULOS RECUBIERTOS EN SOBRE | GRANULOS RECUBIERTOS EN SOBRES | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
 | 1171213001 | MAVIRET 100 MG/40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 1171213001IP | MAVIRET 100 MG/40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Abbvie Deutschland Gmbh & Co. Kg | Autorizada, no comercializada |
 
-Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

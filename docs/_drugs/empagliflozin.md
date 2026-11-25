@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Empagliflozin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
-description: "Empagliflozin: nueva indicación predicha, Focal stiff limb syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 2; autorizadas no comercializadas: 6)"
+description: "Empagliflozin: nueva indicación predicha, Focal stiff limb syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 12 (comercializadas: 2; autorizadas no comercializadas: 10)"
 ---
 
 # Empagliflozin
@@ -50,8 +50,8 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Nueva Indicación Predicha | Focal stiff limb syndrome |
 | Puntaje de Predicción TxGNN | 0.9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 8; autorizadas no comercializadas: 6) |
-| Número de Autorizaciones | 8 (comercializadas: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 12; autorizadas no comercializadas: 10) |
+| Número de Autorizaciones | 12 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -86,8 +86,10 @@ Actualmente no hay literatura relacionada disponible.
 | 91044 | EMPAGLIFLOZINA KERN PHARMA 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Kern Pharma S.L. | Autorizada, no comercializada |
 | 90784 | EMPAGLIFLOZINA TECNIGEN 25 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tecnimede España Industria Farmaceutica S.A. | Autorizada, no comercializada |
 | 90783 | EMPAGLIFLOZINA TECNIGEN 10 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Tecnimede España Industria Farmaceutica S.A. | Autorizada, no comercializada |
+| 91604 | EMPAGLIFLOZINA AUROVITAS 10 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Autorizada, no comercializada |
+| 91605 | EMPAGLIFLOZINA AUROVITAS 25 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Autorizada, no comercializada |
 
-Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

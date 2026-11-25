@@ -5,10 +5,10 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 678
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "RALTEGRAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-description: "Raltegravir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 5 (comercializadas: 5)"
+description: "Raltegravir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 8 (comercializadas: 6; autorizadas no comercializadas: 2)"
 ---
 
 # Raltegravir
@@ -50,8 +50,8 @@ pero no hay **ensayos clínicos** registrados y solo se dispone de **15 publicac
 | Nueva Indicación Predicha | Simian immunodeficiency virus infection |
 | Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 5) |
-| Número de Autorizaciones | 5 (comercializadas: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 8; autorizadas no comercializadas: 2) |
+| Número de Autorizaciones | 8 (comercializadas: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -92,8 +92,11 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 107436004 | ISENTRESS 100 MG COMPRIMIDOS MASTICABLES | COMPRIMIDO MASTICABLE | Merck Sharp & Dohme B.V. | Comercializada |
 | 07436001 | ISENTRESS 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Merck Sharp & Dohme B.V. | Comercializada |
 | 107436003 | ISENTRESS 25 MG COMPRIMIDOS MASTICABLES | COMPRIMIDO MASTICABLE | Merck Sharp & Dohme B.V. | Comercializada |
+| 91190 | RALTEGRAVIR DR REDDYS 400 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Reddy Pharma Iberia S.A. | Comercializada |
+| 90700 | RALTEGRAVIR VIATRIS 600 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Viatris Limited | Autorizada, no comercializada |
+| 91276 | RALTEGRAVIR ZENTIVA 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Zentiva K.S. | Autorizada, no comercializada |
 
-Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

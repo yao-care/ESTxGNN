@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 517
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
-description: "Metoclopramide: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 8)"
+description: "Metoclopramide: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 8; autorizadas no comercializadas: 1)"
 ---
 
 # Metoclopramide
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **Úlcera gástrica**, per
 | Nueva Indicación Predicha | Gastroduodenitis |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 8) |
-| Número de Autorizaciones | 8 (comercializadas: 8) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 9; autorizadas no comercializadas: 1) |
+| Número de Autorizaciones | 9 (comercializadas: 8) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -107,8 +107,9 @@ El puntaje alto del modelo probablemente refleja la proximidad en la red de cono
 | 40257 | PRIMPERAN 1mg /ml SOLUCION ORAL | SOLUCIÓN ORAL | Sanofi Aventis S.A. | Comercializada |
 | 75665 | METOCLOPRAMIDA ACCORD 10 MG COMPRIMIDOS EFG | COMPRIMIDO | Accord Healthcare S.L.U. | Comercializada |
 | 40256 | PRIMPERAN 10 mg /2 ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Sanofi Aventis S.A. | Comercializada |
+| 89532 | METOCLOPRAMIDA NORIDEM 5 MG/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Noridem Enterprises Limited | Autorizada, no comercializada |
 
-Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
-last_modified_at: 2026-11-24
-description: "Ampicillin: nueva indicación predicha, laringitis (laryngitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 10 (comercializadas: 8; autorizadas no comercializadas: 2)"
+last_modified_at: 2026-11-25
+description: "Ampicillin: nueva indicación predicha, laringitis (laryngitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 13 (comercializadas: 8; autorizadas no comercializadas: 5)"
 ---
 
 # Ampicillin
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **laringitis (laryngitis)*
 | Nueva Indicación Predicha | laringitis (laryngitis) |
 | Puntaje de Predicción TxGNN | 0,9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 10; autorizadas no comercializadas: 2) |
-| Número de Autorizaciones | 10 (comercializadas: 8) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 13; autorizadas no comercializadas: 5) |
+| Número de Autorizaciones | 13 (comercializadas: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -99,7 +99,7 @@ Los estudios abordan sobre todo epiglotitis, abscesos y otras infecciones relaci
 | 89095 | AMPICILINA TILLOMED 1 G POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Laboratorios Tillomed Spain S.L.U | Autorizada, no comercializada |
 | 89096 | AMPICILINA TILLOMED 500 MG POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Laboratorios Tillomed Spain S.L.U | Autorizada, no comercializada |
 
-Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

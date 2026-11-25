@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 606
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Palonosetron: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (las autorizaciones no incluyen…"
 monitor_inn: "palonosetron"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 0,9974 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 11; autorizadas no comercializadas: 2; revocadas o suspendidas: 4) |
-| Número de Autorizaciones | 11 (comercializadas: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 12; autorizadas no comercializadas: 3; revocadas o suspendidas: 4) |
+| Número de Autorizaciones | 12 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -98,11 +98,11 @@ Nota: para la entidad "susceptibilidad a migraña con o sin aura" se asoció ade
 | 1151001001 | AKYNZEO 300 MG/0,5 MG CAPSULAS DURAS | CÁPSULA DURA | Helsinn Birex Pharmaceuticals Limited | Comercializada |
 | 04306001 | ALOXI 250 microgramos SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Helsinn Birex Pharmaceuticals Limited | Autorizada, no comercializada |
 | 1151001003 | AKYNZEO 235 MG/0,25 MG POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Helsinn Birex Pharmaceuticals Limited | Autorizada, no comercializada |
+| 1151001005 | AKYNZEO 300 MG/0,5 MG SUSPENSION ORAL EN SOBRE | SUSPENSIÓN ORAL | Helsinn Birex Pharmaceuticals Limited | Autorizada, no comercializada |
 | 83304 | PALONOSETRON ALTAN 250 MICROGRAMOS SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Altan Pharmaceuticals Sa | Revocada |
 | 81900 | PALONOSETRON FRESENIUS KABI 250 MCROGRAMOS SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Fresenius Kabi España, S.A.U. | Revocada |
-| 86421 | PALONOSETRON KALCEKS 250 MICROGRAMOS SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Kalceks As | Revocada |
 
-Se muestran 10 de 11 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

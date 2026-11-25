@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 302
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Erenumab: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ Todos los candidatos que el modelo TxGNN propone para Erenumab (puntuación ≥ 
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo que se pueden rastrear son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 1 |
 | Nivel de evidencia | No aplicable |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 2) |
-| Número de Autorizaciones | 2 (comercializadas: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 3; autorizadas no comercializadas: 1) |
+| Número de Autorizaciones | 3 (comercializadas: 2) |
 
 ## Usos conocidos entre los candidatos del modelo
 
@@ -78,8 +78,9 @@ Todos los candidatos que el modelo TxGNN propone para Erenumab (puntuación ≥ 
 |---------|------|------|------|------|
 | 1181293001 | AIMOVIG 70 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Novartis Europharm Limited | Comercializada |
 | 1181293004 | AIMOVIG 140 MG SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Novartis Europharm Limited | Comercializada |
+| 1181293004IP | AIMOVIG 140 MG SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Novartis Europharm Limited | Autorizada, no comercializada |
 
-Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

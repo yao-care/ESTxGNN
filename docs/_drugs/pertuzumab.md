@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 629
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
-description: "Pertuzumab: nueva indicación predicha, Ectomesenchymoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 5; autorizadas no comercializadas: 1)"
+description: "Pertuzumab: nueva indicación predicha, Ectomesenchymoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 5; autorizadas no comercializadas: 3)"
 ---
 
 # Pertuzumab
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para el **subtipo de carcinoma 
 | Nueva Indicación Predicha | Ectomesenchymoma |
 | Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 6; autorizadas no comercializadas: 1) |
-| Número de Autorizaciones | 6 (comercializadas: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 8; autorizadas no comercializadas: 3) |
+| Número de Autorizaciones | 8 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -71,11 +71,11 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Todas las autorizaciones corresponden a PERJETA 420 MG concentrado para solución para perfusión (titular: Roche Registration GmbH). Los datos compilados no incluyen el texto de la indicación aprobada.
+Las autorizaciones corresponden a PERJETA 420 MG concentrado para solución para perfusión (titular: Roche Registration GmbH) y a POHERDY 420 MG concentrado para solución para perfusión (titular: Organon N.V.). Los datos compilados no incluyen el texto de la indicación aprobada.
 
 <!-- review:begin es-lic-20261124b-pertuzumab-1 -->
 
-> **Corrección de revisión (2026-11-24)**: Texto original: "Se muestran 5 de las 6 autorizaciones vigentes, todas de PERJETA 420 MG concentrado para solución para perfusión (titular: Roche Registration GmbH)." Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-25)**: Texto original: "Se muestran 5 de las 6 autorizaciones vigentes, todas de PERJETA 420 MG concentrado para solución para perfusión (titular: Roche Registration GmbH)." Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla. Actualizado el 2026-11-25: se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida, y la frase anterior ya no coincidía con ellas. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261124b-pertuzumab-1 -->
 
@@ -89,8 +89,10 @@ Todas las autorizaciones corresponden a PERJETA 420 MG concentrado para solució
 | 113813001IP | PERJETA 420 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Comercializada |
 | 113813001IP1 | PERJETA 420 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Comercializada |
 | 113813001IP3 | PERJETA 420 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Autorizada, no comercializada |
+| 113813001IP5 | PERJETA 420 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Autorizada, no comercializada |
+| 1252008001 | POHERDY 420 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Organon N.V. | Autorizada, no comercializada |
 
-Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
@@ -136,7 +138,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff) |
-| 2026-11-24 | Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-25 | Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

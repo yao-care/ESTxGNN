@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 363
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "FREMANEZUMAB"
 predicted_indications: ["atrophoderma vermiculata"]
-description: "Fremanezumab: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
+description: "Fremanezumab: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 3 (comercializadas: 2; autorizadas no comercializadas: 1)"
 ---
 
 # Fremanezumab
@@ -49,8 +49,8 @@ pero actualmente no hay ensayos clínicos registrados y la literatura recopilada
 | Nueva Indicación Predicha | Atrophoderma vermiculata |
 | Puntaje de Predicción TxGNN | 0.9904 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 2) |
-| Número de Autorizaciones | 2 (comercializadas: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 3; autorizadas no comercializadas: 1) |
+| Número de Autorizaciones | 3 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -88,8 +88,9 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 |---------|------|------|------|------|
 | 1191358001 | AJOVY 225 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Teva Gmbh | Comercializada |
 | 1191358003 | AJOVY 225 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Teva Gmbh | Comercializada |
+| 1191358003IP | AJOVY 225 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Teva Gmbh | Autorizada, no comercializada |
 
-Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 293
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Enzalutamide"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
-description: "Enzalutamide: nueva indicación predicha, Prostate leiomyoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 17 (comercializadas: 1; autorizadas no comercializadas: 16)"
+description: "Enzalutamide: nueva indicación predicha, Prostate leiomyoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
 # Enzalutamide
@@ -50,8 +50,8 @@ con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección 
 | Nueva Indicación Predicha | Prostate leiomyoma |
 | Puntaje de Predicción TxGNN | 0.9957 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 17; autorizadas no comercializadas: 16) |
-| Número de Autorizaciones | 17 (comercializadas: 1) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 1; autorizadas no comercializadas: 19) |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -93,7 +93,7 @@ Todas las autorizaciones son de principio activo único. Los textos de indicaci�
 | 91053 | ENZALUTAMIDA TEVA 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Teva Gmbh | Autorizada, no comercializada |
 | 89820 | ENZALUTAMIDA SANDOZ FARMACEUTICA 80 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sandoz Farmaceutica S.A. | Autorizada, no comercializada |
 
-Se muestran 10 de 17 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
 
 <!-- licenses:end -->
 

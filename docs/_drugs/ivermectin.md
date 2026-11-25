@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 438
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Ivermectin"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "neonatal candidiasis", "candida glabrata", "congenital candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
-description: "Ivermectin: nueva indicación predicha, Candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 5; autorizadas no comercializadas: 1)"
+description: "Ivermectin: nueva indicación predicha, Candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 10 (comercializadas: 7; autorizadas no comercializadas: 2)"
 ---
 
 # Ivermectin
@@ -50,8 +50,8 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Nueva Indicación Predicha | Candidiasis vulvovaginal (vulvovaginal candidiasis) |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 6; autorizadas no comercializadas: 1) |
-| Número de Autorizaciones | 6 (comercializadas: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 10; autorizadas no comercializadas: 2; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 10 (comercializadas: 7) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -83,17 +83,21 @@ Cabe mencionar que, entre las demás predicciones, solo aparecen dos casos clín
 | 86297 | IVERCARE 3 MG COMPRIMIDOS EFG | COMPRIMIDO | Industrial Farmaceutica Cantabria S.A. | Comercializada |
 | 88545 | IVERMECTINA TEVA 3 MG COMPRIMIDOS EFG | COMPRIMIDO | Teva B.V. | Comercializada |
 | 90070 | IVERTILENE 3 MG COMPRIMIDOS EFG | COMPRIMIDO | Glenmark Arzneimittel Gmbh | Comercializada |
+| 90863 | IVERMECTINA STADA 3 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Comercializada |
+| 91147 | DEMODECTIN 10 MG/G CREMA | CREMA | Industrial Farmaceutica Cantabria S.A. | Comercializada |
 | 85956 | ZULIMA 3 MG COMPRIMIDOS EFG | COMPRIMIDO | Exeltis Healthcare S.L. | Autorizada, no comercializada |
+| 91188 | IVERMECTINA ARISTO 6 MG COMPRIMIDOS | COMPRIMIDO | Aristo Pharma Gmbh | Autorizada, no comercializada |
+| 91187 | IVERMECTINA ARISTO 3 MG COMPRIMIDOS EFG | COMPRIMIDO | Aristo Pharma Gmbh | Revocada |
 
-Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-Entre las autorizaciones figura IVERTILENE 3 MG COMPRIMIDOS EFG (90070, Glenmark); todas son de monofármaco y están vigentes.
+Entre las autorizaciones figura IVERTILENE 3 MG COMPRIMIDOS EFG (90070, Glenmark); todas son de monofármaco.
 
 <!-- review:begin es-lic-20261124b-ivermectin-1 -->
 
-> **Corrección de revisión (2026-11-24)**: Texto original: "Hay una sexta autorización vigente (90070, IVERTILENE 3 MG COMPRIMIDOS EFG, Glenmark), para un total de 6 autorizaciones, todas de monofármaco y vigentes." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-25)**: Texto original: "Hay una sexta autorización vigente (90070, IVERTILENE 3 MG COMPRIMIDOS EFG, Glenmark), para un total de 6 autorizaciones, todas de monofármaco y vigentes." Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Actualizado el 2026-11-25: se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida, y la frase anterior ya no coincidía con ellas. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261124b-ivermectin-1 -->
 
@@ -128,7 +132,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd) |
-| 2026-11-24 | «Hay una sexta autorización…, para un total de 6» → «Entre las autorizaciones figura» | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-25 | «Hay una sexta autorización…, para un total de 6» → «Entre las autorizaciones figura» | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

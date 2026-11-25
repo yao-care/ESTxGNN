@@ -5,10 +5,10 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 819
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Trazodone"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
-description: "Trazodone: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 9 (comercializadas: 4; autorizadas no comercializadas: 3)"
+description: "Trazodone: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 10 (comercializadas: 4; autorizadas no comercializadas: 4)"
 ---
 
 # Trazodone
@@ -52,8 +52,8 @@ con **0 ensayos clínicos registrados** y **20 publicaciones** que actualmente r
 | Nueva Indicación Predicha | Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 9; autorizadas no comercializadas: 3; revocadas o suspendidas: 2) |
-| Número de Autorizaciones | 9 (comercializadas: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 10; autorizadas no comercializadas: 4; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 10 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -104,10 +104,11 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 90501 | TRAZODONA STADAFARMA 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Autorizada, no comercializada |
 | 90503 | TRAZODONA STADAFARMA 50 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Autorizada, no comercializada |
 | 90502 | TRAZODONA STADAFARMA 150 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorio Stada S.L. | Autorizada, no comercializada |
+| 91139 | TRAZODONA COMBIX 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Laboratorios Combix S.L.U. | Autorizada, no comercializada |
 | 51612 | DEPRASER 100 mg COMPRIMIDOS RECUBIERTOS CON PELÍCULA | COMPRIMIDO | Angelini Pharma Espana S.L. | Suspendida |
 | 77556 | TRAZODONA SANDOZ 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Sandoz Farmaceutica S.A. | Revocada |
 
-Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

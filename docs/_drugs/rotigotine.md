@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 714
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Rotigotine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
-description: "Rotigotine: nueva indicación predicha, Attention deficit-hyperactivity disorder (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 20 (comercializadas: 12; autorizadas no comercializadas: 2)"
+description: "Rotigotine: nueva indicación predicha, Attention deficit-hyperactivity disorder (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
 # Rotigotine
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno por défici
 | Nueva Indicación Predicha | Attention deficit-hyperactivity disorder |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 12 de 20; autorizadas no comercializadas: 2; revocadas o suspendidas: 6) |
-| Número de Autorizaciones | 20 (comercializadas: 12) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 12; autorizadas no comercializadas: 2; revocadas o suspendidas: 6) |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -96,7 +96,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 89094 | DARIANTE 8 MG/24 HORAS PARCHES TRANSDÉRMICOS EFG | PARCHE TRANSDÉRMICO | Exeltis Healthcare S.L. | Comercializada |
 | 05331005 | NEUPRO 4 MG/24 H PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Ucb Pharma | Comercializada |
 
-Se muestran 10 de 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
 
 <!-- licenses:end -->
 

@@ -7,8 +7,8 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "OFATUMUMAB"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
-last_modified_at: 2026-11-24
-description: "Ofatumumab: nueva indicación predicha, Linfoma folicular (follicular lymphoma) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
+last_modified_at: 2026-11-25
+description: "Ofatumumab: nueva indicación predicha, Linfoma folicular (follicular lymphoma) (nivel de evidencia L2). En España, autorizaciones de la AEMPS: 2 (comercializadas: 1; autorizadas no comercializadas: 1)"
 ---
 
 # Ofatumumab
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **linfoma folicular**, con
 | Nueva Indicación Predicha | Linfoma folicular (follicular lymphoma) |
 | Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 1) |
-| Número de Autorizaciones | 1 (comercializadas: 1) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 2; autorizadas no comercializadas: 1) |
+| Número de Autorizaciones | 2 (comercializadas: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -98,12 +98,19 @@ También es plausible cierta actividad en enfermedad refractaria a rituximab, po
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
 |---------|------|------|------|------|
 | 121532003 | KESIMPTA 20 mg SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Novartis Europharm Limited | Comercializada |
+| 121532003IP | KESIMPTA 20 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Novartis Europharm Limited | Autorizada, no comercializada |
 
-Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-La autorización corresponde a un único principio activo (titular: Novartis Europharm Limited) y figura como vigente. Su presentación es una pluma precargada. Los ensayos citados en linfoma folicular utilizaron ofatumumab en infusión, por lo que esta presentación no equivale a la empleada en dichos estudios.
+Las autorizaciones corresponden a un único principio activo (titular: Novartis Europharm Limited) y figuran como vigentes. Su presentación es una pluma precargada. Los ensayos citados en linfoma folicular utilizaron ofatumumab en infusión, por lo que esta presentación no equivale a la empleada en dichos estudios.
+
+<!-- review:begin es-lic-20261125-ofatumumab-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "La autorización corresponde a un único principio activo (titular: Novartis Europharm Limited) y figura como vigente." Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261125-ofatumumab-1 -->
 
 ## Citotoxicidad
 
@@ -134,8 +141,28 @@ Hay varios ensayos de fase 2 completados directamente en linfoma folicular, incl
 - Obtener y revisar el prospecto de la autorización en España (advertencias y contraindicaciones), cuyos datos no están disponibles.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Conocer los resultados del ensayo de fase 3 NCT01077518 (terminado) y confirmar la comparación con rituximab.
-- Definir la vía y presentación de administración, dado que la autorización local es una pluma precargada y los ensayos usaron infusión.
+- Definir la vía y presentación de administración, dado que las autorizaciones locales son plumas precargadas y los ensayos usaron infusión.
 - Elaborar un plan de monitoreo de infecciones y función hematológica, y de interacciones con inmunosupresores.
+
+<!-- review:begin es-lic-20261125-ofatumumab-2 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "dado que la autorización local es una pluma precargada y los ensayos usaron infusión." Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261125-ofatumumab-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-25 | Singular → plural (se añade una importación paralela) | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-25 | Singular → plural | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

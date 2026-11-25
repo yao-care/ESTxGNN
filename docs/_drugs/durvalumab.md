@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "DURVALUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-11-24
-description: "Durvalumab: nueva indicación predicha, Adenocarcinoma del ligamento uterino (uterine ligament adenocarcinoma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 4)"
+last_modified_at: 2026-11-25
+description: "Durvalumab: nueva indicación predicha, Adenocarcinoma del ligamento uterino (uterine ligament adenocarcinoma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 6)"
 ---
 
 # Durvalumab
@@ -50,8 +50,8 @@ Entre las predicciones del mismo fármaco, la mejor respaldada es el **carcinoma
 | Nueva Indicación Predicha | Adenocarcinoma del ligamento uterino (uterine ligament adenocarcinoma) |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 4) |
-| Número de Autorizaciones | 4 (comercializadas: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 6) |
+| Número de Autorizaciones | 6 (comercializadas: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -93,8 +93,10 @@ Como referencia, para el carcinoma endocervical se recuperaron:
 | 1181322001IP | IMFINZI 50 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Astrazeneca Ab | Comercializada |
 | 1181322001 | IMFINZI 50 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Astrazeneca Ab | Comercializada |
 | 1181322002 | IMFINZI 50 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Astrazeneca Ab | Comercializada |
+| 1181322001IP1 | IMFINZI 50 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Astrazeneca Ab | Comercializada |
+| 1181322002IP1 | IMFINZI 50 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Astrazeneca Ab | Comercializada |
 
-Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

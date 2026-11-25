@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 334
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Fibrinogen Human: nueva indicación predicha, Hemoglobinopatía (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "fibrinogen human"
 predicted_indications: ["hemoglobinopathy"]
@@ -52,8 +52,8 @@ El modelo TxGNN predice que podría ser efectivo para **hemoglobinopatía**, per
 | Nueva Indicación Predicha | Hemoglobinopatía |
 | Puntaje de Predicción TxGNN | 0.9912 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 12; autorizadas no comercializadas: 4; revocadas o suspendidas: 1) |
-| Número de Autorizaciones | 12 (comercializadas: 7) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 15; autorizadas no comercializadas: 7; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 15 (comercializadas: 7) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -105,7 +105,7 @@ Los textos de indicación aprobada no figuran en los datos compilados.
 | 1171239001 | VERASEAL SOLUCIONES PARA ADHESIVO TISULAR | SOLUCIÓN PARA ADHESIVO TISULAR | Instituto Grifols S.A. | Autorizada, no comercializada |
 | 04277002 | TACHOSIL MATRIZ ADHESIVA | MATRIZ ADHESIVA | Corza Medical Gmbh | Autorizada, no comercializada |
 
-Se muestran 10 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 15 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

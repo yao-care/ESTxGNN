@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "avibactam"
 predicted_indications: ["ureter tuberculosis", "urinary schistosomiasis", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Avibactam: nueva indicación predicha, Tuberculosis del uréter (nivel de evidencia L5). Indicación original: Pielonefritis"
 ---
 
@@ -50,8 +50,8 @@ Se trata, por tanto, de una predicción puramente computacional.
 | Nueva Indicación Predicha | Tuberculosis del uréter |
 | Puntaje de Predicción TxGNN | 0,9911 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 2) |
-| Número de Autorizaciones | 2 (comercializadas: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 3) |
+| Número de Autorizaciones | 3 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -88,12 +88,19 @@ Actualmente no hay literatura relacionada disponible.
 |---------|------|------|------|------|
 | 1161109001 | ZAVICEFTA 2 G/0,5 G POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Pfizer Ireland Pharmaceuticals | Comercializada |
 | 1241808001 | EMBLAVEO 1,5 G/0,5 G POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Pfizer Europe Ma Eeig | Comercializada |
+| 1161109001IP | ZAVICEFTA 2 G/0,5 G POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Pfizer Ireland Pharmaceuticals Unlimited Company | Comercializada |
 
-Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-Ambas autorizaciones están vigentes. Corresponden a productos con avibactam en combinación con otros principios activos, por lo que no deben interpretarse como autorizaciones del avibactam como principio activo único.
+Todas las autorizaciones están vigentes. Corresponden a productos con avibactam en combinación con otros principios activos, por lo que no deben interpretarse como autorizaciones del avibactam como principio activo único.
+
+<!-- review:begin es-lic-20261125-avibactam-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Ambas autorizaciones están vigentes." Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261125-avibactam-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -114,6 +121,19 @@ La predicción se basa únicamente en el modelo, sin ensayos clínicos ni public
 - Estudios preclínicos que evalúen la inhibición de BlaC de *M. tuberculosis* y la actividad en combinación con beta-lactámicos.
 - Revisión sistemática de la literatura sobre inhibidores de beta-lactamasas en tuberculosis, incluida la genitourinaria.
 - Evaluar la compatibilidad de vía de administración y la similitud con la indicación original, actualmente pendientes.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-25 | «Ambas» → todas | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

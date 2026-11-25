@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 450
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Lanreotide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
-description: "Lanreotide: nueva indicación predicha, Hipertricosis (hypertrichosis (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 10 (comercializadas: 6; autorizadas no comercializadas: 3)"
+description: "Lanreotide: nueva indicación predicha, Hipertricosis (hypertrichosis (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 13 (comercializadas: 6; autorizadas no comercializadas: 6)"
 ---
 
 # Lanreotide
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Hipertricosis (hypertrichosis (disease)) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 10; autorizadas no comercializadas: 3; revocadas o suspendidas: 1) |
-| Número de Autorizaciones | 10 (comercializadas: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 13; autorizadas no comercializadas: 6; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 13 (comercializadas: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -93,9 +93,9 @@ Actualmente no hay literatura relacionada disponible.
 | 90113 | LANREOTIDA SUN 90 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Sun Pharmaceutical Industries (Europe) B.V. | Autorizada, no comercializada |
 | 90111 | LANREOTIDA SUN 120 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Sun Pharmaceutical Industries (Europe) B.V. | Autorizada, no comercializada |
 | 90112 | LANREOTIDA SUN 60 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Sun Pharmaceutical Industries (Europe) B.V. | Autorizada, no comercializada |
-| 60914 | SOMATULINA 30 mg POLVO Y DISOLVENTE PARA SUSPENSION INYECTABLE DE LIBERACION PROLONGADA | POLVO Y DISOLVENTE PARA SUSPENSIÓN INYECTABLE DE LIBERACIÓN PROLONGADA | Ipsen Pharma S.A. | Revocada |
+| 91220 | LANREOTIDA ZENTIVA 90 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA EFG | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Zentiva K.S. | Autorizada, no comercializada |
 
-Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

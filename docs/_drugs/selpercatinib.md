@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 730
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Selpercatinib: nueva indicación predicha, Hipertensión pulmonar (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "SELPERCATINIB"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**
 | Nueva Indicación Predicha | Hipertensión pulmonar |
 | Puntaje de Predicción TxGNN | 0.9918 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 4; autorizadas no comercializadas: 2) |
-| Número de Autorizaciones | 4 (comercializadas: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 6; autorizadas no comercializadas: 2) |
+| Número de Autorizaciones | 6 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -83,10 +83,12 @@ Las siguientes publicaciones fueron recuperadas, pero ninguna evalúa la hiperte
 |---------|------|------|------|------|
 | 1201527016 | RETSEVMO 80 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Eli Lilly Nederland B.V. | Comercializada |
 | 1201527013 | RETSEVMO 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Eli Lilly Nederland B.V. | Comercializada |
+| 1201527001IP | RETSEVMO 40 MG CAPSULAS DURAS | CÁPSULA DURA | Eli Lilly Nederland B.V. | Comercializada |
+| 1201527002IP | RETSEVMO 80 MG CAPSULAS DURAS | CÁPSULA DURA | Eli Lilly Nederland B.V. | Comercializada |
 | 1201527001 | RETSEVMO 40 mg CAPSULAS DURAS | CÁPSULA DURA | Eli Lilly Nederland B.V. | Autorizada, no comercializada |
 | 1201527002 | RETSEVMO 80 mg CAPSULAS DURAS | CÁPSULA DURA | Eli Lilly Nederland B.V. | Autorizada, no comercializada |
 
-Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 602
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
-description: "Paclitaxel: nueva indicación predicha, Parameningeal embryonal rhabdomyosarcoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 12 (comercializadas: 11; autorizadas no comercializadas: 1)"
+description: "Paclitaxel: nueva indicación predicha, Parameningeal embryonal rhabdomyosarcoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 14 (comercializadas: 11; autorizadas no comercializadas: 3)"
 ---
 
 # Paclitaxel
@@ -48,8 +48,8 @@ Paclitaxel es un citotóxico antimicrotúbulos, originalmente utilizado para el 
 | Nueva Indicación Predicha | Parameningeal embryonal rhabdomyosarcoma |
 | Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 (según la puntuación del análisis; ver nota en la conclusión) |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 11 de 12; autorizadas no comercializadas: 1) |
-| Número de Autorizaciones | 12 (comercializadas: 11) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 11 de 14; autorizadas no comercializadas: 3) |
+| Número de Autorizaciones | 14 (comercializadas: 11) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -96,7 +96,13 @@ Se muestran las publicaciones más relevantes, priorizando ensayos y revisiones.
 
 ## Información de Mercado en España
 
-Existen 12 autorizaciones vigentes (todas de medicamentos con un solo principio activo). Los datos compilados no incluyen el texto de la indicación aprobada. Se muestran las 5 principales.
+Existen autorizaciones vigentes, todas de medicamentos con un solo principio activo. Los datos compilados no incluyen el texto de la indicación aprobada. Se muestran las 5 principales.
+
+<!-- review:begin es-lic-20261125-paclitaxel-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Existen 12 autorizaciones vigentes (todas de medicamentos con un solo principio activo)." Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261125-paclitaxel-1 -->
 
 <!-- licenses:begin -->
 
@@ -108,7 +114,7 @@ Existen 12 autorizaciones vigentes (todas de medicamentos con un solo principio 
 | 07428001 | ABRAXANE 5 MG/ML POLVO PARA DISPERSION PARA PERFUSION | POLVO PARA DISPERSIÓN PARA PERFUSIÓN | Bristol-Myers Squibb Pharma Eeig | Comercializada |
 | 1181317001 | PAZENIR 5 MG/ML POLVO PARA DISPERSION PARA PERFUSION EFG | POLVO PARA DISPERSIÓN PARA PERFUSIÓN | Ratiopharm Gmbh | Comercializada |
 
-Se muestran 5 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 5 de 14 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
@@ -155,11 +161,12 @@ Paclitaxel tiene un mecanismo antimitótico plausible y un uso establecido en c�
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c) |
+| 2026-11-25 | Número de autorizaciones eliminado (ya no coincidía) | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

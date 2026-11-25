@@ -12,20 +12,20 @@
  "public_pages": 859,
  "licence_snapshot": "es_licenses.json.gz",
  "licence": {
-  "drugs_with_data": 682,
-  "drugs_with_current": 605,
+  "drugs_with_data": 675,
+  "drugs_with_current": 598,
   "drugs_none_current": 77,
-  "drugs_without_data": 177,
+  "drugs_without_data": 184,
   "drugs_partial": 0,
-  "items_total": 3678,
-  "items_current": 2442
+  "items_total": 3742,
+  "items_current": 2394
  },
  "reviews": {
-  "records": 976,
-  "pages": 679,
-  "public_pages_with_records": 679,
+  "records": 992,
+  "pages": 683,
+  "public_pages_with_records": 683,
   "by_action": {
-   "correct": 367,
+   "correct": 383,
    "mechanism": 609
   }
  },
@@ -56,19 +56,10 @@
    "t": "Trastuzumab",
    "u": "/drugs/trastuzumab/",
    "l": "L5",
-   "lt": 17,
+   "lt": 18,
    "lv": 17,
    "r": 1,
    "i": "malignant cutaneous granular cell skin tumor"
-  },
-  {
-   "t": "Almotriptan",
-   "u": "/drugs/almotriptan/",
-   "l": "L5",
-   "lt": 20,
-   "lv": 16,
-   "r": 1,
-   "i": "Atrofodermia vermiculada"
   },
   {
    "t": "Treprostinil",
@@ -80,24 +71,6 @@
    "i": "pulmonary arteriovenous malformation (disease)"
   },
   {
-   "t": "Vilanterol",
-   "u": "/drugs/vilanterol/",
-   "l": "L5",
-   "lt": 20,
-   "lv": 16,
-   "r": 2,
-   "i": "hyperlucent lung"
-  },
-  {
-   "t": "Progesterone",
-   "u": "/drugs/progesterone/",
-   "l": "L4",
-   "lt": 20,
-   "lv": 15,
-   "r": 1,
-   "i": "Enfermedad fibroquística de la mama"
-  },
-  {
    "t": "Desvenlafaxine",
    "u": "/drugs/desvenlafaxine/",
    "l": "L4",
@@ -105,6 +78,33 @@
    "lv": 14,
    "r": 2,
    "i": "obsessive-compulsive disorder"
+  },
+  {
+   "t": "Fenofibrate",
+   "u": "/drugs/fenofibrate/",
+   "l": "L5",
+   "lt": 15,
+   "lv": 14,
+   "r": 1,
+   "i": "Deficiencia de la proteína de transferencia de ésteres de colesterol"
+  },
+  {
+   "t": "Clindamycin",
+   "u": "/drugs/clindamycin/",
+   "l": "L5",
+   "lt": 16,
+   "lv": 13,
+   "r": 3,
+   "i": "Queratoconjuntivitis epitelial punteada"
+  },
+  {
+   "t": "Etanercept",
+   "u": "/drugs/etanercept/",
+   "l": "L5",
+   "lt": 13,
+   "lv": 13,
+   "r": 2,
+   "i": "hypermobility of coccyx"
   }
  ],
  "no_current": [
@@ -285,6 +285,126 @@
  },
  "recent_reviews": [
   {
+   "t": "Tipiracil",
+   "u": "/drugs/tipiracil/",
+   "s": "«(Lonsurf)» → Lonsurf y genéricos",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Siponimod",
+   "u": "/drugs/siponimod/",
+   "s": "«las tres» → todas",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Ramucirumab",
+   "u": "/drugs/ramucirumab/",
+   "s": "«Las cuatro» → todas",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Prucalopride",
+   "u": "/drugs/prucalopride/",
+   "s": "«Ambas … titular Takeda» → todas; se añade Tarbis Farma",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Polatuzumab Vedotin",
+   "u": "/drugs/polatuzumab-vedotin/",
+   "s": "«Ambas» → todas",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Paclitaxel",
+   "u": "/drugs/paclitaxel/",
+   "s": "Número de autorizaciones eliminado (ya no coincidía)",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Ofatumumab",
+   "u": "/drugs/ofatumumab/",
+   "s": "Singular → plural",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Modafinil",
+   "u": "/drugs/modafinil/",
+   "s": "Número de autorizaciones eliminado (la suma ya no cuadraba)",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Lomitapide",
+   "u": "/drugs/lomitapide/",
+   "s": "«Las tres» → todas",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Ipilimumab",
+   "u": "/drugs/ipilimumab/",
+   "s": "«Las tres» → todas",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Haloperidol",
+   "u": "/drugs/haloperidol/",
+   "s": "«Las cinco» → todas",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Glecaprevir",
+   "u": "/drugs/glecaprevir/",
+   "s": "«Ambas» → todas",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Efmoroctocog Alfa",
+   "u": "/drugs/efmoroctocog-alfa/",
+   "s": "Número de autorizaciones eliminado (ya no coincidía)",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Avibactam",
+   "u": "/drugs/avibactam/",
+   "s": "«Ambas» → todas",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Alectinib",
+   "u": "/drugs/alectinib/",
+   "s": "«Ambas» → todas (se añade una importación paralela)",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Pertuzumab",
+   "u": "/drugs/pertuzumab/",
+   "s": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Ivermectin",
+   "u": "/drugs/ivermectin/",
+   "s": "«Hay una sexta autorización…, para un total de 6» → «Entre las autorizaciones figura»",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Insulin Aspart",
+   "u": "/drugs/insulin-aspart/",
+   "s": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Cabozantinib",
+   "u": "/drugs/cabozantinib/",
+   "s": "«se comercializa … en cápsulas duras (Cometriq)» → Cometriq autorizado pero no comercializado",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Oxytetracycline",
+   "u": "/drugs/oxytetracycline/",
+   "s": "«productos de un solo principio activo» → solo 1 es monofármaco; las demás son combinaciones",
+   "d": "2026-11-25"
+  },
+  {
    "t": "Alanine",
    "u": "/drugs/alanine/",
    "s": "「Aclarar la composici」→「Aclarar la composici」",
@@ -306,177 +426,57 @@
    "t": "Morphine",
    "u": "/drugs/morphine/",
    "s": "«15 vigentes y 5 canceladas» → sin cifras",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Montelukast",
-   "u": "/drugs/montelukast/",
-   "s": "«17 vigentes y 3 canceladas» → sin cifras",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Meropenem",
-   "u": "/drugs/meropenem/",
-   "s": "«6 vigentes y 7 canceladas» → sin cifras",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Lovastatin",
-   "u": "/drugs/lovastatin/",
-   "s": "«de las 20 registradas … 11 vigentes y 9 canceladas» → sin cifras",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Lormetazepam",
-   "u": "/drugs/lormetazepam/",
-   "s": "«17 vigentes y 3 canceladas» → sin cifras",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Lidocaine",
-   "u": "/drugs/lidocaine/",
-   "s": "«(al menos 20)» eliminado",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Levonorgestrel",
-   "u": "/drugs/levonorgestrel/",
-   "s": "«20 autorizaciones: 16 vigentes, 2 canceladas y 2 sin comercialización» → sin cifras",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Levofloxacin",
-   "u": "/drugs/levofloxacin/",
-   "s": "«20 autorizaciones … 10 vigentes» → sin cifras",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Fluvastatin",
-   "u": "/drugs/fluvastatin/",
-   "s": "«hay al menos 20 autorizaciones» → sin cifras (se conserva el número de filas de la tabla)",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Fluoxetine",
-   "u": "/drugs/fluoxetine/",
-   "s": "«al menos 20 autorizaciones» → sin cifras",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Ciprofloxacin",
-   "u": "/drugs/ciprofloxacin/",
-   "s": "«13 autorizaciones vigentes» → sin cifras",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Cholecalciferol",
-   "u": "/drugs/cholecalciferol/",
-   "s": "«al menos 20 autorizaciones» → sin cifras",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Carbenoxolone",
-   "u": "/drugs/carbenoxolone/",
-   "s": "«la formulación disponible en España» → la única autorización (pomada bucal) está revocada",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Captopril",
-   "u": "/drugs/captopril/",
-   "s": "«20 … 6 vigentes y 14 canceladas» → sin cifras",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Buprenorphine",
-   "u": "/drugs/buprenorphine/",
-   "s": "«al menos 20 autorizaciones» → sin cifras",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Brivaracetam",
-   "u": "/drugs/brivaracetam/",
-   "s": "«al menos 20 autorizaciones» → sin cifras",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Atenolol",
-   "u": "/drugs/atenolol/",
-   "s": "«al menos 20 … 15 vigentes y 5 canceladas» → sin cifras",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Apixaban",
-   "u": "/drugs/apixaban/",
-   "s": "«al menos 20 … solo una figura como vigente y comercializada (Eliquis)» → hay varias comercializadas; sin…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Amoxicillin",
-   "u": "/drugs/amoxicillin/",
-   "s": "«al menos 20 autorizaciones» → sin cifras",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Ambroxol",
-   "u": "/drugs/ambroxol/",
-   "s": "«al menos 20 autorizaciones» → sin cifras",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Allopurinol",
-   "u": "/drugs/allopurinol/",
-   "s": "«20 autorizaciones» → sin cifras",
    "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Alanine",
-   "u": "/drugs/alanine/",
-   "s": "「Aclarar la composici」→「Aclarar la composici」",
-   "d": "2026-11-24"
+   "t": "Tipiracil",
+   "u": "/drugs/tipiracil/",
+   "s": "«(Lonsurf)» → Lonsurf y genéricos",
+   "d": "2026-11-25"
   },
   {
-   "t": "Sertraline",
-   "u": "/drugs/sertraline/",
-   "s": "«al menos 20 … 16 vigentes y 4 canceladas» → sin cifras",
-   "d": "2026-11-24"
+   "t": "Siponimod",
+   "u": "/drugs/siponimod/",
+   "s": "«las tres» → todas",
+   "d": "2026-11-25"
   },
   {
-   "t": "Prednisone",
-   "u": "/drugs/prednisone/",
-   "s": "«16 vigentes y 4 canceladas» → sin cifras",
-   "d": "2026-11-24"
+   "t": "Ramucirumab",
+   "u": "/drugs/ramucirumab/",
+   "s": "«Las cuatro» → todas",
+   "d": "2026-11-25"
   },
   {
-   "t": "Morphine",
-   "u": "/drugs/morphine/",
-   "s": "«15 vigentes y 5 canceladas» → sin cifras",
-   "d": "2026-11-24"
+   "t": "Prucalopride",
+   "u": "/drugs/prucalopride/",
+   "s": "«Ambas … titular Takeda» → todas; se añade Tarbis Farma",
+   "d": "2026-11-25"
   },
   {
-   "t": "Montelukast",
-   "u": "/drugs/montelukast/",
-   "s": "«17 vigentes y 3 canceladas» → sin cifras",
-   "d": "2026-11-24"
+   "t": "Polatuzumab Vedotin",
+   "u": "/drugs/polatuzumab-vedotin/",
+   "s": "«Ambas» → todas",
+   "d": "2026-11-25"
   },
   {
-   "t": "Meropenem",
-   "u": "/drugs/meropenem/",
-   "s": "«6 vigentes y 7 canceladas» → sin cifras",
-   "d": "2026-11-24"
+   "t": "Paclitaxel",
+   "u": "/drugs/paclitaxel/",
+   "s": "Número de autorizaciones eliminado (ya no coincidía)",
+   "d": "2026-11-25"
   },
   {
-   "t": "Lovastatin",
-   "u": "/drugs/lovastatin/",
-   "s": "«de las 20 registradas … 11 vigentes y 9 canceladas» → sin cifras",
-   "d": "2026-11-24"
+   "t": "Ofatumumab",
+   "u": "/drugs/ofatumumab/",
+   "s": "Singular → plural",
+   "d": "2026-11-25"
   },
   {
-   "t": "Lormetazepam",
-   "u": "/drugs/lormetazepam/",
-   "s": "«17 vigentes y 3 canceladas» → sin cifras",
-   "d": "2026-11-24"
+   "t": "Modafinil",
+   "u": "/drugs/modafinil/",
+   "s": "Número de autorizaciones eliminado (la suma ya no cuadraba)",
+   "d": "2026-11-25"
   }
  ],
  "files": {

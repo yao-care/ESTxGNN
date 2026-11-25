@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 618
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "PEMBROLIZUMAB"
 predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "fibroma of lung", "lung benign neoplasm", "ovarioleukodystrophy", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
-description: "Pembrolizumab: nueva indicación predicha, Fibromatosis gingival (fibromatosis, gingival) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 4; autorizadas no comercializadas: 2)"
+description: "Pembrolizumab: nueva indicación predicha, Fibromatosis gingival (fibromatosis, gingival) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 4; autorizadas no comercializadas: 3)"
 ---
 
 # Pembrolizumab
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival** 
 | Nueva Indicación Predicha | Fibromatosis gingival (fibromatosis, gingival) |
 | Puntaje de Predicción TxGNN | 0.9940 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 7; autorizadas no comercializadas: 2; revocadas o suspendidas: 1) |
-| Número de Autorizaciones | 7 (comercializadas: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 8; autorizadas no comercializadas: 3; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 8 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -97,9 +97,10 @@ Actualmente no hay literatura relacionada disponible.
 | 1151024002IP1 | KEYTRUDA 25 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Merck Sharp & Dohme B.V. | Comercializada |
 | 115024001IP | KEYTRUDA 50 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Merck Sharp & Dohme B.V. | Autorizada, no comercializada |
 | 1151024002IP2 | KEYTRUDA 25 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Merck Sharp & Dohme B.V. | Autorizada, no comercializada |
+| 1151024002IP4 | KEYTRUDA 25 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Merck Sharp & Dohme B.V. | Autorizada, no comercializada |
 | 1151024001 | KEYTRUDA 50 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Merck Sharp & Dohme B.V. | Revocada |
 
-Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

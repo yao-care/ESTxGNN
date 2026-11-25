@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 631
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
-description: "Phenobarbital: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 3)"
+description: "Phenobarbital: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 3; autorizadas no comercializadas: 1)"
 ---
 
 # Phenobarbital
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio tri
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino (trigeminal nerve neoplasm) |
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 4; revocadas o suspendidas: 1) |
-| Número de Autorizaciones | 4 (comercializadas: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 5; autorizadas no comercializadas: 1; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 5 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -90,9 +90,10 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 35052 | LUMINAL 100 MG COMPRIMIDOS | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
 | 3275 | LUMINALETAS 15 MG COMPRIMIDOS | COMPRIMIDO | Kern Pharma S.L. | Comercializada |
 | 3905 | LUMINAL 200 MG/ML SOLUCIÓN INYECTABLE | SOLUCIÓN INYECTABLE | Kern Pharma S.L. | Comercializada |
+| 91684 | FENOBARBITAL BASI 100 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Laboratorios Basi Industria Farmaceutica S.A. | Autorizada, no comercializada |
 | 49002 | GARDENAL 50 mg COMPRIMIDOS | COMPRIMIDO | Sanofi Aventis S.A. | Revocada |
 
-Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

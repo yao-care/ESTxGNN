@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 782
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Teriparatide"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
-description: "Teriparatide: nueva indicación predicha, Úlcera duodenal (duodenal ulcer (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 15 (comercializadas: 8; autorizadas no comercializadas: 6)"
+description: "Teriparatide: nueva indicación predicha, Úlcera duodenal (duodenal ulcer (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 18 (comercializadas: 10; autorizadas no comercializadas: 7)"
 ---
 
 # Teriparatide
@@ -52,8 +52,8 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Nueva Indicación Predicha | Úlcera duodenal (duodenal ulcer (disease)) |
 | Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 15; autorizadas no comercializadas: 6; revocadas o suspendidas: 1) |
-| Número de Autorizaciones | 15 (comercializadas: 8) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 10 de 18; autorizadas no comercializadas: 7; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 18 (comercializadas: 10) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -100,10 +100,10 @@ Principales autorizaciones:
 | 1201462001 | LIVOGIVA 20 MICROGRAMOS/80 MICROLITROS SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Theramex Ireland Limited | Comercializada |
 | 1221697001 | TERIPARATIDA SUN 20 MICROGRAMOS/80 MICROLITROS SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
 | 1221628001 | SONDELBAY 20 MICROGRAMOS/80 MICROLITROS SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Accord Healthcare S.L.U. | Comercializada |
-| 1161159001 | TERROSA 20 MICROGRAMOS/80 MICROLITROS SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Gedeon Richter Plc. | Autorizada, no comercializada |
-| 1161161001 | MOVYMIA 20 MICROGRAMOS/80 MICROLITROS SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Stada Arzneimittel Ag | Autorizada, no comercializada |
+| 1161159004IP | TERROSA 20 MICROGRAMOS/80 MICROLITROS SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Gedeon Richter Plc. | Comercializada |
+| 1221710003 | KAULIV 20 MICROGRAMOS/80 MICROLITROS SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Strides Pharma (Cyprus) Limited | Comercializada |
 
-Se muestran 10 de 15 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 18 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

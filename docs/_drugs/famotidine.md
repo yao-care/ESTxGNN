@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Famotidine"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
-description: "Famotidine: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 9)"
+description: "Famotidine: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 13 (comercializadas: 9; autorizadas no comercializadas: 4)"
 ---
 
 # Famotidine
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para el **reflujo duodenogástr
 | Nueva Indicación Predicha | Duodenal obstruction |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 9 de 9) |
-| Número de Autorizaciones | 9 (comercializadas: 9) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 9 de 13; autorizadas no comercializadas: 4) |
+| Número de Autorizaciones | 13 (comercializadas: 9) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -98,7 +98,7 @@ Famotidina está comercializada en España con 9 autorizaciones vigentes, todas 
 | 63317 | FAMOTIDINA CINFA 40 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO | Laboratorios Cinfa S.A. | Comercializada |
 | 63712 | FAMOTIDINA ARISTO 20 mg COMPRIMIDOS EFG | COMPRIMIDO | Aristo Pharma Iberia S.L. | Comercializada |
 
-Se muestran 5 de 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 5 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

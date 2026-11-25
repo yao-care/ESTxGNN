@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 211
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Cyclophosphamide"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
 description: "Cyclophosphamide: nueva indicación predicha, Anomalías vertebrales con disfunción endocrina y de células T variable (vertebral anomalies and variable endocrine and T-cell dysfunction) (nivel de evidencia L5)."
@@ -50,8 +50,8 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dir
 | Nueva Indicación Predicha | Anomalías vertebrales con disfunción endocrina y de células T variable (vertebral anomalies and variable endocrine and T-cell dysfunction) |
 | Puntaje de Predicción TxGNN | 0.9938 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 9; autorizadas no comercializadas: 1; revocadas o suspendidas: 2) |
-| Número de Autorizaciones | 9 (comercializadas: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 13; autorizadas no comercializadas: 5; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 13 (comercializadas: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -83,10 +83,11 @@ Actualmente no hay literatura relacionada disponible.
 | 48972 | GENOXAL 1000 mg POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Baxter S.L. | Comercializada |
 | 90201 | CICLOFOSFAMIDA SEACROSS 1.000 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Seacross Pharma (Europe) Limited | Comercializada |
 | 89739 | CICLOFOSFAMIDA ACCORD 200 MG/ML CONCENTRADO PARA SOLUCION INYECTABLE Y PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Accord Healthcare S.L.U. | Autorizada, no comercializada |
-| 89859 | CICLOFOSFAMIDA VIVANTA 1.000 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Vivanta Generics S.R.O. | Revocada |
-| 86296 | CICLOFOSFAMIDA ACCORD 1.000 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSIÓN EFG | POLVO PARA SOLUCIÓN INYECTABLE | Accord Healthcare S.L.U. | Revocada |
+| 91396 | CICLOFOSFAMIDA HIKMA 200 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Hikma Farmaceutica (Portugal) S.A. | Autorizada, no comercializada |
+| 91397 | CICLOFOSFAMIDA HIKMA 2 000 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Hikma Farmaceutica (Portugal) S.A. | Autorizada, no comercializada |
+| 91398 | CICLOFOSFAMIDA HIKMA 500 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Hikma Farmaceutica (Portugal) S.A. | Autorizada, no comercializada |
 
-Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

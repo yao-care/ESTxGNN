@@ -5,10 +5,10 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 294
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "ephedrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
-description: "Ephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 13 (comercializadas: 12; autorizadas no comercializadas: 1)"
+description: "Ephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 14 (comercializadas: 12; autorizadas no comercializadas: 2)"
 ---
 
 # Ephedrine
@@ -50,8 +50,8 @@ con **0 ensayos clínicos** y **2 publicaciones** de baja calidad (de 1964 y 200
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal (nasal cavity disease) |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 12 de 13; autorizadas no comercializadas: 1) |
-| Número de Autorizaciones | 13 (comercializadas: 12) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 12 de 14; autorizadas no comercializadas: 2) |
+| Número de Autorizaciones | 14 (comercializadas: 12) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -90,7 +90,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 77108 | HIDROCLORURO DE EFEDRINA ALTAN 3MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Altan Pharmaceuticals Sa | Comercializada |
 | 69577 | HEMOAL FORTE POMADA RECTAL | POMADA RECTAL | Reckitt Benckiser Healthcare S.A. | Comercializada |
 
-Se muestran 10 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 14 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

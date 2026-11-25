@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 585
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Olaparib: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) propone para Olaparib 
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo trazables a una fuente son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 1 |
 | Nivel de evidencia | No aplicable |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 3; revocadas o suspendidas: 1) |
-| Número de Autorizaciones | 3 (comercializadas: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 6; autorizadas no comercializadas: 3; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 6 (comercializadas: 2) |
 
 ## Usos conocidos entre los candidatos del modelo
 
@@ -78,9 +78,12 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) propone para Olaparib 
 |---------|------|------|------|------|
 | 114959002 | LYNPARZA 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Astrazeneca Ab | Comercializada |
 | 114959004 | LYNPARZA 150 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Astrazeneca Ab | Comercializada |
+| 114959002IP | LYNPARZA 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Astrazeneca Ab | Autorizada, no comercializada |
+| 114959002IP1 | LYNPARZA 100 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Astrazeneca Ab | Autorizada, no comercializada |
+| 114959004IP | LYNPARZA 150 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Astrazeneca Ab | Autorizada, no comercializada |
 | 114959001 | LYNPARZA 50 MG CAPSULAS DURAS | CÁPSULA DURA | Astrazeneca Ab | Revocada |
 
-Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

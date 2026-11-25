@@ -5,10 +5,10 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 268
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "dronedarone"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
-description: "Dronedarone: nueva indicación predicha, Ictus (stroke disorder) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 9 (comercializadas: 7)"
+description: "Dronedarone: nueva indicación predicha, Ictus (stroke disorder) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 10 (comercializadas: 7; autorizadas no comercializadas: 1)"
 ---
 
 # Dronedarone
@@ -50,8 +50,8 @@ pero actualmente no hay **ensayos clínicos** registrados para esta indicación 
 | Nueva Indicación Predicha | Ictus (stroke disorder) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 9; revocadas o suspendidas: 2) |
-| Número de Autorizaciones | 9 (comercializadas: 7) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 10; autorizadas no comercializadas: 1; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 10 (comercializadas: 7) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -100,10 +100,11 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 09591003IP | MULTAQ 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sanofi Winthrop Industrie | Comercializada |
 | 85109 | DRONEDARONA AUROVITAS 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
 | 84479 | DRONEDARONA AUROVITAS SPAIN 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aurovitas Spain, S.A.U. | Comercializada |
+| 09591003IP2 | MULTAQ 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sanofi Winthrop Industrie | Autorizada, no comercializada |
 | 84024 | DRONEDARONA RATIOPHARM 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Ratiopharm Espana S.A. | Revocada |
 | 84819 | DRONEDARONA AUROBINDO 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EPG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Laboratorios Aurobindo S.L.U. | Revocada |
 
-Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 846
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "vilanterol"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
-description: "Vilanterol: nueva indicación predicha, Hyperlucent lung (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 20 (comercializadas: 16; autorizadas no comercializadas: 3)"
+description: "Vilanterol: nueva indicación predicha, Hyperlucent lung (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
 # Vilanterol
@@ -51,8 +51,8 @@ Cabe señalar que esta predicción es en realidad una categoría paraguas que en
 | Nueva Indicación Predicha | Hyperlucent lung |
 | Puntaje de Predicción TxGNN | 0.9972 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 16 de 20; autorizadas no comercializadas: 3; revocadas o suspendidas: 1) |
-| Número de Autorizaciones | 20 (comercializadas: 16) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 16; autorizadas no comercializadas: 3; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -128,7 +128,7 @@ Se muestran las 10 publicaciones más relevantes, priorizando ECA y revisiones s
 | 114929002IP1 | REVINTY ELLIPTA 92 MICROGRAMOS/22 MICROGRAMOS POLVO PARA INHALACION (UNIDOSIS) | POLVO PARA INHALACIÓN (UNIDOSIS) | Glaxosmithkline Trading Services Limited | Comercializada |
 | 114899002 | LAVENTAIR ELLIPTA 55 MICROGRAMOS/22 MICROGRAMOS POLVO PARA INHALACION (UNIDOSIS) | POLVO PARA INHALACIÓN (UNIDOSIS) | Glaxosmithkline Trading Services Limited | Comercializada |
 
-Se muestran 10 de 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
 
 <!-- licenses:end -->
 

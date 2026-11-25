@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 477
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Lomitapide: nueva indicación predicha, Macrotrombocitopenia con insuficiencia de la válvula mitral (nivel de evidencia L5). Indicación original: Hipercolesterolemia familiar homocigota (el texto de i…"
 monitor_inn: "Lomitapide"
 predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "platelet storage pool deficiency"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **macrotrombocitopenia con
 | Nueva Indicación Predicha | Macrotrombocitopenia con insuficiencia de la válvula mitral |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 3) |
-| Número de Autorizaciones | 3 (comercializadas: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 4; autorizadas no comercializadas: 1) |
+| Número de Autorizaciones | 4 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -88,12 +88,19 @@ Actualmente no hay literatura relacionada disponible.
 | 113851003 | LOJUXTA 20 MG CAPSULAS DURAS | CÁPSULA DURA | Chiesi Farmaceutici S.P.A. | Comercializada |
 | 113851002 | LOJUXTA 10 MG CAPSULAS DURAS | CÁPSULA DURA | Chiesi Farmaceutici S.P.A. | Comercializada |
 | 113851001 | LOJUXTA 5 MG CAPSULAS DURAS | CÁPSULA DURA | Chiesi Farmaceutici S.P.A. | Comercializada |
+| 113851007 | LOJUXTA 2 MG CAPSULAS DURAS | CÁPSULA DURA | Chiesi Farmaceutici S.P.A. | Autorizada, no comercializada |
 
-Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-Las tres autorizaciones están vigentes y son de principio activo único. Los datos compilados no incluyen el texto de la indicación aprobada.
+Todas las autorizaciones están vigentes y son de principio activo único. Los datos compilados no incluyen el texto de la indicación aprobada.
+
+<!-- review:begin es-lic-20261125-lomitapide-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Las tres autorizaciones están vigentes y son de principio activo único." Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261125-lomitapide-1 -->
 
 ---
 
@@ -121,6 +128,19 @@ La única predicción de la lista con evidencia real es la **hiperlipoproteinemi
 - Estudios preclínicos que respalden la hipótesis antes de plantear cualquier ensayo clínico.
 - Obtener del prospecto de la AEMPS las advertencias y contraindicaciones oficiales, así como el texto de la indicación aprobada.
 - Una evaluación del balance beneficio-riesgo, dado el perfil de hepatotoxicidad del fármaco.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-25 | «Las tres» → todas | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

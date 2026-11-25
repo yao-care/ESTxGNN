@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 808
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Trabectedin: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L5). Indicación original: Cáncer de ovario"
 monitor_inn: "trabectedin"
 predicted_indications: ["female breast carcinoma"]
@@ -52,8 +52,8 @@ con **1 ensayo clínico** (de relevancia limitada) y **20 publicaciones** que ac
 | Nueva Indicación Predicha | Carcinoma de mama femenino |
 | Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 10 de 12; revocadas o suspendidas: 2) |
-| Número de Autorizaciones | 12 (comercializadas: 10) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 10 de 14; autorizadas no comercializadas: 2; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 14 (comercializadas: 10) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -110,7 +110,7 @@ El puntaje TxGNN (0.9973) es una predicción computacional que sirve para priori
 | 86916 | TRABECTEDINA TEVA 0,25 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Teva B.V. | Comercializada |
 | 88407 | TRABECTEDINA SUN 0,25 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSIÓN EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Sun Pharmaceutical Industries (Europe) B.V. | Comercializada |
 
-Se muestran 10 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 14 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

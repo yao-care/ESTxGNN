@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 422
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Insulin lispro"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-description: "Insulin Lispro: nueva indicación predicha, Ooforitis autoinmune (autoimmune oophoritis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 3; autorizadas no comercializadas: 5)"
+description: "Insulin Lispro: nueva indicación predicha, Ooforitis autoinmune (autoimmune oophoritis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 10 (comercializadas: 3; autorizadas no comercializadas: 6)"
 ---
 
 # Insulin Lispro
@@ -50,8 +50,8 @@ Se trata de una predicción puramente computacional, con un nivel de evidencia L
 | Nueva Indicación Predicha | Ooforitis autoinmune (autoimmune oophoritis) |
 | Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 9; autorizadas no comercializadas: 5; revocadas o suspendidas: 1) |
-| Número de Autorizaciones | 9 (comercializadas: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 10; autorizadas no comercializadas: 6; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 10 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -90,9 +90,10 @@ Actualmente no hay literatura relacionada disponible para ooforitis autoinmune.
 | 96007002 | HUMALOG 100 U/ml, SOLUCION INYECTABLE EN VIALES | SOLUCIÓN INYECTABLE | Eli Lilly Nederland B.V. | Autorizada, no comercializada |
 | 1201422001 | LYUMJEV 100 unidades/ml SOLUCION INYECTABLE EN VIAL | SOLUCIÓN INYECTABLE | Eli Lilly Nederland B.V. | Autorizada, no comercializada |
 | 1201422016 | LYUMJEV 100 unidades/ml TEMPO PEN SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Eli Lilly Nederland B.V. | Autorizada, no comercializada |
+| 1262030002 | BYSUMLOG 100 UNIDADES/ML SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Sandoz Gmbh | Autorizada, no comercializada |
 | 96007004 | HUMALOG 100 U/ml, SOLUCION INYECTABLE EN CARTUCHO | SOLUCIÓN INYECTABLE EN CARTUCHO | Eli Lilly Nederland B.V. | Suspendida |
 
-Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

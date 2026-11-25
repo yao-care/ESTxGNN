@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 539
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "modafinil"
 predicted_indications: ["insomnia (disease)"]
-description: "Modafinil: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 6)"
+description: "Modafinil: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 6; autorizadas no comercializadas: 1)"
 ---
 
 # Modafinil
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio (insomnia)**, p
 | Nueva Indicación Predicha | insomnio (insomnia (disease)) |
 | Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 7; revocadas o suspendidas: 1) |
-| Número de Autorizaciones | 7 (comercializadas: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 8; autorizadas no comercializadas: 1; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 8 (comercializadas: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -92,13 +92,20 @@ Ninguna de estas publicaciones estudia directamente el insomnio como enfermedad 
 | 84141 | MODAFINILO ARISTO 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Aristo Pharma Gmbh | Comercializada |
 | 83641 | MODAFINILO VIATRIS 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Viatris Limited | Comercializada |
 | 80643 | MODAFINILO BLUEFISH 100 mg COMPRIMIDOS EFG | COMPRIMIDO | Bluefish Pharmaceuticals Ab (Publ) | Comercializada |
+| 91292 | MODAFINILO FORZA 100 MG COMPRIMIDOS EFG | COMPRIMIDO | Forza Advance Limited | Autorizada, no comercializada |
 | 72187 | MODAFINILO MYLAN 100 mg COMPRIMIDOS EFG | COMPRIMIDO | Mylan Pharmaceuticals S.L. | Revocada |
 
-Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-Hay 7 autorizaciones registradas, de las cuales 6 están vigentes y 1 cancelada.
+Hay autorizaciones comercializadas, otras autorizadas sin comercializar y una revocada.
+
+<!-- review:begin es-lic-20261125-modafinil-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Hay 7 autorizaciones registradas, de las cuales 6 están vigentes y 1 cancelada." Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261125-modafinil-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -123,11 +130,12 @@ La predicción se apoya solo en el modelo: el único ensayo en insomnio primario
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Provigil (modafinil) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0391f182-1958-9fef-a944-53b229ce99e7) |
+| 2026-11-25 | Número de autorizaciones eliminado (la suma ya no cuadraba) | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

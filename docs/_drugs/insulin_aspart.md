@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Insulin Aspart: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L5). Indicación original: Diabetes mellitus (según la base de conocimiento"
 monitor_inn: "insulin aspart"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
@@ -50,8 +50,8 @@ con **30 ensayos clínicos** y **20 publicaciones** que respaldan actualmente es
 | Nueva Indicación Predicha | Diabetes mellitus tipo 1 |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 9; autorizadas no comercializadas: 1) |
-| Número de Autorizaciones | 9 (comercializadas: 8) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 10; autorizadas no comercializadas: 2) |
+| Número de Autorizaciones | 10 (comercializadas: 8) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -111,16 +111,17 @@ Se muestran las 10 publicaciones más relevantes (de 20 identificadas), prioriza
 | 199119024 | NOVORAPID PUMPCART 100 U/ML SOLUCION INYECTABLE EN CARTUCHO | SOLUCIÓN INYECTABLE EN CARTUCHO | Novo Nordisk A/S | Comercializada |
 | 199119003 | NOVORAPID PENFILL 100 U/ML SOLUCION INYECTABLE EN CARTUCHO | SOLUCIÓN INYECTABLE | Novo Nordisk A/S | Comercializada |
 | 12806001 | RYZODEG 100 UNIDADES/ML SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Novo Nordisk A/S | Autorizada, no comercializada |
+| 1262029002 | DAZPARDA 100 UNIDADES/ML SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Sandoz Gmbh | Autorizada, no comercializada |
 
-Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-Todas las autorizaciones son de Novo Nordisk A/S.
+Todas las autorizaciones son de Novo Nordisk A/S, salvo DAZPARDA (Sandoz GmbH).
 
 <!-- review:begin es-lic-20261124b-insulin_aspart-1 -->
 
-> **Corrección de revisión (2026-11-24)**: Texto original: "Hay 9 autorizaciones vigentes en total, todas de Novo Nordisk A/S; la tabla muestra las 5 principales." Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-25)**: Texto original: "Hay 9 autorizaciones vigentes en total, todas de Novo Nordisk A/S; la tabla muestra las 5 principales." Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla. Actualizado el 2026-11-25: se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida, y la frase anterior ya no coincidía con ellas. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261124b-insulin_aspart-1 -->
 
@@ -152,7 +153,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85) |
-| 2026-11-24 | Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-25 | Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

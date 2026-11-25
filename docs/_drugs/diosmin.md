@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 254
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Diosmin: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en los datos de AEMPS (uso general conocido: insuficien…"
 monitor_inn: "diosmin"
 predicted_indications: ["amenorrhea (disease)"]
@@ -57,8 +57,8 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 9 de 15; autorizadas no comercializadas: 3; revocadas o suspendidas: 3) |
-| Número de Autorizaciones | 15 (comercializadas: 9) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 9 de 16; autorizadas no comercializadas: 4; revocadas o suspendidas: 3) |
+| Número de Autorizaciones | 16 (comercializadas: 9) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -110,7 +110,7 @@ Los datos compilados no incluyen el texto de indicación aprobada.
 | 1-20685IP | DAFLON 500 mg COMPRIMIDOS RECUBIERTOS | COMPRIMIDO RECUBIERTO | Servier Austria Gmbh | Comercializada |
 | 4691-2004IP | DAFLON 500mg comprimidos recubiertos. | COMPRIMIDO RECUBIERTO | Les Laboratoires Servier | Autorizada, no comercializada |
 
-Se muestran 10 de 15 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 16 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

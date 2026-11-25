@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 597
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Oxybutynin"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
-description: "Oxybutynin: nueva indicación predicha, Síndrome de piernas inquietas (restless legs syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 3; autorizadas no comercializadas: 1)"
+description: "Oxybutynin: nueva indicación predicha, Síndrome de piernas inquietas (restless legs syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 3; autorizadas no comercializadas: 2)"
 ---
 
 # Oxybutynin
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Síndrome de piernas inquietas (restless legs syndrome) |
 | Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 4; autorizadas no comercializadas: 1) |
-| Número de Autorizaciones | 4 (comercializadas: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 5; autorizadas no comercializadas: 2) |
+| Número de Autorizaciones | 5 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -93,8 +93,9 @@ Para la indicación predicha de menor rango (enfermedad ulcerosa péptica), solo
 | 03270001 | KENTERA 3,9 mg/24 HORAS, PARCHE TRANSDERMICO | PARCHE TRANSDÉRMICO | Teva B.V. | Comercializada |
 | 62205 | DRESPLAN COMPRIMIDOS | COMPRIMIDO | Macure Healthcare Limited | Comercializada |
 | 85899 | VESOXX 1 MG/ML SOLUCION INTRAVESICAL | SOLUCION INTRAVESICAL | Farco-Pharma Gmbh | Autorizada, no comercializada |
+| 88383 | VELARIQ 1 MG/ML SOLUCION INTRAVESICAL | SOLUCION INTRAVESICAL | Medice Arzneimittel Puetter Gmbh & Co. Kg | Autorizada, no comercializada |
 
-Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

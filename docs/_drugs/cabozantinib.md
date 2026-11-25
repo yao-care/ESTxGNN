@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CABOZANTINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
-last_modified_at: 2026-11-24
-description: "Cabozantinib: nueva indicación predicha, liposarcoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 3; autorizadas no comercializadas: 3)"
+last_modified_at: 2026-11-25
+description: "Cabozantinib: nueva indicación predicha, liposarcoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 12 (comercializadas: 3; autorizadas no comercializadas: 9)"
 ---
 
 # Cabozantinib
@@ -50,8 +50,8 @@ con **1 ensayo clínico** y **1 publicación** que actualmente respaldan, de for
 | Nueva Indicación Predicha | liposarcoma (liposarcoma) |
 | Puntaje de Predicción TxGNN | 0,9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 6; autorizadas no comercializadas: 3) |
-| Número de Autorizaciones | 6 (comercializadas: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 12; autorizadas no comercializadas: 9) |
+| Número de Autorizaciones | 12 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -86,16 +86,20 @@ Esta plausibilidad es teórica. Los estudios citados abordan sarcomas de partes 
 | 113890004 | Cometriq 20mg capsulas duras | CÁPSULA DURA | Ipsen Pharma | Autorizada, no comercializada |
 | 113890006 | Cometriq 20mg+80mg capsulas duras | CÁPSULA DURA | Ipsen Pharma | Autorizada, no comercializada |
 | 113890005 | Cometriq 20mg+80mg capsulas duras | CÁPSULA DURA | Ipsen Pharma | Autorizada, no comercializada |
+| 1161136002IP | CABOMETYX 20 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Ipsen Pharma | Autorizada, no comercializada |
+| 1161136004IP | CABOMETYX 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Ipsen Pharma | Autorizada, no comercializada |
+| 1161136006IP | CABOMETYX 60 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Ipsen Pharma | Autorizada, no comercializada |
+| 91482 | CABOZANTINIB SUN 60 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | COMPRIMIDO RECUBIERTO CON PELÍCULA | Sun Pharmaceutical Industries (Europe) B.V. | Autorizada, no comercializada |
 
-Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-Cabozantinib está autorizado en España en cápsulas duras (Cometriq, autorizadas pero sin comercializar) y comprimidos recubiertos con película (Cabometyx, comercializados), todos de Ipsen Pharma. Las autorizaciones registradas son monofármaco y la lista procede de los registros locales.
+Cabozantinib está autorizado en España en cápsulas duras (Cometriq, autorizadas pero sin comercializar) y comprimidos recubiertos con película (Cabometyx, de Ipsen Pharma, comercializado, y genéricos de Sun Pharmaceutical Industries, autorizados pero sin comercializar). Las autorizaciones registradas son monofármaco y la lista procede de los registros locales.
 
 <!-- review:begin es-lic-20261124b-cabozantinib-1 -->
 
-> **Corrección de revisión (2026-11-24)**: Texto original: "Cabozantinib se comercializa en España en cápsulas duras (Cometriq) y comprimidos recubiertos con película (Cabometyx), todos de Ipsen Pharma." Corregido: según CIMA (AEMPS), las tres autorizaciones de COMETRIQ cápsulas duras (113890004, 113890005, 113890006) están autorizadas pero no comercializadas; CABOMETYX está comercializado. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+> **Corrección de revisión (2026-11-25)**: Texto original: "Cabozantinib se comercializa en España en cápsulas duras (Cometriq) y comprimidos recubiertos con película (Cabometyx), todos de Ipsen Pharma." Corregido: según CIMA (AEMPS), las tres autorizaciones de COMETRIQ cápsulas duras (113890004, 113890005, 113890006) están autorizadas pero no comercializadas; CABOMETYX está comercializado. Actualizado el 2026-11-25: se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida, y la frase anterior ya no coincidía con ellas. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261124b-cabozantinib-1 -->
 
@@ -128,7 +132,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-24 | «se comercializa … en cápsulas duras (Cometriq)» → Cometriq autorizado pero no comercializado | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-25 | «se comercializa … en cápsulas duras (Cometriq)» → Cometriq autorizado pero no comercializado | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

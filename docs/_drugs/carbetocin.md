@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "carbetocin"
 predicted_indications: ["isotretinoin-like syndrome", "Goodman syndrome"]
-last_modified_at: 2026-11-24
-description: "Carbetocin: nueva indicación predicha, Síndrome similar a la isotretinoína (isotretinoin-like syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
+last_modified_at: 2026-11-25
+description: "Carbetocin: nueva indicación predicha, Síndrome similar a la isotretinoína (isotretinoin-like syndrome) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 4 (comercializadas: 2; autorizadas no comercializadas: 2)"
 ---
 
 # Carbetocin
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Síndrome similar a la isotretinoína (isotretinoin-like syndrome) |
 | Puntaje de Predicción TxGNN | 0,9915 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 2) |
-| Número de Autorizaciones | 2 (comercializadas: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 4; autorizadas no comercializadas: 2) |
+| Número de Autorizaciones | 4 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -78,8 +78,10 @@ Actualmente no hay literatura relacionada disponible.
 |---------|------|------|------|------|
 | 79228 | CARBETOCINA GP-PHARM 100 MICROGRAMOS SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Gp Pharm S.A. | Comercializada |
 | 68550 | DURATOBAL 100 microgramos/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Ferring S.A.U. | Comercializada |
+| 91181 | CARBETOCINA FARMAK 100 MICROGRAMOS/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Icm Farmak S.L. | Autorizada, no comercializada |
+| 91641 | CARBETOCINA EVER PHARMA 100 MICROGRAMOS/ML SOLUCION INYECTABLE EFG | SOLUCIÓN INYECTABLE | Ever Valinject Gmbh | Autorizada, no comercializada |
 
-Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

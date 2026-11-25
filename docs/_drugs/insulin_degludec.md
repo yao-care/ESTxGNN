@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 418
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
-description: "Insulin Degludec: nueva indicación predicha, Autoimmune oophoritis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 3; autorizadas no comercializadas: 4)"
+description: "Insulin Degludec: nueva indicación predicha, Autoimmune oophoritis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 3; autorizadas no comercializadas: 5)"
 ---
 
 # Insulin Degludec
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para la **diabetes mellitus tip
 | Nueva Indicación Predicha | Autoimmune oophoritis |
 | Puntaje de Predicción TxGNN | 0.9923 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 7; autorizadas no comercializadas: 4) |
-| Número de Autorizaciones | 7 (comercializadas: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 8; autorizadas no comercializadas: 5) |
+| Número de Autorizaciones | 8 (comercializadas: 3) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -118,8 +118,9 @@ Nota: varios ensayos de fase 3 (por ejemplo, los de LY900014 o los de insulina i
 | 112807004IP1 | TRESIBA 100 UNIDADES/ML SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Novo Nordisk A/S | Autorizada, no comercializada |
 | 114947003 | XULTOPHY 100 U/ML + 3,6 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Novo Nordisk A/S | Autorizada, no comercializada |
 | 12806001 | RYZODEG 100 UNIDADES/ML SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Novo Nordisk A/S | Autorizada, no comercializada |
+| 112807013IP | TRESIBA 200 UNIDADES/ML FLEXTOUCH SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Novo Nordisk A/S | Autorizada, no comercializada |
 
-Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

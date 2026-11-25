@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 186
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Cladribine"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
-description: "Cladribine: nueva indicación predicha, Parameningeal embryonal rhabdomyosarcoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 4; autorizadas no comercializadas: 1)"
+description: "Cladribine: nueva indicación predicha, Parameningeal embryonal rhabdomyosarcoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 4; autorizadas no comercializadas: 4)"
 ---
 
 # Cladribine
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para el **rabdomiosarcoma embri
 | Nueva Indicación Predicha | Parameningeal embryonal rhabdomyosarcoma |
 | Puntaje de Predicción TxGNN | 0.9977 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 5; autorizadas no comercializadas: 1) |
-| Número de Autorizaciones | 5 (comercializadas: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 8; autorizadas no comercializadas: 4) |
+| Número de Autorizaciones | 8 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -96,8 +96,11 @@ Como referencia, en la séptima predicción (sarcoma hepático) solo se recuper�
 | 1171212001 | MAVENCLAD 10 MG COMPRIMIDOS | COMPRIMIDO | Merck Europe B.V. | Comercializada |
 | 04275002 | LITAK 2 mg/ml SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Lipomed Gmbh | Comercializada |
 | 90544 | LEUSTATIN 2 MG/ML SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Atnahs Pharma Netherlands Bv. | Autorizada, no comercializada |
+| 1171212001IP | MAVENCLAD 10 MG COMPRIMIDOS | COMPRIMIDO | Merck Europe B.V. | Autorizada, no comercializada |
+| 91677 | CLADRIBINA ZENTIVA 10 MG COMPRIMIDOS EFG | COMPRIMIDO | Zentiva K.S. | Autorizada, no comercializada |
+| 91678 | CLADRIBINA SANDOZ 10 MG COMPRIMIDOS EFG | COMPRIMIDO | Sandoz Farmaceutica S.A. | Autorizada, no comercializada |
 
-Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

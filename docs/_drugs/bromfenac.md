@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 118
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Bromfenac: nueva indicación predicha, Enfermedad ocular (categoría amplia) (nivel de evidencia L1). Indicación original: No disponible en las autorizaciones (el texto de indicación está vací…"
 monitor_inn: "bromfenac"
 predicted_indications: ["eye disease", "optic papillitis", "von Hippel anomaly", "mcpherson robertson cammarano syndrome", "vulvar inverted follicular keratosis", "lagophthalmos", "microblepharon-ablephara syndrome", "seborrheic keratosis", "conjunctival degeneration", "luxation of globe"]
@@ -50,8 +50,8 @@ Gran parte de esa evidencia corresponde al uso ya establecido (posoperatorio de 
 | Nueva Indicación Predicha | Enfermedad ocular (categoría amplia) |
 | Puntaje de Predicción TxGNN | 0,9980 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 8; autorizadas no comercializadas: 1) |
-| Número de Autorizaciones | 8 (comercializadas: 7) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 10; autorizadas no comercializadas: 2) |
+| Número de Autorizaciones | 10 (comercializadas: 8) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -111,9 +111,11 @@ Se muestran las publicaciones más relevantes (de 20 identificadas):
 | 11692001IP | YELLOX 0,9mg/ml colirio en solucion | COLIRIO EN SOLUCIÓN | Croma-Pharma Gmbh | Comercializada |
 | 11692001IP6 | YELLOX 0,9 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Bausch + Lomb Ireland Limited | Comercializada |
 | 11692001IP2 | YELLOX 0,9 mg/ml COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Pharmaswiss Ceska Republika S.R.O. | Comercializada |
+| 91285 | ALCARIX 0,9 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Ntc S.R.L. | Comercializada |
 | 90917 | REDENAC 0,9 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Bruschettini S.R.L. | Autorizada, no comercializada |
+| 91237 | EYEBROM 0,9 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN | Rafarm S.A. | Autorizada, no comercializada |
 
-Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

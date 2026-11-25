@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 228
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Decitabine"
 predicted_indications: ["refractory cytopenia of childhood"]
-description: "Decitabine: nueva indicación predicha, Citopenia refractaria de la infancia (refractory cytopenia of childhood) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 1; autorizadas no comercializadas: 1)"
+description: "Decitabine: nueva indicación predicha, Citopenia refractaria de la infancia (refractory cytopenia of childhood) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 3; autorizadas no comercializadas: 5)"
 ---
 
 # Decitabine
@@ -50,8 +50,8 @@ con **0 ensayos clínicos** y **2 publicaciones** (un estudio de cohorte y un re
 | Nueva Indicación Predicha | Citopenia refractaria de la infancia (refractory cytopenia of childhood) |
 | Puntaje de Predicción TxGNN | 0.9903 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 2; autorizadas no comercializadas: 1) |
-| Número de Autorizaciones | 2 (comercializadas: 1) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 8; autorizadas no comercializadas: 5) |
+| Número de Autorizaciones | 8 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -80,9 +80,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
 |---------|------|------|------|------|
 | 112792001 | DACOGEN 50 mg polvo para concentrado para solucion para perfusion | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Janssen-Cilag International N.V | Comercializada |
+| 91234 | DECITABINA ACCORD 50 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
+| 91291 | DECITABINA EVER PHARMA 50 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Ever Valinject Gmbh | Comercializada |
 | 91107 | DECITABINA HIKMA 50 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Hikma Farmaceutica (Portugal) S.A. | Autorizada, no comercializada |
+| 91168 | DECITABINA EUGIA 50 MG POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Eugia Pharma (Malta) Limited | Autorizada, no comercializada |
+| 91233 | DECITABINA ACCORD 40 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Autorizada, no comercializada |
+| 91290 | DECITABINA SEACROSS 50 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Seacross Pharma (Europe) Limited | Autorizada, no comercializada |
+| 91711 | DECITABINA VIVANTA 50 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Vivanta Generics S.R.O. | Autorizada, no comercializada |
 
-Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Insulin glulisine"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-description: "Insulin Glulisine: nueva indicación predicha, Thiamine-responsive dysfunction syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 3; autorizadas no comercializadas: 1)"
+description: "Insulin Glulisine: nueva indicación predicha, Thiamine-responsive dysfunction syndrome (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 3; autorizadas no comercializadas: 2)"
 ---
 
 # Insulin Glulisine
@@ -52,8 +52,8 @@ Cabe señalar que la diabetes tipo 1 ya está dentro del alcance de la indicaci�
 | Nueva Indicación Predicha | Thiamine-responsive dysfunction syndrome |
 | Puntaje de Predicción TxGNN | 0.9947 |
 | Nivel de Evidencia | L5 (provisional; probablemente L1 si se verifican los ensayos pivotales de Fase 3) |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 5; autorizadas no comercializadas: 1; revocadas o suspendidas: 1) |
-| Número de Autorizaciones | 5 (comercializadas: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 6; autorizadas no comercializadas: 2; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 6 (comercializadas: 3) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -114,9 +114,10 @@ Entre los demás ensayos figuran estudios de Fase 4 en CSII (p. ej., NCT00607087
 | 04285008 | APIDRA 100 UNIDADES/ML SOLUCION INYECTABLE EN CARTUCHO | SOLUCIÓN INYECTABLE EN CARTUCHO | Sanofi-Aventis Deutschland Gmbh | Comercializada |
 | 04285032IP | APIDRA SOLOSTAR 100 UNIDADES/ML SOLUCION INYECTABLE EN UNA PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Sanofi-Aventis Deutschland Gmbh | Comercializada |
 | 04285001 | APIDRA 100 UNIDADES/ML SOLUCION INYECTABLE EN VIAL | SOLUCIÓN INYECTABLE | Sanofi-Aventis Deutschland Gmbh | Autorizada, no comercializada |
+| 04285032IP1 | APIDRA 100 UNIDADES/ML,SOLOSTAR SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Sanofi-Aventis Deutschland Gmbh | Autorizada, no comercializada |
 | 04285024 | APIDRA 100 UNIDADES/ml OPTICLIK SOLUCION INYECTABLE EN CARTUCHO | SOLUCIÓN INYECTABLE EN CARTUCHO | Sanofi-Aventis Deutschland Gmbh | Revocada |
 
-Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

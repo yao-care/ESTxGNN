@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 278
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "EFMOROCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "thrombotic thrombocytopenic purpura"]
-description: "Efmoroctocog Alfa: nueva indicación predicha, Enfermedad pseudo-von Willebrand (pseudo-von Willebrand disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 8)"
+description: "Efmoroctocog Alfa: nueva indicación predicha, Enfermedad pseudo-von Willebrand (pseudo-von Willebrand disease) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 11 (comercializadas: 11)"
 ---
 
 # Efmoroctocog Alfa
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **la enfermedad pseudo-von
 | Nueva Indicación Predicha | Enfermedad pseudo-von Willebrand (pseudo-von Willebrand disease) |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 8) |
-| Número de Autorizaciones | 8 (comercializadas: 8) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 11 de 11) |
+| Número de Autorizaciones | 11 (comercializadas: 11) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -83,12 +83,20 @@ Actualmente no hay literatura relacionada disponible.
 | 1151046003 | ELOCTA 750 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Swedish Orphan Biovitrum Ab (Publ) | Comercializada |
 | 1151046008 | ELOCTA 4000 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Swedish Orphan Biovitrum Ab (Publ) | Comercializada |
 | 1151046006 | Elocta 2000 UI polvo y disolvente para solucion inyectable | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Swedish Orphan Biovitrum Ab (Publ) | Comercializada |
+| 1151046004IP | ELOCTA 1000 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Swedish Orphan Biovitrum Ab (Publ) | Comercializada |
+| 1151046006IP | ELOCTA 2000 UI POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Swedish Orphan Biovitrum Ab (Publ) | Comercializada |
 
-Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 11 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-Hay 8 autorizaciones vigentes en total (también 2000, 3000 y 4000 UI), todas del titular Swedish Orphan Biovitrum AB (publ).
+Hay autorizaciones vigentes de varias dosis (también 2000, 3000 y 4000 UI), todas del titular Swedish Orphan Biovitrum AB (publ).
+
+<!-- review:begin es-lic-20261125-efmoroctocog_alfa-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Hay 8 autorizaciones vigentes en total (también 2000, 3000 y 4000 UI), todas del titular Swedish Orphan Biovitrum AB (publ)." Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261125-efmoroctocog_alfa-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -118,11 +126,12 @@ La predicción se basa solo en el modelo (L5), sin ensayos ni publicaciones, y e
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945) |
+| 2026-11-25 | Número de autorizaciones eliminado (ya no coincidía) | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

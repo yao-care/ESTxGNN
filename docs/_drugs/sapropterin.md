@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 725
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "sapropterin"
 predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome"]
-description: "Sapropterin: nueva indicación predicha, Trastorno del metabolismo de la tirosina (disorder of tyrosine metabolism) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 6; autorizadas no comercializadas: 2)"
+description: "Sapropterin: nueva indicación predicha, Trastorno del metabolismo de la tirosina (disorder of tyrosine metabolism) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 10 (comercializadas: 6; autorizadas no comercializadas: 4)"
 ---
 
 # Sapropterin
@@ -50,8 +50,8 @@ Por ello, la predicción se apoya únicamente en el modelo (nivel de evidencia L
 | Nueva Indicación Predicha | Trastorno del metabolismo de la tirosina (disorder of tyrosine metabolism) |
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 8; autorizadas no comercializadas: 2) |
-| Número de Autorizaciones | 8 (comercializadas: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 10; autorizadas no comercializadas: 4) |
+| Número de Autorizaciones | 10 (comercializadas: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -93,7 +93,7 @@ Ninguna de las publicaciones recuperadas estudia directamente el trastorno del m
 | 89850 | SAPROPTERINA TARBIS 100 MG COMPRIMIDOS SOLUBLES EFG | COMPRIMIDO SOLUBLE | Tarbis Farma S.L. | Comercializada |
 | 87916 | SAPROPTERINA TEVA 100 MG COMPRIMIDOS SOLUBLES EFG | COMPRIMIDO SOLUBLE | Teva Pharma S.L.U. | Comercializada |
 
-Se muestran 5 de 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 5 de 10 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

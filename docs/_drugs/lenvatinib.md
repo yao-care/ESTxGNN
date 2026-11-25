@@ -5,10 +5,10 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 461
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "LENVATINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
-description: "Lenvatinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 4 (comercializadas: 2; autorizadas no comercializadas: 2)"
+description: "Lenvatinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 13 (comercializadas: 2; autorizadas no comercializadas: 11)"
 ---
 
 # Lenvatinib
@@ -50,8 +50,8 @@ con **1 ensayo clínico** (fase Ib/II de un solo brazo) y **4 publicaciones** re
 | Nueva Indicación Predicha | Liposarcoma |
 | Puntaje de Predicción TxGNN | 0.9951 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 4; autorizadas no comercializadas: 2) |
-| Número de Autorizaciones | 4 (comercializadas: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 13; autorizadas no comercializadas: 11) |
+| Número de Autorizaciones | 13 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -87,8 +87,14 @@ La base de evidencia es limitada: un único estudio de fase Ib/II sin grupo comp
 | 1151002001 | LENVIMA 4 MG CAPSULAS DURAS | CÁPSULA DURA | Eisai Gmbh | Comercializada |
 | 1161128002 | KISPLYX 10 MG CAPSULAS DURAS | CÁPSULA DURA | Eisai Gmbh | Autorizada, no comercializada |
 | 1161128001 | KISPLYX 4 MG CAPSULAS DURAS | CÁPSULA DURA | Eisai Gmbh | Autorizada, no comercializada |
+| 1151002001IP | LENVIMA 4 MG CAPSULAS DURAS | CÁPSULA DURA | Eisai Gmbh | Autorizada, no comercializada |
+| 90541 | LENVATINIB TEVA 10 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Teva Pharma S.L.U. | Autorizada, no comercializada |
+| 90542 | LENVATINIB TEVA 4 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Teva Pharma S.L.U. | Autorizada, no comercializada |
+| 90880 | LENVATINIB SANDOZ 4 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Sandoz Farmaceutica S.A. | Autorizada, no comercializada |
+| 90881 | LENVATINIB SANDOZ 10 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Sandoz Farmaceutica S.A. | Autorizada, no comercializada |
+| 90955 | LENVATINIB ACCORD 4 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Accord Healthcare S.L.U. | Autorizada, no comercializada |
 
-Se muestran las 4 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

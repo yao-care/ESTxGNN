@@ -26463,19 +26463,43 @@
    "file": "oxytetracycline.md",
    "action": "correct",
    "claim": "Las cuatro autorizaciones son de Farmasierra Laboratorios S.L., están vigentes y corresponden a productos de un solo principio activo, según los datos compilados.",
-   "replacement": "Las autorizaciones son de Farmasierra Laboratorios S.L. y están vigentes; solo TERRAMICINA pomada oftálmica es de un solo principio activo, y las demás son combinaciones con polimixina B o hidrocortisona.",
+   "replacement": "Las autorizaciones son de Farmasierra Laboratorios S.L., salvo DEXABIOX (Horus Pharma), y están vigentes; solo TERRAMICINA pomada oftálmica es de un solo principio activo, y las demás son combinaciones con polimixina B, hidrocortisona o dexametasona.",
    "summary": "«productos de un solo principio activo» → solo 1 es monofármaco; las demás son combinaciones",
-   "note": "Corregido: según CIMA (AEMPS), TERRAMICINA POMADA TOPICA (oxitetraciclina + polimixina B), TERRACORTRIL POMADA TOPICA (hidrocortisona + oxitetraciclina) y TERRACORTRIL POMADA ESTERIL OTICO-OFTALMICA (hidrocortisona + oxitetraciclina + polimixina B) son combinaciones.",
-   "finding": "證據包成分欄 4 張中 3 張含「+」；事實層 single_total 把「 + 」複方也算單方（本站 104 頁），單方說法照成分欄更正",
+   "note": "Corregido: según CIMA (AEMPS), TERRAMICINA POMADA TOPICA (oxitetraciclina + polimixina B), TERRACORTRIL POMADA TOPICA (hidrocortisona + oxitetraciclina) y TERRACORTRIL POMADA ESTERIL OTICO-OFTALMICA (hidrocortisona + oxitetraciclina + polimixina B) son combinaciones. Actualizado el 2026-11-25: se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida, y la frase anterior ya no coincidía con ellas.",
+   "finding": "證據包成分欄 4 張中 3 張含「+」；事實層 single_total 把「 + 」複方也算單方（本站 104 頁），單方說法照成分欄更正；2026-11-25：新增 91618 DEXABIOX（dexametasona + oxitetraciclina pomada oftálmica，Horus Pharma）",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
      "url": "https://cima.aemps.es/cima/publico/home.html",
-     "accessed": "2026-11-24"
+     "accessed": "2026-11-25"
     }
    ],
-   "checked": "2026-11-24",
-   "method": "2026-11-24 人工查核（市場段落換成程式許可證表後，逐句對照證據包 CIMA 紀錄與事實層）"
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（scripts/add_current_licenses.py 依原收集規則補收 CIMA 現行清單後，逐句對照證據包全部紀錄與快照事實層）",
+   "history": [
+    {
+     "id": "es-lic-20261124-oxytetracycline-1",
+     "drug": "oxytetracycline",
+     "file": "oxytetracycline.md",
+     "action": "correct",
+     "claim": "Las cuatro autorizaciones son de Farmasierra Laboratorios S.L., están vigentes y corresponden a productos de un solo principio activo, según los datos compilados.",
+     "replacement": "Las autorizaciones son de Farmasierra Laboratorios S.L. y están vigentes; solo TERRAMICINA pomada oftálmica es de un solo principio activo, y las demás son combinaciones con polimixina B o hidrocortisona.",
+     "summary": "«productos de un solo principio activo» → solo 1 es monofármaco; las demás son combinaciones",
+     "note": "Corregido: según CIMA (AEMPS), TERRAMICINA POMADA TOPICA (oxitetraciclina + polimixina B), TERRACORTRIL POMADA TOPICA (hidrocortisona + oxitetraciclina) y TERRACORTRIL POMADA ESTERIL OTICO-OFTALMICA (hidrocortisona + oxitetraciclina + polimixina B) son combinaciones.",
+     "finding": "證據包成分欄 4 張中 3 張含「+」；事實層 single_total 把「 + 」複方也算單方（本站 104 頁），單方說法照成分欄更正",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-24"
+      }
+     ],
+     "checked": "2026-11-24",
+     "method": "2026-11-24 人工查核（市場段落換成程式許可證表後，逐句對照證據包 CIMA 紀錄與事實層）",
+     "retired": "2026-11-25",
+     "reason": "CIMA 現行清單依原收集規則補收新許可後與事實不符，2026-11-25 用戶決定（第五輪）"
+    }
+   ]
   },
   {
    "id": "es-lic-20261124-phenylbutazone-1",
@@ -26923,19 +26947,43 @@
    "file": "ivermectin.md",
    "action": "correct",
    "claim": "Hay una sexta autorización vigente (90070, IVERTILENE 3 MG COMPRIMIDOS EFG, Glenmark), para un total de 6 autorizaciones, todas de monofármaco y vigentes.",
-   "replacement": "Entre las autorizaciones figura IVERTILENE 3 MG COMPRIMIDOS EFG (90070, Glenmark); todas son de monofármaco y están vigentes.",
+   "replacement": "Entre las autorizaciones figura IVERTILENE 3 MG COMPRIMIDOS EFG (90070, Glenmark); todas son de monofármaco.",
    "summary": "«Hay una sexta autorización…, para un total de 6» → «Entre las autorizaciones figura»",
-   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
-   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」；6 張：上市 5、授權未上市 1（皆 vigente）",
+   "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido. Actualizado el 2026-11-25: se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida, y la frase anterior ya no coincidía con ellas.",
+   "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」；6 張：上市 5、授權未上市 1（皆 vigente）；2026-11-25：新增 90863、91147 DEMODECTIN crema、91188、91187（IVERMECTINA ARISTO 3 MG Revocada）；「todas … están vigentes」不再成立",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
      "url": "https://cima.aemps.es/cima/publico/home.html",
-     "accessed": "2026-11-24"
+     "accessed": "2026-11-25"
     }
    ],
-   "checked": "2026-11-24",
-   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（scripts/add_current_licenses.py 依原收集規則補收 CIMA 現行清單後，逐句對照證據包全部紀錄與快照事實層）",
+   "history": [
+    {
+     "id": "es-lic-20261124b-ivermectin-1",
+     "drug": "ivermectin",
+     "file": "ivermectin.md",
+     "action": "correct",
+     "claim": "Hay una sexta autorización vigente (90070, IVERTILENE 3 MG COMPRIMIDOS EFG, Glenmark), para un total de 6 autorizaciones, todas de monofármaco y vigentes.",
+     "replacement": "Entre las autorizaciones figura IVERTILENE 3 MG COMPRIMIDOS EFG (90070, Glenmark); todas son de monofármaco y están vigentes.",
+     "summary": "«Hay una sexta autorización…, para un total de 6» → «Entre las autorizaciones figura»",
+     "note": "Corregido: la frase hablaba de autorizaciones que no figuraban en la tabla anterior (por ejemplo, «la sexta», «las restantes» u «otras»). La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS) y las incluye; las cifras actuales están en el Resumen rápido.",
+     "finding": "舊 AI 表外的品項說法（la sexta／las restantes／las demás／el resto／otras N）；程式表依狀態排序、列出全部或前 10 列，改成「Entre las autorizaciones figuran…」；6 張：上市 5、授權未上市 1（皆 vigente）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-24"
+      }
+     ],
+     "checked": "2026-11-24",
+     "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）",
+     "retired": "2026-11-25",
+     "reason": "CIMA 現行清單依原收集規則補收新許可後與事實不符，2026-11-25 用戶決定（第五輪）"
+    }
+   ]
   },
   {
    "id": "es-lic-20261124b-metoclopramide-1",
@@ -27408,19 +27456,43 @@
    "file": "insulin_aspart.md",
    "action": "correct",
    "claim": "Hay 9 autorizaciones vigentes en total, todas de Novo Nordisk A/S; la tabla muestra las 5 principales.",
-   "replacement": "Todas las autorizaciones son de Novo Nordisk A/S.",
+   "replacement": "Todas las autorizaciones son de Novo Nordisk A/S, salvo DAZPARDA (Sandoz GmbH).",
    "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
-   "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
-   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla. Actualizado el 2026-11-25: se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida, y la frase anterior ya no coincidía con ellas.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句；2026-11-25：新增 1262029002 DAZPARDA（Sandoz GmbH）；「全部 Novo Nordisk」不再成立",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
      "url": "https://cima.aemps.es/cima/publico/home.html",
-     "accessed": "2026-11-24"
+     "accessed": "2026-11-25"
     }
    ],
-   "checked": "2026-11-24",
-   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（scripts/add_current_licenses.py 依原收集規則補收 CIMA 現行清單後，逐句對照證據包全部紀錄與快照事實層）",
+   "history": [
+    {
+     "id": "es-lic-20261124b-insulin_aspart-1",
+     "drug": "insulin_aspart",
+     "file": "insulin_aspart.md",
+     "action": "correct",
+     "claim": "Hay 9 autorizaciones vigentes en total, todas de Novo Nordisk A/S; la tabla muestra las 5 principales.",
+     "replacement": "Todas las autorizaciones son de Novo Nordisk A/S.",
+     "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+     "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+     "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-24"
+      }
+     ],
+     "checked": "2026-11-24",
+     "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）",
+     "retired": "2026-11-25",
+     "reason": "CIMA 現行清單依原收集規則補收新許可後與事實不符，2026-11-25 用戶決定（第五輪）"
+    }
+   ]
   },
   {
    "id": "es-lic-20261124b-isoniazid-1",
@@ -27549,19 +27621,43 @@
    "file": "pertuzumab.md",
    "action": "correct",
    "claim": "Se muestran 5 de las 6 autorizaciones vigentes, todas de PERJETA 420 MG concentrado para solución para perfusión (titular: Roche Registration GmbH).",
-   "replacement": "Todas las autorizaciones corresponden a PERJETA 420 MG concentrado para solución para perfusión (titular: Roche Registration GmbH).",
+   "replacement": "Las autorizaciones corresponden a PERJETA 420 MG concentrado para solución para perfusión (titular: Roche Registration GmbH) y a POHERDY 420 MG concentrado para solución para perfusión (titular: Organon N.V.).",
    "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
-   "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
-   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+   "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla. Actualizado el 2026-11-25: se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida, y la frase anterior ya no coincidía con ellas.",
+   "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句；2026-11-25：新增 1252008001 POHERDY（Organon N.V.）與 113813001IP5；「全部是 PERJETA」不再成立",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
      "url": "https://cima.aemps.es/cima/publico/home.html",
-     "accessed": "2026-11-24"
+     "accessed": "2026-11-25"
     }
    ],
-   "checked": "2026-11-24",
-   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（scripts/add_current_licenses.py 依原收集規則補收 CIMA 現行清單後，逐句對照證據包全部紀錄與快照事實層）",
+   "history": [
+    {
+     "id": "es-lic-20261124b-pertuzumab-1",
+     "drug": "pertuzumab",
+     "file": "pertuzumab.md",
+     "action": "correct",
+     "claim": "Se muestran 5 de las 6 autorizaciones vigentes, todas de PERJETA 420 MG concentrado para solución para perfusión (titular: Roche Registration GmbH).",
+     "replacement": "Todas las autorizaciones corresponden a PERJETA 420 MG concentrado para solución para perfusión (titular: Roche Registration GmbH).",
+     "summary": "Eliminado: descripción de la tabla anterior y número de autorizaciones; se conserva el resto",
+     "note": "Corregido: se elimina la descripción de las filas de la tabla anterior y el número de autorizaciones; se conserva el resto del contenido. La tabla de Información de Mercado en España se genera desde el 2026-11-24 por programa a partir de los datos de CIMA (AEMPS); las cifras actuales están en el Resumen rápido y bajo la tabla.",
+     "finding": "舊表說明句（顯示幾列＋總張數），與程式表下方說明句重複、張數不會隨每週資料更新；刪除，總數已在概覽表與程式表說明句",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-24"
+      }
+     ],
+     "checked": "2026-11-24",
+     "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）",
+     "retired": "2026-11-25",
+     "reason": "CIMA 現行清單依原收集規則補收新許可後與事實不符，2026-11-25 用戶決定（第五輪）"
+    }
+   ]
   },
   {
    "id": "es-lic-20261124b-plerixafor-1",
@@ -27851,19 +27947,43 @@
    "file": "cabozantinib.md",
    "action": "correct",
    "claim": "Cabozantinib se comercializa en España en cápsulas duras (Cometriq) y comprimidos recubiertos con película (Cabometyx), todos de Ipsen Pharma.",
-   "replacement": "Cabozantinib está autorizado en España en cápsulas duras (Cometriq, autorizadas pero sin comercializar) y comprimidos recubiertos con película (Cabometyx, comercializados), todos de Ipsen Pharma.",
+   "replacement": "Cabozantinib está autorizado en España en cápsulas duras (Cometriq, autorizadas pero sin comercializar) y comprimidos recubiertos con película (Cabometyx, de Ipsen Pharma, comercializado, y genéricos de Sun Pharmaceutical Industries, autorizados pero sin comercializar).",
    "summary": "«se comercializa … en cápsulas duras (Cometriq)» → Cometriq autorizado pero no comercializado",
-   "note": "Corregido: según CIMA (AEMPS), las tres autorizaciones de COMETRIQ cápsulas duras (113890004, 113890005, 113890006) están autorizadas pero no comercializadas; CABOMETYX está comercializado.",
-   "finding": "Cometriq 3 張 Autorizada (no comercializada)",
+   "note": "Corregido: según CIMA (AEMPS), las tres autorizaciones de COMETRIQ cápsulas duras (113890004, 113890005, 113890006) están autorizadas pero no comercializadas; CABOMETYX está comercializado. Actualizado el 2026-11-25: se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida, y la frase anterior ya no coincidía con ellas.",
+   "finding": "Cometriq 3 張 Autorizada (no comercializada)；2026-11-25：新增 3 張 CABOMETYX 平行輸入（no comercializada）與 3 張 CABOZANTINIB SUN（Sun Pharmaceutical Industries，no comercializada）；「todos de Ipsen Pharma」不再成立",
    "sources": [
     {
      "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
      "url": "https://cima.aemps.es/cima/publico/home.html",
-     "accessed": "2026-11-24"
+     "accessed": "2026-11-25"
     }
    ],
-   "checked": "2026-11-24",
-   "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）"
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（scripts/add_current_licenses.py 依原收集規則補收 CIMA 現行清單後，逐句對照證據包全部紀錄與快照事實層）",
+   "history": [
+    {
+     "id": "es-lic-20261124b-cabozantinib-1",
+     "drug": "cabozantinib",
+     "file": "cabozantinib.md",
+     "action": "correct",
+     "claim": "Cabozantinib se comercializa en España en cápsulas duras (Cometriq) y comprimidos recubiertos con película (Cabometyx), todos de Ipsen Pharma.",
+     "replacement": "Cabozantinib está autorizado en España en cápsulas duras (Cometriq, autorizadas pero sin comercializar) y comprimidos recubiertos con película (Cabometyx, comercializados), todos de Ipsen Pharma.",
+     "summary": "«se comercializa … en cápsulas duras (Cometriq)» → Cometriq autorizado pero no comercializado",
+     "note": "Corregido: según CIMA (AEMPS), las tres autorizaciones de COMETRIQ cápsulas duras (113890004, 113890005, 113890006) están autorizadas pero no comercializadas; CABOMETYX está comercializado.",
+     "finding": "Cometriq 3 張 Autorizada (no comercializada)",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-24"
+      }
+     ],
+     "checked": "2026-11-24",
+     "method": "2026-11-24 第二輪人工查核（逐句對照證據包 CIMA 紀錄、事實層與 CIMA 全量清單 data-20261123）",
+     "retired": "2026-11-25",
+     "reason": "CIMA 現行清單依原收集規則補收新許可後與事實不符，2026-11-25 用戶決定（第五輪）"
+    }
+   ]
   },
   {
    "id": "es-lic-20261124b-ebastine-1",
@@ -28604,6 +28724,326 @@
    ],
    "checked": "2026-11-24",
    "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "es-lic-20261125-alectinib-1",
+   "drug": "alectinib",
+   "file": "alectinib.md",
+   "action": "correct",
+   "claim": "Ambas autorizaciones corresponden al mismo producto, titularidad de Roche Registration GmbH.",
+   "replacement": "Todas las autorizaciones corresponden al mismo producto (ALECENSA 150 mg cápsulas duras), titularidad de Roche Registration GmbH.",
+   "summary": "«Ambas» → todas (se añade una importación paralela)",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "新增 1161169001IP1（平行輸入，Autorizada no comercializada），共 3 張，同一產品同一持有人",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（scripts/add_current_licenses.py 依原收集規則補收 CIMA 現行清單後，逐句對照證據包全部紀錄與快照事實層）"
+  },
+  {
+   "id": "es-lic-20261125-avibactam-1",
+   "drug": "avibactam",
+   "file": "avibactam.md",
+   "action": "correct",
+   "claim": "Ambas autorizaciones están vigentes.",
+   "replacement": "Todas las autorizaciones están vigentes.",
+   "summary": "«Ambas» → todas",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "新增 1161109001IP（ZAVICEFTA 平行輸入），共 3 張，全部 Autorizada",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（scripts/add_current_licenses.py 依原收集規則補收 CIMA 現行清單後，逐句對照證據包全部紀錄與快照事實層）"
+  },
+  {
+   "id": "es-lic-20261125-efmoroctocog_alfa-1",
+   "drug": "efmoroctocog_alfa",
+   "file": "efmoroctocog_alfa.md",
+   "action": "correct",
+   "claim": "Hay 8 autorizaciones vigentes en total (también 2000, 3000 y 4000 UI), todas del titular Swedish Orphan Biovitrum AB (publ).",
+   "replacement": "Hay autorizaciones vigentes de varias dosis (también 2000, 3000 y 4000 UI), todas del titular Swedish Orphan Biovitrum AB (publ).",
+   "summary": "Número de autorizaciones eliminado (ya no coincidía)",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "新增 3 張 ELOCTA 平行輸入（1000、2000、3000 UI），共 11 張，持有人仍為 Sobi",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（scripts/add_current_licenses.py 依原收集規則補收 CIMA 現行清單後，逐句對照證據包全部紀錄與快照事實層）"
+  },
+  {
+   "id": "es-lic-20261125-glecaprevir-1",
+   "drug": "glecaprevir",
+   "file": "glecaprevir.md",
+   "action": "correct",
+   "claim": "Ambas autorizaciones están vigentes y el titular es Abbvie Deutschland GmbH & Co. KG.",
+   "replacement": "Todas las autorizaciones están vigentes y el titular es Abbvie Deutschland GmbH & Co. KG.",
+   "summary": "«Ambas» → todas",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "新增 1171213001IP（MAVIRET 平行輸入），共 3 張，持有人同",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（scripts/add_current_licenses.py 依原收集規則補收 CIMA 現行清單後，逐句對照證據包全部紀錄與快照事實層）"
+  },
+  {
+   "id": "es-lic-20261125-haloperidol-1",
+   "drug": "haloperidol",
+   "file": "haloperidol.md",
+   "action": "correct",
+   "claim": "Las cinco autorizaciones son de medicamentos de un solo principio activo y están vigentes.",
+   "replacement": "Todas las autorizaciones son de medicamentos de un solo principio activo y están vigentes.",
+   "summary": "«Las cinco» → todas",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "新增 91657 HALOPERIDOL LAINCO 2 MG/ML GOTAS（單方，Autorizada no comercializada），共 6 張",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（scripts/add_current_licenses.py 依原收集規則補收 CIMA 現行清單後，逐句對照證據包全部紀錄與快照事實層）"
+  },
+  {
+   "id": "es-lic-20261125-ipilimumab-1",
+   "drug": "ipilimumab",
+   "file": "ipilimumab.md",
+   "action": "correct",
+   "claim": "Las tres autorizaciones están vigentes y corresponden a medicamentos de un único principio activo.",
+   "replacement": "Todas las autorizaciones están vigentes y corresponden a medicamentos de un único principio activo.",
+   "summary": "«Las tres» → todas",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "新增 2 張 YERVOY 平行輸入，共 5 張",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（scripts/add_current_licenses.py 依原收集規則補收 CIMA 現行清單後，逐句對照證據包全部紀錄與快照事實層）"
+  },
+  {
+   "id": "es-lic-20261125-lomitapide-1",
+   "drug": "lomitapide",
+   "file": "lomitapide.md",
+   "action": "correct",
+   "claim": "Las tres autorizaciones están vigentes y son de principio activo único.",
+   "replacement": "Todas las autorizaciones están vigentes y son de principio activo único.",
+   "summary": "«Las tres» → todas",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "新增 113851007 LOJUXTA 2 MG，共 4 張",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（scripts/add_current_licenses.py 依原收集規則補收 CIMA 現行清單後，逐句對照證據包全部紀錄與快照事實層）"
+  },
+  {
+   "id": "es-lic-20261125-modafinil-1",
+   "drug": "modafinil",
+   "file": "modafinil.md",
+   "action": "correct",
+   "claim": "Hay 7 autorizaciones registradas, de las cuales 6 están vigentes y 1 cancelada.",
+   "replacement": "Hay autorizaciones comercializadas, otras autorizadas sin comercializar y una revocada.",
+   "summary": "Número de autorizaciones eliminado (la suma ya no cuadraba)",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "新增 91292 MODAFINILO FORZA（Autorizada no comercializada）；共 8 張＝comercializadas 6、no comercializada 1、Revocada 1（72187）；原句 7 張，程式改寫只會改總數，6+1≠8",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（scripts/add_current_licenses.py 依原收集規則補收 CIMA 現行清單後，逐句對照證據包全部紀錄與快照事實層）"
+  },
+  {
+   "id": "es-lic-20261125-ofatumumab-1",
+   "drug": "ofatumumab",
+   "file": "ofatumumab.md",
+   "action": "correct",
+   "claim": "La autorización corresponde a un único principio activo (titular: Novartis Europharm Limited) y figura como vigente.",
+   "replacement": "Las autorizaciones corresponden a un único principio activo (titular: Novartis Europharm Limited) y figuran como vigentes.",
+   "summary": "Singular → plural (se añade una importación paralela)",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "新增 121532003IP（KESIMPTA 平行輸入，Autorizada no comercializada），共 2 張，都是預充筆",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（scripts/add_current_licenses.py 依原收集規則補收 CIMA 現行清單後，逐句對照證據包全部紀錄與快照事實層）"
+  },
+  {
+   "id": "es-lic-20261125-ofatumumab-2",
+   "drug": "ofatumumab",
+   "file": "ofatumumab.md",
+   "action": "correct",
+   "claim": "dado que la autorización local es una pluma precargada y los ensayos usaron infusión.",
+   "replacement": "dado que las autorizaciones locales son plumas precargadas y los ensayos usaron infusión.",
+   "summary": "Singular → plural",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "待辦條目只改單複數，建議不動",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（scripts/add_current_licenses.py 依原收集規則補收 CIMA 現行清單後，逐句對照證據包全部紀錄與快照事實層）"
+  },
+  {
+   "id": "es-lic-20261125-paclitaxel-1",
+   "drug": "paclitaxel",
+   "file": "paclitaxel.md",
+   "action": "correct",
+   "claim": "Existen 12 autorizaciones vigentes (todas de medicamentos con un solo principio activo).",
+   "replacement": "Existen autorizaciones vigentes, todas de medicamentos con un solo principio activo.",
+   "summary": "Número de autorizaciones eliminado (ya no coincidía)",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "新增 PAXFYDOS、VELQUIRA（單方，Autorizada no comercializada）；共 14 張（comercializadas 11、no comercializadas 3），count_prose 判斷不了（ambiguous）",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（scripts/add_current_licenses.py 依原收集規則補收 CIMA 現行清單後，逐句對照證據包全部紀錄與快照事實層）"
+  },
+  {
+   "id": "es-lic-20261125-polatuzumab_vedotin-1",
+   "drug": "polatuzumab_vedotin",
+   "file": "polatuzumab_vedotin.md",
+   "action": "correct",
+   "claim": "Ambas autorizaciones están vigentes.",
+   "replacement": "Todas las autorizaciones están vigentes.",
+   "summary": "«Ambas» → todas",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "新增 2 張 POLIVY 平行輸入，共 4 張",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（scripts/add_current_licenses.py 依原收集規則補收 CIMA 現行清單後，逐句對照證據包全部紀錄與快照事實層）"
+  },
+  {
+   "id": "es-lic-20261125-prucalopride-1",
+   "drug": "prucalopride",
+   "file": "prucalopride.md",
+   "action": "correct",
+   "claim": "Ambas autorizaciones están vigentes y corresponden al titular Takeda Pharmaceuticals International AG, sucursal de Irlanda.",
+   "replacement": "Todas las autorizaciones están vigentes; los titulares son Takeda Pharmaceuticals International AG, sucursal de Irlanda, y Tarbis Farma S.L. (genéricos).",
+   "summary": "«Ambas … titular Takeda» → todas; se añade Tarbis Farma",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "新增 91611、91612 PRUCALOPRIDA TARBIS（Tarbis Farma S.L.），共 4 張",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（scripts/add_current_licenses.py 依原收集規則補收 CIMA 現行清單後，逐句對照證據包全部紀錄與快照事實層）"
+  },
+  {
+   "id": "es-lic-20261125-ramucirumab-1",
+   "drug": "ramucirumab",
+   "file": "ramucirumab.md",
+   "action": "correct",
+   "claim": "Las cuatro autorizaciones están vigentes (todas de tipo monofármaco).",
+   "replacement": "Todas las autorizaciones están vigentes y son de monofármaco.",
+   "summary": "«Las cuatro» → todas",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "新增 2 張 CYRAMZA 平行輸入，共 6 張",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（scripts/add_current_licenses.py 依原收集規則補收 CIMA 現行清單後，逐句對照證據包全部紀錄與快照事實層）"
+  },
+  {
+   "id": "es-lic-20261125-siponimod-1",
+   "drug": "siponimod",
+   "file": "siponimod.md",
+   "action": "correct",
+   "claim": "Titular de las tres autorizaciones: Novartis Europharm Limited.",
+   "replacement": "Titular de todas las autorizaciones: Novartis Europharm Limited.",
+   "summary": "«las tres» → todas",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "新增 1191414003IP（MAYZENT 平行輸入），共 4 張，持有人同",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（scripts/add_current_licenses.py 依原收集規則補收 CIMA 現行清單後，逐句對照證據包全部紀錄與快照事實層）"
+  },
+  {
+   "id": "es-lic-20261125-tipiracil-1",
+   "drug": "tipiracil",
+   "file": "tipiracil.md",
+   "action": "correct",
+   "claim": "todas las autorizaciones corresponden a la combinación trifluridina/tipiracilo (Lonsurf),",
+   "replacement": "todas las autorizaciones corresponden a la combinación trifluridina/tipiracilo (Lonsurf y genéricos),",
+   "summary": "«(Lonsurf)» → Lonsurf y genéricos",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+   "finding": "新增 91317、91318 TRIFLURIDINA/TIPIRACILO EUGIA（學名藥）",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪人工查核（scripts/add_current_licenses.py 依原收集規則補收 CIMA 現行清單後，逐句對照證據包全部紀錄與快照事實層）"
   }
  ]
 }

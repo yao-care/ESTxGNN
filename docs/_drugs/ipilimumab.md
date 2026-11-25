@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 429
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Ipilimumab: nueva indicación predicha, Coroideremia (nivel de evidencia L5). Indicación original: Melanoma metastásico"
 monitor_inn: "IPILIMUMAB"
 predicted_indications: ["choroideremia"]
@@ -52,8 +52,8 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Nueva Indicación Predicha | Coroideremia |
 | Puntaje de Predicción TxGNN | 0.9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 3; autorizadas no comercializadas: 1) |
-| Número de Autorizaciones | 3 (comercializadas: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 5; autorizadas no comercializadas: 3) |
+| Número de Autorizaciones | 5 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -89,12 +89,20 @@ Actualmente no hay literatura relacionada disponible.
 | 11698001 | YERVOY 5 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Bristol-Myers Squibb Pharma Eeig | Comercializada |
 | 11698002 | YERVOY 5 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Bristol-Myers Squibb Pharma Eeig | Comercializada |
 | 11698001IP | YERVOY 5 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Bristol-Myers Squibb Pharma Eeig | Autorizada, no comercializada |
+| 11698001IP1 | YERVOY 5 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Bristol-Myers Squibb Pharma Eeig | Autorizada, no comercializada |
+| 11698002IP | YERVOY 5 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Bristol-Myers Squibb Pharma Eeig | Autorizada, no comercializada |
 
-Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
-Las tres autorizaciones están vigentes y corresponden a medicamentos de un único principio activo. Los datos compilados no incluyen el texto de la indicación aprobada para estas autorizaciones.
+Todas las autorizaciones están vigentes y corresponden a medicamentos de un único principio activo. Los datos compilados no incluyen el texto de la indicación aprobada para estas autorizaciones.
+
+<!-- review:begin es-lic-20261125-ipilimumab-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Las tres autorizaciones están vigentes y corresponden a medicamentos de un único principio activo." Corregido: desde el 2026-11-25 se incorporan a los datos las autorizaciones de CIMA (AEMPS) posteriores a marzo de 2026 (incluidas importaciones paralelas) con el mismo criterio de recogida; la frase ya no coincidía con ellas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261125-ipilimumab-1 -->
 
 ---
 
@@ -140,11 +148,12 @@ La predicción para coroideremia carece de ensayos clínicos y de literatura, y 
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-20 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Yervoy (ipilimumab) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2265ef30-253e-11df-8a39-0800200c9a66) |
+| 2026-11-25 | «Las tres» → todas | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 

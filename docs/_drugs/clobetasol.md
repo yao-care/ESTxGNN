@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 192
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Clobetasol: nueva indicación predicha, Linfoma cutáneo primario de células T (nivel de evidencia L3). Indicación original: No disponible en los datos de autorización compilados (los textos de…"
 monitor_inn: "CLOBETASOL"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -50,8 +50,8 @@ con **0 ensayos clínicos registrados** y **15 publicaciones** (casi todas infor
 | Nueva Indicación Predicha | Linfoma cutáneo primario de células T |
 | Puntaje de Predicción TxGNN | 0,9951 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 7) |
-| Número de Autorizaciones | 7 (comercializadas: 7) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 8; autorizadas no comercializadas: 1) |
+| Número de Autorizaciones | 8 (comercializadas: 7) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -94,8 +94,9 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 90724 | ELEUS 0,5 MG/ML COLIRIO EN EMULSION EN ENVASE UNIDOSIS | Colirio en emulsion en envase unidosis | Laboratorios Salvat S.A. | Comercializada |
 | 66071 | CLARELUX 500 microgramos/g ESPUMA CUTANEA EN ENVASE A PRESION. | ESPUMA CUTÁNEA | Pierre Fabre Iberica S.A. | Comercializada |
 | 68316 | CLOBEX 500 microgramos/g CHAMPU | CHAMPÚ | Laboratorios Galderma S.A. | Comercializada |
+| 91493 | CLYSOB 0,5 MG/ML COLIRIO EN EMULSION EN ENVASE UNIDOSIS | Colirio en emulsion en envase unidosis | Laboratorios Salvat S.A. | Autorizada, no comercializada |
 
-Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

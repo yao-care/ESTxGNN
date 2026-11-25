@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 475
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "lisdexamfetamine"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "autosomal dominant cerebellar ataxia", "cerebellar ataxia", "spinocerebellar degeneration with slow eye movements", "trichotillomania", "transient tic disorder", "narcolepsy"]
-description: "Lisdexamfetamine: nueva indicación predicha, Trastorno específico del desarrollo (specific developmental disorder) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 19 (comercializadas: 6; autorizadas no comercializadas: 10)"
+description: "Lisdexamfetamine: nueva indicación predicha, Trastorno específico del desarrollo (specific developmental disorder) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
 # Lisdexamfetamine
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno específico de
 | Nueva Indicación Predicha | Trastorno específico del desarrollo (specific developmental disorder) |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 19; autorizadas no comercializadas: 10; revocadas o suspendidas: 3) |
-| Número de Autorizaciones | 19 (comercializadas: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 6; autorizadas no comercializadas: 11; revocadas o suspendidas: 3) |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -95,7 +95,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 89633 | MANOLLIA 10 MG/ML SOLUCION ORAL | SOLUCIÓN ORAL | Aristo Pharma Gmbh | Autorizada, no comercializada |
 | 88772 | MANOLLIA 50 MG CAPSULAS DURAS EFG | CÁPSULA DURA | Aristo Pharma Gmbh | Autorizada, no comercializada |
 
-Se muestran 10 de 19 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
 
 <!-- licenses:end -->
 

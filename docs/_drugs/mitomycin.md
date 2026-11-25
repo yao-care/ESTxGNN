@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 535
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "mitomycin"
 predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "mixed ductal-endocrine carcinoma of pancreas", "undifferentiated pancreatic carcinoma", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
 description: "Mitomycin: nueva indicación predicha, Carcinoma pseudopapilar sólido de páncreas (solid pseudopapillary carcinoma of pancreas) (nivel de evidencia L5)."
@@ -50,8 +50,8 @@ Actualmente no hay **ningún ensayo clínico ni publicación** que respalde esta
 | Nueva Indicación Predicha | Carcinoma pseudopapilar sólido de páncreas (solid pseudopapillary carcinoma of pancreas) |
 | Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 11; autorizadas no comercializadas: 6; revocadas o suspendidas: 3) |
-| Número de Autorizaciones | 11 (comercializadas: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 13; autorizadas no comercializadas: 8; revocadas o suspendidas: 3) |
+| Número de Autorizaciones | 13 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -86,10 +86,10 @@ La mitomicina figura como **comercializada** en España, con 2 autorizaciones vi
 | 81599 | MITOMICINA MEDAC 2 MG POLVO PARA SOLUCION INTRAVESICAL Y PARA SOLUCION INYECTABLE EFG | Polvo para solución intravesical y para solución inyectable | Medac Gesellschaft Für Klinische Spezialpräparate Gmbh | Autorizada, no comercializada |
 | 80511 | MITOMICINA ACCORD 10 MG POLVO PARA SOLUCION INTRAVESICAL Y PARA SOLUCION INYECTABLE EFG | Polvo para solución intravesical y para solución inyectable | Accord Healthcare S.L.U. | Autorizada, no comercializada |
 | 81600 | MITOMICINA MEDAC 10 MG POLVO PARA SOLUCION INTRAVESICAL Y PARA SOLUCION INYECTABLE EFG | Polvo para solución intravesical y para solución inyectable | Medac Gesellschaft Für Klinische Spezialpräparate Gmbh | Autorizada, no comercializada |
-| 82767 | MITOMYCIN-C 40 MG POLVO Y DISOLVENTE PARA SOLUCION INTRAVESICAL | POLVO Y DISOLVENTE PARA SUSPENSION INTRAVESICAL | Inibsa Hospital, S.L.U. | Revocada |
-| 57084 | MITOMYCIN-C 10 mg POLVO PARA SOLUCION INYECTABLE | POLVO PARA SOLUCIÓN INYECTABLE | Inibsa Hospital, S.L.U. | Revocada |
+| 91453 | MITOMICINA AUROVITAS 20 MG POLVO PARA SOLUCION INTRAVESICAL Y PARA SOLUCION INYECTABLE Y PARA INFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Eugia Pharma (Malta) Limited | Autorizada, no comercializada |
+| 91454 | MITOMICINA AUROVITAS 40 MG POLVO PARA SOLUCION INTRAVESICAL Y PARA SOLUCION INYECTABLE Y PARA INFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Eugia Pharma (Malta) Limited | Autorizada, no comercializada |
 
-Se muestran 10 de 11 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

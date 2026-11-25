@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 566
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Nilotinib: nueva indicación predicha, Dermatofibrosarcoma protuberans (nivel de evidencia L5). Indicación original: Leucemia mieloide crónica, BCR-ABL1 positivo"
 monitor_inn: "NILOTINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
@@ -50,8 +50,8 @@ pero actualmente solo cuenta con **1 publicación** (una revisión) y **ningún 
 | Nueva Indicación Predicha | Dermatofibrosarcoma protuberans |
 | Puntaje de Predicción TxGNN | 0.9931 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 11 de 12; autorizadas no comercializadas: 1) |
-| Número de Autorizaciones | 12 (comercializadas: 11) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 11 de 19; autorizadas no comercializadas: 8) |
+| Número de Autorizaciones | 19 (comercializadas: 11) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -89,7 +89,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 07422006 | TASIGNA 150 MG CAPSULAS DURAS | CÁPSULA DURA | Novartis Europharm Limited | Comercializada |
 | 07422003 | TASIGNA 200 MG CAPSULAS DURAS | CÁPSULA DURA | Novartis Europharm Limited | Comercializada |
 
-Se muestran 10 de 12 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 19 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 386
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Grazoprevir: nueva indicación predicha, Infección por VIH (nivel de evidencia L1). Indicación original: Infección crónica por el virus de la hepatitis C (el texto de indicac…"
 monitor_inn: "grazoprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -52,8 +52,8 @@ Se trata, por tanto, de una señal del modelo más que de un reposicionamiento r
 | Nueva Indicación Predicha | Infección por VIH |
 | Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L1 según el recuento formal de ensayos de Fase 3 (ver nota abajo); en la práctica, evidencia nula para eficacia anti-VIH |
-| Estado de Mercado en España | Autorizado pero no comercializado (registros: 1) |
-| Número de Autorizaciones | 1 (comercializadas: 0) |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 2) |
+| Número de Autorizaciones | 2 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 > **Nota sobre el nivel de evidencia:** existen varios ECA de Fase 3 completados, pero todos tienen como criterio de valoración la respuesta virológica frente al VHC. Por ello, el nivel L1 sobrestima el respaldo real para la indicación de VIH.
@@ -115,8 +115,9 @@ La literatura se centra en el VHC y en las interacciones con antirretrovirales; 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
 |---------|------|------|------|------|
 | 1161119001 | ZEPATIER 50MG/100MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Merck Sharp & Dohme B.V. | Autorizada, no comercializada |
+| 1161119001IP | ZEPATIER 50MG/100MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Merck Sharp & Dohme B.V. | Autorizada, no comercializada |
 
-Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 581
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
-description: "Octreotide: nueva indicación predicha, Queratosis folicular invertida vulvar (vulvar inverted follicular keratosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 16 (comercializadas: 9; autorizadas no comercializadas: 3)"
+description: "Octreotide: nueva indicación predicha, Queratosis folicular invertida vulvar (vulvar inverted follicular keratosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 19 (comercializadas: 9; autorizadas no comercializadas: 6)"
 ---
 
 # Octreotide
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Queratosis folicular invertida vulvar (vulvar inverted follicular keratosis) |
 | Puntaje de Predicción TxGNN | 0.9958 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 9 de 16; autorizadas no comercializadas: 3; revocadas o suspendidas: 4) |
-| Número de Autorizaciones | 16 (comercializadas: 9) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 9 de 19; autorizadas no comercializadas: 6; revocadas o suspendidas: 4) |
+| Número de Autorizaciones | 19 (comercializadas: 9) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -95,7 +95,7 @@ Los textos de indicación aprobada no están disponibles en los datos compilados
 | 59559 | SANDOSTATIN 100 microgramos/ml SOLUCION INYECTABLE Y PARA PERFUSION | SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Novartis Farmaceutica S.A. | Comercializada |
 | 84222 | OCTREOTIDA TEVA 10 MG POLVO Y DISOLVENTE PARA SUSPENSION INYECTABLE DE LIBERACION PROLONGADA EFG | POLVO Y DISOLVENTE PARA SUSPENSIÓN INYECTABLE | Teva B.V. | Autorizada, no comercializada |
 
-Se muestran 10 de 16 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 19 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 589
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
-description: "Omalizumab: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 7; autorizadas no comercializadas: 1)"
+description: "Omalizumab: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 8; autorizadas no comercializadas: 1)"
 ---
 
 # Omalizumab
@@ -50,8 +50,8 @@ pero los datos compilados para este informe solo incluyen **2 ensayos clínicos*
 | Nueva Indicación Predicha | Bronquitis (bronchitis) |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 8; autorizadas no comercializadas: 1) |
-| Número de Autorizaciones | 8 (comercializadas: 7) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 9; autorizadas no comercializadas: 1) |
+| Número de Autorizaciones | 9 (comercializadas: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -94,9 +94,10 @@ El puntaje del modelo es muy alto (1,0000), pero es una predicción computaciona
 | 1241817006 | OMLYCLO 150 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Celltrion Healthcare Hungary Kft. | Comercializada |
 | 1241817014 | OMLYCLO 300 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE | Celltrion Healthcare Hungary Kft. | Comercializada |
 | 1241817005 | OMLYCLO 75 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Celltrion Healthcare Hungary Kft. | Comercializada |
+| 1241817018 | OMLYCLO 300 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Celltrion Healthcare Hungary Kft. | Comercializada |
 | 05319002 | XOLAIR 150 mg POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Novartis Europharm Limited | Autorizada, no comercializada |
 
-Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

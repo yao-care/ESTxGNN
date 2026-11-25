@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 503
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
-description: "Melphalan: nueva indicación predicha, Female breast carcinoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 8 (comercializadas: 4; autorizadas no comercializadas: 2)"
+description: "Melphalan: nueva indicación predicha, Female breast carcinoma (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 4; autorizadas no comercializadas: 3)"
 ---
 
 # Melphalan
@@ -50,8 +50,8 @@ con **7 ensayos clínicos** (de relevancia variable, la mayoría en fase tempran
 | Nueva Indicación Predicha | Female breast carcinoma |
 | Puntaje de Predicción TxGNN | 0.9967 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 8; autorizadas no comercializadas: 2; revocadas o suspendidas: 2) |
-| Número de Autorizaciones | 8 (comercializadas: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 9; autorizadas no comercializadas: 3; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 9 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -92,10 +92,11 @@ Cabe señalar que el efecto individual del melfalán no puede aislarse en la may
 | 83765 | ALKERAN 2 MG COMPRIMIDOS RECUBIERTOS CON PELICULA | COMPRIMIDO RECUBIERTO CON PELÍCULA | Aspen Pharma Trading Limited | Comercializada |
 | 88763 | MELFALAN HIKMA 50 MG POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN EFG | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Hikma Farmaceutica (Portugal) S.A. | Autorizada, no comercializada |
 | 83766 | ALKERAN 50 MG POLVO Y DISOLVENTE PARA SOLUCION PARA PERFUSION | POLVO Y DISOLVENTE PARA SOLUCIÓN PARA PERFUSIÓN | Aspen Pharma Trading Limited | Autorizada, no comercializada |
+| 5773569IP | MELFALAN ZENTIVA 50 MG POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Zentiva K.S. | Autorizada, no comercializada |
 | 41137 | MELFALAN ASPEN 2 mg | COMPRIMIDO | Aspen Pharma Trading Limited | Revocada |
 | 85961 | MELFALAN MEDAC 50 MG POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Medac Gesellschaft Für Klinische Spezialpräparate Gmbh | Revocada |
 
-Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

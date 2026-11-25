@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 389
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "GUSELKUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "renal osteodystrophy", "congenital hypotrichosis with juvenile macular dystrophy", "primary release disorder of platelets", "Glanzmann thrombasthenia", "non-renal secondary hyperparathyroidism"]
-description: "Guselkumab: nueva indicación predicha, Osteoporosis inducida por fármacos (drug-induced osteoporosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 5)"
+description: "Guselkumab: nueva indicación predicha, Osteoporosis inducida por fármacos (drug-induced osteoporosis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 6 (comercializadas: 6)"
 ---
 
 # Guselkumab
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para la **osteoporosis inducida
 | Nueva Indicación Predicha | Osteoporosis inducida por fármacos (drug-induced osteoporosis) |
 | Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 5) |
-| Número de Autorizaciones | 5 (comercializadas: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 6) |
+| Número de Autorizaciones | 6 (comercializadas: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -90,8 +90,9 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 | 1171234002 | TREMFYA 100 MG ONEPRESS SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Janssen-Cilag International N.V | Comercializada |
 | 1171234012 | TREMFYA 45 MG/0,45 ML SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Janssen-Cilag International N.V | Comercializada |
 | 1171234005 | TREMFYA 200 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Janssen-Cilag International N.V | Comercializada |
+| 1171234010 | TREMFYA 100 MG PUSHPEN SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE | Janssen-Cilag International N.V | Comercializada |
 
-Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 6 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 216
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "dalbavancin"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "otitis externa", "ophthalmic herpes zoster", "infectious mononucleosis", "orbital cellulitis"]
-description: "Dalbavancin: nueva indicación predicha, Postinfectious vasculitis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 7 (comercializadas: 5; autorizadas no comercializadas: 2)"
+description: "Dalbavancin: nueva indicación predicha, Postinfectious vasculitis (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 9 (comercializadas: 6; autorizadas no comercializadas: 3)"
 ---
 
 # Dalbavancin
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **vasculitis postinfeccios
 | Nueva Indicación Predicha | Postinfectious vasculitis |
 | Puntaje de Predicción TxGNN | 0.9976 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 7; autorizadas no comercializadas: 2) |
-| Número de Autorizaciones | 7 (comercializadas: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 9; autorizadas no comercializadas: 3) |
+| Número de Autorizaciones | 9 (comercializadas: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -80,10 +80,12 @@ Actualmente no hay literatura relacionada disponible.
 | 90493 | DALBAVANCINA ADVANZ PHARMA 500 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Advanz Pharma Limited | Comercializada |
 | 114986001 | XYDALBA 500 MG DE POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
 | 89545 | DALBAVANCINA SALA 500 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Laboratorio Reig Jofre, S.A. | Comercializada |
+| 91307 | DALBAVANCINA DR. REDDYS 500 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Reddy Pharma Iberia S.A. | Comercializada |
 | 90291 | DALBAVANCINA BAXTER 500 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Baxter Holding B.V. | Autorizada, no comercializada |
 | 89988 | DALBAVANCINA TEVA 500 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Teva B.V. | Autorizada, no comercializada |
+| 91467 | DALBAVANCINA TILLOMED 500 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Tillomed Malta Limited | Autorizada, no comercializada |
 
-Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 9 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

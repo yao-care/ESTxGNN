@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Folic Acid: nueva indicación predicha, Enfermedad metabólica de la biotina (nivel de evidencia L5). Indicación original: Deficiencia de vitaminas / anemia por deficiencia de ácido fólico (se…"
 monitor_inn: "Folic acid"
 predicted_indications: ["biotin metabolic disease"]
@@ -50,8 +50,8 @@ pero no hay **ningún ensayo clínico** y solo existen **19 publicaciones** de c
 | Nueva Indicación Predicha | Enfermedad metabólica de la biotina |
 | Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 7; revocadas o suspendidas: 2) |
-| Número de Autorizaciones | 7 (comercializadas: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 8; autorizadas no comercializadas: 1; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 8 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -100,10 +100,11 @@ Las publicaciones disponibles son principalmente revisiones generales sobre vita
 | 11265 | ACFOL 5 mg COMPRIMIDOS | COMPRIMIDO | Italfarmaco S.A. | Comercializada |
 | 52788 | ACIDO FÓLICO ASPOL 10MG CÁPSULAS DURAS | CÁPSULA DURA | Interpharma S.A. | Comercializada |
 | 84087 | ACIDO FOLICO QUALIGEN 5 MG COMPRIMIDOS | COMPRIMIDO | Neuraxpharm Spain S.L. | Comercializada |
+| 91613 | ACIDO FOLICO AUROVITAS 5 MG COMPRIMIDOS | COMPRIMIDO | Aurovitas Spain, S.A.U. | Autorizada, no comercializada |
 | 68965 | BIALFOLI 5 mg COMPRIMIDOS | COMPRIMIDO | Laboratorios Bial S.A. | Suspendida |
 | 86401 | ACIDO FOLICO LORIEN 5 MG COMPRIMIDOS | COMPRIMIDO | Laboratorios Lorien S.L. | Revocada |
 
-Se muestran las 7 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 8 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

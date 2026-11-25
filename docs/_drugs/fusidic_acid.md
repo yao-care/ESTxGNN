@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 366
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "fusidic acid"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
-description: "Fusidic Acid: nueva indicación predicha, Queratitis por exposición (exposure keratitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 13 (comercializadas: 9; autorizadas no comercializadas: 2)"
+description: "Fusidic Acid: nueva indicación predicha, Queratitis por exposición (exposure keratitis) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 14 (comercializadas: 9; autorizadas no comercializadas: 3)"
 ---
 
 # Fusidic Acid
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **queratitis por exposici�
 | Nueva Indicación Predicha | Queratitis por exposición (exposure keratitis) |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 9 de 13; autorizadas no comercializadas: 2; revocadas o suspendidas: 2) |
-| Número de Autorizaciones | 13 (comercializadas: 9) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 9 de 14; autorizadas no comercializadas: 3; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 14 (comercializadas: 9) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -98,7 +98,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 83985 | FUSICUTANBETA 20 MG/G + 1 MG/G CREMA | CREMA | Mibe Pharma España S.L.U. | Comercializada |
 | 90887 | CORTIFUSIN 20 MG/G + 1 MG/G CREMA | CREMA | Laboratoires Bailleul S.A. | Autorizada, no comercializada |
 
-Se muestran 10 de 13 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 14 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

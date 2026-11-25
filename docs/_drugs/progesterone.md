@@ -5,10 +5,10 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 667
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Progesterone"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-description: "Progesterone: nueva indicación predicha, Enfermedad fibroquística de la mama (breast fibrocystic disease) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: 20 (comercializadas: 15; autorizadas no comercializadas: 4)"
+description: "Progesterone: nueva indicación predicha, Enfermedad fibroquística de la mama (breast fibrocystic disease) (nivel de evidencia L4). En España, autorizaciones de la AEMPS: al menos 20"
 ---
 
 # Progesterone
@@ -50,8 +50,8 @@ pero hasta ahora **no hay ensayos clínicos** y la literatura disponible (**20 p
 | Nueva Indicación Predicha | Enfermedad fibroquística de la mama (breast fibrocystic disease) |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 15 de 20; autorizadas no comercializadas: 4; revocadas o suspendidas: 1) |
-| Número de Autorizaciones | 20 (comercializadas: 15) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 15; autorizadas no comercializadas: 4; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -98,7 +98,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 5352265IP1 | PROGEFFIK 200 MG CAPSULAS BLANDAS | CÁPSULA BLANDA | Laboratorios Effik Sociedade Unipessoal Lda. | Comercializada |
 | 88928 | UTROGESTAN 300 MG CAPSULAS VAGINALES BLANDAS | CÁPSULA VAGINAL BLANDA | Besins Healthcare Ireland Limited | Comercializada |
 
-Se muestran 10 de 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de al menos 20 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas. Los datos de este informe solo incluyen parte de las autorizaciones.
 
 <!-- licenses:end -->
 

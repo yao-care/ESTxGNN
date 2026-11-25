@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 215
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Dacarbazine"
 predicted_indications: ["upper aerodigestive tract neoplasm"]
-description: "Dacarbazine: nueva indicación predicha, Neoplasia del tracto aerodigestivo superior (upper aerodigestive tract neoplasm) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 2)"
+description: "Dacarbazine: nueva indicación predicha, Neoplasia del tracto aerodigestivo superior (upper aerodigestive tract neoplasm) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 5 (comercializadas: 2; autorizadas no comercializadas: 3)"
 ---
 
 # Dacarbazine
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia del tracto aer
 | Nueva Indicación Predicha | Neoplasia del tracto aerodigestivo superior (upper aerodigestive tract neoplasm) |
 | Puntaje de Predicción TxGNN | 0.9926 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 2) |
-| Número de Autorizaciones | 2 (comercializadas: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 5; autorizadas no comercializadas: 3) |
+| Número de Autorizaciones | 5 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -90,8 +90,11 @@ Se muestran las publicaciones más relevantes (los tipos de estudio provienen de
 |---------|------|------|------|------|
 | 62334 | DACARBAZINA MEDAC 1000 mg POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Medac Gesellschaft Für Klinische Spezialpräparate Gmbh | Comercializada |
 | 62333 | DACARBAZINA MEDAC 500 mg POLVO PARA SOLUCION PARA PERFUSION | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Medac Gesellschaft Für Klinische Spezialpräparate Gmbh | Comercializada |
+| 91433 | DACARBAZINA ACCORD 1 000 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Autorizada, no comercializada |
+| 91434 | DACARBAZINA ACCORD 200 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Accord Healthcare S.L.U. | Autorizada, no comercializada |
+| 91435 | DACARBAZINA ACCORD 500 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG | POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Autorizada, no comercializada |
 
-Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

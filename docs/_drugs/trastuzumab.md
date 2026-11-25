@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 815
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
-description: "Trastuzumab: nueva indicación predicha, Malignant cutaneous granular cell skin tumor (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 17 (comercializadas: 17)"
+description: "Trastuzumab: nueva indicación predicha, Malignant cutaneous granular cell skin tumor (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 18 (comercializadas: 17; autorizadas no comercializadas: 1)"
 ---
 
 # Trastuzumab
@@ -51,8 +51,8 @@ Cabe aclarar que se trata de una estratificación por subtipo dentro de una indi
 | Nueva Indicación Predicha | Malignant cutaneous granular cell skin tumor |
 | Puntaje de Predicción TxGNN | 0.9948 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 17 de 17) |
-| Número de Autorizaciones | 17 (comercializadas: 17) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 17 de 18; autorizadas no comercializadas: 1) |
+| Número de Autorizaciones | 18 (comercializadas: 17) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -118,7 +118,7 @@ Por tanto, esta predicción se solapa con la indicación ya aprobada: es una est
 | 1181341002 | OGIVRI 420 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Biosimilar Collaborations Ireland Limited | Comercializada |
 | 1201456003 | ZERCEPAC 420 mg POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Accord Healthcare S.L.U. | Comercializada |
 
-Se muestran 10 de 17 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 18 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

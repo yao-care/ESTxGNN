@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 580
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "OCRELIZUMAB"
 predicted_indications: ["HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
-description: "Ocrelizumab: nueva indicación predicha, Carcinoma de mama HER2 positivo (HER2 positive breast carcinoma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 1 (comercializadas: 1)"
+description: "Ocrelizumab: nueva indicación predicha, Carcinoma de mama HER2 positivo (HER2 positive breast carcinoma) (nivel de evidencia L5). En España, autorizaciones de la AEMPS: 2 (comercializadas: 1; autorizadas no comercializadas: 1)"
 ---
 
 # Ocrelizumab
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para el **carcinoma de mama HER
 | Nueva Indicación Predicha | Carcinoma de mama HER2 positivo (HER2 positive breast carcinoma) |
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 1) |
-| Número de Autorizaciones | 1 (comercializadas: 1) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 2; autorizadas no comercializadas: 1) |
+| Número de Autorizaciones | 2 (comercializadas: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -78,8 +78,9 @@ Para la cuarta predicción (tumor de mama luminal A o B) se recuperaron 18 publi
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular | Estado |
 |---------|------|------|------|------|
 | 1171231001 | OCREVUS 300 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Roche Registration Gmbh | Comercializada |
+| 1171231003 | OCREVUS 920 MG SOLUCION INYECTABLE | SOLUCIÓN INYECTABLE | Roche Registration Gmbh | Autorizada, no comercializada |
 
-Se muestra la única autorización con este principio activo en los datos de CIMA (AEMPS).
+Se muestran las 2 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

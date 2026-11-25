@@ -5,10 +5,10 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 801
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
-description: "Tocilizumab: nueva indicación predicha, Espondilitis anquilosante (ankylosing spondylitis) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 11 (comercializadas: 10; autorizadas no comercializadas: 1)"
+description: "Tocilizumab: nueva indicación predicha, Espondilitis anquilosante (ankylosing spondylitis) (nivel de evidencia L3). En España, autorizaciones de la AEMPS: 14 (comercializadas: 10; autorizadas no comercializadas: 4)"
 ---
 
 # Tocilizumab
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **espondilitis anquilosant
 | Nueva Indicación Predicha | Espondilitis anquilosante (ankylosing spondylitis) |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 10 de 11; autorizadas no comercializadas: 1) |
-| Número de Autorizaciones | 11 (comercializadas: 10) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 10 de 14; autorizadas no comercializadas: 4) |
+| Número de Autorizaciones | 14 (comercializadas: 10) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -102,7 +102,7 @@ Sin embargo, existe un matiz importante: dos ensayos de Fase 3 controlados con p
 | 108492007 | ROACTEMRA 162 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA | SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Roche Registration Gmbh | Comercializada |
 | 108492009 | ROACTEMRA 162 MG SOLUCION INYECTABLE EN PLUMA PRECARGADA | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Roche Registration Gmbh | Comercializada |
 
-Se muestran 10 de 11 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran 10 de 14 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 

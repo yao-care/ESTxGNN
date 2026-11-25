@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 834
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "UPADACITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 description: "Upadacitinib: nueva indicación predicha, Síndrome de microftalmia colobomatosa con displasia rizomélica (colobomatous microphthalmia-rhizomelic dysplasia syndro… (nivel de evidencia L5). Indicación o…"
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Síndrome de microftalmia colobomatosa con displasia rizomélica (colobomatous microphthalmia-rhizomelic dysplasia syndrome) |
 | Puntaje de Predicción TxGNN | 0.9961 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 3) |
-| Número de Autorizaciones | 3 (comercializadas: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 5; autorizadas no comercializadas: 2) |
+| Número de Autorizaciones | 5 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -79,8 +79,10 @@ Actualmente no hay literatura relacionada disponible.
 | 1191404001 | RINVOQ 15 MG COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
 | 1191404010 | RINVOQ 45 MG COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
 | 1191404006 | RINVOQ 30 MG COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Abbvie Deutschland Gmbh & Co. Kg | Comercializada |
+| 1191404006IP | RINVOQ 30 MG COMPRIMIDOS DE LIBERACION PROLONGADA | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Abbvie Deutschland Gmbh & Co. Kg | Autorizada, no comercializada |
+| 1191404012 | RINVOQ 1MG/ML SOLUCION ORAL | SOLUCIÓN ORAL | Abbvie Deutschland Gmbh & Co. Kg | Autorizada, no comercializada |
 
-Se muestran las 3 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
+Se muestran las 5 autorizaciones con este principio activo en los datos de CIMA (AEMPS); primero las comercializadas.
 
 <!-- licenses:end -->
 
